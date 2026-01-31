@@ -11,6 +11,8 @@ const CareerVisualMessageBlock = () => {
     <section className="w-full flex flex-col items-center justify-center py-16 ">
       <div className="max-w-6xl text-center font-semibold leading-tight border border-red">
 
+
+
         {/* Line 1 */}
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 text-[64px]">
           <span className='text-career-gradient'>Calling</span>
