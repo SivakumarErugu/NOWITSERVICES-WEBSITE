@@ -1,4 +1,4 @@
-
+import { CiSearch } from "react-icons/ci";
 
 export const ThemeBtnTag = ({
   BtnText,
@@ -56,7 +56,7 @@ export const ThemeBottomBorder = ({ width = "70%", bottom = "1px", left = "0px" 
       style={{
         width: width,
         left: left,
-         bottom: `-${bottom}`,
+        bottom: `-${bottom}`,
         background:
           "linear-gradient(90deg, rgba(10,102,194,0) 0%, #0A66C2 70%, #0A66C2 100%)",
         borderTopRightRadius: "999px",
@@ -80,5 +80,48 @@ export const ThemeBottomBorder2 = ({ width = "70%", bottom = "1px", left = "0px"
         borderBottomRightRadius: "999px",
       }}
     />
+  );
+};
+
+
+export const ThemeHeaderSideLine = ({ width = "60px", bottom = "0px", left = "0px" }) => {
+  return (
+    <span
+      className="h-1 inline-block relative"
+      style={{
+        width: width,
+        left: left,
+        bottom: bottom,
+        // 180deg makes the gradient go from the top edge to the bottom edge
+        background: "linear-gradient(180deg, #87CE6D 0%, #174F88 100%)",
+        borderTopLeftRadius: "999px",
+        borderBottomLeftRadius: "999px",
+      }}
+    />
+  );
+};
+
+export const SearchInput = ({
+  value,
+  onChange,
+  placeholder = "Search...",
+  styles = ""
+}) => {
+  return (
+    <div className="relative flex items-center w-fit">
+      <input
+        type="search"
+        value={value}
+        onChange={onChange}
+        placeholder={placeholder}
+        className={`
+          w-80 h-10 pl-4 pr-4 rounded-lg border-2 border-gray-300
+          text-[#252525] placeholder:text-gray-400
+          focus:outline-none focus:ring-1 focus:ring-blue-200
+          transition-all duration-200
+          ${styles}
+        `}
+      />
+    </div>
   );
 };
