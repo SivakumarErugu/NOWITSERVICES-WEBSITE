@@ -26,6 +26,10 @@ body {
   font-family:var(--font-inter), Arial, Helvetica, sans-serif;
 }
 
+.ibmPlex-text {
+  font-family: var(--font-ibm-plex-sans), sans-serif;
+  letter-spacing: 0;
+}
 
 .inter-text {
   font-family: var(--font-inter), sans-serif;

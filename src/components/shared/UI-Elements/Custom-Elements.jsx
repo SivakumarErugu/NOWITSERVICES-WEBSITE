@@ -48,6 +48,54 @@ export const ThemeBtnTag = ({
   </button>
 );
 
+export const ThemeBtnTag2 = ({
+  BtnText,
+  children,
+  type = "button",
+  styles = "",
+  loading = false,
+  disabled = false,
+  onClick
+}) => (
+  <button
+    disabled={loading || disabled}
+    type={type}
+    onClick={onClick}
+    className={`
+      relative overflow-hidden
+      h-9 min-w-20 px-6 rounded-lg border font-semibold
+      inline-flex justify-center items-center
+      bg-[#55B233] text-white
+      group
+      ${loading || disabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}
+      ${styles}
+    `}
+  >
+    {/* Gradient curtain */}
+    <span
+      className="
+        absolute inset-0
+        bg-[#0D5293]
+        transform scale-x-0 origin-left
+        transition-transform duration-1000 ease-in-out
+        group-hover:scale-x-100
+      "
+    />
+
+    {/* Content */}
+    <span className="relative z-10 flex items-center">
+      {loading ? (
+        <div className="animate-spin w-5 h-5 border-2 border-t-white border-white/40 rounded-full"></div>
+      ) : (
+        <>
+          {children && <span className="mr-1">{children}</span>}
+          <span>{BtnText}</span>
+        </>
+      )}
+    </span>
+  </button>
+);
+
 
 export const ThemeBottomBorder = ({ width = "70%", bottom = "1px", left = "0px" }) => {
   return (
