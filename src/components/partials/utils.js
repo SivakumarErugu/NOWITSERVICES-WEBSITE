@@ -24,7 +24,7 @@ export const headerOptions = [
         ]
     },
     { name: 'products', label: 'Products', link: '/', icon: '', options: [] },
-    { name: 'blog', label: 'Blog', link: '/', icon: '', options: [] },
+    { name: 'blog', label: 'Blog', link: '/blog', icon: '', options: [] },
     { name: 'careers', label: 'Careers', link: '/careers', icon: '', options: [] },
 ]
 

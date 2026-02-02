@@ -13,7 +13,7 @@ const Page = async ({ params }) => {
   }
 
   return (
-    <div className="w-full flex flex-col px-20">
+    <div className="w-full flex flex-col px-20 py-4">
       <JobDetailView job={job} />
     </div>
   );

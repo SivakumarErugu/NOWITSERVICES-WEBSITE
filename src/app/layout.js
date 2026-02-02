@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Inter, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import Layout from "@/components/Layout";
 import NowitContextProvider from "@/store/NowitContext";
+import { Toaster } from 'sonner'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
       >
         <NowitContextProvider>
           <Layout> {children} </Layout>
+          <Toaster position="bottom-left" closeButton />
         </NowitContextProvider>
       </body>
     </html>

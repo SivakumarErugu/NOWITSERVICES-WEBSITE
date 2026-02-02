@@ -11,7 +11,7 @@ import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
 const CareerVisualMessageBlock = () => {
   return (
     <section className="w-1/2 flex flex-col items-center justify-center py-16 ">
-      <div className="max-w-6xl text-center font-semibold leading-tight ">
+      <div className="max-w-6xl text-center ibmPlex-text font-semibold leading-tight ">
         {/* Line 1 */}
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 text-[64px]">
           <span className="text-career-gradient">Calling</span>
