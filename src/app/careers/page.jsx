@@ -3,10 +3,12 @@ import Image from 'next/image';
 import careersBg from '../../../public/images/careersBg.jpg';
 import { RxSewingPinFilled } from "react-icons/rx";
 import CareerVisualMessageBlock from '@/components/careers/CareerVisualMessageBlock';
+import JoinusBanner from '@/components/careers/JoinusBanner';
+import Opportunities from '@/components/careers/Opportunities';
 
 const Page = () => {
     return (
-        <main className="relative w-full">
+        <main className="relative w-full bg-white">
             <div className="relative h-[90vh] w-full overflow-hidden rounded-b-[50%_100px] md:rounded-b-[50%_200px]">
                 <Image
                     src={careersBg}
@@ -30,8 +32,15 @@ const Page = () => {
                 </div>
             </div>
 
-            <section className='mt-40 w-1/2 flex justify-center items-center border border-black'>
+            <section className='mt-40 w-full flex justify-center items-center'>
                 <CareerVisualMessageBlock />
+            </section>
+
+            <section>
+                <JoinusBanner />
+            </section>
+            <section>
+                <Opportunities />
             </section>
         </main>
     );
