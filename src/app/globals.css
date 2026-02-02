@@ -41,5 +41,18 @@ body {
 }
 
 
+.scroll-invisible {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.scroll-invisible::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.scroll-invisible {
+  scrollbar-width: none; /* Firefox */
+}
 
 
