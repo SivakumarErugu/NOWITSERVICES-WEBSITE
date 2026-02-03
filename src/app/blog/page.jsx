@@ -3,11 +3,13 @@ import Image from 'next/image';
 import blogbg from '../../../public/images/blog/blogbg.jpg'
 import { RxSewingPinFilled } from 'react-icons/rx';
 import BlogHeader from '@/components/blogs/BlogHeader';
+import TopArticles from '@/components/blogs/TopArticles';
+import LatestBlogs from '@/components/blogs/LatestBlogs';
 
 const Page = () => {
-    
+
     return (
-        <div className='w-full px-5 py-5 space-y-5 '>
+        <div className='w-full px-15 py-5 space-y-5 '>
             {/* banner section */}
             <section className='w-full h-120 relative rounded-lg overflow-hidden'>
                 <Image src={blogbg} alt="Blog Background" className="w-full h-full object-cover rounded-l" />
@@ -26,9 +28,14 @@ const Page = () => {
                 </div>
             </section>
 
-            <section >
-                <BlogHeader />
+            <section>
+                <TopArticles />
             </section>
+
+            <section>
+                <LatestBlogs />
+            </section>
+
 
         </div>
     )
