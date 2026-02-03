@@ -14,7 +14,7 @@ const PartnerBanner = () => {
         <section
             className="
         relative w-full overflow-hidden
-        px-8 py-14 md:px-18 md:py-16
+        px-8 py-14 md:px-18 2xl:px-30 md:py-16
         flex flex-col items-center text-center
         lg:flex-row lg:items-center lg:justify-between lg:text-left mb-15 
       "
@@ -39,7 +39,7 @@ const PartnerBanner = () => {
             />
 
             {/* CONTENT */}
-            <div className="relative z-10 max-w-2xl ">
+            <div className="relative z-10  ">
                 {/* MOBILE + MD */}
                 <h2 className="text-2xl md:text-4xl font-semibold text-[#111] leading-snug lg:hidden">
                     Grow Together <br />

@@ -63,7 +63,7 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
-/* @keyframes infinity-float {
+@keyframes infinity-float {
   0%, 100% {
     transform: translateY(0) scale(1);
   }
@@ -73,7 +73,7 @@ body {
 }
 
 .animate-infinity {
-  animation: infinity-float 100s ease-in-out infinite;
-} */
+  animation: infinity-float 2s ease-in-out infinite;
+}
 
 
