@@ -8,6 +8,10 @@ import { LiaHeadsetSolid } from "react-icons/lia";
 import { TbDatabaseImport } from "react-icons/tb";
 import { MdOutlineModelTraining } from "react-icons/md";
 import { RiLightbulbFlashFill } from "react-icons/ri";
+import { LuMessageCircleMore } from "react-icons/lu";
+import { BsGlobe2 } from "react-icons/bs";
+
+
 
 export const headerOptions = [
     { name: 'home', label: 'Home', link: '/', icon: '', options: [] },
@@ -19,11 +23,11 @@ export const headerOptions = [
             { name: 'migration', label: 'Migration', link: '/', icon: <TbDatabaseImport /> },
             { name: 'training services', label: 'Training Services', link: '/', icon: <MdOutlineModelTraining /> },
             { name: 'smart marketing', label: 'Smart Marketing', link: '/', icon: <RiLightbulbFlashFill /> },
-            { name: 'messaging services', label: 'Messaging Services', link: '/', icon: <LuBriefcaseBusiness /> },
-            { name: 'ip filing services', label: 'IP Filing Services', link: '/', icon: <LuBriefcaseBusiness /> },
+            { name: 'messaging services', label: 'Messaging Services', link: '/', icon: <LuMessageCircleMore  /> },
+            { name: 'ip filing services', label: 'IP Filing Services', link: '/', icon: <BsGlobe2   /> },
         ]
     },
-    { name: 'products', label: 'Products', link: '/', icon: '', options: [] },
+    { name: 'products', label: 'Products', link: '/products', icon: '', options: [] },
     { name: 'blog', label: 'Blog', link: '/', icon: '', options: [] },
     { name: 'careers', label: 'Careers', link: '/careers', icon: '', options: [] },
 ]
