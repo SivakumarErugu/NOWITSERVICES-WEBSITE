@@ -3,8 +3,8 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { ThemeBtnTag2 } from "../../shared/UI-Elements/Custom-Elements";
 import ResumeUpload from "../../shared/UI-Elements/ResumeUpload";
+import { toast } from 'sonner'
 
 /* -------------------- Validation Schema -------------------- */
 const ApplicationSchema = Yup.object({
@@ -24,7 +24,6 @@ const ApplicationSchema = Yup.object({
     skills: Yup.string().required("Skills are required"),
     certifications: Yup.string(),
 
-    resume: Yup.mixed().required("Resume is required"),
     coverLetter: Yup.string().required("Cover letter is required"),
     resume: Yup.mixed()
         .required("Resume is required")
@@ -64,51 +63,96 @@ const initialValues = {
     certifications: "",
 
     resume: null,
-    coverLetter: "",
-    resume: null,
+    coverLetter: ""
 };
 
-export default function ApplicationForm() {
+
+
+export default function ApplicationForm({ id, sysRole }) {
+
+    const submitApplication = async (values) => {
+        try {
+            const formData = new FormData();
+
+            Object.entries(values).forEach(([key, value]) => {
+                formData.append(key, value);
+            });
+
+            formData.append("jobId", id);
+            formData.append("sysRole", sysRole);
+
+            const res = await fetch("/api/job-application", {
+                method: "POST",
+                body: formData,
+            });
+
+            const data = await res.json();
+
+            if (!res.ok) {
+                throw new Error(data.message || "Submission failed");
+            }
+
+            return data;
+        } catch (error) {
+            throw error;
+        }
+    }
+
     return (
         <Formik
             initialValues={initialValues}
             validationSchema={ApplicationSchema}
-            onSubmit={(values) => {
-                console.log("FORM DATA:", values);
+            onSubmit={async (values, { resetForm, setSubmitting }) => {
+                try {
+                    const res = await submitApplication(values);
+                    if (res?.success) {
+                        toast.success("Application submitted successfully!");
+                    }
+
+                    resetForm();
+                } catch (err) {
+                    toast.error(err.message || "Something went wrong");
+                } finally {
+                    setSubmitting(false);
+                }
             }}
+
         >
-            {({ setFieldValue, values }) => (
-                <Form className="max-w-5xl mx-auto bg-white p-8 rounded-lg border shadow border-gray-300 space-y-10">
+            {({ setFieldValue, values, isSubmitting }) => (
+                <Form className="max-w-full my-5 bg-white p-8 rounded-lg border border-gray-300 space-y-10">
 
                     {/* ================= PERSONAL INFORMATION ================= */}
                     <Section title="Personal Information">
                         <TwoCol>
-                            <Input name="firstName" label="First Name *" />
-                            <Input name="lastName" label="Last Name *" />
+                            <Input name="firstName" label="First Name *" placeholder="john" />
+                            <Input name="lastName" label="Last Name *" placeholder="john" />
                         </TwoCol>
 
                         <TwoCol>
-                            <Input name="email" label="Email Address *" />
-                            <Input name="phone" label="Phone Number *" />
+                            <Input name="email" label="Email Address *" placeholder="john@example.com" />
+                            <Input name="phone" label="Phone Number *" placeholder="+91 9876543210" />
                         </TwoCol>
 
 
                     </Section>
 
                     {/* ================= WORK EXPERIENCE ================= */}
-                    <div className="bg-gray-100 p-4 rounded-md">
+                    <div className="bg-blue-50 p-4 rounded-md">
                         <Section title="Work Experience">
-                            <Input name="companyName" label="Company Name *" />
-                            <Input name="role" label="Role / Position *" />
-
                             <TwoCol>
-                                <Input name="startDate" label="Start Date *" type="date" styles="uppercase" />
-                                <Input name="endDate" label="End Date" type="date" styles="uppercase" />
+
+                                <Input name="companyName" label="Company Name *" placeholder="e.g. Google, Microsoft" styles='bg-white' />
+                                <Input name="role" label="Role / Position *" placeholder="e.g. Software Engineer, Product Manager" styles='bg-white' />
                             </TwoCol>
 
                             <TwoCol>
-                                <Input name="currentPackage" label="Current Package *" />
-                                <Input name="expectedPackage" label="Expected Package *" />
+                                <Input name="startDate" label="Start Date *" type="date" styles="uppercase bg-white" />
+                                <Input name="endDate" label="End Date" type="date" styles="uppercase bg-white" />
+                            </TwoCol>
+
+                            <TwoCol>
+                                <Input name="currentPackage" label="Current Package *" placeholder="e.g. 10 LPA" styles='bg-white' />
+                                <Input name="expectedPackage" label="Expected Package *" placeholder="e.g. 15 LPA" styles='bg-white' />
                             </TwoCol>
                         </Section>
                     </div>
@@ -129,13 +173,13 @@ export default function ApplicationForm() {
 
                     {/* ================= RESUME UPLOAD ================= */}
                     <Section title="Resume">
-                        <TwoCol>
+                        {/* <TwoCol> */}
                             <ResumeUpload
                                 setFieldValue={setFieldValue}
                                 value={values.resume}
                             />
 
-                        </TwoCol>
+                        {/* </TwoCol> */}
                     </Section>
 
                     {/* ================= COVER LETTER ================= */}
@@ -150,14 +194,28 @@ export default function ApplicationForm() {
                     <div className="flex justify-end">
                         <button
                             type="submit"
-                            className="group relative overflow-hidden w-70 px-4 py-2 bg-[#55B233] text-white rounded-md flex items-center justify-center gap-x-2 cursor-pointer!"
+                            disabled={isSubmitting}
+                            className={`
+                            group relative overflow-hidden w-70 px-4 py-2
+                            text-white rounded-md flex items-center justify-center gap-x-2
+                            transition
+                            ${isSubmitting
+                                    ? "bg-[#55B233]/70 cursor-not-allowed"
+                                    : "bg-[#55B233] cursor-pointer"
+                                }
+                            `}
                         >
-                            <span className="absolute inset-0 bg-[#0D5293] scale-x-0 origin-left group-hover:scale-x-100 transition-transform"></span>
-                            <span className="relative flex items-center gap-x-1 ">
-                                Submit
+                            {/* Hover overlay — disabled while submitting */}
+                            {!isSubmitting && (
+                                <span className="absolute inset-0 bg-[#0D5293] scale-x-0 origin-left group-hover:scale-x-100 transition-transform"></span>
+                            )}
+
+                            <span className="relative flex items-center gap-x-1">
+                                {isSubmitting ? "Submitting..." : "Submit"}
                             </span>
                         </button>
                     </div>
+
                 </Form>
             )}
         </Formik>
@@ -189,7 +247,7 @@ function Input({ label, ...props }) {
             {label && <label className={`text-sm text-gray-400 font-medium `}>{label}</label>}
             <Field
                 {...props}
-                className={`w-full text-black border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-1 focus:ring-blue-200 ${props.styles || ''}`}
+                className={`w-full text-black border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-1 focus:ring-blue-200 ${props.styles || ''}`}
             />
             <ErrorMessage
                 name={props.name}
@@ -208,7 +266,7 @@ function Textarea({ label, ...props }) {
                 as="textarea"
                 rows="4"
                 {...props}
-                className="w-full text-black border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full text-black border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <ErrorMessage
                 name={props.name}

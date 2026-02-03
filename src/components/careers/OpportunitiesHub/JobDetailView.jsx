@@ -1,6 +1,7 @@
 import { ThemeHeaderSideLine, ThemeBtnTag2 } from '@/components/shared/UI-Elements/Custom-Elements';
 import React from 'react';
 import ApplicationForm from './ApplicationForm';
+import { MdEmail } from "react-icons/md";
 
 const JobDetailView = ({ job }) => {
     if (!job) return null;
@@ -11,7 +12,7 @@ const JobDetailView = ({ job }) => {
             {/* ================= HEADER ================= */}
             <header className="max-w-full">
                 <div className="flex items-center gap-x-1 mt-12 mb-6">
-                    <h2 className="text-xl font-bold text-[#252525] break-words">
+                    <h2 className="text-xl font-bold text-[#252525] wrap-break-word">
                         Current Openings
                     </h2>
                     <ThemeHeaderSideLine width="60px" />
@@ -19,17 +20,17 @@ const JobDetailView = ({ job }) => {
 
                 <div className="space-y-3 max-w-full">
                     {/* Job Title */}
-                    <h1 className="text-3xl font-semibold text-black break-words whitespace-normal">
+                    <h1 className="text-3xl font-semibold text-black wrap-break-word whitespace-normal">
                         {job.role}
                     </h1>
 
                     {/* Meta line */}
-                    <p className="text-gray-400 text-sm break-words whitespace-normal">
+                    <p className="text-gray-400 text-sm wrap-break-word whitespace-normal">
                         {job.detailedRole} · {job.type} · {job.experience}
                     </p>
 
                     {/* ID / Location / Skills */}
-                    <p className="text-gray-400 text-sm break-words whitespace-normal">
+                    <p className="text-gray-400 text-sm wrap-break-word whitespace-normal">
                         <span className="font-medium text-gray-500">Job ID:</span>{' '}
                         <span className="break-all">{job.id}</span>
                         <span className="mx-1">|</span>
@@ -38,16 +39,19 @@ const JobDetailView = ({ job }) => {
                         {job.skills.join(', ')}
                     </p>
 
-                    <ThemeBtnTag2
-                        BtnText="Apply For This Job"
-                        styles="text-sm w-60"
-                    />
+                    <a href='#jobApplicationForm' className='text-sm group relative overflow-hidden w-50 h-9 px-4 bg-[#55B233] text-white rounded-md flex items-center justify-center gap-x-2 cursor-pointer!'>
+                        <span className="absolute inset-0 bg-[#0D5293] scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-600 ease-in-out"></span>
+                        <span className="relative flex items-center gap-x-1 ">
+                            Apply For This Job
+                        </span>
+                    </a>
+
                 </div>
             </header>
 
             {/* ================= DESCRIPTION ================= */}
             <section className="max-w-full">
-                <h3 className="text-lg text-[#04192D] font-semibold mb-3">
+                <h3 className="text-2xl text-[#04192D] font-semibold mb-3">
                     Job Description
                 </h3>
 
@@ -103,9 +107,42 @@ const JobDetailView = ({ job }) => {
             </section>
 
 
-            <div className=''>
+            <div className='' id='jobApplicationForm'>
                 <h5 className='text-[#04192D] font-bold text-xl'>Application Form</h5>
-                <ApplicationForm />
+                <ApplicationForm id={job.id} sysRole={job.role} />
+            </div>
+
+            <div className='flex items-center justify-center text-[#252525BD] '>
+                {/* blured mail icon */}
+                <span
+                    className="relative h-10 w-10 flex items-center justify-center cursor-pointer"
+                >
+                    {/* Diffused glow */}
+                    <span className="absolute inset-0 rounded-full bg-[#55B233] blur-md opacity-10"></span>
+
+                    {/* Softened circle */}
+                    <span className="absolute h-8 w-8 rounded-full bg-[#55B233] blur-[1px]"></span>
+
+                    {/* Icon */}
+                    <span className="relative z-10 text-white">
+                        <MdEmail />
+                    </span>
+                </span>
+
+                <div className="ml-2 flex items-center text-sm whitespace-nowrap">
+                    <a href="mailto:sales@nowitservices.com" className="hover:underline">
+                        Sales@nowitservices.com
+                    </a>
+                    <span className="mx-2">|</span>
+                    <a href="mailto:support@nowitservices.com" className="hover:underline">
+                        Support@nowitservices.com
+                    </a>
+                    <span className="mx-2">|</span>
+                    <a href="mailto:careers@nowitservices.com" className="hover:underline">
+                        Careers@nowitservices.com
+                    </a>
+                </div>
+
             </div>
 
 

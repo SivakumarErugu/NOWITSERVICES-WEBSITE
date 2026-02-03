@@ -9,6 +9,7 @@ import {
 import "./globals.css";
 import Layout from "@/components/Layout";
 import NowitContextProvider from "@/store/NowitContext";
+import { Toaster } from 'sonner'
 
 /* Geist Sans */
 const geistSans = Geist({
@@ -62,7 +63,8 @@ export default function RootLayout({ children }) {
         `}
       >
         <NowitContextProvider>
-          <Layout>{children}</Layout>
+          <Layout> {children} </Layout>
+          <Toaster position="bottom-left" closeButton />
         </NowitContextProvider>
       </body>
     </html>
