@@ -36,6 +36,11 @@ body {
   letter-spacing: 0;
 }
 
+.praise-text {
+   font-family: var(--font-praise), sans-serif;
+  letter-spacing: 0;
+}
+
 .text-career-gradient {
   display: inline-block;
   background: linear-gradient(180deg, #04192d 0%, #2766a1 100%);
@@ -58,7 +63,7 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
-/* @keyframes infinity-float {
+@keyframes infinity-float {
   0%, 100% {
     transform: translateY(0) scale(1);
   }
@@ -68,6 +73,7 @@ body {
 }
 
 .animate-infinity {
-  animation: infinity-float 100s ease-in-out infinite;
-} */
+  animation: infinity-float 2s ease-in-out infinite;
+}
+
 

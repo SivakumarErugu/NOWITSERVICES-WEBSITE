@@ -1,11 +1,14 @@
 'use client';
 
 import React from "react";
+import Image from "next/image";
+import Infinity from "../../../public/images/ProductImages/Infinity.png";
+
 
 const Products2 = () => {
   return (
-    <section className="w-full py-5 flex flex-col items-center text-center">
-      
+    <section className="w-full py-2 flex flex-col items-center text-center">
+
       {/* Heading */}
       <div className="px-5">
         <h2 className="text-xl md:text-3xl font-medium text-[#0b2b4b] ibmPlex-text">
@@ -20,15 +23,15 @@ const Products2 = () => {
       </div>
 
       {/* Infinity Image */}
-      <div className="mt-0 flex justify-center w-full">
+      <div className=" mt-4 lg:mt-10 flex justify-center w-full">
         <div className="relative">
-          
+
           {/* Animated Infinity */}
-          <img
-            src="https://res.cloudinary.com/dtb4vozhy/image/upload/v1770043421/ChatGPT_Image_Feb_2_2026_06_16_16_PM_kwgkoy.png"
+          <Image
+            src={Infinity}
             alt="Infinity Platform"
-            className="w-[320px] sm:w-[420px] md:w-[520px] lg:w-[620px]
-                       animate-infinity select-none"
+            className="w-100 sm:w-105 md:w-130 lg:w-160 2xl:w-250
+                       animate-infinity select-none "
             draggable={false}
           />
 
