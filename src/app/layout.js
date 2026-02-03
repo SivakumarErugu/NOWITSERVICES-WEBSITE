@@ -1,28 +1,46 @@
-import { Geist, Geist_Mono, Inter, IBM_Plex_Sans } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Inter,
+  IBM_Plex_Sans,
+  Praise,
+} from "next/font/google";
+
 import "./globals.css";
 import Layout from "@/components/Layout";
 import NowitContextProvider from "@/store/NowitContext";
 
+/* Geist Sans */
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
+/* Geist Mono */
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
+/* Inter */
 const inter = Inter({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-inter',
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-inter",
 });
 
+/* IBM Plex Sans (⚠️ key is `weight`, not `weights`) */
 const ibmPlex = IBM_Plex_Sans({
-  subsets: ['latin'],
-  weights: ['300', '400', '500', '600', '700'],
-  variable: '--font-ibm-plex-sans',
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-ibm-plex-sans",
+});
+
+/* Praise */
+const praise = Praise({
+  subsets: ["latin"],
+  weight: "400", // Praise supports only 400
+  variable: "--font-praise",
 });
 
 export const metadata = {
@@ -34,10 +52,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} ${ibmPlex.variable}  antialiased`}
+        className={`
+          ${inter.variable}
+          ${geistSans.variable}
+          ${geistMono.variable}
+          ${ibmPlex.variable}
+          ${praise.variable}
+          antialiased
+        `}
       >
         <NowitContextProvider>
-          <Layout> {children} </Layout>
+          <Layout>{children}</Layout>
         </NowitContextProvider>
       </body>
     </html>

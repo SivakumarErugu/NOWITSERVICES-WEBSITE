@@ -36,6 +36,11 @@ body {
   letter-spacing: 0;
 }
 
+.praise-text {
+   font-family: var(--font-praise), sans-serif;
+  letter-spacing: 0;
+}
+
 .text-career-gradient {
   display: inline-block;
   background: linear-gradient(180deg, #04192D 0%, #2766A1 100%);
@@ -58,5 +63,6 @@ body {
 .scroll-invisible {
   scrollbar-width: none; /* Firefox */
 }
+
 
 
