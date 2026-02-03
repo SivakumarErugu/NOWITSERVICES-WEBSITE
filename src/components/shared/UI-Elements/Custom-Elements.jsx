@@ -156,14 +156,21 @@ export const SearchInput = ({
   styles = ""
 }) => {
   return (
-    <div className="relative flex items-center w-fit">
+    <div className="relative w-fit">
+      {/* Search Icon */}
+      <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
+        <CiSearch size={25} />
+      </span>
+
+      {/* Input */}
       <input
         type="search"
         value={value}
         onChange={onChange}
         placeholder={placeholder}
         className={`
-          w-80 h-10 pl-4 pr-4 rounded-lg border-2 border-gray-300
+          w-80 h-10 pl-10 pr-4 rounded-lg
+          border-2 border-gray-300
           text-[#252525] placeholder:text-gray-400
           focus:outline-none focus:ring-1 focus:ring-blue-200
           transition-all duration-200
