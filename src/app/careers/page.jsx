@@ -8,7 +8,7 @@ import Opportunities from '@/components/careers/Opportunities';
 
 const Page = () => {
     return (
-        <main className="relative w-full bg-white">
+        <main className="relative w-full bg-white ">
             <div className="relative h-[90vh] w-full overflow-hidden rounded-b-[50%_100px] md:rounded-b-[50%_200px]">
                 <Image
                     src={careersBg}

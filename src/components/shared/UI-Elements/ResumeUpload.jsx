@@ -31,7 +31,7 @@ export default function ResumeUpload({ setFieldValue, value }) {
         cursor-pointer
         border-2 border-dashed
         rounded-lg
-        px-10 py-5 h-30
+        px-10 py-5 h-35
         flex flex-col justify-center 
         text-center
         transition
@@ -98,7 +98,7 @@ export default function ResumeUpload({ setFieldValue, value }) {
       <ErrorMessage
         name="resume"
         component="p"
-        className="text-red-500 text-sm mt-2"
+        className="text-red-500 text-xs mt-1"
       />
     </div>
   );
