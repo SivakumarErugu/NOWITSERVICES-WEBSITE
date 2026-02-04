@@ -2,25 +2,27 @@
 
 import { createContext, useState } from "react";
 
-
 const NowitContext = createContext();
 
 const NowitContextProvider = ({ children }) => {
-    const [activeTab, setActiveTab] = useState('home');
+  const [activeTab, setActiveTab] = useState('home');
 
+  // 👇 ADD THIS
+  const [activeService, setActiveService] = useState('business launch');
 
-    const value = {
+  return (
+    <NowitContext.Provider
+      value={{
         activeTab,
-        setActiveTab
-    }
-
-    return (
-        <NowitContext.Provider value={value}>
-            {children}
-        </NowitContext.Provider>
-    )
-
-}
+        setActiveTab,
+        activeService,
+        setActiveService
+      }}
+    >
+      {children}
+    </NowitContext.Provider>
+  );
+};
 
 export { NowitContext };
 export default NowitContextProvider;

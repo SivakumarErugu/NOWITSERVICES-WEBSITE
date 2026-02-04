@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Products1 from "../../components/Products/Products1"
 import Products2 from "../../components/Products/Products2"
 import Products3 from "../../components/Products/Products3"

@@ -71,7 +71,7 @@ const Products3 = () => {
                 {/* HEADER */}
                 <SlidingHeader title="Our Products" />
 
-                <h2 className="text-xl lg:text-4xl font-semibold text-[#0b2b4b] leading-tight max-w-3xl">
+                <h2 className="text-xl lg:text-4xl font-semibold text-[#0b2b4b] leading-relaxed max-w-3xl">
                     Products Built for Every Journey,{' '}
                     <span className="hidden lg:inline">
                         <br />
