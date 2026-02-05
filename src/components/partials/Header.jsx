@@ -13,6 +13,9 @@ import { useRouter } from "next/navigation";
 const Header = () => {
     const { activeTab, setActiveTab } = useContext(NowitContext);
 
+    const closeTimer = useRef(null)
+
+
     const [openMenu, setOpenMenu] = useState(null);      // desktop submenu
     const [arrowLeft, setArrowLeft] = useState(0);
     const [mobileOpen, setMobileOpen] = useState(false); // mobile drawer
@@ -108,20 +111,30 @@ const Header = () => {
                         const isOpen = openMenu === each.name;
 
                         return (
-                            <li key={i}>
+                            <li key={i}
+                                className="relative"
+                                onMouseEnter={() => hasOptions && setOpenMenu(each.name)}
+                            // onMouseLeave={() => {
+                            //     if (hasOptions) {
+                            //         closeTimer.current = setTimeout(() => {
+                            //             setOpenMenu(null)
+                            //         }, 5000) // 👈 delay close
+                            //     }
+                            // }}
+                            >
                                 <button
                                     ref={(el) => (navRefs.current[each.name] = el)}
                                     type="button"
                                     onClick={() => handleMenuClick(each)}
                                     className="relative inline-flex flex-col items-center text-black font-medium"
                                 >
-                                    <span className="flex items-center gap-1">
+                                    <span className="flex items-center gap-1 cursor-pointer">
                                         {each.label}
-                                        {hasOptions && (
+                                        {/* {hasOptions && (
                                             <IoIosArrowDown
                                                 className={`text-xs transition-transform ${isOpen ? "rotate-180" : ""}`}
                                             />
-                                        )}
+                                        )} */}
                                         {activeTab === each.name && (
                                             <ThemeBottomBorder width="80%" bottom="0px" left="0px" />
                                         )}
@@ -136,7 +149,7 @@ const Header = () => {
 
                 {/* DESKTOP CONTACT */}
                 <div className="hidden lg:block">
-                    <ThemeBtnTag styles="w-[150px] h-[32px]">
+                    <ThemeBtnTag styles="w-[150px] h-[32px] !font-medium !rounded-md">
                         Contact Us
                     </ThemeBtnTag>
                 </div>
@@ -234,7 +247,7 @@ const Header = () => {
                             </div>
                         ))}
 
-                        <ThemeBtnTag styles="w-full h-[40px] mt-6">
+                        <ThemeBtnTag styles="w-full h-[40px] mt-6 ">
                             Contact Us
                         </ThemeBtnTag>
                     </div>

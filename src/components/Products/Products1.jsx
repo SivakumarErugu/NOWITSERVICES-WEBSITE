@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -32,31 +32,26 @@ const Products1 = () => {
                 {/* TEXT */}
                 <div className="max-w-6xl mx-auto text-center">
                     <h2 className="text-xl md:text-3xl font-medium text-[#0b2b4b] leading-snug">
-                        Products for Every Stage of <br />
-                        <span className="text-[#1e6fd9]">Life and Business</span>
+                        We’re ONe. The Future Runs Here.
                     </h2>
 
                     <p className="mt-4 text-xs md:text-sm text-gray-600 max-w-3xl mx-auto inter-text">
-                        Our product ecosystem is designed to support individuals and enterprises
-                        through every phase of their journey. From personal growth to enterprise-scale
-                        operations, our products are built on a unified platform that adapts, scales,
-                        and evolves with your needs.
+                        Create and scale intelligent platforms with no code — start with
+                        launch-ready industry platforms or design a fully customized
+                        solution.
                     </p>
                 </div>
 
                 {/* INTERACTIVE VISUAL AREA */}
                 <div className="relative max-w-5xl mx-auto flex flex-col items-center">
-                 <div className="absolute top-5 z-20">
-  <button className="animate-slow-bounce bg-[#63b636] text-white px-8 py-1.5 lg:py-2.5 rounded-md text-sm font-medium shadow-lg hover:bg-[#529a2d] transition-transform">
-    Explore Now
-  </button>
-</div>
-
-
+                    <div className="absolute top-5 z-20">
+                        <button className="animate-slow-bounce bg-[#63b636] text-white px-8 py-1.5 lg:py-2.5 rounded-md text-sm font-medium shadow-lg hover:bg-[#529a2d] transition-transform">
+                            Explore Now
+                        </button>
+                    </div>
 
                     {/* PRODUCT CARDS — Mobile & Tablet */}
                     <div className="lg:hidden relative z-30 flex items-end justify-center gap-4 pt-20">
-
                         <Image
                             src={Product2}
                             alt="Product 2"
@@ -89,21 +84,18 @@ const Products1 = () => {
       shadow-md
     "
                         />
-
                     </div>
-
 
                     {/* PRODUCT CARDS — Desktop */}
                     <div className="hidden lg:flex relative z-30 items-end justify-center gap-6 pt-20">
-
                         <Image
                             src={Product1}
                             alt="Product 1"
                             className="
-      w-36 h-52
-      rounded-2xl object-cover
-      shadow-md
-    "
+                            w-36 h-52
+                            rounded-2xl object-cover
+                            shadow-md
+                            "
                         />
 
                         <Image
@@ -148,11 +140,7 @@ const Products1 = () => {
       shadow-md
     "
                         />
-
                     </div>
-
-
-
                 </div>
             </div>
         </section>
