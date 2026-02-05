@@ -3,7 +3,7 @@ import React from "react";
 
 const ServicesHero = () => {
     return (
-        <div className="relative h-[658px] p-6">
+        <div className="relative h-[658px] p-6 mb-3">
 
             {/* Inner container (respects padding) */}
             <div className="relative h-full w-full overflow-hidden rounded-lg">
@@ -19,32 +19,36 @@ const ServicesHero = () => {
                 <div className="absolute inset-0 bg-black opacity-[0.75]" />
 
                 {/* CONTENT GRID */}
-                <div className="relative z-10 grid grid-cols-3 h-full px-16 text-white">
+                <div className="relative z-10 grid grid-cols-3 h-full  text-white items-center justify-center">
 
                     {/* LEFT COLUMN */}
-                    <div className="flex flex-col justify-between py-16">
+                    <div className="flex flex-col justify-between py-16 px-10  h-[90%] pr-2">
                         <h2 className="text-[36px] font-medium ibm-text">
                             Smart Marketing
-                            Services
+                             Services
                         </h2>
 
-                        <span className="text-[72px] font-bold opacity-90">1</span>
+                        <span className="text-[72px] font-bold opacity-90 praise-text">1</span>
                     </div>
 
                     {/* CENTER COLUMN */}
                     <div className="flex items-center justify-center">
-                        {/* <Image
+                        <Image
                             src="https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
                             alt="marketing"
                             width={336}
                             height={383}
                             className="object-cover shadow-lg"
                             priority
-                        /> */}
+                        />
+                        {/* <img 
+                            src="https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+                            className='h-[383px] w-[336px]'
+                            /> */}
                     </div>
 
                     {/* RIGHT COLUMN */}
-                    <div className="flex flex-col justify-center pl-10">
+                    <div className="flex flex-col justify-center w-[400px] h-[50%] p-2 mt-40">
                         <p className="mb-6 text-[16px] leading-relaxed opacity-90">
                             Data-driven marketing solutions designed to improve reach and
                             engagement.
