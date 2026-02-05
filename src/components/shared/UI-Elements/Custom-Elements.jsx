@@ -1,4 +1,5 @@
 import { CiSearch } from "react-icons/ci";
+import SlidingHeader from "./SlidingHeader";
 
 export const ThemeBtnTag = ({
   BtnText,
@@ -180,3 +181,16 @@ export const SearchInput = ({
     </div>
   );
 };
+
+export const CustomHeading = ({ title = "", span = "", description = "jhhg" }) => {
+  return (
+    <div className='h-[111px] self-center'>
+      <div className="flex">
+      <h1 className="text-[48px] ibmPlex-text font-bold">{title} <span className="text-[48px] ibmPlex-text font-bold text-[#0A66C2]">{span}</span></h1>
+      <SlidingHeader />
+      </div>
+      <p className='ibm-text text-[20px] text-[#252525]'>{description}</p>
+    </div>
+  )
+}
+

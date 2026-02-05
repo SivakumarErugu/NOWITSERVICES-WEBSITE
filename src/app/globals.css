@@ -37,7 +37,7 @@ body {
 }
 
 .praise-text {
-   font-family: var(--font-praise), sans-serif;
+  font-family: var(--font-praise), sans-serif;
   letter-spacing: 0;
 }
 
@@ -60,20 +60,48 @@ body {
 }
 
 .scroll-invisible {
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-/* @keyframes infinity-float {
-  0%, 100% {
-    transform: translateY(0) scale(1);
+
+@layer utilities {
+
+  .clip-outer-left {
+    clip-path: polygon(0 0, 100% 12%, 100% 88%, 0 100%);
   }
-  50% {
-    transform: translateY(-10px) scale(1.02);
+
+  .clip-inner-left {
+    clip-path: polygon(0 12%, 100% 20%, 100% 80%, 0 88%);
+  }
+
+  .clip-inner-right {
+    clip-path: polygon(0 20%, 100% 12%, 100% 88%, 0 80%);
+  }
+
+  .clip-outer-right {
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
   }
 }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.perspective-container {
+  /* This creates the slanted 'row' effect */
+  transform: perspective(2000px) rotateX(2deg) rotateY(-5deg) rotateZ(1deg);
+  transform-style: preserve-3d;
+}
 
-.animate-infinity {
-  animation: infinity-float 100s ease-in-out infinite;
-} */
+.testimonial-card {
+  transform: skewY(-2deg);
+  transition: transform 0.3s ease;
+}
 
-
+.testimonial-card:hover {
+  transform: skewY(0deg) scale(1.05);
+  z-index: 10;
+}
