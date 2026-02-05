@@ -4,6 +4,7 @@ export const blogs = [
     {
         id: "1",
         top: '1',
+        tags:['AI','Cloud'],
         slug: "future-of-ai-and-cloud",
         title: "Exploring the Future of AI and Cloud",
         excerpt: "How AI and cloud computing are shaping modern enterprises.",
@@ -35,6 +36,7 @@ AI and cloud platforms are transforming enterprise infrastructure.
     {
         id: "2",
         top: '2',
+        tags:['Migration','Cloud'],
         slug: "why-cloud-migration-matters",
         title: "Why Cloud Migration Matters",
         excerpt: "Understanding the real impact of cloud migration.",
@@ -58,6 +60,7 @@ Cloud migration allows businesses to modernize IT systems.
     {
         id: "3",
         top: '3',
+        tags:['Cybersecurity','AI'],
         slug: "cybersecurity-in-ai-era",
         title: "Cybersecurity in the AI Era",
         excerpt: "How AI is reshaping digital security.",
@@ -76,6 +79,7 @@ AI enables real-time threat detection and response.
 
     {
         id: "4",
+        tags:['Architecture','Web Development'],
         slug: "scalable-web-architecture",
         title: "Building Scalable Web Architecture",
         excerpt: "Best practices for scalable web systems.",
@@ -94,6 +98,7 @@ AI enables real-time threat detection and response.
 
     {
         id: "5",
+        tags:['DevOps','AI'],
         slug: "future-of-devops",
         title: "The Future of DevOps",
         excerpt: "How DevOps is evolving with AI.",
@@ -154,3 +159,15 @@ The future of cloud computing is not just scalable — it’s intelligent.
 `
     }
 ]
+
+
+export const tagColors = [
+  "text-blue-600",
+  "text-green-600",
+  "text-purple-600",
+  "text-pink-600",
+  "text-indigo-600",
+  "text-red-600",
+  "text-yellow-600",
+  "text-teal-600",
+];

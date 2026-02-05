@@ -9,12 +9,15 @@ export default function BenefitItem({ title, children }) {
       />
 
       <div>
+        {/* Title is safe as <p> because it's plain text */}
         <p className="text-sm font-semibold text-[#0B0B0B]">
           {title}
         </p>
-        <p className="text-sm leading-6 text-[#4B5563] mt-1">
+
+        {/* MUST be div, not p */}
+        <div className="text-sm leading-6 text-[#4B5563] mt-1">
           {children}
-        </p>
+        </div>
       </div>
     </div>
   );

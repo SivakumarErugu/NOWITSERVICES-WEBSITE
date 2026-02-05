@@ -3,7 +3,7 @@ import { HiInformationCircle } from "react-icons/hi";
 export default function Callout({ children }) {
   return (
     <div
-      className="relative flex gap-4 rounded-xl border p-0"
+      className="relative flex gap-4 rounded-tr-xl rounded-br-xl p-1"
       style={{
         backgroundColor: "#EFF6FF",
         borderColor: "#DBEAFE",
@@ -12,7 +12,7 @@ export default function Callout({ children }) {
     >
       {/* Vertical blue line (REAL element, not absolute span) */}
       <div
-        className="shrink-0 rounded-full"
+        className="shrink-0"
         style={{
           width: "4px",
           backgroundColor: "#2563EB",
@@ -21,7 +21,7 @@ export default function Callout({ children }) {
 
       {/* Icon */}
       <HiInformationCircle
-        className="mt-0.5 shrink-0 text-lg"
+        className="mt-3 shrink-0 text-lg"
         style={{ color: "#2563EB" }}
       />
 
