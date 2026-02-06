@@ -14,9 +14,9 @@ const PartnerBanner = () => {
         <section
             className="
         relative w-full overflow-hidden
-        px-8 py-14 md:px-18 2xl:px-30 md:py-16
+        px-8 py-8 md:px-10 lg:px-18 2xl:px-30 md:py-16
         flex flex-col items-center text-center
-        lg:flex-row lg:items-center lg:justify-between lg:text-left mb-15 
+        md:flex-row md:items-center md:justify-between md:text-left mb-15
       "
         >
             {/* BACKGROUND IMAGE ONLY */}
@@ -41,13 +41,13 @@ const PartnerBanner = () => {
             {/* CONTENT */}
             <div className="relative z-10  ">
                 {/* MOBILE + MD */}
-                <h2 className="text-2xl md:text-4xl font-semibold text-[#111] leading-snug lg:hidden">
+                <h2 className="text-xl md:text-3xl font-semibold text-[#111] leading-snug md:hidden">
                     Grow Together <br />
                     Through Partnership
                 </h2>
 
                 {/* LG+ */}
-                <h2 className="hidden lg:block text-5xl font-medium text-[#111] leading-none ">
+                <h2 className="hidden md:block md:text-3xl lg:text-5xl font-medium text-[#111] leading-none ">
                     <span className="inline-flex items-center gap-3 mb-2">
                         Grow
                         <Image
@@ -56,8 +56,8 @@ const PartnerBanner = () => {
                             width={50}
                             height={30}
                             className="
-        rounded-full object-cover
-        h-12 w-40
+          rounded-full object-cover
+        md:h-9 md:w-32 lg:h-12 lg:w-40 
         align-middle
       "
                         />
@@ -66,15 +66,16 @@ const PartnerBanner = () => {
 
                     <br />
 
-                    <span className="inline-flex items-center gap-3 mt-2">
+                    <span className="inline-flex items-center gap-3 md:mt-1 lg:mt-2">
                         <Image
                             src={partnerBanner2}
                             alt="Through Partnership"
                             width={50}
                             height={40}
                             className="
-        rounded-full object-cover
-        h-12 w-28
+      rounded-full object-cover
+        md:h-9 md:w-24
+        lg:h-12 lg:w-40 
         align-middle
       "
                         />
@@ -82,13 +83,13 @@ const PartnerBanner = () => {
                     </span>
                 </h2>
 
-                <p className="mt-4 text-gray-700 text-xs lg:text-sm max-w-xl mx-auto lg:mx-0">
+                <p className="mt-4 text-gray-700 text-xs lg:text-sm mx-auto md:mx-0 md:pr-10">
                     Partner with NowIT Services to collaborate, innovate, and deliver
                     customized solutions.
                 </p>
 
                 {/* MOBILE + MD BUTTON */}
-                <div className="mt-8 lg:hidden flex justify-center">
+                <div className="mt-8 md:hidden flex justify-center">
                     <ThemeBtnTag
                         BtnText="Become a Partner"
                         styles="border-0 text-sm !font-normal !px-10 !rounded-md"
@@ -97,7 +98,7 @@ const PartnerBanner = () => {
             </div>
 
             {/* LG+ CTA */}
-            <div className="relative z-10 shrink-0 hidden lg:block">
+            <div className="relative z-10 shrink-0 hidden md:block">
                 <ThemeBtnTag
                     BtnText="Become a Partner"
                     styles="border-0 text-sm !font-normal !px-10 !rounded-md"

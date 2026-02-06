@@ -48,11 +48,11 @@ const BannerSection = () => {
                     className="max-w-5xl text-center px-6 mt-10"
 
                 >
-                    <h1 className="text-[40px]  font-semibold  leading-tight mb-4 ibmPlex-text">
+                    <h1 className="text-[40px]  font-semibold  leading-relaxed mb-4 ibmPlex-text">
                         Unleashing Business Potential Through
                     </h1>
 
-                    <h1 className="text-[44px] md:text-[56px] font-bold text-[#0b3154] leading-tight mb-4 ibmPlex-text">
+                    <h1 className="text-[44px] md:text-[56px] font-bold text-[#0b3154] leading-relaxed mb-4 ibmPlex-text">
                         Intelligent Digital Transformation
                     </h1>
 

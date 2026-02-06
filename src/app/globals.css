@@ -77,4 +77,15 @@ body {
   animation: infinity-float 100s ease-in-out infinite;
 } 
 
+@keyframes infinity-flow {
+  0% {
+    stroke-dashoffset: 1100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 
+.animate-infinity-flow {
+  animation: infinity-flow 4s linear infinite;
+}

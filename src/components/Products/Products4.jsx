@@ -26,7 +26,7 @@ const Products4 = () => {
                     <div className="order-2 lg:order-1">
                         <SlidingHeader title="Customize your Product" />
 
-                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#0b2b4b] leading-tight">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#0b2b4b] leading-relaxed">
                             Have an Idea?{' '}
                             <span className="text-[#0d63f3]">
                                 We Customize {" "}
