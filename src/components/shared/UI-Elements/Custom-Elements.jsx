@@ -29,7 +29,7 @@ export const ThemeBtnTag = ({
     <span
       className="
         absolute inset-0
-        bg-gradient-to-r from-[#0A66C2] to-[#05305C]
+        bg-linear-to-r from-[#0A66C2] to-[#05305C]
         transform scale-x-0 origin-left
         transition-transform duration-1000 ease-in-out
         group-hover:scale-x-100

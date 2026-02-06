@@ -1,8 +1,14 @@
 import SmartMarketing from "../../../public/images/ServicesImages/SmartMarketing.jpg";
 // import BusinessLaunch from "@/public/images/ServicesImages/BusinessLaunch.jpg";
+import Migration from "../../../public/images/ServicesImages/Migration.jpg";
+import Messaging from "../../../public/images/ServicesImages/Messaging.jpg";
+import Professional from "../../../public/images/ServicesImages/Professional.jpg";
 
 export const servicesData = {
     "smart marketing": {
+        title: "Smart Marketing",
+        description:
+            "Data-driven marketing solutions to grow visibility, leads, and revenue.",
         Services1: {
             headingSmall: "Marketing That",
             headingMain: "Thinks, Learns, and Performs",
@@ -51,6 +57,9 @@ export const servicesData = {
     },
 
     "business launch": {
+        title: "Business Launch",
+        description:
+            "End-to-end support to launch, structure, and scale your business with confidence.",
         Services1: {
             headingSmall: "Launch Your",
             headingMain: "Business with Confidence",
@@ -59,14 +68,20 @@ export const servicesData = {
     },
 
     "migration": {
+        title: "Migration",
+        description:
+            "Seamlessly move your applications, data, and workloads to the cloud with minimal disruption and maximum performance. This service focuses on ensuring a secure, structured, and future-ready transition while aligning with your business goals.",
         Services1: {
             headingSmall: "Seamless",
             headingMain: "Platform Migration",
-            image: SmartMarketing,
+            image: Migration,
         },
     },
 
     "training services": {
+        title: "Training Services",
+        description:
+            "Upskill your teams with industry-relevant training and hands-on guidance.",
         Services1: {
             headingSmall: "Upskill with",
             headingMain: "Professional Training",
@@ -75,22 +90,31 @@ export const servicesData = {
     },
 
     "professional services": {
+        title: "Professional Coaching Services",
+        description:
+            "Expert consulting and advisory services to optimize operations and strategy.",
         Services1: {
             headingSmall: "Expert",
             headingMain: "Professional Services",
-            image: SmartMarketing,
+            image: Professional,
         },
     },
 
     "messaging services": {
+        title: "Messaging & Communication Services",
+        description:
+            "Reliable and scalable communication solutions for customer engagement.",
         Services1: {
             headingSmall: "Powerful",
             headingMain: "Messaging Services",
-            image: SmartMarketing,
+            image: Messaging,
         },
     },
 
     "ip filing services": {
+        title: "IP Filing Services",
+        description:
+            "Protect your innovations with end-to-end intellectual property services.",
         Services1: {
             headingSmall: "Protect Your",
             headingMain: "Intellectual Property",

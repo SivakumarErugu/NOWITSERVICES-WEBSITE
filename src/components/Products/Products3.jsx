@@ -87,7 +87,7 @@ const Products3 = () => {
       overflow-x-auto
       whitespace-nowrap
       pb-2
-
+scrollbar-hide
       md:overflow-visible
       md:flex-wrap
     "

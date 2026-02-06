@@ -11,8 +11,8 @@ const Services2 = () => {
     if (!data) return null;
 
     return (
-        <section className="w-full bg-white py-5 lg:py-2 mb-15">
-            <div className=" mx-auto px-5 md:px-8 lg:px-25">
+        <section className="w-full bg-white py-5 lg:py-2   mb-4 lg:mb-15">
+            <div className=" mx-auto px-5 md:px-8 lg:px-15">
                 {/* HEADER */}
                 <SlidingHeader title="Service Overview" bottom="mb-2" top="mt-2 lg:mt-2" />
 
@@ -23,10 +23,10 @@ const Services2 = () => {
                     {/* LEFT – TEXT (STATIC) */}
                     <div className="flex flex-col justify-start">
 
-                        <h2 className="text-xl md:text-3xl lg:text-5xl font-bold text-gray-900 ibmPlex-text">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900 ibmPlex-text">
                             {data.heading}
                         </h2>
-                        <h3 className="text-xl md:text-3xl lg:text-5xl  font-bold text-[#0b5ed7] leading-relaxed ibmPlex-text">
+                        <h3 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#0b5ed7] leading-relaxed ibmPlex-text">
                             {data.highlight}
                         </h3>
 
@@ -57,7 +57,7 @@ const Services2 = () => {
                   ${item.bg}
                 `}
                             >
-                                <h4 className="text-md md:text-lg font-semibold text-gray-900 mb-2">
+                                <h4 className="text-sm md:text-md lg:text-lg font-semibold text-gray-900 mb-2">
                                     {item.title}
                                 </h4>
 

@@ -48,7 +48,7 @@ const BusinessBanner = () => {
                 </h2>
 
                 {/* LG+ */}
-                <h2 className="hidden md:block md:text-2xl lg:text-5xl font-medium text-white leading-none ">
+                <h2 className="hidden md:block md:text-2xl lg:text-4xl font-medium text-white leading-none ">
                     <span className="inline-flex items-center gap-3 mb-2">
                         Ready
                         <Image
