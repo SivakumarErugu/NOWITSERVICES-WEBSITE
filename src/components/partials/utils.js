@@ -15,7 +15,7 @@ import { BsGlobe2 } from "react-icons/bs";
 
 export const headerOptions = [
     { name: 'home', label: 'Home', link: '/', icon: '', options: [] },
-    { name: 'about us', label: 'About Us', link: '/', icon: '', options: [] },
+    { name: 'about us', label: 'About Us', link: '/aboutus', icon: '', options: [] },
     {
         name: 'services', label: 'Services', link: '/', icon: '', options: [
             { name: 'business launch', label: 'Business Launch', link: '/', icon: <LuBriefcaseBusiness /> },
@@ -41,7 +41,7 @@ export const socialMedia = [
 
 export const quickLinks = [
     { name: 'home', label: 'Home', link: '/', icon: '', },
-    { name: 'about us', label: 'About Us', link: '/', icon: '', },
+    { name: 'about us', label: 'About Us', link: '/aboutus', icon: '', },
     { name: 'services', label: 'Services', link: '/', icon: '', },
     { name: 'products', label: 'Products', link: '/', icon: '', },
     { name: 'industries', label: 'Industries', link: '/', icon: '', },

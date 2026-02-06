@@ -13,7 +13,7 @@ const TitleAndDescription = ({
                 height: `${height}px`,
                 // width: `${width}px`,
             }}
-            className="flex flex-col justify-center px-10 border-2"
+            className="flex flex-col justify-center px-10 "
         >
             {/* Heading */}
             <h1 className="ibm-text font-bold text-[#1F2937] text-[48px] leading-relaxed">

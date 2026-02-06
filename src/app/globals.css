@@ -37,7 +37,7 @@ body {
 }
 
 .praise-text {
-   font-family: var(--font-praise), sans-serif;
+  font-family: var(--font-praise), sans-serif;
   letter-spacing: 0;
 }
 
@@ -60,7 +60,8 @@ body {
 }
 
 .scroll-invisible {
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 @keyframes infinity-float {
@@ -73,8 +74,8 @@ body {
 }
 
 .animate-infinity {
-  animation: infinity-float 2s ease-in-out infinite;
-}
+  animation: infinity-float 100s ease-in-out infinite;
+} 
 
 @keyframes infinity-flow {
   0% {
