@@ -8,6 +8,25 @@ import { socialMedia } from "@/components/partials/utils";
 import SimilarBlogs from "@/components/blogs/slug/SimilarBlogs";
 import NewsletterCard from "@/components/blogs/slug/NewsLetterCard";
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+
+  const blog = blogs.find(b => b.slug === slug);
+
+  if (!blog) {
+    return {
+      title: "Blog Not Found | NowIt",
+    };
+  }
+
+  return {
+    title: `${blog.title} | NowIt`,
+    description: blog.excerpt,
+  };
+}
+
+
 
 export default async function BlogPage({ params }) {
     const { slug } = await params;

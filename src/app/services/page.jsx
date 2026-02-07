@@ -7,6 +7,10 @@ import Services4 from '@/components/Services/Services4';
 import Services5 from '@/components/Services/Services5';
 import BusinessBanner from '@/components/shared/UI-Elements/Business-Banner';
 
+export const metadata = {
+  title: "Service | NowIt"
+};
+
 
 const Page = () => {
     return (

@@ -12,6 +12,8 @@
     "@ai-sdk/google": "^1.0.14",
     "@ai-sdk/react": "^1.0.14",
     "ai": "^4.0.16",
+    "country-list": "^2.4.1",
+    "country-telephone-data": "^0.6.3",
     "formik": "^2.4.9",
     "framer-motion": "^12.30.0",
     "mongoose": "^9.1.6",
@@ -21,6 +23,7 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-icons": "^5.5.0",
+    "react-select": "^5.10.2",
     "sonner": "^2.0.7",
     "yup": "^1.7.1"
   },

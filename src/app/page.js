@@ -8,8 +8,11 @@ import EnterpriseProducts from "@/components/home/subcomponents/EnterpriseProduc
 import TrustedBannerSection from "@/components/home/subcomponents/TrustedBannerSection";
 import IndustryBtn from "@/components/home/subcomponents/IndustryBtn";
 import FaqSection from "@/components/home/subcomponents/FaqSection"; 
-import ChooseUs from "@/components/home/subcomponents/ChooseUs";
-import OurBrands from "@/components/home/subcomponents/OurBrands";
+
+export const metadata = {
+  title: "Home | NowIt"
+};
+
 export default function Home() {
   return (
     <main className="w-full min-h-screen overflow-auto">

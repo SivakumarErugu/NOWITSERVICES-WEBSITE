@@ -187,8 +187,8 @@ export const CustomHeading = ({ title = "", span = "", description = "jhhg" }) =
   return (
     <div className='h-[111px] self-center'>
       <div className="flex">
-      <h1 className="text-[48px] ibmPlex-text font-bold">{title} <span className="text-[48px] ibmPlex-text font-bold text-[#0A66C2]">{span}</span></h1>
-      <SlidingHeader />
+        <h1 className="text-[48px] ibmPlex-text font-bold">{title} <span className="text-[48px] ibmPlex-text font-bold text-[#0A66C2]">{span}</span></h1>
+        <SlidingHeader />
       </div>
       <p className='ibm-text text-[20px] text-[#252525]'>{description}</p>
     </div>
@@ -225,5 +225,37 @@ export const ReadBlogBtn = ({ href }) => {
         Read More <GoArrowUpRight />
       </span>
     </Link>
+  );
+};
+
+export const NextBtn = ({ label, onClickBtn = {} }) => {
+  return (
+    <button
+      type="button"
+      onClick={onClickBtn}
+      className="
+        relative overflow-hidden
+        h-10 min-w-20 px-6 rounded-lg border border-gray-400 
+        inline-flex justify-center items-center
+        bg-white text-[#252525DE]
+        group
+      "
+    >
+      {/* Gradient curtain */}
+      <span
+        className="
+          absolute inset-0
+          bg-[#55B233]
+          transform scale-x-0 origin-left
+          transition-transform duration-1000 ease-in-out
+          group-hover:scale-x-100
+        "
+      />
+
+      {/* Content */}
+      <span className="relative z-10 text-md inline-flex items-center gap-1 hover:scale-102">
+        {label} <GoArrowUpRight />
+      </span>
+    </button>
   );
 };

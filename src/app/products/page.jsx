@@ -5,6 +5,10 @@ import Products3 from "../../components/Products/Products3"
 import Products4 from "../../components/Products/Products4"
 import PartnerBanner from '@/components/shared/UI-Elements/Partner-Banner';
 
+export const metadata = {
+  title: "Products | NowIt"
+};
+
 const Page = () => {
     return (
         <main className="relative w-full bg-white">

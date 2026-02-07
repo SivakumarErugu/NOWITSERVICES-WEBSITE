@@ -13,10 +13,10 @@ import UK from '../../../public/images/Locations/UK.jpg'
 /* ---------------- REUSABLE LOCATION CARD ---------------- */
 const LocationCard = ({ image, title, address }) => {
     return (
-        <div className="flex items-center gap-4 border border-[#d1d5db] rounded-lg p-1  bg-white cursor-pointer">
+        <div className="flex items-center gap-4 border overflow-hidden border-[#d1d5db] rounded-lg p-0  bg-white cursor-pointer">
 
             {/* IMAGE */}
-            <div className="relative w-26 h-20 lg:w-36 lg:h-25 shrink-0 rounded-md overflow-hidden">
+            <div className="relative w-26 h-20 lg:w-43 lg:h-30 shrink-0 rounded-l-md overflow-hidden">
                 <Image
                     src={image}
                     alt={title}

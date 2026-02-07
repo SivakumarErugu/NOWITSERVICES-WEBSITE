@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import React, { useContext, useEffect, useRef, useState } from 'react'
-import { headerOptions } from "./utils"
+import React, { useEffect, useRef, useState, useTransition } from 'react';
+import { headerOptions } from "./utils";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import { ThemeBtnTag, ThemeBottomBorder } from '../shared/UI-Elements/Custom-Elements';
@@ -11,22 +11,40 @@ import Image from 'next/image';
 import { useRouter } from "next/navigation";
 
 const Header = () => {
-    const { activeTab, setActiveTab, setActiveService } = useNowit();
+    const {
+        activeTab,
+        setActiveTab,
+        setActiveService,
+        mounted,
+    } = useNowit();
 
-    const closeTimer = useRef(null)
+    const router = useRouter();
+    const [isPending, startTransition] = useTransition();
 
-
-    const [openMenu, setOpenMenu] = useState(null);      // desktop submenu
+    const closeTimer = useRef(null);
+    const [openMenu, setOpenMenu] = useState(null);
     const [arrowLeft, setArrowLeft] = useState(0);
-    const [mobileOpen, setMobileOpen] = useState(false); // mobile drawer
-    const [mobileSub, setMobileSub] = useState(null);    // mobile accordion
+    const [mobileOpen, setMobileOpen] = useState(false);
+    const [mobileSub, setMobileSub] = useState(null);
 
     const navRefs = useRef({});
     const menuWrapperRef = useRef(null);
 
-    const router = useRouter();
+    /* ---------------- PREFETCH ROUTES ---------------- */
+    useEffect(() => {
+        headerOptions.forEach(item => {
+            if (item.link) router.prefetch(item.link);
+        });
+    }, [router]);
 
-    const clearCloseTimer = () => {
+    /* ---------------- SAFE NAVIGATION ---------------- */
+    const navigate = (path) => {
+        startTransition(() => {
+            router.push(path);
+        });
+    };
+
+     const clearCloseTimer = () => {
         if (closeTimer.current) {
             clearTimeout(closeTimer.current);
             closeTimer.current = null;
@@ -40,26 +58,22 @@ const Header = () => {
         }, 800); // smooth close
     };
 
-
     /* ---------------- DESKTOP HANDLER ---------------- */
     const handleMenuClick = (item) => {
         const hasOptions = item.options.length > 0;
 
-        // no dropdown → navigate
         if (!hasOptions) {
             setOpenMenu(null);
             setActiveTab(item.name);
-            router.push(item.link);
+            navigate(item.link);
             return;
         }
 
-        // toggle same menu
         if (openMenu === item.name) {
             setOpenMenu(null);
             return;
         }
 
-        // open new menu
         const btn = navRefs.current[item.name];
         if (btn) {
             const rect = btn.getBoundingClientRect();
@@ -71,52 +85,22 @@ const Header = () => {
 
     const handleSubMenuItemClick = (serviceName) => {
         setOpenMenu(null);
-
-        setActiveTab('services');          // underline Services
-        setActiveService(serviceName);     // 👈 THIS IS KEY
-
-        router.push('/services');           // always same page
+        setActiveTab('services');
+        setActiveService(serviceName);
+        navigate('/services');
     };
-
 
     /* ---------------- MOBILE HANDLER ---------------- */
     const handleMobileNav = (item) => {
         if (item.options.length === 0) {
             setMobileOpen(false);
             setActiveTab(item.name);
-            router.push(item.link);
+            navigate(item.link);
             return;
         }
 
         setMobileSub(prev => (prev === item.name ? null : item.name));
         setActiveTab(item.name);
-    };
-
-    /* ---------------- OUTSIDE CLICK (DESKTOP FIX) ---------------- */
-    useEffect(() => {
-        const handleClickOutside = (e) => {
-            const menuEl = menuWrapperRef.current;
-
-            // check if click is on any nav button
-            const clickedNavButton = Object.values(navRefs.current).some(
-                (btn) => btn && btn.contains(e.target)
-            );
-
-            if (
-                menuEl &&
-                !menuEl.contains(e.target) &&
-                !clickedNavButton
-            ) {
-                setOpenMenu(null);
-            }
-        };
-
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => document.removeEventListener("mousedown", handleClickOutside);
-    }, []);
-
-    const handleContactClick = () => {
-        router.push('/contactUs');
     };
 
     return (
@@ -139,21 +123,15 @@ const Header = () => {
                                 className="relative"
                                 onMouseEnter={() => {
                                     if (!hasOptions) return;
-
-                                    clearCloseTimer(); // keep your existing logic
-
+                                    clearCloseTimer();
                                     closeTimer.current = setTimeout(() => {
                                         setOpenMenu(each.name);
-                                    }, 400); // ⏱ 1 second
+                                    }, 400);
                                 }}
-
                                 onMouseLeave={() => {
-                                    if (hasOptions) {
-                                        startCloseTimer();
-                                    }
+                                    if (hasOptions) startCloseTimer();
                                 }}
                             >
-
                                 <button
                                     ref={(el) => (navRefs.current[each.name] = el)}
                                     type="button"
@@ -162,17 +140,16 @@ const Header = () => {
                                 >
                                     <span className="flex items-center gap-1 cursor-pointer">
                                         {each.label}
-                                        {/* {hasOptions && (
-                                            <IoIosArrowDown
-                                                className={`text-xs transition-transform ${isOpen ? "rotate-180" : ""}`}
+
+                                        {/* ✅ HYDRATION-SAFE UNDERLINE */}
+                                        {mounted && activeTab === each.name && (
+                                            <ThemeBottomBorder
+                                                width="80%"
+                                                bottom="0px"
+                                                left="0px"
                                             />
-                                        )} */}
-                                        {activeTab === each.name && (
-                                            <ThemeBottomBorder width="80%" bottom="0px" left="0px" />
                                         )}
                                     </span>
-
-
                                 </button>
                             </li>
                         );
@@ -183,12 +160,11 @@ const Header = () => {
                 <div className="hidden lg:block">
                     <ThemeBtnTag
                         styles="w-[150px] h-[32px] !font-medium !rounded-md"
-                        onClick={handleContactClick}
+                        onClick={() => router.push('/contactUs')}
                     >
                         Contact Us
                     </ThemeBtnTag>
                 </div>
-
 
                 {/* MOBILE MENU ICON */}
                 <button
@@ -215,19 +191,16 @@ const Header = () => {
                     className="fixed inset-x-0 top-16 z-40 hidden lg:flex justify-center animate-in fade-in slide-in-from-top-2 duration-200"
                     onMouseEnter={clearCloseTimer}
                     onMouseLeave={startCloseTimer}
-                    onClick={(e) => e.stopPropagation()}
                 >
-
-                    {/* Added a backdrop-blur or solid bg to ensure visibility */}
-                    <div className="bg-white border border-gray-200 rounded-lg shadow-xl px-12 py-8  w-[90%] xl:w-[80%] max-w-7xl mx-auto">
+                    <div className="bg-white border border-gray-200 rounded-lg shadow-xl px-12 py-8 w-[90%] xl:w-[80%] max-w-7xl">
                         <div className="grid grid-cols-4 gap-x-14 gap-y-10">
                             {headerOptions
                                 .find(item => item.name === openMenu)
                                 ?.options.map((opt, idx) => (
-                                    <button // Changed <a> to <button> for better event handling
+                                    <button
                                         key={idx}
                                         onClick={() => handleSubMenuItemClick(opt.name)}
-                                        className="flex items-center gap-3 cursor-pointer text-left text-gray-700 hover:text-[#0A66C2] transition-colors"
+                                        className="flex items-center gap-3 text-left text-gray-700 hover:text-[#0A66C2]"
                                     >
                                         {opt.icon && <span className="text-lg">{opt.icon}</span>}
                                         <span className="text-sm font-medium">{opt.label}</span>
@@ -237,7 +210,6 @@ const Header = () => {
                     </div>
                 </div>
             )}
-            
 
             {/* ================= MOBILE DRAWER ================= */}
             {mobileOpen && (
@@ -254,32 +226,29 @@ const Header = () => {
                             <div key={i}>
                                 <button
                                     onClick={() => handleMobileNav(item)}
-                                    className={`w-full flex justify-between items-center text-left text-md font-medium
-                                        ${activeTab === item.name ? "text-[#0A66C2]" : "text-black"}
-                                    `}
+                                    className={`w-full flex justify-between items-center text-md font-medium
+                                        ${activeTab === item.name ? "text-[#0A66C2]" : "text-black"}`}
                                 >
                                     {item.label}
                                     {item.options.length > 0 && (
                                         <IoIosArrowDown
-                                            className={`transition-transform ${mobileSub === item.name ? "rotate-180" : ""}`}
+                                            className={`transition-transform ${mobileSub === item.name ? "rotate-180" : ""
+                                                }`}
                                         />
                                     )}
                                 </button>
 
                                 {mobileSub === item.name && (
-                                    <div className="mt-3 pl-6 md:pl-15 space-y-3">
+                                    <div className="mt-3 pl-6 space-y-3">
                                         {item.options.map((opt, idx) => (
                                             <div
                                                 key={idx}
                                                 onClick={() => {
                                                     setMobileOpen(false);
-
                                                     setActiveTab('services');
                                                     setActiveService(opt.name);
-
                                                     router.push('/services');
                                                 }}
-
                                                 className="cursor-pointer text-sm text-gray-600 hover:text-[#0A66C2]"
                                             >
                                                 {opt.label}
@@ -299,12 +268,19 @@ const Header = () => {
                         >
                             Contact Us
                         </ThemeBtnTag>
-
                     </div>
+                </div>
+            )}
+
+            {/* GLOBAL LOADER */}
+            {isPending && (
+                <div className="fixed inset-0 z-[999] flex items-center justify-center bg-white/40 backdrop-blur-sm">
+                    <div className="w-16 h-16 border-3 border-gray-400 border-t-blue-600  rounded-full animate-spin" />
                 </div>
             )}
         </header>
     );
+
 };
 
 export default Header;

@@ -6,7 +6,9 @@ import OurProjects from "@/components/home/subcomponents/OurProjects";
 import OurVision from "@/components/home/subcomponents/ourVision";
 import Technology from "@/components/home/subcomponents/Technology";
 
-
+export const metadata = {
+  title: "About Us | NowIt"
+};
 
 
 export default function AboutUs() {
