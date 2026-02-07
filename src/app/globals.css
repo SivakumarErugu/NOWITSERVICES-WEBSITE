@@ -99,7 +99,6 @@ body {
   display: none;
 }
 
-<<<<<<< HEAD
 
 .slot-scroll {
   overflow-y: auto;
@@ -118,7 +117,6 @@ body {
 
 .slot-scroll::-webkit-scrollbar-thumb:hover {
   background-color: #343a40;
-=======
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;

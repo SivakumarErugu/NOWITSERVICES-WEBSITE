@@ -6,12 +6,12 @@ import OurProjects from "@/components/home/subcomponents/OurProjects";
 import OurVision from "@/components/home/subcomponents/ourVision";
 import Technology from "@/components/home/subcomponents/Technology";
 
+import PartnerBanner from "@/components/shared/UI-Elements/Partner-Banner";
+import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 
 export const metadata = {
   title: "About Us | NowIt"
 };
-import PartnerBanner from "@/components/shared/UI-Elements/Partner-Banner";
-import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 
 
 export default function AboutUs() {

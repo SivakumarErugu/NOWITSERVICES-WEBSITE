@@ -8,6 +8,9 @@ import EnterpriseProducts from "@/components/home/subcomponents/EnterpriseProduc
 import TrustedBannerSection from "@/components/home/subcomponents/TrustedBannerSection";
 import IndustryBtn from "@/components/home/subcomponents/IndustryBtn";
 import FaqSection from "@/components/home/subcomponents/FaqSection"; 
+import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
+import PartnerBanner from "@/components/shared/UI-Elements/Partner-Banner";
+import ClientCardComponent from "@/components/home/subcomponents/ClientCardComponent";
 
 export const metadata = {
   title: "Home | NowIt"
