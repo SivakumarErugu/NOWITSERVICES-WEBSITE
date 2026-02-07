@@ -11,6 +11,7 @@ import Layout from "@/components/Layout";
 import NowitContextProvider from "@/store/NowitContext";
 import { Toaster } from 'sonner';
 import AIAssist from "@/components/partials/AIAssist";
+import AIAssistWidget from "@/components/ai-chat/AIAssistWidget";
 
 /* Geist Sans */
 const geistSans = Geist({
@@ -66,7 +67,7 @@ export default function RootLayout({ children }) {
         <NowitContextProvider>
           <Layout> {children} </Layout>
           <Toaster position="bottom-left" closeButton />
-          <AIAssist />
+          <AIAssistWidget />
         </NowitContextProvider>
       </body>
     </html>
