@@ -2,7 +2,7 @@ import React from "react";
 
 const AiBtn = () => {
   return (
-    <button className="relative w-[222px] h-[61px] rounded-[57px] p-[3px] bg-gradient-to-r from-[#87CE6D] to-[#174F88] !self-end">
+    <button className="relative w-[222px] h-[61px] rounded-[57px] p-[3px] bg-gradient-to-r from-[#87CE6D] to-[#174F88] self-end">
       
       {/* White inner pill */}
       <div className="flex items-center  gap-2 h-full w-full rounded-[54px] bg-white justify-center">

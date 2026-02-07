@@ -30,8 +30,9 @@ const TrustedBannerSection = () => {
         <div
             className="
         relative
-        w-full
-        h-[577px]
+        h-[463px]
+        md:w-full
+       md:h-[577px]
         bg-[url('https://res.cloudinary.com/dr9thittl/image/upload/v1770112947/7a674011e1fdea2559ccd610d4230ccde99ebbce_yoafno.png')]
         bg-cover
         bg-center
@@ -46,27 +47,36 @@ const TrustedBannerSection = () => {
 
             {/* CONTENT WRAPPER */}
             <div className="relative z-10 w-full max-w-[1295px] px-10 flex flex-col items-center">
-
                 {/* HEADING BLOCK */}
                 <div className="flex flex-col items-center gap-4 mb-16">
                     <div className="flex items-center relative w-fit">
-                        <span className="text-white font-normal tracking-wide">
+                        <span className="text-white font-normal tracking-wide inter-text">
                             Trusted By
                         </span>
                         <ThemeBottomBorder width="48px" left="110%" />
                     </div>
 
-                    <h2 className="text-white font-bold text-[48px] text-center ibm-text">
+                    <h2 className="text-white font-medium text-[24px] md:text-[48px] text-center ibmPlex-text">
                         Global Services Provider
                     </h2>
                 </div>
 
-                {/* LOGO ROW */}
-                <ul className="flex items-center justify-between w-full max-w-[1100px]">
-                    {List.map((item) => (
+
+                {/* <ul
+                    className="
+    grid grid-cols-3 gap-6 place-content-center place-items-center
+    md:flex md:items-center md:justify-between
+    w-full max-w-[1100px]
+  "
+                >
+                    {List.map((item, index) => (
                         <li
                             key={item.id}
-                            className="flex items-center justify-center opacity-90"
+                            className={`
+        flex items-center justify-center opacity-90
+        ${index === 3 ? "col-start-2" : ""}
+        ${index === 4 ? "col-start-3" : ""}
+      `}
                         >
                             <Image
                                 src={item.url}
@@ -77,7 +87,38 @@ const TrustedBannerSection = () => {
                             />
                         </li>
                     ))}
-                </ul>
+                </ul> */}
+
+                <div className="w-full flex justify-center">
+                    <ul
+                        className="
+      grid grid-cols-3 gap-x-12 gap-y-10
+      place-content-center place-items-center
+      w-fit
+      md:flex md:items-center md:justify-center md:gap-16
+    "
+                    >
+                        {List.map((item, index) => (
+                            <li
+                                key={item.id}
+                                className={`
+          flex items-center justify-center opacity-90
+          ${index === 3 ? "col-start-2" : ""}
+          ${index === 4 ? "col-start-3" : ""}
+        `}
+                            >
+                                <Image
+                                    src={item.url}
+                                    alt="trusted-logo"
+                                    width={140}
+                                    height={60}
+                                    className="object-contain"
+                                />
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
 
             </div>
         </div>

@@ -1,69 +1,39 @@
 
-// import { CustomHeading } from "@/components/shared/UI-Elements/Custom-Elements"
-// const List = [{
-//     id: 1,
-//     title: "WON Bill",
-//     description: "It helps hospitals improve efficiency,enhance patientCate",
-// }, {
-//     id: 2,
-//     title: "WON Digi",
-//     description: "It helps hospitals improve efficiency,enhance patientCate",
-// },
-// {
-//     id: 3,
-//     title: "WON Pulse",
-//     description: "It helps hospitals improve efficiency,enhance patientCate",
-// },
-// {
-//     id: 4,
-//     title: "WON Hubs",
-//     description: "It helps hospitals improve efficiency,enhance patientCate",
-// },
-// {
-//     id: 5,
-//     title: "WON Bridge",
-//     description: "It helps hospitals improve efficiency,enhance patientCate",
-// },
-// ]
-// const OurProjects = () => {
+'use client'
+
+// const ProjectCard = ({ item, height, width }) => {
 //     return (
-//         <div className='h-[1506 px] flex flex-col'>
-//             {/* <p>Prabhuva</p> */}
-//             <CustomHeading title='Projects' description='Projects that reflect our expertise and commitment to quality' />
-//             {/* {render first two items} */}
-//             <div>
-//                 {
-//                     List.slice(0, 2).map(item => (
-//                         <div className="h-[578px] w-[574px]" key={item.id}>
-//                             <h1 className="ibmPlex-text text-[36px] font-bold">{item.title}</h1>
-//                             <p className="text-[16px]">{item.description}</p>
-//                         </div>
-//                     ))
-//                 }
-//             </div>
-//             {/* // render bottom 3 */}
-//             <div>
-//                 {
-//                     List.slice(2, 5).map(item => (
-//                         <div className="h-[578px] w-[372px]" key={item.id}>
-//                             <h1 className="ibmPlex-text text-[36px] font-bold">{item.title}</h1>
-//                             <p className="text-[16px]">{item.description}</p>
-//                         </div>
-//                     ))
-//                 }
+//         <div className={`relative ${height} ${width} md:w-full md:rounded-[18px] overflow-hidden snap-start`}>
+//             <Image
+//                 src={item.image}
+//                 alt={item.title}
+//                 fill
+//                 className="object-cover"
+//             />
+
+//             <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/25 to-transparent" />
+
+//             <div className="absolute bottom-0 p-6 text-white">
+//                 <h3 className="text-[24px] font-semibold">{item.title}</h3>
+//                 <p className="mt-2 text-sm leading-relaxed max-w-[90%]">
+//                     {item.description}
+//                 </p>
 //             </div>
 //         </div>
 //     )
 // }
-// export default OurProjects
-'use client'
-
-const ProjectCard = ({ item, height }) => {
+const ProjectCard = ({ item, height, width }) => {
     return (
         <div
-            className={`relative ${height} w-full rounded-2xl overflow-hidden`}
+            className={`
+        relative ${height} ${width}
+        md:w-full
+        rounded-md
+        md:rounded-[18px]
+        overflow-hidden
+        flex-shrink-0
+      `}
         >
-            {/* Image */}
             <Image
                 src={item.image}
                 alt={item.title}
@@ -71,15 +41,16 @@ const ProjectCard = ({ item, height }) => {
                 className="object-cover"
             />
 
-            {/* Dark overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+            {/* lighter gradient for mobile */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/20 to-transparent" />
 
-            {/* Text */}
-            <div className="absolute bottom-0 p-6 text-white">
-                <h3 className="text-[24px] font-semibold">
+            {/* TEXT */}
+            <div className="absolute bottom-0 p-3 md:p-6 text-white">
+                <h3 className="text-[16px] md:text-[24px] font-semibold leading-tight">
                     {item.title}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed max-w-[90%]">
+
+                <p className="mt-1 md:mt-2 text-[12px] md:text-sm leading-snug md:leading-relaxed line-clamp-2 md:line-clamp-none">
                     {item.description}
                 </p>
             </div>
@@ -88,7 +59,8 @@ const ProjectCard = ({ item, height }) => {
 }
 
 
-import { CustomHeading } from "@/components/shared/UI-Elements/Custom-Elements"
+
+import { CustomHeading, ThemeBtnTag, ThemeBtnTag2 } from "@/components/shared/UI-Elements/Custom-Elements"
 import Image from "next/image"
 
 const List = [
@@ -136,35 +108,54 @@ const List = [
 
 const OurProjects = () => {
     return (
-        <section className="w-full flex justify-center py-20">
-            <div className="w-[1450px] flex flex-col gap-12">
+        <section className="w-full py-20 md:flex md:justify-center">
+            <div className="w-[100%] md:w-[1450px] flex flex-col md:gap-12">
                 <CustomHeading
                     title="Projects"
-                    span="Our"
+                    span=""
                     description="Projects that reflect our expertise and commitment to quality"
                 />
 
-                {/* ===== TOP ROW (2 CARDS) ===== */}
-                <div className="grid grid-cols-2 gap-8">
+                {/* TOP ROW */}
+       
+                <div className="hidden md:grid grid-cols-2 gap-8">
                     {List.slice(0, 2).map(item => (
+                        <ProjectCard key={item.id} item={item} height="h-[520px]" />
+                    ))}
+                </div>
+
+                {/* BOTTOM ROW */}
+                <div className="hidden md:grid grid-cols-3 gap-8">
+                    {List.slice(2).map(item => (
+                        <ProjectCard key={item.id} item={item} height="h-[420px]" />
+                    ))}
+                </div>
+
+                <div className="flex justify-center  hidden md:block w-full">
+                    <ThemeBtnTag2 BtnText="View All Products" styles='self-center'/>
+                </div>
+                {/* mobile */}
+                {/* Mobile */}
+                <div
+                    className="
+    w-full
+    flex flex-nowrap gap-3
+    overflow-x-auto overflow-y-hidden
+    md:hidden scroll-invisible
+    px-5
+  "
+                >
+                    {List.map(item => (
                         <ProjectCard
                             key={item.id}
                             item={item}
-                            height="h-[520px]"
+                            height="h-[247px]"
+                            width="w-[247px]"
                         />
                     ))}
                 </div>
 
-                {/* ===== BOTTOM ROW (3 CARDS) ===== */}
-                <div className="grid grid-cols-3 gap-8">
-                    {List.slice(2).map(item => (
-                        <ProjectCard
-                            key={item.id}
-                            item={item}
-                            height="h-[420px]"
-                        />
-                    ))}
-                </div>
+
             </div>
         </section>
     )
