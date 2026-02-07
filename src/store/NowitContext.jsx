@@ -5,31 +5,24 @@ import { createContext, useEffect, useState } from "react";
 const NowitContext = createContext(null);
 
 const NowitContextProvider = ({ children }) => {
-  const [activeTab, setActiveTab] = useState("home");
-  const [activeService, setActiveService] = useState("business launch");
-  const [mounted, setMounted] = useState(false);
+  const [activeTab, setActiveTab] = useState(() => {
+    if (typeof window === "undefined") return "home";
+    return localStorage.getItem("nowit_active_tab") || "home";
+  });
 
-  // 🔹 Read external state ONCE and commit ONCE
+  const [activeService, setActiveService] = useState(() => {
+    if (typeof window === "undefined") return "business launch";
+    return localStorage.getItem("nowit_active_service") || "business launch";
+  });
+
+  // Persist changes
   useEffect(() => {
-    const storedTab = localStorage.getItem("nowit_active_tab");
-    const storedService = localStorage.getItem("nowit_active_service");
-
-    setActiveTab(prev => storedTab ?? prev);
-    setActiveService(prev => storedService ?? prev);
-
-    setMounted(true);
-  }, []);
-
-  // 🔹 Persist after hydration
-  useEffect(() => {
-    if (!mounted) return;
     localStorage.setItem("nowit_active_tab", activeTab);
-  }, [activeTab, mounted]);
+  }, [activeTab]);
 
   useEffect(() => {
-    if (!mounted) return;
     localStorage.setItem("nowit_active_service", activeService);
-  }, [activeService, mounted]);
+  }, [activeService]);
 
   return (
     <NowitContext.Provider
@@ -38,7 +31,6 @@ const NowitContextProvider = ({ children }) => {
         setActiveTab,
         activeService,
         setActiveService,
-        mounted,
       }}
     >
       {children}

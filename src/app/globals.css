@@ -121,6 +121,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+}
 
 .perspective-container {
   /* This creates the slanted 'row' effect */

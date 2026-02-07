@@ -153,8 +153,16 @@ export default function ContactSection() {
 
 
     return (
-        <section className="relative w-full min-h-90vh overflow-hidden rounded-md bg-black/40 backdrop-blur-sm flex items-center px-2 lg:px-10 py-5">
-
+        <section
+            className="
+      relative w-full overflow-hidden rounded-md
+      bg-black/40 backdrop-blur-sm
+      flex items-center
+      min-h-[70vh] sm:min-h-[80vh] lg:min-h-[90vh]
+      px-3 sm:px-6 lg:px-5
+      py-6 sm:py-10
+    "
+        >
             {/* Background Image */}
             <Image
                 src={Contactbg}
@@ -169,27 +177,28 @@ export default function ContactSection() {
 
             {/* Content */}
             <div className="relative z-10 w-full">
-                <div className="rounded-lg p-6 md:p-10 text-white">
+                <div className=" w-full rounded-lg p-5 sm:p-8 md:p-10 text-white">
 
                     {/* Header */}
-                    <h2 className="text-lg lg:text-2xl font-semibold flex items-center gap-2">
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold flex items-center gap-2">
                         Let’s Start the Conversation
-                        <span className="inline-block w-8 lg:w-12 h-0.5 bg-[#55B233]" />
+                        <span className="inline-block w-6 sm:w-8 lg:w-12 h-0.5 bg-[#55B233]" />
                     </h2>
 
-                    <p className="mt-2 text-xs lg:text-sm text-gray-200">
+                    <p className="mt-2 text-xs sm:text-sm text-gray-200">
                         Share your requirement and our team will connect with you
                     </p>
 
                     {/* FORM */}
                     <form
                         onSubmit={formik.handleSubmit}
-                        className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6"
+                        className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 md:gap-6"
                     >
-
                         {/* Name */}
-                        <div className="h-22 ">
-                            <label htmlFor="name" className="text-sm mb-1 block">Name *</label>
+                        <div>
+                            <label htmlFor="name" className="text-sm mb-1 block">
+                                Name *
+                            </label>
                             <input
                                 id="name"
                                 name="name"
@@ -205,8 +214,10 @@ export default function ContactSection() {
                         </div>
 
                         {/* Email */}
-                        <div className="h-22 ">
-                            <label htmlFor="email" className="text-sm mb-1 block">Email Id *</label>
+                        <div>
+                            <label htmlFor="email" className="text-sm mb-1 block">
+                                Email Id *
+                            </label>
                             <input
                                 id="email"
                                 name="email"
@@ -223,15 +234,17 @@ export default function ContactSection() {
                         </div>
 
                         {/* Whatsapp */}
-                        <div>
-                            <label className="text-sm mb-1 block">Whatsapp Number *</label>
+                        <div className="md:col-span-1">
+                            <label className="text-sm mb-1 block">
+                                Whatsapp Number *
+                            </label>
 
                             <div className="flex">
                                 <CountryCodeDropdown
                                     value={formik.values.country}
                                     onChange={(c) => {
-                                        formik.setFieldValue("country", c.code);
-                                        formik.setFieldValue("dialCode", c.dial);
+                                        formik.setFieldValue("country", c.code)
+                                        formik.setFieldValue("dialCode", c.dial)
                                     }}
                                 />
 
@@ -253,9 +266,8 @@ export default function ContactSection() {
                             )}
                         </div>
 
-
                         {/* Date */}
-                        <div className="h-22 ">
+                        <div>
                             <label htmlFor="date" className="text-sm mb-1 block">
                                 Preferred Contact Date *
                             </label>
@@ -266,7 +278,7 @@ export default function ContactSection() {
                                 value={formik.values.date}
                                 onChange={formik.handleChange}
                                 onBlur={formik.handleBlur}
-                                className={`${inputBase} [color-scheme:dark] uppercase`}
+                                className={`${inputBase} [color-scheme:dark] uppercase px-1`}
                             />
                             {formik.touched.date && formik.errors.date && (
                                 <p className={errorText}>{formik.errors.date}</p>
@@ -274,7 +286,7 @@ export default function ContactSection() {
                         </div>
 
                         {/* Message */}
-                        <div className="md:col-span-2 h-33">
+                        <div className="md:col-span-2">
                             <label htmlFor="message" className="text-sm mb-1 block">
                                 Message *
                             </label>
@@ -294,12 +306,12 @@ export default function ContactSection() {
                         </div>
 
                         {/* Submit */}
-                        <div className="md:col-span-2 mt-2 flex justify-center">
+                        <div className="md:col-span-2 mt-3 flex justify-center">
                             <ThemeBtnTag
                                 BtnText={formik.isSubmitting ? "Sending..." : "Send"}
                                 type="submit"
                                 disabled={formik.isSubmitting}
-                                styles="w-full lg:w-1/2 h-[42px] bg-[#55B233] text-white !font-medium !rounded-md hover:bg-[#43a047] border-0 disabled:opacity-60"
+                                styles="w-full sm:w-2/3 lg:w-1/2 h-[42px] bg-[#55B233] text-white !font-medium !rounded-md hover:bg-[#43a047] border-0 disabled:opacity-60"
                             />
                         </div>
                     </form>
@@ -319,18 +331,19 @@ export default function ContactSection() {
                             </a>
                         </div>
 
-                        <span className="opacity-60">|</span>
+                        <span className="opacity-60 hidden sm:inline">|</span>
                         <a href="mailto:support@nowit.com" className="hover:underline">
                             support@nowit.com
                         </a>
-                        <span className="opacity-60">|</span>
+
+                        <span className="opacity-60 hidden sm:inline">|</span>
                         <a href="mailto:careers@nowit.com" className="hover:underline">
                             careers@nowit.com
                         </a>
                     </div>
-
                 </div>
             </div>
         </section>
-    );
+    )
+
 }

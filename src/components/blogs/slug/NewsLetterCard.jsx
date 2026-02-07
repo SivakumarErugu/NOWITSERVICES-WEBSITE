@@ -60,15 +60,24 @@ const NewsletterCard = () => {
   });
 
   return (
-    <div className="w-full flex justify-center mt-10">
-      <div className="w-full rounded-xl px-8 py-10 text-white bg-linear-to-r from-[#1F8A9E] via-[#1E5A88] to-[#2C1E5E]">
+    <div className="w-full flex justify-center mt-8 sm:mt-10">
+      <div
+        className="
+        w-full max-w-5xl
+        rounded-xl
+        px-4 sm:px-8
+        py-8 sm:py-10
+        text-white
+        bg-linear-to-r from-[#1F8A9E] via-[#1E5A88] to-[#2C1E5E]
+      "
+      >
         {/* Icon */}
-        <div className="flex justify-center text-2xl mb-4">
+        <div className="flex justify-center mb-4">
           <LuMailOpen size={38} />
         </div>
 
         {/* Heading */}
-        <h2 className="text-center text-2xl font-semibold mb-2">
+        <h2 className="text-center text-xl sm:text-2xl font-semibold mb-2">
           Stay Updated with Latest Insights
         </h2>
 
@@ -80,8 +89,9 @@ const NewsletterCard = () => {
 
         {/* Form */}
         <form onSubmit={formik.handleSubmit}>
-          <div className="flex justify-center gap-3 mb-1">
-            <div className="h-13">
+          <div className="flex flex-col sm:flex-row justify-center gap-3 ">
+            {/* Input */}
+            <div className="w-full sm:w-auto h-15">
               <input
                 type="email"
                 name="email"
@@ -89,36 +99,49 @@ const NewsletterCard = () => {
                 value={formik.values.email}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className={`w-72 h-10 px-2 py-2 rounded-md text-sm text-gray-700 focus:outline-none bg-white ${
-                  formik.touched.email && formik.errors.email
+                className={`w-full sm:w-72 h-10 px-3 rounded-md text-sm text-gray-700
+                bg-white focus:outline-none
+                ${formik.touched.email && formik.errors.email
                     ? "border border-red-500"
                     : ""
-                }`}
+                  }`}
               />
 
               {formik.touched.email && formik.errors.email && (
-                <p className="text-left pl-2 mt-1 text-xs text-red-300 mb-3">
+                <p className="mt-1 text-xs text-red-300 pl-1">
                   {formik.errors.email}
                 </p>
               )}
             </div>
 
+            {/* Button */}
             <button
               type="submit"
               disabled={formik.isSubmitting}
-              className="h-10 px-6 py-2 rounded-md text-sm font-medium bg-[#6CC04A] hover:bg-[#5aad3f] transition disabled:opacity-60"
+              className="
+              h-10
+              w-full sm:w-auto
+              px-6
+              rounded-md
+              text-sm font-medium
+              bg-[#6CC04A]
+              hover:bg-[#5aad3f]
+              transition
+              disabled:opacity-60
+            "
             >
               {formik.isSubmitting ? "Subscribing..." : "Subscribe"}
             </button>
           </div>
         </form>
 
-        <p className="text-center text-xs mt-8 text-white/70">
+        <p className="text-center text-xs mt-6 sm:mt-8 text-white/70">
           No spam. Unsubscribe anytime.
         </p>
       </div>
     </div>
-  );
+  )
+
 };
 
 export default NewsletterCard;

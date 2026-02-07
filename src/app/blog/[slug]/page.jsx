@@ -49,9 +49,9 @@ export default async function BlogPage({ params }) {
         .slice(0, 5); // limit to top 3
 
     return (
-        <article className="w-full px-15 py-5 bg-white">
+        <article className="w-full bg-white px-4 sm:px-6 lg:px-12 py-6">
             {/* blog image */}
-            <section className="relative w-full h-[480px] rounded-lg overflow-hidden">
+            <section className="relative w-full  h-[220px] sm:h-[320px] md:h-[420px] lg:h-[480px] rounded-lg overflow-hidden">
                 <Image
                     src={blog.image}
                     alt="Blog Background"

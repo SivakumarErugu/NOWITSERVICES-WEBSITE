@@ -15,7 +15,7 @@ const Header = () => {
         activeTab,
         setActiveTab,
         setActiveService,
-        mounted,
+        
     } = useNowit();
 
     const router = useRouter();
@@ -138,11 +138,11 @@ const Header = () => {
                                     onClick={() => handleMenuClick(each)}
                                     className="relative inline-flex flex-col items-center text-black font-medium"
                                 >
-                                    <span className="flex items-center gap-1 cursor-pointer">
+                                    <span className="flex items-center gap-1 cursor-pointer"> 
                                         {each.label}
 
-                                        {/* ✅ HYDRATION-SAFE UNDERLINE */}
-                                        {mounted && activeTab === each.name && (
+                                        {/* HYDRATION-SAFE UNDERLINE */}
+                                        {activeTab === each.name && (
                                             <ThemeBottomBorder
                                                 width="80%"
                                                 bottom="0px"

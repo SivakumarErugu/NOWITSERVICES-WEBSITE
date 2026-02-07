@@ -24,26 +24,29 @@ const TopArticles = () => {
     const isSearching = searchTerm.trim().length > 0
 
     return (
-        <div className="w-full">
+        <div className="w-full space-y-10">
             <BlogHeader searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
             {/* ================= SEARCH RESULTS ================= */}
             {isSearching && (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {filteredBlogs.length === 0 && (
-                        <p className="text-gray-500 col-span-full">
+                        <p className="text-gray-500 col-span-full text-center">
                             No articles found.
                         </p>
                     )}
 
                     {filteredBlogs.map(blog => (
-                        <div key={blog.id} className="flex flex-col gap-4">
-                            <div className="relative w-full h-[220px]">
+                        <div
+                            key={blog.id}
+                            className="flex flex-col gap-3 bg-white rounded-xl"
+                        >
+                            <div className="relative w-full aspect-[16/9]">
                                 <Image
                                     src={blog.image}
                                     alt={blog.title}
                                     fill
-                                    className="rounded-lg object-cover"
+                                    className="rounded-xl object-cover"
                                 />
                             </div>
 
@@ -52,7 +55,9 @@ const TopArticles = () => {
                                 {blog.readingTime}
                             </span>
 
-                            <h4 className="text-lg font-semibold text-black!">{blog.title}</h4>
+                            <h4 className="text-base sm:text-lg font-semibold text-black">
+                                {blog.title}
+                            </h4>
 
                             <p className="text-black/70 text-sm line-clamp-3">
                                 {blog.excerpt}
@@ -60,7 +65,7 @@ const TopArticles = () => {
 
                             <Link
                                 href={blog.slug}
-                                className="inline-flex items-center gap-1 px-5 py-2 border rounded-lg text-gray-500 hover:bg-blue-50"
+                                className="inline-flex items-center gap-1 w-fit px-4 py-2 border rounded-lg text-sm text-gray-500 hover:bg-blue-50"
                             >
                                 Read More <GoArrowUpRight />
                             </Link>
@@ -71,10 +76,10 @@ const TopArticles = () => {
 
             {/* ================= TOP ARTICLES ================= */}
             {!isSearching && (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {/* BIG ARTICLE */}
                     <div className="space-y-4">
-                        <div className="relative w-full h-[280px]">
+                        <div className="relative w-full aspect-[16/9]">
                             <Image
                                 src={sortedBlogs[0].image}
                                 alt={sortedBlogs[0].title}
@@ -89,7 +94,7 @@ const TopArticles = () => {
                             {sortedBlogs[0].readingTime}
                         </span>
 
-                        <h2 className="text-2xl font-semibold text-black">
+                        <h2 className="text-xl sm:text-2xl font-semibold text-black">
                             {sortedBlogs[0].title}
                         </h2>
 
@@ -103,8 +108,11 @@ const TopArticles = () => {
                     {/* SMALL ARTICLES */}
                     <div className="space-y-6">
                         {sortedBlogs.slice(1, 3).map(blog => (
-                            <div key={blog.id} className="flex gap-4">
-                                <div className="relative w-1/2 h-[220px]">
+                            <div
+                                key={blog.id}
+                                className="flex flex-col sm:flex-row gap-4"
+                            >
+                                <div className="relative w-full sm:w-1/2 aspect-[16/10]">
                                     <Image
                                         src={blog.image}
                                         alt={blog.title}
@@ -119,7 +127,7 @@ const TopArticles = () => {
                                         {blog.readingTime}
                                     </span>
 
-                                    <h4 className="text-lg font-semibold text-black">
+                                    <h4 className="text-base sm:text-lg font-semibold text-black">
                                         {blog.title}
                                     </h4>
 
@@ -135,6 +143,7 @@ const TopArticles = () => {
                 </div>
             )}
         </div>
+
     )
 }
 

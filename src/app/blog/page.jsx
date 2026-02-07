@@ -6,40 +6,41 @@ import TopArticles from '@/components/blogs/TopArticles';
 import LatestBlogs from '@/components/blogs/LatestBlogs';
 
 export const metadata = {
-  title: "Blogs | NowIt"
+    title: "Blogs | NowIt"
 };
 
 const Page = () => {
     return (
-        <div className='w-full px-15 py-5 space-y-5 '>
+        <div className="w-full px-4 sm:px-6 lg:px-12 py-6 space-y-8">
             {/* banner section */}
             <section
                 className="
-                    w-full relative overflow-hidden rounded-lg
-                    h-72 sm:h-96 md:h-120 lg:h-[32rem]
+                    relative w-full overflow-hidden rounded-xl
+                    h-56 sm:h-80 md:h-104 lg:h-128
                 "
             >
                 <Image
                     src={blogbg}
                     alt="Blog Background"
                     fill
-                    className="object-cover"
                     priority
+                    className="object-cover"
                 />
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-black/30 flex items-center justify-center text-white px-4">
+                <div className="absolute inset-0 bg-black/30 flex items-center justify-center text-white">
 
                     {/* Heading */}
                     <h1
                         className="
-                            absolute text-center font-bold leading-tight
-                            bottom-24 sm:bottom-28 md:bottom-36
-                            text-2xl sm:text-3xl md:text-4xl lg:text-5xl
-                        "
+            absolute text-center font-bold leading-tight
+            px-4
+            bottom-16 sm:bottom-20 md:bottom-28
+            text-xl sm:text-2xl md:text-4xl lg:text-5xl
+          "
                     >
                         Technology Insights for <br />
-                        <strong className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+                        <strong className="block mt-2 text-2xl sm:text-3xl md:text-5xl lg:text-6xl">
                             Modern Businesses
                         </strong>
                     </h1>
@@ -47,11 +48,11 @@ const Page = () => {
                     {/* Scroll Indicator */}
                     <div
                         className="
-                        absolute bottom-6 sm:bottom-8
-                        flex flex-col items-center gap-y-2
-                        text-[10px] sm:text-xs uppercase tracking-widest
-                        animate-bounce
-                    "
+            absolute bottom-5 sm:bottom-7
+            flex flex-col items-center gap-1.5
+            text-[10px] sm:text-xs uppercase tracking-widest
+            animate-bounce
+          "
                     >
                         <RxSewingPinFilled className="w-5 h-5 sm:w-6 sm:h-6" />
                         <span>Scroll to explore</span>
@@ -67,8 +68,6 @@ const Page = () => {
             <section>
                 <LatestBlogs />
             </section>
-
-
         </div>
     )
 }
