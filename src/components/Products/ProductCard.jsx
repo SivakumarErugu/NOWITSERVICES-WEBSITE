@@ -2,9 +2,11 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+
 import { ThemeBtnTag } from '../shared/UI-Elements/Custom-Elements'
 
-const ProductCard = ({ title, desc, img, reverse = false }) => {
+const ProductCard = ({ title, desc, img, link, reverse = false }) => {
   return (
     <div
       className="
@@ -12,7 +14,7 @@ const ProductCard = ({ title, desc, img, reverse = false }) => {
         md:grid-cols-2
         gap-4 md:gap-6 lg:gap-8
         items-center
-
+        2xl:px-6
         2xl:grid-cols-1
         2xl:items-start
       "
@@ -21,9 +23,9 @@ const ProductCard = ({ title, desc, img, reverse = false }) => {
       <div
         className={`
           group
-          relative w-full
+          relative w-full lg:w-[95%] 2xl:w-full
           h-48 sm:h-52 md:h-60 lg:h-70
-          2xl:h-60
+          2xl:h-85
           border-6 lg:border-10 border-black
           rounded-md
           overflow-hidden
@@ -42,6 +44,7 @@ const ProductCard = ({ title, desc, img, reverse = false }) => {
             duration-3000
             ease-out
             group-hover:scale-100
+            
           "
         />
       </div>
@@ -62,10 +65,13 @@ const ProductCard = ({ title, desc, img, reverse = false }) => {
         </p>
 
         <div className="mt-5">
-          <ThemeBtnTag
-            BtnText="View Product"
-            styles="border-0 bg-[#55B233] text-white text-xs md:text-sm !font-medium !py-1 !px-5 !lg:py-2 !rounded-md hover:bg-[#43a047]"
-          />
+          <Link href={link} target="_blank" rel="noopener noreferrer">
+            <ThemeBtnTag
+              BtnText="View Product"
+              styles="border-0 bg-[#55B233] text-white text-xs md:text-sm !font-medium !py-1 !px-5 !lg:py-2 !rounded-md hover:bg-[#43a047]"
+            />
+          </Link>
+
         </div>
       </div>
     </div>

@@ -6,16 +6,15 @@ import { useNowit } from "@/store/useNowit";
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader";
 import { servicesData } from "./servicesData";
 
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
-import { FaPlus } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa6";
-
+import { motion } from "framer-motion";
 
 const VISIBLE_COUNT = 3;
+const CARD_GAP = 24; // gap-6
 
 const Services4 = () => {
-  const { activeService, setActiveService } = useNowit();
+  const { activeService, } = useNowit();
 
   const services = Object.entries(servicesData)
     .filter(([key]) => key !== activeService)
@@ -26,22 +25,12 @@ const Services4 = () => {
       image: value.Services1.image,
     }));
 
-  /* ---------- DESKTOP WINDOW INDEX (MOVE 1 BY 1) ---------- */
+  /* ---------- DESKTOP INDEX (MOVE 1 BY 1) ---------- */
   const [startIndex, setStartIndex] = useState(0);
-  const maxIndex = services.length - VISIBLE_COUNT;
+  const maxIndex = Math.max(services.length - VISIBLE_COUNT, 0);
 
-  const prev = () => {
-    setStartIndex((i) => Math.max(i - 1, 0));
-  };
-
-  const next = () => {
-    setStartIndex((i) => Math.min(i + 1, maxIndex));
-  };
-
-  const visibleServices = services.slice(
-    startIndex,
-    startIndex + VISIBLE_COUNT
-  );
+  const prev = () => setStartIndex(i => Math.max(i - 1, 0));
+  const next = () => setStartIndex(i => Math.min(i + 1, maxIndex));
 
   return (
     <section className="w-full bg-white py-6 lg:py-10 mb-10">
@@ -56,7 +45,7 @@ const Services4 = () => {
             Other Services <span className="text-blue-600">We Offer</span>
           </h2>
 
-          {/* Desktop buttons */}
+          {/* DESKTOP BUTTONS */}
           <div className="hidden lg:flex gap-3">
             <button
               onClick={prev}
@@ -86,28 +75,45 @@ const Services4 = () => {
           </div>
         </div>
 
-        {/* ----------- MOBILE / SMALL SCREENS (SCROLL) ----------- */}
+        {/* ----------- MOBILE / SMALL SCREENS (NATIVE SCROLL) ----------- */}
         <div className="flex gap-6 overflow-x-auto no-scrollbar lg:hidden">
           {services.map((service) => (
             <ServiceCard
               key={service.key}
               service={service}
               mobile
-              onClick={() => setActiveService(service.key)}
+            // onClick={() => setActiveService(service.key)}
             />
           ))}
         </div>
 
-        {/* ----------- LARGE SCREENS (3-CARD WINDOW) ----------- */}
-        <div className="hidden lg:grid grid-cols-3 gap-6">
-          {visibleServices.map((service) => (
-            <ServiceCard
-              key={service.key}
-              service={service}
-              onClick={() => setActiveService(service.key)}
-            />
-          ))}
+        {/* ----------- LARGE SCREENS (BLOG-STYLE MOTION SLIDER) ----------- */}
+        <div className="hidden lg:block overflow-hidden mt-6">
+          <motion.div
+            className="flex"
+            animate={{
+              x: `calc(-${startIndex * (100 / VISIBLE_COUNT)}% - ${startIndex * CARD_GAP}px)`
+            }}
+            transition={{
+              type: "spring",
+              stiffness: 260,
+              damping: 30
+            }}
+          >
+            {services.map((service) => (
+              <div
+                key={service.key}
+                className="w-1/3 shrink-0 pr-6"
+              >
+                <ServiceCard
+                  service={service}
+                // onClick={() => setActiveService(service.key)}
+                />
+              </div>
+            ))}
+          </motion.div>
         </div>
+
       </div>
     </section>
   );
@@ -124,7 +130,7 @@ const ServiceCard = ({ service, onClick, mobile }) => {
 
   const toggle = (e) => {
     e.stopPropagation();
-    setOpen((prev) => !prev);
+    setOpen(prev => !prev);
   };
 
   return (
@@ -146,40 +152,38 @@ const ServiceCard = ({ service, onClick, mobile }) => {
         className="object-cover transition-transform duration-500 group-hover:scale-102"
         priority
       />
+      
 
       {/* GRADIENT */}
-      <div className="absolute inset-0 bg-linear-to-t from-black/85 via-black/40 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/95 via-black/45 to-transparent" />
 
       {/* CONTENT */}
-      <div className="absolute inset-x-0 bottom-0 p-5 pr-14 text-white z-10">
-        {/* TITLE */}
-        <h3 className="text-lg font-semibold leading-snug">
+      <div className="absolute inset-x-0 bottom-0 p-5 lg:p-7 pr-10 md:pr-15 text-white z-10 mb-4">
+        <h3 className="text-md md:text-lg lg:text-xl font-semibold ">
           {service.title}
         </h3>
 
-        {/* DESCRIPTION */}
         <div
           className={`
             transition-all duration-300 overflow-hidden
             ${open ? "max-h-40 mt-3 opacity-100" : "max-h-0 opacity-0"}
           `}
         >
-          <p className="text-xs md:text-sm text-gray-200 leading-relaxed">
+          <p className="text-xs xl:text-sm text-gray-200 leading-relaxed">
             {service.description}
           </p>
         </div>
       </div>
 
-      {/* ACTION BUTTON (ABOVE CONTENT) */}
+      {/* ACTION BUTTON */}
       <button
         onClick={toggle}
         className="
-          absolute bottom-5 right-5 z-20
-          w-9 h-9 rounded-full
+          absolute bottom-3 right-3 md:bottom-3 md:right-4 z-20
+          w-7 h-7 md:w-8 md:h-8 rounded-full
           bg-[#55B233] text-white
           flex items-center justify-center
-          transition-transform duration-200
-          hover:scale-110
+          transition-transform duration-200 hover:scale-110
         "
         aria-label={open ? "Collapse service details" : "Expand service details"}
       >
@@ -188,5 +192,3 @@ const ServiceCard = ({ service, onClick, mobile }) => {
     </div>
   );
 };
-
-

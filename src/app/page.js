@@ -15,24 +15,38 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen overflow-auto">
+    <main className="w-full min-h-screen overflow-auto overflow-x-hidden">
       <section>
         <BannerSection />
       </section>
-      <div className="p-3 w-full space-y-2">
+      <div className="w-full space-y-2 px-10 md:p-0">
+        <SlidingHeader title="Who we are" />
         <PartnerSection />
         <Trusted />
-        <div className="flex items-end justify-end p-0 m-0">
+        <div className="hidden md:flex items-end justify-end p-0 w-[88%] mt-7">
           <AiBtn />
         </div>
+        <SlidingHeader title="Our Services" />
+        <div className="h-13 md:hidden" />
         <TitleAndDescription />
         <CarouselAnimation />
-        <TitleAndDescription isSpanFirst={true} title="Digital Products" span="Enterprise-Ready" description="Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built
+        <div className="h-13 gap-5 flex flex-col" />
+        <div className="hidden md:block">
+          <TitleAndDescription isSpanFirst={true} title="Digital Products" span="Enterprise-Ready" description="Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built
       with modern technology,each product is crafted to deliver performance and long-term value across web and mobile platforms."/>
-        <EnterpriseProducts />
+          <EnterpriseProducts />
+        </div>
+        <div className="h-15 md:h-50 mt-2" />
         <TrustedBannerSection />
+        <div className="h-15 md:hidden mt-2" />
+        <SlidingHeader title="Industries" />
         <TitleAndDescription isSpanFirst={false} title="Solutions for" span="Every Industry" description=" NOWIT Sevice offers AI-powered digital transformation services that help businesses improve efficiency,automate operations" />
+        <div className="h-15 md:hidden mt-2" />
+
         <IndustryBtn />
+        <div className="h-13 md:block" />
+        <PartnerBanner />
+        <ClientCardComponent />
         <FaqSection />
 
       </div>

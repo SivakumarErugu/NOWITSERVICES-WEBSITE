@@ -168,7 +168,7 @@ const Header = () => {
 
                 {/* MOBILE MENU ICON */}
                 <button
-                    className="lg:hidden text-3xl"
+                    className="lg:hidden text-3xl text-gray-900"
                     onClick={() => setMobileOpen(true)}
                 >
                     <HiOutlineMenuAlt3 size={30} />
@@ -217,7 +217,7 @@ const Header = () => {
                     <div className="flex items-center justify-between px-4 h-16 border-b">
                         <Image src={nowitImg} alt="now it" className="w-25 md:w-30" />
                         <button onClick={() => setMobileOpen(false)} className="text-xl">
-                            <HiX />
+                            <HiX className="text-gray-900" />
                         </button>
                     </div>
 

@@ -183,17 +183,39 @@ export const SearchInput = ({
   );
 };
 
-export const CustomHeading = ({ title = "", span = "", description = "jhhg" }) => {
+export const CustomHeading = ({
+  title = "",
+  span = "",
+  description = "",
+  isSpanFirst = false,
+}) => {
   return (
-    <div className='h-[111px] self-center'>
-      <div className="flex">
-        <h1 className="text-[48px] ibmPlex-text font-bold">{title} <span className="text-[48px] ibmPlex-text font-bold text-[#0A66C2]">{span}</span></h1>
+    <div className="h-[111px] md:self-center px-5 md:px-10 flex flex-col gap-2 w-full ">
+
+      <div className="flex md:justify-center md:items-center text-center gap-2">
+        <h1 className="text-[23px] md:text-[48px] ibmPlex-text font-medium">
+
+          {isSpanFirst ? (
+            <>
+              <span className="text-[#0A66C2]">{span}</span> {title}
+            </>
+          ) : (
+            <>
+              {title} <span className="text-[#0A66C2]">{span}</span>
+            </>
+          )}
+
+        </h1>
+
         <SlidingHeader />
       </div>
-      <p className='ibm-text text-[20px] text-[#252525]'>{description}</p>
+
+      <p className="ibm-text text-[15px] md:text-[20px] text-[#252525] md:text-center">
+        {description}
+      </p>
     </div>
-  )
-}
+  );
+};
 
 
 

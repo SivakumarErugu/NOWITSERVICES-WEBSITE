@@ -1,6 +1,7 @@
 'use client'
 
 import { CustomHeading, ThemeBottomBorder2 } from '@/components/shared/UI-Elements/Custom-Elements'
+import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader'
 import React, { useState } from 'react'
 
 const List = [
@@ -52,21 +53,34 @@ const ChooseUs = () => {
   const [activeId, setActiveId] = useState(null)
 
   return (
-    <div className="w-full h-[850px] flex flex-col items-center mt-20">
+    <div className="w-[100%] md:h-[850px] flex flex-col items-center mt-20 mb-20">
       <CustomHeading
         title="Why"
         span="Choose Us"
         description="Helping brands succeed through smart and dependable technology."
-      />
 
-      <ul className="mt-12 grid grid-cols-4 gap-x-8 gap-y-12">
+      />
+      {/* {Desktop View} */}
+      <ul
+        className="
+    mt-12
+    flex flex-nowrap gap-6
+    hidden md:block
+    no-scrollbar
+    px-6
+    md:px-4
+    md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-12
+    md:overflow-visible
+  "
+      >
+
         {List.map((item) => {
           const isActive = activeId === item.id
 
           return (
             <li
               key={item.id}
-              className="w-[260px] h-[320px] [perspective:1200px]"
+              className="w-[210px] md:w-[260px] h-[320px] [perspective:1200px]"
               onMouseEnter={() => setActiveId(item.id)}
               onMouseLeave={() => setActiveId(null)}
             >
@@ -88,10 +102,11 @@ const ChooseUs = () => {
                     [backface-visibility:hidden]
                   "
                 >
-                  <h3 className="text-lg font-semibold leading-snug">
+                  <h3 className="text-[28px] font-medium leading-snug">
                     {item.title}
                   </h3>
-                  <ThemeBottomBorder2 />
+                  <SlidingHeader />
+                  {/* <ThemeBottomBorder2 /> */}
                 </div>
 
                 {/* BACK */}
@@ -115,8 +130,88 @@ const ChooseUs = () => {
           )
         })}
       </ul>
+
+      {/* mobile view */}
+      <div className='w-full overflow-auto scroll-invisible no-scrollbar'>
+
+        <ul
+          className="
+    md:hidden
+    flex flex-nowrap gap-4
+    overflow-x-auto overflow-y-hidden
+    scroll-smooth
+    px-5
+  scroll-invisible no-scrollbar
+  "
+        >
+
+          {List.map((item) => {
+            const isActive = activeId === item.id
+
+            return (
+              <li
+                key={item.id}
+                className="
+  w-[210px] md:w-[260px]
+  h-[291px]
+  flex-shrink-0
+  [perspective:1200px]
+"
+
+                onMouseEnter={() => setActiveId(item.id)}
+                onMouseLeave={() => setActiveId(null)}
+              >
+                {/* Flip Wrapper */}
+                <div
+                  className={`
+                  relative w-full h-full transition-transform duration-700
+                  [transform-style:preserve-3d]
+                  ${isActive ? '[transform:rotateY(180deg)]' : ''}
+                `}
+                >
+                  {/* FRONT */}
+                  <div
+                    className="
+                    absolute inset-0 rounded-md p-4
+                    bg-gradient-to-br from-[#081A5A] to-[#020C2D]
+                    text-white shadow-lg
+                    flex flex-col justify-center
+                    [backface-visibility:hidden]
+                   
+                  "
+                  >
+                    <h3 className="text-[18px] font-medium leading-tight">
+                      {item.title}
+                    </h3>
+                    <SlidingHeader />
+                    {/* <ThemeBottomBorder2 /> */}
+                  </div>
+
+                  {/* BACK */}
+                  <div
+                    className="
+                    absolute inset-0  p-6
+                    bg-gradient-to-br from-[#EAF6FF] via-[#D8EFFF] to-[#BFE5FF]
+                    text-[#0A2540] shadow-lg
+                    flex flex-col justify-center
+                    [transform:rotateY(180deg)]
+                    [backface-visibility:hidden]
+                    h-[291px] w-[210px]
+                    rounded-md
+                  "
+                  >
+                    <p className="text-sm leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
     </div>
   )
 }
-
 export default ChooseUs

@@ -17,7 +17,7 @@ const BusinessBanner = () => {
         relative w-full overflow-hidden
         px-8 py-8 md:px-10 lg:px-18 2xl:px-30 md:py-16
         flex flex-col items-center text-center
-        md:flex-row md:items-center md:justify-between md:text-left mb-15 
+        md:flex-row md:items-center md:justify-between md:text-left mb-8 md:mb-12 lg:mb-25 
       "
         >
             {/* BACKGROUND IMAGE ONLY */}
