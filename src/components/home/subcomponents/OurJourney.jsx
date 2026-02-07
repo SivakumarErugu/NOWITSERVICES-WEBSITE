@@ -1,7 +1,7 @@
 'use client'
 
 
-import React, { useRef, useState,useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 const List = [
   {
@@ -38,22 +38,22 @@ const OurJourney = () => {
       setScrolled(true);
     }
   };
-  
+
 
   return (
-    <section className="w-full flex flex-col items-center py-24 mt-0">
+    <section className="w-full flex flex-col items-center md:py-24 mt-0 px-5 md:px-10 lg:px-15">
       {/* Header */}
-      <div className="max-w-[900px] text-center mb-16">
-        <h1 className="font-bold text-[48px] text-[#1F2937]">
+      <div className="max-w-[900px] md:text-center mb-16">
+        <h1 className="font-medium text-[23px] md:text-[48px] text-[#1F2937] ibmPlex-text">
           Our <span className="text-[#0D5BD7]">Journey</span>
         </h1>
-        <p className="text-gray-600">
+        <p className="text-gray-600 ">
           Helping brands succeed through smart and dependable technology.
         </p>
       </div>
 
       {/* Timeline */}
-      <div className="w-full max-w-[1000px] flex gap-2">
+      <div className="w-full max-w-[1000px] flex ">
         {/* FIXED 20 */}
         <div className="sticky top-40 h-fit">
           <div className="flex items-start gap-2">
@@ -75,18 +75,24 @@ const OurJourney = () => {
                 <div
                   key={index}
                   className={`relative transition-all duration-500
-            ${scrolled ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
-          `}
+  ${index === 0
+                      ? "opacity-100 translate-y-0"
+                      : scrolled
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-6"
+                    }
+`}
+
                 >
                   {/* LEFT COLUMN */}
-                  <div className="relative w-[120px] flex flex-col">
+                  <div className="relative w-[120px] flex flex-col gap-2">
                     <span className="text-[#6CC24A] text-[72px] font-semibold leading-none">
                       {item.suffix}
                     </span>
 
                     {/* Dashed line logic */}
                     {!isLast && (
-                      <span className="h-[200px] border-l-[4px] border-dashed border-[#1F2937] translate-x-[25px]" />
+                      <span className="h-[180px] md:h-[200px] border-l-[4px] border-dashed border-[#1F2937] translate-x-[25px]" />
                     )}
 
                     {isLast && (
@@ -101,11 +107,14 @@ const OurJourney = () => {
                   <p
                     className="
               absolute
-              left-[140px]
-              top-[calc(72px+100px)]
+              text-[1
+              3px]
+              left-[50px]
+             md:left-[60px]
+              -translate-y-20  
               max-w-[600px]
               text-gray-700
-              text-[20px]
+              md:text-[20px]
               leading-relaxed
             "
                   >

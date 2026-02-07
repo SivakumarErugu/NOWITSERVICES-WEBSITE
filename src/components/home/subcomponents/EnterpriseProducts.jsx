@@ -94,7 +94,7 @@ const EnterpriseProducts = () => {
     );
 
     return (
-        <div className="w-full flex justify-between">
+        <div className="w-full flex justify-between ">
             <div className="w-[90%] flex justify-between px-10 ">
 
                 <div className="grid grid-cols-[auto_auto_48px_auto_1fr] items-start h-[353px]">

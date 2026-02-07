@@ -35,22 +35,21 @@ const FaqSection = () => {
     const [activeCard, setActiveCard] = useState(1)
 
     return (
-        <section className="w-full bg-[#E3F1FF] flex justify-center py-[96px]">
+        <section className="w-full bg-[#E3F1FF] flex py-[96px] hidden md:block px-7">
             <div className="w-[1270px] grid grid-cols-2 gap-[64px]">
-
                 {/* Left Content */}
-                <div className="flex flex-col gap-[32px]">
+                <div className="flex flex-col gap-[32px] justify-center items-center">
                     <div>
                         <p className="text-[14px] font-medium text-[#1F7AFC] tracking-wide mb-2">
                             FAQ’S
                         </p>
-                        <h2 className="text-[40px] leading-[48px] font-semibold text-[#0A2540] max-w-[420px]">
+                        <h2 className="text-[40px] leading-[48px] font-semibold text-[#0A2540] max-w-[420px] inmPlex-text">
                             Frequently Asked Questions
                         </h2>
                     </div>
 
-                    <div className="bg-white rounded-[16px] p-[32px] w-[532px] shadow-sm">
-                        <h3 className="text-[20px] font-semibold text-[#0A2540] mb-2">
+                    <div className="bg-white rounded-[16px] p-[32px] w-[532px] shadow-sm ml-20">
+                        <h3 className="text-[20px] font-medium text-[#0A2540] mb-2 ibmPlex-text">
                             Still have questions?
                         </h3>
                         <p className="text-[14px] text-[#4A5D73] leading-[22px] mb-6">
@@ -62,7 +61,7 @@ const FaqSection = () => {
                 </div>
 
                 {/* FAQ Accordion */}
-                <div className="flex flex-col gap-[16px]">
+                <div className="flex flex-col md:gap-[25px] lg:gap[25px] ">
                     {List.map((item) => {
                         const isActive = activeCard === item.id
 
