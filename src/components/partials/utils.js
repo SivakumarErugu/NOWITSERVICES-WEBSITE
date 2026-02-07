@@ -18,13 +18,13 @@ export const headerOptions = [
     { name: 'about us', label: 'About Us', link: '/aboutus', icon: '', options: [] },
     {
         name: 'services', label: 'Services', link: '/', icon: '', options: [
+            { name: 'smart marketing', label: 'Smart Marketing', link: '/', icon: <RiLightbulbFlashFill /> },
             { name: 'business launch', label: 'Business Launch', link: '/', icon: <LuBriefcaseBusiness /> },
             { name: 'professional services', label: 'Professional Services', link: '/', icon: <LiaHeadsetSolid /> },
             { name: 'migration', label: 'Migration', link: '/', icon: <TbDatabaseImport /> },
             { name: 'training services', label: 'Training Services', link: '/', icon: <MdOutlineModelTraining /> },
-            { name: 'smart marketing', label: 'Smart Marketing', link: '/', icon: <RiLightbulbFlashFill /> },
-            { name: 'messaging services', label: 'Messaging Services', link: '/', icon: <LuMessageCircleMore  /> },
-            { name: 'ip filing services', label: 'IP Filing Services', link: '/', icon: <BsGlobe2   /> },
+            { name: 'messaging services', label: 'Messaging Services', link: '/', icon: <LuMessageCircleMore /> },
+            { name: 'ip filing services', label: 'IP Filing Services', link: '/', icon: <BsGlobe2 /> },
         ]
     },
     { name: 'products', label: 'Products', link: '/products', icon: '', options: [] },

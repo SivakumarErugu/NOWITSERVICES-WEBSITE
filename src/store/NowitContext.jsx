@@ -8,7 +8,7 @@ const NowitContextProvider = ({ children }) => {
   const [activeTab, setActiveTab] = useState('home');
 
   // 👇 ADD THIS
-  const [activeService, setActiveService] = useState('business launch');
+  const [activeService, setActiveService] = useState('smart marketing');
 
   return (
     <NowitContext.Provider

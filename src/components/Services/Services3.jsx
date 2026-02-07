@@ -19,25 +19,25 @@ const slides = [
         image: Services3Image1,
     },
     {
-        title: "Client-Centric Approach",
-        desc: "We focus on building strong partnerships and delivering measurable business value.",
+        title: "Cross-Domain Learning & Certifications.",
+        desc: "Opportunities to learn across domains and gain industry-recognized certifications.",
         image: Services3Image2,
     },
     {
-        title: "Experienced Professionals",
-        desc: "Our team brings years of industry expertise and innovative thinking.",
+        title: "Global Project Exposure.",
+        desc: "Hands-on experience working with international clients and globally distributed teams.",
         image: Services3Image3,
     },
     {
-        title: "Scalable Digital Solutions",
-        desc: "Solutions designed to scale seamlessly with your business growth.",
+        title: "Rewards,Recognitions, And Leadership Mentorship.",
+        desc: "Opportunities to be recognized for your work while learning directly from experienced leaders.",
         image: Services3Image4,
     },
-    {
-        title: "Reliable Delivery",
-        desc: "On-time, transparent, and dependable execution you can trust.",
-        image: Services3Image5,
-    },
+    // {
+    //     title: "Reliable Delivery",
+    //     desc: "On-time, transparent, and dependable execution you can trust.",
+    //     image: Services3Image5,
+    // },
 ];
 
 const Services3 = () => {
@@ -57,7 +57,7 @@ const Services3 = () => {
 
                 {/* HEADER */}
                 <div className="mb-6">
-                    <SlidingHeader title="Why Choose Us" bottom="mb-2"/>
+                    <SlidingHeader title="Why Choose Us" bottom="mb-2" />
 
                     <h2 className=" text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
                         Built on <span className="text-[#0b5ed7]">Trust and Quality</span>
