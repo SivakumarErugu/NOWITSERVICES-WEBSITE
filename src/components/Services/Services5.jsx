@@ -5,6 +5,11 @@ import Image from "next/image"
 
 import Services5bg from "../../../public/images/ServicesImages/Services5bg.jpg"
 import Services5Image1 from "../../../public/images/ServicesImages/Services5Image1.jpg"
+import Services5Image2 from "../../../public/images/ServicesImages/Services5Image2.jpg"
+import Services5Image3 from "../../../public/images/ServicesImages/Services5Image3.jpg"
+import Services5Image4 from "../../../public/images/ServicesImages/Services5Image4.jpg"
+import Services5Image5 from "../../../public/images/ServicesImages/Services5Image5.jpg"
+import { image } from "framer-motion/client"
 
 const tabs = [
     "Discover",
@@ -20,26 +25,44 @@ const tabContent = {
         description: `We start by understanding the full scope of the business or product journey.
     This includes identifying objectives, analyzing requirements, understanding users,
     and defining a clear understanding of how the solution should evolve over time.`,
+        image: Services5Image1,
     },
     "Design & Architecture": {
         title: "Design & Architecture",
         description:
-            "We transform ideas into structured designs, defining system architecture, UI/UX flows, and scalable technical foundations.",
+            `Using insights from discovery, we design intuitive user experiences and
+             define a strong technical foundation. This stage ensures the solution is scalable,
+              secure, and flexible enough to support future enhancements and integrations.`,
+        image: Services5Image2,
+
     },
     Development: {
         title: "Development",
         description:
-            "Our team builds robust, secure, and high-performance solutions using modern technologies and best practices.",
+            `The solution is built through structured and agile development 
+                practices. We focus on implementing core functionalities,
+                 ensuring performance, reliability, and alignment with the defined architecture.`,
+        image: Services5Image3,
+
     },
     Deployment: {
         title: "Deployment",
         description:
-            "We ensure smooth deployment with proper testing, optimization, and monitoring for real-world performance.",
+            `Before going live, the solution is thoroughly tested to 
+            ensure stability and quality. Once validated, it is deployed 
+            into the production environment, making it ready for real-world use and operations.`,
+        image: Services5Image4,
+
     },
     "Continuous Evolution": {
         title: "Continuous Evolution",
         description:
-            "We continuously improve, optimize, and evolve the product based on feedback, analytics, and changing business needs.",
+            `Post-launch, we provide ongoing support, monitoring,
+            and improvements. As business needs grow, we introduce automation 
+            and AI-driven capabilities to optimize operations, enhance efficiency,
+             and enable long-term innovation.`,
+        image: Services5Image5,
+
     },
 }
 
@@ -57,7 +80,7 @@ const Services5 = () => {
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto">
                     <h2 className="text-xl md:text-4xl font-semibold">
-                        How We Deliver Smart Marketing
+                        How We Deliver
                     </h2>
                     <p className="mt-4 text-xs md:text-sm text-white/60 max-sm:text-left">
                         We guide your project through every stage, from ideation and design
@@ -84,7 +107,7 @@ const Services5 = () => {
                                 <button
                                     key={tab}
                                     onClick={() => setActiveTab(tab)}
-                                    className={`pb-1 md:pb-2 text-sm md:text-base transition-all duration-300 shrink-0 px-2
+                                    className={`pb-1 md:pb-2 text-sm md:text-base transition-all duration-300 shrink-0 px-2 cursor-pointer
           ${activeTab === tab
                                             ? "text-white border-b-2 border-white"
                                             : "text-white/60 hover:text-white"
@@ -104,7 +127,7 @@ const Services5 = () => {
                         {/* Image → 1 column */}
                         <div className="md:col-span-1 w-full">
                             <Image
-                                src={Services5Image1}
+                                src={tabContent[activeTab].image}
                                 alt="Service step image"
                                 className="rounded-lg w-full h-40 lg:h-50 object-cover"
                                 priority
