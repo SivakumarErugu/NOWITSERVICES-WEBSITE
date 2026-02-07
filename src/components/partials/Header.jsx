@@ -6,12 +6,12 @@ import { IoIosArrowDown } from "react-icons/io";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import { ThemeBtnTag, ThemeBottomBorder } from '../shared/UI-Elements/Custom-Elements';
 import nowitImg from "../../../public/nowit.png";
-import { NowitContext } from '../../store/NowitContext';
+import { useNowit } from '@/store/useNowit';
 import Image from 'next/image';
 import { useRouter } from "next/navigation";
 
 const Header = () => {
-    const { activeTab, setActiveTab } = useContext(NowitContext);
+    const { activeTab, setActiveTab, setActiveService } = useNowit();
 
     const closeTimer = useRef(null)
 
@@ -25,6 +25,21 @@ const Header = () => {
     const menuWrapperRef = useRef(null);
 
     const router = useRouter();
+
+    const clearCloseTimer = () => {
+        if (closeTimer.current) {
+            clearTimeout(closeTimer.current);
+            closeTimer.current = null;
+        }
+    };
+
+    const startCloseTimer = () => {
+        clearCloseTimer();
+        closeTimer.current = setTimeout(() => {
+            setOpenMenu(null);
+        }, 800); // smooth close
+    };
+
 
     /* ---------------- DESKTOP HANDLER ---------------- */
     const handleMenuClick = (item) => {
@@ -54,11 +69,15 @@ const Header = () => {
         setOpenMenu(item.name);
     };
 
-    const handleSubMenuItemClick = (link, itemName) => {
+    const handleSubMenuItemClick = (serviceName) => {
         setOpenMenu(null);
-        setActiveTab(itemName);
-        router.push(link);
+
+        setActiveTab('services');          // underline Services
+        setActiveService(serviceName);     // 👈 THIS IS KEY
+
+        router.push('/services');           // always same page
     };
+
 
     /* ---------------- MOBILE HANDLER ---------------- */
     const handleMobileNav = (item) => {
@@ -96,13 +115,17 @@ const Header = () => {
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, []);
 
+    const handleContactClick = () => {
+        router.push('/contactUs');
+    };
+
     return (
         <header className="relative w-full bg-linear-to-b from-[#E5EFF8] to-white z-50">
             {/* ================= TOP BAR ================= */}
             <div className="flex items-center justify-between px-4 lg:px-10 h-16">
 
                 {/* LOGO */}
-                <Image src={nowitImg} alt="now it" className="w-30 h-10" />
+                <Image src={nowitImg} alt="now it" className="w-25 md:w-30 md:h-10" />
 
                 {/* DESKTOP NAV */}
                 <ul className="hidden lg:flex gap-8">
@@ -111,17 +134,26 @@ const Header = () => {
                         const isOpen = openMenu === each.name;
 
                         return (
-                            <li key={i}
+                            <li
+                                key={i}
                                 className="relative"
-                                onMouseEnter={() => hasOptions && setOpenMenu(each.name)}
-                            // onMouseLeave={() => {
-                            //     if (hasOptions) {
-                            //         closeTimer.current = setTimeout(() => {
-                            //             setOpenMenu(null)
-                            //         }, 5000) // 👈 delay close
-                            //     }
-                            // }}
+                                onMouseEnter={() => {
+                                    if (!hasOptions) return;
+
+                                    clearCloseTimer(); // keep your existing logic
+
+                                    closeTimer.current = setTimeout(() => {
+                                        setOpenMenu(each.name);
+                                    }, 400); // ⏱ 1 second
+                                }}
+
+                                onMouseLeave={() => {
+                                    if (hasOptions) {
+                                        startCloseTimer();
+                                    }
+                                }}
                             >
+
                                 <button
                                     ref={(el) => (navRefs.current[each.name] = el)}
                                     type="button"
@@ -149,10 +181,14 @@ const Header = () => {
 
                 {/* DESKTOP CONTACT */}
                 <div className="hidden lg:block">
-                    <ThemeBtnTag styles="w-[150px] h-[32px] !font-medium !rounded-md">
+                    <ThemeBtnTag
+                        styles="w-[150px] h-[32px] !font-medium !rounded-md"
+                        onClick={handleContactClick}
+                    >
                         Contact Us
                     </ThemeBtnTag>
                 </div>
+
 
                 {/* MOBILE MENU ICON */}
                 <button
@@ -176,10 +212,12 @@ const Header = () => {
             {openMenu && (
                 <div
                     ref={menuWrapperRef}
-                    // Use top-16 to align perfectly with the h-16 header
-                    className="fixed inset-x-0 top-16 z-40 hidden lg:flex justify-center animate-in fade-in slide-in-from-top-2 duration-200 "
+                    className="fixed inset-x-0 top-16 z-40 hidden lg:flex justify-center animate-in fade-in slide-in-from-top-2 duration-200"
+                    onMouseEnter={clearCloseTimer}
+                    onMouseLeave={startCloseTimer}
                     onClick={(e) => e.stopPropagation()}
                 >
+
                     {/* Added a backdrop-blur or solid bg to ensure visibility */}
                     <div className="bg-white border border-gray-200 rounded-lg shadow-xl px-12 py-8  w-[90%] xl:w-[80%] max-w-7xl mx-auto">
                         <div className="grid grid-cols-4 gap-x-14 gap-y-10">
@@ -188,7 +226,7 @@ const Header = () => {
                                 ?.options.map((opt, idx) => (
                                     <button // Changed <a> to <button> for better event handling
                                         key={idx}
-                                        onClick={() => handleSubMenuItemClick(opt.link, openMenu)}
+                                        onClick={() => handleSubMenuItemClick(opt.name)}
                                         className="flex items-center gap-3 cursor-pointer text-left text-gray-700 hover:text-[#0A66C2] transition-colors"
                                     >
                                         {opt.icon && <span className="text-lg">{opt.icon}</span>}
@@ -199,18 +237,19 @@ const Header = () => {
                     </div>
                 </div>
             )}
+            
 
             {/* ================= MOBILE DRAWER ================= */}
             {mobileOpen && (
-                <div className="fixed inset-0 z-50 bg-white lg:hidden">
-                    <div className="flex items-center justify-between px-6 h-16 border-b">
-                        <Image src={nowitImg} alt="now it" className="w-22 md:w-24" />
+                <div className="fixed inset-0 z-50 bg-linear-to-b from-[#E5EFF8] to-white lg:hidden">
+                    <div className="flex items-center justify-between px-4 h-16 border-b">
+                        <Image src={nowitImg} alt="now it" className="w-25 md:w-30" />
                         <button onClick={() => setMobileOpen(false)} className="text-xl">
                             <HiX />
                         </button>
                     </div>
 
-                    <div className="p-6 space-y-4">
+                    <div className="p-6 px-8 space-y-4">
                         {headerOptions.map((item, i) => (
                             <div key={i}>
                                 <button
@@ -234,9 +273,13 @@ const Header = () => {
                                                 key={idx}
                                                 onClick={() => {
                                                     setMobileOpen(false);
-                                                    setActiveTab(item.name);
-                                                    router.push(opt.link);
+
+                                                    setActiveTab('services');
+                                                    setActiveService(opt.name);
+
+                                                    router.push('/services');
                                                 }}
+
                                                 className="cursor-pointer text-sm text-gray-600 hover:text-[#0A66C2]"
                                             >
                                                 {opt.label}
@@ -247,9 +290,16 @@ const Header = () => {
                             </div>
                         ))}
 
-                        <ThemeBtnTag styles="w-full h-[40px] mt-6 ">
+                        <ThemeBtnTag
+                            styles="w-full h-[40px] mt-6"
+                            onClick={() => {
+                                setMobileOpen(false);
+                                router.push('/contactUs');
+                            }}
+                        >
                             Contact Us
                         </ThemeBtnTag>
+
                     </div>
                 </div>
             )}
