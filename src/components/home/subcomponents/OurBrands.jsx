@@ -15,13 +15,14 @@ const OurBrands = () => {
           flex-col
           gap-[24px]
           h-auto
+
         "
       >
         <CustomHeading
           title="That Trust Us"
           span="Brands"
           description="Helping brands succeed through smart and dependable technology"
-          isSpanFist={true}
+          isSpanFirst={true}
         />
 
         {/* Brand Image */}
@@ -31,7 +32,15 @@ const OurBrands = () => {
             alt="Trusted brands"
             width={1451}
             height={180} // derived from design proportion
-            className="object-contain"
+            className="object-contain hidden md:block"
+            priority
+          />
+          <Image
+            src="https://res.cloudinary.com/dr9thittl/image/upload/v1770377461/d56c7c49447eeb51e18bc607463ebbaac90b7f59_1_tftywr.png"
+            alt="Trusted brands"
+            width={1451}
+            height={180} // derived from design proportion
+            className="object-contain  md:hidden"
             priority
           />
         </div>

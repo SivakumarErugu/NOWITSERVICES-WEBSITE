@@ -16,10 +16,10 @@ const TitleAndDescription = ({
             className="flex flex-col justify-center px-10 "
         >
             {/* Heading */}
-            <h1 className="ibmPlex-text font-bold text-[#1F2937] text-[48px] leading-tight">
+            <h1 className="ibmPlex-text font-Medium text-[#1F2937] text-[48px] leading-tight">
                 {isSpanFirst ? (
                     <>
-                        <span className="text-[#0D5BD7]">{span}</span>{" "}
+                        <span className="text-[#0D5BD7] ibmPlex-text">{span}</span>{" "}
                         {title}
                     </>
                 ) : (
@@ -29,7 +29,6 @@ const TitleAndDescription = ({
                     </>
                 )}
             </h1>
-
             {/* Description */}
             <p className="inter-text font-normal text-[20px] text-[#4B5563] mt-4 ">
                 {description}

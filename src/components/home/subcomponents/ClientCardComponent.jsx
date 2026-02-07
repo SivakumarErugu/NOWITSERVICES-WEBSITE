@@ -1,113 +1,9 @@
-// 'use client';
-
-// import React from "react";
-
-// const testimonials = [
-//     {
-//         name: "Rajesh Kumar",
-//         image: "https://i.pravatar.cc/150?img=3",
-//         text: "NowIT delivered exactly what we needed, on time and with strong attention to quality. The team was responsive, professional, and easy to work with throughout the project."
-//     },
-//     {
-//         name: "Ananya Sharma",
-//         image: "https://i.pravatar.cc/150?img=5",
-//         text: "They quickly understood our vision and turned it into a scalable product. The process was smooth, and the final outcome exceeded our expectations."
-//     },
-//     {
-//         name: "Vikram Rao",
-//         image: "https://i.pravatar.cc/150?img=8",
-//         text: "Their technical expertise and structured approach helped us build a reliable solution across web and mobile. We value them as a long-term partner."
-//     }
-// ];
-
-// const ClientCardComponent = () => {
-//     return (
-//         <section className="w-full px-10 py-24 bg-white">
-//             {/* Header */}
-//             <div className="max-w-[900px] mb-16">
-//                 <h1 className="font-bold text-[48px] text-[#1F2937]">
-//                     Building <span className="text-[#0D5BD7]">Trust</span> Through Results
-//                 </h1>
-//                 <p className="text-gray-600 mt-2 text-lg">
-//                     Real feedback from clients who've partnered with us to build reliable digital solutions.
-//                 </p>
-//             </div>
-
-//             {/* Cards */}
-//             <div className="flex justify-center gap-12">
-//                 {testimonials.map((item, index) => (
-//                     <div key={index} className="relative w-[364px] h-[419px]">
-
-//                         {/* Back dark card (REFERENCE MATCH) */}
-//                         <div className="
-//               absolute inset-0
-//               bg-[#0B1F33]
-//               rounded-[28px]
-//               rotate-[1.5deg]
-//               -translate-x-2
-//               -translate-y-2
-//             " />
-
-//                         {/* Green border */}
-//                         <div className="
-//               absolute inset-0
-//               rounded-[28px]
-//               bg-gradient-to-b
-//               from-[#C7F5B6]
-//               to-[#55B233]
-//               p-[2px]
-//             ">
-//                             {/* White card */}
-//                             <div className="
-//                 h-full w-full
-//                 rounded-[26px]
-//                 bg-white
-//                 flex flex-col
-//                 items-center
-//                 text-center
-//                 px-8
-//                 pt-8
-//                 pb-10
-//               ">
-//                                 {/* Avatar */}
-//                                 <img
-//                                     src={item.image}
-//                                     alt={item.name}
-//                                     className="w-20 h-20 rounded-full object-cover mb-4"
-//                                 />
-
-//                                 {/* Name */}
-//                                 <h3 className="font-bold text-[24px] text-[#1F2937]">
-//                                     {item.name}
-//                                 </h3>
-
-//                                 {/* Stars */}
-//                                 <div className="flex gap-1 my-3">
-//                                     {[...Array(5)].map((_, i) => (
-//                                         <span key={i} className="text-yellow-400 text-xl">★</span>
-//                                     ))}
-//                                 </div>
-
-//                                 {/* Text */}
-//                                 <p className="text-[#4B5563] text-[16px] leading-relaxed">
-//                                     "{item.text}"
-//                                 </p>
-//                             </div>
-//                         </div>
-
-//                     </div>
-//                 ))}
-//             </div>
-//         </section>
-//     );
-// };
-
-// export default ClientCardComponent;
 
 'use client';
 
 import React from "react";
 import Image from 'next/image'
+import { motion } from "framer-motion";
 
 const testimonials = [
     {
@@ -129,10 +25,10 @@ const testimonials = [
 
 const ClientCardComponent = () => {
     return (
-        <section className="w-full px-10 py-24 bg-white overflow-hidden">
+        <section className="w-full py-0  bg-white overflow-hidden mt-0 gap-0 md:mb-20">
             {/* Header */}
-            <div className="max-w-[900px] mb-16">
-                <h1 className="font-bold text-[48px] text-[#1F2937]">
+            <div className="max-w-[900px]  px-10">
+                <h1 className="font-medium  text-[22px] md:text-[48px] text-[#1F2937] ibmPlex-text">
                     Building <span className="text-[#0D5BD7]">Trust</span> Through Results
                 </h1>
                 <p className="text-gray-600 mt-2 text-lg">
@@ -140,69 +36,195 @@ const ClientCardComponent = () => {
                 </p>
             </div>
 
-            {/* Cards Container */}
-            <div className="flex justify-center gap-12 py-10">
+
+            {/* DESKTOP VIEW */}
+            {/* <div className="hidden md:flex justify-center gap-12 mt-16">
                 {testimonials.map((item, index) => (
-                    <div key={index} className="relative w-[364px] h-[419px] -rotate-[3deg]">
+                    <div
+                        key={index}
+                        className="relative w-[364px] h-[419px] flex-shrink-0"
+                    >
+                        
+                        <Image
+                            src="https://res.cloudinary.com/dr9thittl/image/upload/v1770445242/Group_2147209418_unesas.png"
+                            alt="Testimonial card frame"
+                            fill
+                            className="object-contain"
+                            quality={100}
+                        />
                         <div className="
-                            absolute inset-0
-                            bg-[#0B1F33]
-                            rounded-[28px]
-                            rotate-[1deg]
-                            -translate-x-3
-                            -translate-y-3
-                            -z-10
-                        " />
-                        {/* Main Card with Green Border */}
-                        <div className="
-                            absolute inset-0
-                            rounded-[28px]
-                            bg-gradient-to-b
-                            from-[#C7F5B6]
-                            to-[#55B233]
-                            p-[2px]
-                            shadow-xl
-                        ">
-                            <div className="
-                                h-full w-full
-                                rounded-[26px]
-                                bg-white
-                                flex flex-col
-                                items-center
-                                text-center
-                                px-8
-                                pt-8
-                                pb-10
-                            ">
+        absolute inset-0
+        flex flex-col items-center
+        text-center
+        px-10
+        pt-20
+        pb-14
+      ">
+                            <div className="w-[56px] h-[56px] rounded-full overflow-hidden mb-3">
                                 <Image
                                     src={item.image}
                                     alt={item.name}
-                                    width={80}
-                                    height={80}
-                                    className="rounded-full object-cover mb-4"
-                                    quality={100}
+                                    height={100}
+                                    width={100}
+                                    className="object-cover h-full w-full"
                                 />
+                            </div>
 
+                            <h3 className="font-semibold text-[16px] text-[#1F2937] inter-text">
+                                {item.name}
+                            </h3>
 
-                                <h3 className="font-bold text-[24px] text-[#1F2937]">
+                            <div className="flex gap-1 my-3">
+                                {[...Array(5)].map((_, i) => (
+                                    <span key={i} className="text-[#FACC15] text-xl">★</span>
+                                ))}
+                            </div>
+
+                            <p className="
+          text-[14px]
+          leading-relaxed
+          text-[#374151]
+          max-w-[260px]
+          inter-text
+        ">
+                                {item.text}
+                            </p>
+                        </div>
+                    </div>
+                ))}
+            </div> */}
+            <div className="hidden md:block overflow-hidden w-[99%] mt-16 px-20">
+                <motion.div
+                    className="flex gap-12"
+                    animate={{ x: ["0%", "-50%"] }}
+                    transition={{
+                        duration: 10,          // speed (increase = slower)
+                        ease: "linear",
+                        repeat: Infinity,
+                    }}
+                >
+                    {/* Duplicate list for seamless loop */}
+                    {[...testimonials,...testimonials].map((item, index) => (
+                        <div
+                            key={index}
+                            className="relative w-[364px] h-[419px] flex-shrink-0"
+                        >
+                            {/* CARD FRAME IMAGE */}
+                            <Image
+                                src="https://res.cloudinary.com/dr9thittl/image/upload/v1770445242/Group_2147209418_unesas.png"
+                                alt="Testimonial card frame"
+                                fill
+                                className="object-contain"
+                                quality={100}
+                            />
+
+                            {/* CONTENT */}
+                            <div className="absolute inset-0 flex flex-col items-center text-center px-10 pt-20 pb-14">
+                                <div className="w-[56px] h-[56px] rounded-full overflow-hidden mb-3">
+                                    <Image
+                                        src={item.image}
+                                        alt={item.name}
+                                        width={100}
+                                        height={100}
+                                        className="object-cover w-full h-full"
+                                    />
+                                </div>
+
+                                <h3 className="font-semibold text-[16px] text-[#1F2937] inter-text">
                                     {item.name}
                                 </h3>
 
                                 <div className="flex gap-1 my-3">
                                     {[...Array(5)].map((_, i) => (
-                                        <span key={i} className="text-yellow-400 text-xl">★</span>
+                                        <span key={i} className="text-[#FACC15] text-xl">★</span>
                                     ))}
                                 </div>
 
-                                <p className="text-[#4B5563] text-[16px] leading-relaxed italic">
-                                    "{item.text}"
+                                <p className="text-[14px] leading-relaxed text-[#374151] max-w-[260px] inter-text">
+                                    {item.text}
                                 </p>
                             </div>
                         </div>
-
-                    </div>
-                ))}
+                    ))}
+                </motion.div>
             </div>
+
+
+
+            {/* mobile view */}
+            <div className="md:hidden overflow-x-auto no-scrollbar">
+                <div className="flex flex-nowrap px-6">
+                    {testimonials.map((item, index) => (
+                        <div
+                            key={index}
+                            className={`
+          relative
+          w-[260px] h-[340px]
+          flex-shrink-0
+          p-2
+          ${index !== 0 ? "ml-10" : ""}
+          ${index % 2 === 0 ? "-rotate-2" : "rotate-2"}
+        `}
+                        >
+                            {/* CARD FRAME IMAGE */}
+                            <Image
+                                src="https://res.cloudinary.com/dr9thittl/image/upload/v1770445242/Group_2147209418_unesas.png"
+                                alt="Testimonial card frame"
+                                fill
+                                className="object-contain"
+                                quality={100}
+                            />
+
+                            {/* CONTENT OVERLAY */}
+                            <div className="
+          absolute inset-0
+          flex flex-col items-center
+          text-center
+          px-6
+          pt-14
+          pb-10
+          rotate-0
+        ">
+                                {/* Profile Image */}
+                                <div className="w-[50px] h-[50px] !rounded-full overflow-hidden mb-4 border-2">
+                                    <Image
+                                        src={item.image}
+                                        alt={item.name}
+                                        width={100}
+                                        height={100}
+                                        className="object-fill h-full w-full"
+                                    />
+                                </div>
+
+
+                                {/* Name */}
+                                <h3 className="font-semibold text-[13px] text-[#1F2937] inter-text">
+                                    {item.name}
+                                </h3>
+
+                                {/* Stars */}
+                                <div className="flex gap-1 my-2">
+                                    {[...Array(5)].map((_, i) => (
+                                        <span key={i} className="text-[#FACC15] text-lg">★</span>
+                                    ))}
+                                </div>
+
+                                {/* Testimonial */}
+                                <p className="
+            text-[12px]
+            leading-relaxed
+            text-[#374151]
+            max-w-[200px]
+            inter-text
+          ">
+                                    {item.text}
+                                </p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
         </section>
     );
 };
