@@ -33,9 +33,9 @@ const BannerSection = () => {
           Unleashing Business Potential Through
         </h1>
 
-        <h2 className="text-[22px] md:text-[56px] font-bold text-[#0b3154] mb-4 ibmPlex-text">
-          Intelligent Digital Transformation
-        </h2>
+                    <h1 className="text-[44px] md:text-[56px] font-bold text-[#0b3154] leading-tight mb-4 ibmPlex-text">
+                        Intelligent Digital Transformation
+                    </h1>
 
         <p className="text-[16px] md:text-[20px] max-w-2xl mx-auto mb-8 text-[#374151] ml-2">
           Enable businesses to grow faster with AI-powered automation,
