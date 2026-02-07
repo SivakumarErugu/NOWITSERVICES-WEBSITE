@@ -35,8 +35,6 @@ const ClientCardComponent = () => {
                     Real feedback from clients who've partnered with us to build reliable digital solutions.
                 </p>
             </div>
-
-
             {/* DESKTOP VIEW */}
             {/* <div className="hidden md:flex justify-center gap-12 mt-16">
                 {testimonials.map((item, index) => (
@@ -148,9 +146,6 @@ const ClientCardComponent = () => {
                     ))}
                 </motion.div>
             </div>
-
-
-
             {/* mobile view */}
             <div className="md:hidden overflow-x-auto no-scrollbar">
                 <div className="flex flex-nowrap px-6">
