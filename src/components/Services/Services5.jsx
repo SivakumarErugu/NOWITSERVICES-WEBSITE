@@ -71,7 +71,7 @@ const Services5 = () => {
 
     return (
         <section
-            className="w-full flex items-center justify-center bg-cover bg-center mb-15"
+            className="w-full flex items-center justify-center bg-cover bg-center mb-2 "
             style={{
                 backgroundImage: `url(${Services5bg.src})`,
             }}
