@@ -119,7 +119,7 @@ export default function ApplicationForm({ id, sysRole }) {
 
         >
             {({ setFieldValue, values, isSubmitting }) => (
-                <Form className="max-w-full my-5 bg-white p-8 rounded-lg border border-gray-300 space-y-10">
+                <Form className="max-w-full my-5 bg-white p-3 md:p-8 rounded-lg border border-gray-300 space-y-2 md:space-y-10">
 
                     {/* ================= PERSONAL INFORMATION ================= */}
                     <Section title="Personal Information">
@@ -132,12 +132,10 @@ export default function ApplicationForm({ id, sysRole }) {
                             <Input name="email" label="Email Address *" placeholder="john@example.com" />
                             <Input name="phone" label="Phone Number *" placeholder="+91 9876543210" />
                         </TwoCol>
-
-
                     </Section>
 
                     {/* ================= WORK EXPERIENCE ================= */}
-                    <div className="bg-blue-50 p-4 rounded-md">
+                    <div className="bg-blue-50 p-3 md:p-4 rounded-md">
                         <Section title="Work Experience">
                             <TwoCol>
 
@@ -196,7 +194,7 @@ export default function ApplicationForm({ id, sysRole }) {
                             type="submit"
                             disabled={isSubmitting}
                             className={`
-                            group relative overflow-hidden w-70 px-4 py-2
+                            group relative overflow-hidden w-100 md:w-70 px-4 py-2
                             text-white rounded-md flex items-center justify-center gap-x-2
                             transition
                             ${isSubmitting
@@ -226,8 +224,8 @@ export default function ApplicationForm({ id, sysRole }) {
 
 function Section({ title, children }) {
     return (
-        <div className="space-y-2">
-            <h2 className="text-lg font-semibold text-gray-800">{title}</h2>
+        <div className="space-y-1 md:space-y-2">
+            <h2 className="text-md md:text-lg font-semibold text-gray-800 ibmPlex-text">{title}</h2>
             {children}
         </div>
     );
@@ -244,7 +242,7 @@ function TwoCol({ children }) {
 function Input({ label, ...props }) {
     return (
         <div className="space-y-1 h-22 ">
-            {label && <label className={`text-sm text-gray-400 font-medium `}>{label}</label>}
+            {label && <label className={`text-xs md:text-sm text-gray-400 font-medium `}>{label}</label>}
             <Field
                 {...props}
                 className={`w-full text-black border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-1 focus:ring-blue-200 ${props.styles || ''}`}
@@ -261,7 +259,7 @@ function Input({ label, ...props }) {
 function Textarea({ label, ...props }) {
     return (
         <div className=" h-41">
-            {label && <label className="text-sm text-gray-400 font-medium">{label}</label>}
+            {label && <label className="text-xs md:text-sm text-gray-400 font-medium">{label}</label>}
             <Field
                 as="textarea"
                 rows="4"

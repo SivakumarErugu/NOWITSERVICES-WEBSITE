@@ -5,24 +5,21 @@ import { ThemeBottomBorder } from "@/components/shared/UI-Elements/Custom-Elemen
 const List = [
     {
         id: 1,
-        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770113478/d69614e615c4bc6e13926cc637a6db1241641d2f_guexhj.png",
+        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770632130/d69614e615c4bc6e13926cc637a6db1241641d2f_1_bopq4i.png",
     },
     {
         id: 2,
-        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770113485/3c0cb1e60db6916e63264087a2814face72373f4_dmhmr3.png",
+        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770632149/3c0cb1e60db6916e63264087a2814face72373f4_1_cr3cr7.png",
     },
     {
         id: 3,
-        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770113491/c5297dddfc8db6e6186bc60631b54f65b33423c0_l1djrj.png",
+        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770632154/c5297dddfc8db6e6186bc60631b54f65b33423c0_1_pjzcze.png",
     },
     {
         id: 4,
         url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770461654/1b8136a9a53027f1444cc4cd379566376efa7a6a_kg0pgg.png",
     },
-    {
-        id: 5,
-        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770113511/c12b69e9efd11b2db9a2a8bee1122d3fa56716d6_ncvq26.png",
-    },
+
 ];
 
 const TrustedBannerSection = () => {
@@ -41,7 +38,8 @@ const TrustedBannerSection = () => {
         flex
         items-center
         justify-center
-       border  !border-2
+        md:mt-10
+        pt-2
       "
         >
             {/* DARK OVERLAY */}
@@ -67,7 +65,7 @@ const TrustedBannerSection = () => {
                 <div className="w-full flex justify-center">
                     <ul
                         className="
-      grid grid-cols-3 gap-x-12 gap-y-10
+      grid gap-x-6 gap-y-5 md:gap-x-12 md:gap-y-10
       place-content-center place-items-center
       w-fit
       md:flex md:items-center md:justify-center md:gap-16
@@ -86,7 +84,7 @@ const TrustedBannerSection = () => {
                                     src={item.url}
                                     alt="trusted-logo"
                                     width={170}
-                                    height={170}
+                                    height={190}
                                     className="object-contain"
                                 />
                             </li>

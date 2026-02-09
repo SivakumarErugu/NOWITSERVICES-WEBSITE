@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useState } from 'react';
+import TitleAndDescription from '@/components/shared/UI-Elements/TitleAndDescription';
 const AppsList = [{
     id: 1,
     name: "WON Hubs",
@@ -37,41 +38,6 @@ const AppsList = [{
 },
 ]
 
-// const EnterpriseProducts = () => {
-//     const [hoveredIndex,setHoveredIndex]=useState(1)
-//     return (
-//         <div className='w-full h-[353px] grid grid-cols-2 px-10 '>
-//             <ul className="flex items-start gap-6 h-[353px]">
-
-//                 {AppsList.map((app) => (
-//                     <li
-//                         key={app.id}
-//                         className="w-[40px] h-[353px] flex items-start justify-center"
-//                     >
-
-//                         <div className='h-full w-[50px]
-//                 bg-gradient-to-r from-[#0A66C2] to-[#04192D]  flex items-center justify-center'>
-
-//                             <span
-//                                 className="
-//                   text-white font-semibold
-//                   -rotate-90
-//                   whitespace-nowrap
-//                 "
-//                             >
-//                                 {app.name}
-//                             </span>
-//                         </div>
-//                     </li>
-//                 ))}
-
-//             </ul>
-
-//         </div>
-//     )
-// }
-
-
 
 const EnterpriseProducts = () => {
     const [activeIndex, setActiveIndex] = useState(3);
@@ -94,58 +60,60 @@ const EnterpriseProducts = () => {
     );
 
     return (
-        <div className="w-full flex justify-between ">
-            <div className="w-[90%] flex justify-between px-10 ">
+        <div className='w-full flex flex-col gap-4 hidden md:block px-10'>
+            <TitleAndDescription isSpanFirst={true} title="Digital Products" span="Enterprise-Ready" description="Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built
+      with modern technology,each product is crafted to deliver performance and long-term value across web and mobile platforms."/>
+            <div className="w-full flex justify-between">
+                <div className="w-[90%] flex justify-between px-15">
 
-                <div className="grid grid-cols-[auto_auto_48px_auto_1fr] items-start h-[353px]">
+                    <div className="grid grid-cols-[auto_auto_48px_auto_1fr] items-start h-[353px]">
 
-                    {/* LEFT CYLINDERS */}
-                    <ul className="flex gap-6 h-[353px]">
-                        {leftList.map((app, i) => (
-                            <Cylinder key={app.id} app={app} index={i} />
-                        ))}
-                    </ul>
+                        {/* LEFT CYLINDERS */}
+                        <ul className="flex gap-6 h-[353px]">
+                            {leftList.map((app, i) => (
+                                <Cylinder key={app.id} app={app} index={i} />
+                            ))}
+                        </ul>
 
-                    {/* IMAGE + CENTER CYLINDER */}
-                    <div className="flex h-[353px] ml-4">
-                        <div className="w-[259px] h-[353px] relative overflow-hidden shadow-lg">
-                            <img src={activeApp.url} className="w-full h-full object-cover" />
-                            <div className="absolute bottom-0 h-[48px] w-full bg-[#5DBB2F] flex items-center justify-center">
-                                <span className="text-white font-semibold">{activeApp.name}</span>
+                        {/* IMAGE + CENTER CYLINDER */}
+                        <div className="flex h-[353px] ml-4">
+                            <div className="w-[259px] h-[353px] relative overflow-hidden shadow-lg">
+                                <img src={activeApp.url} className="w-full h-full object-cover" />
+                                <div className="absolute bottom-0 h-[48px] w-full bg-[#5DBB2F] flex items-center justify-center">
+                                    <span className="text-white font-semibold">{activeApp.name}</span>
+                                </div>
+                            </div>
+                            <div className=" w-[40px] h-full flex justify-center">
+                                <div className="w-[40px] h-full bg-gradient-to-r from-[#0A66C2] to-[#04192D] flex items-center justify-center">
+                                    <span className="text-white font-semibold -rotate-90 whitespace-nowrap">
+                                        {activeApp?.name}
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                        <div className=" w-[40px] h-full flex justify-center">
-                            <div className="w-[40px] h-full bg-gradient-to-r from-[#0A66C2] to-[#04192D] flex items-center justify-center">
-                                <span className="text-white font-semibold -rotate-90 whitespace-nowrap">
-                                    {activeApp?.name}
-                                </span>
-                            </div>
-                        </div>
+
+                        {/* EXACT DESIGN GAP */}
+                        <div className="w-[48px]" />
+                        {/* RIGHT CYLINDERS */}
+                        <ul className="flex gap-6 h-[353px]">
+                            {rightList.map((app, i) => (
+                                <Cylinder key={app.id} app={app} index={activeIndex + 1 + i} />
+                            ))}
+                        </ul>
                     </div>
 
-                    {/* EXACT DESIGN GAP */}
-                    <div className="w-[48px]" />
-                    {/* RIGHT CYLINDERS */}
-                    <ul className="flex gap-6 h-[353px]">
-                        {rightList.map((app, i) => (
-                            <Cylinder key={app.id} app={app} index={activeIndex + 1 + i} />
-                        ))}
-                    </ul>
+                    <div className="max-w-xl pl-10 flex flex-col justify-start pt-2 mt-10">
+                        <h3 className="text-[28px] font-semibold mb-4">{activeApp.name}</h3>
+                        <p className="text-gray-700 leading-relaxed mb-6">
+                            {activeApp.description}
+                        </p>
+                        <button className="bg-[#5DBB2F] text-white px-6 py-2 rounded-md w-fit">
+                            View Product
+                        </button>
+                    </div>
                 </div>
-                
-                <div className="max-w-xl pl-10 flex flex-col justify-start pt-2 mt-10">
-                    <h3 className="text-[28px] font-semibold mb-4">{activeApp.name}</h3>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                        {activeApp.description}
-                    </p>
-                    <button className="bg-[#5DBB2F] text-white px-6 py-2 rounded-md w-fit">
-                        View Product
-                    </button>
-                </div>
-
             </div>
         </div>
-
 
     );
 };
