@@ -5,10 +5,11 @@ import Services2 from '@/components/Services/Services2';
 import Services3 from '@/components/Services/Services3';
 import Services4 from '@/components/Services/Services4';
 import Services5 from '@/components/Services/Services5';
+import IndustrySection from '@/components/Services/IndustrySection';
 import BusinessBanner from '@/components/shared/UI-Elements/Business-Banner';
 
 export const metadata = {
-  title: "Service | NowIt"
+    title: "Service | NowIt"
 };
 
 
@@ -26,10 +27,13 @@ const Page = () => {
                 <Services3 />
             </section>
             <section>
-                <Services4/>
+                <Services4 />
             </section>
             <section>
-                <Services5/>
+                <Services5 />
+            </section>
+            <section>
+                <IndustrySection />
             </section>
             <section>
                 <BusinessBanner />

@@ -1,20 +1,27 @@
 import React from 'react'
-import { SearchInput, ThemeHeaderSideLine } from '../shared/UI-Elements/Custom-Elements'
+import { SearchInput } from '../shared/UI-Elements/Custom-Elements'
 import SlidingHeader from '../shared/UI-Elements/SlidingHeader';
 
-const BlogHeader = ({searchTerm,setSearchTerm}) => {
-
+const BlogHeader = ({ searchTerm, setSearchTerm }) => {
     return (
-        <div className='flex justify-between items-center'>
-            {/* Header */}
-            <SlidingHeader title="Our Articles" size="60px" />
+        <div className='w-full border-b border-dashed border-gray-300 py-6'>
+            <div className='flex flex-col gap-6 md:flex-row md:items-center md:justify-between'>
 
-            {/* Search */}
-            <SearchInput
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Search articles..."
-            />
+                {/* Header */}
+                <div className='w-full md:w-auto text-center md:text-left'>
+                    <SlidingHeader title="Our Articles" size="40px" />
+                </div>
+
+                {/* Search */}
+                <div className='w-full md:w-[350px]'>
+                    <SearchInput
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        placeholder="Search articles..."
+                    />
+                </div>
+
+            </div>
         </div>
     )
 }

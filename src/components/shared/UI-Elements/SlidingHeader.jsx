@@ -13,22 +13,22 @@ const SlidingHeader = ({
     const ref = useRef(null)
 
     const isInView = useInView(ref, {
-        once: true,                 // 🔥 animate only once
-        margin: '-50% 0px -10% 0px'  // 🔥 trigger when header reaches middle
+        once: true,
+        margin: '-20% 0px -10% 0px' // less aggressive trigger for mobile
     })
 
     return (
         <motion.div
             ref={ref}
-            initial={{ x: -200, opacity: 0 }}
+            initial={{ x: '-50px', opacity: 0 }} 
             animate={isInView ? { x: 0, opacity: 1 } : {}}
             transition={{
-                duration: 1.2,
-                ease: [0.19, 1, 0.22, 1], // smooth, premium feel
+                duration: 0.9,
+                ease: [0.19, 1, 0.22, 1],
             }}
-            className={`flex items-center gap-x-1 ${top} ${bottom}`}
+            className={`flex items-center gap-x-2 ${top} ${bottom}`}
         >
-            <h2 className="text-sm md:text-lg lg:text-xl font-semibold text-[#252525] inter-text">
+            <h2 className="text-base md:text-lg lg:text-xl font-semibold text-[#252525] inter-text">
                 {title || ''}
             </h2>
             <ThemeHeaderSideLine width={size} />
