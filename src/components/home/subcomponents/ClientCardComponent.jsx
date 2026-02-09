@@ -24,11 +24,13 @@ const testimonials = [
 ];
 
 const ClientCardComponent = () => {
+    const CARD_WIDTH = 280; // card + gap
+    const MOBILE_DURATION = 1.8; // faster speed
     return (
         <section className="w-full py-0  bg-white overflow-hidden mt-0 gap-0 md:mb-20">
             {/* Header */}
-            <div className="max-w-[900px]  px-10">
-                <h1 className="font-medium  text-[22px] md:text-[48px] text-[#1F2937] ibmPlex-text">
+            <div className="max-w-[900px]  px-5 md:px-10">
+                <h1 className=" font-bold md:font-medium text-[25px]  md:text-[48px] text-[#1F2937] ibmPlex-text">
                     Building <span className="text-[#0D5BD7]">Trust</span> Through Results
                 </h1>
                 <p className="text-gray-600 mt-2 text-lg">
@@ -36,61 +38,7 @@ const ClientCardComponent = () => {
                 </p>
             </div>
             {/* DESKTOP VIEW */}
-            {/* <div className="hidden md:flex justify-center gap-12 mt-16">
-                {testimonials.map((item, index) => (
-                    <div
-                        key={index}
-                        className="relative w-[364px] h-[419px] flex-shrink-0"
-                    >
-                        
-                        <Image
-                            src="https://res.cloudinary.com/dr9thittl/image/upload/v1770445242/Group_2147209418_unesas.png"
-                            alt="Testimonial card frame"
-                            fill
-                            className="object-contain"
-                            quality={100}
-                        />
-                        <div className="
-        absolute inset-0
-        flex flex-col items-center
-        text-center
-        px-10
-        pt-20
-        pb-14
-      ">
-                            <div className="w-[56px] h-[56px] rounded-full overflow-hidden mb-3">
-                                <Image
-                                    src={item.image}
-                                    alt={item.name}
-                                    height={100}
-                                    width={100}
-                                    className="object-cover h-full w-full"
-                                />
-                            </div>
 
-                            <h3 className="font-semibold text-[16px] text-[#1F2937] inter-text">
-                                {item.name}
-                            </h3>
-
-                            <div className="flex gap-1 my-3">
-                                {[...Array(5)].map((_, i) => (
-                                    <span key={i} className="text-[#FACC15] text-xl">★</span>
-                                ))}
-                            </div>
-
-                            <p className="
-          text-[14px]
-          leading-relaxed
-          text-[#374151]
-          max-w-[260px]
-          inter-text
-        ">
-                                {item.text}
-                            </p>
-                        </div>
-                    </div>
-                ))}
-            </div> */}
             <div className="hidden md:block overflow-hidden w-[99%] mt-16 px-20">
                 <motion.div
                     className="flex gap-12"
@@ -102,7 +50,7 @@ const ClientCardComponent = () => {
                     }}
                 >
                     {/* Duplicate list for seamless loop */}
-                    {[...testimonials,...testimonials].map((item, index) => (
+                    {[...testimonials, ...testimonials].map((item, index) => (
                         <div
                             key={index}
                             className="relative w-[364px] h-[419px] flex-shrink-0"
@@ -147,77 +95,69 @@ const ClientCardComponent = () => {
                 </motion.div>
             </div>
             {/* mobile view */}
-            <div className="md:hidden overflow-x-auto no-scrollbar">
-                <div className="flex flex-nowrap px-6">
+
+
+            <div className="md:hidden overflow-hidden w-full mt-10">
+                <motion.div
+                    className="flex"
+                    animate={{
+                        x: testimonials.map((_, i) => -i * CARD_WIDTH),
+                    }}
+                    transition={{
+                        duration: MOBILE_DURATION * testimonials.length,
+                        ease: "linear",
+                        repeat: Infinity,
+                    }}
+                    style={{ width: testimonials.length * CARD_WIDTH }}
+                >
                     {testimonials.map((item, index) => (
                         <div
                             key={index}
-                            className={`
+                            className="
           relative
           w-[260px] h-[340px]
+          mx-[10px]
           flex-shrink-0
-          p-2
-          ${index !== 0 ? "ml-10" : ""}
-          ${index % 2 === 0 ? "-rotate-2" : "rotate-2"}
-        `}
+          -rotate-2
+        "
                         >
-                            {/* CARD FRAME IMAGE */}
+                            {/* FRAME */}
                             <Image
                                 src="https://res.cloudinary.com/dr9thittl/image/upload/v1770445242/Group_2147209418_unesas.png"
                                 alt="Testimonial card frame"
                                 fill
                                 className="object-contain"
-                                quality={100}
                             />
 
-                            {/* CONTENT OVERLAY */}
-                            <div className="
-          absolute inset-0
-          flex flex-col items-center
-          text-center
-          px-6
-          pt-14
-          pb-10
-          rotate-0
-        ">
-                                {/* Profile Image */}
-                                <div className="w-[50px] h-[50px] !rounded-full overflow-hidden mb-4 border-2">
+                            {/* CONTENT */}
+                            <div className="absolute inset-0 flex flex-col items-center text-center px-6 pt-14 pb-10 rotate-0">
+                                <div className="w-[50px] h-[50px] rounded-full overflow-hidden mb-4 border-2">
                                     <Image
                                         src={item.image}
                                         alt={item.name}
                                         width={100}
                                         height={100}
-                                        className="object-fill h-full w-full"
+                                        className="object-cover w-full h-full"
                                     />
                                 </div>
 
-
-                                {/* Name */}
                                 <h3 className="font-semibold text-[13px] text-[#1F2937] inter-text">
                                     {item.name}
                                 </h3>
 
-                                {/* Stars */}
                                 <div className="flex gap-1 my-2">
                                     {[...Array(5)].map((_, i) => (
                                         <span key={i} className="text-[#FACC15] text-lg">★</span>
                                     ))}
                                 </div>
 
-                                {/* Testimonial */}
-                                <p className="
-            text-[12px]
-            leading-relaxed
-            text-[#374151]
-            max-w-[200px]
-            inter-text
-          ">
+                                <p className="text-[12px] leading-relaxed text-[#374151] max-w-[200px] inter-text">
                                     {item.text}
                                 </p>
                             </div>
                         </div>
                     ))}
-                </div>
+                </motion.div>
             </div>
 
         </section>

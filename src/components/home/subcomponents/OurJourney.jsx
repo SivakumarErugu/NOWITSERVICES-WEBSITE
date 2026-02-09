@@ -44,7 +44,7 @@ const OurJourney = () => {
     <section className="w-full flex flex-col items-center md:py-24 mt-0 px-5 md:px-10 lg:px-15">
       {/* Header */}
       <div className="max-w-[900px] md:text-center mb-16">
-        <h1 className="font-medium text-[23px] md:text-[48px] text-[#1F2937] ibmPlex-text">
+        <h1 className="md:font-medium text-[25px] font-bold md:text-[48px] text-[#1F2937] ibmPlex-text">
           Our <span className="text-[#0D5BD7]">Journey</span>
         </h1>
         <p className="text-gray-600 ">
@@ -65,12 +65,11 @@ const OurJourney = () => {
         <div
           ref={scrollRef}
           onScroll={handleScroll}
-          className="h-[226px] overflow-y-auto no-scrollbar pr-4 w-full"
+          className="h-[226px] overflow-y-auto no-scrollbar scrollbar-invisible pr-4 w-full"
         >
           <div className="flex flex-col gap-2 mt-5 pb-[40px] w-full">
             {List.map((item, index) => {
               const isLast = index === List.length - 1;
-
               return (
                 <div
                   key={index}
