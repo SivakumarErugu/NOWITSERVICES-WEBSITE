@@ -53,7 +53,7 @@ const Services3 = () => {
 
     return (
         <section className="w-full py-6 bg-white mb-10">
-            <div className="px-5 md:px-8 lg:px-12">
+            <div className="mx-auto px-5 md:px-8 lg:px-15">
 
                 {/* HEADER */}
                 <div className="mb-6">

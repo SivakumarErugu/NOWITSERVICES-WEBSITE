@@ -33,7 +33,7 @@ const Services4 = () => {
   const next = () => setStartIndex(i => Math.min(i + 1, maxIndex));
 
   return (
-    <section className="w-full bg-white py-6 lg:py-10 mb-10">
+    <section className="w-full bg-white py-6 lg:py-12 mb-8">
       <div className="mx-auto px-5 md:px-8 lg:px-15">
 
         {/* HEADER */}
