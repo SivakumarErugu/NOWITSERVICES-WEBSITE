@@ -5,12 +5,13 @@ import Image from "next/image";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { MdOutlineMailOutline } from "react-icons/md";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
-import Contactbg from "../../../public/images/ContactUsImages/Contactbg.jpg"
+import Contactbg from "../../../public/images/ContactUsImages/Contactbg.jpg";
 import { countryCodes } from "./utils";
 import { toast } from "sonner";
-
 /* ---------------- VALIDATION ---------------- */
 
 const validationSchema = Yup.object({
@@ -26,8 +27,9 @@ const validationSchema = Yup.object({
         .matches(/^[0-9]{10}$/, "Enter a valid 10-digit number")
         .required("Phone number is required"),
 
-    date: Yup.string()
-        .required("Preferred contact date is required"),
+    date: Yup.date()
+        .nullable()
+        .required("Preferred contact date & time is required"),
 
     message: Yup.string()
         .min(10, "Message must be at least 10 characters")
@@ -42,7 +44,10 @@ export default function ContactSection() {
         const formData = new FormData();
 
         Object.entries(values).forEach(([key, value]) => {
-            formData.append(key, value);
+            formData.append(
+                key,
+                value instanceof Date ? value.toISOString() : value
+            );
         });
 
         const res = await fetch("/api/contact-us", {
@@ -67,7 +72,7 @@ export default function ContactSection() {
             country: "IN",
             dialCode: "+91",
             phone: "",
-            date: "",
+            date: null,
             message: "",
         },
         validationSchema,
@@ -91,64 +96,66 @@ export default function ContactSection() {
 
     const errorText = "mt-1 text-xs text-red-400 pl-2";
 
-    function CountryCodeDropdown({ value, onChange }) {
-        const [open, setOpen] = useState(false);
-        const ref = useRef(null);
+   function CountryCodeDropdown({ value, onChange }) {
+    const [open, setOpen] = useState(false);
+    const ref = useRef(null);
 
-        const selected = countryCodes.find(c => c.code === value);
+    const selected =
+      countryCodes.find((c) => c.code === value) || countryCodes[0];
 
-        useEffect(() => {
-            const close = e => !ref.current?.contains(e.target) && setOpen(false);
-            document.addEventListener("mousedown", close);
-            return () => document.removeEventListener("mousedown", close);
-        }, []);
+    useEffect(() => {
+      const close = (e) =>
+        !ref.current?.contains(e.target) && setOpen(false);
+      document.addEventListener("mousedown", close);
+      return () => document.removeEventListener("mousedown", close);
+    }, []);
 
-        return (
-            <div ref={ref} className="relative">
-                <button
-                    type="button"
-                    onClick={() => setOpen(!open)}
-                    className="
-          h-10 px-3 flex items-center gap-2
-          bg-white/20 border border-white/30
-          rounded-l-md text-sm text-white
-          hover:bg-white/25 overflow-hidden
-        "
-                >
-                    <span>{selected.flag}</span>
-                    <span>{selected.dial}</span>
-                </button>
+    return (
+      <div ref={ref} className="relative">
+        <button
+          type="button"
+          onClick={() => setOpen(!open)}
+          className="
+            h-10 px-3 flex items-center gap-2
+            bg-white/20 border border-white/30
+            rounded-l-md text-sm text-white
+            hover:bg-white/25 overflow-hidden
+          "
+        >
+          <span>{selected?.flag}</span>
+          <span>{selected?.dial}</span>
+        </button>
 
-                {open && (
-                    <div className="
-          absolute z-50 mt-1 w-56 max-h-64 overflow-auto
-          bg-white/25 backdrop-blur border border-white/20
-          rounded-md shadow-lg slot-scroll pl-1 py-1
-        ">
-                        {countryCodes.map(c => (
-                            <button
-                                key={c.code}
-                                type="button"
-                                onClick={() => {
-                                    onChange(c);
-                                    setOpen(false);
-                                }}
-                                className="
-                w-full px-3 py-2 flex items-center gap-3
-                text-left text-sm text-white
-                hover:bg-white/10 rounded-sm
-              "
-                            >
-                                <span>{c.flag}</span>
-                                <span className="flex-1">{c.name}</span>
-                                <span>{c.dial}</span>
-                            </button>
-                        ))}
-                    </div>
-                )}
-            </div>
-        );
-    }
+        {open && (
+          <div className="
+            absolute z-50 mt-1 w-56 max-h-64 overflow-auto
+            bg-white/25 backdrop-blur border border-white/20
+            rounded-md shadow-lg slot-scroll pl-1 py-1
+          ">
+            {countryCodes.map((c) => (
+              <button
+                key={c.code}
+                type="button"
+                onClick={() => {
+                  onChange(c);
+                  setOpen(false);
+                }}
+                className="
+                  w-full px-3 py-2 flex items-center gap-3
+                  text-left text-sm text-white
+                  hover:bg-white/10 rounded-sm
+                "
+              >
+                <span>{c.flag}</span>
+                <span className="flex-1">{c.name}</span>
+                <span>{c.dial}</span>
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  }
 
 
 
@@ -195,7 +202,7 @@ export default function ContactSection() {
                         className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 md:gap-6"
                     >
                         {/* Name */}
-                        <div>
+                        <div className="h-23">
                             <label htmlFor="name" className="text-sm mb-1 block">
                                 Name *
                             </label>
@@ -214,7 +221,7 @@ export default function ContactSection() {
                         </div>
 
                         {/* Email */}
-                        <div>
+                        <div className="h-23">
                             <label htmlFor="email" className="text-sm mb-1 block">
                                 Email Id *
                             </label>
@@ -234,7 +241,7 @@ export default function ContactSection() {
                         </div>
 
                         {/* Whatsapp */}
-                        <div className="md:col-span-1">
+                        <div className="md:col-span-1 h-23">
                             <label className="text-sm mb-1 block">
                                 Whatsapp Number *
                             </label>
@@ -266,27 +273,32 @@ export default function ContactSection() {
                             )}
                         </div>
 
-                        {/* Date */}
-                        <div>
-                            <label htmlFor="date" className="text-sm mb-1 block">
-                                Preferred Contact Date *
+                        {/* DATE + TIME */}
+                        <div className="h-23 w-full">
+                            <label className="text-sm mb-1 block">
+                                Preferred Contact Date & Time *
                             </label>
-                            <input
-                                id="date"
-                                name="date"
-                                type="date"
-                                value={formik.values.date}
-                                onChange={formik.handleChange}
-                                onBlur={formik.handleBlur}
-                                className={`${inputBase} [color-scheme:dark] uppercase px-1`}
+
+                            <DatePicker
+                                selected={formik.values.date}
+                                onChange={(date) => formik.setFieldValue("date", date)}
+                                showTimeSelect
+                                timeFormat="HH:mm"
+                                timeIntervals={15}
+                                dateFormat="dd/MM/yyyy h:mm aa"
+                                placeholderText="Select date & time"
+                                className={`${inputBase} `}
+                                wrapperClassName="w-full"
+                                minDate={new Date()}
                             />
+
                             {formik.touched.date && formik.errors.date && (
                                 <p className={errorText}>{formik.errors.date}</p>
                             )}
                         </div>
 
                         {/* Message */}
-                        <div className="md:col-span-2">
+                        <div className="md:col-span-2 h-30">
                             <label htmlFor="message" className="text-sm mb-1 block">
                                 Message *
                             </label>

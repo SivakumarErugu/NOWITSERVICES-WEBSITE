@@ -52,17 +52,18 @@ const JobList = ({ searchTerm = "" }) => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full px-4 sm:px-6 lg:px-0">
+
       {/* Section Tabs */}
-      <div className="w-full flex gap-x-4 overflow-x-auto scroll-invisible">
+      <div className="w-full flex gap-3 sm:gap-4 overflow-x-auto pb-2 scrollbar-hide">
         {jobSections.map((section, i) => (
           <button
             key={i}
             onClick={() => handleSectionChange(section.name)}
-            className={`px-8 md:h-10 rounded-md uppercase font-medium transition-all border-2
-              ${selectedSection === section.name
+            className={`whitespace-nowrap px-5 sm:px-6 py-2 sm:h-10 rounded-md uppercase text-xs sm:text-sm font-medium transition-all border-2
+            ${selectedSection === section.name
                 ? "bg-green-600 border-green-600 text-white"
-                : "border-[#0A66C2B2] bg-white hover:bg-gray-200 text-gray-700"
+                : "border-[#0A66C2B2] bg-white hover:bg-gray-100 text-gray-700"
               }`}
           >
             {section.label}
@@ -71,45 +72,48 @@ const JobList = ({ searchTerm = "" }) => {
       </div>
 
       {/* Job Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-6 mb-10">
-        {fullyFilteredJobs.slice(0, visibleJobs).map((job, idx) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 mt-6 mb-10">
+        {fullyFilteredJobs.slice(0, visibleJobs).map((job) => (
           <div
             key={job.id}
-            className="h-84 md:h-105 flex flex-col border rounded-lg bg-linear-to-b from-[#04192D] to-[#0D5293] px-5 md:px-10 pt-12 pb-8"
+            className="flex flex-col border rounded-lg bg-gradient-to-b from-[#04192D] to-[#0D5293] px-5 sm:px-6 lg:px-8 pt-8 sm:pt-10 pb-6 sm:pb-8 min-h-[380px]"
           >
-            <div className="grow space-y-3 md:space-y-4">
-              <h3 className="text-[16px] md:text-2xl font-semibold text-white">{job.role}</h3>
+            <div className="grow space-y-3 sm:space-y-4">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-white">
+                {job.role}
+              </h3>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-2 sm:gap-3">
                 {job.skills.map((skill, ix) => (
                   <span
                     key={ix}
-                    className="px-4 py-1 text-sm rounded-md bg-[#E4F2FF3B] text-white"
+                    className="px-3 sm:px-4 py-1 text-xs sm:text-sm rounded-md bg-[#E4F2FF3B] text-white"
                   >
                     {skill}
                   </span>
                 ))}
               </div>
 
-              <p className="text-[12px] md:text-sm text-white/80 line-clamp-5 leading-relaxed">
+              <p className="text-xs sm:text-sm text-white/80 line-clamp-4 sm:line-clamp-5 leading-relaxed">
                 {job.description}
               </p>
 
-              <p className="text-sm text-white">
+              <p className="text-xs sm:text-sm text-white">
                 <span className="font-bold">Experience - </span>
                 {job.experience}
               </p>
             </div>
 
-            <div className="mt-auto flex justify-end">
+            {/* Apply Button */}
+            <div className="mt-auto pt-4 flex justify-end">
               <Link href={`careers/${job?.id}`}>
                 <button
                   type="button"
-                  className="group relative overflow-hidden px-4 h-10 md:h-11 bg-white text-[#252525DE] rounded-md font-medium flex items-center gap-x-2 cursor-pointer!"
+                  className="group relative overflow-hidden px-4 sm:px-5 h-9 sm:h-10 bg-white text-[#252525DE] rounded-md font-medium flex items-center gap-2"
                 >
-                  <span className="absolute inset-0 bg-[#55B233] scale-x-0 origin-left group-hover:scale-x-100 transition-transform"></span>
-                  <span className="relative flex items-center gap-x-2 group-hover:text-white ">
-                    Apply Now <GoArrowUpRight size={22} />
+                  <span className="absolute inset-0 bg-[#55B233] scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300"></span>
+                  <span className="relative flex items-center gap-2 group-hover:text-white transition-colors duration-300">
+                    Apply Now <GoArrowUpRight size={20} />
                   </span>
                 </button>
               </Link>
@@ -127,14 +131,14 @@ const JobList = ({ searchTerm = "" }) => {
 
       {/* View More */}
       {visibleJobs < fullyFilteredJobs.length && (
-        <div className="flex justify-center mt-8 hidden md:block" >
+        <div className="flex justify-center mt-8">
           <button
             type="button"
             onClick={handleViewMore}
-            className="group relative overflow-hidden w-70 px-4 py-2 bg-[#55B233] text-white rounded-md flex items-center justify-center gap-x-2 cursor-pointer!"
+            className="group relative overflow-hidden mb-5 w-full sm:w-64 md:w-72 px-4 py-2 bg-[#55B233] text-white rounded-md flex items-center justify-center gap-2"
           >
-            <span className="absolute inset-0 bg-[#0D5293] scale-x-0 origin-left group-hover:scale-x-100 transition-transform"></span>
-            <span className="relative flex items-center gap-x-1 ">
+            <span className="absolute inset-0 bg-[#0D5293] scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300"></span>
+            <span className="relative flex items-center gap-1">
               View More <IoIosArrowRoundForward size={22} />
             </span>
           </button>
@@ -142,6 +146,7 @@ const JobList = ({ searchTerm = "" }) => {
       )}
     </div>
   );
+
 };
 
 export default JobList;

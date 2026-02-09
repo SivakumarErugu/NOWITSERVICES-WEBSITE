@@ -15,6 +15,9 @@ const NowitContextProvider = ({ children }) => {
     return localStorage.getItem("nowit_active_service") || "business launch";
   });
 
+  const [openChat, setChatOpen] = useState(false);
+
+
   // Persist changes
   useEffect(() => {
     localStorage.setItem("nowit_active_tab", activeTab);
@@ -31,6 +34,8 @@ const NowitContextProvider = ({ children }) => {
         setActiveTab,
         activeService,
         setActiveService,
+        openChat,
+        setChatOpen
       }}
     >
       {children}

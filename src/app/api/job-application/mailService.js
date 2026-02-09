@@ -212,6 +212,19 @@ export const sendContactUsMail = async (data) => {
       fullPhone,
     } = data;
 
+    const formattedDate = preferredDate
+      ? new Date(preferredDate).toLocaleString("en-IN", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+        hour: "numeric",
+        minute: "2-digit",
+        hour12: true,
+        timeZone: "Asia/Kolkata",
+      })
+      : "Not provided";
+
+
     /* ---------------- ADMIN EMAIL ---------------- */
 
     const adminMail = {
@@ -225,7 +238,7 @@ export const sendContactUsMail = async (data) => {
           <tr><td><b>Email</b></td><td>${email}</td></tr>
           <tr><td><b>Phone</b></td><td>${fullPhone}</td></tr>
           <tr><td><b>Country</b></td><td>${country}</td></tr>
-          <tr><td><b>Preferred Date</b></td><td>${preferredDate}</td></tr>
+          <tr><td><b>Preferred Date</b></td><td>${formattedDate}</td></tr>
           <tr><td><b>Message</b></td><td>${message}</td></tr>
         </table>
       `,

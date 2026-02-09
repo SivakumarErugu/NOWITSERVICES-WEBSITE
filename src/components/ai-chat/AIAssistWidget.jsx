@@ -1,16 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useContext, useState } from "react";
 import AIAssistButton from "./AIAssistBtn";
 import ChatWindow from "./ChatWindow";
+import { useNowit } from "@/store/useNowit";
 
 export default function AIAssistWidget() {
-    const [open, setOpen] = useState(false);
+    const {openChat,setChatOpen} = useNowit()
 
     return (
         <>
-            {open && <ChatWindow onClose={() => setOpen(false)} />}
-            <AIAssistButton onClick={() => setOpen((v) => !v)} />
+            {openChat && <ChatWindow onClose={() => setChatOpen(false)} />}
+            <AIAssistButton onClick={() => setChatOpen((v) => !v)} />
         </>
     );
 }
