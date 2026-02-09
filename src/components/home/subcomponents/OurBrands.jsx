@@ -4,6 +4,7 @@ import { CustomHeading } from '@/components/shared/UI-Elements/Custom-Elements'
 import Image from 'next/image'
 import React from 'react'
 
+
 const OurBrands = () => {
   return (
     <section className="w-full flex justify-center">
@@ -15,7 +16,6 @@ const OurBrands = () => {
           flex-col
           gap-[24px]
           h-auto
-
         "
       >
         <CustomHeading

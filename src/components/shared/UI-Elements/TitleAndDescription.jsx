@@ -16,7 +16,7 @@ const TitleAndDescription = ({
             className="flex flex-col justify-center px-5 md:px-10 "
         >
             {/* Heading */}
-            <h1 className="ibmPlex-text text-[25px] font-bold  md:font-Medium text-[#1F2937] md:text-[48px] leading-[31px] tracking-[2.33px] md:leading-tight md:tracking-normal">
+            <h1 className="ibmPlex-text text-[25px] font-bold  md:font-medium text-[#1F2937] md:text-[48px] leading-[31px] tracking-[2.33px] md:leading-tight md:tracking-normal">
                 {isSpanFirst ? (
                     <>
                         <span className="text-[#0D5BD7] ibmPlex-text">{span}</span>{" "}

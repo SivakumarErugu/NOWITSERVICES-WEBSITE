@@ -106,14 +106,13 @@ const OurJourney = () => {
                   <p
                     className="
               absolute
-              text-[1
-              3px]
+              text-[10px]
               left-[50px]
              md:left-[60px]
               -translate-y-20  
               max-w-[600px]
               text-gray-700
-              md:text-[20px]
+              md:text-[19px]
               leading-relaxed
             "
                   >

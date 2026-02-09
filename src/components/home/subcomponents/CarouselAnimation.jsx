@@ -107,9 +107,9 @@ const ServicesHero = () => {
 
     return (
         <>
-            {/* ================= DESKTOP VIEW ================= */}
+           
             <div
-                className="relative h-[658px] p-6 mb-3 hidden md:block"
+                className=" h-[658px] p-6 mb-3 hidden md:block"
                 onMouseEnter={() => {
                     setHasStarted(true);
                     setIsHovering(true);

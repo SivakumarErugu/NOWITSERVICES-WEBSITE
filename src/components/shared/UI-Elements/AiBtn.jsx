@@ -2,16 +2,14 @@ import React from "react";
 
 const AiBtn = () => {
   return (
+    <div className="hidden md:flex items-end justify-end p-0 w-[88%] mt-7">
     <button className="relative w-[222px] h-[61px] rounded-[57px] p-[3px] bg-gradient-to-r from-[#87CE6D] to-[#174F88] self-end">
-      
       {/* White inner pill */}
       <div className="flex items-center  gap-2 h-full w-full rounded-[54px] bg-white justify-center">
-        
         {/* Text */}
         <span className="text-[#174F88] font-medium whitespace-nowrap">
           Talk To AI
         </span>
-
         {/* Icon Circle */}
         <div className="flex items-center justify-center w-[40px] h-[40px] rounded-full bg-gradient-to-r from-[#87CE6D] to-[#174F88] shrink-0">
           <img
@@ -23,6 +21,7 @@ const AiBtn = () => {
 
       </div>
     </button>
+    </div>
   );
 };
 
