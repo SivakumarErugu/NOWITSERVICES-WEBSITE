@@ -59,35 +59,51 @@ const List = [{
 const ServicesHero = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isHovering, setIsHovering] = useState(false);
-    const [hasStarted,setHasStarted]=useState(false);
+    const [hasStarted, setHasStarted] = useState(false);
+
+    // useEffect(() => {
+    //     if (!isHovering) return;
+
+    //     const interval = setInterval(() => {
+    //         setCurrentIndex((prev) =>
+    //             prev === List.length - 1 ? 0 : prev + 1
+    //         );
+    //     }, 1000);
+
+    //     return () => clearInterval(interval);
+    // }, [isHovering]);
+
+    // useEffect(() => {
+    //     if (!hasStarted) return;
+    //     const interval = setInterval(() => {
+    //         setCurrentIndex((prev) =>
+    //             prev === List.length - 1 ? 0 : prev + 1
+    //         );
+    //     }, 1000);
+    //     return () => clearInterval(interval);
+    // }, [hasStarted]);
+    const currentItem = List[currentIndex];
+    // for Pausing the slide 
+    const INTERVAL_TIME = 3000; // 3 sec per slide
+    const HOVER_DELAY = 2500;  // 2.5 sec pause for reading
 
     useEffect(() => {
-        if (!isHovering) return;
-
-        const interval = setInterval(() => {
-            setCurrentIndex((prev) =>
-                prev === List.length - 1 ? 0 : prev + 1
-            );
-        }, 1000);
-
-        return () => clearInterval(interval);
-    }, [isHovering]);
-
- useEffect(() => {
         if (!hasStarted) return;
+        if (isHovering) return;
+        if (currentIndex === List.length - 1) return; // STOP at last slide
 
         const interval = setInterval(() => {
-            setCurrentIndex((prev) =>
-                prev === List.length - 1 ? 0 : prev + 1
-            );
-        }, 1000);
+            setCurrentIndex((prev) => {
+                if (prev === List.length - 1) {
+                    clearInterval(interval);
+                    return prev;
+                }
+                return prev + 1;
+            });
+        }, INTERVAL_TIME);
 
         return () => clearInterval(interval);
-    }, [hasStarted]);
-
-
-
-    const currentItem = List[currentIndex];
+    }, [hasStarted, isHovering, currentIndex]);
 
     return (
         <>
@@ -95,12 +111,15 @@ const ServicesHero = () => {
             <div
                 className="relative h-[658px] p-6 mb-3 hidden md:block"
                 onMouseEnter={() => {
-                    if (!hasStarted) {
-                        setHasStarted(true);
-                    }
+                    setHasStarted(true);
+                    setIsHovering(true);
+                }}
+                onMouseLeave={() => {
+                    setTimeout(() => {
+                        setIsHovering(false);
+                    }, HOVER_DELAY);
                 }}
             >
-
                 <div className="relative h-full w-full overflow-hidden rounded-lg">
                     {/* Background */}
                     <img
@@ -112,13 +131,11 @@ const ServicesHero = () => {
 
                     {/* CONTENT GRID */}
                     <div className="relative z-10 grid grid-cols-3 h-full text-white items-center">
-
                         {/* LEFT */}
                         <div className="flex flex-col justify-between py-16 px-10 h-[90%]">
                             <h2 className="text-[36px] font-medium ibmPlex-text">
                                 {currentItem.name}
                             </h2>
-
                             <span className="text-[72px] font-bold opacity-90 praise-text">
                                 {currentItem.id}
                             </span>

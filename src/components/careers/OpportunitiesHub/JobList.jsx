@@ -54,12 +54,12 @@ const JobList = ({ searchTerm = "" }) => {
   return (
     <div className="w-full">
       {/* Section Tabs */}
-      <div className="w-full flex gap-x-4">
+      <div className="w-full flex gap-x-4 overflow-x-auto scroll-invisible">
         {jobSections.map((section, i) => (
           <button
             key={i}
             onClick={() => handleSectionChange(section.name)}
-            className={`px-8 h-10 rounded-md uppercase font-medium transition-all border-2
+            className={`px-8 md:h-10 rounded-md uppercase font-medium transition-all border-2
               ${selectedSection === section.name
                 ? "bg-green-600 border-green-600 text-white"
                 : "border-[#0A66C2B2] bg-white hover:bg-gray-200 text-gray-700"
@@ -71,14 +71,14 @@ const JobList = ({ searchTerm = "" }) => {
       </div>
 
       {/* Job Cards */}
-      <div className="grid grid-cols-3 gap-7 mt-6 mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-6 mb-10">
         {fullyFilteredJobs.slice(0, visibleJobs).map((job, idx) => (
           <div
             key={job.id}
-            className="h-105 flex flex-col border rounded-lg bg-linear-to-b from-[#04192D] to-[#0D5293] px-10 pt-12 pb-8"
+            className="h-84 md:h-105 flex flex-col border rounded-lg bg-linear-to-b from-[#04192D] to-[#0D5293] px-5 md:px-10 pt-12 pb-8"
           >
-            <div className="grow space-y-4">
-              <h3 className="text-2xl font-semibold text-white">{job.role}</h3>
+            <div className="grow space-y-3 md:space-y-4">
+              <h3 className="text-[16px] md:text-2xl font-semibold text-white">{job.role}</h3>
 
               <div className="flex flex-wrap gap-3">
                 {job.skills.map((skill, ix) => (
@@ -91,7 +91,7 @@ const JobList = ({ searchTerm = "" }) => {
                 ))}
               </div>
 
-              <p className="text-sm text-white/80 line-clamp-5 leading-relaxed">
+              <p className="text-[12px] md:text-sm text-white/80 line-clamp-5 leading-relaxed">
                 {job.description}
               </p>
 
@@ -105,7 +105,7 @@ const JobList = ({ searchTerm = "" }) => {
               <Link href={`careers/${job?.id}`}>
                 <button
                   type="button"
-                  className="group relative overflow-hidden px-4 h-11 bg-white text-[#252525DE] rounded-md font-medium flex items-center gap-x-2 cursor-pointer!"
+                  className="group relative overflow-hidden px-4 h-10 md:h-11 bg-white text-[#252525DE] rounded-md font-medium flex items-center gap-x-2 cursor-pointer!"
                 >
                   <span className="absolute inset-0 bg-[#55B233] scale-x-0 origin-left group-hover:scale-x-100 transition-transform"></span>
                   <span className="relative flex items-center gap-x-2 group-hover:text-white ">
@@ -127,7 +127,7 @@ const JobList = ({ searchTerm = "" }) => {
 
       {/* View More */}
       {visibleJobs < fullyFilteredJobs.length && (
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-8 hidden md:block" >
           <button
             type="button"
             onClick={handleViewMore}

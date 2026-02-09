@@ -193,7 +193,7 @@ export const CustomHeading = ({
     <div className="h-[111px] md:self-center px-5 md:px-10 flex flex-col gap-2 w-full ">
 
       <div className="flex md:justify-center md:items-center text-center gap-2">
-        <h1 className="text-[23px] md:text-[48px] ibmPlex-text font-medium">
+        <h1 className="text-[25px] md:text-[48px] ibmPlex-text font-bold md:font-medium">
 
           {isSpanFirst ? (
             <>

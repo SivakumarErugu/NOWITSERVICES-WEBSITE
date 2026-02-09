@@ -10,52 +10,52 @@ import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
 
 const CareerVisualMessageBlock = () => {
   return (
-    <section className="w-1/2 flex flex-col items-center justify-center py-16 ">
-      <div className="max-w-6xl text-center ibmPlex-text font-semibold leading-relaxed ">
+    <section className="w-[100%] md:w-1/2 flex flex-col md:items-center md:justify-center md:py-16 md:px-10 px-2">
+      <div className="md:max-w-6xl text-center ibmPlex-text font-semibold leading-relaxed">
         {/* Line 1 */}
-        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 text-[64px]">
+        <div className="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-4 gap-y-3 md:text-[64px] text-[38px]">
           <span className="text-career-gradient">Calling</span>
           <Image
             src={careerCall1}
             alt="Career Callout"
-            className="rounded-full object-cover h-18 w-55"
+            className="rounded-full object-cover h-12 w-25 md:h-18 md:w-55"
           />
           <span className="text-career-gradient">all</span>
         </div>
 
         {/* Line 2 */}
-        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 text-[64px] mt-4">
+        <div className="flex flex-wrap items-center justify-center md:gap-x-2 md:gap-x-4 gap-y-3 md:text-[64px] mt-4 text-[38px]">
           <Image
             src={careerCall2}
             alt="Career Callout"
-            className="rounded-full object-cover h-18 w-30"
+            className="rounded-full object-cover h:10 w-20 md:h-18 md:w-30"
           />
           <span className="text-career-gradient">innovators</span>
         </div>
 
         {/* Line 3 */}
-        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 text-[64px] mt-4">
+        <div className="flex flex-wrap md:items-center md:justify-center gap-x-2 md:gap-x-4 gap-y-3 md:text-[64px] mt-4 text-[35px]">
           <span className="text-career-gradient">Ready to</span>
           <Image
             src={careerCall3}
             alt="Career Callout"
-            className="rounded-full object-cover h-18 w-55"
+            className="rounded-full object-cover h-14 w-25 md:h-18 md:w-55"
           />
           <span className="text-career-gradient">Build</span>
         </div>
 
         {/* Line 4 */}
-        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 text-[64px] mt-4">
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 md:text-[64px] mt-4 text-[38px]">
           <span className="text-career-gradient">the Future</span>
           <Image
             src={careerCall4}
             alt="Career Callout"
-            className="rounded-full object-cover h-18 w-30"
+            className="rounded-full object-cover h-12 w-15 md:h-18 md:w-30"
           />
         </div>
       </div>
 
-      <p className="text-lg text-center text-[#25252580] mt-10">
+      <p className="text-[10px] md:text-lg text-center text-[#25252580] mt-10">
         We’re always looking for talented individuals who are passionate about
         technology, innovation, and creating meaningful impact. Join a team
         where your ideas matter and your growth is supported.
@@ -64,7 +64,7 @@ const CareerVisualMessageBlock = () => {
       <div className="mt-10 relative flex flex-col items-center">
         <ThemeBtnTag
           BtnText="View Open Roles"
-          styles="h-11 w-76 rounded-xl! bg-[#50B136]"
+          styles="h-11 w-50 md:w-76  md:rounded-xl! bg-[#50B136]"
         />
 
         {/* The Arrow SVG - Positioned Absolute to the right of the button */}

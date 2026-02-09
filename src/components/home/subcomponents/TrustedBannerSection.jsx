@@ -17,7 +17,7 @@ const List = [
     },
     {
         id: 4,
-        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770113503/1b8136a9a53027f1444cc4cd379566376efa7a6a_g4llln.png",
+        url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770461654/1b8136a9a53027f1444cc4cd379566376efa7a6a_kg0pgg.png",
     },
     {
         id: 5,
@@ -31,6 +31,7 @@ const TrustedBannerSection = () => {
             className="
         relative
         h-[463px]
+        w-[100%]
         md:w-full
        md:h-[577px]
         bg-[url('https://res.cloudinary.com/dr9thittl/image/upload/v1770112947/7a674011e1fdea2559ccd610d4230ccde99ebbce_yoafno.png')]
@@ -40,6 +41,7 @@ const TrustedBannerSection = () => {
         flex
         items-center
         justify-center
+       border  !border-2
       "
         >
             {/* DARK OVERLAY */}
@@ -62,33 +64,6 @@ const TrustedBannerSection = () => {
                 </div>
 
 
-                {/* <ul
-                    className="
-    grid grid-cols-3 gap-6 place-content-center place-items-center
-    md:flex md:items-center md:justify-between
-    w-full max-w-[1100px]
-  "
-                >
-                    {List.map((item, index) => (
-                        <li
-                            key={item.id}
-                            className={`
-        flex items-center justify-center opacity-90
-        ${index === 3 ? "col-start-2" : ""}
-        ${index === 4 ? "col-start-3" : ""}
-      `}
-                        >
-                            <Image
-                                src={item.url}
-                                alt="trusted-logo"
-                                width={160}
-                                height={60}
-                                className="object-contain"
-                            />
-                        </li>
-                    ))}
-                </ul> */}
-
                 <div className="w-full flex justify-center">
                     <ul
                         className="
@@ -110,8 +85,8 @@ const TrustedBannerSection = () => {
                                 <Image
                                     src={item.url}
                                     alt="trusted-logo"
-                                    width={140}
-                                    height={60}
+                                    width={170}
+                                    height={170}
                                     className="object-contain"
                                 />
                             </li>

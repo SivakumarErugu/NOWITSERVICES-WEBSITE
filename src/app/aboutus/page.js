@@ -5,7 +5,6 @@ import OurJourney from "@/components/home/subcomponents/OurJourney";
 import OurProjects from "@/components/home/subcomponents/OurProjects";
 import OurVision from "@/components/home/subcomponents/ourVision";
 import Technology from "@/components/home/subcomponents/Technology";
-
 import PartnerBanner from "@/components/shared/UI-Elements/Partner-Banner";
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 
@@ -14,6 +13,7 @@ export default function AboutUs() {
   return (
     <main className="w-full min-h-screen overflow-auto space-y-2 overflow-x-hidden">
       <Technology />
+      <div className='h-10 md:hidden'/>
       <OurVision />
       <div className='h-10 md:hidden' />
       <OurJourney />

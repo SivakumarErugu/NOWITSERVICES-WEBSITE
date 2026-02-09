@@ -17,7 +17,7 @@ export default function Home() {
       <section>
         <BannerSection />
       </section>
-      <div className="w-full space-y-2 px-10 md:p-0">
+      <div className="w-full space-y-2 md:px-10 md:p-0">
         <SlidingHeader title="Who we are" />
         <PartnerSection />
         <Trusted />
@@ -25,7 +25,7 @@ export default function Home() {
           <AiBtn />
         </div>
         <SlidingHeader title="Our Services" />
-        <div className="h-13 md:hidden" />
+        <div className="h-30 md:hidden" />
         <TitleAndDescription />
         <CarouselAnimation />
         <div className="h-13 gap-5 flex flex-col" />
@@ -40,7 +40,6 @@ export default function Home() {
         <SlidingHeader title="Industries" />
         <TitleAndDescription isSpanFirst={false} title="Solutions for" span="Every Industry" description=" NOWIT Sevice offers AI-powered digital transformation services that help businesses improve efficiency,automate operations" />
         <div className="h-15 md:hidden mt-2" />
-
         <IndustryBtn />
         <div className="h-13 md:block" />
         <PartnerBanner />
