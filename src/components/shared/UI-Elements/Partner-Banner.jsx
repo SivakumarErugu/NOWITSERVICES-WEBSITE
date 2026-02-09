@@ -2,12 +2,13 @@
 
 import React from "react";
 import Image from "next/image";
-import { ThemeBtnTag } from "../../shared/UI-Elements/Custom-Elements";
+import { ThemeBtnTag, ThemeLinkTag } from "../../shared/UI-Elements/Custom-Elements";
 
 /* Images */
 import partnerBanner1 from "../../../../public/images/PartnerBannerImages/partnerBanner1.png";
 import partnerBanner2 from "../../../../public/images/PartnerBannerImages/partnerBanner2.png";
 import partnerBannerBg from "../../../../public/images/PartnerBannerImages/partnerBannerBg.jpg";
+import Link from "next/link";
 
 const PartnerBanner = () => {
     return (
@@ -90,7 +91,8 @@ const PartnerBanner = () => {
 
                 {/* MOBILE + MD BUTTON */}
                 <div className="mt-8 md:hidden flex justify-center">
-                    <ThemeBtnTag
+                    <ThemeLinkTag
+                        href="/become-a-partner"
                         BtnText="Become a Partner"
                         styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                     />
@@ -99,7 +101,8 @@ const PartnerBanner = () => {
 
             {/* LG+ CTA */}
             <div className="relative z-10 shrink-0 hidden md:block">
-                <ThemeBtnTag
+                <ThemeLinkTag
+                    href="/become-a-partner"
                     BtnText="Become a Partner"
                     styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                 />

@@ -99,6 +99,63 @@ export const ThemeBtnTag2 = ({
   </button>
 );
 
+export const ThemeLinkTag = ({
+  BtnText,
+  children,
+  href = "/",
+  styles = "",
+  loading = false,
+  disabled = false,
+  onClick,
+}) => {
+  const isDisabled = loading || disabled;
+
+  return (
+    <Link
+      href={isDisabled ? "#" : href}
+      onClick={(e) => {
+        if (isDisabled) {
+          e.preventDefault();
+          return;
+        }
+        onClick && onClick(e);
+      }}
+      className={`
+        relative overflow-hidden
+        h-9 min-w-20 px-6 rounded-xl border font-semibold
+        inline-flex justify-center items-center
+        bg-[#55B233] text-white
+        group
+        ${isDisabled ? "opacity-50 pointer-events-none cursor-not-allowed" : "cursor-pointer"}
+        ${styles}
+      `}
+    >
+      {/* Gradient curtain */}
+      <span
+        className="
+          absolute inset-0
+          bg-linear-to-r from-[#0A66C2] to-[#05305C]
+          transform scale-x-0 origin-left
+          transition-transform duration-1000 ease-in-out
+          group-hover:scale-x-100
+        "
+      />
+
+      {/* Content */}
+      <span className="relative z-10 flex items-center">
+        {loading ? (
+          <div className="animate-spin w-5 h-5 border-2 border-t-white border-white/40 rounded-full"></div>
+        ) : (
+          <>
+            {children && <span className="mr-1">{children}</span>}
+            <span>{BtnText}</span>
+          </>
+        )}
+      </span>
+    </Link>
+  );
+};
+
 
 export const ThemeBottomBorder = ({ width = "70%", bottom = "1px", left = "0px" }) => {
   return (

@@ -6,12 +6,15 @@ import ChatWindow from "./ChatWindow";
 import { useNowit } from "@/store/useNowit";
 
 export default function AIAssistWidget() {
-    const {openChat,setChatOpen} = useNowit()
+    const { openChat, setChatOpen } = useNowit()
 
     return (
         <>
             {openChat && <ChatWindow onClose={() => setChatOpen(false)} />}
-            <AIAssistButton onClick={() => setChatOpen((v) => !v)} />
+            {!openChat &&
+
+                <AIAssistButton onClick={() => setChatOpen((v) => !v)} />
+            }
         </>
     );
 }
