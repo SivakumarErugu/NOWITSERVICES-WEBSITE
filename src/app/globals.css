@@ -117,10 +117,11 @@ body {
 
 .slot-scroll::-webkit-scrollbar-thumb:hover {
   background-color: #343a40;
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 .perspective-container {
@@ -151,4 +152,48 @@ body {
 .slot-scroll::-webkit-scrollbar-thumb:hover {
   background-color: #343a40;
 }
+/* getted 2 by below 4 adfter acheived delete it  */
+/* @keyframes flow-forward {
+  from {
+    stroke-dashoffset: 0;
+  }
 
+  to {
+    stroke-dashoffset: -1;
+  }
+}
+
+@keyframes flow-backward {
+  from {
+    stroke-dashoffset: -1;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.flow-bar {
+  stroke-dasharray: 0.32 1;
+  /* single long bar */
+  /* animation: flow-forward 4.5s linear infinite;
+}
+
+.flow-bar--reverse {
+  stroke-dasharray: 0.32 1;
+  animation: flow-backward 4.5s linear infinite;
+} */
+
+@keyframes flow {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -1;
+  }
+}
+
+.flow-bar {
+  stroke-dasharray: 0.3 1;
+  animation: flow 4.5s linear infinite;
+}
