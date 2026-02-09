@@ -1,5 +1,7 @@
 'use client';
 import React from "react";
+import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
+import TitleAndDescription from "@/components/shared/UI-Elements/TitleAndDescription";
 
 /* ================= DATA ================= */
 const INDUSTRIES = [

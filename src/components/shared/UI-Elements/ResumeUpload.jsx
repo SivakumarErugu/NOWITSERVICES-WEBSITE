@@ -82,14 +82,14 @@ export default function ResumeUpload({ setFieldValue, value }) {
             </div>
           </div>
 
-          <p className="font-medium text-gray-800">
+          <p className="text-sm md:font-medium text-gray-800">
             Drag your resume here or{" "}
             <span className="text-green-600 font-semibold">
               click to upload
             </span>
           </p>
 
-          <p className="text-sm text-gray-500 mt-1">
+          <p className="text-xs md:text-sm text-gray-500 mt-1">
             Acceptable file types: PDF, DOCX (5MB max)
           </p>
         </>
