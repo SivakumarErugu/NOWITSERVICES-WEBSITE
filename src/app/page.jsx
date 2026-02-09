@@ -7,7 +7,7 @@ import CarouselAnimation from "@/components/home/subcomponents/CarouselAnimation
 import EnterpriseProducts from "@/components/home/subcomponents/EnterpriseProducts";
 import TrustedBannerSection from "@/components/home/subcomponents/TrustedBannerSection";
 import IndustryBtn from "@/components/home/subcomponents/IndustryBtn";
-import FaqSection from "@/components/home/subcomponents/FaqSection"; 
+import FaqSection from "@/components/home/subcomponents/FaqSection";
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 import PartnerBanner from "@/components/shared/UI-Elements/Partner-Banner";
 import ClientCardComponent from "@/components/home/subcomponents/ClientCardComponent";
@@ -22,7 +22,7 @@ export default function Home() {
       <section>
         <BannerSection />
       </section>
-      <div className="w-full space-y-2 md:px-10 md:p-0">
+      <div className="w-full space-y-2 px-10">
         <SlidingHeader title="Who we are" />
         <PartnerSection />
         <Trusted />
