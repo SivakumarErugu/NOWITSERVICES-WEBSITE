@@ -1,6 +1,8 @@
+'use client';
 import React from "react";
 
-const List = [
+/* ================= DATA ================= */
+const INDUSTRIES = [
     "Healthcare",
     "Education",
     "Finance & Banking",
@@ -15,75 +17,119 @@ const List = [
     "Automotive",
 ];
 
-/* ================= Pill ================= */
-const Pill = ({ label, isMobile }) => {
+/* ================= PILL ================= */
+const Pill = ({ label }) => {
     return (
-        <span
+        <div
             className="
-    w-[238px] h-[41px]
-    rounded-[23px]
-    p-[2px]
-    bg-gradient-to-b from-[#87CE6D] to-[#174F88]
-    
-    flex items-center justify-center
-  "
+        shrink-0
+        w-42 h-8
+        sm:w-47 sm:h-9
+        lg:w-52 lg:h-9
+        rounded-full
+        p-0.5
+        bg-linear-to-b from-[#87CE6D] to-[#174F88]
+      "
         >
-            <span
-                className={`
-      w-full h-full
-      rounded-[21px]
-      bg-white
-      flex items-center justify-center
-      text-[#4E8F6A]
-      font-semibold
-      text-[14px]
-      whitespace-nowrap
-      ${isMobile ? "p-4" : "p-0"}
-      ${isMobile ? "px-7" : "px-0"}
-
-    `}
+            <div
+                className="
+          w-full h-full
+          rounded-full
+          bg-white
+          flex items-center justify-center
+          text-[#4E8F6A]
+          font-semibold
+          text-[11px]
+          sm:text-[12px]
+          lg:text-[13px]
+          whitespace-nowrap
+        "
             >
                 {label}
-            </span>
-        </span>
-
+            </div>
+        </div>
     );
 };
 
 /* ================= IndustryBtn ================= */
 const IndustryBtn = () => {
     return (
-        <div className="w-full flex justify-center">
+        <div className="w-full mt-4">
 
-            {/* ================= MOBILE (horizontal scroll) ================= */}
-            <div className="flex gap-6 overflow-x-auto px-4 py-3 md:hidden scroll-invisible">
-                {List.map((item) => (
-                    <Pill key={item} label={item} isMobile={true} />
+            {/* ================= MOBILE + TABLET ================= */}
+            <div
+                className="
+          flex gap-3
+          overflow-x-auto
+          px-4 py-2
+          lg:hidden
+          scrollbar-hide
+        "
+            >
+                {INDUSTRIES.map((item) => (
+                    <Pill key={item} label={item} />
                 ))}
             </div>
 
-            {/* ================= DESKTOP (manual 5–4–3 layout) ================= */}
-            <div className="hidden md:flex flex-col gap-y-5 w-[1270px] h-[201px] justify-center">
-                {/* Row 1 – 5 pills */}
-                <div className="flex justify-between">
-                    {List.slice(0, 5).map((item) => (
+            {/* ================= LG SCREENS (4 / 3 / 2 / 1) ================= */}
+            <div className="hidden lg:flex xl:hidden flex-col items-center gap-y-7">
+
+                {/* Row 1 – 4 */}
+                <div className="flex gap-x-6">
+                    {INDUSTRIES.slice(0, 4).map((item) => (
                         <Pill key={item} label={item} />
                     ))}
                 </div>
-                {/* Row 2 – 4 pills (centered) */}
-                <div className="flex justify-between mx-[110px]">
-                    {List.slice(5, 9).map((item) => (
+
+                {/* Row 2 – 3 */}
+                <div className="flex gap-x-6">
+                    {INDUSTRIES.slice(4, 7).map((item) => (
                         <Pill key={item} label={item} />
                     ))}
                 </div>
-                {/* Row 3 – 3 pills (centered more) */}
-                <div className="flex justify-between mx-[280px] gap-3">
-                    {List.slice(9, 12).map((item) => (
+
+                {/* Row 3 – 2 */}
+                <div className="flex gap-x-6">
+                    {INDUSTRIES.slice(7, 9).map((item) => (
+                        <Pill key={item} label={item} />
+                    ))}
+                </div>
+
+                {/* Row 4 – 1 */}
+                <div className="flex gap-x-6">
+                    {INDUSTRIES.slice(9, 10).map((item) => (
                         <Pill key={item} label={item} />
                     ))}
                 </div>
 
             </div>
+
+            {/* ================= XL SCREENS (5 / 4 / 3) ================= */}
+            <div className="hidden xl:flex flex-col items-center gap-y-7">
+
+                {/* Row 1 – 5 */}
+                <div className="flex gap-x-6">
+                    {INDUSTRIES.slice(0, 5).map((item) => (
+                        <Pill key={item} label={item} />
+                    ))}
+                </div>
+
+                {/* Row 2 – 4 */}
+                <div className="flex gap-x-6">
+                    {INDUSTRIES.slice(5, 9).map((item) => (
+                        <Pill key={item} label={item} />
+                    ))}
+                </div>
+
+                {/* Row 3 – 3 */}
+                <div className="flex gap-x-6">
+                    {INDUSTRIES.slice(9, 12).map((item) => (
+                        <Pill key={item} label={item} />
+                    ))}
+                </div>
+
+            </div>
+
         </div>
     );
 };

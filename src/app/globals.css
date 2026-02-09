@@ -152,3 +152,34 @@ body {
   background-color: #343a40;
 }
 
+@keyframes infinityFlow {
+  0% {
+    stroke-dashoffset: 0;
+    opacity: 0.3;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    stroke-dashoffset: -1100;
+    opacity: 0.3;
+  }
+}
+
+.infinity-flow {
+  animation: infinityFlow 3.8s linear infinite;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
