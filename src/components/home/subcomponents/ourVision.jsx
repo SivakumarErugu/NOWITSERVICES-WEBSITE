@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const OurVision = () => {
   return (
@@ -9,7 +10,7 @@ const OurVision = () => {
       {/* FRAME (1240 × 473.68) */}
       <div className="w-[1240px]  h-[296px] md:h-[473.68px] flex items-center gap-[80px]">
         {/* LEFT IMAGE CONTAINER */}
-        <div className="relative w-[553px] h-full flex-shrink-0 hidden md:block">
+        {/* <div className="relative w-[553px] h-full flex-shrink-0 hidden md:block">
           <Image
             src="https://res.cloudinary.com/dr9thittl/image/upload/v1770287040/bfb628225dff059e7d9d021d1fe45747607647eb_qwybfe.png"
             alt="Our Vision"
@@ -17,14 +18,28 @@ const OurVision = () => {
             className="object-cover rounded-[28px]"
             priority
           />
-        </div>
+        </div> */}
+        <motion.div
+          className="relative w-[553px] h-[474px] hidden md:block  overflow-hidden"
+          initial={{ x: -120, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
+        >
+          <Image
+            src="https://res.cloudinary.com/dr9thittl/image/upload/v1770464743/Gemini_Generated_Image_bt8mj1bt8mj1bt8m_infnis.png"
+            alt="Our Vision"
+            fill
+            className="object-cover"
+            priority
+          />
+        </motion.div>
 
         {/* RIGHT CONTENT */}
         <div className="flex flex-col w-full md:max-w-[607px]  bg-[#EAF3FF] md:bg-transparent p-5">
 
           {/* Heading */}
           <div className="flex items-center gap-4 mb-6">
-            <h2 className="ibmPlex-text text-[20px] font-medium md:text-[48px] text-[#1F2937]">
+            <h2 className="ibmPlex-text text-[25px] font-bold md:font-medium md:text-[48px] text-[#1F2937]">
               Our <span className="text-[#0D5BD7]">Vision</span>
             </h2>
             <span className="w-[56px] h-[2px] bg-[#22C55E] mt-3" />
