@@ -8,6 +8,10 @@ import Technology from "@/components/home/subcomponents/Technology";
 import PartnerBanner from "@/components/shared/UI-Elements/Partner-Banner";
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 
+export const metadata = {
+  title: "About Us | NowIt"
+};
+
 
 export default function AboutUs() {
   return (

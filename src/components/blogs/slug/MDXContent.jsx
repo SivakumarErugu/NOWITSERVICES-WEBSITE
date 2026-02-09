@@ -3,6 +3,7 @@ import React from "react";
 import Callout from "./Callout";
 import BenefitItem from "./BenefitItem";
 import Takeaways from "./Takeaways";
+import Highlight from "./Highlight";
 
 const components = {
   h1: (props) => (
@@ -59,6 +60,8 @@ const components = {
   Callout,
   BenefitItem,
   Takeaways,
+  Highlight,
+
 };
 
 export default function MDXContent({ source }) {

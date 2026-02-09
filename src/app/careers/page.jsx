@@ -6,6 +6,10 @@ import CareerVisualMessageBlock from '@/components/careers/CareerVisualMessageBl
 import JoinusBanner from '@/components/careers/JoinusBanner';
 import Opportunities from '@/components/careers/Opportunities';
 
+export const metadata = {
+  title: "Careers | NowIt"
+};
+
 const Page = () => {
     return (
         <main className="relative w-full bg-white ">

@@ -249,3 +249,35 @@ export const ReadBlogBtn = ({ href }) => {
     </Link>
   );
 };
+
+export const NextBtn = ({ label, onClickBtn = {} }) => {
+  return (
+    <button
+      type="button"
+      onClick={onClickBtn}
+      className="
+        relative overflow-hidden
+        h-10 min-w-20 px-6 rounded-lg border border-gray-400 
+        inline-flex justify-center items-center
+        bg-white text-[#252525DE]
+        group
+      "
+    >
+      {/* Gradient curtain */}
+      <span
+        className="
+          absolute inset-0
+          bg-[#55B233]
+          transform scale-x-0 origin-left
+          transition-transform duration-1000 ease-in-out
+          group-hover:scale-x-100
+        "
+      />
+
+      {/* Content */}
+      <span className="relative z-10 text-md inline-flex items-center gap-1 hover:scale-102">
+        {label} <GoArrowUpRight />
+      </span>
+    </button>
+  );
+};

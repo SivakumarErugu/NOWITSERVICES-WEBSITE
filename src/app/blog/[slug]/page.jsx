@@ -8,6 +8,25 @@ import { socialMedia } from "@/components/partials/utils";
 import SimilarBlogs from "@/components/blogs/slug/SimilarBlogs";
 import NewsletterCard from "@/components/blogs/slug/NewsLetterCard";
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+
+  const blog = blogs.find(b => b.slug === slug);
+
+  if (!blog) {
+    return {
+      title: "Blog Not Found | NowIt",
+    };
+  }
+
+  return {
+    title: `${blog.title} | NowIt`,
+    description: blog.excerpt,
+  };
+}
+
+
 
 export default async function BlogPage({ params }) {
     const { slug } = await params;
@@ -30,9 +49,9 @@ export default async function BlogPage({ params }) {
         .slice(0, 5); // limit to top 3
 
     return (
-        <article className="w-full px-15 py-5 bg-white">
+        <article className="w-full bg-white px-4 sm:px-6 lg:px-12 py-6">
             {/* blog image */}
-            <section className="relative w-full h-[480px] rounded-lg overflow-hidden">
+            <section className="relative w-full  h-[220px] sm:h-[320px] md:h-[420px] lg:h-[480px] rounded-lg overflow-hidden">
                 <Image
                     src={blog.image}
                     alt="Blog Background"

@@ -15,7 +15,7 @@ const SimilarBlogs = ({ relatedDesc, blogs = [] }) => {
             </div>
 
             {/* Horizontal Scroll */}
-            <div className="relative mt-8 overflow-x-auto">
+            <div className="relative mt-8 overflow-x-auto scroll-invisible">
                 <div className="flex gap-6 pb-4">
                     {blogs.map((blog, idx) => (
                         <div
