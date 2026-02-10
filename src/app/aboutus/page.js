@@ -31,7 +31,6 @@ export default function AboutUs() {
         </div>
 
       <PartnerBanner />
-      <SlidingHeader title="Testimonials" />
       <ClientCardComponent />
     </main>
   )

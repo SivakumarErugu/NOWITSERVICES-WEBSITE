@@ -16,7 +16,7 @@ export async function POST(request) {
       message: formData.get("message"),
 
       // Derived value (useful)
-      fullPhone: `${formData.get("dialCode")}${formData.get("phone")}`,
+      fullPhone: `${formData.get("dialCode")} " " ${formData.get("phone")}`,
     };
 
     // Basic server-side validation

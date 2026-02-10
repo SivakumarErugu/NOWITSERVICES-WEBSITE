@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { ThemeBtnTag } from "../../shared/UI-Elements/Custom-Elements";
+import { ThemeBtnTag, ThemeLinkTag } from "../../shared/UI-Elements/Custom-Elements";
 
 /* Images */
 import partnerBanner1 from "../../../../public/images/PartnerBannerImages/partnerBanner1.png";
@@ -89,7 +89,8 @@ const BusinessBanner = () => {
 
                 {/* MOBILE + MD BUTTON */}
                 <div className="mt-8 md:hidden flex justify-center">
-                    <ThemeBtnTag
+                    <ThemeLinkTag
+                        href="/contactUs"
                         BtnText="Get In Touch"
                         styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                     />
@@ -98,7 +99,8 @@ const BusinessBanner = () => {
 
             {/* LG+ CTA */}
             <div className="relative z-10 shrink-0 hidden md:block">
-                <ThemeBtnTag
+                <ThemeLinkTag
+                    href="/contactUs"
                     BtnText="Get In Touch"
                     styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                 />

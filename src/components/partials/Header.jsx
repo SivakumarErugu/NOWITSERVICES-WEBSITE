@@ -8,16 +8,14 @@ import { ThemeBtnTag, ThemeBottomBorder } from '../shared/UI-Elements/Custom-Ele
 import nowitImg from "../../../public/nowit.png";
 import { useNowit } from '@/store/useNowit';
 import Image from 'next/image';
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
+import Link from 'next/link';
 
 const Header = () => {
-    const {
-        activeTab,
-        setActiveTab,
-        setActiveService,
-        
-    } = useNowit();
 
+    const { setActiveService } = useNowit();
+
+    const pathname = usePathname();
     const router = useRouter();
     const [isPending, startTransition] = useTransition();
 
@@ -29,6 +27,18 @@ const Header = () => {
 
     const navRefs = useRef({});
     const menuWrapperRef = useRef(null);
+
+    /* ---------------- ACTIVE TAB FROM ROUTE ---------------- */
+    const activeTab = React.useMemo(() => {
+        if (pathname === "/") return "home";
+        if (pathname.startsWith("/aboutus")) return "about us";
+        if (pathname.startsWith("/services")) return "services";
+        if (pathname.startsWith("/products")) return "products";
+        if (pathname.startsWith("/blog")) return "blog";
+        if (pathname.startsWith("/careers")) return "careers";
+        if (pathname.startsWith("/contactUs")) return "contact";
+        return "";
+    }, [pathname]);
 
     /* ---------------- PREFETCH ROUTES ---------------- */
     useEffect(() => {
@@ -44,7 +54,7 @@ const Header = () => {
         });
     };
 
-     const clearCloseTimer = () => {
+    const clearCloseTimer = () => {
         if (closeTimer.current) {
             clearTimeout(closeTimer.current);
             closeTimer.current = null;
@@ -55,7 +65,7 @@ const Header = () => {
         clearCloseTimer();
         closeTimer.current = setTimeout(() => {
             setOpenMenu(null);
-        }, 800); // smooth close
+        }, 800);
     };
 
     /* ---------------- DESKTOP HANDLER ---------------- */
@@ -64,7 +74,6 @@ const Header = () => {
 
         if (!hasOptions) {
             setOpenMenu(null);
-            setActiveTab(item.name);
             navigate(item.link);
             return;
         }
@@ -85,7 +94,6 @@ const Header = () => {
 
     const handleSubMenuItemClick = (serviceName) => {
         setOpenMenu(null);
-        setActiveTab('services');
         setActiveService(serviceName);
         navigate('/services');
     };
@@ -94,28 +102,28 @@ const Header = () => {
     const handleMobileNav = (item) => {
         if (item.options.length === 0) {
             setMobileOpen(false);
-            setActiveTab(item.name);
             navigate(item.link);
             return;
         }
 
         setMobileSub(prev => (prev === item.name ? null : item.name));
-        setActiveTab(item.name);
     };
 
     return (
         <header className="relative w-full bg-linear-to-b from-[#E5EFF8] to-white z-50">
+
             {/* ================= TOP BAR ================= */}
             <div className="flex items-center justify-between px-4 lg:px-10 h-16">
 
                 {/* LOGO */}
-                <Image src={nowitImg} alt="now it" className="w-25 md:w-30 md:h-10" />
+                <Link href="/">
+                    <Image src={nowitImg} alt="now it" className="w-25 md:w-30 md:h-10" />
+                </Link>
 
                 {/* DESKTOP NAV */}
                 <ul className="hidden lg:flex gap-8">
                     {headerOptions.map((each, i) => {
                         const hasOptions = each.options.length > 0;
-                        const isOpen = openMenu === each.name;
 
                         return (
                             <li
@@ -138,10 +146,9 @@ const Header = () => {
                                     onClick={() => handleMenuClick(each)}
                                     className="relative inline-flex flex-col items-center text-black font-medium"
                                 >
-                                    <span className="flex items-center gap-1 cursor-pointer"> 
+                                    <span className="flex items-center gap-1 cursor-pointer">
                                         {each.label}
 
-                                        {/* HYDRATION-SAFE UNDERLINE */}
                                         {activeTab === each.name && (
                                             <ThemeBottomBorder
                                                 width="80%"
@@ -232,8 +239,7 @@ const Header = () => {
                                     {item.label}
                                     {item.options.length > 0 && (
                                         <IoIosArrowDown
-                                            className={`transition-transform ${mobileSub === item.name ? "rotate-180" : ""
-                                                }`}
+                                            className={`transition-transform ${mobileSub === item.name ? "rotate-180" : ""}`}
                                         />
                                     )}
                                 </button>
@@ -245,7 +251,6 @@ const Header = () => {
                                                 key={idx}
                                                 onClick={() => {
                                                     setMobileOpen(false);
-                                                    setActiveTab('services');
                                                     setActiveService(opt.name);
                                                     router.push('/services');
                                                 }}
@@ -275,12 +280,12 @@ const Header = () => {
             {/* GLOBAL LOADER */}
             {isPending && (
                 <div className="fixed inset-0 z-[999] flex items-center justify-center bg-white/40 backdrop-blur-sm">
-                    <div className="w-16 h-16 border-3 border-gray-400 border-t-blue-600  rounded-full animate-spin" />
+                    <div className="w-16 h-16 border-3 border-gray-400 border-t-blue-600 rounded-full animate-spin" />
                 </div>
             )}
+
         </header>
     );
-
 };
 
 export default Header;

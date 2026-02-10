@@ -9,7 +9,7 @@ const Opportunities = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   return (
-    <div className='md:px-30 md:pb-40 px-6'>
+    <div className='md:px-10 md:pb-40'>
       {/* Header */}
       <SlidingHeader title="Current Openings" size="60px" />
       {/* Search */}

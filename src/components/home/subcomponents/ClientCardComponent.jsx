@@ -4,6 +4,7 @@
 import React from "react";
 import Image from 'next/image'
 import { motion } from "framer-motion";
+import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 
 const testimonials = [
     {
@@ -28,6 +29,10 @@ const ClientCardComponent = () => {
     const MOBILE_DURATION = 1.8; // faster speed
     return (
         <section className="w-full py-0  bg-white overflow-hidden mt-0 gap-0 md:mb-20">
+            <div className="pl-10">
+            <SlidingHeader title="Testimonials" />
+            </div>
+
             {/* Header */}
             <div className="max-w-[900px]  px-5 md:px-10">
                 <h1 className=" font-bold md:font-medium text-[25px]  md:text-[48px] text-[#1F2937] ibmPlex-text">
