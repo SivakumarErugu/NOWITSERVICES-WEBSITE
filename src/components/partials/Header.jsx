@@ -207,7 +207,7 @@ const Header = () => {
                                     <button
                                         key={idx}
                                         onClick={() => handleSubMenuItemClick(opt.name)}
-                                        className="flex items-center gap-3 text-left text-gray-700 hover:text-[#0A66C2]"
+                                        className="flex items-center gap-3 text-left text-gray-700 hover:text-[#0A66C2] cursor-pointer"
                                     >
                                         {opt.icon && <span className="text-lg">{opt.icon}</span>}
                                         <span className="text-sm font-medium">{opt.label}</span>
@@ -279,7 +279,7 @@ const Header = () => {
 
             {/* GLOBAL LOADER */}
             {isPending && (
-                <div className="fixed inset-0 z-[999] flex items-center justify-center bg-white/40 backdrop-blur-sm">
+                <div className="fixed inset-0 z-999 flex items-center justify-center bg-white/40 backdrop-blur-sm">
                     <div className="w-16 h-16 border-3 border-gray-400 border-t-blue-600 rounded-full animate-spin" />
                 </div>
             )}
