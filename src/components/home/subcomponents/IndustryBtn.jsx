@@ -56,9 +56,11 @@ const Pill = ({ label }) => {
 /* ================= IndustryBtn ================= */
 const IndustryBtn = () => {
     return (
-        <div className="w-full mt-4">
-
+        <div className="w-full mt-4 flex flex-col md:gap-5">
+            <TitleAndDescription title="Solutions for " span="Every Industry" description="NOWIT Services offers AI-powered digital transformation services that help businesses improve efficiency, automate operations, and grow faster. Our cloud-first solutions include smart marketing, cloud migration, professional IT consulting, intelligent messaging, IP filing, and corporate training, all designed to deliver secure, scalable, and data-driven business outcomes."
+            />
             {/* ================= MOBILE + TABLET ================= */}
+            <div className='h-15 md:hidden' />
             <div
                 className="
           flex gap-3
@@ -66,6 +68,7 @@ const IndustryBtn = () => {
           px-4 py-2
           lg:hidden
           scrollbar-hide
+        
         "
             >
                 {INDUSTRIES.map((item) => (

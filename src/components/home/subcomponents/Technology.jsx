@@ -23,7 +23,7 @@ const stats = [
 const Technology = () => {
     return (
         <section className="w-full flex flex-col items-center gap-10 py-16 bg-white overflow-hidden">
-            
+
             {/* THE SECRET SAUCE: THE SVG MASK */}
             <svg width="0" height="0" className="absolute">
                 <defs>
@@ -52,8 +52,8 @@ const Technology = () => {
             </div>
 
             {/* THE CONTINUOUS IMAGE STRIP */}
-            <div className="relative w-full max-w-full h-[380px] md:h-[450px] p-1">
-                <div 
+            <div className="relative w-full max-w-full h-[380px] md:h-[450px] p-1 hidden md:block">
+                <div
                     className="flex h-full w-full gap-3 md:gap-5"
                     style={{ clipPath: "url(#ribbonPath)" }}
                 >
@@ -71,7 +71,17 @@ const Technology = () => {
                 </div>
             </div>
 
-             {/* MOBILE LINKS */}
+            <div className="relative h-[336px] w-[312px] md:hidden">
+                <Image
+                    src="https://res.cloudinary.com/dr9thittl/image/upload/v1770700643/743b25d4afb0244ff45c18da9643c35921833a23_1_by8ikd.jpg"
+                    alt="Team collaboration"
+                    fill
+                    className="object-contain !rounded-sm"
+                    priority
+                />
+            </div>
+
+            {/* MOBILE LINKS */}
             <div className="md:hidden flex flex-wrap justify-center gap-6 text-[14px] font-semibold text-[#1F2937]">
                 {stats.map((item) => (
                     <Link
