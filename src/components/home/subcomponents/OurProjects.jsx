@@ -94,9 +94,7 @@ const OurProjects = () => {
                     span=""
                     description="Projects that reflect our expertise and commitment to quality"
                 />
-
                 {/* TOP ROW */}
-       
                 <div className="hidden md:grid grid-cols-2 gap-8">
                     {List.slice(0, 2).map(item => (
                         <ProjectCard key={item.id} item={item} height="h-[520px]" />
@@ -110,8 +108,10 @@ const OurProjects = () => {
                     ))}
                 </div>
 
-                <div className="flex justify-center hidden md:block w-full">
-                    <ThemeLinkTag BtnText="View All Products" styles='self-center' href="/products#myProducts"/>
+                <div className="items-center hidden md:block w-full">
+                    <div className="flex items-center justify-center">
+                        <ThemeBtnTag2 BtnText="View All Products" styles='self-center' />
+                    </div>
                 </div>
                 {/* mobile */}
                 {/* Mobile */}
