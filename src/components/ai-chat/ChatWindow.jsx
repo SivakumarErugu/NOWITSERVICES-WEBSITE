@@ -131,7 +131,7 @@ export default function ChatWindow({ onClose }) {
           </div>
 
           {/* Chat */}
-          <div className="flex-1 mt-6 sm:mt-8 space-y-4 overflow-y-auto pr-1 sm:pr-2">
+          <div className="flex-1 mt-6 sm:mt-8 space-y-4 overflow-y-auto slot-scroll pr-1 sm:pr-2">
             {messages.map((msg) => (
               <div
                 key={msg.id}

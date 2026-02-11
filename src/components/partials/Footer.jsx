@@ -59,12 +59,13 @@ const QuickLinksSec = () => {
 
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-x-8 gap-y-2 ">
                 {quickLinks.map((each, i) => (
-                    <li
+                    <Link
+                        href={each?.link}
                         key={i}
                         className="font-extralight text-sm text-white/75 max-md:text-center"
                     >
                         {each.label}
-                    </li>
+                    </Link>
                 ))}
             </ul>
 
