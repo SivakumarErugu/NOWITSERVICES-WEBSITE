@@ -112,7 +112,7 @@ import careerCall2 from "../../../public/images/careerCall2.png";
 import careerCall3 from "../../../public/images/careerCall3.png";
 import careerCall4 from "../../../public/images/careerCall4.png";
 
-import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
+import { ThemeBtnTag, ThemeLinkTag } from "../shared/UI-Elements/Custom-Elements";
 
 const CareerVisualMessageBlock = () => {
   return (
@@ -178,7 +178,8 @@ const CareerVisualMessageBlock = () => {
       <div className="mt-10 flex justify-center">
         <div className="relative inline-block">
 
-          <ThemeBtnTag
+          <ThemeLinkTag
+            href="#currentOpenings"
             BtnText="View Open Roles"
             styles="h-11 w-48 sm:w-56 md:w-72 rounded-xl bg-[#50B136]"
           />

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 import Product13 from '../../../public/images/ProductImages/Product13.png'
 import SlidingHeader from '../shared/UI-Elements/SlidingHeader'
-import { ThemeBtnTag } from '../shared/UI-Elements/Custom-Elements'
+import { ThemeLinkTag } from '../shared/UI-Elements/Custom-Elements'
 
 const Products4 = () => {
     return (
@@ -46,7 +46,8 @@ const Products4 = () => {
                         </p>
 
                         <div className="mt-5">
-                            <ThemeBtnTag
+                            <ThemeLinkTag
+                                href='/contactUs'
                                 BtnText="Get In Touch"
                                 styles="border-0 bg-[#55B233] text-white text-xs md:text-sm  !font-medium !py-1 !px-5 !lg:py-2 !rounded-md hover:bg-[#43a047]"
                             />

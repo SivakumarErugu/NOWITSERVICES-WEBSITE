@@ -10,6 +10,7 @@ import { MdOutlineModelTraining } from "react-icons/md";
 import { RiLightbulbFlashFill } from "react-icons/ri";
 import { LuMessageCircleMore } from "react-icons/lu";
 import { BsGlobe2 } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 
 
 
@@ -33,32 +34,30 @@ export const headerOptions = [
 ]
 
 export const socialMedia = [
-    { name: 'facebook', icon: <BiLogoFacebook size={22} />, label: 'Facebook', link: '' },
-    { name: 'x', icon: <FaTwitter size={16} />, label: 'Twitter', link: '' },
-    { name: 'instagram', icon: <FaInstagram size={20} />, label: 'Instagram', link: '' },
-    { name: 'youtube', icon: <FaYoutube size={20} />, label: 'Youtube', link: '' },
+    { name: 'facebook', icon: <BiLogoFacebook size={22} />, label: 'Facebook', link: 'https://www.facebook.com/p/NOWIT-Services-61559601166623/' },
+    { name: 'linkedin', icon: <FaLinkedin size={16} />, label: 'Twitter', link: 'https://www.linkedin.com/company/nowitservices/' },
+    { name: 'instagram', icon: <FaInstagram size={20} />, label: 'Instagram', link: 'https://www.instagram.com/_nowitservices_/' },
+    { name: 'youtube', icon: <FaYoutube size={20} />, label: 'Youtube', link: 'https://www.youtube.com/playlist?list=PLdYUKw5uGkwtBvgCfSB4wowCSbO07mzCR' },
 ]
 
 export const quickLinks = [
     { name: 'home', label: 'Home', link: '/', icon: '', },
     { name: 'about us', label: 'About Us', link: '/aboutus', icon: '', },
-    { name: 'services', label: 'Services', link: '/', icon: '', },
-    { name: 'products', label: 'Products', link: '/', icon: '', },
-    { name: 'industries', label: 'Industries', link: '/', icon: '', },
-    { name: 'careers', label: 'Careers', link: '/', icon: '', },
+    // { name: 'services', label: 'Services', link: '/services', icon: '', },
+    { name: 'products', label: 'Products', link: '/products', icon: '', },
+    // { name: 'industries', label: 'Industries', link: '/', icon: '', },
+    { name: 'careers', label: 'Careers', link: '/careers', icon: '', },
 ]
 
 export const ServicesLinks = [
-    { name: 'cloud & digital', label: 'Cloud & Digital Transformation', link: '/' },
-    { name: 'ai & automation', label: 'AI & Automation', link: '/' },
-    { name: 'analytics & intelligence', label: 'Analytics & Intelligence', link: '/' },
-    { name: 'consulting/professional services', label: 'Consulting / Professional Services', link: '/' },
+    { name: 'become a partner', label: 'Become a Partner', link: '/become-a-partner' },
+    { name: 'become an Invester', label: 'Become an Invester', link: '/become-a-partner' },
 ]
 
 export const LegalLinks = [
-    { name: 'privacy policy', label: 'Privacy Policy', link: '/' },
-    { name: 'terms of service', label: 'Terms Of Service', link: '/' },
-    { name: 'cookie policy', label: 'Cookie Policy', link: '/' }
+    { name: 'privacy policy', label: 'Privacy Policy', link: '/terms-privacy-cookie-policy' },
+    { name: 'terms of service', label: 'Terms Of Service', link: '/terms-privacy-cookie-policy' },
+    { name: 'cookie policy', label: 'Cookie Policy', link: '/terms-privacy-cookie-policy' }
 ]
 
 

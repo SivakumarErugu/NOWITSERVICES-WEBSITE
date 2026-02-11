@@ -2,7 +2,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { ThemeBtnTag } from '@/components/shared/UI-Elements/Custom-Elements'
+import { ThemeBtnTag,ThemeLinkTag } from '@/components/shared/UI-Elements/Custom-Elements'
 
 const List = [
     {
@@ -56,7 +56,7 @@ const FaqSection = () => {
                             We're here to help you understand how we work, what we offer,
                             how we can grow together, and build lasting brand impact.
                         </p>
-                        <ThemeBtnTag>Get In Touch</ThemeBtnTag>
+                        <ThemeLinkTag BtnText="Get In Touch" href='/contactUs' />
                     </div>
                 </div>
 
