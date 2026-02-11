@@ -3,6 +3,7 @@
 import React from 'react';
 import { useState } from 'react';
 import TitleAndDescription from '@/components/shared/UI-Elements/TitleAndDescription';
+import Link from 'next/link';
 const AppsList = [{
     id: 1,
     name: "WON Hubs",
@@ -107,9 +108,9 @@ const EnterpriseProducts = () => {
                         <p className="text-gray-700 leading-relaxed mb-6">
                             {activeApp.description}
                         </p>
-                        <button className="bg-[#5DBB2F] text-white px-6 py-2 rounded-md w-fit">
+                        <Link href="/products" className="bg-[#5DBB2F] text-white px-6 py-2 rounded-md w-fit">
                             View Product
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>

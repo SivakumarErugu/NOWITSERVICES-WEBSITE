@@ -20,7 +20,7 @@ const Page = () => {
                 <Products2 />
             </section>
 
-            <section>
+            <section id="myProducts">
                 <Products3 />
             </section>
             <section>

@@ -39,7 +39,7 @@ const TrustedBannerSection = () => {
         items-center
         justify-center
         md:mt-10
-        pt-2
+        pt-2 
       "
         >
             {/* DARK OVERLAY */}
@@ -49,11 +49,11 @@ const TrustedBannerSection = () => {
             <div className="relative z-10 w-full max-w-[1295px] px-10 flex flex-col items-center">
                 {/* HEADING BLOCK */}
                 <div className="flex flex-col items-center gap-4 mb-16">
-                    <div className="flex items-center relative w-fit">
+                    <div className="flex items-center relative w-fit pt-8 ">
                         <span className="text-white font-normal tracking-wide inter-text">
                             Trusted By
                         </span>
-                        <ThemeBottomBorder width="48px" left="110%" />
+                        <ThemeBottomBorder width="48px" left="20%" />
                     </div>
 
                     <h2 className="text-white font-medium text-[24px] md:text-[48px] text-center ibmPlex-text">

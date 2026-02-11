@@ -1,27 +1,11 @@
 
-'use client'
 
-// const ProjectCard = ({ item, height, width }) => {
-//     return (
-//         <div className={`relative ${height} ${width} md:w-full md:rounded-[18px] overflow-hidden snap-start`}>
-//             <Image
-//                 src={item.image}
-//                 alt={item.title}
-//                 fill
-//                 className="object-cover"
-//             />
 
-//             <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/25 to-transparent" />
 
-//             <div className="absolute bottom-0 p-6 text-white">
-//                 <h3 className="text-[24px] font-semibold">{item.title}</h3>
-//                 <p className="mt-2 text-sm leading-relaxed max-w-[90%]">
-//                     {item.description}
-//                 </p>
-//             </div>
-//         </div>
-//     )
-// }
+import { CustomHeading, ThemeBtnTag, ThemeBtnTag2,ThemeLinkTag } from "@/components/shared/UI-Elements/Custom-Elements"
+import Image from "next/image"
+
+
 const ProjectCard = ({ item, height, width }) => {
     return (
         <div
@@ -57,11 +41,6 @@ const ProjectCard = ({ item, height, width }) => {
         </div>
     )
 }
-
-
-
-import { CustomHeading, ThemeBtnTag, ThemeBtnTag2 } from "@/components/shared/UI-Elements/Custom-Elements"
-import Image from "next/image"
 
 const List = [
     {

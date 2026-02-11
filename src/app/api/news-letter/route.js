@@ -8,6 +8,7 @@ export async function POST(request) {
 
     // Parse request body
     const { email } = await request.json();
+    console.log(email)
 
     if (!email) {
       return Response.json(
