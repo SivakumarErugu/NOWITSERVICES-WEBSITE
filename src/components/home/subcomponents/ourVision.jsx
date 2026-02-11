@@ -46,19 +46,19 @@ const OurVision = () => {
           </div>
 
           {/* Paragraphs */}
-          <p className="ibmPlex-text text-[16px] leading-[28px] text-[#4B5563] mb-5">
+          <p className="ibmPlex-text text-[13px] md:text-[16px] leading-[28px] text-[#4B5563] mb-5">
             To drive innovation through intelligent digital solutions that solve
             real-world business challenges. We envision a future where technology
             enables efficiency, growth, and meaningful progress.
           </p>
 
-          <p className="ibmPlex-text text-[16px] leading-[28px] text-[#4B5563] mb-5">
+          <p className="ibmPlex-text text-[13px] md:text-[16px] leading-[28px] text-[#4B5563] mb-5">
             We are committed to continuous learning, adaptability, and thoughtful
             execution, ensuring our solutions stay relevant in an ever-evolving
             digital landscape.
           </p>
 
-          <p className="ibmPlex-text text-[16px] leading-[28px] text-[#4B5563]">
+          <p className="ibmPlex-text text-[13px] md:text-[16px] leading-[28px] text-[#4B5563]">
             We believe that strong technology is built with responsibility. Our
             vision is to simplify complexity, embrace innovation, and create
             digital solutions that support sustainable growth and long-term

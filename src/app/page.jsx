@@ -22,7 +22,7 @@ export default function Home() {
       <PartnerSection />
       <div className="w-full space-y-4">
         <AiBtn />
-        <div className="h-5 md:hidden " />
+        <div className="h-5 md:hidden" />
           <Services />
      
 
