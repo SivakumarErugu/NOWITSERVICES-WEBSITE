@@ -349,8 +349,8 @@ export default function ContactSection() {
                         </a>
 
                         <span className="opacity-60 hidden sm:inline">|</span>
-                        <a href="mailto:career@nowitservices.com" className="hover:underline">
-                            career@nowitservices.com
+                        <a href="mailto:partners@nowitservices.com" className="hover:underline">
+                            partners@nowitservices.com
                         </a>
                     </div>
                 </div>

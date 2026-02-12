@@ -8,7 +8,7 @@ export const PRODUCTS = [
     {
         title: 'WON Digi',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonDigi,
+        image: PRODUCT_IMAGES.WONDigi,
         link: '/contactUs',
         desc: `
 WON Digi is a comprehensive school and institute management platform.
@@ -26,7 +26,7 @@ WON Digi simplifies education management through smart technology.
     {
         title: 'WON Pulse',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonPulse,
+        image: PRODUCT_IMAGES.WONPulse,
         link: '/contactUs',
         desc: `
 WON Pulse is a complete hospital and healthcare management system.
@@ -44,7 +44,7 @@ WON Pulse enhances healthcare delivery through digital efficiency.
     {
         title: 'WON Cart',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonCart,
+        image: PRODUCT_IMAGES.WONCart,
         link: '/contactUs',
         desc: `
 WON Cart is a next-generation digital commerce platform.
@@ -62,7 +62,7 @@ WON Cart modernizes digital retail experiences.
     {
         title: 'WON Bless',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonBless,
+        image: PRODUCT_IMAGES.WONBless,
         link: '/contactUs',
         desc: `
 WON Bless is a spiritual and lifestyle ecosystem.
@@ -80,7 +80,7 @@ It supports holistic lifestyle enrichment.
     {
         title: 'WON Fits',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonFits,
+        image: PRODUCT_IMAGES.WONFits,
         link: '/contactUs',
         desc: `
 WON Fits is a fitness and wellness intelligence platform.
@@ -98,7 +98,7 @@ It transforms wellness through technology.
     {
         title: 'WON Kids',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonKids,
+        image: PRODUCT_IMAGES.WONKids,
         link: '/contactUs',
         desc: `
 WON Kids is a digital learning and engagement platform.
@@ -116,7 +116,7 @@ It builds a strong foundation for the future.
     {
         title: 'WON Nest',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonNest,
+        image: PRODUCT_IMAGES.WONNest,
         link: '/contactUs',
         desc: `
 WON Nest is a financial and lifestyle planning ecosystem.
@@ -134,7 +134,7 @@ It brings confidence to financial planning.
     {
         title: 'WON Home',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonHome,
+        image: PRODUCT_IMAGES.WONHome,
         link: '/contactUs',
         desc: `
 WON Home is a smart living automation platform.
@@ -152,7 +152,7 @@ It redefines connected home experiences.
     {
         title: 'WON Pets',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonPets,
+        image: PRODUCT_IMAGES.WONPets,
         link: '/contactUs',
         desc: `
 WON Pets is a digital care platform for pet owners.
@@ -170,7 +170,7 @@ It brings technology into pet care.
     {
         title: 'WON Shield',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonShield,
+        image: PRODUCT_IMAGES.WONShield,
         link: '/contactUs',
         desc: `
 WON Shield is a digital protection and security platform.
@@ -188,7 +188,7 @@ It ensures peace of mind online.
     {
         title: 'WON Drive',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonDrive,
+        image: PRODUCT_IMAGES.WONDrive,
         link: '/contactUs',
         desc: `
 WON Drive is a smart mobility and vehicle ecosystem.
@@ -206,7 +206,7 @@ It brings intelligence to transportation.
     {
         title: 'WON Grid',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonGrid,
+        image: PRODUCT_IMAGES.WONGrid,
         link: '/contactUs',
         desc: `
 WON Grid is a digital energy and infrastructure platform.
@@ -224,7 +224,7 @@ It supports sustainable digital living.
     {
         title: 'WON Trip',
         category: 'B2C',
-        image: PRODUCT_IMAGES.WonTrip,
+        image: PRODUCT_IMAGES.WONTrip,
         link: '/contactUs',
         desc: `
 WON Trip is a digital travel and experience platform.
@@ -244,7 +244,7 @@ It enhances every journey.
     {
         title: 'WON Bills',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonBills,
+        image: PRODUCT_IMAGES.WONBills,
         link: '/contactUs',
         desc: `
 WON Bills is an enterprise billing automation platform.
@@ -262,7 +262,7 @@ It modernizes financial operations.
     {
         title: 'WON Bridge',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonBridge,
+        image: PRODUCT_IMAGES.WONBridge,
         link: '/contactUs',
         desc: `
 WON Bridge connects business systems seamlessly.
@@ -280,7 +280,7 @@ It powers enterprise ecosystems.
     {
         title: 'WON Tap',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonTap,
+        image: PRODUCT_IMAGES.WONTap,
         link: '/contactUs',
         desc: `
 WON Tap is a smart payment and access platform.
@@ -298,7 +298,7 @@ It modernizes transaction experiences.
     {
         title: 'WON Mart',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonMart,
+        image: PRODUCT_IMAGES.WONMart,
         link: '/contactUs',
         desc: `
 WON Mart is a digital marketplace for businesses.
@@ -316,7 +316,7 @@ It empowers business ecosystems.
     {
         title: 'WON Build',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonBuild,
+        image: PRODUCT_IMAGES.WONBuild,
         link: '/contactUs',
         desc: `
 WON Build is a project and infrastructure platform.
@@ -334,7 +334,7 @@ It supports scalable development.
     {
         title: 'WON Move',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonMove,
+        image: PRODUCT_IMAGES.WONMove,
         link: '/contactUs',
         desc: `
 WON Move is a logistics and movement platform.
@@ -352,7 +352,7 @@ It drives smarter movement solutions.
     {
         title: 'WON Serve',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonServe,
+        image: PRODUCT_IMAGES.WONServe,
         link: '/contactUs',
         desc: `
 WON Serve is a digital service management platform.
@@ -370,7 +370,7 @@ It strengthens customer relationships.
     {
         title: 'WON Forge',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonForge,
+        image: PRODUCT_IMAGES.WONForge,
         link: '/contactUs',
         desc: `
 WON Forge is a digital innovation platform.
@@ -388,7 +388,7 @@ It transforms digital creation.
     {
         title: 'WON HRMS',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonHRMS,
+        image: PRODUCT_IMAGES.WONHRMS,
         link: '/contactUs',
         desc: `
 WON HRMS is a complete human resource system.
@@ -406,7 +406,7 @@ It empowers organizational efficiency.
     {
         title: 'WON Guard',
         category: 'B2B',
-        image: PRODUCT_IMAGES.WonGuard,
+        image: PRODUCT_IMAGES.WONGuard,
         link: '/contactUs',
         desc: `
 WON Guard is an enterprise security platform.
@@ -426,7 +426,7 @@ It ensures operational trust.
     {
         title: 'WON Events',
         category: 'B2B2C',
-        image: PRODUCT_IMAGES.WonEvents,
+        image: PRODUCT_IMAGES.WONEvents,
         link: '/contactUs',
         desc: `
 WON Events is a complete event management platform.
@@ -444,7 +444,7 @@ It brings events to life digitally.
     {
         title: 'WON Harvest',
         category: 'B2B2C',
-        image: PRODUCT_IMAGES.WonHarvest,
+        image: PRODUCT_IMAGES.WONHarvest,
         link: '/contactUs',
         desc: `
 WON Harvest is an agri-digital marketplace.
@@ -462,7 +462,7 @@ It modernizes agricultural commerce.
     {
         title: 'WON Law',
         category: 'B2B2C',
-        image: PRODUCT_IMAGES.WonLaw,
+        image: PRODUCT_IMAGES.WONLaw,
         link: '/contactUs',
         desc: `
 WON Law is a legal technology platform.
@@ -482,7 +482,7 @@ It bridges law and technology.
     {
         title: 'WON Hubs',
         category: 'WON CORE',
-        image: PRODUCT_IMAGES.WonHubs,
+        image: PRODUCT_IMAGES.WONHubs,
         link: '/contactUs',
         desc: `
 WON Hubs is the core infrastructure platform.

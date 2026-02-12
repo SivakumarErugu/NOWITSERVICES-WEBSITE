@@ -45,7 +45,7 @@ const ProjectCard = ({ item, height, width }) => {
 const List = [
     {
         id: 1,
-        title: "Won Bill",
+        title: "WON Bill",
         description:
             "It helps hospitals improve efficiency, enhance patient care, and manage daily operations seamlessly.",
         image:
@@ -53,7 +53,7 @@ const List = [
     },
     {
         id: 2,
-        title: "Won Digi",
+        title: "WON Digi",
         description:
             "An all-in-one educational platform designed to transform how schools operate.",
         image:
@@ -61,7 +61,7 @@ const List = [
     },
     {
         id: 3,
-        title: "Won Pulse",
+        title: "WON Pulse",
         description:
             "A hospital management system built for modern healthcare workflows.",
         image:
@@ -69,7 +69,7 @@ const List = [
     },
     {
         id: 4,
-        title: "Won Hubs",
+        title: "WON Hubs",
         description:
             "Enterprise collaboration and analytics platform for leadership teams.",
         image:
@@ -77,7 +77,7 @@ const List = [
     },
     {
         id: 5,
-        title: "Won Bridge",
+        title: "WON Bridge",
         description:
             "Infrastructure and logistics management solution for large-scale projects.",
         image:
@@ -110,7 +110,7 @@ const OurProjects = () => {
 
                 <div className="items-center hidden md:block w-full">
                     <div className="flex items-center justify-center">
-                        <ThemeBtnTag2 BtnText="View All Products" styles='self-center' />
+                        <ThemeLinkTag href="/products#myProducts" BtnText="View All Products" styles='self-center' />
                     </div>
                 </div>
                 {/* mobile */}
