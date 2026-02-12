@@ -22,7 +22,7 @@ const Page = () => {
             <section>
                 <JoinusBanner />
             </section>
-            <section>
+            <section id='currentOpenings'>
                 <Opportunities />
             </section>
         </main>

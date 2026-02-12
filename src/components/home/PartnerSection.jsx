@@ -292,6 +292,8 @@ import { motion } from "framer-motion";
 import AvatarStack from "../shared/UI-Elements/AvatarStack";
 import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader";
+import { useRouter } from "next/navigation";
+
 
 const Images = [
   "https://res.cloudinary.com/dr9thittl/image/upload/v1770368688/351c910257cd7a99096737785ceb42a38d558322_ccqwyd.jpg",
@@ -300,9 +302,12 @@ const Images = [
 
 const PartnerSection = () => {
   const [hoverKey, setHoverKey] = useState(0);
+  const router = useRouter();
+
 
   return (
     <section
+    id="partnerSectionHome"
       className="
         w-full
         px-5
@@ -313,7 +318,7 @@ const PartnerSection = () => {
              "
     >
       {/* TOP – Sliding Header */}
-      <SlidingHeader title="Who we are" />
+      <SlidingHeader title="Who we are" bottom="mb-2" />
 
       {/* MIDDLE – Text Content */}
       <div
@@ -328,7 +333,7 @@ const PartnerSection = () => {
         "
       >
         {/* Left Heading */}
-        <div className="w-full lg:w-[700px] md:pt-2 lg:pt-8">
+        <div className="w-full lg:w-150 ">
           <h1
             className="
               ibmPlex-text
@@ -337,7 +342,6 @@ const PartnerSection = () => {
               sm:text-[36px]
               lg:text-[48px]
               leading-tight
-              lg:leading-[74.61px]
               tracking-normal
               lg:tracking-[2.33px]
               text-[#1F2937]
@@ -359,6 +363,8 @@ const PartnerSection = () => {
           <div className="hidden md:block w-fit">
             <ThemeBtnTag
               BtnText="Know More"
+    onClick={() => router.push("/products")}
+
               styles="w-[194px] h-[41px] ibm-text"
             />
           </div>

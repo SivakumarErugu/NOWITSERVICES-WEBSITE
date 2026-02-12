@@ -43,7 +43,7 @@ const OurJourney = () => {
   return (
     <section className="w-full flex flex-col items-center md:py-24 mt-0 px-5 md:px-10 lg:px-15">
       {/* Header */}
-      <div className="max-w-[900px] md:text-center mb-16">
+      <div className="max-w-[900px] md:text-center mb-10">
         <h1 className="md:font-medium text-[25px] font-bold md:text-[48px] text-[#1F2937] ibmPlex-text">
           Our <span className="text-[#0D5BD7]">Journey</span>
         </h1>

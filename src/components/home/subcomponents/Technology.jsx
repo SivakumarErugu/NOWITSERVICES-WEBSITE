@@ -22,7 +22,7 @@ const stats = [
 
 const Technology = () => {
     return (
-        <section className="w-full flex flex-col items-center gap-10 py-16 bg-white overflow-hidden">
+        <section className="w-full flex flex-col items-center gap-5 md:gap-10 py-16 bg-white overflow-hidden">
 
             {/* THE SECRET SAUCE: THE SVG MASK */}
             <svg width="0" height="0" className="absolute">
@@ -71,18 +71,19 @@ const Technology = () => {
                 </div>
             </div>
 
-            <div className="relative h-[336px] w-[312px] md:hidden">
+            <div className="relative h-[310px] w-[312px] md:hidden overflow-hidden rounded-sm">
                 <Image
                     src="https://res.cloudinary.com/dr9thittl/image/upload/v1770700643/743b25d4afb0244ff45c18da9643c35921833a23_1_by8ikd.jpg"
                     alt="Team collaboration"
                     fill
-                    className="object-contain !rounded-sm"
                     priority
+                    className="object-cover object-center scale-100"
                 />
             </div>
 
+
             {/* MOBILE LINKS */}
-            <div className="md:hidden flex flex-wrap justify-center gap-6 text-[14px] font-semibold text-[#1F2937]">
+            <div className="md:hidden flex flex-wrap justify-center gap-6 text-[10px] font-semibold text-[#1F2937]">
                 {stats.map((item) => (
                     <Link
                         key={item.label}

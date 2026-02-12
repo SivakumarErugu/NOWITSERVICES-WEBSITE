@@ -96,66 +96,66 @@ export default function ContactSection() {
 
     const errorText = "mt-1 text-xs text-red-400 pl-2";
 
-   function CountryCodeDropdown({ value, onChange }) {
-    const [open, setOpen] = useState(false);
-    const ref = useRef(null);
+    function CountryCodeDropdown({ value, onChange }) {
+        const [open, setOpen] = useState(false);
+        const ref = useRef(null);
 
-    const selected =
-      countryCodes.find((c) => c.code === value) || countryCodes[0];
+        const selected =
+            countryCodes.find((c) => c.code === value) || countryCodes[0];
 
-    useEffect(() => {
-      const close = (e) =>
-        !ref.current?.contains(e.target) && setOpen(false);
-      document.addEventListener("mousedown", close);
-      return () => document.removeEventListener("mousedown", close);
-    }, []);
+        useEffect(() => {
+            const close = (e) =>
+                !ref.current?.contains(e.target) && setOpen(false);
+            document.addEventListener("mousedown", close);
+            return () => document.removeEventListener("mousedown", close);
+        }, []);
 
-    return (
-      <div ref={ref} className="relative">
-        <button
-          type="button"
-          onClick={() => setOpen(!open)}
-          className="
+        return (
+            <div ref={ref} className="relative">
+                <button
+                    type="button"
+                    onClick={() => setOpen(!open)}
+                    className="
             h-10 px-3 flex items-center gap-2
             bg-white/20 border border-white/30
             rounded-l-md text-sm text-white
             hover:bg-white/25 overflow-hidden
           "
-        >
-          <span>{selected?.flag}</span>
-          <span>{selected?.dial}</span>
-        </button>
+                >
+                    <span>{selected?.flag}</span>
+                    <span>{selected?.dial}</span>
+                </button>
 
-        {open && (
-          <div className="
+                {open && (
+                    <div className="
             absolute z-50 mt-1 w-56 max-h-64 overflow-auto
             bg-white/25 backdrop-blur border border-white/20
             rounded-md shadow-lg slot-scroll pl-1 py-1
           ">
-            {countryCodes.map((c) => (
-              <button
-                key={c.code}
-                type="button"
-                onClick={() => {
-                  onChange(c);
-                  setOpen(false);
-                }}
-                className="
+                        {countryCodes.map((c) => (
+                            <button
+                                key={c.code}
+                                type="button"
+                                onClick={() => {
+                                    onChange(c);
+                                    setOpen(false);
+                                }}
+                                className="
                   w-full px-3 py-2 flex items-center gap-3
                   text-left text-sm text-white
                   hover:bg-white/10 rounded-sm
                 "
-              >
-                <span>{c.flag}</span>
-                <span className="flex-1">{c.name}</span>
-                <span>{c.dial}</span>
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  }
+                            >
+                                <span>{c.flag}</span>
+                                <span className="flex-1">{c.name}</span>
+                                <span>{c.dial}</span>
+                            </button>
+                        ))}
+                    </div>
+                )}
+            </div>
+        );
+    }
 
 
 
@@ -338,19 +338,19 @@ export default function ContactSection() {
                                     <MdOutlineMailOutline size={18} />
                                 </span>
                             </span>
-                            <a href="mailto:sales@nowit.com" className="hover:underline">
-                                sales@nowit.com
+                            <a href=" sales@nowitservices.com" className="hover:underline">
+                                sales@nowitservices.com
                             </a>
                         </div>
 
                         <span className="opacity-60 hidden sm:inline">|</span>
-                        <a href="mailto:support@nowit.com" className="hover:underline">
-                            support@nowit.com
+                        <a href="mailto: contact.us@nowitservices.com" className="hover:underline">
+                            contact.us@nowitservices.com
                         </a>
 
                         <span className="opacity-60 hidden sm:inline">|</span>
-                        <a href="mailto:careers@nowit.com" className="hover:underline">
-                            careers@nowit.com
+                        <a href="mailto:career@nowitservices.com" className="hover:underline">
+                            career@nowitservices.com
                         </a>
                     </div>
                 </div>

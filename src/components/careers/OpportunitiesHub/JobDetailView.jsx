@@ -131,15 +131,15 @@ const JobDetailView = ({ job }) => {
 
                 <div className="ml-2 flex items-center text-[6px] md:text-sm whitespace-nowrap">
                     <a href="mailto:sales@nowitservices.com" className="hover:underline">
-                        Sales@nowitservices.com
+                       sales@nowitservices.com
                     </a>
                     <span className="mx-2">|</span>
-                    <a href="mailto:support@nowitservices.com" className="hover:underline">
-                        Support@nowitservices.com
+                    <a href="mailto:hr@nowitservices.com" className="hover:underline">
+                       hr@nowitservices.com
                     </a>
                     <span className="mx-2">|</span>
-                    <a href="mailto:careers@nowitservices.com" className="hover:underline">
-                        Careers@nowitservices.com
+                    <a href="mailto:career@nowitservices.com" className="hover:underline">
+                        career@nowitservices.com
                     </a>
                 </div>
 

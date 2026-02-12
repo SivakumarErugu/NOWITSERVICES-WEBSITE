@@ -98,9 +98,11 @@ export default function CTAFlow() {
       </div>
 
       {/* CENTER CTA */}
-      <button className="z-10 w-[220px] md:w-[288px] h-[48px] rounded-lg bg-gradient-to-r from-[#5CD032] to-[#194D81] text-white font-bold shadow-lg">
-        Get Started
-      </button>
+      <a href="#partnerSectionHome">
+        <button type="button" className="z-10 w-[220px] md:w-[288px] h-[48px] rounded-lg bg-gradient-to-r from-[#5CD032] to-[#194D81] text-white font-bold shadow-lg">
+          Get Started
+        </button>
+      </a>
     </div >
   );
 }

@@ -1,27 +1,11 @@
 
-'use client'
 
-// const ProjectCard = ({ item, height, width }) => {
-//     return (
-//         <div className={`relative ${height} ${width} md:w-full md:rounded-[18px] overflow-hidden snap-start`}>
-//             <Image
-//                 src={item.image}
-//                 alt={item.title}
-//                 fill
-//                 className="object-cover"
-//             />
 
-//             <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/25 to-transparent" />
 
-//             <div className="absolute bottom-0 p-6 text-white">
-//                 <h3 className="text-[24px] font-semibold">{item.title}</h3>
-//                 <p className="mt-2 text-sm leading-relaxed max-w-[90%]">
-//                     {item.description}
-//                 </p>
-//             </div>
-//         </div>
-//     )
-// }
+import { CustomHeading, ThemeBtnTag, ThemeBtnTag2,ThemeLinkTag } from "@/components/shared/UI-Elements/Custom-Elements"
+import Image from "next/image"
+
+
 const ProjectCard = ({ item, height, width }) => {
     return (
         <div
@@ -57,11 +41,6 @@ const ProjectCard = ({ item, height, width }) => {
         </div>
     )
 }
-
-
-
-import { CustomHeading, ThemeBtnTag, ThemeBtnTag2 } from "@/components/shared/UI-Elements/Custom-Elements"
-import Image from "next/image"
 
 const List = [
     {
@@ -115,9 +94,7 @@ const OurProjects = () => {
                     span=""
                     description="Projects that reflect our expertise and commitment to quality"
                 />
-
                 {/* TOP ROW */}
-       
                 <div className="hidden md:grid grid-cols-2 gap-8">
                     {List.slice(0, 2).map(item => (
                         <ProjectCard key={item.id} item={item} height="h-[520px]" />
@@ -131,8 +108,10 @@ const OurProjects = () => {
                     ))}
                 </div>
 
-                <div className="flex justify-center  hidden md:block w-full">
-                    <ThemeBtnTag2 BtnText="View All Products" styles='self-center'/>
+                <div className="items-center hidden md:block w-full">
+                    <div className="flex items-center justify-center">
+                        <ThemeBtnTag2 BtnText="View All Products" styles='self-center' />
+                    </div>
                 </div>
                 {/* mobile */}
                 {/* Mobile */}

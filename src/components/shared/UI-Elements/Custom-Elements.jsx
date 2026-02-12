@@ -106,30 +106,25 @@ export const ThemeLinkTag = ({
   styles = "",
   loading = false,
   disabled = false,
-  onClick,
 }) => {
   const isDisabled = loading || disabled;
 
-  return (
-    <Link
-      href={isDisabled ? "#" : href}
-      onClick={(e) => {
-        if (isDisabled) {
-          e.preventDefault();
-          return;
-        }
-        onClick && onClick(e);
-      }}
-      className={`
-        relative overflow-hidden
-        h-9 min-w-20 px-6 rounded-xl border font-semibold
-        inline-flex justify-center items-center
-        bg-[#55B233] text-white
-        group
-        ${isDisabled ? "opacity-50 pointer-events-none cursor-not-allowed" : "cursor-pointer"}
-        ${styles}
-      `}
-    >
+  // Check if the link is a same-page anchor
+  const isAnchor = href.startsWith("#");
+
+  const commonClasses = `
+    relative overflow-hidden
+    h-9 min-w-20 px-6 rounded-xl border font-semibold
+    inline-flex justify-center items-center
+    bg-[#55B233] text-white
+    group
+    ${isDisabled ? "opacity-50 pointer-events-none cursor-not-allowed" : "cursor-pointer"}
+    ${styles}
+  `;
+
+  // Internal content shared by both Link and <a>
+  const content = (
+    <>
       {/* Gradient curtain */}
       <span
         className="
@@ -152,6 +147,22 @@ export const ThemeLinkTag = ({
           </>
         )}
       </span>
+    </>
+  );
+
+  // If it's an anchor link (#id), use a standard <a> tag
+  if (isAnchor) {
+    return (
+      <a href={isDisabled ? "#" : href} className={commonClasses}>
+        {content}
+      </a>
+    );
+  }
+
+  // Otherwise, use Next.js Link for route transitions
+  return (
+    <Link href={isDisabled ? "#" : href} className={commonClasses}>
+      {content}
     </Link>
   );
 };
