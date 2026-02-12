@@ -63,7 +63,7 @@ const Services3 = () => {
                         Built on <span className="text-[#0b5ed7]">Trust and Quality</span>
                     </h2>
 
-                    <p className="mt-3 text-gray-600 text-sm md:text-base max-w-3xl">
+                    <p className="mt-3 text-gray-600 text-sm md:text-base 2xl:text-lg max-w-5xl 2xl:max-w-7xl">
                         We combine technical expertise, thoughtful design, and reliable delivery
                         to build scalable digital solutions that meet real business needs.
                     </p>
@@ -71,7 +71,7 @@ const Services3 = () => {
             </div>
             <div className="px-0 md:px-8 lg:px-12 py-0">
                 {/* SLIDER */}
-                <div className="md:rounded-xl flex flex-col justify-center bg-[#071c30] px-0 md:px-8 lg:px-12 py-5 md:py-10">
+                <div className="md:rounded-xl flex flex-col justify-center bg-[#071c30] px-0 md:px-8 lg:px-12 py-5 md:py-10 2xl:py-20">
 
                     {/* IMAGE + NAV ROW */}
                     <div
@@ -79,17 +79,20 @@ const Services3 = () => {
     grid
  grid-cols-[30px_1fr_30px]
  md:grid-cols-[60px_1fr_60px]
-    lg:grid-cols-[120px_1fr_120px]    items-center
+    lg:grid-cols-[120px_1fr_120px] 
+    2xl:grid-cols-[200px_1fr_200px]  
+    items-center
     gap-4 lg:mt-4
+    lg:px-10
   "
                     >
                         {/* PREVIOUS */}
                         <button
                             onClick={prevSlide}
-                            className="flex items-center gap-1 text-gray-300 hover:text-white transition text-sm md:text-lg"
+                            className="flex items-center gap-1 text-gray-300 hover:text-white transition text-sm md:text-lg cursor-pointer"
                         >
-                            <HiChevronLeft className="text-3xl" />
-                            <span className="hidden lg:inline">Previous</span>
+                            <HiChevronLeft className="text-3xl  lg:hidden" />
+                            <span className="hidden lg:inline text-3xl 2xl:text-3xl">Previous</span>
                         </button>
 
                         {/* IMAGE SLIDER */}
@@ -108,7 +111,7 @@ const Services3 = () => {
                                             alt={slide.title}
                                             width={800}
                                             height={600}
-                                            className="rounded-xl w-full 2xl:max-w-5xl h-56 md:h-70 lg:h-90 2xl:h-90 object-cover"
+                                            className="rounded-xl w-full 2xl:max-w-7xl h-56 md:h-70 lg:h-90 2xl:h-120 object-cover"
                                         />
                                     </div>
                                 ))}
@@ -119,16 +122,16 @@ const Services3 = () => {
                         {/* NEXT */}
                         <button
                             onClick={nextSlide}
-                            className="flex items-center gap-1 text-gray-300 hover:text-white transition text-sm md:text-lg ml-auto"
+                            className="flex items-center gap-1 text-gray-300 hover:text-white transition text-sm md:text-lg ml-auto cursor-pointer"
                         >
-                            <span className="hidden lg:inline">Next</span>
-                            <HiChevronRight className="text-3xl" />
+                            <span className="hidden lg:inline text-3xl 2xl:text-3xl">Next</span>
+                            <HiChevronRight className="text-3xl lg:hidden" />
                         </button>
                     </div>
 
 
                     {/* CONTENT ANIMATION */}
-                    <div className="relative mt-5 md:mt-8 lg:mt-5 min-h-22 overflow-hidden ">
+                    <div className="relative mt-5 md:mt-8 lg:mt-5 2xl:mt-15 min-h-22 overflow-hidden ">
 
                         {slides.map((slide, index) => {
                             const isActive = index === active;
@@ -149,11 +152,11 @@ const Services3 = () => {
                                             : "opacity-0 translate-y-10"}
                   `}
                                 >
-                                    <h3 className="text-lg md:text-2xl font-semibold text-white ">
+                                    <h3 className="text-lg md:text-2xl 2xl:text-4xl font-semibold text-white ">
                                         {slide.title}
                                     </h3>
 
-                                    <p className="text-sm md:text-base text-gray-300 max-w-md">
+                                    <p className="text-sm md:text-base 2xl:text-2xl text-gray-300 max-w-2xl">
                                         {slide.desc}
                                     </p>
                                 </div>

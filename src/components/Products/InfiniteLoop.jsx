@@ -27,23 +27,27 @@ const Star = ({ x, y, scale, dur, delay }) => (
 
 const InfiniteLoop = () => {
     const centerPath = "M400,200 C550,50 750,50 750,200 C750,350 550,350 400,200 C250,50 50,50 50,200 C50,350 250,350 400,200";
-
-    // Path slightly offset for the edge highlight effect
     const edgePath = "M400,200 C560,40 760,40 760,200 C760,360 560,360 400,200 C240,40 40,40 40,200 C40,360 240,360 400,200";
 
+    // These coordinates have been adjusted to sit "on" the infinity path
     const extraStars = [
-        { x: 80, y: 150, s: 0.8, d: "2s", del: "0s" },
-        { x: 720, y: 150, s: 0.9, d: "2.5s", del: "0.5s" },
-        { x: 150, y: 320, s: 0.7, d: "3s", del: "1s" },
-        { x: 650, y: 320, s: 1.1, d: "2.2s", del: "0.2s" },
-        { x: 400, y: 140, s: 0.6, d: "4s", del: "1.5s" },
-        { x: 250, y: 80, s: 0.8, d: "2.8s", del: "0.8s" },
-        { x: 550, y: 80, s: 0.7, d: "3.5s", del: "1.2s" },
-        { x: 50, y: 250, s: 0.5, d: "2.3s", del: "0.3s" },
-        { x: 750, y: 250, s: 1.0, d: "3.1s", del: "0.7s" },
-        { x: 400, y: 270, s: 0.4, d: "2.7s", del: "1.1s" },
-        { x: 300, y: 340, s: 0.6, d: "3.2s", del: "0.4s" },
-        { x: 500, y: 340, s: 0.8, d: "2.9s", del: "0.9s" },
+        // Right Loop Stars
+        { x: 550, y: 100, s: 0.7, d: "3s", del: "0s" },
+        { x: 680, y: 110, s: 0.5, d: "2.5s", del: "0.5s" },
+        { x: 740, y: 220, s: 0.8, d: "4s", del: "1s" },
+        { x: 650, y: 310, s: 0.6, d: "3.2s", del: "1.5s" },
+        { x: 500, y: 290, s: 0.4, d: "2.8s", del: "2s" },
+        
+        // Left Loop Stars
+        { x: 250, y: 100, s: 0.7, d: "3.5s", del: "0.2s" },
+        { x: 120, y: 110, s: 0.5, d: "2.2s", del: "0.7s" },
+        { x: 60, y: 220, s: 0.8, d: "3.8s", del: "1.2s" },
+        { x: 150, y: 310, s: 0.6, d: "2.9s", del: "0.4s" },
+        { x: 300, y: 290, s: 0.4, d: "3.1s", del: "1.8s" },
+        
+        // Near Center Crossing
+        { x: 360, y: 170, s: 0.5, d: "4s", del: "0s" },
+        { x: 440, y: 230, s: 0.5, d: "4s", del: "0.5s" },
     ];
 
     return (
@@ -59,7 +63,7 @@ const InfiniteLoop = () => {
                         <stop offset="0%" stopColor="#0a3c6d" />
                         <stop offset="25%" stopColor="#0ea5e9" />
                         <stop offset="50%" stopColor="#10b981" />
-                        <stop offset="80%" stopColor="#a3e635" />
+                        <stop offset="85%" stopColor="#a3e635" />
                         <stop offset="100%" stopColor="#0a3c6d" />
                     </linearGradient>
 
@@ -74,7 +78,7 @@ const InfiniteLoop = () => {
                     </filter>
 
                     <filter id="starBloom" x="-50%" y="-50%" width="200%" height="200%">
-                        <feGaussianBlur stdDeviation="3.5" result="blur" />
+                        <feGaussianBlur stdDeviation="2.5" result="blur" />
                         <feComposite in="SourceGraphic" in2="blur" operator="over" />
                     </filter>
                 </defs>
@@ -83,26 +87,18 @@ const InfiniteLoop = () => {
                 <path d={centerPath} fill="none" stroke="url(#vibrantGrad)" strokeWidth="38" opacity="0.2" filter="url(#mainGlow)" />
 
                 {/* 2. MAIN COLOR RIBBON */}
-                <path
-                    d={centerPath}
-                    fill="none"
-                    stroke="url(#vibrantGrad)"
-                    strokeWidth="32"
-                    strokeLinecap="round"
-                />
+                <path d={centerPath} fill="none" stroke="url(#vibrantGrad)" strokeWidth="32" strokeLinecap="round" />
 
-                {/* 3. LIGHT STREAKS (Layered for depth) */}
-                {/* Center Pulse Streak */}
-                <path d={centerPath} fill="none" stroke="white" strokeWidth="4" opacity="0.55" strokeDasharray="150, 850" strokeLinecap="round" filter="url(#streakBloom)">
-                    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3.5s" repeatCount="indefinite" />
+                {/* 3. LIGHT STREAKS */}
+                <path d={centerPath} fill="none" stroke="white" strokeWidth="5" opacity="0.8" strokeDasharray="200, 1835" strokeLinecap="round" filter="url(#streakBloom)">
+                    <animate attributeName="stroke-dashoffset" values="2035; 0" dur="5s" repeatCount="indefinite" />
                 </path>
 
-                {/* Fast Edge Highlight Streak */}
-                <path d={edgePath} fill="none" stroke="white" strokeWidth="1.5" opacity="0.9" strokeDasharray="80, 920" strokeLinecap="round" filter="url(#streakBloom)">
-                    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3s" repeatCount="indefinite" />
+                <path d={edgePath} fill="none" stroke="white" strokeWidth="2" opacity="0.6" strokeDasharray="150, 1835" strokeLinecap="round" filter="url(#streakBloom)">
+                    <animate attributeName="stroke-dashoffset" values="1985; 0" dur="5s" repeatCount="indefinite" />
                 </path>
 
-                {/* 4. ENHANCED DYNAMIC STARS */}
+                {/* 4. STATIC STARS PLACED ON THE LOOP */}
                 <g filter="url(#starBloom)">
                     {extraStars.map((star, i) => (
                         <Star key={i} x={star.x} y={star.y} scale={star.s} dur={star.d} delay={star.del} />
@@ -116,20 +112,27 @@ const InfiniteLoop = () => {
                     <line x1="-80" y1="32.5" x2="80" y2="32.5" stroke="#E2E8F0" strokeWidth="3" />
 
                     <g textAnchor="middle" fontFamily="sans-serif">
-                        <text y="-2" fontSize="22" fontWeight="700" fill="#0f172a" style={{ letterSpacing: '-0.4px' }}>
+                        <text y="-2" fontSize="19" fontWeight="700" fill="#0f172a">
                             WON Suite
                         </text>
-                        <text y="18" fontSize="10" fontWeight="500" fill="#475569" style={{ letterSpacing: '0.8px' }}>
-                            Simple | Smart | Secure
+                        <text y="18" fontSize="10" fontWeight="500" fill="#0f172a">
+                           Simple &nbsp; | &nbsp; Smart &nbsp; | &nbsp; Secure
                         </text>
                     </g>
                 </g>
 
                 {/* 6. LABELS */}
-                <g fontFamily="sans-serif" fontWeight="700" fontSize="17" letterSpacing="-0.2px">
-                    <text x="180" y="207" fill="#1e293b" textAnchor="middle">Human Experiences</text>
-                    <text x="620" y="207" fill="#14532d" textAnchor="middle">Industry Operations</text>
-                </g>
+                <foreignObject x="110" y="185" width="140" height="50">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style={{ width: "140px", textAlign: "center", fontWeight: 700, fontSize: "18px", fontFamily: "sans-serif", color: "#1e293b", lineHeight: "22px" }}>
+                        Human Experiences
+                    </div>
+                </foreignObject>
+
+                <foreignObject x="550" y="185" width="140" height="50">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style={{ width: "140px", textAlign: "center", fontWeight: 700, fontSize: "18px", fontFamily: "sans-serif", color: "#14532d", lineHeight: "22px" }}>
+                        Industry Operations
+                    </div>
+                </foreignObject>
             </svg>
         </div>
     );

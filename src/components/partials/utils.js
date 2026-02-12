@@ -37,7 +37,7 @@ export const socialMedia = [
     { name: 'facebook', icon: <BiLogoFacebook size={22} />, label: 'Facebook', link: 'https://www.facebook.com/p/NOWIT-Services-61559601166623/' },
     { name: 'linkedin', icon: <FaLinkedin size={16} />, label: 'Twitter', link: 'https://www.linkedin.com/company/nowitservices/' },
     { name: 'instagram', icon: <FaInstagram size={20} />, label: 'Instagram', link: 'https://www.instagram.com/_nowitservices_/' },
-    { name: 'youtube', icon: <FaYoutube size={20} />, label: 'Youtube', link: 'https://www.youtube.com/playlist?list=PLdYUKw5uGkwtBvgCfSB4wowCSbO07mzCR' },
+    { name: 'youtube', icon: <FaYoutube size={20} />, label: 'Youtube', link: 'https://www.youtube.com/@NOWITSERVICES-j7k' },
 ]
 
 export const quickLinks = [

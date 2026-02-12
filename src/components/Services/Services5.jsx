@@ -129,7 +129,7 @@ const Services5 = () => {
                             <Image
                                 src={tabContent[activeTab].image}
                                 alt="Service step image"
-                                className="rounded-lg w-full h-40 lg:h-50 object-cover"
+                                className="rounded-lg w-full h-40 lg:h-50 2xl:h-60 object-cover border border-gray-500"
                                 priority
                             />
                         </div>
@@ -140,7 +140,7 @@ const Services5 = () => {
                                 {tabContent[activeTab].title}
                             </h3>
 
-                            <p className="mt-2 text-xs md:text-sm text-white/70 leading-relaxed max-w-2xl">
+                            <p className="mt-2 text-xs md:text-sm 2xl:text-[16px] text-white/70 leading-relaxed max-w-2xl 2xl:max-w-5xl">
                                 {tabContent[activeTab].description}
                             </p>
                         </div>
