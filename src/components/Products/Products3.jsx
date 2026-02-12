@@ -5,7 +5,7 @@ import React, { useState, useMemo } from 'react'
 import SlidingHeader from '../shared/UI-Elements/SlidingHeader'
 import ProductCard from './ProductCard'
 
-import {PRODUCTS} from './ProductData'
+import { PRODUCTS } from './ProductData'
 
 const tabs = ['B2C', 'B2B', 'B2B2C', 'WON CORE']
 
@@ -33,9 +33,9 @@ const Products3 = () => {
         <section className="w-full bg-white py-1 px-4 lg:px-10 mb-10 ">
             <div className="mx-auto px-1 lg:px-8">
                 {/* HEADER */}
-                <SlidingHeader title="Our Products"  bottom="mb-2"/>
+                <SlidingHeader title="Our Products" bottom="mb-2" />
 
-                <h2 className="text-xl lg:text-4xl font-semibold text-[#0b2b4b] leading-relaxed max-w-3xl">
+                <h2 className="text-xl lg:text-4xl font-semibold text-[#0b2b4b] leading-normal max-w-3xl">
                     Products Built for Every Journey{' '}
                     <span className="hidden lg:inline">
                         <br />
