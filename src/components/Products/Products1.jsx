@@ -10,6 +10,7 @@ import Product2 from "../../../public/images/ProductImages/Product2.jpg";
 import Product3 from "../../../public/images/ProductImages/Product3.jpg";
 import Product4 from "../../../public/images/ProductImages/Product4.png";
 import Product5 from "../../../public/images/ProductImages/Product5.jpg";
+import Link from "next/link";
 
 const Products1 = () => {
   const router = useRouter();
@@ -54,8 +55,8 @@ const Products1 = () => {
         >
           {/* ================= MOBILE / TABLET BUTTON ================= */}
           <div className="lg:hidden flex justify-center mt-3">
-            <button
-              onClick={() => router.push("/contactUs")}
+            <Link
+             href="#myProducts"
               className="
                 relative overflow-hidden
                 h-9 min-w-20 px-10 rounded-md border-0
@@ -79,7 +80,7 @@ const Products1 = () => {
               />
 
               <span className="relative z-10">Explore Now</span>
-            </button>
+            </Link>
           </div>
 
           {/* ================= DESKTOP ANIMATED BUTTON ================= */}
@@ -96,8 +97,8 @@ const Products1 = () => {
               }
             `}
           >
-            <button
-              onClick={() => router.push("/contactUs")}
+            <Link
+             href="#myProducts"
               className="
                 relative overflow-hidden
                 h-9 min-w-20 px-10 rounded-md border-0
@@ -110,7 +111,7 @@ const Products1 = () => {
               "
             >
               <span className="relative z-10">Explore Now</span>
-            </button>
+            </Link>
           </div>
 
           {/* ================= IMAGES ================= */}
