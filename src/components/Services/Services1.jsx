@@ -79,7 +79,7 @@ const Services1 = () => {
                     <Image
                         src={data.image}
                         alt={data.headingMain}
-                        className="w-full h-60 md:h-100 lg:h-120 object-cover"
+                        className="w-full h-60 md:h-100 lg:h-130 2xl:h-160 object-cover"
                         priority
                     />
                 </div>

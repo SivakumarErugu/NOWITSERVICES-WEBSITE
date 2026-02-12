@@ -30,10 +30,10 @@ const Products3 = () => {
         : filteredProducts.slice(0, INITIAL_COUNT)
 
     return (
-        <section className="w-full bg-white py-1 px-4 lg:px-10">
+        <section className="w-full bg-white py-1 px-4 lg:px-10 mb-10 ">
             <div className="mx-auto px-1 lg:px-8">
                 {/* HEADER */}
-                <SlidingHeader title="Our Products" />
+                <SlidingHeader title="Our Products"  bottom="mb-2"/>
 
                 <h2 className="text-xl lg:text-4xl font-semibold text-[#0b2b4b] leading-relaxed max-w-3xl">
                     Products Built for Every Journey{' '}
