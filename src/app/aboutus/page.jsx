@@ -30,7 +30,7 @@ export default function AboutUs() {
       </div>
       <ChooseUs />
       <OurBrands />
-      <div className='w-[100%] overflow-auto scroll-invisible'>
+      <div className='w-full overflow-auto scroll-invisible'>
         <OurProjects />
         </div>
 
