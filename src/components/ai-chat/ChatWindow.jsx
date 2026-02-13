@@ -230,7 +230,7 @@ export default function ChatWindow({ onClose }) {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Type your message..."
+              placeholder="What are you looking for ... ?"
               disabled={isLoading}
               className="flex-1 h-11 sm:h-12 px-3 sm:px-4 rounded-lg text-black border border-blue-300 outline-none focus:ring-1 focus:ring-blue-400 text-xs sm:text-sm"
             />
