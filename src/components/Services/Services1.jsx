@@ -6,6 +6,8 @@ import { servicesData } from "./servicesData";
 
 const Services1 = () => {
     const { activeService } = useNowit();
+    const MainData = servicesData[activeService]
+    console.log(MainData.mainimage)
     const data = servicesData[activeService]?.Services1;
 
     if (!data) return null;
@@ -70,19 +72,22 @@ const Services1 = () => {
                 {/* IMAGE */}
                 <div
                     className="
-                        relative
-                        overflow-hidden
-                        rounded-3xl
-                        mt-2 md:mt-8 lg:mt-12
-                    "
+    relative
+    overflow-hidden
+    rounded-3xl
+    mt-2 md:mt-8 lg:mt-12
+    h-60 md:h-100 lg:h-130 2xl:h-180
+  "
                 >
                     <Image
-                        src={data.image}
+                        src={MainData.mainimage}
                         alt={data.headingMain}
-                        className="w-full h-60 md:h-100 lg:h-130 2xl:h-160 object-cover"
+                        fill
+                        className="object-cover"
                         priority
                     />
                 </div>
+
 
             </div>
         </section>
