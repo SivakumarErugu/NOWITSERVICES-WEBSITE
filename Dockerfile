@@ -1,26 +1,37 @@
 # =====================================
-# Next.js TEST Dockerfile (dev + build)
+# Next.js Production Dockerfile
 # =====================================
 
-FROM node:18-alpine
+# ---------- Build Stage ----------
+FROM node:20-alpine AS builder
 
-# Set working directory
 WORKDIR /app
 
 # Copy dependency files
 COPY package.json package-lock.json ./
 
-# Install dependencies
-RUN npm install --legacy-peer-deps
+# Install dependencies (force clean online install)
+RUN npm config set registry https://registry.npmjs.org/ \
+ && npm install --legacy-peer-deps --no-audit --no-fund --prefer-online
 
-# Copy source code
+# Copy source
 COPY . .
 
-# Build the application (required by you)
+# Build Next.js
 RUN npm run build
 
-# Expose Next.js dev port
+
+# ---------- Production Stage ----------
+FROM node:20-alpine
+
+WORKDIR /app
+ENV NODE_ENV=production
+
+# Copy built app
+COPY --from=builder /app ./
+
 EXPOSE 3000
 
-# Run Next.js in dev mode
-CMD ["npm", "start", "--", "-p", "3000", "-H", "0.0.0.0"]
+# Start Next.js in production
+CMD ["npm", "start"]
+
