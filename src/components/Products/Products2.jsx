@@ -8,11 +8,11 @@ import InfiniteLoop from "./InfiniteLoop";
 
 const Products2 = () => {
   return (
-    <section className="w-full py-2 flex flex-col items-center text-center  mb-5 md:mb-10 lg:mb-15 2xl:mb-20">
+    <section className="w-full py-2 md:py-6 flex flex-col items-center text-center mt-2 md:mt-5 mb-5 md:mb-8 lg:mb-5 2xl:mb-12">
 
       {/* Heading */}
       <div className="px-5">
-        <h2 className="text-xl md:text-3xl 2xl:text-4xl font-medium text-[#0b2b4b] ibmPlex-text">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-[#0b2b4b] ibmPlex-text">
           Platforms That{" "}
           <span className="text-[#1e6fd9]">Think, Adapt, and Scale</span>
         </h2>
@@ -24,8 +24,8 @@ const Products2 = () => {
       </div>
 
       {/* Infinity Image Container */}
-          <InfiniteLoop />
-      
+      <InfiniteLoop />
+
 
     </section>
   );

@@ -2,7 +2,7 @@
 
 
 
-import { CustomHeading, ThemeBtnTag, ThemeBtnTag2,ThemeLinkTag } from "@/components/shared/UI-Elements/Custom-Elements"
+import { CustomHeading, ThemeBtnTag, ThemeBtnTag2, ThemeLinkTag } from "@/components/shared/UI-Elements/Custom-Elements"
 import Image from "next/image"
 
 
@@ -71,7 +71,8 @@ const List = [
         id: 4,
         title: "WON Hubs",
         description:
-            "Enterprise collaboration and analytics platform for leadership teams.",
+            `Wonhubs is a cloud-based centralized workflow automation platform that connects omnichannels and enterprise systems
+             to design, automate, and orchestrate operational workflows from a single unified hub.`,
         image:
             "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
@@ -87,8 +88,8 @@ const List = [
 
 const OurProjects = () => {
     return (
-        <section className="w-full py-20 md:flex md:justify-center">
-            <div className="w-[100%] md:w-[1450px] flex flex-col md:gap-12">
+        <section className="w-full py-20 md:flex md:justify-center px-4 lg:px-10">
+            <div className="w-full md:w-360 flex flex-col md:gap-12 px-4 lg:px-10">
                 <CustomHeading
                     title="Projects"
                     span=""

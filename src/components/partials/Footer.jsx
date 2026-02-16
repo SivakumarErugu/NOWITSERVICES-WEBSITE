@@ -119,9 +119,9 @@ const LegalSec = () => {
 
 const Footer = () => {
     return (
-        <footer className="bg-[#04192D] w-full pt-14 pb-20 px-6 md:px-10 xl:px-20 text-white relative">
+        <footer className="bg-[#04192D] w-full pt-14 pb-20 px-6 md:px-10 2xl:px-25 text-white relative">
             {/* MAIN CONTENT */}
-            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-14 lg:gap-10">
+            <div className="max-w-8xl mx-auto flex flex-col lg:flex-row gap-14 lg:gap-10">
 
                 {/* LEFT */}
                 <div className="w-full lg:w-4/12">

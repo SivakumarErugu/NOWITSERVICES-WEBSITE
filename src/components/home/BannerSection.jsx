@@ -47,7 +47,7 @@ const BannerSection = () => {
           Intelligent Digital Transformation
         </h1>
 
-        <p className="text-[16px] md:text-[20px] max-w-2xl mx-auto mb-8 text-[#374151] ml-2 md:text-center">
+        <p className="text-[16px] md:text-[20px] max-w-2xl mx-auto mb-8 text-[#374151]  md:text-center">
           Enable businesses to grow faster with AI-powered automation,
           cloud solutions, and data-driven innovation.
         </p>

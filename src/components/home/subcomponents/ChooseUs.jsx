@@ -53,7 +53,7 @@ const ChooseUs = () => {
   const [activeId, setActiveId] = useState(null)
 
   return (
-    <div className="w-[100%] md:h-[850px] flex flex-col items-center mt-20 mb-20">
+    <div className="w-full md:h-210 flex flex-col items-center mt-20 mb-20">
       <CustomHeading
         title="Why"
         span="Choose Us"
@@ -134,7 +134,7 @@ const ChooseUs = () => {
             flex flex-nowrap gap-4
             overflow-x-auto overflow-y-hidden
             scroll-smooth
-            px-5
+            px-5 2xl:px-12
             scroll-invisible no-scrollbar
           "
         >
