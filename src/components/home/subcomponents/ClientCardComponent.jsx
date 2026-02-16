@@ -28,20 +28,21 @@ const ClientCardComponent = () => {
     const CARD_WIDTH = 280; // card + gap
     const MOBILE_DURATION = 1.8; // faster speed
     return (
-        <section className="w-full py-0  bg-white overflow-hidden mt-0 gap-0 md:mb-20">
-            <div className="pl-10">
-            <SlidingHeader title="Testimonials" />
-            </div>
+        <section className="w-full px-4 lg:px-8 mb-15">
+            <div className="mx-auto px-1 lg:px-6">
+            <SlidingHeader title="Testimonials" bottom="mb-2"/>
 
-            {/* Header */}
-            <div className="max-w-[900px]  px-5 md:px-10">
-                <h1 className=" font-bold md:font-medium text-[25px]  md:text-[48px] text-[#1F2937] ibmPlex-text">
-                    Building <span className="text-[#0D5BD7]">Trust</span> Through Results
-                </h1>
-                <p className="text-gray-600 mt-2 text-lg">
-                    Real feedback from clients who've partnered with us to build reliable digital solutions.
+            <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
+                    Building <span className="text-[#0b5ed7]">Trust</span> Through Results
+                </h2>
+
+                <p className="mt-3 text-gray-600 text-xs md:text-sm lg:text-[15px]">
+                    Real feedback from clients who&apos;ve partnered with us to build reliable
+                     digital solutions.
                 </p>
             </div>
+
+            
             {/* DESKTOP VIEW */}
 
             <div className="hidden md:block overflow-hidden w-[99%] mt-16 px-20">

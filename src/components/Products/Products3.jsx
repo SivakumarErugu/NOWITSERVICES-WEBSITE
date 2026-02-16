@@ -30,14 +30,14 @@ const Products3 = () => {
         : filteredProducts.slice(0, INITIAL_COUNT)
 
     return (
-        <section className="w-full bg-white py-1 px-4 lg:px-10 mb-10 ">
-            <div className="mx-auto px-1 lg:px-8">
+        <section className="w-full bg-white py-1 px-4 lg:px-8 mb-5 ">
+            <div className="mx-auto px-1 lg:px-6">
                 {/* HEADER */}
                 <SlidingHeader title="Our Products" bottom="mb-2" />
 
-                <h2 className="text-xl lg:text-4xl font-semibold text-[#0b2b4b] leading-normal max-w-3xl">
+                <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-[#0b2b4b] leading-normal max-w-3xl">
                     Products Built for Every Journey{' '}
-                    <span className="hidden lg:inline">
+                    <span className="hidden md:inline">
                         <br />
                     </span>
                     <span className="text-[#0d63f3]">
@@ -91,7 +91,7 @@ const Products3 = () => {
                     2xl:space-y-0
                     2xl:grid
                     2xl:grid-cols-3
-                    2xl:gap-10
+                    2xl:gap-15
                 ">
                     {visibleProducts.map((item, index) => (
                         <ProductCard
@@ -107,7 +107,7 @@ const Products3 = () => {
 
                 {/* VIEW MORE */}
                 {filteredProducts.length > INITIAL_COUNT && (
-                    <div className="mt-8 md:mt-12 2xl:mt-6 text-center">
+                    <div className="mt-8 md:mt-12 2xl:mt-10 text-center">
                         <button
                             onClick={() => setShowAll((prev) => !prev)}
                             className="text-md lg:text-lg font-medium text-[#0A66C2] hover:underline ibmPlex-text"

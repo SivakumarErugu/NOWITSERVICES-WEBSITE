@@ -18,8 +18,8 @@ const Products4 = () => {
     })
 
     return (
-        <section className="w-full bg-white py-4 lg:py-12 px-2.5 lg:px-12 2xl:px-30 mb-10 md:mb-15">
-            <div className="mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="w-full bg-white py-4 lg:py-12 px-2.5 lg:px-12 2xl:px-15 mb-10 md:mb-15">
+            <div className="mx-auto px-4 sm:px-6 lg:px-6">
 
                 {/* GRID */}
                 <div
@@ -46,7 +46,7 @@ const Products4 = () => {
                             It to Fit Your Vision.
                         </h2>
 
-                        <p className="mt-4 text-sm sm:text-base text-[#4b5563] leading-relaxed max-w-3xl">
+                        <p className="mt-4 text-xs sm:text-sm 2xl:text-[17px] text-[#4b5563] leading-relaxed max-w-6xl">
                             Share your idea with us, and we’ll collaborate closely to transform
                             it into a fully customized digital product. From concept and design
                             to development and scale, we tailor every solution to match your
@@ -73,7 +73,7 @@ const Products4 = () => {
                         }}
                         className="order-1 lg:order-2"
                     >
-                        <div className="relative mx-auto max-w-105 h-60 sm:h-70 md:h-80 lg:h-100">
+                        <div className="relative mx-auto  h-60 sm:h-70 md:h-80 lg:h-100">
                             <Image
                                 src={Product13}
                                 alt="Customize your product"
