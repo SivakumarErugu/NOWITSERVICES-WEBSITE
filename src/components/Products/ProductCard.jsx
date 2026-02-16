@@ -14,7 +14,7 @@ const ProductCard = ({ title, desc, img, link, reverse = false }) => {
         md:grid-cols-2
         gap-4 md:gap-6 lg:gap-8
         items-center
-        2xl:px-6
+        2xl:px-1
         2xl:grid-cols-1
         2xl:items-start
       "

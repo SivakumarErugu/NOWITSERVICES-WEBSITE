@@ -1,8 +1,7 @@
-
 'use client'
 
 import React, { useState } from 'react'
-import { ThemeBtnTag,ThemeLinkTag } from '@/components/shared/UI-Elements/Custom-Elements'
+import { ThemeLinkTag } from '@/components/shared/UI-Elements/Custom-Elements'
 
 const List = [
     {
@@ -35,40 +34,46 @@ const FaqSection = () => {
     const [activeCard, setActiveCard] = useState(1)
 
     return (
-        <section className="w-full bg-[#E3F1FF] flex py-[96px] hidden md:block px-7">
-            <div className="w-[1270px] grid grid-cols-2 gap-[64px]">
+        <section className="w-full bg-[#E3F1FF] py-20 hidden md:block px-4 lg:px-8">
+            {/* Center Container */}
+            <div className=" mx-auto  px-1 lg:px-6 grid grid-cols-2 gap-12 items-start">
+
                 {/* Left Content */}
-                <div className="flex flex-col gap-[32px] justify-center items-center">
+                <div className="flex flex-col gap-8">
                     <div>
-                        <p className="text-[14px] font-medium text-[#1F7AFC] tracking-wide mb-2">
+                        <p className="text-[14px] font-medium text-[#1F7AFC] tracking-wide mb-3">
                             FAQ’S
                         </p>
-                        <h2 className="text-[40px] leading-[48px] font-semibold text-[#0A2540] max-w-[420px] inmPlex-text">
+
+                        <h2 className="text-[48px] leading-10 font-semibold text-[#0A2540] ">
                             Frequently Asked Questions
                         </h2>
                     </div>
 
-                    <div className="bg-white rounded-[16px] p-[32px] w-[532px] shadow-sm ml-20">
-                        <h3 className="text-[20px] font-medium text-[#0A2540] mb-2 ibmPlex-text">
+                    <div className="bg-white rounded-2xl p-8 shadow-sm ">
+                        <h3 className="text-[22px] font-semibold text-[#0A2540] mb-3">
                             Still have questions?
                         </h3>
-                        <p className="text-[14px] text-[#4A5D73] leading-[22px] mb-6">
-                            We're here to help you understand how we work, what we offer,
-                            how we can grow together, and build lasting brand impact.
+
+                        <p className="text-[15px] text-[#4A5D73] leading-6 mb-6">
+                            We&apos;re here to help you understand how we work,
+                            what we offer, how we can grow together, and build
+                            lasting brand impact.
                         </p>
-                        <ThemeLinkTag BtnText="Get In Touch" href='/contactUs' />
+
+                        <ThemeLinkTag BtnText="Get In Touch" href="/contactUs" />
                     </div>
                 </div>
 
                 {/* FAQ Accordion */}
-                <div className="flex flex-col md:gap-[25px] lg:gap[25px] ">
+                <div className="flex flex-col gap-6">
                     {List.map((item) => {
                         const isActive = activeCard === item.id
 
                         return (
                             <div
                                 key={item.id}
-                                className="w-[640px] bg-white rounded-[14px] px-[24px] py-[20px]"
+                                className="bg-white rounded-2xl px-8 py-6 shadow-sm"
                             >
                                 <button
                                     onClick={() =>
@@ -76,21 +81,22 @@ const FaqSection = () => {
                                     }
                                     className="w-full flex justify-between items-center text-left"
                                 >
-                                    <p className="text-[18px] font-medium text-[#0A2540]">
+                                    <p className="text-[17px] font-medium text-[#0A2540] pr-6">
                                         {item.title}
                                     </p>
 
                                     <span
-                                        className={`flex items-center justify-center h-[32px] w-[32px] rounded-full border border-[#D0D5DD] text-[18px] font-medium ${
-                                            isActive ? 'text-[#0A2540]' : 'text-[#667085]'
-                                        }`}
+                                        className={`flex items-center justify-center h-9 w-9 rounded-full border border-[#D0D5DD] text-[20px] transition-all duration-200 ${isActive
+                                                ? 'text-[#0A2540]'
+                                                : 'text-[#667085]'
+                                            }`}
                                     >
                                         {isActive ? '−' : '+'}
                                     </span>
                                 </button>
 
                                 {isActive && (
-                                    <p className="mt-[12px] pr-[40px] text-[14px] text-[#4A5D73] leading-[22px]">
+                                    <p className="mt-4 pr-12 text-[15px] text-[#4A5D73] leading-6">
                                         {item.description}
                                     </p>
                                 )}
