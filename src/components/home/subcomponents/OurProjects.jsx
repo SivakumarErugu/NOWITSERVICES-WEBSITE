@@ -27,7 +27,6 @@ const ProjectCard = ({ item, height, width }) => {
 
             {/* lighter gradient for mobile */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/20 to-transparent" />
-
             {/* TEXT */}
             <div className="absolute bottom-0 p-3 md:p-6 text-white">
                 <h3 className="text-[16px] md:text-[24px] font-semibold leading-tight">
@@ -47,7 +46,7 @@ const List = [
         id: 1,
         title: "WON Bill",
         description:
-            "It helps hospitals improve efficiency, enhance patient care, and manage daily operations seamlessly.",
+            "WON Bills is an enterprise billing automation platform. It simplifies invoicing and payments. Designed for scalability and accuracy.",
         image:
             "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
     },
@@ -55,7 +54,7 @@ const List = [
         id: 2,
         title: "WON Digi",
         description:
-            "An all-in-one educational platform designed to transform how schools operate.",
+            "WON Digi is a comprehensive school and institute management platform. It digitizes academic, administrative, and operational workflows.",
         image:
             "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
     },
@@ -63,7 +62,7 @@ const List = [
         id: 3,
         title: "WON Pulse",
         description:
-            "A hospital management system built for modern healthcare workflows.",
+            "WON Pulse is a complete hospital and healthcare management system. It streamlines clinical, administrative, and operational processes.",
         image:
             "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
     },
@@ -71,8 +70,7 @@ const List = [
         id: 4,
         title: "WON Hubs",
         description:
-            `Wonhubs is a cloud-based centralized workflow automation platform that connects omnichannels and enterprise systems
-             to design, automate, and orchestrate operational workflows from a single unified hub.`,
+            "WON Hubs is the core infrastructure platform. It powers the entire WON ecosystem. Designed for scalability and resilience..",
         image:
             "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
@@ -80,7 +78,7 @@ const List = [
         id: 5,
         title: "WON Bridge",
         description:
-            "Infrastructure and logistics management solution for large-scale projects.",
+            "WON Bridge connects business systems seamlessly. It enables smooth data exchange. Designed for enterprise integration.",
         image:
             "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
     }

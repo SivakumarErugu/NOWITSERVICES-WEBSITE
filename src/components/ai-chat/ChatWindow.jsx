@@ -4,7 +4,6 @@ import { IoClose } from "react-icons/io5";
 import { BsStars } from "react-icons/bs";
 import { HiPaperAirplane } from "react-icons/hi2";
 import { useState, useRef, useEffect } from "react";
-
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";

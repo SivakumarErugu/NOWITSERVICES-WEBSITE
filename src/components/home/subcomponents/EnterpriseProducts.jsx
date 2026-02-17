@@ -78,7 +78,7 @@ const EnterpriseProducts = () => {
 
 
                     <div className="w-full flex justify-between py-5">
-                        <div className="w-[90%] flex justify-between px-15">
+                        <div className="w-[100%] flex justify-between px-15">
 
                             <div className="grid grid-cols-[auto_auto_48px_auto_1fr] items-start h-88">
 
