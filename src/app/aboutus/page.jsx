@@ -22,11 +22,15 @@ export default function AboutUs() {
       
       <OurJourney />
       <div className='height-[90px] w-full hidden md:block self-center  md:px-28 lg:px-40'>
-      <p className="inter-text px-5 md:px-15">By end of2025, we have fully evolved as producr based company with seamless producrs in WON App store and growing the suite by adding more platforms for diversified industries/verticals. We have also filed patents for modern healthcare technology with logic and Ayurvedic research.</p>
+      <p className="inter-text px-5 md:px-2">We hold patents on next-generation smart footwear platform 
+        that transforms everyday movement into meaningful health insights. By combining advanced sensing technology
+         with intelligent data analytics, the system enables real-time monitoring and personalized wellness feedback.
+          Energy-efficient and seamlessly connected, this innovation sits at the intersection of healthcare, mobility, and
+           wearable technology — shaping the future of preventive, data-driven care.</p>
       </div>
       <ChooseUs />
       <OurBrands />
-      <div className='w-[100%] overflow-auto scroll-invisible'>
+      <div className='w-full overflow-auto scroll-invisible'>
         <OurProjects />
         </div>
 

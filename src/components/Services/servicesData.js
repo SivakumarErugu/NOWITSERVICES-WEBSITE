@@ -9,6 +9,8 @@ import IPFilling from '../../../public/images/ServicesImages/IPFilling.png';
 export const servicesData = {
     "smart marketing": {
         title: "Smart Marketing",
+        mainimage: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+
         description:
             `Our Smart Marketing service combines strategy, creativity,
              and AI-driven insights to help businesses build strong brand
@@ -63,6 +65,7 @@ export const servicesData = {
 
     "business launch": {
         title: "Business Launch Services",
+        mainimage: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
         description:
             `Support new businesses with a structured, end-to-end launch
              approach that ensures clarity, visibility, and early momentum.
@@ -118,6 +121,8 @@ export const servicesData = {
 
     "migration": {
         title: "Cloud & Application Migration",
+        mainimage: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+
         description:
             `Seamlessly move your applications, data, and workloads 
             to the cloud with minimal disruption and maximum performance.
@@ -173,6 +178,8 @@ export const servicesData = {
 
     "training services": {
         title: "Training & Development Services",
+        mainimage: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+
         description:
             `Equip teams with practical, future-ready skills through 
             structured training programs tailored to evolving business 
@@ -228,6 +235,8 @@ export const servicesData = {
 
     "professional services": {
         title: "Professional Coaching Services",
+        mainimage: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+
         description:
             `Empower organizations and teams with expert guidance that bridges
              business strategy and technology execution. These services are 
@@ -283,6 +292,8 @@ export const servicesData = {
 
     "messaging services": {
         title: "Messaging & Communication Services",
+        mainimage: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+
         description:
             `Enable intelligent, real-time communication across customer
              touchpoints with AI-driven messaging solutions. 
@@ -338,6 +349,8 @@ export const servicesData = {
 
     "ip filing services": {
         title: "IP Filing Services",
+        mainimage: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+
         description:
             `Safeguard your ideas and innovations with structured,
             secure, and compliant intellectual property services. 

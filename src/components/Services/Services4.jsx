@@ -136,7 +136,7 @@ const ServiceCard = ({ service, onClick, mobile }) => {
   return (
     <div
       className={`
-        relative h-70 lg:h-110 rounded-2xl overflow-hidden
+        relative h-70 lg:h-120 2xl:h-200 rounded-2xl overflow-hidden
         cursor-pointer group shadow-sm hover:shadow-xl transition-all
         ${mobile ? "min-w-60 lg:min-w-75" : ""}
       `}
@@ -159,7 +159,7 @@ const ServiceCard = ({ service, onClick, mobile }) => {
 
       {/* CONTENT */}
       <div className="absolute inset-x-0 bottom-0 p-5 lg:p-7 pr-10 md:pr-15 text-white z-10 mb-4">
-        <h3 className="text-md md:text-lg lg:text-xl font-semibold ">
+        <h3 className="text-md md:text-lg lg:text-xl 2xl:text-2xl font-semibold ">
           {service.title}
         </h3>
 
@@ -169,7 +169,7 @@ const ServiceCard = ({ service, onClick, mobile }) => {
             ${open ? "max-h-40 mt-3 opacity-100" : "max-h-0 opacity-0"}
           `}
         >
-          <p className="text-xs xl:text-sm text-gray-200 leading-relaxed">
+          <p className="text-xs xl:text-sm 2xl:text-[17px] text-gray-200 leading-relaxed">
             {service.description}
           </p>
         </div>

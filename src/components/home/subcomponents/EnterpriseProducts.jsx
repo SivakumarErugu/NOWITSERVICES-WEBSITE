@@ -3,6 +3,7 @@
 import React from 'react';
 import { useState } from 'react';
 import TitleAndDescription from '@/components/shared/UI-Elements/TitleAndDescription';
+import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader';
 import Link from 'next/link';
 const AppsList = [{
     id: 1,
@@ -49,10 +50,10 @@ const EnterpriseProducts = () => {
 
     const Cylinder = ({ app, index }) => (
         <li
-            className="w-[40px] h-[353px] flex justify-center cursor-pointer"
+            className="w-10 h-88 flex justify-center cursor-pointer"
             onMouseEnter={() => setActiveIndex(index)}
         >
-            <div className="w-[40px] h-full bg-gradient-to-r from-[#0A66C2] to-[#04192D] flex items-center justify-center shadow-[0_4px_4px_rgba(0,0,0,0.11)]">
+            <div className="w-10 h-full bg-linear-to-r from-[#0A66C2] to-[#04192D] flex items-center justify-center shadow-[0_4px_4px_rgba(0,0,0,0.11)]">
                 <span className="text-white font-semibold -rotate-90 whitespace-nowrap">
                     {app?.name}
                 </span>
@@ -61,60 +62,75 @@ const EnterpriseProducts = () => {
     );
 
     return (
-        <div className='w-full flex flex-col gap-4 hidden md:block px-10'>
-            <TitleAndDescription isSpanFirst={true} title="Digital Products" span="Enterprise-Ready" description="Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built
-      with modern technology,each product is crafted to deliver performance and long-term value across web and mobile platforms."/>
-            <div className="w-full flex justify-between">
-                <div className="w-[90%] flex justify-between px-15">
+        <section className='w-full px-4 lg:px-8'>
+            <div className='mx-auto px-1 lg:px-6'>
+                <div className='w-full flex flex-col hidden md:block'>
+                    <SlidingHeader title="Our Products" bottom="mb-4" />
 
-                    <div className="grid grid-cols-[auto_auto_48px_auto_1fr] items-start h-[353px]">
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
+                        <span className="text-[#0b5ed7]">Enterprise-Ready</span> Digital Products
+                    </h2>
 
-                        {/* LEFT CYLINDERS */}
-                        <ul className="flex gap-6 h-[353px]">
-                            {leftList.map((app, i) => (
-                                <Cylinder key={app.id} app={app} index={i} />
-                            ))}
-                        </ul>
+                    <p className="mt-3 text-gray-600 text-xs md:text-sm lg:text-[15px]">
+                        Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built
+                        with modern technology,each product is crafted to deliver performance and long-term value across web and mobile platforms.
+                    </p>
 
-                        {/* IMAGE + CENTER CYLINDER */}
-                        <div className="flex h-[353px] ml-4">
-                            <div className="w-[259px] h-[353px] relative overflow-hidden shadow-lg">
-                                <img src={activeApp.url} className="w-full h-full object-cover" />
-                                <div className="absolute bottom-0 h-[48px] w-full bg-[#5DBB2F] flex items-center justify-center">
-                                    <span className="text-white font-semibold">{activeApp.name}</span>
+
+                    <div className="w-full flex justify-between py-5">
+                        <div className="w-[100%] flex justify-between px-15">
+
+                            <div className="grid grid-cols-[auto_auto_48px_auto_1fr] items-start h-88">
+
+                                {/* LEFT CYLINDERS */}
+                                <ul className="flex gap-6 h-88">
+                                    {leftList.map((app, i) => (
+                                        <Cylinder key={app.id} app={app} index={i} />
+                                    ))}
+                                </ul>
+
+                                {/* IMAGE + CENTER CYLINDER */}
+                                <div className="flex h-88 ml-4">
+                                    <div className="w-80 h-88 relative overflow-hidden shadow-lg">
+                                        <img src={activeApp.url} className="w-full h-full object-cover" />
+                                        <div className="absolute bottom-0 h-[48px] w-full bg-[#5DBB2F] flex items-center justify-center">
+                                            <span className="text-white font-semibold">{activeApp.name}</span>
+                                        </div>
+                                    </div>
+                                    <div className=" w-10 h-full flex justify-center">
+                                        <div className="w-10 h-full bg-linear-to-r from-[#0A66C2] to-[#04192D] flex items-center justify-center">
+                                            <span className="text-white font-semibold -rotate-90 whitespace-nowrap">
+                                                {activeApp?.name}
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                {/* EXACT DESIGN GAP */}
+                                <div className="w-12" />
+                                {/* RIGHT CYLINDERS */}
+                                <ul className="flex gap-6 h-88">
+                                    {rightList.map((app, i) => (
+                                        <Cylinder key={app.id} app={app} index={activeIndex + 1 + i} />
+                                    ))}
+                                </ul>
                             </div>
-                            <div className=" w-[40px] h-full flex justify-center">
-                                <div className="w-[40px] h-full bg-gradient-to-r from-[#0A66C2] to-[#04192D] flex items-center justify-center">
-                                    <span className="text-white font-semibold -rotate-90 whitespace-nowrap">
-                                        {activeApp?.name}
-                                    </span>
-                                </div>
+
+                            <div className=" pl-10 flex flex-col justify-start pt-2 mt-2">
+                                <h3 className="text-[28px] font-semibold mb-4">{activeApp.name}</h3>
+                                <p className="text-gray-700 leading-relaxed mb-6">
+                                    {activeApp.description}
+                                </p>
+                                <Link href="/products" className="bg-[#5DBB2F] text-white px-6 py-2 rounded-md w-fit">
+                                    View Product
+                                </Link>
                             </div>
                         </div>
-
-                        {/* EXACT DESIGN GAP */}
-                        <div className="w-[48px]" />
-                        {/* RIGHT CYLINDERS */}
-                        <ul className="flex gap-6 h-[353px]">
-                            {rightList.map((app, i) => (
-                                <Cylinder key={app.id} app={app} index={activeIndex + 1 + i} />
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className="max-w-xl pl-10 flex flex-col justify-start pt-2 mt-10">
-                        <h3 className="text-[28px] font-semibold mb-4">{activeApp.name}</h3>
-                        <p className="text-gray-700 leading-relaxed mb-6">
-                            {activeApp.description}
-                        </p>
-                        <Link href="/products" className="bg-[#5DBB2F] text-white px-6 py-2 rounded-md w-fit">
-                            View Product
-                        </Link>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
 
     );
 };

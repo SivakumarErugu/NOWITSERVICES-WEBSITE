@@ -1,16 +1,25 @@
 'use client'
 
-import React from 'react'
+import React, { useRef } from 'react'
 import Image from 'next/image'
+import { motion, useInView } from 'framer-motion'
 
 import Product13 from '../../../public/images/ProductImages/Product13.png'
 import SlidingHeader from '../shared/UI-Elements/SlidingHeader'
 import { ThemeLinkTag } from '../shared/UI-Elements/Custom-Elements'
 
 const Products4 = () => {
+
+    const imageRef = useRef(null)
+
+    const isImageInView = useInView(imageRef, {
+        once: true,
+        margin: '-20% 0px -10% 0px'
+    })
+
     return (
-        <section className="w-full bg-white py-4 lg:py-12 px-2.5 lg:px-12 2xl:px-30">
-            <div className="mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="w-full bg-white py-4 lg:py-12 px-2.5 lg:px-12 2xl:px-15 mb-10 md:mb-15">
+            <div className="mx-auto px-4 sm:px-6 lg:px-6">
 
                 {/* GRID */}
                 <div
@@ -24,21 +33,20 @@ const Products4 = () => {
 
                     {/* CONTENT */}
                     <div className="order-2 lg:order-1">
-                        <SlidingHeader title="Customize your Product" />
+                        <SlidingHeader title="Customize your Product" bottom="mb-2"/>
 
                         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#0b2b4b] leading-relaxed">
                             Have an Idea?{' '}
                             <span className="text-[#0d63f3]">
-                                We Customize {" "}
-
+                                We Customize{" "}
                             </span>
-                            <span className="">
+                            <span>
                                 <br />
                             </span>
                             It to Fit Your Vision.
                         </h2>
 
-                        <p className="mt-4 text-sm sm:text-base text-[#4b5563] leading-relaxed max-w-3xl">
+                        <p className="mt-4 text-xs sm:text-sm 2xl:text-[17px] text-[#4b5563] leading-relaxed max-w-6xl">
                             Share your idea with us, and we’ll collaborate closely to transform
                             it into a fully customized digital product. From concept and design
                             to development and scale, we tailor every solution to match your
@@ -49,14 +57,23 @@ const Products4 = () => {
                             <ThemeLinkTag
                                 href='/contactUs'
                                 BtnText="Get In Touch"
-                                styles="border-0 bg-[#55B233] text-white text-xs md:text-sm  !font-medium !py-1 !px-5 !lg:py-2 !rounded-md hover:bg-[#43a047]"
+                                styles="border-0 bg-[#55B233] text-white text-xs md:text-sm !font-medium !py-1 !px-5 !lg:py-2 !rounded-md hover:bg-[#43a047]"
                             />
                         </div>
                     </div>
 
-                    {/* IMAGE */}
-                    <div className="order-1 lg:order-2">
-                        <div className="relative mx-auto max-w-105 h-60 sm:h-70 md:h-80 lg:h-100">
+                    {/* IMAGE (Animated from Right) */}
+                    <motion.div
+                        ref={imageRef}
+                        initial={{ x: '60px', opacity: 0 }}
+                        animate={isImageInView ? { x: 0, opacity: 1 } : {}}
+                        transition={{
+                            duration: 0.9,
+                            ease: [0.19, 1, 0.22, 1],
+                        }}
+                        className="order-1 lg:order-2"
+                    >
+                        <div className="relative mx-auto  h-60 sm:h-70 md:h-80 lg:h-100">
                             <Image
                                 src={Product13}
                                 alt="Customize your product"
@@ -66,7 +83,7 @@ const Products4 = () => {
                                 priority
                             />
                         </div>
-                    </div>
+                    </motion.div>
 
                 </div>
             </div>

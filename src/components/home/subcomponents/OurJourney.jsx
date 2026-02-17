@@ -3,31 +3,6 @@
 
 import React, { useRef, useState, useEffect } from "react";
 
-// const List = [
-//   {
-//     suffix: "20",
-//     description: "Incorporated in UnitedKingdom as Technology Consulting Firm"
-//   },
-//   {
-//     suffix: "21",
-//     description:
-//       "Started tech Consulting Services in India for AspireSystems, Qbrainx, UST Global and started development of customised web and mobile applications"
-//   },
-//   {
-//     suffix: "24",
-//     description: "Started as Product based Company with Brand name Won Apps"
-//   },
-//   {
-//     suffix: "25",
-//     description:
-//       "Launched First SAAS Platform and gradually added 2 more SaaS Platforms to the WON App Store"
-//   },
-//   {
-//     suffix: "26",
-//     description:
-//       "Progressing to add 3 more SaaS platforms rounding it to 5 in the WON App Store."
-//   }
-// ];
 
 const List = [
   {
@@ -51,7 +26,7 @@ const List = [
   },
   {
     suffix: "24",
-    description: "Started as a Product-based Company with the brand name Won Apps"
+    description: "Started as a Product-based Company with the brand name WON Apps"
   },
   {
     suffix: "25",
@@ -61,10 +36,9 @@ const List = [
   {
     suffix: "26",
     description:
-      "Progressing to add three more SaaS platforms, rounding it to five in the WON App Store"
+      "Progressing to add more platforms, rounding it to five in the WON App Store"
   }
 ];
-
 
 
 const OurJourney = () => {
@@ -147,7 +121,7 @@ const OurJourney = () => {
               text-[10px]
               left-[50px]
              md:left-[60px]
-              -translate-y-20  
+              -translate-y-40  
               max-w-[600px]
               text-gray-700
               md:text-[19px]

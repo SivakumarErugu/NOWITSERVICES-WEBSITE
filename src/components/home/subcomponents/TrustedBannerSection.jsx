@@ -27,10 +27,10 @@ const TrustedBannerSection = () => {
         <div
             className="
         relative
-        h-[463px]
-        w-[100%]
+        h-115
+        w-full
         md:w-full
-       md:h-[577px]
+       md:h-145
         bg-[url('https://res.cloudinary.com/dr9thittl/image/upload/v1770112947/7a674011e1fdea2559ccd610d4230ccde99ebbce_yoafno.png')]
         bg-cover
         bg-center
@@ -46,7 +46,7 @@ const TrustedBannerSection = () => {
             <div className="absolute inset-0 bg-black/60" />
 
             {/* CONTENT WRAPPER */}
-            <div className="relative z-10 w-full max-w-[1295px] px-10 flex flex-col items-center">
+            <div className="relative z-10 w-full max-w-325 px-6 flex flex-col items-center">
                 {/* HEADING BLOCK */}
                 <div className="flex flex-col items-center gap-4 mb-16">
                     <div className="flex items-center relative w-fit pt-8 ">

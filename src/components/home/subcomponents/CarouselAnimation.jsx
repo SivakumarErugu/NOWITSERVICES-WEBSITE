@@ -109,7 +109,7 @@ const ServicesHero = () => {
         <>
            
             <div
-                className=" h-[658px] p-6 mb-3 hidden md:block"
+                className=" h-150 mb-3 hidden md:block py-5"
                 onMouseEnter={() => {
                     setHasStarted(true);
                     setIsHovering(true);

@@ -12,11 +12,11 @@ const AiBtn = () => {
   };
 
   return (
-    <div className="hidden md:flex items-end justify-end p-0 w-[88%] mt-7">
+    <div className="hidden md:flex items-end justify-end p-0 w-[96%] mt-3 mb-3">
       <button
         onClick={handleClick}
         aria-label="Open AI Assistant"
-        className="relative w-[222px] h-[61px] rounded-[57px] p-[3px] bg-gradient-to-r from-[#87CE6D] to-[#174F88]"
+        className="relative w-48 h-12 rounded-[57px] p-0.5 bg-linear-to-r from-[#87CE6D] to-[#174F88]"
       >
         {/* White inner pill */}
         <div className="flex items-center gap-2 h-full w-full rounded-[54px] bg-white justify-center">
@@ -27,7 +27,7 @@ const AiBtn = () => {
           </span>
 
           {/* Icon Circle */}
-          <div className="flex items-center justify-center w-[40px] h-[40px] rounded-full bg-gradient-to-r from-[#87CE6D] to-[#174F88] shrink-0 text-white text-xl">
+          <div className="flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-r from-[#87CE6D] to-[#174F88] shrink-0 text-white text-xl">
             <BsStars />
           </div>
 

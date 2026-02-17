@@ -11,7 +11,7 @@ const Services2 = () => {
     if (!data) return null;
 
     return (
-        <section className="w-full bg-white py-5 lg:py-2   mb-4 lg:mb-15">
+        <section className="w-full bg-white py-5 lg:py-2   mb-4 lg:mb-8 2xl:mb-20">
             <div className=" mx-auto px-5 md:px-8 lg:px-15">
                 {/* HEADER */}
                 <SlidingHeader title="Service Overview" bottom="mb-2" top="mt-2 lg:mt-2" />
@@ -30,7 +30,7 @@ const Services2 = () => {
                             {data.highlight}
                         </h3>
 
-                        <p className="hidden lg:flex mt-4 max-w-2xl text-gray-600 text-sm md:text-md">
+                        <p className="hidden lg:flex mt-4 max-w-3xl text-gray-600 text-sm md:text-md 2xl:text-[17px]">
                             {data.description}
                         </p>
 
@@ -41,6 +41,7 @@ const Services2 = () => {
                         className="
               flex flex-col gap-4
               lg:max-h-62
+              2xl:max-h-65
               lg:overflow-y-auto
               lg:px-4
               scroll-smooth
