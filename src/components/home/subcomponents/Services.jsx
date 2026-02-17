@@ -5,7 +5,7 @@ import CarouselAnimaiton from "@/components/home/subcomponents/CarouselAnimation
 const Services = () => {
     return (
         <div className='w-full px-2 md:px-10 sm:space-y-2 md:sapce-y-0'>
-            <div className='px-4'>
+            <div className='px-9 '>
                 <SlidingHeader title="Our Services" />
 
             </div>

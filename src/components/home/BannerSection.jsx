@@ -1,6 +1,4 @@
 import BannerButtonSection from "./subcomponents/BannerButtonSection";
-import { TbShieldCheckeredFilled } from "react-icons/tb";
-import { CgShapeRhombus } from "react-icons/cg";
 import HeroSection from "./Hero1";
 
 const BannerSection = () => {

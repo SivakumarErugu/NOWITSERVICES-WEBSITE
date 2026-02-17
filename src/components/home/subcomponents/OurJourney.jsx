@@ -3,31 +3,69 @@
 
 import React, { useRef, useState, useEffect } from "react";
 
+// const List = [
+//   {
+//     suffix: "20",
+//     description: "Incorporated in UnitedKingdom as Technology Consulting Firm"
+//   },
+//   {
+//     suffix: "21",
+//     description:
+//       "Started tech Consulting Services in India for AspireSystems, Qbrainx, UST Global and started development of customised web and mobile applications"
+//   },
+//   {
+//     suffix: "24",
+//     description: "Started as Product based Company with Brand name Won Apps"
+//   },
+//   {
+//     suffix: "25",
+//     description:
+//       "Launched First SAAS Platform and gradually added 2 more SaaS Platforms to the WON App Store"
+//   },
+//   {
+//     suffix: "26",
+//     description:
+//       "Progressing to add 3 more SaaS platforms rounding it to 5 in the WON App Store."
+//   }
+// ];
+
 const List = [
   {
     suffix: "20",
-    description: "Incorporated in UnitedKingdom as Technology Consulting Firm"
+    description: "Incorporated in United Kingdom as a Technology Consulting Firm"
   },
   {
     suffix: "21",
     description:
-      "Started tech Consulting Services in India for AspireSystems, Qbrainx, UST Global and started development of customised web and mobile applications"
+      "Started Tech Consulting Services in India for AspireSystems, Qbrainx, UST Global and initiated development of customized web and mobile applications"
+  },
+  {
+    suffix: "22",
+    description:
+      "Expanded operations in India by strengthening the development team and accelerating research & development initiatives"
+  },
+  {
+    suffix: "23",
+    description:
+      "Focused on product innovation, client acquisition, and building scalable SaaS-ready architecture"
   },
   {
     suffix: "24",
-    description: "Started as Product based Company with Brand name Won Apps"
+    description: "Started as a Product-based Company with the brand name Won Apps"
   },
   {
     suffix: "25",
     description:
-      "Launched First SAAS Platform and gradually added 2 more SaaS Platforms to the WON App Store"
+      "Launched first SaaS platform and gradually added two more SaaS platforms to the WON App Store"
   },
   {
     suffix: "26",
     description:
-      "Progressing to add 3 more SaaS platforms rounding it to 5 in the WON App Store."
+      "Progressing to add three more SaaS platforms, rounding it to five in the WON App Store"
   }
 ];
+
+
 
 const OurJourney = () => {
   const scrollRef = useRef(null);

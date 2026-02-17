@@ -189,7 +189,7 @@ const ServicesHero = () => {
                         <div className="absolute inset-0 bg-black/70" />
 
                         {/* Content */}
-                        <div className="relative z-10 p-6 pb-0  flex flex-col justify-center h-full items-center">
+                        <div className="relative z-10 p-6 pb-0  flex flex-col h-full items-center">
                             <div>
                                 <h2 className="text-[24px] font-semibold mb-3 ibmPlex-text">
                                     {item.name}
@@ -206,7 +206,7 @@ const ServicesHero = () => {
                                 </ul>
                             </div>
 
-                            <span className="text-[96px] font-bold opacity-80 self-end praise-text">
+                            <span className="text-[96px] font-bold opacity-80 absolute bottom-1 right-10 praise-text">
                                 {item.id}
                             </span>
                         </div>

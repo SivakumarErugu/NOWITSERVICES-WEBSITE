@@ -8,6 +8,7 @@ import {
     LegalLinks,
 } from "./utils";
 import { ThemeBottomBorder2 } from "../shared/UI-Elements/Custom-Elements";
+import Link from "next/link";
 
 /* ---------------- LOGO SECTION ---------------- */
 
@@ -23,7 +24,9 @@ const LogoSection = () => {
 
             <div className="flex gap-5">
                 {socialMedia.map((each, i) => (
-                    <span
+                    <a
+                        href={each?.link}
+                        target="_blank"
                         key={i}
                         className="relative h-10 w-10 flex items-center justify-center cursor-pointer"
                     >
@@ -37,7 +40,7 @@ const LogoSection = () => {
                         <span className="relative z-10 text-white">
                             {each.icon}
                         </span>
-                    </span>
+                    </a>
                 ))}
             </div>
         </section>
@@ -56,12 +59,13 @@ const QuickLinksSec = () => {
 
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-x-8 gap-y-2 ">
                 {quickLinks.map((each, i) => (
-                    <li
+                    <Link
+                        href={each?.link}
                         key={i}
                         className="font-extralight text-sm text-white/75 max-md:text-center"
                     >
                         {each.label}
-                    </li>
+                    </Link>
                 ))}
             </ul>
 
@@ -71,19 +75,19 @@ const QuickLinksSec = () => {
 
 /* ---------------- SERVICES ---------------- */
 
-const ServicesSec = () => {
+const BusinessSec = () => {
     return (
         <section className="flex flex-col gap-y-5">
             <div className="relative w-fit">
-                <h4 className="text-lg font-bold text-white">Services</h4>
+                <h4 className="text-lg font-bold text-white">Business Partnerships</h4>
                 <ThemeBottomBorder2 width="60%" />
             </div>
 
             <ul className="flex flex-col gap-y-1">
                 {ServicesLinks.map((each, i) => (
-                    <li key={i} className="font-extralight text-sm text-white/75">
+                    <Link href={each?.link} key={i} className="font-extralight text-sm text-white/75">
                         {each.label}
-                    </li>
+                    </Link>
                 ))}
             </ul>
         </section>
@@ -102,9 +106,9 @@ const LegalSec = () => {
 
             <ul className="flex flex-col gap-y-1">
                 {LegalLinks.map((each, i) => (
-                    <li key={i} className="font-extralight text-sm text-white/75">
+                    <Link href={each?.link} key={i} className="font-extralight text-sm text-white/75">
                         {each.label}
-                    </li>
+                    </Link>
                 ))}
             </ul>
         </section>
@@ -127,7 +131,7 @@ const Footer = () => {
                 {/* RIGHT */}
                 <div className="w-full lg:w-8/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
                     <QuickLinksSec />
-                    <ServicesSec />
+                    <BusinessSec />
                     <LegalSec />
                 </div>
 

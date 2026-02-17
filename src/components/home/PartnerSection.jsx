@@ -303,6 +303,7 @@ const PartnerSection = () => {
 
   return (
     <section
+    id="partnerSectionHome"
       className="
         w-full
         px-5
