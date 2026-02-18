@@ -2,8 +2,9 @@
 
 import React from 'react';
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
+import { useNowit } from '@/store/useNowit';
+import { useState, useEffect } from 'react';
 
-/* ================= DATA ================= */
 const INDUSTRIES = [
     "Healthcare",
     "Education",
@@ -54,6 +55,19 @@ const Pill = ({ label }) => {
 };
 
 const IndustrySection = () => {
+    const { t } = useNowit()
+
+    const [industries, setIndustries] = useState(INDUSTRIES);
+
+    useEffect(() => {
+        const translated = t("Industry.list", { returnObjects: true });
+        if (Array.isArray(translated) && translated.length > 0) {
+            setIndustries(translated);
+        } else {
+            setIndustries(INDUSTRIES);
+        }
+    }, [t]);
+
     return (
         <section className="w-full bg-white py-6 lg:py-10 mb-5">
             <div className="mx-auto px-5 md:px-8 lg:px-15">
@@ -62,15 +76,11 @@ const IndustrySection = () => {
                 <SlidingHeader title="Industries" bottom="mb-2" />
 
                 <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
-                    Solutions for <span className="text-[#0b5ed7]">Every Industry</span>
+                  {t("Industry.title")|| "Industry Solutions"}  <span className="text-[#0b5ed7]">{t("Industry.span") || "Every Industry"}</span>
                 </h2>
 
-                <p className="mt-3 text-gray-600 text-xs md:text-sm lg:text-[15px]">
-                    NOWIT Services offers AI-powered digital transformation services that help businesses
-                    improve efficiency, automate operations, and grow faster. Our cloud-first solutions include
-                    smart marketing, cloud migration, professional IT consulting, intelligent messaging,
-                    IP filing, and corporate training, all designed to deliver secure, scalable, and data-driven
-                    business outcomes.
+                <p className="mt-3 text-gray-600 text-xs md:text-sm lg:text-[15px]">{t("Industry.description")||
+                   " NOWIT Services offers AI-powered digital transformation services that help businesses improve efficiency, automate operations, and grow faster. Our cloud-first solutions include smart marketing, cloud migration, professional IT consulting, intelligent messaging,IP filing, and corporate training, all designed to deliver secure, scalable, and data-driven business outcomes."}
                 </p>
 
                 {/* ===== BUTTONS SECTION ===== */}
@@ -78,7 +88,7 @@ const IndustrySection = () => {
                 {/* Mobile + Tablet */}
                 <div className=" md:hidden py-2 md:py-3" />
                 <div className="flex gap-3 overflow-x-auto px-4 py-2 lg:hidden scrollbar-hide">
-                    {INDUSTRIES.map((item) => (
+                    {industries.map((item) => (
                         <Pill key={item} label={item} />
                     ))}
                 </div>
@@ -87,25 +97,25 @@ const IndustrySection = () => {
                 <div className="hidden lg:flex xl:hidden flex-col items-center gap-y-7 mt-5">
 
                     <div className="flex gap-x-6">
-                        {INDUSTRIES.slice(0, 4).map((item) => (
+                        {industries.slice(0, 4).map((item) => (
                             <Pill key={item} label={item} />
                         ))}
                     </div>
 
                     <div className="flex gap-x-6">
-                        {INDUSTRIES.slice(4, 7).map((item) => (
+                        {industries.slice(4, 7).map((item) => (
                             <Pill key={item} label={item} />
                         ))}
                     </div>
 
                     <div className="flex gap-x-6">
-                        {INDUSTRIES.slice(7, 9).map((item) => (
+                        {industries.slice(7, 9).map((item) => (
                             <Pill key={item} label={item} />
                         ))}
                     </div>
 
                     <div className="flex gap-x-6">
-                        {INDUSTRIES.slice(9, 10).map((item) => (
+                        {industries.slice(9, 10).map((item) => (
                             <Pill key={item} label={item} />
                         ))}
                     </div>
@@ -116,19 +126,19 @@ const IndustrySection = () => {
                 <div className="hidden xl:flex flex-col items-center gap-y-7 mt-5">
 
                     <div className="flex gap-x-6">
-                        {INDUSTRIES.slice(0, 5).map((item) => (
+                        {industries.slice(0, 5).map((item) => (
                             <Pill key={item} label={item} />
                         ))}
                     </div>
 
                     <div className="flex gap-x-6">
-                        {INDUSTRIES.slice(5, 9).map((item) => (
+                        {industries.slice(5, 9).map((item) => (
                             <Pill key={item} label={item} />
                         ))}
                     </div>
 
                     <div className="flex gap-x-6">
-                        {INDUSTRIES.slice(9, 12).map((item) => (
+                        {industries.slice(9, 12).map((item) => (
                             <Pill key={item} label={item} />
                         ))}
                     </div>

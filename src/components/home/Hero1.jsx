@@ -3,6 +3,7 @@
 import { CgShapeRhombus } from "react-icons/cg";
 import { TbShieldCheckeredFilled } from "react-icons/tb";
 import { motion } from 'framer-motion'
+import { useNowit } from "@/store/useNowit";
 
 const LeftArrow = () => (
   <svg width="19" height="19" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,6 +31,7 @@ const RightArrow = () => (
 );
 
 export default function CTAFlow() {
+  const {t}=useNowit();
   return (
     <div className="relative w-full h-[120px] flex items-center justify-center hidden md:block">
 
@@ -59,7 +61,7 @@ export default function CTAFlow() {
 
             {/* The Text Pill */}
             <span className="bg-white px-4 min-w-40 py-0.5 rounded-full text-sm font-medium shadow-sm border border-gray-200">
-              Unified Services
+              {t("hero.unified")||"Unified Services"}
             </span>
           </div>
 
@@ -86,7 +88,7 @@ export default function CTAFlow() {
             </div>
             {/* The Text Pill */}
             <span className="bg-white px-4 min-w-40 py-0.5 rounded-full text-sm font-medium shadow-sm border border-gray-200 text-center">
-              Reliable Support
+             {t("hero.reliable")||"Reliable Support"}
             </span>
           </div>
         </motion.div>
@@ -99,8 +101,9 @@ export default function CTAFlow() {
 
       {/* CENTER CTA */}
       <a href="#partnerSectionHome">
-        <button type="button" className="z-10 w-[220px] md:w-[288px] h-[48px] rounded-lg bg-gradient-to-r from-[#5CD032] to-[#194D81] text-white font-bold shadow-lg">
-          Get Started
+        <button type="button" className="z-10 w-[220px] md:w-[288px] h-[48px] rounded-lg bg-gradient-to-r from-[#5CD032] to-[#194D81] text-white font-bold shadow-lg"
+        suppressHydrationWarning>
+          {t("hero.getStarted")||"Get Started"}
         </button>
       </a>
     </div >

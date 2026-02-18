@@ -6,6 +6,7 @@ import { BsStars } from "react-icons/bs";
 
 const AiBtn = () => {
   const { setChatOpen } = useNowit();
+  const {t}=useNowit()
 
   const handleClick = () => {
     setChatOpen(true);
@@ -23,7 +24,7 @@ const AiBtn = () => {
 
           {/* Text */}
           <span className="text-[#174F88] font-medium whitespace-nowrap">
-            Talk To AI
+           {t("partner.talktoai") || "Talk To AI"}
           </span>
 
           {/* Icon Circle */}

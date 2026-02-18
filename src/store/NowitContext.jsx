@@ -15,7 +15,45 @@ const NowitContextProvider = ({ children }) => {
     return localStorage.getItem("nowit_active_service") || "business launch";
   });
 
-  const [openChat, setChatOpen] = useState(false);
+  const [openChat, setChatOpen] = useState(false)
+
+  //Added by sandhya for translations
+  const [locale, setLocale] = useState(() => {
+    if (typeof window === "undefined") return "en";
+    return localStorage.getItem("nowit_locale") || "en";
+  });
+
+  const [messages, setMessages] = useState({});
+  const [isReady,setIsReady] = useState(false)
+  // Load translation file
+  const loadMessages = async (lang) => {
+    try {
+      const normalized = lang.split("-")[0]; // en-IN -> en
+      const data = await import(`../translations/home/${normalized}.json`);
+      setMessages(data.default);
+       setIsReady(true);
+    } catch (error) {
+      console.error("Translation file not found:", error);
+       setIsReady(true);
+    }
+  };
+
+  // On first mount
+  useEffect(() => {
+    loadMessages(locale);
+  }, []);
+
+  // Change language
+  const changeLanguage = (lang) => {
+    localStorage.setItem("nowit_locale", lang);
+    setLocale(lang);
+    loadMessages(lang);
+  };
+
+  // Translation function
+  const t = (key) => {
+    return messages[key] || key;
+  };
 
 
   // Persist changes
@@ -26,6 +64,8 @@ const NowitContextProvider = ({ children }) => {
   useEffect(() => {
     localStorage.setItem("nowit_active_service", activeService);
   }, [activeService]);
+  console.log(activeTab, "Active Tab from Context")
+
 
   return (
     <NowitContext.Provider
@@ -35,7 +75,11 @@ const NowitContextProvider = ({ children }) => {
         activeService,
         setActiveService,
         openChat,
-        setChatOpen
+        setChatOpen,
+        locale,
+        changeLanguage,
+        t,
+        isReady
       }}
     >
       {children}

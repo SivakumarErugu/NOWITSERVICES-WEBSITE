@@ -1,0 +1,221 @@
+{
+  "banner.subtitle": "Impulsando el potencial empresarial a través de",
+  "banner.title": "Transformación Digital Inteligente",
+  "banner.description": "Permite que las empresas crezcan más rápido con automatización impulsada por IA, soluciones en la nube e innovación basada en datos.",
+  "banner.recommend": "Recomiéndanos",
+  "banner.customer": "9/10 Clientes",
+  "banner.100": "100%",
+  "banner.quality": "Calidad Garantizada",
+  "banner.24": "24/7",
+  "banner.support": "Soporte",
+  "banner.industrial": "Década de experiencia ",
+  "banner.experience": "industrial",
+  "banner.3": "3+",
+  "banner.countries": "Países",
+  "banner.projects": "16+ Proyectos",
+  "banner.onTime": "Entrega a Tiempo",
+  "hero.getStarted": "Comenzar",
+  "hero.unified": "Servicios Unificados",
+  "hero.reliable": "Soporte Confiable",
+  "partner.slidingTitle": "Quiénes Somos",
+  "partner.title.prefix": "Tu",
+  "partner.span": "Socio de Confianza",
+  "partner.title.suffix": "en Transformación Digital",
+  "partner.description": "Somos un equipo impulsado por la tecnología dedicado a ofrecer soluciones digitales escalables, inteligentes y confiables para empresas modernas.",
+  "partner.knowmore": "Saber Más",
+  "partner.trusted": "Confiado",
+  "partner.clients": "por Clientes Globales",
+  "partner.talktoai": "Hablar con IA",
+  "services.slidingTitle": "Nuestros Servicios",
+  "services.title": "Servicios Digitales",
+  "services.span": "Integrales",
+  "services.description": "Ofrecemos servicios de software integrales que ayudan a las empresas a construir, escalar y modernizar sus productos digitales. Desde la estrategia y el diseño hasta el desarrollo y despliegue, entregamos soluciones confiables y de alta calidad adaptadas a las necesidades de su negocio.",
+  "services.carouselList": [
+    {
+      "id": 1,
+      "name": "Servicios de Marketing Inteligente",
+      "description": "Soluciones de marketing basadas en datos diseñadas para mejorar el alcance y la participación.",
+      "items": [
+        "Campañas digitales basadas en datos",
+        "Contenido y narrativa de marca",
+        "Segmentación de audiencia con IA",
+        "Seguimiento de rendimiento y análisis"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+    },
+    {
+      "id": 2,
+      "name": "Migración a la Nube y Aplicaciones",
+      "description": "Servicios de migración a la nube seguros y escalables para empresas modernas",
+      "items": [
+        "Migración segura de datos y nube",
+        "Optimización de infraestructura",
+        "Integraciones de API y sistemas",
+        "Evaluación de riesgos y planificación"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "Servicios Profesionales y de Consultoría",
+      "description": "Consultoría empresarial y de TI experta para crecimiento estratégico y ejecución.",
+      "items": [
+        "Consultoría empresarial y de TI",
+        "Planificación y ejecución de proyectos",
+        "Gestión de recursos",
+        "Soporte técnico continuo"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "Servicios de Mensajería y Comunicación",
+      "description": "Soluciones de comunicación impulsadas por IA para una mejor interacción con los clientes.",
+      "items": [
+        "SMS masivos y mensajería por WhatsApp",
+        "Chatbots y respuestas automáticas con IA",
+        "Gestión de clientes en tiempo real",
+        "Análisis de campañas"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "Servicios de Lanzamiento Empresarial",
+      "description": "Ayudamos a las empresas a comenzar con fuerza mediante soporte integral de lanzamiento e información impulsada por IA.",
+      "items": [
+        "Registro de marca y configuración de identidad",
+        "Creación de sitio web y presencia digital",
+        "Marketing, relaciones públicas y campañas de lanzamiento"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "Servicios de Registro de Propiedad Intelectual",
+      "description": "Protege tu innovación con servicios de propiedad intelectual seguros y confiables.",
+      "items": [
+        "Registro y gestión de patentes",
+        "Registro de marcas",
+        "Protección de derechos de autor",
+        "Búsqueda y validación de PI asistida por IA"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Servicios de Capacitación y Desarrollo",
+      "description": "Mejora las habilidades de los equipos con formación digital y tecnológica relevante para la industria.",
+      "items": [
+        "Formación en habilidades digitales y TI",
+        "Programas de IA y tecnología en la nube",
+        "Marketing, relaciones públicas y campañas de lanzamiento",
+        "Información de mercado impulsada por IA"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+    }
+  ],
+  "products.slidingTitle": "Nuestros Productos",
+  "products.title": "Productos Digitales",
+  "products.span": "Listos para Empresas",
+  "products.description": "Nuestros productos están diseñados para resolver desafíos empresariales mediante soluciones digitales inteligentes, escalables y fáciles de usar. Construidos con tecnología moderna, cada producto está diseñado para ofrecer rendimiento y valor a largo plazo en plataformas web y móviles.",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "Won Jabs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "Won Jabs es una plataforma educativa todo en uno diseñada para transformar la forma en que las escuelas operan y cómo los estudiantes aprenden. Simplificamos la gestión escolar y mejoramos la experiencia de aprendizaje con herramientas digitales avanzadas."
+    },
+    {
+      "id": 2,
+      "name": "Won Diyi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "Won Diyi es una plataforma educativa todo en uno diseñada para transformar la forma en que las escuelas operan y cómo los estudiantes aprenden. Simplificamos la gestión escolar y mejoramos la experiencia de aprendizaje con soluciones digitales innovadoras."
+    },
+    {
+      "id": 3,
+      "name": "Won Pals",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "Won Pals es un software integral e inteligente de gestión hospitalaria diseñado para optimizar los flujos de trabajo clínicos, operativos y administrativos en centros de salud. Ayuda a los hospitales a mejorar la eficiencia y la atención al paciente mediante soluciones digitales inteligentes e integradas."
+    },
+    {
+      "id": 4,
+      "name": "Won Bils",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "Won Bils es una solución inteligente de facturación y gestión financiera diseñada para simplificar la facturación, el seguimiento de gastos y los informes financieros. Ayuda a las empresas a gestionar transacciones de manera eficiente mediante procesos digitales seguros y automatizados."
+    },
+    {
+      "id": 5,
+      "name": "Won Brich",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "Won Brich es una plataforma integrada de comunicación y colaboración diseñada para conectar instituciones, equipos y partes interesadas de manera eficiente. Mejora la coordinación y la productividad mediante interacción digital segura y en tiempo real."
+    }
+  ],
+  "Industry.description": "NOWIT Services ofrece servicios de transformación digital impulsados por IA que ayudan a las empresas a mejorar la eficiencia, automatizar operaciones y crecer más rápido. Nuestras soluciones basadas en la nube incluyen marketing inteligente, migración a la nube, consultoría profesional en TI, mensajería inteligente, registro de propiedad intelectual y capacitación corporativa, todo diseñado para ofrecer resultados empresariales seguros, escalables y basados en datos.",
+  "Industry.title": "Soluciones para",
+  "Industry.span": "Cada Industria",
+  "Industry.list": [
+    "Salud",
+    "Educación",
+    "Finanzas y Banca",
+    "Retail y Comercio Electrónico",
+    "Manufactura",
+    "Logística y Cadena de Suministro",
+    "Bienes Raíces",
+    "Viajes y Hospitalidad",
+    "TI y Tecnología",
+    "Telecomunicaciones",
+    "Energía y Servicios Públicos",
+    "Automotriz"
+  ],
+  "testimonials.slidingTitle": "Testimonios",
+  "testimonials.title.prefix": "Construyendo",
+  "testimonials.title.suffix": "a través de Resultados",
+  "testimonials.span": "Confianza",
+  "testimonials.description": "Comentarios reales de clientes que han colaborado con nosotros para desarrollar soluciones digitales confiables.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT entregó exactamente lo que necesitábamos, a tiempo y con gran atención a la calidad. El equipo fue receptivo, profesional y fácil de trabajar durante todo el proyecto."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Comprendieron rápidamente nuestra visión y la transformaron en un producto escalable. El proceso fue fluido y el resultado final superó nuestras expectativas."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Su experiencia técnica y enfoque estructurado nos ayudaron a construir una solución confiable en web y móvil. Los valoramos como un socio a largo plazo."
+    }
+  ],
+
+  "faq.span": "Preguntas Frecuentes",
+  "faq.title": "Preguntas Frecuentes",
+  "faq.subquestion": "¿Aún tienes preguntas?",
+  "faq.description": "Estamos aquí para ayudarte a entender cómo trabajamos, qué ofrecemos, cómo podemos crecer juntos y construir un impacto de marca duradero.",
+  "faq.getintouch": "Contáctanos",
+  "faq.list": [
+    {
+      "id": 1,
+      "title": "¿Qué industrias atienden?",
+      "description": "Atendemos industrias como finanzas, salud, comercio minorista y electrónico, educación, manufactura y TI y telecomunicaciones."
+    },
+    {
+      "id": 2,
+      "title": "¿Cómo abordan un nuevo proyecto?",
+      "description": "Comenzamos con el descubrimiento, alineamos objetivos, definimos el alcance y ejecutamos con retroalimentación iterativa."
+    },
+    {
+      "id": 3,
+      "title": "¿Cómo podemos comenzar?",
+      "description": "Simplemente contáctanos a través de nuestro formulario y nuestro equipo te guiará en los siguientes pasos."
+    },
+    {
+      "id": 4,
+      "title": "¿Sus soluciones pueden escalar a medida que el negocio crece?",
+      "description": "Sí, nuestras soluciones están diseñadas para escalar sin problemas a medida que tu empresa evoluciona."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { useState, useEffect } from "react";
-
+import { useNowit } from "@/store/useNowit";
 const List = [{
     id: 1,
     name: 'Smart Marketing Services',
@@ -60,6 +60,8 @@ const ServicesHero = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isHovering, setIsHovering] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
+    const [carouselList, setCarouselList] = useState(List);
+    const { t } = useNowit()
 
     // useEffect(() => {
     //     if (!isHovering) return;
@@ -105,9 +107,16 @@ const ServicesHero = () => {
         return () => clearInterval(interval);
     }, [hasStarted, isHovering, currentIndex]);
 
+    useEffect(() => {
+        if (t("services.carouselList")) {
+            setCarouselList(t("services.carouselList"))
+        }
+    }, [t])
+
+
     return (
         <>
-           
+
             <div
                 className=" h-150 mb-3 hidden md:block py-5"
                 onMouseEnter={() => {

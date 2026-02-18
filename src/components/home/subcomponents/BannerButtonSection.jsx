@@ -3,9 +3,12 @@ import AvatarStack from "@/components/shared/UI-Elements/AvatarStack";
 import React from "react";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { useNowit } from "@/store/useNowit";
+
 
 
 const BannerButtonSection = () => {
+    const {t}=useNowit();
     return (
         <div className="w-full">
             {/* DESKTOP */}
@@ -22,17 +25,17 @@ const BannerButtonSection = () => {
                                 ease: "easeOut",
                             }}
                         >
-                            <Card width={253} height={87}> <p className="inter-text text-[16px] font-medium">9/10 Customers</p>
-                                <p className="text-sm">Recommend Us</p> </Card>
+                            <Card width={253} height={87}> <p className="inter-text text-[16px] font-medium">{t("banner.customer")||"9/10 Customers"}</p>
+                                <p className="text-sm">{t("banner.recommend")||"Recommend Us"}</p> </Card>
                         </motion.div>
                         {/* Middle Group (raised) */}
                         <div className="flex gap-4 -translate-y-10">
                             <Card width={206} height={99}>
-                                <p className="text-2xl font-semibold">100%</p>
-                                <p className="text-sm">Quality Assured</p>
+                                <p className="text-2xl font-semibold">{t("banner.100")||"100%"}</p>
+                                <p className="text-sm">{t("banner.quality")||"Quality Assured"}</p>
                             </Card>
-                            <Card width={206} height={99}> <p className="text-2xl font-semibold">24/7</p>
-                                <p className="text-sm">Support</p> </Card>
+                            <Card width={206} height={99}> <p className="text-2xl font-semibold">{t("banner.24")||"24/7"}</p>
+                                <p className="text-sm">{t("banner.support")||"Support"}</p> </Card>
                         </div>
                         <motion.div
                             initial={{ opacity: 0, x: 16 }}   // start slightly from right
@@ -43,8 +46,7 @@ const BannerButtonSection = () => {
                             }}
                         >{/* Right Card (automatically lower) */}
                             <Card width={253} height={87}>
-
-                                <p className="text-sm">⏱️ On-Time Delivery</p>
+                                <p className="text-sm">⏱️{t("banner.onTime")||"On-Time Delivery"}</p>
                             </Card>
                         </motion.div>
                     </div> {/* Center Card */}
@@ -59,8 +61,8 @@ const BannerButtonSection = () => {
                                     ease: "easeOut",
                                 }}
                             >
-                                <Card width={253} height={120}> <p className="text-sm"><RiVerifiedBadgeFill size={25} /></p> <p className="text-sm"> Decade of industrial</p>
-                                    <p className="text-sm">experience</p>
+                                <Card width={253} height={120}> <p className="text-sm"><RiVerifiedBadgeFill size={25} /></p> <p className="text-sm"> {t("banner.industrial")||"Decade of industrial"} </p>
+                                    <p className="text-sm">{t("banner.experience")||"experience"}</p>
                                 </Card>
                             </motion.div>
                             <motion.div
@@ -71,12 +73,12 @@ const BannerButtonSection = () => {
                                     ease: "easeOut",
                                 }}
                             >
-                                <Card width={253} height={120}> <p className="text-lg font-semibold">3+</p>
-                                    <p className="text-sm">Countries</p> </Card>
+                                <Card width={253} height={120}> <p className="text-lg font-semibold">{t("banner.3")||"3+"}</p>
+                                    <p className="text-sm">{t("banner.countries")||"Countries"}</p> </Card>
                             </motion.div> </div> {/* Center Raised Card */}
                         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-2">
                             <div className="w-[255px] h-[161px] rounded-[16px] bg-gradient-to-br from-[#071C3D] to-[#0B4F8A] text-white flex flex-col items-center justify-center gap-3">
-                                <p className="text-lg font-medium">16+ Projects</p>
+                                <p className="text-lg font-medium">{t("banner.projects")||"16+ Projects"}</p>
                                 <AvatarStack />
                             </div>
                         </div>

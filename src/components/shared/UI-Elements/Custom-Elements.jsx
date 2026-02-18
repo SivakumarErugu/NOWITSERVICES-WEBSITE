@@ -13,6 +13,7 @@ export const ThemeBtnTag = ({
   onClick
 }) => (
   <button
+    suppressHydrationWarning
     disabled={loading || disabled}
     type={type}
     onClick={onClick}

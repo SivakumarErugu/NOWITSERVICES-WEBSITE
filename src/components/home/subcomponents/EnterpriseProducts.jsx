@@ -1,10 +1,11 @@
 'use client'
 
 import React from 'react';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import TitleAndDescription from '@/components/shared/UI-Elements/TitleAndDescription';
 import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader';
 import Link from 'next/link';
+import { useNowit } from '@/store/useNowit';
 const AppsList = [{
     id: 1,
     name: "WON Hubs",
@@ -43,10 +44,22 @@ const AppsList = [{
 
 const EnterpriseProducts = () => {
     const [activeIndex, setActiveIndex] = useState(3);
-    const activeApp = AppsList[activeIndex];
-    const leftList = AppsList.slice(0, activeIndex);
-    const rightList = AppsList.slice(activeIndex + 1);
+    const [appsList, setappsList] = useState(AppsList)
+    const activeApp = appsList[activeIndex];
+    const leftList = appsList.slice(0, activeIndex);
+    const rightList = appsList.slice(activeIndex + 1);
+    const { t } = useNowit()
 
+    useEffect(() => {
+        const translatedList = t("products.appList", { returnObjects: true })
+
+        if (Array.isArray(translatedList) && translatedList.length > 0) {
+            console.log("Translated List:", translatedList); // Debugging log
+            setappsList(translatedList)
+        } else {
+            setappsList(AppsList)
+        }
+    }, [t])
 
     const Cylinder = ({ app, index }) => (
         <li
@@ -65,15 +78,14 @@ const EnterpriseProducts = () => {
         <section className='w-full px-4 lg:px-8'>
             <div className='mx-auto px-1 lg:px-6'>
                 <div className='w-full flex flex-col hidden md:block'>
-                    <SlidingHeader title="Our Products" bottom="mb-4" />
+                    <SlidingHeader title={t("products.slidingTitle") || "Our Products"} bottom="mb-4" />
 
                     <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
-                        <span className="text-[#0b5ed7]">Enterprise-Ready</span> Digital Products
+                        <span className="text-[#0b5ed7]">{t("products.span") || "Enterprise-Ready"}</span> {t("products.title") || "Digital Products"}
                     </h2>
 
                     <p className="mt-3 text-gray-600 text-xs md:text-sm lg:text-[15px]">
-                        Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built
-                        with modern technology,each product is crafted to deliver performance and long-term value across web and mobile platforms.
+                        {t("products.description") || "Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built with modern technology,each product is crafted to deliver performance and long-term value across web and mobile platforms."}
                     </p>
 
 

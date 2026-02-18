@@ -1,0 +1,220 @@
+{
+    "banner.subtitle": "Unleashing Business Potential Through",
+    "banner.title": "Intelligent Digital Transformation",
+    "banner.description": "Enable businesses to grow faster with AI-powered automation, cloud solutions, and data-driven innovation.",
+    "banner.recommend": "Recommend Us",
+    "banner.customer": "9/10 Customers",
+    "banner.100": "100%",
+    "banner.quality": "Quality Assured",
+    "banner.24": "24/7",
+    "banner.support": "Support",
+    "banner.industrial": "Decade of industrial ",
+    "banner.experience": "experience",
+    "banner.3": "3+",
+    "banner.countries": "Countries",
+    "banner.projects": "16+ Projects",
+    "banner.onTime": "On-Time Delivery",
+    "hero.getStarted": "Get Started",
+    "hero.unified": "Unified Services",
+    "hero.reliable": "Reliable Support",
+    "partner.slidingTitle": "Who we are",
+    "partner.title.prefix": "Your",
+    "partner.span": "Trusted Partner",
+    "partner.title.suffix": "in Digital Transformation",
+    "partner.description": "We are a technology-driven team dedicated to delivering scalable,intelligent, and reliable digital solutions for modern businesses.",
+    "partner.knowmore": "Know More",
+    "partner.trusted": "Trusted",
+    "partner.clients": "by Global Clients",
+    "partner.talktoai": "Talk to AI",
+    "services.slidingTitle": "Our Services",
+    "services.title": "End-to-End",
+    "services.span": "Digital Services",
+    "services.description": "We provide end-to-end software services that help businesses build,scale, and modernize their digital products. From strategy and designto development and deployment, we deliver reliable, high-quality solutions tailored to your business needs.",
+    "services.carouselList": [
+        {
+            "id": 1,
+            "name": "Smart Marketing Services",
+            "description": "Data-driven marketing solutions designed to improve reach and engagement.",
+            "items": [
+                "Data-driven digital campaigns",
+                "Content and brand storytelling",
+                "AI-based audience targeting",
+                "Performance tracking and analytics"
+            ],
+            "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+        },
+        {
+            "id": 2,
+            "name": "Cloud & Application Migration",
+            "description": "Secure and scalable cloud migration services for modern businesses",
+            "items": [
+                "Secure cloud and data migration",
+                "Infrastructure optimization",
+                "API and system integrations",
+                "Risk assessment and planning"
+            ],
+            "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+        },
+        {
+            "id": 3,
+            "name": "Professional & Consulting Services",
+            "description": "Expert business and IT consulting for strategic growth and execution.",
+            "items": [
+                "Business and IT consulting",
+                "Project planning and delivery",
+                "Resource management",
+                "Ongoing technical support"
+            ],
+            "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+        },
+        {
+            "id": 4,
+            "name": "Messaging & Communication Services",
+            "description": "AI-powered communication solutions for better customer engagement.",
+            "items": [
+                "Bulk SMS and WhatsApp messaging",
+                "AI chatbots and auto-responders",
+                "Real-time customer management",
+                "Campaign analytics"
+            ],
+            "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+        },
+        {
+            "id": 5,
+            "name": "Business Launch Services",
+            "description": "We help businesses start strong with complete launch support and AI-driven insights.",
+            "items": [
+                "Brand registration and identity setup",
+                "Website and digital presence creation",
+                "Marketing, PR, and launch campaigns"
+            ],
+            "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+        },
+        {
+            "id": 6,
+            "name": "IP Filing Services",
+            "description": "Protect your innovation with secure and reliable IP services.",
+            "items": [
+                "Patent filing and management",
+                "Trademark registration",
+                "Copyright protection",
+                "AI-assisted IP search and validation"
+            ],
+            "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Training & Development Services",
+            "description": "Upskill teams with industry-relevant digital and technology training.",
+            "items": [
+                "Digital and IT skill training",
+                "AI and cloud technology programs",
+                "Marketing, PR, and launch campaigns",
+                "AI-driven market insights"
+            ],
+            "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+        }
+    ],
+    "products.slidingTitle": "Our Products",
+    "products.title": "Digital Products",
+    "products.span": "Enterprise-Ready",
+    "products.description": "Our products are designed to solve business challenges through intelligent,scalable,and easy-to-use digital solutions.Built with modern technology,each product is crafted to deliver performance and long-term value across web and mobile platforms.",
+    "products.appList": [
+        {
+            "id": 1,
+            "name": "WON Hubs",
+            "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+            "description": "WON Hubs is your all-in-one educational platform designed to transform how schools operate and how students learn. We simplify school management and enhance learning experiences with cutting-edge digital tools."
+        },
+        {
+            "id": 2,
+            "name": "WON Digi",
+            "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+            "description": "WON Digi is your all-in-one educational platform designed to transform how schools operate and how students learn. We simplify school management and enhance learning experiences with cutting-edge digital tools."
+        },
+        {
+            "id": 3,
+            "name": "WON Pulse",
+            "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+            "description": "WON Pulse is a comprehensive and intelligent hospital management software designed to streamline clinical, operational, and administrative workflows across healthcare facilities. It helps hospitals improve efficiency and enhance patient care through smart, integrated digital solutions."
+        },
+        {
+            "id": 4,
+            "name": "WON Bills",
+            "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+            "description": "WON Bills is a smart billing and financial management solution designed to simplify invoicing, expense tracking, and financial reporting. It helps businesses manage transactions efficiently with secure and automated digital processes."
+        },
+        {
+            "id": 5,
+            "name": "WON Bridge",
+            "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+            "description": "WON Bridge is an integrated communication and collaboration platform designed to connect institutions, teams, and stakeholders efficiently. It enhances coordination and productivity through secure, real-time digital interaction."
+        }
+    ],
+    "Industry.title": "Solutions for",
+    "Industry.span": "Every Industry",
+    "Industry.description": "NOWIT Services offers AI-powered digital transformation services that help businesses improve efficiency, automate operations, and grow faster. Our cloud-first solutions include smart marketing, cloud migration, professional IT consulting, intelligent messaging, IP filing, and corporate training, all designed to deliver secure, scalable, and data-driven business outcomes.",
+    "Industry.list": [
+        "Healthcare",
+        "Education",
+        "Finance & Banking",
+        "Retail & E-commerce",
+        "Manufacturing",
+        "Logistics & Supply Chain",
+        "Real Estate",
+        "Travel & Hospitality",
+        "IT & Technology",
+        "Telecommunications",
+        "Energy & Utilities",
+        "Automotive"
+    ],
+    "testimonials.slidingTitle": "Testimonials",
+    "testimonials.title.prefix": "Building",
+    "testimonials.title.suffix": "Through Results",
+    "testimonials.span": "Trust",
+    "testimonials.description": "Real feedback from clients who've partnered with us to build reliable digital solutions.",
+    "testimonials.list": [
+        {
+            "name": "Rajesh Kumar",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+            "text": "NowIT delivered exactly what we needed, on time and with strong attention to quality. The team was responsive, professional, and easy to work with throughout the project."
+        },
+        {
+            "name": "Ananya Sharma",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+            "text": "They quickly understood our vision and turned it into a scalable product. The process was smooth, and the final outcome exceeded our expectations."
+        },
+        {
+            "name": "Vikram Rao",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+            "text": "Their technical expertise and structured approach helped us build a reliable solution across web and mobile. We value them as a long-term partner."
+        }
+    ],
+    "faq.span": "FAQ 's",
+    "faq.title": "Frequently Asked Questions",
+    "faq.subquestion": "Still have questions?",
+    "faq.description": "We're here to help you understand how we work, what we offer, how we can grow together, and build lasting brand impact.",
+    "faq.getintouch": "Get in Touch",
+    "faq.list": [
+        {
+            "id": 1,
+            "title": "Which industries do you serve?",
+            "description": "We serve finance, healthcare, retail and e-commerce, education, manufacturing, and IT & telecom industries."
+        },
+        {
+            "id": 2,
+            "title": "How do you approach a new project?",
+            "description": "We start with discovery, align on goals, define scope, and execute with iterative feedback."
+        },
+        {
+            "id": 3,
+            "title": "How can we get started?",
+            "description": "Simply reach out through our contact form and our team will guide you through the next steps."
+        },
+        {
+            "id": 4,
+            "title": "Can your solutions scale as the business grows?",
+            "description": "Yes, our solutions are built to scale seamlessly as your business evolves."
+        }
+    ]
+}

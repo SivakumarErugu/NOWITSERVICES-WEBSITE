@@ -1,7 +1,13 @@
+'use client';
+
 import BannerButtonSection from "./subcomponents/BannerButtonSection";
 import HeroSection from "./Hero1";
 
+import { useNowit } from "@/store/useNowit";
+
 const BannerSection = () => {
+  const { t } = useNowit();
+  console.log(t("banner.subtitle"), "Triggering Hereeee ")
   return (
     <section className="relative w-full overflow-hidden bg-[#eef5ff] min-h-[820px]">
 
@@ -40,20 +46,21 @@ const BannerSection = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-4 pt-16 text-center">
 
         <h1 className="text-[20px] md:text-[30px] font-semibold mb-2 ibmPlex-text">
-          Unleashing Business Potential Through
+
+          {t("banner.subtitle") || "Unleashing Business Potential Through Intelligent Digital Transformation"}
         </h1>
 
         <h1 className="text-[44px] md:text-[56px] font-bold text-[#0b3154] leading-tight mb-4 ibmPlex-text">
-          Intelligent Digital Transformation
+         {t("banner.title") || "Intelligent Digital Transformation"}
         </h1>
 
         <p className="text-[16px] md:text-[20px] max-w-2xl mx-auto mb-8 text-[#374151]  md:text-center">
-          Enable businesses to grow faster with AI-powered automation,
-          cloud solutions, and data-driven innovation.
-        </p>
+          {t("banner.description") || "Enable businesses to grow faster with AI-powered automation, cloud solutions, and data-driven innovation."}
         
-          <HeroSection />
-      
+        </p>
+
+        <HeroSection />
+
         {/* Cards */}
         <div className="mt-16">
           <BannerButtonSection />

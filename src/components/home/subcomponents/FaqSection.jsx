@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { ThemeLinkTag } from '@/components/shared/UI-Elements/Custom-Elements'
+import { useNowit } from '@/store/useNowit'
 
 const List = [
     {
@@ -32,6 +33,13 @@ const List = [
 
 const FaqSection = () => {
     const [activeCard, setActiveCard] = useState(1)
+    const { t, isReady } = useNowit();
+
+    if (!isReady) return null;
+    // or skeleton loader
+    const faqList = t('faq.list') ? t('faq.list') : List;
+    // console.log(t('faq.list'), "Translated FAQ List")
+
 
     return (
         <section className="w-full bg-[#E3F1FF] py-20 hidden md:block px-4 lg:px-8">
@@ -42,32 +50,31 @@ const FaqSection = () => {
                 <div className="flex flex-col gap-8">
                     <div>
                         <p className="text-[14px] font-medium text-[#1F7AFC] tracking-wide mb-3">
-                            FAQ’S
+                            {t("faq.span") || "FAQ’S"}
                         </p>
 
                         <h2 className="text-[48px] leading-10 font-semibold text-[#0A2540] ">
-                            Frequently Asked Questions
+                            {t("faq.title") || "Frequently Asked Questions"}
                         </h2>
                     </div>
 
                     <div className="bg-white rounded-2xl p-8 shadow-sm ">
                         <h3 className="text-[22px] font-semibold text-[#0A2540] mb-3">
-                            Still have questions?
+                            {t("faq.subquestions") || "Still have questions?"}
                         </h3>
 
                         <p className="text-[15px] text-[#4A5D73] leading-6 mb-6">
-                            We&apos;re here to help you understand how we work,
-                            what we offer, how we can grow together, and build
-                            lasting brand impact.
+                            {t("faq.description") || "We&apos;re here to help you understand how we work, what we offer, how we can grow together, and build lasting brand impact."}
+
                         </p>
 
-                        <ThemeLinkTag BtnText="Get In Touch" href="/contactUs" />
+                        <ThemeLinkTag BtnText={t("faq.getintouch") || "Get In Touch"} href="/contactUs" />
                     </div>
                 </div>
 
                 {/* FAQ Accordion */}
                 <div className="flex flex-col gap-6">
-                    {List.map((item) => {
+                    {Array.isArray(faqList) && faqList.length > 0 && faqList.map((item) => {
                         const isActive = activeCard === item.id
 
                         return (
@@ -87,8 +94,8 @@ const FaqSection = () => {
 
                                     <span
                                         className={`flex items-center justify-center h-9 w-9 rounded-full border border-[#D0D5DD] text-[20px] transition-all duration-200 ${isActive
-                                                ? 'text-[#0A2540]'
-                                                : 'text-[#667085]'
+                                            ? 'text-[#0A2540]'
+                                            : 'text-[#667085]'
                                             }`}
                                     >
                                         {isActive ? '−' : '+'}

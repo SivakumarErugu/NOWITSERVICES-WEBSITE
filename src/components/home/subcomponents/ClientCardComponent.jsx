@@ -1,10 +1,11 @@
 
 'use client';
 
-import React from "react";
+import React, { useState } from "react";
 import Image from 'next/image'
 import { motion } from "framer-motion";
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
+import { useNowit } from "@/store/useNowit";
 
 const testimonials = [
     {
@@ -26,23 +27,34 @@ const testimonials = [
 
 const ClientCardComponent = () => {
     const CARD_WIDTH = 280; // card + gap
-    const MOBILE_DURATION = 1.8; // faster speed
+    const MOBILE_DURATION = 1.8;
+    const [testimonials, setTestimonials] = useState(testimonials);
+    const { t } = useNowit();
+    useEffect(() => {
+        const translatedList = t("testimonials.list", { returnObjects: true })
+
+        if (Array.isArray(translatedList) && translatedList.length > 0) {
+            console.log("Translated List:", translatedList); // Debugging log
+            setTestimonials(translatedList)
+        } else {
+            setTestimonials(testimonials)
+        }
+    }, [t])
     return (
         <section className="w-full px-4 lg:px-8 mb-15">
             <div className="mx-auto px-1 lg:px-6">
-            <SlidingHeader title="Testimonials" bottom="mb-2"/>
+                <SlidingHeader title={t("testimonials.title") || "Testimonials"} bottom="mb-2" />
 
-            <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
-                    Building <span className="text-[#0b5ed7]">Trust</span> Through Results
+                <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
+                    {t("testimonials.title.prefix") || "Building"}    <span className="text-[#0b5ed7]">{t("testimonials.span") || "Trust"}</span> {t("testimonials.title.suffix") || "Through Results"}
                 </h2>
 
                 <p className="mt-3 text-gray-600 text-xs md:text-sm lg:text-[15px]">
-                    Real feedback from clients who&apos;ve partnered with us to build reliable
-                     digital solutions.
+                    {t("testimonials.description") || "Real feedback from clients who've partnered with us to build reliable digital solutions."}
                 </p>
             </div>
 
-            
+
             {/* DESKTOP VIEW */}
 
             <div className="hidden md:block overflow-hidden w-[99%] mt-16 px-20">

@@ -7,7 +7,7 @@ import AvatarStack from "../shared/UI-Elements/AvatarStack";
 import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader";
 import { useRouter } from "next/navigation";
-
+import { useNowit } from "@/store/useNowit";
 const Images = [
   "https://res.cloudinary.com/dr9thittl/image/upload/v1770368688/351c910257cd7a99096737785ceb42a38d558322_ccqwyd.jpg",
   "https://res.cloudinary.com/dr9thittl/image/upload/v1770368642/caa249fdeb6501b6af932cf99bbbdac74cd48abc_savzbx.jpg"
@@ -16,6 +16,8 @@ const Images = [
 const PartnerSection = () => {
   const [hoverKey, setHoverKey] = useState(0);
   const router = useRouter();
+  const { t, isReady } = useNowit()
+  console.log(t('partner.trusted'),"Partner Section Translation")
 
   return (
     <section id="partnerSectionHome" className="w-full py-10 px-4 lg:px-8">
@@ -30,18 +32,17 @@ const PartnerSection = () => {
 
           {/* LEFT HEADING */}
           <div className="w-full lg:w-[55%]">
-            
-             <h2 className="text-2xl md:text-3xl lg:text-5xl 2xl:text-5xl font-bold text-gray-900 leading-normal">
-                    Your{" "}<span className="text-[#0b5ed7]">Trusted Partner</span> in Digital Transformation
-                </h2>
+
+            <h2 className="text-2xl md:text-3xl lg:text-5xl 2xl:text-5xl font-bold text-gray-900 leading-normal">
+              {t("partner.title.prefix") || "Your"}{" "}<span className="text-[#0b5ed7]">{t("partner.span") || "Trusted Partner"}</span> {t("partner.title.suffix") || "in Digital Transformation"}
+            </h2>
 
           </div>
 
           {/* RIGHT TEXT */}
           <div className="w-full lg:w-[38%] flex flex-col gap-6">
             <p className="inter-text text-xs sm:text-sm lg:text-[17px] 2xl:text-lg text-gray-600 leading-relaxed">
-              We are a technology-driven team dedicated to delivering scalable,
-              intelligent, and reliable digital solutions for modern businesses.
+              {t("partner.description") || "We are a technology-driven team dedicated to delivering scalable, intelligent, and reliable digital solutions for modern businesses."}
             </p>
 
             <div className="hidden md:block w-fit">
@@ -55,7 +56,7 @@ const PartnerSection = () => {
             {/* MOBILE TRUSTED */}
             <div className="block md:hidden flex justify-between w-[95%]">
               <p className="ibmPlex-text text-[12px]">
-                Trusted by Global Clients
+                {t("partner.trusted") || "Trusted by Global Clients"}
               </p>
               <AvatarStack />
             </div>
@@ -128,10 +129,10 @@ const PartnerSection = () => {
               "
             >
               <h1 className="ibm-text text-[36px] md:text-[42px] lg:text-[48px] font-bold leading-none">
-                Trusted
+                {t('partner.trusted') || "Trusted"}
               </h1>
               <p className="ibm-text text-[16px] lg:text-[18px] opacity-90 mt-2">
-                by Global Clients
+                {t('partner.clients') || "by Global Clients"}
               </p>
               <div className="mt-4">
                 <AvatarStack />

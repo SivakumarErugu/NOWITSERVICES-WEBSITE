@@ -10,6 +10,7 @@ import { useNowit } from '@/store/useNowit';
 import Image from 'next/image';
 import { useRouter, usePathname } from "next/navigation";
 import Link from 'next/link';
+import LanguageSwitcher from './languageSelection';
 
 const Header = () => {
 
@@ -141,6 +142,7 @@ const Header = () => {
                                 }}
                             >
                                 <button
+                                    suppressHydrationWarning
                                     ref={(el) => (navRefs.current[each.name] = el)}
                                     type="button"
                                     onClick={() => handleMenuClick(each)}
@@ -162,6 +164,12 @@ const Header = () => {
                         );
                     })}
                 </ul>
+
+
+                <div className='w-[76px] h-[20px]'>
+                    <LanguageSwitcher />
+                </div>
+
 
                 {/* DESKTOP CONTACT */}
                 <div className="hidden lg:block">
