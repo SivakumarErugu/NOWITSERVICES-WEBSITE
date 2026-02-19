@@ -5,7 +5,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import { useNowit } from '@/store/useNowit'
 const List = [
     { id: 1, url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770266736/145c9ed16f0b8b28d6b99b5cae888dab7cb8677d_xz741g.jpg" },
     { id: 2, url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770266725/743b25d4afb0244ff45c18da9643c35921833a23_b5gsre.jpg" },
@@ -21,6 +21,10 @@ const stats = [
 ]
 
 const Technology = () => {
+    const { t, isReady,activeTab } = useNowit();
+console.log(t("banner.title"), "Translation function test in Technology component") // Test translation function    
+
+    if (!isReady) return null; // or skeleton loader
     return (
         <section className="w-full flex flex-col items-center gap-5 md:gap-10 py-16 bg-white overflow-hidden">
 
@@ -40,14 +44,14 @@ const Technology = () => {
             {/* TEXT SECTION */}
             <div className="max-w-[900px] text-center flex flex-col gap-4 px-4">
                 <h1 className="ibmPlex-text font-bold text-[32px] md:text-[52px] leading-tight text-[#1F2937]">
-                    <span className="text-[#0D5BD7] block">Building technology</span>
-                    that makes an impact.
+                    <span className="text-[#0D5BD7] block">{t("banner.span")||"Building technology"}</span>
+                   {t("banner.title")||"that makes an impact."}
                 </h1>
 
                 <p className="ibmPlex-text text-[15px] md:text-[19px] leading-relaxed text-[#6B7280]">
-                    We build scalable digital solutions across web, mobile, and cloud.
+                    {t("banner.description1")||"We build scalable digital solutions across web, mobile, and cloud."}
                     <br className="hidden md:block" />
-                    We help businesses solve real challenges through smart, reliable technology.
+                    {t("banner.description2")||"We help businesses solve real challenges through smart, reliable technology."}
                 </p>
             </div>
 

@@ -14,7 +14,7 @@ import LanguageSwitcher from './languageSelection';
 
 const Header = () => {
 
-    const { setActiveService } = useNowit();
+    const { setActiveService, setActiveTab } = useNowit();
 
     const pathname = usePathname();
     const router = useRouter();
@@ -41,6 +41,10 @@ const Header = () => {
         return "";
     }, [pathname]);
 
+    // Sync route → context
+    useEffect(() => {
+        setActiveTab(activeTab);
+    }, [activeTab, setActiveTab]);
     /* ---------------- PREFETCH ROUTES ---------------- */
     useEffect(() => {
         headerOptions.forEach(item => {

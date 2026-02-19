@@ -1,13 +1,13 @@
 
 'use client';
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from 'next/image'
 import { motion } from "framer-motion";
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 import { useNowit } from "@/store/useNowit";
 
-const testimonials = [
+const testimonialsList = [
     {
         name: "Rajesh Kumar",
         image: "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
@@ -28,13 +28,13 @@ const testimonials = [
 const ClientCardComponent = () => {
     const CARD_WIDTH = 280; // card + gap
     const MOBILE_DURATION = 1.8;
-    const [testimonials, setTestimonials] = useState(testimonials);
+    const [testimonials, setTestimonials] = useState(testimonialsList);
     const { t } = useNowit();
     useEffect(() => {
         const translatedList = t("testimonials.list", { returnObjects: true })
 
         if (Array.isArray(translatedList) && translatedList.length > 0) {
-            console.log("Translated List:", translatedList); // Debugging log
+            // console.log("Translated List:", translatedList); // Debugging log
             setTestimonials(translatedList)
         } else {
             setTestimonials(testimonials)

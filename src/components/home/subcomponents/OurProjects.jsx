@@ -1,10 +1,11 @@
 
 
-
+'use client'
 
 import { CustomHeading, ThemeBtnTag, ThemeBtnTag2, ThemeLinkTag } from "@/components/shared/UI-Elements/Custom-Elements"
 import Image from "next/image"
-
+import { useNowit } from "@/store/useNowit"
+import { useState,useEffect } from "react"
 
 const ProjectCard = ({ item, height, width }) => {
     return (
@@ -85,31 +86,45 @@ const List = [
 ]
 
 const OurProjects = () => {
+    const {t}=useNowit()
+    const [projectsList,setProjectsList] = useState(List)
+    
+      useEffect(() => {
+        const translatedList = t("projects.List", { returnObjects: true })
+    
+        if (Array.isArray(translatedList) && translatedList.length > 0) {
+          console.log("Translated List:", translatedList); // Debugging log
+          setProjectsList(translatedList)
+        } else {
+          setProjectsList(List)
+        }
+      }, [t])
+    
     return (
         <section className="w-full py-20 md:flex md:justify-center px-4 lg:px-10">
             <div className="w-full md:w-360 flex flex-col md:gap-12 px-4 lg:px-10">
                 <CustomHeading
-                    title="Projects"
+                    title={t("projects.title") || "Projects"}
                     span=""
-                    description="Projects that reflect our expertise and commitment to quality"
+                    description={t("projects.description") || "Projects that reflect our expertise and commitment to quality"}
                 />
                 {/* TOP ROW */}
                 <div className="hidden md:grid grid-cols-2 gap-8">
-                    {List.slice(0, 2).map(item => (
+                    {projectsList.slice(0, 2).map(item => (
                         <ProjectCard key={item.id} item={item} height="h-[520px]" />
                     ))}
                 </div>
 
                 {/* BOTTOM ROW */}
                 <div className="hidden md:grid grid-cols-3 gap-8">
-                    {List.slice(2).map(item => (
+                    {projectsList.slice(2).map(item => (
                         <ProjectCard key={item.id} item={item} height="h-[420px]" />
                     ))}
                 </div>
 
                 <div className="items-center hidden md:block w-full">
                     <div className="flex items-center justify-center">
-                        <ThemeLinkTag href="/products#myProducts" BtnText="View All Products" styles='self-center' />
+                        <ThemeLinkTag href="/products#myProducts" BtnText={t("projects.viewAll") || "View All Products"} styles='self-center' />
                     </div>
                 </div>
                 {/* mobile */}
@@ -123,7 +138,7 @@ const OurProjects = () => {
     px-5
   "
                 >
-                    {List.map(item => (
+                    {projectsList.map(item => (
                         <ProjectCard
                             key={item.id}
                             item={item}

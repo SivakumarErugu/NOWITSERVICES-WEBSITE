@@ -1,0 +1,66 @@
+{
+  "banner.span": "Construyendo tecnología",
+  "banner.title": "que genera impacto.",
+  "banner.description1": "Creamos soluciones digitales escalables para web, móvil y la nube.",
+  "banner.description2": "Ayudamos a las empresas a resolver desafíos reales mediante tecnología inteligente y confiable.",
+
+  "vision.slidingHeader.title": "Nuestra",
+  "vision.span": "Visión",
+  "vision.title": "Nuestra",
+  "vision.description1": "Impulsar la innovación mediante soluciones digitales inteligentes que resuelvan desafíos empresariales reales. Imaginamos un futuro donde la tecnología permita eficiencia, crecimiento y progreso significativo.",
+  "vision.description2": "Estamos comprometidos con el aprendizaje continuo, la adaptabilidad y una ejecución consciente para mantener nuestras soluciones relevantes en un entorno digital en constante evolución.",
+  "vision.description3": "Creemos que una tecnología sólida se construye con responsabilidad. Nuestra visión es simplificar la complejidad, adoptar la innovación y crear soluciones digitales que impulsen el crecimiento sostenible y el éxito a largo plazo.",
+
+  "journey.title": "Nuestro",
+  "journey.span": "Recorrido",
+  "journey.description": "Ayudando a las marcas a crecer con tecnología inteligente y confiable.",
+  "journey.List": [
+    { "suffix": "20", "description": "Constituidos en el Reino Unido como firma de consultoría tecnológica" },
+    { "suffix": "21", "description": "Inicio de servicios de consultoría tecnológica en India para AspireSystems, Qbrainx y UST Global, desarrollando aplicaciones web y móviles personalizadas" },
+    { "suffix": "22", "description": "Expansión de operaciones en India fortaleciendo el equipo y acelerando I+D" },
+    { "suffix": "23", "description": "Enfoque en innovación de productos, adquisición de clientes y arquitectura SaaS escalable" },
+    { "suffix": "24", "description": "Inicio como empresa basada en productos bajo la marca WON Apps" },
+    { "suffix": "25", "description": "Lanzamiento de la primera plataforma SaaS y expansión progresiva en WON App Store" },
+    { "suffix": "26", "description": "Crecimiento continuo hacia cinco plataformas en WON App Store" }
+  ],
+
+  "aboutUs.description": "Poseemos patentes de una plataforma de calzado inteligente de nueva generación que transforma el movimiento diario en información valiosa de salud. Al combinar sensores avanzados con análisis de datos inteligentes, permite monitoreo en tiempo real y bienestar personalizado.",
+
+  "chooseus.title": "Por qué",
+  "chooseus.span": "Elegirnos",
+  "chooseus.description": "Ayudando a las marcas a crecer con tecnología inteligente y confiable.",
+  "chooseus.List": [
+    { "id": 1, "title": "Pensamiento centrado en el usuario", "description": "Diseñamos soluciones basadas en necesidades reales para una experiencia clara y confiable." },
+    { "id": 2, "title": "Inteligencia impulsada por IA", "description": "Integramos IA para automatizar procesos y tomar mejores decisiones." },
+    { "id": 3, "title": "Cloud-first y preparado para el futuro", "description": "Arquitecturas en la nube que escalan con su negocio." },
+    { "id": 4, "title": "Responsabilidad de extremo a extremo", "description": "Gestionamos los resultados desde la idea hasta la entrega." },
+    { "id": 5, "title": "Soluciones alineadas a la industria", "description": "Diseños enfocados en desafíos reales del sector." },
+    { "id": 6, "title": "Diseñado para escalar", "description": "Construido para rendimiento y crecimiento a largo plazo." },
+    { "id": 7, "title": "Confianza mediante transparencia", "description": "Comunicación clara y resultados medibles." }
+  ],
+
+  "brands.span": "Marcas",
+  "brands.title": "Que confían en nosotros",
+  "brands.description": "Relaciones construidas con confianza y resultados.",
+
+  "projects.title": "Proyectos",
+  "projects.description": "Proyectos que reflejan nuestra experiencia y compromiso",
+  "projects.viewAll": "Ver todos los productos",
+
+  "testimonials.slidingTitle": "Testimonios",
+  "testimonials.title.prefix": "Construyendo",
+  "testimonials.title.suffix": "con resultados",
+  "testimonials.span": "Confianza",
+  "testimonials.description": "Opiniones reales de clientes que han trabajado con nosotros.",
+  "testimonials.list": [
+    { "name": "Rajesh Kumar", "image": "", "text": "NowIT entregó exactamente lo que necesitábamos, con calidad y puntualidad." },
+    { "name": "Ananya Sharma", "image": "", "text": "Entendieron nuestra visión y la convirtieron en un producto escalable." },
+    { "name": "Vikram Rao", "image": "", "text": "Su experiencia técnica nos ayudó a construir una solución confiable." }
+  ],
+
+  "becomepartner.title.prefix": "Crecer",
+  "becomepartner.title.middle": "Juntos",
+  "becomepartner.title.suffix": "a través de alianzas",
+  "becomepartner.description": "Colabore con NowIT Services para innovar y crear soluciones personalizadas.",
+  "becomepartner.becomepartner": "Conviértase en socio"
+}

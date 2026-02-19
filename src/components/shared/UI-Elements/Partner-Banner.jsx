@@ -2,15 +2,18 @@
 
 import React from "react";
 import Image from "next/image";
-import { ThemeBtnTag, ThemeLinkTag } from "../../shared/UI-Elements/Custom-Elements";
-
+import { ThemeLinkTag } from "../../shared/UI-Elements/Custom-Elements";
 /* Images */
 import partnerBanner1 from "../../../../public/images/PartnerBannerImages/partnerBanner1.png";
 import partnerBanner2 from "../../../../public/images/PartnerBannerImages/partnerBanner2.png";
 import partnerBannerBg from "../../../../public/images/PartnerBannerImages/partnerBannerBg.jpg";
 import Link from "next/link";
+import { useNowit } from "@/store/useNowit";
 
 const PartnerBanner = () => {
+    const { t, isReady } = useNowit();
+
+    if (!isReady) return null; // or skeleton loader
     return (
         <section
             className="
@@ -43,14 +46,14 @@ const PartnerBanner = () => {
             <div className="relative z-10  ">
                 {/* MOBILE + MD */}
                 <h2 className="text-xl md:text-3xl font-semibold text-[#111] leading-snug md:hidden">
-                    Grow Together <br />
-                    Through Partnership
+                    {t("becomepartner.title.prefix")} {t("becomepartner.title.middle")} <br />
+                    {t("becomepartner.title.suffix")}
                 </h2>
 
                 {/* LG+ */}
                 <h2 className="hidden md:block md:text-3xl lg:text-5xl font-medium text-[#111] leading-none ">
                     <span className="inline-flex items-center gap-3 mb-2">
-                        Grow
+                        {t("becomepartner.title.prefix") || "Grow"}
                         <Image
                             src={partnerBanner1}
                             alt="Together"
@@ -62,7 +65,7 @@ const PartnerBanner = () => {
         align-middle
       "
                         />
-                        Together
+                        {t("becomepartner.title.middle") || "Together"}
                     </span>
 
                     <br />
@@ -80,20 +83,19 @@ const PartnerBanner = () => {
         align-middle
       "
                         />
-                        Through Partnership
+                        {t("becomepartner.title.suffix") || "Through Partnership"}
                     </span>
                 </h2>
 
                 <p className="mt-4 text-gray-700 text-xs lg:text-sm mx-auto md:mx-0 md:pr-10">
-                    Partner with NowIT Services to collaborate, innovate, and deliver
-                    customized solutions.
+                    {t("becomepartner.description")}
                 </p>
 
                 {/* MOBILE + MD BUTTON */}
                 <div className="mt-8 md:hidden flex justify-center">
                     <ThemeLinkTag
                         href="/become-a-partner"
-                        BtnText="Become a Partner"
+                        BtnText={t("becomepartner.becomepartner")}
                         styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                     />
                 </div>
@@ -103,7 +105,7 @@ const PartnerBanner = () => {
             <div className="relative z-10 shrink-0 hidden md:block">
                 <ThemeLinkTag
                     href="/become-a-partner"
-                    BtnText="Become a Partner"
+                    BtnText={t("becomepartner.becomepartner")}
                     styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                 />
             </div>

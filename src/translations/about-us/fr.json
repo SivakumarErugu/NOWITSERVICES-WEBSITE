@@ -1,0 +1,111 @@
+{
+  "banner.span": "Construire la technologie",
+  "banner.title": "qui crée de l’impact.",
+  "banner.description1": "Nous développons des solutions numériques évolutives pour le web, le mobile et le cloud.",
+  "banner.description2": "Nous aidons les entreprises à relever de vrais défis grâce à une technologie fiable et intelligente.",
+
+  "vision.slidingHeader.title": "Notre",
+  "vision.span": "Vision",
+  "vision.title": "Notre",
+  "vision.description1": "Stimuler l’innovation grâce à des solutions numériques intelligentes répondant à des défis réels.",
+  "vision.description2": "Nous misons sur l’apprentissage continu, l’adaptabilité et une exécution réfléchie.",
+  "vision.description3": "Nous croyons qu’une technologie forte se construit avec responsabilité et durabilité.",
+
+  "journey.title": "Notre",
+  "journey.span": "Parcours",
+  "journey.description": "Aider les marques à réussir grâce à une technologie fiable.",
+  "journey.List": [
+    { "suffix": "20", "description": "Création au Royaume-Uni en tant que société de conseil technologique" },
+    { "suffix": "21", "description": "Lancement des services de conseil technologique en Inde pour AspireSystems, Qbrainx et UST Global" },
+    { "suffix": "22", "description": "Expansion des opérations en Inde en renforçant l’équipe de développement" },
+    { "suffix": "23", "description": "Accent mis sur l’innovation produit et l’architecture SaaS évolutive" },
+    { "suffix": "24", "description": "Démarrage en tant qu’entreprise orientée produit sous la marque WON Apps" },
+    { "suffix": "25", "description": "Lancement de la première plateforme SaaS et extension du WON App Store" },
+    { "suffix": "26", "description": "Progression vers cinq plateformes dans le WON App Store" }
+  ],
+
+  "aboutUs.description": "Nous détenons des brevets sur une plateforme de chaussures intelligentes de nouvelle génération transformant les mouvements quotidiens en données de santé exploitables.",
+
+  "chooseus.title": "Pourquoi",
+  "chooseus.span": "Nous choisir",
+  "chooseus.description": "Une technologie fiable pour des résultats concrets.",
+  "chooseus.List": [
+    { "id": 1, "title": "Approche centrée utilisateur", "description": "Des solutions conçues autour de besoins réels." },
+    { "id": 2, "title": "Intelligence basée sur l’IA", "description": "Intégration réfléchie de l’IA pour automatiser les processus." },
+    { "id": 3, "title": "Cloud-first et prêt pour l’avenir", "description": "Des architectures cloud évolutives." },
+    { "id": 4, "title": "Responsabilité de bout en bout", "description": "Des résultats maîtrisés de l’idée à la livraison." },
+    { "id": 5, "title": "Solutions adaptées au secteur", "description": "Alignées sur les défis réels de l’industrie." },
+    { "id": 6, "title": "Conçu pour évoluer", "description": "Performance et fiabilité à long terme." },
+    { "id": 7, "title": "Confiance par la transparence", "description": "Communication claire et résultats mesurables." }
+  ],
+
+  "brands.span": "Marques",
+  "brands.title": "Qui nous font confiance",
+  "brands.description": "Des partenariats fondés sur la confiance et les résultats.",
+
+  "projects.title": "Projets",
+  "projects.description": "Des projets reflétant notre expertise",
+  "projects.List": [
+    {
+      "id": 1,
+      "title": "WON Bill",
+      "description": "Plateforme d’automatisation de facturation pour les entreprises.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+    },
+    {
+      "id": 2,
+      "title": "WON Digi",
+      "description": "Plateforme numérique complète pour la gestion scolaire et institutionnelle.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "WON Pulse",
+      "description": "Système complet de gestion hospitalière et de santé.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "WON Hubs",
+      "description": "Plateforme d’infrastructure centrale du système WON.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+    },
+    {
+      "id": 5,
+      "title": "WON Bridge",
+      "description": "Plateforme d’intégration reliant les systèmes d’entreprise.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+    }
+  ],
+
+  "projects.viewAll": "Voir tous les produits",
+
+  "testimonials.slidingTitle": "Témoignages",
+  "testimonials.title.prefix": "Construire",
+  "testimonials.title.suffix": "par les résultats",
+  "testimonials.span": "Confiance",
+  "testimonials.description": "Avis réels de clients ayant collaboré avec nous.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT a livré exactement ce dont nous avions besoin, avec qualité et ponctualité."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Ils ont rapidement compris notre vision et l’ont transformée en produit évolutif."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Un partenaire fiable et techniquement solide sur le long terme."
+    }
+  ],
+
+  "becomepartner.title.prefix": "Grandir",
+  "becomepartner.title.middle": "Ensemble",
+  "becomepartner.title.suffix": "Par le partenariat",
+  "becomepartner.description": "Collaborez avec NowIT Services pour innover et créer des solutions sur mesure.",
+  "becomepartner.becomepartner": "Devenir partenaire"
+}

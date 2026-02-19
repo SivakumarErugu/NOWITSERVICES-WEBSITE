@@ -24,17 +24,32 @@ const NowitContextProvider = ({ children }) => {
   });
 
   const [messages, setMessages] = useState({});
-  const [isReady,setIsReady] = useState(false)
+  const [isReady, setIsReady] = useState(false)
   // Load translation file
+
+  const normalizeTabForPath = (tab) => {
+    return tab
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, "-"); // "about us" → "about-us"
+  };
+
+
   const loadMessages = async (lang) => {
     try {
-      const normalized = lang.split("-")[0]; // en-IN -> en
-      const data = await import(`../translations/home/${normalized}.json`);
+      const normalized = lang.split("-")[0];
+      console.log("Normalized language:", normalized);
+      console.log("Active Tab:", activeTab);
+      const tabName = normalizeTabForPath(activeTab);
+      const data = await import(`../translations/${tabName}/${normalized}.json`);
+
       setMessages(data.default);
-       setIsReady(true);
+      setIsReady(true);
     } catch (error) {
+      console.log(error, "error here"
+      )
       console.error("Translation file not found:", error);
-       setIsReady(true);
+      setIsReady(true);
     }
   };
 

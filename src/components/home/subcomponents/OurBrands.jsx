@@ -4,6 +4,7 @@ import { CustomHeading } from '@/components/shared/UI-Elements/Custom-Elements';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { useNowit } from '@/store/useNowit';
 
 const ImagesList = [
   { id: 1, url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770638608/before1_d2puz8.png" },
@@ -23,6 +24,7 @@ const ImagesList = [
 
 const OurBrands = () => {
   const [duration, setDuration] = useState(15);
+  const {t}=useNowit();
 
   useEffect(() => {
     const updateDuration = () => {
@@ -44,9 +46,9 @@ const OurBrands = () => {
     <section className="w-full flex justify-center overflow-hidden">
       <div className="w-full flex flex-col md:gap-6">
         <CustomHeading
-          title="That Trust Us"
-          span="Brands"
-          description="Helping brands succeed through smart and dependable technology."
+          title={t("brands.title")}
+          span={t("brands.span")}
+          description={t("brands.description")}
           isSpanFirst
         />
 

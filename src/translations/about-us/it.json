@@ -1,0 +1,111 @@
+{
+  "banner.span": "Costruire tecnologia",
+  "banner.title": "che genera impatto.",
+  "banner.description1": "Sviluppiamo soluzioni digitali scalabili per web, mobile e cloud.",
+  "banner.description2": "Aiutiamo le aziende a risolvere sfide reali attraverso una tecnologia affidabile e intelligente.",
+
+  "vision.slidingHeader.title": "La nostra",
+  "vision.span": "Visione",
+  "vision.title": "La nostra",
+  "vision.description1": "Guidare l’innovazione attraverso soluzioni digitali intelligenti che risolvono sfide aziendali reali.",
+  "vision.description2": "Siamo impegnati nell’apprendimento continuo, nell’adattabilità e in un’esecuzione attenta.",
+  "vision.description3": "Crediamo che una tecnologia solida sia costruita con responsabilità e sostenibilità.",
+
+  "journey.title": "Il nostro",
+  "journey.span": "Percorso",
+  "journey.description": "Aiutiamo i brand a crescere con tecnologia affidabile.",
+  "journey.List": [
+    { "suffix": "20", "description": "Costituita nel Regno Unito come società di consulenza tecnologica" },
+    { "suffix": "21", "description": "Avvio dei servizi di consulenza tecnologica in India per AspireSystems, Qbrainx e UST Global" },
+    { "suffix": "22", "description": "Espansione delle operazioni in India rafforzando il team di sviluppo" },
+    { "suffix": "23", "description": "Focus su innovazione di prodotto e architettura SaaS scalabile" },
+    { "suffix": "24", "description": "Avvio come azienda orientata al prodotto con il brand WON Apps" },
+    { "suffix": "25", "description": "Lancio della prima piattaforma SaaS ed espansione nel WON App Store" },
+    { "suffix": "26", "description": "Crescita verso cinque piattaforme nel WON App Store" }
+  ],
+
+  "aboutUs.description": "Deteniamo brevetti su una piattaforma di calzature intelligenti di nuova generazione che trasforma il movimento quotidiano in dati sanitari significativi.",
+
+  "chooseus.title": "Perché",
+  "chooseus.span": "sceglierci",
+  "chooseus.description": "Tecnologia affidabile per risultati concreti.",
+  "chooseus.List": [
+    { "id": 1, "title": "Approccio user-first", "description": "Soluzioni progettate attorno alle reali esigenze degli utenti." },
+    { "id": 2, "title": "Intelligenza basata su AI", "description": "Integrazione intelligente dell’AI per automatizzare i processi." },
+    { "id": 3, "title": "Cloud-first e pronto per il futuro", "description": "Architetture cloud scalabili." },
+    { "id": 4, "title": "Responsabilità end-to-end", "description": "Gestiamo i risultati dall’idea alla consegna." },
+    { "id": 5, "title": "Soluzioni orientate al settore", "description": "Allineate alle reali sfide industriali." },
+    { "id": 6, "title": "Progettato per scalare", "description": "Affidabilità e crescita a lungo termine." },
+    { "id": 7, "title": "Trasparenza e fiducia", "description": "Comunicazione chiara e risultati misurabili." }
+  ],
+
+  "brands.span": "Brand",
+  "brands.title": "Che si fidano di noi",
+  "brands.description": "Partnership basate su fiducia e risultati.",
+
+  "projects.title": "Progetti",
+  "projects.description": "Progetti che riflettono la nostra esperienza",
+  "projects.List": [
+    {
+      "id": 1,
+      "title": "WON Bill",
+      "description": "WON Bill è una piattaforma enterprise per l’automazione della fatturazione.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+    },
+    {
+      "id": 2,
+      "title": "WON Digi",
+      "description": "WON Digi è una piattaforma digitale completa per la gestione scolastica.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "WON Pulse",
+      "description": "WON Pulse è un sistema completo di gestione ospedaliera.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "WON Hubs",
+      "description": "WON Hubs è la piattaforma infrastrutturale centrale dell’ecosistema WON.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+    },
+    {
+      "id": 5,
+      "title": "WON Bridge",
+      "description": "WON Bridge collega sistemi aziendali consentendo uno scambio dati fluido.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+    }
+  ],
+
+  "projects.viewAll": "Visualizza tutti i prodotti",
+
+  "testimonials.slidingTitle": "Testimonianze",
+  "testimonials.title.prefix": "Costruire",
+  "testimonials.title.suffix": "attraverso i risultati",
+  "testimonials.span": "Fiducia",
+  "testimonials.description": "Feedback reale dai nostri clienti.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT ha consegnato esattamente ciò di cui avevamo bisogno, puntualmente."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Hanno trasformato la nostra visione in un prodotto scalabile."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Un partner affidabile e competente nel lungo periodo."
+    }
+  ],
+
+  "becomepartner.title.prefix": "Crescere",
+  "becomepartner.title.middle": "Insieme",
+  "becomepartner.title.suffix": "Attraverso la partnership",
+  "becomepartner.description": "Collabora con NowIT Services per innovare e creare soluzioni personalizzate.",
+  "becomepartner.becomepartner": "Diventa partner"
+}

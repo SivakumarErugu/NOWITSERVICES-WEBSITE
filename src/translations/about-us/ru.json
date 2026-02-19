@@ -1,0 +1,111 @@
+{
+  "banner.span": "Создаём технологии",
+  "banner.title": "которые имеют значение.",
+  "banner.description1": "Мы разрабатываем масштабируемые цифровые решения для веба, мобильных устройств и облака.",
+  "banner.description2": "Мы помогаем бизнесу решать реальные задачи с помощью надёжных и умных технологий.",
+
+  "vision.slidingHeader.title": "Наша",
+  "vision.span": "Видение",
+  "vision.title": "Наша",
+  "vision.description1": "Продвигать инновации с помощью интеллектуальных цифровых решений для реальных бизнес-задач.",
+  "vision.description2": "Мы придерживаемся принципов постоянного обучения, адаптивности и продуманного исполнения.",
+  "vision.description3": "Мы верим, что сильные технологии создаются с ответственностью и ориентиром на устойчивый рост.",
+
+  "journey.title": "Наш",
+  "journey.span": "Путь",
+  "journey.description": "Помогаем брендам развиваться с помощью надёжных технологий.",
+  "journey.List": [
+    { "suffix": "20", "description": "Основание в Великобритании как технологической консалтинговой компании" },
+    { "suffix": "21", "description": "Запуск технологического консалтинга в Индии для AspireSystems, Qbrainx и UST Global" },
+    { "suffix": "22", "description": "Расширение деятельности в Индии за счёт усиления команды разработки" },
+    { "suffix": "23", "description": "Фокус на продуктовые инновации и масштабируемую SaaS-архитектуру" },
+    { "suffix": "24", "description": "Старт как продуктовой компании под брендом WON Apps" },
+    { "suffix": "25", "description": "Запуск первой SaaS-платформы и развитие WON App Store" },
+    { "suffix": "26", "description": "Рост до пяти платформ в WON App Store" }
+  ],
+
+  "aboutUs.description": "Мы владеем патентами на платформу умной обуви нового поколения, которая преобразует повседневные движения в ценные данные о здоровье.",
+
+  "chooseus.title": "Почему",
+  "chooseus.span": "выбирают нас",
+  "chooseus.description": "Надёжные технологии для реальных результатов.",
+  "chooseus.List": [
+    { "id": 1, "title": "Ориентация на пользователя", "description": "Решения, созданные на основе реальных потребностей пользователей." },
+    { "id": 2, "title": "Интеллект на базе ИИ", "description": "Продуманное внедрение ИИ для автоматизации процессов." },
+    { "id": 3, "title": "Cloud-first подход", "description": "Масштабируемые облачные архитектуры." },
+    { "id": 4, "title": "Полная ответственность", "description": "От идеи до внедрения." },
+    { "id": 5, "title": "Отраслевые решения", "description": "Адаптированы под реальные отраслевые задачи." },
+    { "id": 6, "title": "Создано для масштабирования", "description": "Долгосрочная производительность и надёжность." },
+    { "id": 7, "title": "Прозрачность и доверие", "description": "Чёткая коммуникация и измеримые результаты." }
+  ],
+
+  "brands.span": "Бренды",
+  "brands.title": "которые нам доверяют",
+  "brands.description": "Партнёрства, основанные на доверии и результатах.",
+
+  "projects.title": "Проекты",
+  "projects.description": "Проекты, отражающие нашу экспертизу",
+  "projects.List": [
+    {
+      "id": 1,
+      "title": "WON Bill",
+      "description": "Корпоративная платформа для автоматизации выставления счетов.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+    },
+    {
+      "id": 2,
+      "title": "WON Digi",
+      "description": "Цифровая платформа для управления школами и учреждениями.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "WON Pulse",
+      "description": "Полноценная система управления больницами и здравоохранением.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "WON Hubs",
+      "description": "Центральная инфраструктурная платформа экосистемы WON.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+    },
+    {
+      "id": 5,
+      "title": "WON Bridge",
+      "description": "Платформа интеграции корпоративных систем и обмена данными.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+    }
+  ],
+
+  "projects.viewAll": "Посмотреть все продукты",
+
+  "testimonials.slidingTitle": "Отзывы",
+  "testimonials.title.prefix": "Доверие",
+  "testimonials.title.suffix": "через результаты",
+  "testimonials.span": "Доверие",
+  "testimonials.description": "Реальные отзывы наших клиентов.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT предоставила именно то, что нам было нужно, вовремя и с высоким качеством."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Они быстро поняли наше видение и превратили его в масштабируемый продукт."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Надёжный технический партнёр на долгосрочную перспективу."
+    }
+  ],
+
+  "becomepartner.title.prefix": "Расти",
+  "becomepartner.title.middle": "Вместе",
+  "becomepartner.title.suffix": "через партнёрство",
+  "becomepartner.description": "Станьте партнёром NowIT Services для совместных инноваций и создания решений.",
+  "becomepartner.becomepartner": "Стать партнёром"
+}

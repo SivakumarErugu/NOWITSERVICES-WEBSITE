@@ -151,6 +151,7 @@
       "description": "Won Brich es una plataforma integrada de comunicación y colaboración diseñada para conectar instituciones, equipos y partes interesadas de manera eficiente. Mejora la coordinación y la productividad mediante interacción digital segura y en tiempo real."
     }
   ],
+  "products.viewProduct": "Ver Producto",
   "Industry.description": "NOWIT Services ofrece servicios de transformación digital impulsados por IA que ayudan a las empresas a mejorar la eficiencia, automatizar operaciones y crecer más rápido. Nuestras soluciones basadas en la nube incluyen marketing inteligente, migración a la nube, consultoría profesional en TI, mensajería inteligente, registro de propiedad intelectual y capacitación corporativa, todo diseñado para ofrecer resultados empresariales seguros, escalables y basados en datos.",
   "Industry.title": "Soluciones para",
   "Industry.span": "Cada Industria",
@@ -190,7 +191,6 @@
       "text": "Su experiencia técnica y enfoque estructurado nos ayudaron a construir una solución confiable en web y móvil. Los valoramos como un socio a largo plazo."
     }
   ],
-
   "faq.span": "Preguntas Frecuentes",
   "faq.title": "Preguntas Frecuentes",
   "faq.subquestion": "¿Aún tienes preguntas?",
@@ -217,5 +217,13 @@
       "title": "¿Sus soluciones pueden escalar a medida que el negocio crece?",
       "description": "Sí, nuestras soluciones están diseñadas para escalar sin problemas a medida que tu empresa evoluciona."
     }
-  ]
+  ],
+  "trustedbanner.subTitle": "Con la confianza de",
+  "trustedbanner.title": "Proveedor Global de Servicios",
+
+  "becomepartner.title.prefix": "Crecer",
+  "becomepartner.title.middle": "Juntos",
+  "becomepartner.title.suffix": "a través de la Colaboración",
+  "becomepartner.description": "Asóciate con NowIT Services para colaborar, innovar y ofrecer soluciones personalizadas.",
+  "becomepartner.becomepartner": "Conviértete en Socio"
 }

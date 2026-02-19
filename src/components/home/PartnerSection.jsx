@@ -17,8 +17,7 @@ const PartnerSection = () => {
   const [hoverKey, setHoverKey] = useState(0);
   const router = useRouter();
   const { t, isReady } = useNowit()
-  console.log(t('partner.trusted'),"Partner Section Translation")
-
+  
   return (
     <section id="partnerSectionHome" className="w-full py-10 px-4 lg:px-8">
 
@@ -47,7 +46,7 @@ const PartnerSection = () => {
 
             <div className="hidden md:block w-fit">
               <ThemeBtnTag
-                BtnText="Know More"
+                BtnText={t("partner.knowmore") || "Know More"}
                 onClick={() => router.push("/products")}
                 styles="w-[190px] h-[42px] ibm-text"
               />

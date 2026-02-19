@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import TitleAndDescription from '@/components/shared/UI-Elements/TitleAndDescription';
 import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader';
 import Link from 'next/link';
@@ -134,7 +134,7 @@ const EnterpriseProducts = () => {
                                     {activeApp.description}
                                 </p>
                                 <Link href="/products" className="bg-[#5DBB2F] text-white px-6 py-2 rounded-md w-fit">
-                                    View Product
+                                    {t("products.viewProduct") || "View Product"}
                                 </Link>
                             </div>
                         </div>

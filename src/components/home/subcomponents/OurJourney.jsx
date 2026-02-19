@@ -1,8 +1,8 @@
 'use client'
 
 
-import React, { useRef, useState, useEffect } from "react";
-
+import React, { useRef, useState, useEffect, use } from "react";
+import { useNowit } from "@/store/useNowit";
 
 const List = [
   {
@@ -44,23 +44,34 @@ const List = [
 const OurJourney = () => {
   const scrollRef = useRef(null);
   const [scrolled, setScrolled] = useState(false);
+  const [journeyList, setJourneyList] = useState(List);
+  const {t}=useNowit()
 
   const handleScroll = () => {
     if (scrollRef.current.scrollTop > 10) {
       setScrolled(true);
     }
   };
+useEffect(() => {
+        const translatedList = t("journey.List", { returnObjects: true })
 
+        if (Array.isArray(translatedList) && translatedList.length > 0) {
+            console.log("Translated List:", translatedList); // Debugging log
+            setJourneyList(translatedList)
+        } else {
+            setJourneyList(List)
+        }
+    }, [t])
 
   return (
     <section className="w-full flex flex-col items-center md:py-24 mt-0 px-5 md:px-10 lg:px-15">
       {/* Header */}
       <div className="max-w-[900px] md:text-center mb-10">
         <h1 className="md:font-medium text-[25px] font-bold md:text-[48px] text-[#1F2937] ibmPlex-text">
-          Our <span className="text-[#0D5BD7]">Journey</span>
+         {t("journey.title")|| "Our"} <span className="text-[#0D5BD7]">{t("journey.span")|| "Journey"}</span>
         </h1>
         <p className="text-gray-600 ">
-          Helping brands succeed through smart and dependable technology.
+          {t("journey.description")|| "Helping brands succeed through smart and dependable technology."}
         </p>
       </div>
 
@@ -80,7 +91,7 @@ const OurJourney = () => {
           className="h-[226px] overflow-y-auto no-scrollbar scrollbar-invisible pr-4 w-full"
         >
           <div className="flex flex-col gap-2 mt-5 pb-[40px] w-full">
-            {List.map((item, index) => {
+            {journeyList.map((item, index) => {
               const isLast = index === List.length - 1;
               return (
                 <div

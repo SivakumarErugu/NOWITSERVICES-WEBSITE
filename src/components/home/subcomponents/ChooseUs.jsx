@@ -2,7 +2,8 @@
 
 import { CustomHeading, ThemeBottomBorder2 } from '@/components/shared/UI-Elements/Custom-Elements'
 import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useNowit } from '@/store/useNowit'
 
 const List = [
   {
@@ -51,13 +52,26 @@ const List = [
 
 const ChooseUs = () => {
   const [activeId, setActiveId] = useState(null)
+  const { t } = useNowit()
+  const [chooseUsList, setChooseUsList] = useState(List)
+  useEffect(() => {
+    const translatedList = t("chooseus.List", { returnObjects: true })
+
+    if (Array.isArray(translatedList) && translatedList.length > 0) {
+      console.log("Translated List:", translatedList); // Debugging log
+      setChooseUsList(translatedList)
+    } else {
+      setChooseUsList(List)
+    }
+  }, [t])
+
 
   return (
     <div className="w-full md:h-210 flex flex-col items-center mt-20 mb-20">
       <CustomHeading
-        title="Why"
-        span="Choose Us"
-        description="Helping brands succeed through smart and dependable technology."
+        title={t("chooseus.title")}
+        span={t("chooseus.span")}
+        description={t("chooseus.description")}
       />
 
       {/* Desktop View */}
@@ -72,7 +86,7 @@ const ChooseUs = () => {
           px-6
         "
       >
-        {List.map((item) => {
+        {chooseUsList.map((item) => {
           const isActive = activeId === item.id
 
           return (

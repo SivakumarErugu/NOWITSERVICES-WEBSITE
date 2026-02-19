@@ -40,12 +40,10 @@ const FaqSection = () => {
     const faqList = t('faq.list') ? t('faq.list') : List;
     // console.log(t('faq.list'), "Translated FAQ List")
 
-
     return (
         <section className="w-full bg-[#E3F1FF] py-20 hidden md:block px-4 lg:px-8">
             {/* Center Container */}
             <div className=" mx-auto  px-1 lg:px-6 grid grid-cols-2 gap-12 items-start">
-
                 {/* Left Content */}
                 <div className="flex flex-col gap-8">
                     <div>
@@ -60,7 +58,7 @@ const FaqSection = () => {
 
                     <div className="bg-white rounded-2xl p-8 shadow-sm ">
                         <h3 className="text-[22px] font-semibold text-[#0A2540] mb-3">
-                            {t("faq.subquestions") || "Still have questions?"}
+                            {t("faq.subquestion") || "Still have questions?"}
                         </h3>
 
                         <p className="text-[15px] text-[#4A5D73] leading-6 mb-6">

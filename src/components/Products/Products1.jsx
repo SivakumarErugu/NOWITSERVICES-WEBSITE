@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-
+import { useNowit } from "@/store/useNowit";
 /* Product Images */
 import Product1 from "../../../public/images/ProductImages/Product1.jpg";
 import Product2 from "../../../public/images/ProductImages/Product2.jpg";
@@ -15,6 +15,7 @@ import Link from "next/link";
 const Products1 = () => {
   const router = useRouter();
   const [isRaised, setIsRaised] = useState(false);
+  const {t}=useNowit();
 
   return (
     <section

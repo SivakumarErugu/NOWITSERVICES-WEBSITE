@@ -1,0 +1,111 @@
+{
+  "banner.span": "Technologie entwickeln",
+  "banner.title": "die Wirkung zeigt.",
+  "banner.description1": "Wir entwickeln skalierbare digitale Lösungen für Web, Mobile und Cloud.",
+  "banner.description2": "Wir helfen Unternehmen, reale Herausforderungen mit intelligenter und zuverlässiger Technologie zu lösen.",
+
+  "vision.slidingHeader.title": "Unsere",
+  "vision.span": "Vision",
+  "vision.title": "Unsere",
+  "vision.description1": "Innovation durch intelligente digitale Lösungen vorantreiben, die reale geschäftliche Herausforderungen lösen.",
+  "vision.description2": "Wir setzen auf kontinuierliches Lernen, Anpassungsfähigkeit und durchdachte Umsetzung.",
+  "vision.description3": "Wir glauben, dass starke Technologie verantwortungsvoll entwickelt wird und nachhaltiges Wachstum unterstützt.",
+
+  "journey.title": "Unsere",
+  "journey.span": "Reise",
+  "journey.description": "Marken mit intelligenter und zuverlässiger Technologie stärken.",
+  "journey.List": [
+    { "suffix": "20", "description": "Gründung im Vereinigten Königreich als Technologie-Beratungsunternehmen" },
+    { "suffix": "21", "description": "Start von Technologie-Beratungsdiensten in Indien für AspireSystems, Qbrainx und UST Global" },
+    { "suffix": "22", "description": "Erweiterung der Aktivitäten in Indien durch Stärkung des Entwicklungsteams und beschleunigte Forschung" },
+    { "suffix": "23", "description": "Fokus auf Produktinnovation, Kundengewinnung und skalierbare SaaS-Architektur" },
+    { "suffix": "24", "description": "Start als produktorientiertes Unternehmen unter der Marke WON Apps" },
+    { "suffix": "25", "description": "Einführung der ersten SaaS-Plattform und Erweiterung des WON App Store" },
+    { "suffix": "26", "description": "Weiteres Wachstum mit dem Ziel von fünf Plattformen im WON App Store" }
+  ],
+
+  "aboutUs.description": "Wir halten Patente auf eine Smart-Footwear-Plattform der nächsten Generation, die tägliche Bewegung in wertvolle Gesundheitsdaten umwandelt. Durch fortschrittliche Sensortechnologie und intelligente Datenanalyse ermöglicht sie Echtzeitüberwachung und personalisierte Gesundheitsinformationen.",
+
+  "chooseus.title": "Warum",
+  "chooseus.span": "uns wählen",
+  "chooseus.description": "Zuverlässige Technologie für nachhaltigen Geschäftserfolg.",
+  "chooseus.List": [
+    { "id": 1, "title": "Nutzerzentriertes Denken", "description": "Lösungen, die auf reale Nutzerbedürfnisse ausgerichtet sind." },
+    { "id": 2, "title": "KI-gestützte Intelligenz", "description": "Durchdachter Einsatz von KI zur Automatisierung von Abläufen." },
+    { "id": 3, "title": "Cloud-first & zukunftssicher", "description": "Skalierbare Cloud-Architekturen, die mit Ihrem Unternehmen wachsen." },
+    { "id": 4, "title": "End-to-End-Verantwortung", "description": "Verantwortung von der Idee bis zur Umsetzung." },
+    { "id": 5, "title": "Branchenorientierte Lösungen", "description": "Lösungen, die auf reale Branchenanforderungen abgestimmt sind." },
+    { "id": 6, "title": "Für Skalierung entwickelt", "description": "Langfristige Leistung, Zuverlässigkeit und Wachstum." },
+    { "id": 7, "title": "Vertrauen durch Transparenz", "description": "Klare Kommunikation und messbare Ergebnisse." }
+  ],
+
+  "brands.span": "Marken",
+  "brands.title": "die uns vertrauen",
+  "brands.description": "Partnerschaften, aufgebaut auf Vertrauen und Ergebnissen.",
+
+  "projects.title": "Projekte",
+  "projects.description": "Projekte, die unsere Expertise und Qualität widerspiegeln",
+  "projects.List": [
+    {
+      "id": 1,
+      "title": "WON Bill",
+      "description": "WON Bill ist eine Enterprise-Plattform zur Automatisierung von Abrechnungs- und Zahlungsprozessen.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+    },
+    {
+      "id": 2,
+      "title": "WON Digi",
+      "description": "WON Digi ist eine umfassende digitale Plattform zur Verwaltung von Schulen und Bildungseinrichtungen.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "WON Pulse",
+      "description": "WON Pulse ist ein vollständiges System für Krankenhaus- und Gesundheitsmanagement.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "WON Hubs",
+      "description": "WON Hubs bildet die zentrale Infrastruktur des gesamten WON-Ökosystems.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+    },
+    {
+      "id": 5,
+      "title": "WON Bridge",
+      "description": "WON Bridge verbindet Unternehmenssysteme nahtlos und ermöglicht einen reibungslosen Datenaustausch.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+    }
+  ],
+
+  "projects.viewAll": "Alle Produkte anzeigen",
+
+  "testimonials.slidingTitle": "Referenzen",
+  "testimonials.title.prefix": "Vertrauen",
+  "testimonials.title.suffix": "durch Ergebnisse",
+  "testimonials.span": "Vertrauen",
+  "testimonials.description": "Echtes Feedback von Kunden, die mit uns zusammengearbeitet haben.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT lieferte genau das, was wir brauchten – pünktlich und in hoher Qualität."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Sie verstanden unsere Vision schnell und setzten sie in ein skalierbares Produkt um."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Ein technisch starker und verlässlicher Partner für langfristige Zusammenarbeit."
+    }
+  ],
+
+  "becomepartner.title.prefix": "Gemeinsam",
+  "becomepartner.title.middle": "wachsen",
+  "becomepartner.title.suffix": "durch Partnerschaft",
+  "becomepartner.description": "Arbeiten Sie mit NowIT Services zusammen, um gemeinsam innovative Lösungen zu entwickeln.",
+  "becomepartner.becomepartner": "Partner werden"
+}

@@ -1,0 +1,111 @@
+{
+  "banner.span": "Construindo tecnologia",
+  "banner.title": "que gera impacto.",
+  "banner.description1": "Desenvolvemos soluções digitais escaláveis para web, mobile e cloud.",
+  "banner.description2": "Ajudamos empresas a resolver desafios reais com tecnologia inteligente e confiável.",
+
+  "vision.slidingHeader.title": "Nossa",
+  "vision.span": "Visão",
+  "vision.title": "Nossa",
+  "vision.description1": "Impulsionar a inovação por meio de soluções digitais inteligentes para desafios reais.",
+  "vision.description2": "Comprometidos com aprendizado contínuo, adaptabilidade e execução consciente.",
+  "vision.description3": "Acreditamos em tecnologia construída com responsabilidade e foco sustentável.",
+
+  "journey.title": "Nossa",
+  "journey.span": "Jornada",
+  "journey.description": "Apoiando marcas com tecnologia confiável.",
+  "journey.List": [
+    { "suffix": "20", "description": "Incorporada no Reino Unido como empresa de consultoria tecnológica" },
+    { "suffix": "21", "description": "Início de serviços de consultoria tecnológica na Índia" },
+    { "suffix": "22", "description": "Expansão das operações na Índia com fortalecimento da equipe" },
+    { "suffix": "23", "description": "Foco em inovação de produtos e arquitetura SaaS escalável" },
+    { "suffix": "24", "description": "Início como empresa orientada a produtos com a marca WON Apps" },
+    { "suffix": "25", "description": "Lançamento da primeira plataforma SaaS no WON App Store" },
+    { "suffix": "26", "description": "Crescimento para cinco plataformas no WON App Store" }
+  ],
+
+  "aboutUs.description": "Detemos patentes de uma plataforma de calçados inteligentes que transforma movimentos diários em dados de saúde.",
+
+  "chooseus.title": "Por que",
+  "chooseus.span": "nos escolher",
+  "chooseus.description": "Tecnologia confiável para resultados reais.",
+  "chooseus.List": [
+    { "id": 1, "title": "Pensamento centrado no usuário", "description": "Soluções criadas para necessidades reais." },
+    { "id": 2, "title": "Inteligência orientada por IA", "description": "Automação inteligente com IA." },
+    { "id": 3, "title": "Cloud-first", "description": "Arquiteturas escaláveis em nuvem." },
+    { "id": 4, "title": "Responsabilidade total", "description": "Da ideia à entrega." },
+    { "id": 5, "title": "Soluções alinhadas à indústria", "description": "Foco em desafios reais." },
+    { "id": 6, "title": "Projetado para escalar", "description": "Crescimento sustentável." },
+    { "id": 7, "title": "Transparência e confiança", "description": "Comunicação clara e resultados." }
+  ],
+
+  "brands.span": "Marcas",
+  "brands.title": "Que confiam em nós",
+  "brands.description": "Parcerias baseadas em confiança e resultados.",
+
+  "projects.title": "Projetos",
+  "projects.description": "Projetos que refletem nossa experiência",
+  "projects.List": [
+    {
+      "id": 1,
+      "title": "WON Bill",
+      "description": "Plataforma corporativa para automação de faturamento.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+    },
+    {
+      "id": 2,
+      "title": "WON Digi",
+      "description": "Plataforma completa para gestão escolar e institucional.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "WON Pulse",
+      "description": "Sistema completo de gestão hospitalar e de saúde.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "WON Hubs",
+      "description": "Plataforma central de infraestrutura do ecossistema WON.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+    },
+    {
+      "id": 5,
+      "title": "WON Bridge",
+      "description": "Conecta sistemas empresariais para integração de dados.",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+    }
+  ],
+
+  "projects.viewAll": "Ver todos os produtos",
+
+  "testimonials.slidingTitle": "Depoimentos",
+  "testimonials.title.prefix": "Construindo",
+  "testimonials.title.suffix": "com resultados",
+  "testimonials.span": "Confiança",
+  "testimonials.description": "Feedback real de clientes parceiros.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "A NowIT entregou exatamente o que precisávamos, no prazo."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Transformaram nossa visão em um produto escalável."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Parceiro técnico confiável de longo prazo."
+    }
+  ],
+
+  "becomepartner.title.prefix": "Crescer",
+  "becomepartner.title.middle": "Juntos",
+  "becomepartner.title.suffix": "Por meio da parceria",
+  "becomepartner.description": "Faça parceria com a NowIT Services para inovar e criar soluções personalizadas.",
+  "becomepartner.becomepartner": "Tornar-se parceiro"
+}

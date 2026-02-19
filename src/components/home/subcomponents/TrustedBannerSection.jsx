@@ -1,6 +1,8 @@
+'use client'
 import React from "react";
 import Image from "next/image";
 import { ThemeBottomBorder } from "@/components/shared/UI-Elements/Custom-Elements";
+import { useNowit } from "@/store/useNowit";
 
 const List = [
     {
@@ -23,6 +25,8 @@ const List = [
 ];
 
 const TrustedBannerSection = () => {
+    const { t } = useNowit()
+    // console.log(t("trustedbanner.subTitle"), "Translated Trusted Banner Subtitle")
     return (
         <div
             className="
@@ -51,13 +55,13 @@ const TrustedBannerSection = () => {
                 <div className="flex flex-col items-center gap-4 mb-16">
                     <div className="flex items-center relative w-fit pt-8 ">
                         <span className="text-white font-normal tracking-wide inter-text">
-                            Trusted By
+                            {t("trustedbanner.subTitle") || "Trusted By"}
                         </span>
                         <ThemeBottomBorder width="48px" left="20%" />
                     </div>
 
                     <h2 className="text-white font-medium text-[24px] md:text-[48px] text-center ibmPlex-text">
-                        Global Services Provider
+                        {t("trustedbanner.title") || "Global Services Provider"}
                     </h2>
                 </div>
 

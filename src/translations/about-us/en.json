@@ -1,0 +1,151 @@
+{
+    "banner.span": "Building technology",
+    "banner.title": "that makes an impact.",
+    "banner.description1": "We build scalable digital solutions across web, mobile, and cloud.",
+    "banner.description2": " We help businesses solve real challenges through smart, reliable technology.",
+    "vision.slidingHeader.title": "Our",
+    "vision.span": "Vision",
+    "vision.title": "Our",
+    "vision.description1": "To drive innovation through intelligent digital solutions that solve real-world business challenges. We envision a future where technology enables efficiency, growth, and meaningful progress.",
+    "vision.description2": "We are committed to continuous learning, adaptability, and thoughtful execution, ensuring our solutions stay relevant in an ever-evolving digital landscape.",
+    "vision.description3": "We believe that strong technology is built with responsibility. Our vision is to simplify complexity, embrace innovation, and create digital solutions that support sustainable growth and long-term success for our clients.",
+    "journey.title": "Our",
+    "journey.span": "Journey",
+    "journey.description": "Helping brands succeed through smart and dependable technology.",
+    "journey.List": [
+        {
+            "suffix": "20",
+            "description": "Incorporated in United Kingdom as a Technology Consulting Firm"
+        },
+        {
+            "suffix": "21",
+            "description": "Started Tech Consulting Services in India for AspireSystems, Qbrainx, UST Global and initiated development of customized web and mobile applications"
+        },
+        {
+            "suffix": "22",
+            "description": "Expanded operations in India by strengthening the development team and accelerating research & development initiatives"
+        },
+        {
+            "suffix": "23",
+            "description": "Focused on product innovation, client acquisition, and building scalable SaaS-ready architecture"
+        },
+        {
+            "suffix": "24",
+            "description": "Started as a Product-based Company with the brand name WON Apps"
+        },
+        {
+            "suffix": "25",
+            "description": "Launched first SaaS platform and gradually added two more SaaS platforms to the WON App Store"
+        },
+        {
+            "suffix": "26",
+            "description": "Progressing to add more platforms, rounding it to five in the WON App Store"
+        }
+    ],
+    "aboutUs.description": "We hold patents on next-generation smart footwear platform that transforms everyday movement into meaningful health insights. By combining advanced sensing technology with intelligent data analytics, the system enables real-time monitoring and personalized wellness feedback.Energy-efficient and seamlessly connected, this innovation sits at the intersection of healthcare, mobility, and wearable technology — shaping the future of preventive, data-driven care.",
+    "chooseus.title": "Why",
+    "chooseus.span": "Choose Us",
+    "chooseus.description": "Helping brands succeed through smart and dependable technology.",
+    "chooseus.List": [
+        {
+            "id": 1,
+            "title": "User-First Thinking",
+            "description": "We design solutions around real user needs, ensuring clarity, ease of use, and confident decision-making at every step."
+        },
+        {
+            "id": 2,
+            "title": "AI-Driven Intelligence",
+            "description": "We embed AI thoughtfully to automate workflows and enable smarter decisions."
+        },
+        {
+            "id": 3,
+            "title": "Cloud-First & Future-Ready",
+            "description": "Built on scalable cloud architectures that grow with your business."
+        },
+        {
+            "id": 4,
+            "title": "End-to-End Ownership",
+            "description": "From ideation to deployment and beyond, we own outcomes end-to-end."
+        },
+        {
+            "id": 5,
+            "title": "Industry-Aware Solutions",
+            "description": "Domain-focused solutions aligned with real industry challenges."
+        },
+        {
+            "id": 6,
+            "title": "Designed for Scale, Not Just Launch",
+            "description": "Engineered for long-term performance, reliability, and growth."
+        },
+        {
+            "id": 7,
+            "title": "Trust Through Transparency",
+            "description": "Clear communication, honest timelines, measurable results."
+        }
+    ],
+    "brands.span": "Brands",
+    "brands.title": "That Trust Us",
+    "brands.description": "Helping brands succeed through smart and dependable technology.",
+    "projects.title": "Projects",
+    "projects.description": "Projects that reflect our expertise and commitment to quality",
+    "projects.List": [
+        {
+            "id": 1,
+            "title": "WON Bill",
+            "description": "WON Bills is an enterprise billing automation platform. It simplifies invoicing and payments. Designed for scalability and accuracy.",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+        },
+        {
+            "id": 2,
+            "title": "WON Digi",
+            "description": "WON Digi is a comprehensive school and institute management platform. It digitizes academic, administrative, and operational workflows.",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+        },
+        {
+            "id": 3,
+            "title": "WON Pulse",
+            "description": "WON Pulse is a complete hospital and healthcare management system. It streamlines clinical, administrative, and operational processes.",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+        },
+        {
+            "id": 4,
+            "title": "WON Hubs",
+            "description": "WON Hubs is the core infrastructure platform. It powers the entire WON ecosystem. Designed for scalability and resilience.",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+        },
+        {
+            "id": 5,
+            "title": "WON Bridge",
+            "description": "WON Bridge connects business systems seamlessly. It enables smooth data exchange. Designed for enterprise integration.",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+        }
+    ],
+    "projects.viewAll": "View All Products",
+    "testimonials.slidingTitle": "Testimonials",
+    "testimonials.title.prefix": "Building",
+    "testimonials.title.suffix": "Through Results",
+    "testimonials.span": "Trust",
+    "testimonials.description": "Real feedback from clients who've partnered with us to build reliable digital solutions.",
+    "testimonials.list": [
+        {
+            "name": "Rajesh Kumar",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+            "text": "NowIT delivered exactly what we needed, on time and with strong attention to quality. The team was responsive, professional, and easy to work with throughout the project."
+        },
+        {
+            "name": "Ananya Sharma",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+            "text": "They quickly understood our vision and turned it into a scalable product. The process was smooth, and the final outcome exceeded our expectations."
+        },
+        {
+            "name": "Vikram Rao",
+            "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+            "text": "Their technical expertise and structured approach helped us build a reliable solution across web and mobile. We value them as a long-term partner."
+        }
+    ],
+    "becomepartner.title.prefix": "Grow",
+    "becomepartner.title.middle": "Together",
+    "becomepartner.title.suffix": "Through Partnership",
+    "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
+    "becomepartner.becomepartner": "Become a Partner"
+}

@@ -1,0 +1,111 @@
+{
+  "banner.span": "构建科技",
+  "banner.title": "创造影响力。",
+  "banner.description1": "我们为 Web、移动端和云平台构建可扩展的数字化解决方案。",
+  "banner.description2": "通过可靠而智能的技术，帮助企业解决真实挑战。",
+
+  "vision.slidingHeader.title": "我们的",
+  "vision.span": "愿景",
+  "vision.title": "我们的",
+  "vision.description1": "通过智能数字解决方案推动创新，解决真实的业务挑战。",
+  "vision.description2": "我们坚持持续学习、灵活适应和深思熟虑的执行。",
+  "vision.description3": "我们相信，强大的技术源于责任感与可持续发展。",
+
+  "journey.title": "我们的",
+  "journey.span": "历程",
+  "journey.description": "通过可靠的技术助力品牌成长。",
+  "journey.List": [
+    { "suffix": "20", "description": "在英国成立为一家技术咨询公司" },
+    { "suffix": "21", "description": "在印度为 AspireSystems、Qbrainx 和 UST Global 启动技术咨询服务" },
+    { "suffix": "22", "description": "通过加强开发团队扩大印度业务" },
+    { "suffix": "23", "description": "专注于产品创新和可扩展的 SaaS 架构" },
+    { "suffix": "24", "description": "以 WON Apps 品牌转型为产品型公司" },
+    { "suffix": "25", "description": "推出首个 SaaS 平台并扩展 WON App Store" },
+    { "suffix": "26", "description": "发展至 WON App Store 的五个平台" }
+  ],
+
+  "aboutUs.description": "我们拥有下一代智能鞋履平台的专利，将日常运动转化为有价值的健康数据。",
+
+  "chooseus.title": "为什么",
+  "chooseus.span": "选择我们",
+  "chooseus.description": "以可靠技术实现真实成果。",
+  "chooseus.List": [
+    { "id": 1, "title": "以用户为中心", "description": "围绕真实用户需求设计解决方案。" },
+    { "id": 2, "title": "AI 驱动智能", "description": "通过 AI 自动化流程并提升决策能力。" },
+    { "id": 3, "title": "云优先架构", "description": "可随业务增长扩展的云架构。" },
+    { "id": 4, "title": "端到端负责", "description": "从构想到交付全程负责。" },
+    { "id": 5, "title": "行业导向方案", "description": "契合真实行业挑战。" },
+    { "id": 6, "title": "为扩展而设计", "description": "长期性能与可靠性。" },
+    { "id": 7, "title": "透明与信任", "description": "清晰沟通与可衡量成果。" }
+  ],
+
+  "brands.span": "品牌",
+  "brands.title": "信任我们的企业",
+  "brands.description": "基于信任与成果的合作关系。",
+
+  "projects.title": "项目",
+  "projects.description": "体现我们专业能力的项目",
+  "projects.List": [
+    {
+      "id": 1,
+      "title": "WON Bill",
+      "description": "企业级账单自动化平台。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+    },
+    {
+      "id": 2,
+      "title": "WON Digi",
+      "description": "面向学校和机构的综合管理平台。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "WON Pulse",
+      "description": "完整的医院与医疗管理系统。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "WON Hubs",
+      "description": "WON 生态系统的核心基础设施平台。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+    },
+    {
+      "id": 5,
+      "title": "WON Bridge",
+      "description": "实现企业系统无缝集成的数据平台。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+    }
+  ],
+
+  "projects.viewAll": "查看所有产品",
+
+  "testimonials.slidingTitle": "客户评价",
+  "testimonials.title.prefix": "通过成果",
+  "testimonials.title.suffix": "建立信任",
+  "testimonials.span": "信任",
+  "testimonials.description": "与我们合作的客户真实反馈。",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT 按时交付了我们所需的高质量解决方案。"
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "他们将我们的愿景转化为可扩展的产品。"
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "值得长期合作的技术伙伴。"
+    }
+  ],
+
+  "becomepartner.title.prefix": "共同",
+  "becomepartner.title.middle": "成长",
+  "becomepartner.title.suffix": "通过合作",
+  "becomepartner.description": "与 NowIT Services 合作，共同创新并交付定制化解决方案。",
+  "becomepartner.becomepartner": "成为合作伙伴"
+}

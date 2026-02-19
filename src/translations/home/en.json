@@ -151,6 +151,7 @@
             "description": "WON Bridge is an integrated communication and collaboration platform designed to connect institutions, teams, and stakeholders efficiently. It enhances coordination and productivity through secure, real-time digital interaction."
         }
     ],
+    "products.viewProduct": "View Product",
     "Industry.title": "Solutions for",
     "Industry.span": "Every Industry",
     "Industry.description": "NOWIT Services offers AI-powered digital transformation services that help businesses improve efficiency, automate operations, and grow faster. Our cloud-first solutions include smart marketing, cloud migration, professional IT consulting, intelligent messaging, IP filing, and corporate training, all designed to deliver secure, scalable, and data-driven business outcomes.",
@@ -216,5 +217,12 @@
             "title": "Can your solutions scale as the business grows?",
             "description": "Yes, our solutions are built to scale seamlessly as your business evolves."
         }
-    ]
+    ],
+    "trustedbanner.subTitle": "Trusted By",
+    "trustedbanner.title": "Global Services Provider",
+    "becomepartner.title.prefix": "Grow",
+    "becomepartner.title.middle": "Together",
+    "becomepartner.title.suffix": "Through Partnership",
+    "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
+    "becomepartner.becomepartner": "Become a Partner"
 }

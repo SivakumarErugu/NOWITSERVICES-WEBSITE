@@ -1,0 +1,135 @@
+{
+    "banner.title": " We’re ONe Ecosystem. The Future Runs Here.",
+    "banner.description": " Create and scale intelligent platforms with no code — start with launch-ready industry platforms or design a fully customized solution",
+    "banner.explore": "Explore Now",
+    "infinity.title": "Platforms That ",
+    "infnity.description": "Enterprise-Ready Zero-Code Platforms That Evolve, Adapt, and Scale — From Individuals to Enterprises",
+    "infinity.span": "Think, Adapt, and Scale",
+    "infinity.right.text": "Human Experiences",
+    "infinity.left.text": "Intelligent Platforms",
+    "infinity.middle.top": "WON Suite",
+    "infinity.middle.bottom": "Simple | Smart | Secure",
+    "products.slidingHeader": "Our Products",
+    "products.title": "Products Built for Every Journey",
+    "products.span": "Individual to Enterprise",
+    "products.List": {
+        "won_digi": {
+            "name": "WON Digi",
+            "description": "WON Digi is a comprehensive school and institute management platform that digitizes academic, administrative, and operational workflows."
+        },
+        "won_pulse": {
+            "name": "WON Pulse",
+            "description": "WON Pulse is a complete hospital and healthcare management system that streamlines clinical, administrative, and operational processes."
+        },
+        "won_cart": {
+            "name": "WON Cart",
+            "description": "WON Cart is a next-generation digital commerce platform designed for secure and seamless online shopping experiences."
+        },
+        "won_bless": {
+            "name": "WON Bless",
+            "description": "WON Bless is a spiritual and lifestyle ecosystem that connects traditions with modern digital experiences."
+        },
+        "won_fits": {
+            "name": "WON Fits",
+            "description": "WON Fits is a fitness and wellness intelligence platform designed for personalized health journeys."
+        },
+        "won_kids": {
+            "name": "WON Kids",
+            "description": "WON Kids is a digital learning and engagement platform designed specifically for children’s growth and creativity."
+        },
+        "won_nest": {
+            "name": "WON Nest",
+            "description": "WON Nest is a financial and lifestyle planning ecosystem that helps individuals manage and grow their resources."
+        },
+        "won_home": {
+            "name": "WON Home",
+            "description": "WON Home is a smart living automation platform that integrates comfort, security, and efficiency."
+        },
+        "won_pets": {
+            "name": "WON Pets",
+            "description": "WON Pets is a digital care platform that supports health, tracking, and wellness for pets."
+        },
+        "won_shield": {
+            "name": "WON Shield",
+            "description": "WON Shield is a digital protection platform that safeguards users against modern digital risks."
+        },
+        "won_drive": {
+            "name": "WON Drive",
+            "description": "WON Drive is a smart mobility ecosystem designed for tracking, safety, and vehicle optimization."
+        },
+        "won_grid": {
+            "name": "WON Grid",
+            "description": "WON Grid is a digital energy and infrastructure platform focused on efficiency and sustainability."
+        },
+        "won_trip": {
+            "name": "WON Trip",
+            "description": "WON Trip is a digital travel platform that simplifies planning and enhances travel experiences."
+        },
+        "won_bills": {
+            "name": "WON Bills",
+            "description": "WON Bills is an enterprise billing automation platform that simplifies invoicing and payments."
+        },
+        "won_bridge": {
+            "name": "WON Bridge",
+            "description": "WON Bridge enables seamless and secure integration between enterprise systems."
+        },
+        "won_tap": {
+            "name": "WON Tap",
+            "description": "WON Tap is a smart payment and access platform for fast and secure transactions."
+        },
+        "won_mart": {
+            "name": "WON Mart",
+            "description": "WON Mart is a digital marketplace that enables scalable B2B commerce."
+        },
+        "won_build": {
+            "name": "WON Build",
+            "description": "WON Build is a project and infrastructure management platform for enterprise planning."
+        },
+        "won_move": {
+            "name": "WON Move",
+            "description": "WON Move is a logistics and movement platform that optimizes supply chain operations."
+        },
+        "won_serve": {
+            "name": "WON Serve",
+            "description": "WON Serve is a service management platform for customer engagement workflows."
+        },
+        "won_forge": {
+            "name": "WON Forge",
+            "description": "WON Forge is a digital innovation platform that supports rapid product development."
+        },
+        "won_hrms": {
+            "name": "WON HRMS",
+            "description": "WON HRMS is a complete human resource management system for modern organizations."
+        },
+        "won_guard": {
+            "name": "WON Guard",
+            "description": "WON Guard is an enterprise security platform designed for proactive digital protection."
+        },
+        "won_events": {
+            "name": "WON Events",
+            "description": "WON Events is a complete digital event management platform."
+        },
+        "won_harvest": {
+            "name": "WON Harvest",
+            "description": "WON Harvest is an agri-digital marketplace connecting farmers, businesses, and consumers."
+        },
+        "won_law": {
+            "name": "WON Law",
+            "description": "WON Law is a legal technology platform for secure digital legal workflows."
+        },
+        "won_hubs": {
+            "name": "WON Hubs",
+            "description": "WON Hubs is the core infrastructure platform powering the entire WON ecosystem."
+        }
+    },
+    "customize.slidingHeader": "Customize Your Product",
+    "customize.title.prefix": "Have an Idea?",
+    "customize.title.suffix": "It to Fit Your Vision.",
+    "customize.description": "Share your idea with us, and we’ll collaborate closely to transform it into a fully customized digital product. From concept and design to development and scale, we tailor every solution to match your vision, users, and long-term goals.",
+    "customize.getInTouch": "Get In Touch",
+    "becomepartner.title.prefix": "Grow",
+    "becomepartner.title.middle": "Together",
+    "becomepartner.title.suffix": "Through Partnership",
+    "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
+    "becomepartner.becomepartner": "Become a Partner"
+}

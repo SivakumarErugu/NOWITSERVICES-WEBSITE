@@ -1,0 +1,111 @@
+{
+  "banner.span": "テクノロジーを構築",
+  "banner.title": "影響を生み出す。",
+  "banner.description1": "Web、モバイル、クラウド向けにスケーラブルなデジタルソリューションを構築します。",
+  "banner.description2": "信頼性の高いスマートなテクノロジーで、ビジネスの課題解決を支援します。",
+
+  "vision.slidingHeader.title": "私たちの",
+  "vision.span": "ビジョン",
+  "vision.title": "私たちの",
+  "vision.description1": "現実のビジネス課題を解決するインテリジェントなデジタルソリューションで革新を推進します。",
+  "vision.description2": "継続的な学習、柔軟性、そして思慮深い実行を重視しています。",
+  "vision.description3": "責任ある技術開発を通じて、持続可能な成長を実現します。",
+
+  "journey.title": "私たちの",
+  "journey.span": "歩み",
+  "journey.description": "信頼できるテクノロジーでブランドの成功を支援します。",
+  "journey.List": [
+    { "suffix": "20", "description": "英国にてテクノロジーコンサルティング企業として設立" },
+    { "suffix": "21", "description": "AspireSystems、Qbrainx、UST Global向けにインドで技術コンサルティングを開始" },
+    { "suffix": "22", "description": "開発チームを強化し、インドでの事業を拡大" },
+    { "suffix": "23", "description": "プロダクトイノベーションとスケーラブルなSaaSアーキテクチャに注力" },
+    { "suffix": "24", "description": "WON Appsブランドでプロダクト企業としてスタート" },
+    { "suffix": "25", "description": "初のSaaSプラットフォームをリリースし、WON App Storeを拡張" },
+    { "suffix": "26", "description": "WON App Storeで5つのプラットフォームへ成長" }
+  ],
+
+  "aboutUs.description": "次世代スマートフットウェアプラットフォームの特許を保有し、日常の動きを有益な健康データへと変換します。",
+
+  "chooseus.title": "なぜ",
+  "chooseus.span": "私たちを選ぶのか",
+  "chooseus.description": "信頼できるテクノロジーで確かな成果を。",
+  "chooseus.List": [
+    { "id": 1, "title": "ユーザーファースト思考", "description": "実際のユーザーニーズを重視した設計。" },
+    { "id": 2, "title": "AI駆動のインテリジェンス", "description": "業務自動化と意思決定を支援するAI活用。" },
+    { "id": 3, "title": "クラウドファースト", "description": "成長に対応するクラウドアーキテクチャ。" },
+    { "id": 4, "title": "エンドツーエンドの責任", "description": "企画から提供まで一貫して対応。" },
+    { "id": 5, "title": "業界特化型ソリューション", "description": "業界特有の課題に対応。" },
+    { "id": 6, "title": "スケールを前提に設計", "description": "長期的なパフォーマンスと信頼性。" },
+    { "id": 7, "title": "透明性による信頼", "description": "明確なコミュニケーションと成果。" }
+  ],
+
+  "brands.span": "ブランド",
+  "brands.title": "信頼される企業",
+  "brands.description": "信頼と成果に基づくパートナーシップ。",
+
+  "projects.title": "プロジェクト",
+  "projects.description": "私たちの専門性を示すプロジェクト",
+  "projects.List": [
+    {
+      "id": 1,
+      "title": "WON Bill",
+      "description": "請求および支払いを自動化するエンタープライズ向けプラットフォーム。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
+    },
+    {
+      "id": 2,
+      "title": "WON Digi",
+      "description": "学校・教育機関向けの包括的な管理プラットフォーム。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "WON Pulse",
+      "description": "病院および医療機関向けの統合管理システム。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "WON Hubs",
+      "description": "WONエコシステム全体を支える中核インフラ。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
+    },
+    {
+      "id": 5,
+      "title": "WON Bridge",
+      "description": "企業システムを接続し、スムーズなデータ連携を実現。",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
+    }
+  ],
+
+  "projects.viewAll": "すべての製品を見る",
+
+  "testimonials.slidingTitle": "お客様の声",
+  "testimonials.title.prefix": "成果で築く",
+  "testimonials.title.suffix": "信頼",
+  "testimonials.span": "信頼",
+  "testimonials.description": "私たちと協業したお客様からの実際の声。",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowITは高品質で期待通りの成果を期限内に提供してくれました。"
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "ビジョンを理解し、スケーラブルな製品に仕上げてくれました。"
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "長期的に信頼できる技術パートナーです。"
+    }
+  ],
+
+  "becomepartner.title.prefix": "共に",
+  "becomepartner.title.middle": "成長",
+  "becomepartner.title.suffix": "パートナーシップを通じて",
+  "becomepartner.description": "NowIT Servicesと協力し、革新的なソリューションを提供しましょう。",
+  "becomepartner.becomepartner": "パートナーになる"
+}
