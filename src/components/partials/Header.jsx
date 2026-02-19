@@ -14,7 +14,7 @@ import LanguageSwitcher from './languageSelection';
 
 const Header = () => {
 
-    const { setActiveService, setActiveTab } = useNowit();
+    const { setActiveService,setActiveTab } = useNowit();
 
     const pathname = usePathname();
     const router = useRouter();

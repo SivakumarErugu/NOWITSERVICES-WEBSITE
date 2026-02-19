@@ -1,3 +1,6 @@
+'use client'
+
+
 import ChooseUs from "@/components/home/subcomponents/ChooseUs";
 import ClientCardComponent from "@/components/home/subcomponents/ClientCardComponent";
 import OurBrands from "@/components/home/subcomponents/OurBrands";
@@ -14,6 +17,7 @@ export const metadata = {
 
 
 export default function AboutUs() {
+  
   return (
     <main className="w-full min-h-screen overflow-auto space-y-2 overflow-x-hidden">
       <Technology />

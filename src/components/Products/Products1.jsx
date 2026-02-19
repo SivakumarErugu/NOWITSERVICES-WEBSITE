@@ -15,7 +15,7 @@ import Link from "next/link";
 const Products1 = () => {
   const router = useRouter();
   const [isRaised, setIsRaised] = useState(false);
-  const {t}=useNowit();
+  const { t, isReady } = useNowit();
 
   return (
     <section
@@ -33,17 +33,15 @@ const Products1 = () => {
       <div className="absolute inset-0 bg-white/35"></div>
 
       {/* Content */}
-      <div className="relative z-10">
+      {isReady && <div className="relative z-10">
         {/* Text */}
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-xl md:text-3xl font-medium text-[#0b2b4b]">
-            We’re ONe Ecosystem. The Future Runs Here.
+            {t("banner.title") || "We’re ONe Ecosystem. The Future Runs Here."}
           </h2>
 
           <p className="mt-4 text-xs md:text-sm text-gray-600 max-w-3xl mx-auto">
-            Create and scale intelligent platforms with no code — start with
-            launch-ready industry platforms or design a fully customized
-            solution.
+            {t("banner.description") || "Create and scale intelligent platforms with no code — start with launch-ready industry platforms or design a fully customized solution."}
           </p>
         </div>
 
@@ -57,7 +55,7 @@ const Products1 = () => {
           {/* ================= MOBILE / TABLET BUTTON ================= */}
           <div className="lg:hidden flex justify-center mt-3">
             <Link
-             href="#myProducts"
+              href="#myProducts"
               className="
                 relative overflow-hidden
                 h-9 min-w-20 px-10 rounded-md border-0
@@ -80,7 +78,7 @@ const Products1 = () => {
                 "
               />
 
-              <span className="relative z-10">Explore Now</span>
+              <span className="relative z-10">{t("banner.explore") || "Explore Now"}</span>
             </Link>
           </div>
 
@@ -91,15 +89,14 @@ const Products1 = () => {
               absolute left-1/2 -translate-x-1/2 bottom-[25%]
               z-10
               transition-all duration-1000 ease-in-out
-              ${
-                isRaised
-                  ? "-translate-y-77 opacity-100"
-                  : "opacity-0"
+              ${isRaised
+                ? "-translate-y-77 opacity-100"
+                : "opacity-0"
               }
             `}
           >
             <Link
-             href="#myProducts"
+              href="#myProducts"
               className="
                 relative overflow-hidden
                 h-9 min-w-20 px-10 rounded-md border-0
@@ -111,7 +108,7 @@ const Products1 = () => {
                 active:scale-95
               "
             >
-              <span className="relative z-10">Explore Now</span>
+              <span className="relative z-10">{t("banner.explore") || "Explore Now"}</span>
             </Link>
           </div>
 
@@ -219,6 +216,7 @@ const Products1 = () => {
           </div>
         </div>
       </div>
+      }
     </section>
   );
 };

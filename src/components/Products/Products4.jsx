@@ -3,10 +3,13 @@
 import React, { useRef } from 'react'
 import Image from 'next/image'
 import { motion, useInView } from 'framer-motion'
-
 import Product13 from '../../../public/images/ProductImages/Product13.png'
 import SlidingHeader from '../shared/UI-Elements/SlidingHeader'
 import { ThemeLinkTag } from '../shared/UI-Elements/Custom-Elements'
+import { useNowit } from '@/store/useNowit'
+
+
+
 
 const Products4 = () => {
 
@@ -16,6 +19,7 @@ const Products4 = () => {
         once: true,
         margin: '-20% 0px -10% 0px'
     })
+    const{t}=useNowit();
 
     return (
         <section className="w-full bg-white py-4 lg:py-12 px-2.5 lg:px-12 2xl:px-15 mb-10 md:mb-15">
@@ -33,30 +37,27 @@ const Products4 = () => {
 
                     {/* CONTENT */}
                     <div className="order-2 lg:order-1">
-                        <SlidingHeader title="Customize your Product" bottom="mb-2"/>
+                        <SlidingHeader title={t("customize.slidingHeader") || "Customize Your Product"} bottom="mb-2"/>
 
                         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#0b2b4b] leading-relaxed">
-                            Have an Idea?{' '}
+                          {t("customize.title.prefix") || "Have an Idea? "}{' '}
                             <span className="text-[#0d63f3]">
-                                We Customize{" "}
+                               {t("customize.span") || "We Customize"}{" "}
                             </span>
                             <span>
                                 <br />
                             </span>
-                            It to Fit Your Vision.
+                            {t("customize.title.suffix") || "It to Fit Your Vision."}
                         </h2>
 
                         <p className="mt-4 text-xs sm:text-sm 2xl:text-[17px] text-[#4b5563] leading-relaxed max-w-6xl">
-                            Share your idea with us, and we’ll collaborate closely to transform
-                            it into a fully customized digital product. From concept and design
-                            to development and scale, we tailor every solution to match your
-                            vision, users, and long-term goals.
+                           {t("customize.description") || "Share your idea with us, and we’ll collaborate closely to transform it into a fully customized digital product. From concept and design to development and scale, we tailor every solution to match your vision, users, and long-term goals."}
                         </p>
 
                         <div className="mt-5">
                             <ThemeLinkTag
                                 href='/contactUs'
-                                BtnText="Get In Touch"
+                                BtnText={t("customize.getInTouch") || "Get In Touch"}
                                 styles="border-0 bg-[#55B233] text-white text-xs md:text-sm !font-medium !py-1 !px-5 !lg:py-2 !rounded-md hover:bg-[#43a047]"
                             />
                         </div>

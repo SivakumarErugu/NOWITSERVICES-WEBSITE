@@ -1,4 +1,8 @@
+'use client';
+
+
 import React from 'react';
+import { useNowit } from '@/store/useNowit';
 
 const Star = ({ x, y, scale, dur, delay }) => (
     <g transform={`translate(${x}, ${y}) scale(${scale})`}>
@@ -26,6 +30,7 @@ const Star = ({ x, y, scale, dur, delay }) => (
 );
 
 const InfiniteLoop = () => {
+    const { t,isReady } = useNowit();
     const centerPath = "M400,200 C550,50 750,50 750,200 C750,350 550,350 400,200 C250,50 50,50 50,200 C50,350 250,350 400,200";
     const edgePath = "M400,200 C560,40 760,40 760,200 C760,360 560,360 400,200 C240,40 40,40 40,200 C40,360 240,360 400,200";
 
@@ -37,14 +42,14 @@ const InfiniteLoop = () => {
         { x: 740, y: 220, s: 0.8, d: "4s", del: "1s" },
         { x: 650, y: 310, s: 0.6, d: "3.2s", del: "1.5s" },
         { x: 500, y: 290, s: 0.4, d: "2.8s", del: "2s" },
-        
+
         // Left Loop Stars
         { x: 250, y: 100, s: 0.7, d: "3.5s", del: "0.2s" },
         { x: 120, y: 110, s: 0.5, d: "2.2s", del: "0.7s" },
         { x: 60, y: 220, s: 0.8, d: "3.8s", del: "1.2s" },
         { x: 150, y: 310, s: 0.6, d: "2.9s", del: "0.4s" },
         { x: 300, y: 290, s: 0.4, d: "3.1s", del: "1.8s" },
-        
+
         // Near Center Crossing
         { x: 360, y: 170, s: 0.5, d: "4s", del: "0s" },
         { x: 440, y: 230, s: 0.5, d: "4s", del: "0.5s" },
@@ -116,23 +121,27 @@ const InfiniteLoop = () => {
                             WON Suite
                         </text>
                         <text y="18" fontSize="10" fontWeight="500" fill="#0f172a">
-                           Simple &nbsp; | &nbsp; Smart &nbsp; | &nbsp; Secure
+                            Simple &nbsp; | &nbsp; Smart &nbsp; | &nbsp; Secure
                         </text>
                     </g>
                 </g>
 
                 {/* 6. LABELS */}
+                {isReady && 
+                <>
                 <foreignObject x="110" y="185" width="140" height="50">
                     <div xmlns="http://www.w3.org/1999/xhtml" style={{ width: "140px", textAlign: "center", fontWeight: 700, fontSize: "18px", fontFamily: "sans-serif", color: "#1e293b", lineHeight: "22px" }}>
-                        Human Experiences
+                       {t("infinity.right.text")}
                     </div>
                 </foreignObject>
 
                 <foreignObject x="550" y="185" width="140" height="50">
                     <div xmlns="http://www.w3.org/1999/xhtml" style={{ width: "140px", textAlign: "center", fontWeight: 700, fontSize: "18px", fontFamily: "sans-serif", color: "#14532d", lineHeight: "22px" }}>
-                        Industry Operations
+                       {t("infinity.left.text")}
                     </div>
                 </foreignObject>
+                </>
+                }
             </svg>
         </div>
     );

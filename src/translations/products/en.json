@@ -9,6 +9,8 @@
     "infinity.left.text": "Intelligent Platforms",
     "infinity.middle.top": "WON Suite",
     "infinity.middle.bottom": "Simple | Smart | Secure",
+
+    
     "products.slidingHeader": "Our Products",
     "products.title": "Products Built for Every Journey",
     "products.span": "Individual to Enterprise",
@@ -123,7 +125,8 @@
         }
     },
     "customize.slidingHeader": "Customize Your Product",
-    "customize.title.prefix": "Have an Idea?",
+    "customize.title.prefix": "Have an Idea? ",
+    "customize.span": "We Customize",
     "customize.title.suffix": "It to Fit Your Vision.",
     "customize.description": "Share your idea with us, and we’ll collaborate closely to transform it into a fully customized digital product. From concept and design to development and scale, we tailor every solution to match your vision, users, and long-term goals.",
     "customize.getInTouch": "Get In Touch",

@@ -8,6 +8,7 @@ export const PRODUCTS = [
     {
         title: 'WON Digi',
         category: 'B2C',
+        key: 'won_digi',
         image: PRODUCT_IMAGES.WONDigi,
         link: '/contactUs',
         desc: `
@@ -24,6 +25,7 @@ WON Digi simplifies education management through smart technology.
         `,
     },
     {
+        key: 'won_pulse',
         title: 'WON Pulse',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONPulse,
@@ -42,6 +44,7 @@ WON Pulse enhances healthcare delivery through digital efficiency.
         `,
     },
     {
+        key: 'won_cart',
         title: 'WON Cart',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONCart,
@@ -60,6 +63,7 @@ WON Cart modernizes digital retail experiences.
         `,
     },
     {
+        key: 'won_bless',
         title: 'WON Bless',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONBless,
@@ -78,6 +82,7 @@ It supports holistic lifestyle enrichment.
         `,
     },
     {
+        key: 'won_fits',
         title: 'WON Fits',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONFits,
@@ -96,6 +101,7 @@ It transforms wellness through technology.
         `,
     },
     {
+        key: 'won_kids',
         title: 'WON Kids',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONKids,
@@ -114,6 +120,7 @@ It builds a strong foundation for the future.
         `,
     },
     {
+        key: 'won_nest',
         title: 'WON Nest',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONNest,
@@ -132,6 +139,7 @@ It brings confidence to financial planning.
         `,
     },
     {
+        key: 'won_home',
         title: 'WON Home',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONHome,
@@ -150,6 +158,7 @@ It redefines connected home experiences.
         `,
     },
     {
+        key: 'won_pets',
         title: 'WON Pets',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONPets,
@@ -168,6 +177,7 @@ It brings technology into pet care.
         `,
     },
     {
+        key: 'won_shield',
         title: 'WON Shield',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONShield,
@@ -186,6 +196,7 @@ It ensures peace of mind online.
         `,
     },
     {
+        key: 'won_drive',
         title: 'WON Drive',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONDrive,
@@ -204,6 +215,7 @@ It brings intelligence to transportation.
         `,
     },
     {
+        key: 'won_grid',
         title: 'WON Grid',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONGrid,
@@ -242,6 +254,7 @@ It enhances every journey.
 
     // ================= B2B =================
     {
+        key: 'won_bills',
         title: 'WON Bills',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONBills,
@@ -260,6 +273,7 @@ It modernizes financial operations.
         `,
     },
     {
+        key: 'won_bridge',
         title: 'WON Bridge',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONBridge,
@@ -278,6 +292,7 @@ It powers enterprise ecosystems.
         `,
     },
     {
+        key: 'won_tap',
         title: 'WON Tap',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONTap,
@@ -296,6 +311,7 @@ It modernizes transaction experiences.
         `,
     },
     {
+        key: 'won_mart',
         title: 'WON Mart',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONMart,
@@ -314,6 +330,7 @@ It empowers business ecosystems.
         `,
     },
     {
+        key: 'won_build',
         title: 'WON Build',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONBuild,
@@ -332,6 +349,7 @@ It supports scalable development.
         `,
     },
     {
+        key: 'won_move',
         title: 'WON Move',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONMove,
@@ -350,6 +368,7 @@ It drives smarter movement solutions.
         `,
     },
     {
+        key: 'won_serve',
         title: 'WON Serve',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONServe,
@@ -368,6 +387,7 @@ It strengthens customer relationships.
         `,
     },
     {
+        key: 'won_forge',
         title: 'WON Forge',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONForge,
@@ -386,6 +406,7 @@ It transforms digital creation.
         `,
     },
     {
+        key: 'won_hrms',
         title: 'WON HRMS',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONHRMS,
@@ -404,6 +425,7 @@ It empowers organizational efficiency.
         `,
     },
     {
+        key: 'won_guard',
         title: 'WON Guard',
         category: 'B2B',
         image: PRODUCT_IMAGES.WONGuard,
@@ -424,6 +446,7 @@ It ensures operational trust.
 
     // ================= B2B2C =================
     {
+        key: 'won_events',
         title: 'WON Events',
         category: 'B2B2C',
         image: PRODUCT_IMAGES.WONEvents,
@@ -442,6 +465,7 @@ It brings events to life digitally.
         `,
     },
     {
+        key: 'won_harvest',
         title: 'WON Harvest',
         category: 'B2B2C',
         image: PRODUCT_IMAGES.WONHarvest,
@@ -460,6 +484,7 @@ It modernizes agricultural commerce.
         `,
     },
     {
+        key: 'won_law',
         title: 'WON Law',
         category: 'B2B2C',
         image: PRODUCT_IMAGES.WONLaw,
@@ -480,6 +505,7 @@ It bridges law and technology.
 
     // ================= WON CORE =================
     {
+        key: 'won_hubs',
         title: 'WON Hubs',
         category: 'WON CORE',
         image: PRODUCT_IMAGES.WONHubs,
