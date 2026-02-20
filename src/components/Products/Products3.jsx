@@ -40,7 +40,7 @@ const Products3 = () => {
         } else {
             setTranslatedProductsList(translatedList)
         }
-    }, [t])
+    }, [t, translatedProductsList])
 
 
     return (
@@ -114,20 +114,21 @@ const Products3 = () => {
                         {visibleProducts.map((item, index) => {
                             // Debugging log
                             if (translatedProductsList) {
-                                console.log(item.key, "key in")
-                                console.log(translatedProductsList, "list here")
-                                console.log(translatedProductsList[item.key], "value in")
-                                console.log("triggering in IF BLOCK")
+                                // console.log(item.key, "key in")
+                                // console.log(translatedProductsList, "list here")
+                                // console.log(translatedProductsList[item.key], "value in")
+                                // console.log("triggering in IF BLOCK")
                                 return (<ProductCard
                                     key={item.key}
-                                    title={translatedProductsList[item.key]?.title || item.title}
-                                    desc={translatedProductsList[item.key]?.desc || item.desc}
+                                    title={translatedProductsList[item.key]?.name || item.title}
+                                    desc={translatedProductsList[item.key]?.description || item.desc}
                                     img={item.image}
                                     link={item.link}
                                     reverse={index % 2 !== 0}
+                                    BtnText={t("products.viewProduct")}
+
                                 />)
                             }
-                            console.log("triggering in ELSE BLOCK")
                             return (
                                 <ProductCard
                                     key={item.key}

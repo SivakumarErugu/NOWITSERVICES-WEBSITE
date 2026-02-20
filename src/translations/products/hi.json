@@ -9,11 +9,9 @@
   "infinity.left.text": "बुद्धिमान प्लेटफॉर्म",
   "infinity.middle.top": "वॉन सूट",
   "infinity.middle.bottom": "सरल | स्मार्ट | सुरक्षित",
-
   "products.slidingHeader": "हमारे उत्पाद",
   "products.title": "हर यात्रा के लिए बनाए गए उत्पाद",
   "products.span": "व्यक्ति से एंटरप्राइज़ तक",
-
   "products.List": {
     "won_digi": {
       "name": "वॉन डिजी",
@@ -124,6 +122,7 @@
       "description": "वॉन हब्स पूरे वॉन इकोसिस्टम को संचालित करने वाला मुख्य इंफ्रास्ट्रक्चर प्लेटफॉर्म है।"
     }
   },
+  "products.viewProduct": "उत्पाद देखें",
 
   "customize.slidingHeader": "अपने उत्पाद को कस्टमाइज़ करें",
   "customize.title.prefix": "कोई विचार है?",

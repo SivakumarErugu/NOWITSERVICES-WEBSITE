@@ -3,14 +3,18 @@
 import React from "react";
 import Image from "next/image";
 import { ThemeBtnTag, ThemeLinkTag } from "../../shared/UI-Elements/Custom-Elements";
-
 /* Images */
 import partnerBanner1 from "../../../../public/images/PartnerBannerImages/partnerBanner1.png";
 import partnerBanner2 from "../../../../public/images/PartnerBannerImages/partnerBanner2.png";
 import partnerBannerBg from "../../../../public/images/PartnerBannerImages/partnerBannerBg.jpg";
 import Businessbg from "../../../../public/images/BusinessBannerImages/Businessbg.jpg";
+import { useNowit } from "@/store/useNowit";
 
 const BusinessBanner = () => {
+    const { t, isReady } = useNowit();
+    if (!isReady) {
+        return null; // or a loading spinner
+    }
     return (
         <section
             className="
@@ -43,14 +47,14 @@ const BusinessBanner = () => {
             <div className="relative z-10  ">
                 {/* MOBILE + MD */}
                 <h2 className="text-xl md:text-3xl font-semibold text-white leading-snug md:hidden">
-                    Ready To Launch <br />
-                    And Scale Your Business
+                    {t("bussinessBanner.title.prefix")} {t("bussinessBanner.title.suffix")}   <br />
+                    {t("bussinessBanner.line2.title")}
                 </h2>
 
                 {/* LG+ */}
                 <h2 className="hidden md:block md:text-2xl lg:text-4xl font-medium text-white leading-none ">
                     <span className="inline-flex items-center gap-3 mb-2">
-                        Ready
+                        {t("bussinessBanner.title.prefix")}
                         <Image
                             src={partnerBanner1}
                             alt="Together"
@@ -62,7 +66,7 @@ const BusinessBanner = () => {
         align-middle
       "
                         />
-                        To Launch
+                        {t("bussinessBanner.title.suffix")}
                     </span>
 
                     <br />
@@ -80,18 +84,18 @@ const BusinessBanner = () => {
         align-middle
       "
                         />
-                        And Scale Your Business  </span>
+                        {t("bussinessBanner.line2.title")}  </span>
                 </h2>
 
                 <p className="mt-4 text-white/85 text-xs lg:text-sm mx-auto md:mx-0 md:pr-10">
-                    Talk to our experts to explore how our services can support your goals and drive long-term growth.
+                    {t("bussinessBanner.description")}
                 </p>
 
                 {/* MOBILE + MD BUTTON */}
                 <div className="mt-8 md:hidden flex justify-center">
                     <ThemeLinkTag
                         href="/contactUs"
-                        BtnText="Get In Touch"
+                        BtnText={t("bussinessBanner.buttonText")}
                         styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                     />
                 </div>
@@ -101,7 +105,7 @@ const BusinessBanner = () => {
             <div className="relative z-10 shrink-0 hidden md:block">
                 <ThemeLinkTag
                     href="/contactUs"
-                    BtnText="Get In Touch"
+                    BtnText={t("bussinessBanner.buttonText")}
                     styles="border-0 text-sm !font-normal !px-10 !rounded-md"
                 />
             </div>

@@ -1,0 +1,132 @@
+{
+    "banner.title": "Somos Um Ecossistema. O Futuro Começa Aqui.",
+    "banner.description": "Crie e escale plataformas inteligentes sem código — comece com plataformas prontas para lançamento ou desenvolva uma solução totalmente personalizada.",
+    "banner.explore": "Explorar Agora",
+    "infinity.title": "Plataformas Que",
+    "infnity.description": "Plataformas zero-code prontas para empresas que evoluem, se adaptam e escalam.",
+    "infinity.span": "Pensar, Adaptar e Escalar",
+    "infinity.right.text": "Experiências Humanas",
+    "infinity.left.text": "Plataformas Inteligentes",
+    "infinity.middle.top": "WON Suite",
+    "infinity.middle.bottom": "Simples | Inteligente | Seguro",
+    "products.slidingHeader": "Nossos Produtos",
+    "products.title": "Produtos Criados Para Cada Jornada",
+    "products.span": "Do Individual ao Empresarial",
+    "products.List": {
+        "won_digi": {
+            "name": "WON Digital",
+            "description": "Plataforma completa de gestão educacional."
+        },
+        "won_pulse": {
+            "name": "WON Pulso",
+            "description": "Sistema completo de gestão hospitalar e de saúde."
+        },
+        "won_cart": {
+            "name": "WON Carrinho",
+            "description": "Plataforma de comércio digital segura e fluida."
+        },
+        "won_bless": {
+            "name": "WON Bênção",
+            "description": "Conecta tradições espirituais a experiências digitais modernas."
+        },
+        "won_fits": {
+            "name": "WON Fitness",
+            "description": "Plataforma personalizada de fitness e bem-estar."
+        },
+        "won_kids": {
+            "name": "WON Crianças",
+            "description": "Plataforma digital para aprendizado e criatividade infantil."
+        },
+        "won_nest": {
+            "name": "WON Ninho",
+            "description": "Ajuda a gerenciar e expandir recursos financeiros e de vida."
+        },
+        "won_home": {
+            "name": "WON Casa",
+            "description": "Integra automação inteligente, conforto e segurança."
+        },
+        "won_pets": {
+            "name": "WON Pets",
+            "description": "Apoia o cuidado e bem-estar dos animais."
+        },
+        "won_shield": {
+            "name": "WON Escudo",
+            "description": "Protege contra riscos digitais modernos."
+        },
+        "won_drive": {
+            "name": "WON Direção",
+            "description": "Otimiza mobilidade e segurança veicular."
+        },
+        "won_grid": {
+            "name": "WON Rede",
+            "description": "Focada em eficiência energética e sustentabilidade."
+        },
+        "won_trip": {
+            "name": "WON Viagem",
+            "description": "Simplifica o planejamento de viagens."
+        },
+        "won_bills": {
+            "name": "WON Faturas",
+            "description": "Automatiza faturamento e pagamentos."
+        },
+        "won_bridge": {
+            "name": "WON Ponte",
+            "description": "Integra sistemas empresariais com segurança."
+        },
+        "won_tap": {
+            "name": "WON Toque",
+            "description": "Permite pagamentos rápidos e seguros."
+        },
+        "won_mart": {
+            "name": "WON Mercado",
+            "description": "Comércio B2B digital escalável."
+        },
+        "won_build": {
+            "name": "WON Construção",
+            "description": "Gestão de projetos e infraestrutura."
+        },
+        "won_move": {
+            "name": "WON Movimento",
+            "description": "Otimiza logística e cadeia de suprimentos."
+        },
+        "won_serve": {
+            "name": "WON Serviço",
+            "description": "Gestão de atendimento ao cliente."
+        },
+        "won_forge": {
+            "name": "WON Forja",
+            "description": "Acelera inovação digital."
+        },
+        "won_hrms": {
+            "name": "WON RH",
+            "description": "Sistema completo de RH."
+        },
+        "won_guard": {
+            "name": "WON Guarda",
+            "description": "Segurança digital proativa."
+        },
+        "won_events": {
+            "name": "WON Eventos",
+            "description": "Gestão digital de eventos."
+        },
+        "won_harvest": {
+            "name": "WON Colheita",
+            "description": "Conecta agricultores e mercados."
+        },
+        "won_law": {
+            "name": "WON Jurídico",
+            "description": "Fluxos legais digitais seguros."
+        },
+        "won_hubs": {
+            "name": "WON Centros",
+            "description": "Infraestrutura central do ecossistema WON."
+        }
+    },
+    "products.viewProduct": "Ver Produto",
+    "customize.slidingHeader": "Personalize Seu Produto",
+    "customize.title.prefix": "Tem Uma Ideia?",
+    "customize.span": "Nós Personalizamos",
+    "customize.title.suffix": "Para Sua Visão.",
+    "customize.getInTouch": "Entre em Contato",
+    "becomepartner.becomepartner": "Tornar-se Parceiro"
+}

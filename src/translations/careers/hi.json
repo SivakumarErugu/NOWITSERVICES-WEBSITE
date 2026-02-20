@@ -1,0 +1,186 @@
+{
+  "banner.title": "आपका अगला करियर कदम",
+  "banner.span": "यहीं से शुरू होता है",
+  "banner.scroll": "और जानने के लिए स्क्रॉल करें",
+
+  "carrerVisualBlock.line1.title": "सभी",
+  "carrerVisualBlock.line1.span": "नवोन्मेषकों",
+  "carrerVisualBlock.line2.title2": "को आमंत्रण",
+  "carrerVisualBlock.line3.title": "जो",
+  "carrerVisualBlock.line3.span": "भविष्य",
+  "carrerVisualBlock.line4.title": "निर्माण के लिए तैयार हैं",
+
+  "carrerVisualBlock.description": "हम हमेशा ऐसे प्रतिभाशाली व्यक्तियों की तलाश में रहते हैं जो तकनीक, नवाचार और सार्थक प्रभाव बनाने के प्रति उत्साही हों। ऐसी टीम से जुड़ें जहाँ आपके विचारों को महत्व दिया जाता है और आपके विकास का समर्थन किया जाता है।",
+  "carrerVisualBlock.BtnText": "उपलब्ध भूमिकाएँ देखें",
+
+  "joinus.span": "हमसे जुड़ें",
+  "joinus.title": "तकनीक के भविष्य का हिस्सा बनें",
+  "joinus.description": "उत्साही लोगों के साथ काम करें, महत्वपूर्ण समस्याओं का समाधान करें और अपने कौशल को विकसित करते हुए ऐसे डिजिटल समाधान बनाएं जो वास्तविक प्रभाव डालते हैं।",
+
+  "oppurtunities.slidingHeader": "वर्तमान अवसर",
+  "oppurtunities.search.placeholder": "भूमिका, कौशल, स्थान द्वारा खोजें",
+
+  "jobList.jobOpenings": [
+    {
+      "id": "NOWIT-JO-001",
+      "section": "development",
+      "role": "MERN स्टैक डेवलपर",
+      "detailedRole": "फुल स्टैक जावास्क्रिप्ट डेवलपर",
+      "location": "अमरावती, आंध्र प्रदेश, भारत",
+      "type": "पूर्णकालिक",
+      "experience": "2+ वर्ष",
+      "description": "कंप्यूटर साइंस, इंजीनियरिंग या समकक्ष अनुभव में स्नातक डिग्री।",
+      "requirements": [
+        "MongoDB, Express.js, React, Node.js का मजबूत ज्ञान",
+        "REST API डेवलपमेंट",
+        "Git वर्ज़न कंट्रोल"
+      ],
+      "skills": ["MongoDB","Express.js","React.js","Node.js","JavaScript"],
+      "projectRole": "सॉफ्टवेयर डेवलपर",
+      "projectDescription": "MERN स्टैक का उपयोग करके स्केलेबल वेब एप्लिकेशन बनाना।",
+      "educationalQualifications": "CS में स्नातक",
+      "benefits": ["स्वास्थ्य बीमा","प्रदर्शन बोनस","लचीले कार्य घंटे"],
+      "summary": "कुशल MERN डेवलपर के लिए अवसर।",
+      "postedDate": "2024-06-01"
+    },
+    {
+      "id": "NOWIT-JO-002",
+      "section": "development",
+      "role": "मोबाइल ऐप डेवलपर",
+      "detailedRole": "React Native / Flutter डेवलपर",
+      "location": "अमरावती, आंध्र प्रदेश, भारत",
+      "type": "पूर्णकालिक",
+      "experience": "2+ वर्ष",
+      "description": "Android और iOS ऐप डेवलपमेंट।",
+      "requirements": [
+        "React Native या Flutter अनुभव",
+        "API इंटीग्रेशन",
+        "Play Store / App Store डिप्लॉयमेंट"
+      ],
+      "skills": ["React Native","Flutter","Firebase","REST APIs","TypeScript"],
+      "projectRole": "मोबाइल डेवलपर",
+      "projectDescription": "क्रॉस-प्लेटफॉर्म मोबाइल ऐप्स।",
+      "educationalQualifications": "CS में स्नातक",
+      "benefits": ["स्वास्थ्य बीमा","ऐप रिलीज़ बोनस","सवेतन अवकाश"],
+      "summary": "मोबाइल ऐप डेवलपमेंट अवसर।",
+      "postedDate": "2024-06-05"
+    },
+    {
+      "id": "NOWIT-JO-003",
+      "section": "development",
+      "role": "क्लाउड इंजीनियर",
+      "detailedRole": "AWS / Azure विशेषज्ञ",
+      "location": "अमरावती, आंध्र प्रदेश, भारत",
+      "type": "पूर्णकालिक",
+      "experience": "2+ वर्ष",
+      "description": "क्लाउड इंफ्रास्ट्रक्चर डिज़ाइन और प्रबंधन।",
+      "requirements": [
+        "AWS/Azure अनुभव",
+        "CI/CD पाइपलाइन्स",
+        "Docker व Kubernetes"
+      ],
+      "skills": ["AWS","Azure","Docker","Kubernetes","DevOps"],
+      "projectRole": "क्लाउड इंफ्रास्ट्रक्चर इंजीनियर",
+      "projectDescription": "क्लाउड प्रबंधन।",
+      "educationalQualifications": "B.Tech / BE",
+      "benefits": ["क्लाउड सर्टिफिकेशन","स्वास्थ्य बीमा","लचीला समय"],
+      "summary": "क्लाउड सिस्टम प्रबंधन।",
+      "postedDate": "2024-06-10"
+    },
+    {
+      "id": "NOWIT-JO-004",
+      "section": "uiuxdesigning",
+      "role": "UI/UX डिज़ाइनर",
+      "detailedRole": "प्रोडक्ट डिज़ाइनर",
+      "location": "अमरावती, आंध्र प्रदेश, भारत",
+      "type": "पूर्णकालिक",
+      "experience": "2+ वर्ष",
+      "description": "यूज़र इंटरफेस डिज़ाइन।",
+      "requirements": [
+        "Figma / Adobe XD",
+        "Wireframing",
+        "User Research"
+      ],
+      "skills": ["Figma","Adobe XD","Prototyping","User Research","Design Systems"],
+      "projectRole": "UI/UX डिज़ाइनर",
+      "projectDescription": "यूज़र अनुभव डिज़ाइन।",
+      "educationalQualifications": "डिज़ाइन डिग्री",
+      "benefits": ["क्रिएटिव स्वतंत्रता","वर्कशॉप","लचीले घंटे"],
+      "summary": "UI/UX अवसर।",
+      "postedDate": "2024-06-12"
+    },
+    {
+      "id": "NOWIT-JO-005",
+      "section": "management",
+      "role": "बिज़नेस डेवलपमेंट मैनेजर",
+      "detailedRole": "स्ट्रैटेजिक ग्रोथ मैनेजर",
+      "location": "अमरावती, आंध्र प्रदेश, भारत",
+      "type": "पूर्णकालिक",
+      "experience": "2+ वर्ष",
+      "description": "व्यवसाय विकास।",
+      "requirements": [
+        "कम्युनिकेशन स्किल्स",
+        "सेल्स",
+        "मार्केट रिसर्च"
+      ],
+      "skills": ["Sales Strategy","Lead Generation","CRM Tools","Negotiation","Market Analysis"],
+      "projectRole": "ग्रोथ मैनेजर",
+      "projectDescription": "मार्केट विस्तार।",
+      "educationalQualifications": "MBA",
+      "benefits": ["इंसेंटिव","यात्रा भत्ता","स्वास्थ्य लाभ"],
+      "summary": "व्यवसाय विस्तार।",
+      "postedDate": "2024-06-15"
+    },
+    {
+      "id": "NOWIT-JO-006",
+      "section": "internship",
+      "role": "सॉफ्टवेयर डेवलपर (इंटर्नशिप)",
+      "detailedRole": "फुल स्टैक इंटर्न",
+      "location": "अमरावती, आंध्र प्रदेश, भारत",
+      "type": "इंटर्नशिप",
+      "experience": "3 महीने - 1 वर्ष",
+      "description": "रियल टाइम प्रोजेक्ट्स।",
+      "requirements": [
+        "HTML, CSS, JavaScript",
+        "सीखने की इच्छा",
+        "समस्या समाधान"
+      ],
+      "skills": ["HTML","CSS","JavaScript","React Basics","Git"],
+      "projectRole": "इंटर्न डेवलपर",
+      "projectDescription": "वेब सपोर्ट।",
+      "educationalQualifications": "CS",
+      "benefits": ["सर्टिफिकेट","स्टाइपेंड","PPO"],
+      "summary": "करियर शुरुआत।",
+      "postedDate": "2024-06-18"
+    },
+    {
+      "id": "NOWIT-JO-007",
+      "section": "internship",
+      "role": "क्लाउड इंजीनियर (इंटर्नशिप)",
+      "detailedRole": "AWS / Azure इंटर्न",
+      "location": "अमरावती, आंध्र प्रदेश, भारत",
+      "type": "इंटर्नशिप",
+      "experience": "3 महीने - 1 वर्ष",
+      "description": "क्लाउड इंफ्रास्ट्रक्चर अनुभव।",
+      "requirements": [
+        "AWS / Azure बेसिक्स",
+        "Linux",
+        "नेटवर्किंग"
+      ],
+      "skills": ["AWS Basics","Azure Basics","Linux","Docker Fundamentals","Git"],
+      "projectRole": "क्लाउड इंटर्न",
+      "projectDescription": "क्लाउड सपोर्ट।",
+      "educationalQualifications": "CS",
+      "benefits": ["सर्टिफिकेट","ट्रेनिंग","स्टाइपेंड","PPO"],
+      "summary": "क्लाउड करियर।",
+      "postedDate": "2024-06-20"
+    }
+  ],
+
+  "jobList.jobSections": [
+    { "name": "allroles", "label": "सभी भूमिकाएँ" },
+    { "name": "development", "label": "डेवलपमेंट" },
+    { "name": "uiuxdesigning", "label": "UI / UX डिज़ाइनिंग" },
+    { "name": "qatesting", "label": "QA / टेस्टिंग" }
+  ]
+}

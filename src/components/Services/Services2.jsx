@@ -3,12 +3,26 @@
 import { useNowit } from "@/store/useNowit";
 import { servicesData } from "./servicesData";
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader";
+import { useEffect, useState } from "react";
+
 
 const Services2 = () => {
-    const { activeService } = useNowit();
+    const { activeService,isReady,t } = useNowit();
     const data = servicesData[activeService]?.Services2;
+    const [translatedData, setTranslatedData] = useState(data);
 
-    if (!data) return null;
+
+    useEffect(() => {
+        if (isReady) {
+            const bundledData = t("servicesData");
+            //    console.log("bundledData", bundledData)
+            const newData = bundledData[activeService]?.Services2;
+            //   console.log(newData,"newData Here...,")
+            setTranslatedData(newData);
+        }
+    }, [isReady, activeService,translatedData,t])
+
+    if (!translatedData) return null;
 
     return (
         <section className="w-full bg-white py-5 lg:py-2   mb-4 lg:mb-8 2xl:mb-20">
@@ -24,14 +38,17 @@ const Services2 = () => {
                     <div className="flex flex-col justify-start">
 
                         <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900 ibmPlex-text">
-                            {data.heading}
+                            {/* {data.heading} */}
+                            {translatedData.heading}
                         </h2>
                         <h3 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#0b5ed7] leading-relaxed ibmPlex-text">
-                            {data.highlight}
+                            {/* {data.highlight} */}
+                            {translatedData.highlight}
                         </h3>
 
                         <p className="hidden lg:flex mt-4 max-w-3xl text-gray-600 text-sm md:text-md 2xl:text-[17px]">
-                            {data.description}
+                           
+                            {translatedData.description}
                         </p>
 
                     </div>
@@ -50,7 +67,7 @@ const Services2 = () => {
     [&::-webkit-scrollbar]:hidden
             "
                     >
-                        {data.cards.map((item, index) => (
+                        {translatedData.cards.map((item, index) => (
                             <div
                                 key={index}
                                 className={`

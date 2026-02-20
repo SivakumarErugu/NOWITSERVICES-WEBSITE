@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 import { ThemeBtnTag } from '../shared/UI-Elements/Custom-Elements'
 
-const ProductCard = ({ title, desc, img, link, reverse = false }) => {
+const ProductCard = ({ title, desc, img, link, reverse = false,BtnText }) => {
   return (
     <div
       className="
@@ -67,7 +67,7 @@ const ProductCard = ({ title, desc, img, link, reverse = false }) => {
         <div className="mt-5">
           <Link href={link} target="_blank" rel="noopener noreferrer">
             <ThemeBtnTag
-              BtnText="View Product"
+              BtnText={BtnText||"View Product"}
               styles="border-0 bg-[#55B233] text-white text-xs md:text-sm !font-medium !py-1 !px-5 !lg:py-2 !rounded-md hover:bg-[#43a047]"
             />
           </Link>

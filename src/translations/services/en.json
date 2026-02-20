@@ -1,0 +1,392 @@
+{
+    "servicesData": {
+        "smart marketing": {
+            "title": "Smart Marketing",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+            "description": "Our Smart Marketing service combines strategy, creativity, and AI-driven insights to help businesses build strong brand presence, engage audiences effectively, and improve marketing performance across digital channels.",
+            "Services1": {
+                "headingSmall": "Marketing That",
+                "headingMain": "Thinks, Learns, and Performs",
+                "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
+            },
+            "Services2": {
+                "heading": "What’s Included in",
+                "highlight": "Smart Marketing",
+                "description": "Our Smart Marketing service combines strategy, creativity, and AI-driven insights to help businesses build strong brand presence, engage audiences effectively, and improve marketing performance across digital channels.",
+                "cards": [
+                    {
+                        "title": "Data-Driven Digital Campaigns",
+                        "desc": "Targeted marketing campaigns built using data insights to maximize reach and conversions.",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "Content & Brand Storytelling",
+                        "desc": "Compelling content and messaging that strengthens brand identity and connects with the right audience.",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "AI-Based Audience Segmentation",
+                        "desc": "Intelligent audience grouping using behavior, intent, and preferences for personalized engagement.",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "Campaign Performance Analytics",
+                        "desc": "Real-time tracking, reporting, and optimization to measure performance and improve ROI.",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "Predictive Engagement Insights (AI Edge)",
+                        "desc": "AI-powered forecasting to anticipate customer behavior and optimize campaign effectiveness.",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "business launch": {
+            "title": "Business Launch Services",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+            "description": "Support new businesses with a structured, end-to-end launch approach that ensures clarity, visibility, and early momentum. This service focuses on setting strong foundations while using data and AI insights to guide smarter decisions.",
+            "Services1": {
+                "headingSmall": "Launch Your",
+                "headingMain": "Business with Confidence",
+                "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
+            },
+            "Services2": {
+                "heading": "What’s Included in",
+                "highlight": "Business Launch",
+                "description": "Our Business Launch services provide a structured, end-to-end framework to help new ventures enter the market with clarity and confidence. Each step is designed to create visibility, credibility, and early momentum.",
+                "cards": [
+                    {
+                        "title": "Business Name & Logo Registration",
+                        "desc": "Support for selecting a unique business name and designing a professional logo. Includes guidance on legal registration to establish a strong and compliant brand identity.",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "Website & Brand Creation",
+                        "desc": "Design and development of a modern website aligned with your brand values. Ensures consistency across visuals, messaging, and digital touchpoints.",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "Marketing & Launch Campaigns",
+                        "desc": "Strategic launch campaigns crafted to generate awareness and early engagement.",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "Event & PR Management",
+                        "desc": "Planning and execution of launch events, PR activities, and media outreach.",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "Predictive Market Simulations (AI Edge)",
+                        "desc": "AI-driven simulations that evaluate different market entry scenarios.",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "migration": {
+            "title": "Cloud & Application Migration",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+            "description": "Seamlessly move your applications, data, and workloads to the cloud with minimal disruption and maximum performance.",
+            "Services1": {
+                "headingSmall": "Seamless",
+                "headingMain": "Platform Migration",
+                "image": "../../../public/images/ServicesImages/Migration.jpg"
+            },
+            "Services2": {
+                "heading": "What’s Included in",
+                "highlight": "Migration Services",
+                "description": "Our migration services ensure a secure, efficient, and scalable transition to modern cloud platforms.",
+                "cards": [
+                    {
+                        "title": "Cloud & Application Migration",
+                        "desc": "End-to-end migration of applications, workloads, and systems to the cloud.",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "Secure Data Transfer",
+                        "desc": "Encrypted and compliant data transfer processes.",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "Infrastructure Optimization",
+                        "desc": "Post-migration optimization.",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "API & System Integrations",
+                        "desc": "Integration of cloud platforms with existing systems.",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "Intelligent Risk Mapping (AI Edge)",
+                        "desc": "AI-powered risk analysis.",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "training services": {
+            "title": "Training & Development Services",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+            "description": "Equip teams with practical, future-ready skills through structured training programs.",
+            "Services1": {
+                "headingSmall": "Upskill with",
+                "headingMain": "Professional Training",
+                "image": "../../../public/images/ServicesImages/Training.png"
+            },
+            "Services2": {
+                "heading": "What’s Included in",
+                "highlight": "Training Services",
+                "description": "Our training services focus on building future-ready skills.",
+                "cards": [
+                    {
+                        "title": "Digital & IT Training",
+                        "desc": "Hands-on technical training.",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "Marketing & Branding Workshops",
+                        "desc": "Enhance branding and growth strategies.",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "AI & Quantum Awareness Programs",
+                        "desc": "Programs covering emerging technologies.",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "Leadership Development",
+                        "desc": "Leadership programs.",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "Personalized Learning Paths (AI Edge)",
+                        "desc": "AI-powered learning analytics.",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "professional services": {
+            "title": "Professional Coaching Services",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+            "description": "Empower organizations with expert guidance.",
+            "Services1": {
+                "headingSmall": "Expert",
+                "headingMain": "Professional Services",
+                "image": "../../../public/images/ServicesImages/Professional.jpg"
+            },
+            "Services2": {
+                "heading": "What’s Included in",
+                "highlight": "Professional Services",
+                "description": "Strategic insight with technical expertise.",
+                "cards": [
+                    {
+                        "title": "Strategic Business & IT Consulting",
+                        "desc": "Align business objectives with technology.",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "Project Management & Delivery",
+                        "desc": "Structured project management.",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "Resource Augmentation & Training",
+                        "desc": "Access to skilled professionals.",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "Ongoing Technical Support",
+                        "desc": "Reliable support.",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "Decision Intelligence Models (AI Edge)",
+                        "desc": "AI-powered decision models.",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "messaging services": {
+            "title": "Messaging & Communication Services",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+            "description": "Enable intelligent real-time communication.",
+            "Services1": {
+                "headingSmall": "Powerful",
+                "headingMain": "Messaging Services",
+                "image": "../../../public/images/ServicesImages/Messaging.jpg"
+            },
+            "Services2": {
+                "heading": "What’s Included in",
+                "highlight": "Messaging Services",
+                "description": "Improve engagement at scale.",
+                "cards": [
+                    {
+                        "title": "Bulk SMS & WhatsApp Campaigns",
+                        "desc": "High-volume messaging.",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "Chatbot Automation",
+                        "desc": "AI-powered chatbots.",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "Campaign Analytics Dashboard",
+                        "desc": "Real-time dashboards.",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "Real-Time Engagement Optimization",
+                        "desc": "Dynamic adjustments.",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "Predictive Engagement Analytics (AI Edge)",
+                        "desc": "Forecast engagement trends.",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "ip filing services": {
+            "title": "IP Filing Services",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+            "description": "Safeguard your ideas and innovations.",
+            "Services1": {
+                "headingSmall": "Protect Your",
+                "headingMain": "Intellectual Property",
+                "image": "../../../public/images/ServicesImages/IPFilling.png"
+            },
+            "Services2": {
+                "heading": "What’s Included in",
+                "highlight": "IP Filing Services",
+                "description": "Protect intellectual assets.",
+                "cards": [
+                    {
+                        "title": "Patent Filing & Management",
+                        "desc": "Patent filing support.",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "Trademark Registration",
+                        "desc": "Trademark filing services.",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "Copyright Protection",
+                        "desc": "Copyright registration.",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "AI-Driven IP Search & Validation",
+                        "desc": "AI-powered searches.",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "Legal Risk Reduction (AI Edge)",
+                        "desc": "AI pattern recognition.",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        }
+    },
+    "slidesData": [
+        {
+            "key": 1,
+            "title": "Growth-Oriented Work Culture",
+            "desc": "A work environment that promotes learning, improvement, and long-term career growth."
+        },
+        {
+            "key": 2,
+            "title": "Cross-Domain Learning & Certifications.",
+            "desc": "Opportunities to learn across domains and gain industry-recognized certifications."
+        },
+        {
+            "key": 3,
+            "title": "Global Project Exposure.",
+            "desc": "Hands-on experience working with international clients and globally distributed teams."
+        },
+        {
+            "key": 4,
+            "title": "Rewards,Recognitions, And Leadership Mentorship.",
+            "desc": "Opportunities to be recognized for your work while learning directly from experienced leaders."
+        }
+    ],
+    "service3.title": " Built on ",
+    "service3.span": "Trust and Quality",
+    "service3.previousbtnText": "Previous",
+    "service3.nextbtnText": "Next",
+    "service3.slidingText": "Why Choose Us",
+    "service4.title": "Other Services ",
+    "service4.span": "We Offer",
+    "service4.slidingHeader": "Our Services",
+    "service5.title": "How We Deliver",
+    "service5.description": "We guide your project through every stage, from ideation and design to development, testing, and management, ensuring a smooth and successful journey that brings your vision to life with precision and care.",
+    "service5.tabs": [
+        {
+            "key": 1,
+            "title": "Discover"
+        },
+        {
+            "key": 2,
+            "title": "Design"
+        },
+        {
+            "key": 3,
+            "title": "Develop"
+        },
+        {
+            "key": 4,
+            "title": "Deliver"
+        }
+    ],
+    "service5.tabContent": {
+        "1": {
+            "title": "Discover",
+            "description": "We start by understanding the full scope of the business or product journey. This includes identifying objectives, analyzing requirements, understanding users, and defining a clear understanding of how the solution should evolve over time."
+        },
+        "2": {
+            "title": "Design & Architecture",
+            "description": "Using insights from discovery, we design intuitive user experiences and define a strong technical foundation. This stage ensures the solution is scalable,secure, and flexible enough to support future enhancements and integrations."
+        },
+        "3": {
+            "title": "Development",
+            "description": "The solution is built through structured and agile development practices. We focus on implementing core functionalities,ensuring performance, reliability, and alignment with the defined architecture."
+        },
+        "4": {
+            "title": "Deployment",
+            "description": "Before going live, the solution is thoroughly tested to ensure stability and quality. Once validated, it is deployed into the production environment, making it ready for real-world use and operations."
+        },
+        "5": {
+            "title": "Continuous Evolution",
+            "description": "Post-launch, we provide ongoing support, monitoring, and improvements. As business needs grow, we introduce automation and AI-driven capabilities to optimize operations, enhance efficiency, and enable long-term innovation."
+        }
+    },
+    "Industry.title": "Solutions for",
+    "Industry.span": "Every Industry",
+    "Industry.description": "NOWIT Services offers AI-powered digital transformation services that help businesses improve efficiency, automate operations, and grow faster. Our cloud-first solutions include smart marketing, cloud migration, professional IT consulting, intelligent messaging, IP filing, and corporate training, all designed to deliver secure, scalable, and data-driven business outcomes.",
+    "Industry.list": [
+        "Healthcare",
+        "Education",
+        "Finance & Banking",
+        "Retail & E-commerce",
+        "Manufacturing",
+        "Logistics & Supply Chain",
+        "Real Estate",
+        "Travel & Hospitality",
+        "IT & Technology",
+        "Telecommunications",
+        "Energy & Utilities",
+        "Automotive"
+    ],
+    "bussinessBanner.title.prefix": "Ready",
+    "bussinessBanner.title.suffix": "To Launch",
+    "bussinessBanner.line2.title": "And Scale Your Business",
+    "bussinessBanner.description": "Talk to our experts to explore how our services can support your goals and drive long-term growth.",
+    "bussinessBanner.buttonText": "Get in Touch"
+}

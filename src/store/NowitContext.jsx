@@ -79,7 +79,7 @@ const NowitContextProvider = ({ children }) => {
   useEffect(() => {
     localStorage.setItem("nowit_active_service", activeService);
   }, [activeService]);
-  console.log(activeTab, "Active Tab from Context")
+  // console.log(activeTab, "Active Tab from Context")
 
 
   return (

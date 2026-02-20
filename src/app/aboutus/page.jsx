@@ -1,4 +1,4 @@
-'use client'
+
 
 
 import ChooseUs from "@/components/home/subcomponents/ChooseUs";

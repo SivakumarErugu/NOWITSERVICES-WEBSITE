@@ -190,6 +190,7 @@ export const servicesData = {
             headingMain: "Professional Training",
             image: Training,
         },
+        
         Services2: {
             heading: "What’s Included in",
             highlight: "Training Services",

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNowit } from "@/store/useNowit";
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader";
 import { servicesData } from "./servicesData";
@@ -14,7 +14,7 @@ const VISIBLE_COUNT = 3;
 const CARD_GAP = 24; // gap-6
 
 const Services4 = () => {
-  const { activeService, } = useNowit();
+  const { activeService, t, isReady } = useNowit();
 
   const services = Object.entries(servicesData)
     .filter(([key]) => key !== activeService)
@@ -24,6 +24,25 @@ const Services4 = () => {
       description: value.description,
       image: value.Services1.image,
     }));
+  console.log(services, "services Hereee...")
+  const [translatedServices, setTranslatedServices] = useState(services);
+
+useEffect(() => {
+  if (!isReady) return;
+
+  const bundledData = t("servicesData", { returnObjects: true });
+
+  const api_getted_data = Object.entries(bundledData)
+    .filter(([key]) => key !== activeService)
+    .map(([key, value]) => ({
+      key,
+      title: value?.title || "",
+      description: value?.description || "",
+      image: value?.Services1?.image || value?.mainimage || "",
+    }));
+
+  setTranslatedServices(api_getted_data);
+}, [t, isReady, activeService]);
 
   /* ---------- DESKTOP INDEX (MOVE 1 BY 1) ---------- */
   const [startIndex, setStartIndex] = useState(0);
@@ -31,6 +50,7 @@ const Services4 = () => {
 
   const prev = () => setStartIndex(i => Math.max(i - 1, 0));
   const next = () => setStartIndex(i => Math.min(i + 1, maxIndex));
+  if (!isReady) return null;
 
   return (
     <section className="w-full bg-white py-6 lg:py-12 mb-8">
@@ -42,7 +62,7 @@ const Services4 = () => {
         {/* TITLE + ARROWS */}
         <div className="flex items-center justify-between mb-5">
           <h2 className="text-xl md:text-3xl font-semibold">
-            Other Services <span className="text-blue-600">We Offer</span>
+            {t("service4.title") || "Other Services"} <span className="text-blue-600">{t("service4.span") || "We Offer"}</span>
           </h2>
 
           {/* DESKTOP BUTTONS */}
@@ -77,7 +97,7 @@ const Services4 = () => {
 
         {/* ----------- MOBILE / SMALL SCREENS (NATIVE SCROLL) ----------- */}
         <div className="flex gap-6 overflow-x-auto no-scrollbar lg:hidden">
-          {services.map((service) => (
+          {translatedServices.map((service) => (
             <ServiceCard
               key={service.key}
               service={service}
@@ -100,7 +120,7 @@ const Services4 = () => {
               damping: 30
             }}
           >
-            {services.map((service) => (
+            {translatedServices.map((service) => (
               <div
                 key={service.key}
                 className="w-1/3 shrink-0 pr-6"
@@ -125,7 +145,7 @@ export default Services4;
 /* CARD */
 /* ------------------------------------------------------------------ */
 
-const ServiceCard = ({ service, onClick, mobile }) => {
+const ServiceCard = ({ service, onClick, mobile, }) => {
   const [open, setOpen] = useState(false);
 
   const toggle = (e) => {
@@ -152,7 +172,7 @@ const ServiceCard = ({ service, onClick, mobile }) => {
         className="object-cover transition-transform duration-500 group-hover:scale-102"
         priority
       />
-      
+
 
       {/* GRADIENT */}
       <div className="absolute inset-0 bg-linear-to-t from-black/95 via-black/45 to-transparent" />

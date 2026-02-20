@@ -1,0 +1,132 @@
+{
+    "banner.title": "Siamo Un Ecosistema. Il Futuro Inizia Qui.",
+    "banner.description": "Crea e scala piattaforme intelligenti senza codice — inizia con piattaforme pronte al lancio o progetta una soluzione completamente personalizzata.",
+    "banner.explore": "Esplora Ora",
+    "infinity.title": "Piattaforme Che",
+    "infnity.description": "Piattaforme zero-code pronte per l’impresa che evolvono, si adattano e scalano — dagli individui alle aziende.",
+    "infinity.span": "Pensare, Adattarsi e Crescere",
+    "infinity.right.text": "Esperienze Umane",
+    "infinity.left.text": "Piattaforme Intelligenti",
+    "infinity.middle.top": "WON Suite",
+    "infinity.middle.bottom": "Semplice | Intelligente | Sicuro",
+    "products.slidingHeader": "I Nostri Prodotti",
+    "products.title": "Prodotti Progettati per Ogni Percorso",
+    "products.span": "Da Individuale ad Aziendale",
+    "products.List": {
+        "won_digi": {
+            "name": "WON Digitale",
+            "description": "Piattaforma completa per la gestione educativa che digitalizza processi accademici, amministrativi e operativi."
+        },
+        "won_pulse": {
+            "name": "WON Impulso Sanitario",
+            "description": "Sistema completo per la gestione ospedaliera e dei servizi sanitari."
+        },
+        "won_cart": {
+            "name": "WON Carrello",
+            "description": "Piattaforma di commercio digitale sicura e fluida per vendite online."
+        },
+        "won_bless": {
+            "name": "WON Benedizione",
+            "description": "Ecosistema spirituale e di benessere che unisce tradizione ed esperienze digitali moderne."
+        },
+        "won_fits": {
+            "name": "WON Fitness",
+            "description": "Piattaforma intelligente per percorsi personalizzati di fitness e benessere."
+        },
+        "won_kids": {
+            "name": "WON Bambini",
+            "description": "Piattaforma digitale educativa progettata per la crescita e la creatività dei bambini."
+        },
+        "won_nest": {
+            "name": "WON Nido",
+            "description": "Ecosistema per la pianificazione finanziaria e lo stile di vita personale."
+        },
+        "won_home": {
+            "name": "WON Casa",
+            "description": "Piattaforma di automazione domestica che integra comfort, sicurezza ed efficienza."
+        },
+        "won_pets": {
+            "name": "WON Animali",
+            "description": "Piattaforma digitale per la cura, la salute e il benessere degli animali domestici."
+        },
+        "won_shield": {
+            "name": "WON Scudo Digitale",
+            "description": "Sistema di protezione contro i moderni rischi e le minacce digitali."
+        },
+        "won_drive": {
+            "name": "WON Guida",
+            "description": "Ecosistema di mobilità intelligente per monitoraggio, sicurezza e ottimizzazione dei veicoli."
+        },
+        "won_grid": {
+            "name": "WON Rete Energetica",
+            "description": "Piattaforma digitale per infrastrutture energetiche efficienti e sostenibili."
+        },
+        "won_trip": {
+            "name": "WON Viaggi",
+            "description": "Piattaforma digitale che semplifica la pianificazione e migliora l’esperienza di viaggio."
+        },
+        "won_bills": {
+            "name": "WON Fatturazione",
+            "description": "Sistema aziendale per l’automazione di fatture e pagamenti."
+        },
+        "won_bridge": {
+            "name": "WON Ponte",
+            "description": "Soluzione che consente l’integrazione sicura e fluida tra sistemi aziendali."
+        },
+        "won_tap": {
+            "name": "WON Pagamenti Rapidi",
+            "description": "Piattaforma per pagamenti e accessi rapidi e sicuri."
+        },
+        "won_mart": {
+            "name": "WON Mercato",
+            "description": "Marketplace digitale scalabile per il commercio B2B."
+        },
+        "won_build": {
+            "name": "WON Costruzione",
+            "description": "Piattaforma per la gestione di progetti e infrastrutture aziendali."
+        },
+        "won_move": {
+            "name": "WON Movimento",
+            "description": "Soluzione logistica per ottimizzare trasporti e catena di approvvigionamento."
+        },
+        "won_serve": {
+            "name": "WON Servizi",
+            "description": "Piattaforma per la gestione dei servizi e dell’assistenza clienti."
+        },
+        "won_forge": {
+            "name": "WON Fucina Digitale",
+            "description": "Ambiente di innovazione per lo sviluppo rapido di prodotti digitali."
+        },
+        "won_hrms": {
+            "name": "WON Risorse Umane",
+            "description": "Sistema completo per la gestione moderna delle risorse umane."
+        },
+        "won_guard": {
+            "name": "WON Sicurezza Aziendale",
+            "description": "Piattaforma di sicurezza digitale proattiva per le imprese."
+        },
+        "won_events": {
+            "name": "WON Eventi",
+            "description": "Piattaforma completa per la gestione digitale di eventi."
+        },
+        "won_harvest": {
+            "name": "WON Raccolto",
+            "description": "Marketplace agro-digitale che collega agricoltori, aziende e consumatori."
+        },
+        "won_law": {
+            "name": "WON Legale",
+            "description": "Piattaforma tecnologica per la gestione sicura dei processi legali digitali."
+        },
+        "won_hubs": {
+            "name": "WON Hub Centrale",
+            "description": "Infrastruttura centrale che collega, gestisce e alimenta l’intero ecosistema WON."
+        }
+    },
+  "products.viewProduct": "Visualizza Prodotto",
+    "customize.slidingHeader": "Personalizza Il Tuo Prodotto",
+    "customize.title.prefix": "Hai Un’Idea?",
+    "customize.span": "La Personalizziamo",
+    "customize.title.suffix": "Secondo La Tua Visione.",
+    "customize.getInTouch": "Contattaci",
+    "becomepartner.becomepartner": "Diventa Partner"
+}

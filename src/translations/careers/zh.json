@@ -1,0 +1,39 @@
+{
+  "banner.title":"您的下一步职业发展",
+  "banner.span":"从这里开始",
+  "banner.scroll":"滚动以探索",
+
+  "carrerVisualBlock.line1.title":"呼吁",
+  "carrerVisualBlock.line1.span":"所有",
+  "carrerVisualBlock.line2.title2":"创新者",
+  "carrerVisualBlock.line3.title":"准备好",
+  "carrerVisualBlock.line3.span":"构建",
+  "carrerVisualBlock.line4.title":"未来",
+
+  "carrerVisualBlock.description":"我们始终在寻找对技术充满热情的人才。",
+  "carrerVisualBlock.BtnText":"查看职位",
+
+  "joinus.span":"加入我们",
+  "joinus.title":"成为科技未来的一部分",
+  "joinus.description":"与充满激情的人一起工作。",
+
+  "oppurtunities.slidingHeader":"当前职位",
+  "oppurtunities.search.placeholder":"按角色、技能、地点搜索",
+
+  "jobList.jobOpenings":[
+    {"id":"NOWIT-JO-001","section":"development","role":"MERN 开发工程师","detailedRole":"全栈 JavaScript 开发工程师","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"计算机科学学位。","requirements":["MongoDB","REST API","Git"],"skills":["MongoDB","Express.js","React.js","Node.js","JavaScript"],"projectRole":"软件开发工程师","projectDescription":"MERN 应用开发。","educationalQualifications":"CS","benefits":["健康保险","奖金","弹性时间"],"summary":"MERN 机会。","postedDate":"2024-06-01"},
+    {"id":"NOWIT-JO-002","section":"development","role":"移动开发工程师","detailedRole":"React Native / Flutter","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"Android iOS 应用。","requirements":["Flutter","API","部署"],"skills":["React Native","Flutter","Firebase","REST APIs","TypeScript"],"projectRole":"Mobile Dev","projectDescription":"跨平台应用。","educationalQualifications":"CS","benefits":["保险","奖金","假期"],"summary":"创新应用。","postedDate":"2024-06-05"},
+    {"id":"NOWIT-JO-003","section":"development","role":"云工程师","detailedRole":"AWS / Azure","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"云基础设施。","requirements":["AWS","CI/CD","Docker"],"skills":["AWS","Azure","Docker","Kubernetes","DevOps"],"projectRole":"Cloud Eng","projectDescription":"云管理。","educationalQualifications":"B.Tech","benefits":["认证","保险","弹性"],"summary":"云系统。","postedDate":"2024-06-10"},
+    {"id":"NOWIT-JO-004","section":"uiuxdesigning","role":"UI/UX 设计师","detailedRole":"Product Designer","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"UI 界面设计。","requirements":["Figma","UX","Wireframe"],"skills":["Figma","Adobe XD","Prototyping","User Research","Design Systems"],"projectRole":"UI/UX","projectDescription":"UX 体验。","educationalQualifications":"Design","benefits":["创意","Workshop","弹性"],"summary":"UX。","postedDate":"2024-06-12"},
+    {"id":"NOWIT-JO-005","section":"management","role":"业务发展经理","detailedRole":"Strategic Growth Manager","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"业务增长。","requirements":["沟通","销售","市场"],"skills":["Sales Strategy","Lead Generation","CRM Tools","Negotiation","Market Analysis"],"projectRole":"Growth","projectDescription":"市场扩展。","educationalQualifications":"MBA","benefits":["奖励","差旅","健康"],"summary":"增长。","postedDate":"2024-06-15"},
+    {"id":"NOWIT-JO-006","section":"internship","role":"软件开发实习生","detailedRole":"Full Stack Intern","location":"阿马拉瓦蒂，安得拉邦，印度","type":"实习","experience":"3个月-1年","description":"实际项目。","requirements":["HTML","学习","问题解决"],"skills":["HTML","CSS","JavaScript","React Basics","Git"],"projectRole":"Intern","projectDescription":"开发支持。","educationalQualifications":"CS","benefits":["证书","津贴","PPO"],"summary":"职业开始。","postedDate":"2024-06-18"},
+    {"id":"NOWIT-JO-007","section":"internship","role":"云工程师实习生","detailedRole":"AWS / Azure Intern","location":"阿马拉瓦蒂，安得拉邦，印度","type":"实习","experience":"3个月-1年","description":"云经验。","requirements":["AWS","Linux","网络"],"skills":["AWS Basics","Azure Basics","Linux","Docker Fundamentals","Git"],"projectRole":"Cloud Intern","projectDescription":"支持。","educationalQualifications":"CS","benefits":["证书","培训","津贴","PPO"],"summary":"云开始。","postedDate":"2024-06-20"}
+  ],
+
+  "jobList.jobSections":[
+    {"name":"allroles","label":"所有职位"},
+    {"name":"development","label":"开发"},
+    {"name":"uiuxdesigning","label":"UI/UX 设计"},
+    {"name":"qatesting","label":"QA / 测试"}
+  ]
+}

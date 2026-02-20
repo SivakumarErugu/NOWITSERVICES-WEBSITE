@@ -1,10 +1,10 @@
 'use client';
 
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Image from "next/image";
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-
+import { useNowit } from "@/store/useNowit";
 import Services3Image1 from "../../../public/images/ServicesImages/Services3Image1.jpg";
 import Services3Image2 from "../../../public/images/ServicesImages/Services3Image2.jpg";
 import Services3Image3 from "../../../public/images/ServicesImages/Services3Image3.jpg";
@@ -14,21 +14,25 @@ import Services3Image5 from "../../../public/images/ServicesImages/Services3Imag
 /* 🔹 SLIDES */
 const slides = [
     {
+        key: 1,
         title: "Growth-Oriented Work Culture",
         desc: "A work environment that promotes learning, improvement, and long-term career growth.",
         image: Services3Image1,
     },
     {
+        key: 2,
         title: "Cross-Domain Learning & Certifications.",
         desc: "Opportunities to learn across domains and gain industry-recognized certifications.",
         image: Services3Image2,
     },
     {
+        key: 3,
         title: "Global Project Exposure.",
         desc: "Hands-on experience working with international clients and globally distributed teams.",
         image: Services3Image3,
     },
     {
+        key: 4,
         title: "Rewards,Recognitions, And Leadership Mentorship.",
         desc: "Opportunities to be recognized for your work while learning directly from experienced leaders.",
         image: Services3Image4,
@@ -42,6 +46,9 @@ const slides = [
 
 const Services3 = () => {
     const [active, setActive] = useState(0);
+    const [translatedSlideInformation, setTranslatedSlides] = useState(slides);
+
+    const { t, isReady } = useNowit();
 
     const prevSlide = () => {
         setActive((p) => (p === 0 ? slides.length - 1 : p - 1));
@@ -51,6 +58,13 @@ const Services3 = () => {
         setActive((p) => (p === slides.length - 1 ? 0 : p + 1));
     };
 
+    useEffect(() => {
+        if (isReady) {
+            const slidesData = t("slidesData")
+            setTranslatedSlides(slidesData);
+        }
+    }, [t, isReady])
+    if (!isReady) return null;
     return (
         <section className="w-full py-6 bg-white mb-10">
             <div className="mx-auto px-5 md:px-8 lg:px-15">
@@ -60,12 +74,11 @@ const Services3 = () => {
                     <SlidingHeader title="Why Choose Us" bottom="mb-2" />
 
                     <h2 className=" text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
-                        Built on <span className="text-[#0b5ed7]">Trust and Quality</span>
+                        {t("service3.title")} <span className="text-[#0b5ed7]">{t("service3.span")}</span>
                     </h2>
 
                     <p className="mt-3 text-gray-600 text-sm md:text-base 2xl:text-lg max-w-5xl 2xl:max-w-7xl">
-                        We combine technical expertise, thoughtful design, and reliable delivery
-                        to build scalable digital solutions that meet real business needs.
+                      {t("service3.description")||" We combine technical expertise, thoughtful design, and reliable delivery to build scalable digital solutions that meet real business needs."} 
                     </p>
                 </div>
             </div>
@@ -92,7 +105,7 @@ const Services3 = () => {
                             className="flex items-center gap-1 text-gray-300 hover:text-white transition text-sm md:text-lg cursor-pointer"
                         >
                             <HiChevronLeft className="text-3xl  lg:hidden" />
-                            <span className="hidden lg:inline text-3xl 2xl:text-3xl">Previous</span>
+                            <span className="hidden lg:inline text-3xl 2xl:text-3xl">{t("service3.previousbtnText")}</span>
                         </button>
 
                         {/* IMAGE SLIDER */}
@@ -124,7 +137,7 @@ const Services3 = () => {
                             onClick={nextSlide}
                             className="flex items-center gap-1 text-gray-300 hover:text-white transition text-sm md:text-lg ml-auto cursor-pointer"
                         >
-                            <span className="hidden lg:inline text-3xl 2xl:text-3xl">Next</span>
+                            <span className="hidden lg:inline text-3xl 2xl:text-3xl">{t("service3.nextbtnText")}</span>
                             <HiChevronRight className="text-3xl lg:hidden" />
                         </button>
                     </div>
@@ -153,11 +166,12 @@ const Services3 = () => {
                   `}
                                 >
                                     <h3 className="text-lg md:text-2xl 2xl:text-4xl font-semibold text-white ">
-                                        {slide.title}
+                                        {/* {slide.title} */}
+                                        {translatedSlideInformation[index]?.title}
                                     </h3>
 
                                     <p className="text-sm md:text-base 2xl:text-2xl text-gray-300 max-w-2xl">
-                                        {slide.desc}
+                                        {translatedSlideInformation[index]?.desc}
                                     </p>
                                 </div>
                             );

@@ -1,0 +1,264 @@
+{
+    "servicesData": {
+        "smart marketing": {
+            "title": "स्मार्ट मार्केटिंग",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+            "description": "AI आधारित रणनीति के साथ ब्रांड उपस्थिति और डिजिटल मार्केटिंग प्रदर्शन को बेहतर बनाएं।",
+            "Services1": {
+                "headingSmall": "मार्केटिंग जो",
+                "headingMain": "सोचती है, सीखती है और प्रदर्शन करती है",
+                "image": "/images/ServicesImages/SmartMarketing.jpg"
+            },
+            "Services2": {
+                "heading": "स्मार्ट मार्केटिंग में",
+                "highlight": "क्या शामिल है",
+                "description": "AI आधारित डिजिटल मार्केटिंग सेवाएं।",
+                "cards": [
+                    {
+                        "title": "डेटा आधारित डिजिटल अभियान",
+                        "desc": "डेटा के आधार पर लक्षित अभियान।",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "कंटेंट एवं ब्रांड स्टोरीटेलिंग",
+                        "desc": "ब्रांड पहचान मजबूत करने वाला कंटेंट।",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "AI आधारित ऑडियंस सेगमेंटेशन",
+                        "desc": "दर्शकों का बुद्धिमान वर्गीकरण।",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "अभियान प्रदर्शन विश्लेषण",
+                        "desc": "ROI सुधार के लिए ट्रैकिंग।",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "पूर्वानुमानित एंगेजमेंट इनसाइट्स",
+                        "desc": "ग्राहक व्यवहार का पूर्वानुमान।",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "business launch": {
+            "title": "बिज़नेस लॉन्च सेवाएँ",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+            "description": "नए व्यवसायों को सफल लॉन्च के लिए संपूर्ण सहायता।",
+            "Services1": {
+                "headingSmall": "अपने",
+                "headingMain": "व्यवसाय को आत्मविश्वास के साथ लॉन्च करें",
+                "image": "/images/ServicesImages/BusinessLaunch.png"
+            },
+            "Services2": {
+                "heading": "बिज़नेस लॉन्च में",
+                "highlight": "क्या शामिल है",
+                "description": "एंड टू एंड लॉन्च सेवाएं।",
+                "cards": [
+                    {
+                        "title": "व्यवसाय नाम एवं लोगो पंजीकरण",
+                        "desc": "ब्रांड पहचान स्थापित करने में सहायता।",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "वेबसाइट एवं ब्रांड निर्माण",
+                        "desc": "आधुनिक वेबसाइट डिज़ाइन।",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "मार्केटिंग अभियान",
+                        "desc": "जागरूकता बढ़ाने के लिए रणनीति।",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "इवेंट एवं PR प्रबंधन",
+                        "desc": "लॉन्च गतिविधियों की योजना।",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "AI आधारित मार्केट सिमुलेशन",
+                        "desc": "मार्केट एंट्री विश्लेषण।",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "migration": {
+            "title": "क्लाउड माइग्रेशन सेवाएँ",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+            "description": "एप्लिकेशन और डेटा को क्लाउड में सुरक्षित रूप से स्थानांतरित करें।",
+            "Services1": {
+                "headingSmall": "सहज",
+                "headingMain": "प्लेटफ़ॉर्म माइग्रेशन",
+                "image": "/images/ServicesImages/Migration.jpg"
+            },
+            "Services2": {
+                "heading": "माइग्रेशन सेवाओं में",
+                "highlight": "क्या शामिल है",
+                "description": "सुरक्षित और कुशल माइग्रेशन।",
+                "cards": [
+                    {
+                        "title": "क्लाउड माइग्रेशन",
+                        "desc": "एंड टू एंड माइग्रेशन।",
+                        "bg": "bg-blue-50 border-blue-100"
+                    },
+                    {
+                        "title": "सुरक्षित डेटा ट्रांसफर",
+                        "desc": "एन्क्रिप्टेड ट्रांसफर।",
+                        "bg": "bg-green-50 border-green-100"
+                    },
+                    {
+                        "title": "इन्फ्रास्ट्रक्चर ऑप्टिमाइज़ेशन",
+                        "desc": "प्रदर्शन सुधार।",
+                        "bg": "bg-purple-50 border-purple-100"
+                    },
+                    {
+                        "title": "API इंटीग्रेशन",
+                        "desc": "सिस्टम एकीकरण।",
+                        "bg": "bg-orange-50 border-orange-100"
+                    },
+                    {
+                        "title": "AI जोखिम विश्लेषण",
+                        "desc": "जोखिम की पहचान।",
+                        "bg": "bg-gray-50 border-gray-200"
+                    }
+                ]
+            }
+        },
+        "training services": {
+            "title": "प्रशिक्षण सेवाएँ",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+            "description": "भविष्य के लिए तैयार कौशल विकसित करें।",
+            "Services1": {
+                "headingSmall": "अपस्किल करें",
+                "headingMain": "प्रोफेशनल ट्रेनिंग के साथ",
+                "image": "/images/ServicesImages/Training.png"
+            }
+        },
+        "professional services": {
+            "title": "प्रोफेशनल कोचिंग सेवाएँ",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+            "description": "विशेषज्ञ मार्गदर्शन प्राप्त करें।",
+            "Services1": {
+                "headingSmall": "विशेषज्ञ",
+                "headingMain": "प्रोफेशनल सेवाएँ",
+                "image": "/images/ServicesImages/Professional.jpg"
+            }
+        },
+        "messaging services": {
+            "title": "मैसेजिंग सेवाएँ",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+            "description": "रीयल-टाइम संचार सक्षम करें।",
+            "Services1": {
+                "headingSmall": "पावरफुल",
+                "headingMain": "मैसेजिंग सेवाएँ",
+                "image": "/images/ServicesImages/Messaging.jpg"
+            }
+        },
+        "ip filing services": {
+            "title": "IP फाइलिंग सेवाएँ",
+            "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+            "description": "अपने नवाचारों की सुरक्षा करें।",
+            "Services1": {
+                "headingSmall": "अपने",
+                "headingMain": "बौद्धिक संपदा की सुरक्षा करें",
+                "image": "/images/ServicesImages/IPFilling.png"
+            }
+        }
+    },
+    "slidesData": [
+        {
+            "key": 1,
+            "title": "विकास उन्मुख कार्य संस्कृति",
+            "desc": "सीखने और दीर्घकालिक करियर विकास को बढ़ावा देने वाला कार्य वातावरण।"
+        },
+        {
+            "key": 2,
+            "title": "क्रॉस-डोमेन लर्निंग एवं प्रमाणपत्र",
+            "desc": "विभिन्न क्षेत्रों में सीखने के अवसर।"
+        },
+        {
+            "key": 3,
+            "title": "वैश्विक प्रोजेक्ट अनुभव",
+            "desc": "अंतरराष्ट्रीय ग्राहकों के साथ कार्य अनुभव।"
+        },
+        {
+            "key": 4,
+            "title": "पुरस्कार एवं नेतृत्व मार्गदर्शन",
+            "desc": "अनुभवी नेताओं से सीखने के अवसर।"
+        }
+    ],
+    "service5.tabs": [
+        {
+            "key": 1,
+            "title": "खोज"
+        },
+        {
+            "key": 2,
+            "title": "डिज़ाइन"
+        },
+        {
+            "key": 3,
+            "title": "विकास"
+        },
+        {
+            "key": 4,
+            "title": "डिलीवर"
+        }
+    ],
+    "service5.tabContent": {
+        "1": {
+            "title": "खोज",
+            "description": "हम व्यवसाय की आवश्यकताओं को समझने से शुरुआत करते हैं।"
+        },
+        "2": {
+            "title": "डिज़ाइन एवं आर्किटेक्चर",
+            "description": "मजबूत तकनीकी आधार तैयार किया जाता है।"
+        },
+        "3": {
+            "title": "विकास",
+            "description": "एजाइल प्रक्रियाओं के साथ समाधान विकसित किया जाता है।"
+        },
+        "4": {
+            "title": "डिप्लॉयमेंट",
+            "description": "समाधान को परीक्षण के बाद लाइव किया जाता है।"
+        },
+        "5": {
+            "title": "निरंतर विकास",
+            "description": "लॉन्च के बाद निरंतर सुधार।"
+        }
+    },
+    "Industry.list": [
+        "स्वास्थ्य सेवा",
+        "शिक्षा",
+        "वित्त एवं बैंकिंग",
+        "रिटेल एवं ई-कॉमर्स",
+        "मैन्युफैक्चरिंग",
+        "लॉजिस्टिक्स एवं सप्लाई चेन",
+        "रियल एस्टेट",
+        "ट्रैवल एवं हॉस्पिटैलिटी",
+        "आईटी एवं टेक्नोलॉजी",
+        "टेलीकॉम",
+        "ऊर्जा",
+        "ऑटोमोबाइल"
+    ],
+    "service3.title": "निर्मित है ",
+    "service3.span": "विश्वास और गुणवत्ता पर",
+    "service3.previousbtnText": "पिछला",
+    "service3.nextbtnText": "अगला",
+    "service3.slidingText": "हमें क्यों चुनें",
+    "service4.title": "अन्य सेवाएँ ",
+    "service4.span": "जो हम प्रदान करते हैं",
+    "service4.slidingHeader": "हमारी सेवाएँ",
+    "service5.title": "हम कैसे डिलीवर करते हैं",
+    "service5.description": "हम आपके प्रोजेक्ट को हर चरण में मार्गदर्शन देते हैं।",
+    "Industry.title": "समाधान",
+    "Industry.span": "हर उद्योग के लिए",
+    "Industry.description": "NOWIT सेवाएँ AI आधारित डिजिटल ट्रांसफॉर्मेशन प्रदान करती हैं।",
+    "bussinessBanner.title.prefix": "तैयार",
+    "bussinessBanner.title.suffix": "लॉन्च के लिए",
+    "bussinessBanner.line2.title": "और अपने व्यवसाय को स्केल करें",
+    "bussinessBanner.description": "हमारे विशेषज्ञों से बात करें।",
+    "bussinessBanner.buttonText": "संपर्क करें"
+}

@@ -3,14 +3,26 @@
 import Image from "next/image";
 import { useNowit } from "@/store/useNowit";
 import { servicesData } from "./servicesData";
+import { useEffect, useState } from "react";
 
 const Services1 = () => {
-    const { activeService } = useNowit();
+    const { activeService, t, isReady } = useNowit();
     const MainData = servicesData[activeService]
-    console.log(MainData.mainimage)
     const data = servicesData[activeService]?.Services1;
+    const [translatedData, setTranslatedData] = useState(data);
 
-    if (!data) return null;
+    useEffect(() => {
+        if (isReady) {
+           const bundledData=t("servicesData");
+        //    console.log("bundledData", bundledData)
+              const newData = bundledData[activeService]?.Services1;
+            //   console.log(newData,"newData Here...,")
+              setTranslatedData(newData);
+        }
+    }, [isReady, activeService,translatedData,t]);
+
+
+    if (!translatedData) return null;
 
     const radius = 40;
 
@@ -34,11 +46,14 @@ const Services1 = () => {
                     "
                 >
                     <h3 className="text-xl md:text-3xl lg:text-4xl font-semibold text-gray-800 ibmPlex-text">
-                        {data.headingSmall}
+                        {/* {data.headingSmall} */}
+                        {translatedData.headingSmall}
                     </h3>
 
                     <h2 className="mt-1 text-xl md:text-3xl lg:text-5xl font-bold text-[#0b5ed7] lg:mt-2 ibmPlex-text">
-                        {data.headingMain}
+                        {/* {data.headingMain}
+                         */}
+                        {translatedData.headingMain}
                     </h2>
 
                     {/* NOTCHES */}

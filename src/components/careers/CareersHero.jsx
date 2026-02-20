@@ -62,8 +62,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { RxSewingPinFilled } from "react-icons/rx";
 import careersBg from "../../../public/images/careersBg.jpg";
+import { useNowit } from "@/store/useNowit";
 
 const CareersHero = () => {
+    const { t, isReady } = useNowit();
+    if (!isReady) return null;
     return (
         <section className="relative min-h-[60vh] md:h-[90vh] w-full overflow-hidden rounded-b-[50%_70px] sm:rounded-b-[50%_100px] md:rounded-b-[50%_200px]">
 
@@ -87,34 +90,37 @@ const CareersHero = () => {
             {/* Overlay */}
             <div className="absolute inset-0 flex flex-col justify-center items-center text-white bg-black/40 px-6 text-center">
 
-                {/* Heading */}
-                <motion.h1
-                    initial={{ opacity: 0, y: 40 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.5 }}
-                    className="font-bold leading-tight 
+                {isReady &&
+                    <>   {/* Heading */}
+                        <motion.h1
+                            initial={{ opacity: 0, y: 40 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1, delay: 0.5 }}
+                            className="font-bold leading-tight 
                      text-3xl 
                      sm:text-4xl 
                      md:text-5xl 
                      lg:text-6xl"
-                >
-                    Your Next Career Move <br className="hidden sm:block" />
-                    <span className="block sm:inline">Starts Here</span>
-                </motion.h1>
+                        >
+                            {t("banner.title") || " Your Next Career Move "} <br className="hidden sm:block" />
+                            <span className="block sm:inline">{t("banner.span") || "Starts Here"}</span>
+                        </motion.h1>
 
-                {/* Scroll Indicator */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 1 }}
-                    className="absolute bottom-6 md:bottom-10 flex flex-col items-center gap-2 text-[10px] sm:text-xs uppercase tracking-widest animate-bounce"
-                >
-                    <RxSewingPinFilled size={20} />
-                    <span>Scroll to explore</span>
-                </motion.div>
-
+                        {/* Scroll Indicator */}
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 1 }}
+                            className="absolute bottom-6 md:bottom-10 flex flex-col items-center gap-2 text-[10px] sm:text-xs uppercase tracking-widest animate-bounce"
+                        >
+                            <RxSewingPinFilled size={20} />
+                            <span>{t("banner.scroll") || "Scroll to explore"}</span>
+                        </motion.div>
+                    </>
+                }
             </div>
         </section>
+
     );
 };
 

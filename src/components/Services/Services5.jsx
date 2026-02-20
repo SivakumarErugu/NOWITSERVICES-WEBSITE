@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from "react"
+import React, { useState,useEffect } from "react"
 import Image from "next/image"
 
 import Services5bg from "../../../public/images/ServicesImages/Services5bg.jpg"
@@ -10,6 +10,7 @@ import Services5Image3 from "../../../public/images/ServicesImages/Services5Imag
 import Services5Image4 from "../../../public/images/ServicesImages/Services5Image4.jpg"
 import Services5Image5 from "../../../public/images/ServicesImages/Services5Image5.jpg"
 import { image } from "framer-motion/client"
+import { useNowit } from "@/store/useNowit";
 
 const tabs = [
     "Discover",
@@ -20,55 +21,53 @@ const tabs = [
 ]
 
 const tabContent = {
-    Discover: {
-        title: "Discover",
-        description: `We start by understanding the full scope of the business or product journey.
-    This includes identifying objectives, analyzing requirements, understanding users,
-    and defining a clear understanding of how the solution should evolve over time.`,
+    1: {
+        
         image: Services5Image1,
     },
-    "Design & Architecture": {
-        title: "Design & Architecture",
-        description:
-            `Using insights from discovery, we design intuitive user experiences and
-             define a strong technical foundation. This stage ensures the solution is scalable,
-              secure, and flexible enough to support future enhancements and integrations.`,
+    2: {
+       
         image: Services5Image2,
 
     },
-    Development: {
-        title: "Development",
-        description:
-            `The solution is built through structured and agile development 
-                practices. We focus on implementing core functionalities,
-                 ensuring performance, reliability, and alignment with the defined architecture.`,
+    3: {
+      
         image: Services5Image3,
 
     },
-    Deployment: {
-        title: "Deployment",
-        description:
-            `Before going live, the solution is thoroughly tested to 
-            ensure stability and quality. Once validated, it is deployed 
-            into the production environment, making it ready for real-world use and operations.`,
+    4: {
+        
         image: Services5Image4,
 
     },
-    "Continuous Evolution": {
-        title: "Continuous Evolution",
-        description:
-            `Post-launch, we provide ongoing support, monitoring,
-            and improvements. As business needs grow, we introduce automation 
-            and AI-driven capabilities to optimize operations, enhance efficiency,
-             and enable long-term innovation.`,
+   5: {
+       
         image: Services5Image5,
 
     },
 }
 
 const Services5 = () => {
-    const [activeTab, setActiveTab] = useState("Discover")
+    const [activeTab, setActiveTab] = useState(1)
+    const { t, isReady } = useNowit();
+    const [translatedTabs, setTranslatedTabs] = useState(tabs)
+    const [translatedTabContent, setTranslatedTabContent] = useState(tabContent)
 
+    useEffect(() => {
+        if (isReady) {
+            const translatedTabs = t("service5.tabs")
+            // console.log(translatedTabs,"translatedTabs")
+            setTranslatedTabs(translatedTabs)
+            const translatedTabContent = t("service5.tabContent")
+            // console.log(translatedTabContent,"translatedTabContent")
+            setTranslatedTabContent(translatedTabContent)
+            // console.log(translatedTabContent[activeTab],"translatedTabContent")
+
+        }
+    }, [isReady, t])
+    
+    if (!isReady) return null;
+    
     return (
         <section
             className="w-full flex items-center justify-center bg-cover bg-center mb-2 "
@@ -80,13 +79,10 @@ const Services5 = () => {
                 {/* Heading */}
                 <div className="text-center max-w-4xl mx-auto">
                     <h2 className="text-xl md:text-4xl font-semibold">
-                        How We Deliver
+                        {t("service5.title") || "How We Deliver"}
                     </h2>
                     <p className="mt-4 text-xs md:text-sm text-white/60 max-sm:text-left">
-                        We guide your project through every stage, from ideation and design
-                        to development, testing, and management, ensuring a smooth and
-                        successful journey that brings your vision to life with precision
-                        and care.
+                        {t("service5.description") || "We guide your project through every stage, from ideation and design to development, testing, and management, ensuring a successful journey that brings your vision to life with precisionand care."}
                     </p>
                 </div>
 
@@ -103,7 +99,7 @@ const Services5 = () => {
       lg:overflow-x-visible
     "
                         >
-                            {tabs.map((tab) => (
+                            {/* {tabs.map((tab) => (
                                 <button
                                     key={tab}
                                     onClick={() => setActiveTab(tab)}
@@ -115,6 +111,20 @@ const Services5 = () => {
         `}
                                 >
                                     {tab}
+                                </button>
+                            ))} */}
+                            {translatedTabs.map((tab) => (
+                                <button
+                                    key={tab}
+                                    onClick={() => setActiveTab(tab.key)}
+                                    className={`pb-1 md:pb-2 text-sm md:text-base transition-all duration-300 shrink-0 px-2 cursor-pointer
+          ${activeTab === tab
+                                            ? "text-white border-b-2 border-white"
+                                            : "text-white/60 hover:text-white"
+                                        }
+        `}
+                                >
+                                    {tab.title}
                                 </button>
                             ))}
                         </div>
@@ -137,11 +147,15 @@ const Services5 = () => {
                         {/* Text → 2 columns */}
                         <div className="lg:col-span-2">
                             <h3 className="text-lg md:text-2xl font-semibold">
-                                {tabContent[activeTab].title}
+                                {/* {tabContent[activeTab].title} */}
+                             
+                               {translatedTabContent[activeTab]?.title || "Title not found"}
                             </h3>
 
                             <p className="mt-2 text-xs md:text-sm 2xl:text-[16px] text-white/70 leading-relaxed max-w-2xl 2xl:max-w-5xl">
-                                {tabContent[activeTab].description}
+                                {/* {tabContent[activeTab].description} */}
+                                                           {translatedTabContent[activeTab]?.description || "Title not found"}
+
                             </p>
                         </div>
 

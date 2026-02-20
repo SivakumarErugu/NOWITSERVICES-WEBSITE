@@ -124,6 +124,7 @@
             "description": "WON Hubs is the core infrastructure platform powering the entire WON ecosystem."
         }
     },
+    "products.viewProduct": "View Product",
     "customize.slidingHeader": "Customize Your Product",
     "customize.title.prefix": "Have an Idea? ",
     "customize.span": "We Customize",

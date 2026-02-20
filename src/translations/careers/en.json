@@ -1,0 +1,263 @@
+{
+    "banner.title": "Your Next Career Move",
+    "banner.span": "Starts Here",
+    "banner.scroll": "Scroll to explore",
+    "carrerVisualBlock.line1.title": "Calling",
+    "carrerVisualBlock.line1.span": "all",
+    "carrerVisualBlock.line2.title2": "innovators",
+    "carrerVisualBlock.line3.title": "Ready to",
+    "carrerVisualBlock.line3.span": "Build",
+    "carrerVisualBlock.line4.title": "the Future",
+    "carrerVisualBlock.description": "We’re always looking for talented individuals who are passionate about technology, innovation, and creating meaningful impact. Join a team where your ideas matter and your growth is supported.",
+    "carrerVisualBlock.BtnText": "View Open Roles",
+    "joinus.span": "Join us",
+    "joinus.title": "Be Part of the Future of Technology",
+    "joinus.description": "Work with passionate people, solve meaningful problems, and grow your skills while building innovative digital solutions that make a real impact.",
+    "oppurtunities.slidingHeader": "Current Openings",
+    "oppurtunities.search.placeholder": "Search by role,skill,location",
+    "jobList.jobOpenings": [
+        {
+            "id": "NOWIT-JO-001",
+            "section": "development",
+            "role": "MERN Stack Developer",
+            "detailedRole": "Full Stack JavaScript Developer",
+            "location": "Amaravathi, Andhra Pradesh, India",
+            "type": "Full-time",
+            "experience": "2+ years",
+            "description": "Bachelor’s degree in Computer Science, Engineering, or equivalent experience. Strong understanding of full-stack JavaScript development and modern web technologies.",
+            "requirements": [
+                "Strong knowledge of MongoDB, Express.js, React, Node.js",
+                "REST API development",
+                "Git version control"
+            ],
+            "skills": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "JavaScript"
+            ],
+            "projectRole": "Software Developer",
+            "projectDescription": "Building and maintaining scalable full-stack web applications using MERN stack.",
+            "educationalQualifications": "Bachelor’s degree in CS or related field",
+            "benefits": [
+                "Health Insurance",
+                "Performance Bonus",
+                "Flexible Work Hours"
+            ],
+            "summary": "Exciting opportunity for a skilled MERN Stack Developer.",
+            "postedDate": "2024-06-01"
+        },
+        {
+            "id": "NOWIT-JO-002",
+            "section": "development",
+            "role": "Mobile App Developer",
+            "detailedRole": "React Native / Flutter Developer",
+            "location": "Amaravathi, Andhra Pradesh, India",
+            "type": "Full-time",
+            "experience": "2+ years",
+            "description": "Develop and maintain high-quality mobile applications for Android and iOS platforms.",
+            "requirements": [
+                "Experience in React Native or Flutter",
+                "API Integration",
+                "App deployment to Play Store/App Store"
+            ],
+            "skills": [
+                "React Native",
+                "Flutter",
+                "Firebase",
+                "REST APIs",
+                "TypeScript"
+            ],
+            "projectRole": "Mobile Developer",
+            "projectDescription": "Building cross-platform mobile applications with seamless UI/UX.",
+            "educationalQualifications": "Bachelor’s degree in CS or equivalent",
+            "benefits": [
+                "Health Insurance",
+                "App Release Bonus",
+                "Paid Leave"
+            ],
+            "summary": "Build innovative mobile apps for growing digital platforms.",
+            "postedDate": "2024-06-05"
+        },
+        {
+            "id": "NOWIT-JO-003",
+            "section": "development",
+            "role": "Cloud Engineer",
+            "detailedRole": "AWS / Azure Cloud Specialist",
+            "location": "Amaravathi, Andhra Pradesh, India",
+            "type": "Full-time",
+            "experience": "2+ years",
+            "description": "Design, deploy, and manage scalable cloud infrastructure and services.",
+            "requirements": [
+                "Hands-on AWS/Azure experience",
+                "CI/CD pipelines",
+                "Docker & Kubernetes knowledge"
+            ],
+            "skills": [
+                "AWS",
+                "Azure",
+                "Docker",
+                "Kubernetes",
+                "DevOps"
+            ],
+            "projectRole": "Cloud Infrastructure Engineer",
+            "projectDescription": "Managing cloud infrastructure and ensuring system reliability and scalability.",
+            "educationalQualifications": "B.Tech / BE in Computer Science or IT",
+            "benefits": [
+                "Cloud Certification Sponsorship",
+                "Health Insurance",
+                "Flexible Timing"
+            ],
+            "summary": "Opportunity to architect and manage secure cloud systems.",
+            "postedDate": "2024-06-10"
+        },
+        {
+            "id": "NOWIT-JO-004",
+            "section": "uiuxdesigning",
+            "role": "UI/UX Designer",
+            "detailedRole": "Product Designer",
+            "location": "Amaravathi, Andhra Pradesh, India",
+            "type": "Full-time",
+            "experience": "2+ years",
+            "description": "Design intuitive and visually appealing interfaces for web and mobile applications.",
+            "requirements": [
+                "Proficiency in Figma / Adobe XD",
+                "Wireframing & Prototyping",
+                "User research knowledge"
+            ],
+            "skills": [
+                "Figma",
+                "Adobe XD",
+                "Prototyping",
+                "User Research",
+                "Design Systems"
+            ],
+            "projectRole": "UI/UX Designer",
+            "projectDescription": "Creating seamless user experiences and interactive product designs.",
+            "educationalQualifications": "Degree in Design / Multimedia",
+            "benefits": [
+                "Creative Freedom",
+                "Design Workshops",
+                "Flexible Hours"
+            ],
+            "summary": "Shape engaging and user-friendly digital experiences.",
+            "postedDate": "2024-06-12"
+        },
+        {
+            "id": "NOWIT-JO-005",
+            "section": "management",
+            "role": "Business Development Manager",
+            "detailedRole": "Strategic Growth Manager",
+            "location": "Amaravathi, Andhra Pradesh, India",
+            "type": "Full-time",
+            "experience": "2+ years",
+            "description": "Drive company growth by identifying new business opportunities and building client relationships.",
+            "requirements": [
+                "Strong communication skills",
+                "Sales & negotiation expertise",
+                "Market research capability"
+            ],
+            "skills": [
+                "Sales Strategy",
+                "Lead Generation",
+                "CRM Tools",
+                "Negotiation",
+                "Market Analysis"
+            ],
+            "projectRole": "Business Growth Manager",
+            "projectDescription": "Expanding market presence and achieving revenue targets.",
+            "educationalQualifications": "MBA / Bachelor’s in Business Administration",
+            "benefits": [
+                "Performance Incentives",
+                "Travel Allowance",
+                "Health Benefits"
+            ],
+            "summary": "Lead strategic initiatives to drive business expansion.",
+            "postedDate": "2024-06-15"
+        },
+        {
+            "id": "NOWIT-JO-006",
+            "section": "internship",
+            "role": "Software Developers (Internship)",
+            "detailedRole": "Full Stack Development Intern",
+            "location": "Amaravathi, Andhra Pradesh, India",
+            "type": "Internship",
+            "experience": "3 months - 1 year",
+            "description": "Opportunity for students or freshers to gain hands-on experience in real-time projects.",
+            "requirements": [
+                "Basic knowledge of HTML, CSS, JavaScript",
+                "Eagerness to learn",
+                "Problem-solving skills"
+            ],
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React Basics",
+                "Git"
+            ],
+            "projectRole": "Intern Developer",
+            "projectDescription": "Assist senior developers in building and maintaining web applications.",
+            "educationalQualifications": "Pursuing / Completed Bachelor’s in CS or IT",
+            "benefits": [
+                "Internship Certificate",
+                "Stipend",
+                "Pre-placement Offer Opportunity"
+            ],
+            "summary": "Kickstart your career in software development.",
+            "postedDate": "2024-06-18"
+        },
+        {
+            "id": "NOWIT-JO-007",
+            "section": "internship",
+            "role": "Cloud Engineers (Internship)",
+            "detailedRole": "AWS / Azure Cloud Intern",
+            "location": "Amaravathi, Andhra Pradesh, India",
+            "type": "Internship",
+            "experience": "3 months - 1 year",
+            "description": "Gain hands-on experience in cloud infrastructure, deployment, and DevOps practices under senior cloud engineers.",
+            "requirements": [
+                "Basic knowledge of AWS or Azure",
+                "Understanding of Linux fundamentals",
+                "Basic knowledge of networking concepts"
+            ],
+            "skills": [
+                "AWS Basics",
+                "Azure Basics",
+                "Linux",
+                "Docker Fundamentals",
+                "Git"
+            ],
+            "projectRole": "Cloud Intern",
+            "projectDescription": "Assist in managing cloud environments, monitoring infrastructure, and supporting deployment pipelines.",
+            "educationalQualifications": "Pursuing / Completed Bachelor’s in CS, IT, or related field",
+            "benefits": [
+                "Internship Certificate",
+                "Hands-on Cloud Training",
+                "Stipend",
+                "Pre-placement Offer Opportunity"
+            ],
+            "summary": "Start your career in Cloud Engineering with real-time infrastructure projects.",
+            "postedDate": "2024-06-20"
+        }
+    ],
+    "jobList.jobSections": [
+        {
+            "name": "allroles",
+            "label": "All Roles"
+        },
+        {
+            "name": "development",
+            "label": "Development"
+        },
+        {
+            "name": "uiuxdesigning",
+            "label": "ui/ux designing"
+        },
+        {
+            "name": "qatesting",
+            "label": "qa / testing"
+        }
+    ]
+}
