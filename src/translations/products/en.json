@@ -135,5 +135,79 @@
     "becomepartner.title.middle": "Together",
     "becomepartner.title.suffix": "Through Partnership",
     "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
-    "becomepartner.becomepartner": "Become a Partner"
+    "becomepartner.becomepartner": "Become a Partner",
+    "headerOptions": [
+        {
+            "name": "home",
+            "label": "Home",
+            "link": "/",
+            "options": []
+        },
+        {
+            "name": "about us",
+            "label": "About Us",
+            "link": "/aboutus",
+            "options": []
+        },
+        {
+            "name": "services",
+            "label": "Services",
+            "link": "/",
+            "options": [
+                {
+                    "name": "smart marketing",
+                    "label": "Smart Marketing",
+                    "link": "/"
+                },
+                {
+                    "name": "business launch",
+                    "label": "Business Launch",
+                    "link": "/"
+                },
+                {
+                    "name": "professional services",
+                    "label": "Professional Services",
+                    "link": "/"
+                },
+                {
+                    "name": "migration",
+                    "label": "Migration",
+                    "link": "/"
+                },
+                {
+                    "name": "training services",
+                    "label": "Training Services",
+                    "link": "/"
+                },
+                {
+                    "name": "messaging services",
+                    "label": "Messaging Services",
+                    "link": "/"
+                },
+                {
+                    "name": "ip filing services",
+                    "label": "IP Filing Services",
+                    "link": "/"
+                }
+            ]
+        },
+        {
+            "name": "products",
+            "label": "Products",
+            "link": "/products",
+            "options": []
+        },
+        {
+            "name": "blog",
+            "label": "Blog",
+            "link": "/blog",
+            "options": []
+        },
+        {
+            "name": "careers",
+            "label": "Careers",
+            "link": "/careers",
+            "options": []
+        }
+    ]
 }

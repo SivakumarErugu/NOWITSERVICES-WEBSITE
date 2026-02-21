@@ -49,7 +49,7 @@ export const quickLinks = [
     { name: 'careers', label: 'Careers', link: '/careers', icon: '', },
 ]
 
-export const ServicesLinks = [
+export const bussinessPartnerships = [
     { name: 'become a partner', label: 'Become a Partner', link: '/become-a-partner' },
     { name: 'become an Invester', label: 'Become an Invester', link: '/become-a-partner' },
 ]

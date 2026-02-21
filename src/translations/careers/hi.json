@@ -182,5 +182,8 @@
     { "name": "development", "label": "डेवलपमेंट" },
     { "name": "uiuxdesigning", "label": "UI / UX डिज़ाइनिंग" },
     { "name": "qatesting", "label": "QA / टेस्टिंग" }
-  ]
+  ],
+  "jobList.applyNow": "अभी आवेदन करें",
+  "jobList.viewMore": "और देखें",
+  "jobList.noResults": "आपकी खोज से मेल खाने वाली कोई नौकरी उपलब्ध नहीं है"
 }

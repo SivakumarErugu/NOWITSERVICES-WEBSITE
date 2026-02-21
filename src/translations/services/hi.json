@@ -260,5 +260,79 @@
     "bussinessBanner.title.suffix": "लॉन्च के लिए",
     "bussinessBanner.line2.title": "और अपने व्यवसाय को स्केल करें",
     "bussinessBanner.description": "हमारे विशेषज्ञों से बात करें।",
-    "bussinessBanner.buttonText": "संपर्क करें"
+    "bussinessBanner.buttonText": "संपर्क करें",
+    "headerOptions": [
+  {
+    "name": "home",
+    "label": "होम",
+    "link": "/",
+    "options": []
+  },
+  {
+    "name": "about us",
+    "label": "हमारे बारे में",
+    "link": "/aboutus",
+    "options": []
+  },
+  {
+    "name": "services",
+    "label": "सेवाएँ",
+    "link": "/",
+    "options": [
+      {
+        "name": "smart marketing",
+        "label": "स्मार्ट मार्केटिंग",
+        "link": "/"
+      },
+      {
+        "name": "business launch",
+        "label": "बिज़नेस लॉन्च",
+        "link": "/"
+      },
+      {
+        "name": "professional services",
+        "label": "प्रोफेशनल सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "migration",
+        "label": "माइग्रेशन",
+        "link": "/"
+      },
+      {
+        "name": "training services",
+        "label": "ट्रेनिंग सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "messaging services",
+        "label": "मैसेजिंग सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "ip filing services",
+        "label": "आईपी फाइलिंग सेवाएँ",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "name": "products",
+    "label": "प्रोडक्ट्स",
+    "link": "/products",
+    "options": []
+  },
+  {
+    "name": "blog",
+    "label": "ब्लॉग",
+    "link": "/blog",
+    "options": []
+  },
+  {
+    "name": "careers",
+    "label": "करियर",
+    "link": "/careers",
+    "options": []
+  }
+]
 }

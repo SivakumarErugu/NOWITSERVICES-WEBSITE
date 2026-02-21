@@ -9,76 +9,118 @@
   "vision.description1": "बुद्धिमान डिजिटल समाधानों के माध्यम से नवाचार को आगे बढ़ाना जो वास्तविक व्यावसायिक चुनौतियों का समाधान करें।",
   "vision.description2": "हम निरंतर सीखने, अनुकूलनशीलता और सोच-समझकर क्रियान्वयन के लिए प्रतिबद्ध हैं।",
   "vision.description3": "हम मानते हैं कि मजबूत तकनीक जिम्मेदारी और सतत विकास के साथ बनाई जाती है।",
-
   "journey.title": "हमारी",
   "journey.span": "यात्रा",
   "journey.description": "भरोसेमंद तकनीक के साथ ब्रांड्स को आगे बढ़ाना।",
   "journey.List": [
-    { "suffix": "20", "description": "यूनाइटेड किंगडम में एक टेक्नोलॉजी कंसल्टिंग कंपनी के रूप में स्थापना" },
-    { "suffix": "21", "description": "भारत में AspireSystems, Qbrainx और UST Global के लिए टेक कंसल्टिंग सेवाओं की शुरुआत" },
-    { "suffix": "22", "description": "डेवलपमेंट टीम को मजबूत कर भारत में संचालन का विस्तार" },
-    { "suffix": "23", "description": "प्रोडक्ट इनोवेशन और स्केलेबल SaaS आर्किटेक्चर पर ध्यान" },
-    { "suffix": "24", "description": "WON Apps ब्रांड के तहत प्रोडक्ट-आधारित कंपनी के रूप में शुरुआत" },
-    { "suffix": "25", "description": "पहला SaaS प्लेटफ़ॉर्म लॉन्च कर WON App Store का विस्तार" },
-    { "suffix": "26", "description": "WON App Store में पाँच प्लेटफ़ॉर्म तक विस्तार" }
+    {
+      "suffix": "20",
+      "description": "यूनाइटेड किंगडम में एक टेक्नोलॉजी कंसल्टिंग कंपनी के रूप में स्थापना"
+    },
+    {
+      "suffix": "21",
+      "description": "भारत में AspireSystems, Qbrainx और UST Global के लिए टेक कंसल्टिंग सेवाओं की शुरुआत"
+    },
+    {
+      "suffix": "22",
+      "description": "डेवलपमेंट टीम को मजबूत कर भारत में संचालन का विस्तार"
+    },
+    {
+      "suffix": "23",
+      "description": "प्रोडक्ट इनोवेशन और स्केलेबल SaaS आर्किटेक्चर पर ध्यान"
+    },
+    {
+      "suffix": "24",
+      "description": "WON Apps ब्रांड के तहत प्रोडक्ट-आधारित कंपनी के रूप में शुरुआत"
+    },
+    {
+      "suffix": "25",
+      "description": "पहला SaaS प्लेटफ़ॉर्म लॉन्च कर WON App Store का विस्तार"
+    },
+    {
+      "suffix": "26",
+      "description": "WON App Store में पाँच प्लेटफ़ॉर्म तक विस्तार"
+    }
   ],
-
   "aboutUs.description": "हम अगली पीढ़ी के स्मार्ट फुटवियर प्लेटफ़ॉर्म पर पेटेंट रखते हैं जो रोज़मर्रा की गतिविधियों को उपयोगी स्वास्थ्य जानकारी में बदलता है।",
-
   "chooseus.title": "क्यों",
   "chooseus.span": "हमें चुनें",
   "chooseus.description": "विश्वसनीय तकनीक से वास्तविक परिणाम।",
   "chooseus.List": [
-    { "id": 1, "title": "यूज़र-फर्स्ट सोच", "description": "वास्तविक उपयोगकर्ता आवश्यकताओं पर आधारित समाधान।" },
-    { "id": 2, "title": "AI-संचालित बुद्धिमत्ता", "description": "प्रक्रियाओं को स्वचालित करने के लिए AI का समझदारी से उपयोग।" },
-    { "id": 3, "title": "क्लाउड-फर्स्ट दृष्टिकोण", "description": "व्यवसाय के साथ बढ़ने वाले क्लाउड आर्किटेक्चर।" },
-    { "id": 4, "title": "एंड-टू-एंड जिम्मेदारी", "description": "विचार से लेकर डिलीवरी तक पूर्ण जिम्मेदारी।" },
-    { "id": 5, "title": "इंडस्ट्री-केंद्रित समाधान", "description": "वास्तविक उद्योग चुनौतियों के अनुरूप।" },
-    { "id": 6, "title": "स्केल के लिए डिज़ाइन", "description": "दीर्घकालिक प्रदर्शन और विश्वसनीयता।" },
-    { "id": 7, "title": "पारदर्शिता और विश्वास", "description": "स्पष्ट संवाद और मापने योग्य परिणाम।" }
+    {
+      "id": 1,
+      "title": "यूज़र-फर्स्ट सोच",
+      "description": "वास्तविक उपयोगकर्ता आवश्यकताओं पर आधारित समाधान।"
+    },
+    {
+      "id": 2,
+      "title": "AI-संचालित बुद्धिमत्ता",
+      "description": "प्रक्रियाओं को स्वचालित करने के लिए AI का समझदारी से उपयोग।"
+    },
+    {
+      "id": 3,
+      "title": "क्लाउड-फर्स्ट दृष्टिकोण",
+      "description": "व्यवसाय के साथ बढ़ने वाले क्लाउड आर्किटेक्चर।"
+    },
+    {
+      "id": 4,
+      "title": "एंड-टू-एंड जिम्मेदारी",
+      "description": "विचार से लेकर डिलीवरी तक पूर्ण जिम्मेदारी।"
+    },
+    {
+      "id": 5,
+      "title": "इंडस्ट्री-केंद्रित समाधान",
+      "description": "वास्तविक उद्योग चुनौतियों के अनुरूप।"
+    },
+    {
+      "id": 6,
+      "title": "स्केल के लिए डिज़ाइन",
+      "description": "दीर्घकालिक प्रदर्शन और विश्वसनीयता।"
+    },
+    {
+      "id": 7,
+      "title": "पारदर्शिता और विश्वास",
+      "description": "स्पष्ट संवाद और मापने योग्य परिणाम।"
+    }
   ],
-
   "brands.span": "ब्रांड्स",
   "brands.title": "जो हम पर भरोसा करते हैं",
   "brands.description": "विश्वास और परिणामों पर आधारित साझेदारियाँ।",
-
   "projects.title": "प्रोजेक्ट्स",
   "projects.description": "हमारी विशेषज्ञता को दर्शाने वाले प्रोजेक्ट्स",
   "projects.List": [
     {
       "id": 1,
-      "title": "WON Bill",
+      "title": "वॉन बिल",
       "description": "एंटरप्राइज़ बिलिंग ऑटोमेशन प्लेटफ़ॉर्म।",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
     },
     {
       "id": 2,
-      "title": "WON Digi",
+      "title": "वॉन डिजी",
       "description": "स्कूल और संस्थानों के लिए डिजिटल प्रबंधन प्लेटफ़ॉर्म।",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
     },
     {
       "id": 3,
-      "title": "WON Pulse",
+      "title": "वॉन पल्स",
       "description": "संपूर्ण अस्पताल और स्वास्थ्य प्रबंधन प्रणाली।",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
     },
     {
       "id": 4,
-      "title": "WON Hubs",
+      "title": "वॉन हब्स",
       "description": "WON इकोसिस्टम का केंद्रीय इंफ्रास्ट्रक्चर प्लेटफ़ॉर्म।",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
     {
       "id": 5,
-      "title": "WON Bridge",
+      "title": "वॉन ब्रिज",
       "description": "एंटरप्राइज़ सिस्टम्स को जोड़ने वाला इंटीग्रेशन प्लेटफ़ॉर्म।",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
     }
   ],
-
   "projects.viewAll": "सभी प्रोडक्ट्स देखें",
-
   "testimonials.slidingTitle": "प्रशंसापत्र",
   "testimonials.title.prefix": "परिणामों से",
   "testimonials.title.suffix": "निर्मित विश्वास",
@@ -101,10 +143,83 @@
       "text": "दीर्घकालिक और भरोसेमंद तकनीकी साझेदार।"
     }
   ],
-
   "becomepartner.title.prefix": "साथ",
   "becomepartner.title.middle": "बढ़ें",
   "becomepartner.title.suffix": "साझेदारी के माध्यम से",
   "becomepartner.description": "NowIT Services के साथ साझेदारी करें और नवाचार करें।",
-  "becomepartner.becomepartner": "पार्टनर बनें"
+  "becomepartner.becomepartner": "पार्टनर बनें",
+  "headerOptions": [
+  {
+    "name": "home",
+    "label": "होम",
+    "link": "/",
+    "options": []
+  },
+  {
+    "name": "about us",
+    "label": "हमारे बारे में",
+    "link": "/aboutus",
+    "options": []
+  },
+  {
+    "name": "services",
+    "label": "सेवाएँ",
+    "link": "/",
+    "options": [
+      {
+        "name": "smart marketing",
+        "label": "स्मार्ट मार्केटिंग",
+        "link": "/"
+      },
+      {
+        "name": "business launch",
+        "label": "बिज़नेस लॉन्च",
+        "link": "/"
+      },
+      {
+        "name": "professional services",
+        "label": "प्रोफेशनल सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "migration",
+        "label": "माइग्रेशन",
+        "link": "/"
+      },
+      {
+        "name": "training services",
+        "label": "ट्रेनिंग सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "messaging services",
+        "label": "मैसेजिंग सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "ip filing services",
+        "label": "आईपी फाइलिंग सेवाएँ",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "name": "products",
+    "label": "प्रोडक्ट्स",
+    "link": "/products",
+    "options": []
+  },
+  {
+    "name": "blog",
+    "label": "ब्लॉग",
+    "link": "/blog",
+    "options": []
+  },
+  {
+    "name": "careers",
+    "label": "करियर",
+    "link": "/careers",
+    "options": []
+  }
+]
 }

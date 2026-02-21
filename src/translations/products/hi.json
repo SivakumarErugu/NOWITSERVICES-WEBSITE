@@ -135,5 +135,79 @@
   "becomepartner.title.middle": "आगे बढ़ें",
   "becomepartner.title.suffix": "साझेदारी के माध्यम से",
   "becomepartner.description": "NowIT Services के साथ साझेदारी करें और अनुकूलित समाधान प्रदान करें।",
-  "becomepartner.becomepartner": "साझेदार बनें"
+  "becomepartner.becomepartner": "साझेदार बनें",
+  "headerOptions": [
+  {
+    "name": "home",
+    "label": "होम",
+    "link": "/",
+    "options": []
+  },
+  {
+    "name": "about us",
+    "label": "हमारे बारे में",
+    "link": "/aboutus",
+    "options": []
+  },
+  {
+    "name": "services",
+    "label": "सेवाएँ",
+    "link": "/",
+    "options": [
+      {
+        "name": "smart marketing",
+        "label": "स्मार्ट मार्केटिंग",
+        "link": "/"
+      },
+      {
+        "name": "business launch",
+        "label": "बिज़नेस लॉन्च",
+        "link": "/"
+      },
+      {
+        "name": "professional services",
+        "label": "प्रोफेशनल सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "migration",
+        "label": "माइग्रेशन",
+        "link": "/"
+      },
+      {
+        "name": "training services",
+        "label": "ट्रेनिंग सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "messaging services",
+        "label": "मैसेजिंग सेवाएँ",
+        "link": "/"
+      },
+      {
+        "name": "ip filing services",
+        "label": "आईपी फाइलिंग सेवाएँ",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "name": "products",
+    "label": "प्रोडक्ट्स",
+    "link": "/products",
+    "options": []
+  },
+  {
+    "name": "blog",
+    "label": "ब्लॉग",
+    "link": "/blog",
+    "options": []
+  },
+  {
+    "name": "careers",
+    "label": "करियर",
+    "link": "/careers",
+    "options": []
+  }
+]
 }

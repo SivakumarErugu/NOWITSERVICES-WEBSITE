@@ -288,7 +288,7 @@ export const CustomHeading = ({
 
 
 
-export const ReadBlogBtn = ({ href }) => {
+export const ReadBlogBtn = ({ href ,text}) => {
   return (
     <Link
       href={href}
@@ -313,7 +313,7 @@ export const ReadBlogBtn = ({ href }) => {
 
       {/* Content */}
       <span className="relative z-10 text-md inline-flex items-center gap-1 hover:scale-102">
-        Read More <GoArrowUpRight />
+        {text || "Read More"} <GoArrowUpRight />
       </span>
     </Link>
   );

@@ -12,9 +12,10 @@ import { useRouter, usePathname } from "next/navigation";
 import Link from 'next/link';
 import LanguageSwitcher from './languageSelection';
 
+
 const Header = () => {
 
-    const { setActiveService,setActiveTab } = useNowit();
+    const { setActiveService, setActiveTab } = useNowit();
 
     const pathname = usePathname();
     const router = useRouter();
@@ -25,6 +26,9 @@ const Header = () => {
     const [arrowLeft, setArrowLeft] = useState(0);
     const [mobileOpen, setMobileOpen] = useState(false);
     const [mobileSub, setMobileSub] = useState(null);
+    const [translatedHeaderOptions, setTranslatedHeaderOptions] = useState(headerOptions);// added by sandhya
+    const [ContactUs, setContactUs] = useState('');
+    const {t,isReady} = useNowit();
 
     const navRefs = useRef({});
     const menuWrapperRef = useRef(null);
@@ -51,6 +55,15 @@ const Header = () => {
             if (item.link) router.prefetch(item.link);
         });
     }, [router]);
+    //  getting translated list 
+    useEffect(() => {
+      if(!isReady) return;
+        const List = t("headerOptions");
+        console.log(List,"translated Header options")
+        setTranslatedHeaderOptions(List);
+        const contactUs=t("contactUs");
+        setContactUs(contactUs);
+    }, [t,isReady]);
 
     /* ---------------- SAFE NAVIGATION ---------------- */
     const navigate = (path) => {
@@ -114,6 +127,8 @@ const Header = () => {
         setMobileSub(prev => (prev === item.name ? null : item.name));
     };
 
+
+
     return (
         <header className="relative w-full bg-linear-to-b from-[#E5EFF8] to-white z-50">
 
@@ -127,7 +142,7 @@ const Header = () => {
 
                 {/* DESKTOP NAV */}
                 <ul className="hidden lg:flex gap-8">
-                    {headerOptions.map((each, i) => {
+                    {translatedHeaderOptions.map((each, i) => {
                         const hasOptions = each.options.length > 0;
 
                         return (
@@ -181,7 +196,7 @@ const Header = () => {
                         styles="w-[150px] h-[32px] !font-medium !rounded-md"
                         onClick={() => router.push('/contactUs')}
                     >
-                        Contact Us
+                       {ContactUs}
                     </ThemeBtnTag>
                 </div>
 
@@ -213,7 +228,7 @@ const Header = () => {
                 >
                     <div className="bg-white border border-gray-200 rounded-lg shadow-xl px-12 py-8 w-[90%] xl:w-[80%] max-w-7xl">
                         <div className="grid grid-cols-4 gap-x-14 gap-y-10">
-                            {headerOptions
+                            {translatedHeaderOptions
                                 .find(item => item.name === openMenu)
                                 ?.options.map((opt, idx) => (
                                     <button
@@ -241,7 +256,7 @@ const Header = () => {
                     </div>
 
                     <div className="p-6 px-8 space-y-4">
-                        {headerOptions.map((item, i) => (
+                        {translatedHeaderOptions.map((item, i) => (
                             <div key={i}>
                                 <button
                                     onClick={() => handleMobileNav(item)}

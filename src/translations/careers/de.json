@@ -35,5 +35,6 @@
     {"name":"development","label":"Entwicklung"},
     {"name":"uiuxdesigning","label":"UI/UX Design"},
     {"name":"qatesting","label":"QA / Testing"}
-  ]
+  ],
+  "jobList.applyNow":"Jetzt Bewerben"
 }

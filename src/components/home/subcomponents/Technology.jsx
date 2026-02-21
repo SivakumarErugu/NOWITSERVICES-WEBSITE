@@ -21,8 +21,8 @@ const stats = [
 ]
 
 const Technology = () => {
-    const { t, isReady,activeTab } = useNowit();
-console.log(t("banner.title"), "Translation function test in Technology component") // Test translation function    
+    const { t, isReady, activeTab } = useNowit();
+
 
     if (!isReady) return null; // or skeleton loader
     return (
@@ -44,15 +44,16 @@ console.log(t("banner.title"), "Translation function test in Technology componen
             {/* TEXT SECTION */}
             <div className="max-w-[900px] text-center flex flex-col gap-4 px-4">
                 <h1 className="ibmPlex-text font-bold text-[32px] md:text-[52px] leading-tight text-[#1F2937]">
-                    <span className="text-[#0D5BD7] block">{t("banner.span")||"Building technology"}</span>
-                   {t("banner.title")||"that makes an impact."}
+                    <span className="text-[#0D5BD7] block">{t("banner.span") || "Building technology"}</span>
+                    {t("banner.title") || "that makes an impact."}
                 </h1>
 
-                <p className="ibmPlex-text text-[15px] md:text-[19px] leading-relaxed text-[#6B7280]">
-                    {t("banner.description1")||"We build scalable digital solutions across web, mobile, and cloud."}
+                {isReady && <p className="ibmPlex-text text-[15px] md:text-[19px] leading-relaxed text-[#6B7280]">
+                    {t("banner.description1") || "We build scalable digital solutions across web, mobile, and cloud."}
                     <br className="hidden md:block" />
-                    {t("banner.description2")||"We help businesses solve real challenges through smart, reliable technology."}
+                    {t("banner.description2") || "We help businesses solve real challenges through smart, reliable technology."}
                 </p>
+                }
             </div>
 
             {/* THE CONTINUOUS IMAGE STRIP */}

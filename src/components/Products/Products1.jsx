@@ -16,6 +16,7 @@ const Products1 = () => {
   const router = useRouter();
   const [isRaised, setIsRaised] = useState(false);
   const { t, isReady } = useNowit();
+  if(!isReady) return null; // or skeleton loader
 
   return (
     <section

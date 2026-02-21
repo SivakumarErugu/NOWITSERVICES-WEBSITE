@@ -6,8 +6,11 @@ import { RxSewingPinFilled } from "react-icons/rx";
 import blogbg from "../../../public/images/blog/blogbg.jpg"
 
 import React from 'react'
+import { useNowit } from "@/store/useNowit";
 
 const Banner = () => {
+    const {t,isReady}=useNowit()
+    if(!isReady) return null;
     return (
         <div>
             {/* Animated Background */}
@@ -40,14 +43,14 @@ const Banner = () => {
         text-2xl sm:text-3xl md:text-4xl lg:text-5xl
       "
                 >
-                    Technology Insights for
+                   {t("banner.title")}
                     <span
                         className="
           block mt-2
           text-3xl sm:text-4xl md:text-5xl lg:text-6xl
         "
                     >
-                        Modern Businesses
+                       {t("banner.span")}
                     </span>
                 </motion.h1>
 
@@ -64,7 +67,7 @@ const Banner = () => {
       "
                 >
                     <RxSewingPinFilled className="w-5 h-5 sm:w-6 sm:h-6" />
-                    <span>Scroll to explore</span>
+                    <span>{t("banner.scroll")}</span>
                 </motion.div>
 
             </div>

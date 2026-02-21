@@ -6,8 +6,9 @@ import HeroSection from "./Hero1";
 import { useNowit } from "@/store/useNowit";
 
 const BannerSection = () => {
-  const { t } = useNowit();
+  const { t ,isReady} = useNowit();
   // console.log(t("banner.subtitle"), "Triggering Hereeee ")
+  if(!isReady) return null;
   return (
     <section className="relative w-full overflow-hidden bg-[#eef5ff] min-h-[820px]">
 

@@ -182,7 +182,6 @@ const JobList = ({ searchTerm = "" }) => {
   const [translatedJobOpenings, setTranslatedJobOpenings] = useState(jobOpenings);
   const [translatedJobSections, setTranslatedJobSections] = useState(jobSections);
 
-
   /* ----------------------------------------
      TRANSLATE COMPLETE LIST ON LANGUAGE CHANGE
   ----------------------------------------- */
@@ -211,7 +210,7 @@ const JobList = ({ searchTerm = "" }) => {
   ----------------------------------------- */
 
   const sectionFilteredJobs = useMemo(() => {
-
+if(translatedJobOpenings.length === 0) return [];
     return translatedJobOpenings.filter(job =>
       selectedSection === "allroles"
         ? true
@@ -261,6 +260,8 @@ const JobList = ({ searchTerm = "" }) => {
     setVisibleJobs(prev => prev + 6);
   };
 
+
+  if (!isReady) return;
 
   return (
     <div className="w-full px-4 sm:px-6 lg:px-0">
@@ -325,7 +326,7 @@ const JobList = ({ searchTerm = "" }) => {
             <div className="mt-auto pt-4 flex justify-end">
               <Link href={`careers/${job.id}`}>
                 <button className="px-4 h-10 bg-white rounded-md flex items-center gap-2">
-                  Apply Now <GoArrowUpRight size={20} />
+                 {t("jobList.applyNow")} <GoArrowUpRight size={20} />
                 </button>
               </Link>
             </div>
@@ -353,7 +354,7 @@ const JobList = ({ searchTerm = "" }) => {
             onClick={handleViewMore}
             className="mb-5 w-64 px-4 py-2 bg-[#55B233] text-white rounded-md flex items-center justify-center gap-2"
           >
-            View More <IoIosArrowRoundForward size={22} />
+           {t("jobList.viewMore")} <IoIosArrowRoundForward size={22} />
           </button>
         </div>
       )}

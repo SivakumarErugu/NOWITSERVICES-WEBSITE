@@ -388,5 +388,79 @@
     "bussinessBanner.title.suffix": "To Launch",
     "bussinessBanner.line2.title": "And Scale Your Business",
     "bussinessBanner.description": "Talk to our experts to explore how our services can support your goals and drive long-term growth.",
-    "bussinessBanner.buttonText": "Get in Touch"
+    "bussinessBanner.buttonText": "Get in Touch",
+    "headerOptions": [
+        {
+            "name": "home",
+            "label": "Home",
+            "link": "/",
+            "options": []
+        },
+        {
+            "name": "about us",
+            "label": "About Us",
+            "link": "/aboutus",
+            "options": []
+        },
+        {
+            "name": "services",
+            "label": "Services",
+            "link": "/",
+            "options": [
+                {
+                    "name": "smart marketing",
+                    "label": "Smart Marketing",
+                    "link": "/"
+                },
+                {
+                    "name": "business launch",
+                    "label": "Business Launch",
+                    "link": "/"
+                },
+                {
+                    "name": "professional services",
+                    "label": "Professional Services",
+                    "link": "/"
+                },
+                {
+                    "name": "migration",
+                    "label": "Migration",
+                    "link": "/"
+                },
+                {
+                    "name": "training services",
+                    "label": "Training Services",
+                    "link": "/"
+                },
+                {
+                    "name": "messaging services",
+                    "label": "Messaging Services",
+                    "link": "/"
+                },
+                {
+                    "name": "ip filing services",
+                    "label": "IP Filing Services",
+                    "link": "/"
+                }
+            ]
+        },
+        {
+            "name": "products",
+            "label": "Products",
+            "link": "/products",
+            "options": []
+        },
+        {
+            "name": "blog",
+            "label": "Blog",
+            "link": "/blog",
+            "options": []
+        },
+        {
+            "name": "careers",
+            "label": "Careers",
+            "link": "/careers",
+            "options": []
+        }
+    ]
 }

@@ -8,12 +8,15 @@ import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io"
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader"
 import { ReadBlogBtn } from "../shared/UI-Elements/Custom-Elements"
 import { blogs } from "./utils"
+import { useNowit } from "@/store/useNowit"
 
 const CARD_GAP = 24 // gap-x-6
 
 const LatestBlogs = () => {
   const [index, setIndex] = useState(0)
   const [visibleCount, setVisibleCount] = useState(3)
+  const [translatedBlogs,setTranslatedBlogs]=useState(blogs)
+  const {t,isReady}=useNowit()
 
   /* ---------------- RESPONSIVE COUNT ---------------- */
   useEffect(() => {
@@ -27,6 +30,14 @@ const LatestBlogs = () => {
     window.addEventListener("resize", updateVisibleCount)
     return () => window.removeEventListener("resize", updateVisibleCount)
   }, [])
+
+  // added by sandhya
+   useEffect(() => {
+        if (isReady) {
+            const data = t("blogs")       
+            setTranslatedBlogs(data?.data || [])
+        }
+    }, [t, isReady])
 
   const canNext = index + visibleCount < blogs.length
   const canPrev = index > 0
@@ -69,7 +80,7 @@ const LatestBlogs = () => {
           }}
           transition={{ type: "spring", stiffness: 260, damping: 30 }}
         >
-          {blogs.map((blog, idx) => (
+          {translatedBlogs.map((blog, idx) => (
             <div
               key={idx}
               className="shrink-0 pr-6"
@@ -101,7 +112,7 @@ const LatestBlogs = () => {
                     {blog.excerpt}
                   </p>
 
-                  <ReadBlogBtn href={`blog/${blog.slug}`} />
+                  <ReadBlogBtn href={`blog/${blog.slug}`} text={t("blogs.readMore")}/>
                 </div>
               </div>
             </div>

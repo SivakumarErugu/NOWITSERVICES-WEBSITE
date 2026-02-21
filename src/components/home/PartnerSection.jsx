@@ -17,6 +17,7 @@ const PartnerSection = () => {
   const [hoverKey, setHoverKey] = useState(0);
   const router = useRouter();
   const { t, isReady } = useNowit()
+  if(!isReady) return null; 
   
   return (
     <section id="partnerSectionHome" className="w-full py-10 px-4 lg:px-8">

@@ -5,7 +5,8 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useNowit } from '@/store/useNowit';
 const OurVision = () => {
-  const { t } = useNowit()
+  const { t, isReady } = useNowit()
+  if(!isReady) return null; // or skeleton loader
   return (
     <section className="w-full flex justify-center py-24 bg-white">
       {/* FRAME (1240 × 473.68) */}

@@ -29,17 +29,20 @@ const ClientCardComponent = () => {
     const CARD_WIDTH = 280; // card + gap
     const MOBILE_DURATION = 1.8;
     const [testimonials, setTestimonials] = useState(testimonialsList);
-    const { t } = useNowit();
-    useEffect(() => {
-        const translatedList = t("testimonials.list", { returnObjects: true })
+    const { t,isReady } = useNowit();
+    if(!isReady) return null;
 
-        if (Array.isArray(translatedList) && translatedList.length > 0) {
-            // console.log("Translated List:", translatedList); // Debugging log
-            setTestimonials(translatedList)
-        } else {
-            setTestimonials(testimonials)
-        }
-    }, [t])
+    // useEffect(() => {
+    //     if (!isReady) return;
+    //     const translatedList = t("testimonials.list", { returnObjects: true })
+
+    //     if (Array.isArray(translatedList) && translatedList.length > 0) {
+    //         // console.log("Translated List:", translatedList); // Debugging log
+    //         setTestimonials(translatedList)
+    //     } else {
+    //         setTestimonials(testimonials)
+    //     }
+    // }, [t, isReady]);
     return (
         <section className="w-full px-4 lg:px-8 mb-15">
             <div className="mx-auto px-1 lg:px-6">

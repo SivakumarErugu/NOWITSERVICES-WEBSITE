@@ -1,15 +1,17 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import { IoBookOutline } from 'react-icons/io5'
-
-
 import { ReadBlogBtn } from '@/components/shared/UI-Elements/Custom-Elements'
 import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader'
-
+import { useNowit } from '@/store/useNowit'
 const SimilarBlogs = ({ relatedDesc, blogs = [] }) => {
+    const {t,isReady} = useNowit()
+    if(!isReady) return null
     return (
         <div className="mt-16">
-            <SlidingHeader title="Similar Blogs" size="60px" />
+            <SlidingHeader title={t("blogs.similarBlogs")} size="60px" />
             <div className="mt-2 text-black/70 text-sm ">
                 {relatedDesc}
             </div>
@@ -52,7 +54,7 @@ const SimilarBlogs = ({ relatedDesc, blogs = [] }) => {
 
                                     {/* Push button to bottom */}
                                     <div className="mt-auto pt-3">
-                                        <ReadBlogBtn href={`/blog/${blog.slug}`} />
+                                        <ReadBlogBtn href={`/blog/${blog.slug}`} text={t("blogs.readMore")} />
                                     </div>
                                 </div>
 

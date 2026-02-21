@@ -1,0 +1,171 @@
+{
+    "banner.title": "Technology Insights for ",
+    "banner.span": "Modern Businesses",
+    "banner.scroll": "SCROLL TO EXPLORE",
+    "blogs": {
+        "data": [
+            {
+                "id": "1",
+                "top": "1",
+                "tags": [
+                    "AI",
+                    "Cloud"
+                ],
+                "slug": "future-of-ai-and-cloud",
+                "title": "Exploring the Future of AI and Cloud",
+                "excerpt": "How AI and cloud computing are shaping modern enterprises.",
+                "publishedAt": "May 11, 2024",
+                "readingTime": "6 min read",
+                "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+                "author": "NOW IT Team",
+                "content": "## The Convergence of AI and Cloud\n\nAI and cloud platforms are transforming enterprise infrastructure.\n\n> Cloud + AI enables scalable, intelligent systems.\n\n### Key Benefits\n\n- **Predictive Scaling** – Automatic resource management\n- **Security** – AI-driven threat detection\n- **Efficiency** – Reduced operational cost\n\n<Highlight title=\"Key Takeaways\">\n- AI improves scalability\n- Automation reduces cost\n- Faster decisions\n</Highlight>"
+            },
+            {
+                "id": "2",
+                "top": "2",
+                "tags": [
+                    "Migration",
+                    "Cloud"
+                ],
+                "slug": "why-cloud-migration-matters",
+                "title": "Why Cloud Migration Matters",
+                "excerpt": "Understanding the real impact of cloud migration.",
+                "publishedAt": "June 02, 2024",
+                "readingTime": "5 min read",
+                "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+                "author": "NOW IT Team",
+                "content": "## Cloud Migration Explained\n\nCloud migration allows businesses to modernize IT systems.\n\n### Advantages\n\n- Faster deployment\n- Cost optimization\n- Global scalability"
+            },
+            {
+                "id": "3",
+                "top": "3",
+                "tags": [
+                    "Cybersecurity",
+                    "AI"
+                ],
+                "slug": "cybersecurity-in-ai-era",
+                "title": "Cybersecurity in the AI Era",
+                "excerpt": "How AI is reshaping digital security.",
+                "publishedAt": "June 18, 2024",
+                "readingTime": "7 min read",
+                "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+                "author": "Security Team",
+                "content": "## AI-Driven Security\n\nAI enables real-time threat detection and response.\n\n> Security is no longer reactive — it's predictive."
+            },
+            {
+                "id": "4",
+                "tags": [
+                    "Architecture",
+                    "Web Development"
+                ],
+                "slug": "scalable-web-architecture",
+                "title": "Building Scalable Web Architecture",
+                "excerpt": "Best practices for scalable web systems.",
+                "publishedAt": "July 01, 2024",
+                "readingTime": "8 min read",
+                "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+                "author": "Engineering Team",
+                "content": "## Scalable Architecture Principles\n\n- Stateless services\n- Horizontal scaling\n- Cloud-native design"
+            },
+            {
+                "id": "5",
+                "tags": [
+                    "DevOps",
+                    "AI"
+                ],
+                "slug": "future-of-devops",
+                "title": "The Future of DevOps",
+                "excerpt": "How DevOps is evolving with AI.",
+                "publishedAt": "July 15, 2024",
+                "readingTime": "6 min read",
+                "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+                "author": "DevOps Team",
+                "content": "## Exploring The Future Of Intelligence And Cloud-Powered Innovation\n\nIn the rapidly evolving landscape of enterprise technology, cloud computing has emerged as the backbone of modern business operations. As organizations move deeper into digital transformation, artificial intelligence is fundamentally reshaping how cloud infrastructure is designed, managed, and optimized.\n\n## The Convergence of AI and Cloud\n\nThe integration of AI into cloud platforms represents more than an incremental improvement — it marks a paradigm shift in how computational resources are consumed. Machine learning algorithms now analyze system behavior, predict demand, and automate infrastructure decisions that previously required extensive manual oversight.\n\nMajor cloud providers such as AWS, Azure, and Google Cloud have heavily invested in AI-powered tools that make cloud infrastructure more intelligent, resilient, and cost-effective. These advancements allow organizations of all sizes to leverage enterprise-grade capabilities that were once accessible only to large technology firms.\n\n<Callout>\n“The future of cloud computing is not just about storage and processing power — it’s about intelligent systems that can adapt, learn, and optimize themselves in real time.”  \n— Dr. Sarah Williams, Cloud Architecture Expert\n</Callout>\n\n## Key Benefits of AI-Powered Cloud Infrastructure\n\n<BenefitItem title=\"Predictive Scaling\">\nAI algorithms analyze usage patterns to automatically scale resources before demand spikes occur, ensuring optimal performance while minimizing unnecessary infrastructure costs.\n</BenefitItem>\n\n<BenefitItem title=\"Proactive Security\">\nMachine learning models continuously monitor system behavior to detect anomalies and potential threats, enabling faster response times and improved security posture.\n</BenefitItem>\n\n<BenefitItem title=\"Operational Efficiency\">\nAutomation powered by AI reduces manual intervention, streamlines workflows, and allows engineering teams to focus on innovation rather than maintenance.\n</BenefitItem>\n\n## Real-World Impact on Modern Enterprises\n\nOrganizations adopting AI-native cloud strategies are seeing tangible benefits across multiple dimensions — from reduced operational overhead to improved system reliability. By embedding intelligence directly into infrastructure layers, businesses can respond more quickly to market changes and customer needs.\n\nThis shift also enables more data-driven decision-making, as AI systems continuously surface insights that would otherwise remain hidden in complex operational data.\n\n<Takeaways items={[\"AI-powered cloud infrastructure offers significant advantages in scalability, security, and cost management\", \"A phased implementation approach helps organizations realize value while managing operational risk\", \"Investing in team training and development is essential for successful AI adoption\", \"Early adopters of AI-native cloud strategies are more likely to gain long-term competitive advantages\"]} />\n\n## Looking Ahead\n\nAs AI technologies continue to mature, their integration with cloud platforms will only deepen. Organizations that begin building AI-ready cloud foundations today will be better positioned to adapt, innovate, and compete in an increasingly intelligent digital economy.\n\nThe future of cloud computing is not just scalable — it’s intelligent."
+            }
+        ]
+    },
+    "blogs.readMore": "Read More",
+    "blogs.latest":"Latest Blogs",
+    "blogs.similarBlogs":"Similar Blogs",
+    "blogs.share":"Share",
+    "newsletter.title":"Stay Updated with Latest Insights",
+    "newsletter.description":"  Subscribe to our newsletter and get weekly updates on cloud computing, AI, and enterprise technology trends.",
+    "newsletter.subscribe":"Subscribe",
+    "newsletter.subscribing":"Subscribing...",
+    "newsletter.spam":"No spam. Unsubscribe anytime.",
+    "newsletter.emailPlaceholder":"Enter your email address",
+    "headerOptions": [
+        {
+            "name": "home",
+            "label": "Home",
+            "link": "/",
+            "options": []
+        },
+        {
+            "name": "about us",
+            "label": "About Us",
+            "link": "/aboutus",
+            "options": []
+        },
+        {
+            "name": "services",
+            "label": "Services",
+            "link": "/",
+            "options": [
+                {
+                    "name": "smart marketing",
+                    "label": "Smart Marketing",
+                    "link": "/"
+                },
+                {
+                    "name": "business launch",
+                    "label": "Business Launch",
+                    "link": "/"
+                },
+                {
+                    "name": "professional services",
+                    "label": "Professional Services",
+                    "link": "/"
+                },
+                {
+                    "name": "migration",
+                    "label": "Migration",
+                    "link": "/"
+                },
+                {
+                    "name": "training services",
+                    "label": "Training Services",
+                    "link": "/"
+                },
+                {
+                    "name": "messaging services",
+                    "label": "Messaging Services",
+                    "link": "/"
+                },
+                {
+                    "name": "ip filing services",
+                    "label": "IP Filing Services",
+                    "link": "/"
+                }
+            ]
+        },
+        {
+            "name": "products",
+            "label": "Products",
+            "link": "/products",
+            "options": []
+        },
+        {
+            "name": "blog",
+            "label": "Blog",
+            "link": "/blog",
+            "options": []
+        },
+        {
+            "name": "careers",
+            "label": "Careers",
+            "link": "/careers",
+            "options": []
+        }
+    ]
+}

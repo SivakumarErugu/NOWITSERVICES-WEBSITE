@@ -5,8 +5,10 @@ import { LuMailOpen } from "react-icons/lu";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { toast } from "sonner";
+import { useNowit } from "@/store/useNowit";
 
 const NewsletterCard = () => {
+  const { t, isReady } = useNowit()
   const subscribeToNewsletter = async (email) => {
     try {
       const response = await fetch("/api/news-letter", {
@@ -58,6 +60,7 @@ const NewsletterCard = () => {
       setSubmitting(false);
     },
   });
+  if (!isReady) return null;
 
   return (
     <div className="w-full flex justify-center mt-8 sm:mt-10">
@@ -78,13 +81,13 @@ const NewsletterCard = () => {
 
         {/* Heading */}
         <h2 className="text-center text-xl sm:text-2xl font-semibold mb-2">
-          Stay Updated with Latest Insights
+          {t("newsletter.title")}
         </h2>
 
         {/* Sub text */}
         <p className="text-center text-sm text-white/80 max-w-2xl mx-auto mb-6">
-          Subscribe to our newsletter and get weekly updates on cloud computing,
-          AI, and enterprise technology trends.
+          {t("newsletter.description")}
+
         </p>
 
         {/* Form */}
@@ -95,7 +98,7 @@ const NewsletterCard = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="Enter your email address"
+                placeholder={t("newsletter.emailPlaceholder")}
                 value={formik.values.email}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -130,13 +133,13 @@ const NewsletterCard = () => {
               disabled:opacity-60
             "
             >
-              {formik.isSubmitting ? "Subscribing..." : "Subscribe"}
+              {formik.isSubmitting ? t("newsletter.subscribing") : t("newsletter.subscribe")}
             </button>
           </div>
         </form>
 
         <p className="text-center text-xs mt-6 sm:mt-8 text-white/70">
-          No spam. Unsubscribe anytime.
+          {t("newsletter.spam")}
         </p>
       </div>
     </div>

@@ -24,25 +24,25 @@ const Services4 = () => {
       description: value.description,
       image: value.Services1.image,
     }));
-  console.log(services, "services Hereee...")
+  // console.log(services, "services Hereee...")
   const [translatedServices, setTranslatedServices] = useState(services);
 
-useEffect(() => {
-  if (!isReady) return;
+  useEffect(() => {
+    if (!isReady) return;
 
-  const bundledData = t("servicesData", { returnObjects: true });
+    const bundledData = t("servicesData", { returnObjects: true });
 
-  const api_getted_data = Object.entries(bundledData)
-    .filter(([key]) => key !== activeService)
-    .map(([key, value]) => ({
-      key,
-      title: value?.title || "",
-      description: value?.description || "",
-      image: value?.Services1?.image || value?.mainimage || "",
-    }));
+    const api_getted_data = Object.entries(bundledData)
+      .filter(([key]) => key !== activeService)
+      .map(([key, value]) => ({
+        key,
+        title: value?.title || "",
+        description: value?.description || "",
+        image: value?.Services1?.image || value?.mainimage || "",
+      }));
 
-  setTranslatedServices(api_getted_data);
-}, [t, isReady, activeService]);
+    setTranslatedServices(api_getted_data);
+  }, [t, isReady, activeService]);
 
   /* ---------- DESKTOP INDEX (MOVE 1 BY 1) ---------- */
   const [startIndex, setStartIndex] = useState(0);
