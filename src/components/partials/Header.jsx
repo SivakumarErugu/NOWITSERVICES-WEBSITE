@@ -11,7 +11,19 @@ import Image from 'next/image';
 import { useRouter, usePathname } from "next/navigation";
 import Link from 'next/link';
 import LanguageSwitcher from './languageSelection';
+const languages = [
+    { value: 'en', label: 'EN-English' },
 
+    { value: 'es', label: 'ES-Spanish' },
+    { value: 'fr', label: 'FR-French' },
+    { value: 'ar', label: 'AR-Arabic' },
+    { value: 'pt', label: 'PT-Portuguese' },
+    { value: 'de', label: 'DE-German' },
+    { value: 'hi', label: 'HI-Hindi' },
+    { value: 'ja', label: 'JA-Japanese' },
+    { value: 'ru', label: 'RU-Russian' },
+    { value: 'zh', label: 'ZH-Chinese' }
+];
 
 const Header = () => {
     const { setActiveService, setActiveTab } = useNowit();
@@ -26,9 +38,7 @@ const Header = () => {
     const [mobileSub, setMobileSub] = useState(null);
     const [translatedHeaderOptions, setTranslatedHeaderOptions] = useState(headerOptions);// added by sandhya
     const [ContactUs, setContactUs] = useState('');
-    const { tc, isReady } = useNowit();
-
-
+    const { tc, isReady, locale, changeLanguage } = useNowit();
     const navRefs = useRef({});
     const menuWrapperRef = useRef(null);
 
@@ -60,7 +70,7 @@ const Header = () => {
 
         const list = tc("headerOptions");
         console.log(list
-            
+
         )
 
         if (Array.isArray(list)) {
@@ -131,7 +141,6 @@ const Header = () => {
             navigate(item.link);
             return;
         }
-
         setMobileSub(prev => (prev === item.name ? null : item.name));
     };
 
@@ -191,13 +200,12 @@ const Header = () => {
                 </ul>
 
 
-                <div className='w-[76px] h-[20px]'>
-                    <LanguageSwitcher />
-                </div>
+
 
 
                 {/* DESKTOP CONTACT */}
-                <div className="hidden lg:block">
+                <div className="hidden lg:flex">
+                    <LanguageSwitcher />
                     <ThemeBtnTag
                         styles="w-[150px] h-[32px] !font-medium !rounded-md"
                         onClick={() => router.push('/contactUs')}
@@ -296,7 +304,43 @@ const Header = () => {
                                 )}
                             </div>
                         ))}
+                        {/* <LanguageSwitcher isMobile onSelect={() => { setMobileOpen(false) }} /> */}
+                        {/* Language Section */}
+                        <div>
+                            <button
+                                onClick={() =>
+                                    setMobileSub(mobileSub === "language" ? null : "language")
+                                }
+                                className="w-full flex justify-between items-center text-md font-medium text-black"
+                                suppressHydrationWarning
+                            >
+                                Language
+                                <IoIosArrowDown
+                                    className={`transition-transform ${mobileSub === "language" ? "rotate-180" : ""
+                                        }`}
+                                />
+                            </button>
 
+                            {mobileSub === "language" && (
+                                <div className="mt-3 pl-6 space-y-3">
+                                    {languages.map((lang) => (
+                                        <div
+                                            key={lang.value}
+                                            onClick={() => {
+                                                changeLanguage(lang.value);
+                                                setMobileOpen(false);
+                                            }}
+                                            className={`cursor-pointer text-sm ${locale === lang.value
+                                                ? "text-[#0A66C2] font-medium"
+                                                : "text-gray-600 hover:text-[#0A66C2]"
+                                                }`}
+                                        >
+                                            {lang.label}
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
                         <ThemeBtnTag
                             styles="w-full h-[40px] mt-6"
                             onClick={() => {

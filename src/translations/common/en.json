@@ -17,13 +17,41 @@
       "label": "Services",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "Smart Marketing", "link": "/" },
-        { "name": "business launch", "label": "Business Launch", "link": "/" },
-        { "name": "professional services", "label": "Professional Services", "link": "/" },
-        { "name": "migration", "label": "Migration", "link": "/" },
-        { "name": "training services", "label": "Training Services", "link": "/" },
-        { "name": "messaging services", "label": "Messaging Services", "link": "/" },
-        { "name": "ip filing services", "label": "IP Filing Services", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "Smart Marketing",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "Business Launch",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "Professional Services",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "Migration",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "Training Services",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "Messaging Services",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "IP Filing Services",
+          "link": "/"
+        }
       ]
     },
     {
@@ -45,51 +73,87 @@
       "options": []
     }
   ],
-  "contactUs":"contactUs",
-  
+  "contactUs": "contactUs",
   "footer": {
     "description": "A digital transformation partner delivering cloud-first, AI-driven solutions that enable scalable growth and operational excellence.",
-
     "socialMedia": [
-      { "name": "linkedin", "link": "https://linkedin.com" },
-      { "name": "twitter", "link": "https://twitter.com" },
-      { "name": "instagram", "link": "https://instagram.com" }
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com/company/nowitservices/",
+        "icon":"FaLinkedin"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.linkedin.com/company/nowitservices/",
+        "icon":""
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_nowitservices_/",
+        "icon":"FaInstagram"
+      },
+        {
+        "name": "youtube",
+        "link": "https://www.youtube.com/@NOWITSERVICES-j7k",
+        "icon":"FaYoutube"
+      }
     ],
-
     "quickLinks": {
       "title": "Quick Links",
       "items": [
-        { "label": "Home", "link": "/" },
-        { "label": "About Us", "link": "/about-us" },
-        { "label": "Services", "link": "/services" },
-        { "label": "Products", "link": "/products" }
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "About Us",
+          "link": "/aboutus"
+        },
+        {
+          "label": "Services",
+          "link": "/services"
+        },
+        {
+          "label": "Products",
+          "link": "/products"
+        }
       ]
     },
-
     "services": {
       "title": "Business Partnerships",
       "items": [
-        { "label": "Enterprise Solutions", "link": "/services" },
-        { "label": "AI & Automation", "link": "/services" }
+        {
+          "label": "Enterprise Solutions",
+          "link": "/services"
+        },
+        {
+          "label": "AI & Automation",
+          "link": "/services"
+        }
       ]
     },
-
     "legal": {
       "title": "Legal & Compliance",
       "items": [
-        { "label": "Privacy Policy", "link": "/privacy" },
-        { "label": "Terms & Conditions", "link": "/terms" }
+        {
+          "label": "Privacy Policy",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Cookie Policy",
+          "link": "/terms-privacy-cookie-policy"
+        }
       ]
     },
-
-    "copyright":
-      "© 2026 Nowit Services. All rights reserved."
+    "copyright": "© 2026 Nowit Services. All rights reserved."
   },
-  
   "contact": {
     "title": "Let’s Start the Conversation",
     "subtitle": "Share your requirement and our team will connect with you",
-
     "labels": {
       "name": "Name",
       "email": "Email Id",
@@ -97,7 +161,6 @@
       "date": "Preferred Contact Date & Time",
       "message": "Message"
     },
-
     "placeholders": {
       "name": "Enter your Name",
       "email": "Enter your Email",
@@ -105,7 +168,6 @@
       "date": "Select date & time",
       "message": "Enter Message"
     },
-
     "button": {
       "send": "Send",
       "sending": "Sending..."
@@ -128,7 +190,146 @@
       "title": "GERMANY",
       "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
     }
-  ]
-
-
+  ],
+  "organizationForm": {
+    "organizationDetails": {
+      "title": "Organization Details",
+      "description": "Help us understand your organization and business background.",
+      "sectionTitle": "Organization data",
+      "sectionHint": "Specify exactly as in your passport"
+    },
+    "otherDetails": {
+      "title": "Other Details",
+      "description": "Share your contact information and investment interests so we can connect with you."
+    },
+    "fields": {
+      "companyName": "Company Name",
+      "entityType": "Type of Entity",
+      "country": "Country",
+      "city": "City",
+      "website": "Website (Optional)",
+      "fullName": "Full Name",
+      "email": "Email",
+      "role": "Role",
+      "phone": "Phone",
+      "interestNature": "Nature of Interest",
+      "primaryInterest": "Primary Interest",
+      "attachment": "Optional Attachment",
+      "message": "Message"
+    },
+    "checkbox": {
+      "confirm": "I confirm that the information provided is true and accurate.",
+      "consent": "I agree to be contacted by the organization for further discussion."
+    },
+    "buttons": {
+      "next": "Next",
+      "back": "Back",
+      "send": "Send",
+      "sending": "Sending..."
+    },
+    "validation": {
+      "companyName": "Company name is required",
+      "entityType": "Entity type is required",
+      "country": "Country is required",
+      "city": "City is required",
+      "fullName": "Full name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "role": "Role is required",
+      "phone": "Contact number is required",
+      "message": "Message is required",
+      "messageMax": "Message cannot exceed 500 characters"
+    },
+    "options": {
+      "entityType": [
+        {
+          "value": "Start Up",
+          "label": "Start Up"
+        },
+        {
+          "value": "Enterprise",
+          "label": "Enterprise"
+        }
+      ],
+      "role": [
+        {
+          "value": "Founder",
+          "label": "Founder"
+        },
+        {
+          "value": "Partner",
+          "label": "Partner"
+        }
+      ],
+      "interestNature": [
+        {
+          "value": "Investor",
+          "label": "Investor"
+        }
+      ],
+      "primaryInterest": [
+        {
+          "value": "Strategic Partnership",
+          "label": "Strategic Partnership"
+        }
+      ],
+      "investmentSize": [
+        {
+          "value": "Upto 10Cr",
+          "label": "Upto 10Cr"
+        }
+      ],
+      "timeline": [
+        {
+          "value": "6-12 Months",
+          "label": "6-12 Months"
+        }
+      ]
+    },
+    "toast": {
+      "success": "Form submitted successfully",
+      "failure": "Submission failed. Please try again.",
+      "serverError": "Failed to submit."
+    }
+  },
+  "jobApplicationForm": {
+    "applicationForm": "Application Form",
+    "personalInformation": "PersonalInformation",
+    "slidingText": "Current Openings",
+    "jobid": "Job ID",
+    "projectRole": "Project Role",
+    "ApplyForThisJob": "Apply For This Job",
+    "JobDescription": "Job Description",
+    "experience": "Experience Required",
+    "prodescription": "Project Description",
+    "skills": "skills",
+    "education": "Education Qualifications",
+    "benifits": "Benifits",
+    "summary": "Summary",
+    "application": "Application Form",
+    "personal": "Personal Information",
+    "fname": "First Name",
+    "lname": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "resume": "Resume",
+    "cletter": "CoverLetter",
+    "certifications": "Certifications",
+    "cuurentpack": "Current Package",
+    "expectedpack": "Expected Package",
+    "company": "Company Name",
+    "role": "Role / Position",
+    "start": "Start Date",
+    "end": "End Date",
+    "tSkills": "Technical Skills",
+    "scertifications": "Skills & Cerifications",
+    "submit": "Submit",
+    "submitting": "Submitting",
+    "workExperience": "Work Experience",
+    "placeholders.coverletter": "Tell us why you'd be a great fit for our team...",
+    "placeholders.resume": "Drag your resume here or ",
+    "placeholders.file": "Acceptable file types:PDF,DoCX (5MB max)",
+    "placeholders.certifications": "AWS Certified Devoloper,PMP...",
+    "placeholders.skills": "JavaScript,React,Nodejs..."
+  }
 }

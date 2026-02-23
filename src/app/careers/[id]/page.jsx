@@ -2,6 +2,7 @@ import React from 'react';
 import JobDetailView from '@/components/careers/OpportunitiesHub/JobDetailView';
 import { jobOpenings } from '@/components/careers/utils';
 import { notFound } from 'next/navigation';
+import JobDetailViewComponent from './JobDetailViewComponent';
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
@@ -24,15 +25,16 @@ export async function generateMetadata({ params }) {
 const Page = async ({ params }) => {
   const { id } = await params;
 
-  const job = jobOpenings.find(job => job.id === id);
+  // const job = jobOpenings.find(job => job.id === id);
 
-  if (!job) {
-    notFound();
-  }
+  // if (!job) {
+  //   notFound();
+  // }
 
   return (
     <div className="w-full flex flex-col px-5 md:px-20 py-4">
-      <JobDetailView job={job} />
+      {/* <JobDetailView job={job} /> */}
+      <JobDetailViewComponent id={id} />
     </div>
   );
 };

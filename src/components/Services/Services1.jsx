@@ -28,7 +28,7 @@ const Services1 = () => {
 
     return (
         <section className="w-full flex justify-center py-2 lg:py-3 bg-white md:mb-10">
-            <div className="w-full px-5 md:px-8 lg:px-15 md:relative">
+            <div className="w-full px-5 md:px-8 lg:px-15 md:relative ">
 
                 {/* HEADING */}
                 <div

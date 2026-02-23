@@ -16,6 +16,7 @@ export default function AIAssistButton({ onClick }) {
         bg-gradient-to-b from-[#8FD37A] to-[#0B4B8A]
         shadow-lg hover:scale-105 transition text-white
       "
+      suppressHydrationWarning
     >
       <BsStars />
     </button>

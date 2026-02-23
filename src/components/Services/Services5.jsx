@@ -9,6 +9,7 @@ import Services5Image2 from "../../../public/images/ServicesImages/Services5Imag
 import Services5Image3 from "../../../public/images/ServicesImages/Services5Image3.jpg"
 import Services5Image4 from "../../../public/images/ServicesImages/Services5Image4.jpg"
 import Services5Image5 from "../../../public/images/ServicesImages/Services5Image5.jpg"
+
 import { image } from "framer-motion/client"
 import { useNowit } from "@/store/useNowit";
 
@@ -113,9 +114,9 @@ const Services5 = () => {
                                     {tab}
                                 </button>
                             ))} */}
-                            {translatedTabs?.map((tab) => (
+                            {translatedTabs.length>0 && translatedTabs?.map((tab) => (
                                 <button
-                                    key={tab}
+                                    key={tab.key}
                                     onClick={() => setActiveTab(tab.key)}
                                     className={`pb-1 md:pb-2 text-sm md:text-base transition-all duration-300 shrink-0 px-2 cursor-pointer
           ${activeTab === tab

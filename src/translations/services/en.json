@@ -180,7 +180,8 @@
             "Services2": {
                 "heading": "What’s Included in",
                 "highlight": "Professional Services",
-                "description": "Strategic insight with technical expertise.",
+                "description": "Our Professional Services help enterprises plan, build, and optimize scalable technology solutions. We work closely with your teams to improve systems, streamline processes, and deliver measurable business results.",
+                "spantext": "Professional consulting services starting at $15/hour.",
                 "cards": [
                     {
                         "title": "Strategic Business & IT Consulting",

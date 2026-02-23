@@ -50,6 +50,7 @@ const Services2 = () => {
                            
                             {translatedData.description}
                         </p>
+                        <p className='text-[#0b5ed7] ibmPlex-text font-bold'>{translatedData.spantext}</p>
 
                     </div>
 

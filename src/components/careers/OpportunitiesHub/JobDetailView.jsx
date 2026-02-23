@@ -3,7 +3,7 @@ import React from 'react';
 import ApplicationForm from './ApplicationForm';
 import { MdEmail } from "react-icons/md";
 
-const JobDetailView = ({ job }) => {
+const JobDetailView = ({ job ,data}) => {
     if (!job) return null;
 
     return (
@@ -42,8 +42,7 @@ const JobDetailView = ({ job }) => {
                     <a href='#jobApplicationForm' className='text-sm group relative overflow-hidden w-full md:w-50 h-9 px-4 bg-[#55B233] text-white rounded-md flex items-center justify-center gap-x-2 cursor-pointer!'>
                         <span className="absolute inset-0 bg-[#0D5293] scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-600 ease-in-out"></span>
                         <span className="relative flex items-center gap-x-1 ">
-                            Apply For This Job
-                        </span>
+                           {data.ApplyForThisJob}                         </span>
                     </a>
 
                 </div>
@@ -52,7 +51,7 @@ const JobDetailView = ({ job }) => {
             {/* ================= DESCRIPTION ================= */}
             <section className="max-w-full">
                 <h3 className="text-xl md:text-2xl text-[#04192D] font-semibold mb-3 ibmPlex-text">
-                    Job Description
+                   {data.JobDescription}
                 </h3>
 
                 <div className="space-y-2 text-xs md:text-sm text-gray-400 max-w-full">
@@ -81,7 +80,7 @@ const JobDetailView = ({ job }) => {
             {/* ================= BENEFITS ================= */}
             <section className="max-w-full">
                 <h3 className="text-sm text-[#252525C7] mb-2 md:mb-3 font-semibold">
-                    Benefits :
+                    {data.benifits} :
                 </h3>
 
                 <div className="flex flex-wrap gap-3 max-w-full">
@@ -101,15 +100,15 @@ const JobDetailView = ({ job }) => {
             {/* ================= SUMMARY ================= */}
             <section className="max-w-full inter-text">
                 <p className="wrap-break-word whitespace-normal">
-                    <strong className="text-[#252525C7] md:tex-sm text-[13px]">Summary:</strong>
+                    <strong className="text-[#252525C7] md:tex-sm text-[13px]">{data.summary}:</strong>
                     <span className="text-xs md:text-sm text-gray-400"> {job.summary}</span>
                 </p>
             </section>
 
 
             <div className='' id='jobApplicationForm'>
-                <h5 className='text-[#04192D] font-bold text-xl ibmPlex-text'>Application Form</h5>
-                <ApplicationForm id={job.id} sysRole={job.role} />
+                <h5 className='text-[#04192D] font-bold text-xl ibmPlex-text'>{data.applicationForm}</h5>
+                <ApplicationForm id={job.id} sysRole={job.role} data={data}/>
             </div>
 
             <div className='flex items-center justify-center text-[#252525BD] '>

@@ -12,6 +12,8 @@ import { getNames } from "country-list";
 import ProgressBar from "@/components/shared/UI-Elements/ProgressBar";
 import { GoArrowUpRight } from "react-icons/go";
 import { toast } from "sonner";
+import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 
 /* ---------- OPTIONS ---------- */
 const ENTITY_OPTIONS = [
@@ -92,6 +94,7 @@ const FieldError = ({ name, touched, errors }) =>
 
 export default function OrganizationForm() {
   const [step, setStep] = useState(1);
+  const {tc,commonReady}=useNowit();
 
   const submitInvestorForm = async (values) => {
     const formData = new FormData();
@@ -113,6 +116,10 @@ export default function OrganizationForm() {
 
     return response.json();
   }
+  if(!commonReady)return <Loading />
+  const organizationForm=tc("organizationForm")
+  if(!organizationForm)return null
+  const {organizationDetails,otherDetails,fields,checkbox,buttons,validation,options,toast} = organizationForm
 
 
   return (
@@ -163,11 +170,10 @@ export default function OrganizationForm() {
                     {" "}
                     <h3 className="text-black font-bold text-2xl">
                       {" "}
-                      Organization Details{" "}
+                     {organizationDetails.title}{" "}
                     </h3>{" "}
                     <p className="text-sm text-gray-500">
-                      Help us understand your organization and business
-                      background.
+                     {organizationDetails.description}
                     </p>{" "}
                   </div>
 
@@ -177,18 +183,18 @@ export default function OrganizationForm() {
                       {" "}
                       <h2 className="text-lg font-semibold">
                         {" "}
-                        Organization data{" "}
+                       {organizationDetails.sectionTitle}{" "}
                       </h2>{" "}
                       <span className="text-sm text-gray-500">
-                        Specify exactly as in your passport
+                      {organizationDetails.sectionHint}
                       </span>{" "}
                     </div>
                     
                     <div className="h-23">
-                      <label className="label">Company Name*</label>
+                      <label className="label">{fields.companyName}*</label>
                       <Field name="companyName" className="input" />
                       <FieldError
-                        name="companyName"
+                        name={validation.companyName}
                         touched={touched}
                         errors={errors}
                       />
@@ -196,13 +202,13 @@ export default function OrganizationForm() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                       <div>
                         <Field
-                          name="entityType"
+                          name={fields.entityType}
                           component={FormikReactSelect}
-                          label="Type of Entity*"
-                          options={ENTITY_OPTIONS}
+                          label={fields.entityType}
+                          options={options.entityType}
                         />
                         <FieldError
-                          name="entityType"
+                          name={validation.entityType}
                           touched={touched}
                           errors={errors}
                         />
@@ -210,13 +216,13 @@ export default function OrganizationForm() {
 
                       <div >
                         <Field
-                          name="country"
+                          name={fields.country}
                           component={FormikReactSelect}
-                          label="Country*"
+                          label={fields.country}
                           options={COUNTRY_OPTIONS}
                         />
                         <FieldError
-                          name="country"
+                          name={validation.country}
                           touched={touched}
                           errors={errors}
                         />
@@ -224,17 +230,17 @@ export default function OrganizationForm() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                       <div>
-                        <label className="label">City*</label>
+                        <label className="label">{fields.city}*</label>
                         <Field name="city" className="input" />
                         <FieldError
-                          name="city"
+                          name={validation.city}
                           touched={touched}
                           errors={errors}
                         />
                       </div>
 
                       <div>
-                        <label className="label">Website (Optional)</label>
+                        <label className="label">{fields.website}</label>
                         <Field name="website" className="input" />
                       </div>
                     </div>
@@ -274,7 +280,7 @@ export default function OrganizationForm() {
                         group-hover:scale-105
                       `}
                         >
-                          Next <GoArrowUpRight className="text-lg" />
+                          {buttons.next} <GoArrowUpRight className="text-lg" />
                         </span>
                       </button>
                     </div>
@@ -293,28 +299,27 @@ export default function OrganizationForm() {
                     {" "}
                     <h3 className="text-black font-bold text-2xl">
                       {" "}
-                      Other Details{" "}
+                      {otherDetails.title}{" "}
                     </h3>{" "}
                     <p className="text-sm text-gray-500">
-                      Share your contact information and investment interests so
-                      we can connect with you.
+                   {otherDetails.description}
                     </p>{" "}
                   </div>
 
                   <div className="border border-gray-300 p-4 sm:p-8 rounded-lg space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                       <div className="h-23">
-                        <label className="label">Full Name*</label>
+                        <label className="label">{fields.fullName}*</label>
                         <Field name="fullName" className="input" />
                         <FieldError
-                          name="fullName"
+                          name={validation.fullName}
                           touched={touched}
                           errors={errors}
                         />
                       </div>
 
                       <div className="h-23">
-                        <label className="label">Email*</label>
+                        <label className="label">{fields.email}*</label>
                         <Field name="email" className="input" />
                         <FieldError
                           name="email"
@@ -327,16 +332,16 @@ export default function OrganizationForm() {
                         <Field
                           name="role"
                           component={FormikReactSelect}
-                          label="Role*"
-                          options={ROLE_OPTIONS}
+                          label={fields.role}
+                          options={options.role}
                         />
                       </div>
 
                       <div className="h-23">
-                        <label className="label">Phone*</label>
+                        <label className="label">{fields.phone}*</label>
                         <Field name="phone" className="input" />
                         <FieldError
-                          name="phone"
+                          name={validation.phone}
                           touched={touched}
                           errors={errors}
                         />
@@ -345,21 +350,21 @@ export default function OrganizationForm() {
                       <Field
                         name="interestNature"
                         component={FormikReactSelect}
-                        label="Nature of Interest*"
+                        label={fields.interestNature}
                         options={INTEREST_OPTIONS}
                       />
 
                       <Field
                         name="primaryInterest"
                         component={FormikReactSelect}
-                        label="Primary Interest*"
+                        label={fields.primaryInterest}
                         options={PRIMARY_INTEREST_OPTIONS}
                       />
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
                       <div>
-                        <label className="label">Optional Attachment</label>
+                        <label className="label">{fields.attachment}</label>
                         <input
                           type="file"
                           className="input"
@@ -369,7 +374,7 @@ export default function OrganizationForm() {
                         />
                       </div>
                       <div>
-                        <label className="label">Message*</label>
+                        <label className="label">{fields.message}*</label>
                         <Field
                           as="textarea"
                           name="message"
@@ -386,11 +391,11 @@ export default function OrganizationForm() {
 
                   <label className="flex items-start gap-2 text-sm">
                     <Field type="checkbox" name="confirm" />
-                    I Confirm that the information provided is true and accurate.
+                   {checkbox.confirm}
                   </label>
 
                   <label className="flex items-start gap-2 text-sm">
-                    <Field type="checkbox" name="consent" />I agree to be contacted by the organization for further discussion.
+                    <Field type="checkbox" name="consent" />{checkbox.consent}
                   </label>
 
                   <div className="flex flex-col sm:flex-row gap-4 sm:justify-between">
@@ -399,7 +404,7 @@ export default function OrganizationForm() {
                       className="btn-secondary h-10 px-6 rounded-lg w-full sm:w-auto"
                       onClick={() => setStep(1)}
                     >
-                      Back
+                      {buttons.back}
                     </button>
 
                     <button
@@ -424,7 +429,7 @@ export default function OrganizationForm() {
                       )}
 
                       <span className="relative z-10 inline-flex items-center gap-2">
-                        {isSubmitting ? "Sending..." : <>Send <GoArrowUpRight /></>}
+                        {isSubmitting ? buttons.sending : <>{buttons.send} <GoArrowUpRight /></>}
                       </span>
                     </button>
 

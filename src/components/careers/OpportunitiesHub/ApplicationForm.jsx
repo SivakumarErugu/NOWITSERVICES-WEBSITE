@@ -68,7 +68,7 @@ const initialValues = {
 
 
 
-export default function ApplicationForm({ id, sysRole }) {
+export default function ApplicationForm({ id, sysRole,data }) {
 
     const submitApplication = async (values) => {
         try {
@@ -122,15 +122,15 @@ export default function ApplicationForm({ id, sysRole }) {
                 <Form className="max-w-full my-5 bg-white p-3 md:p-8 rounded-lg border border-gray-300 space-y-2 md:space-y-10">
 
                     {/* ================= PERSONAL INFORMATION ================= */}
-                    <Section title="Personal Information">
+                    <Section title={data.personalInformation}>
                         <TwoCol>
-                            <Input name="firstName" label="First Name *" placeholder="john" />
-                            <Input name="lastName" label="Last Name *" placeholder="john" />
+                            <Input name="firstName" label={data.fname} placeholder="john" />
+                            <Input name="lastName" label={data.lname}placeholder="john" />
                         </TwoCol>
 
                         <TwoCol>
-                            <Input name="email" label="Email Address *" placeholder="john@example.com" />
-                            <Input name="phone" label="Phone Number *" placeholder="+91 9876543210" />
+                            <Input name="email" label={data.email} placeholder="john@example.com" />
+                            <Input name="phone" label={data.phone} placeholder="+91 9876543210" />
                         </TwoCol>
                     </Section>
 
@@ -139,52 +139,53 @@ export default function ApplicationForm({ id, sysRole }) {
                         <Section title="Work Experience">
                             <TwoCol>
 
-                                <Input name="companyName" label="Company Name *" placeholder="e.g. Google, Microsoft" styles='bg-white' />
-                                <Input name="role" label="Role / Position *" placeholder="e.g. Software Engineer, Product Manager" styles='bg-white' />
+                                <Input name="companyName" label={data.company} placeholder="e.g. Google, Microsoft" styles='bg-white' />
+                                <Input name="role" label={data.role} placeholder="e.g. Software Engineer, Product Manager" styles='bg-white' />
                             </TwoCol>
 
                             <TwoCol>
-                                <Input name="startDate" label="Start Date *" type="date" styles="uppercase bg-white" />
-                                <Input name="endDate" label="End Date" type="date" styles="uppercase bg-white" />
+                                <Input name="startDate" label={data.start} type="date" styles="uppercase bg-white" />
+                                <Input name="endDate" label={data?.end} type="date" styles="uppercase bg-white" />
                             </TwoCol>
 
                             <TwoCol>
-                                <Input name="currentPackage" label="Current Package *" placeholder="e.g. 10 LPA" styles='bg-white' />
-                                <Input name="expectedPackage" label="Expected Package *" placeholder="e.g. 15 LPA" styles='bg-white' />
+                                <Input name="currentPackage" label={data.currentpack} placeholder="e.g. 10 LPA" styles='bg-white' />
+                                <Input name="expectedPackage" label={data.expectedpack} placeholder="e.g. 15 LPA" styles='bg-white' />
                             </TwoCol>
                         </Section>
                     </div>
 
                     {/* ================= SKILLS ================= */}
-                    <Section title="Skills & Certifications">
+                    <Section title={data.scertifications}>
                         <Textarea
                             name="skills"
-                            label="Technical Skills *"
-                            placeholder="JavaScript, React, Node.js..."
+                            label={data.tSkills}
+                            placeholder={data?.placeholders?.skills}
                         />
                         <Textarea
                             name="certifications"
-                            label="Certifications"
-                            placeholder="AWS Certified Developer, PMP..."
+                            label={data.certifications}
+                            placeholder={data?.placeholders?.certifications}
                         />
                     </Section>
 
                     {/* ================= RESUME UPLOAD ================= */}
-                    <Section title="Resume">
+                    <Section title={data.resume}>
                         {/* <TwoCol> */}
                             <ResumeUpload
                                 setFieldValue={setFieldValue}
                                 value={values.resume}
+                                data={data}
                             />
 
                         {/* </TwoCol> */}
                     </Section>
 
                     {/* ================= COVER LETTER ================= */}
-                    <Section title="Cover Letter">
+                    <Section title={data.cletter}>
                         <Textarea
                             name="coverLetter"
-                            placeholder="Tell us why you'd be a great fit for our team..."
+                            placeholder={data?.placeholder?.coverletter}
                         />
                     </Section>
 
@@ -209,7 +210,7 @@ export default function ApplicationForm({ id, sysRole }) {
                             )}
 
                             <span className="relative flex items-center gap-x-1">
-                                {isSubmitting ? "Submitting..." : "Submit"}
+                                {isSubmitting ? data.submitting:data.submit}
                             </span>
                         </button>
                     </div>

@@ -9,7 +9,7 @@ import { servicesData } from "./servicesData";
 import { FaArrowLeft, FaArrowRight, FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa6";
 import { motion } from "framer-motion";
-
+import Loading from "@/app/loading";
 const VISIBLE_COUNT = 3;
 const CARD_GAP = 24; // gap-6
 
@@ -32,14 +32,19 @@ const Services4 = () => {
 
     const bundledData = t("servicesData", { returnObjects: true });
 
-    const api_getted_data = Object.entries(bundledData)
+    const api_getted_data = Object.entries(servicesData)
       .filter(([key]) => key !== activeService)
-      .map(([key, value]) => ({
-        key,
-        title: value?.title || "",
-        description: value?.description || "",
-        image: value?.Services1?.image || value?.mainimage || "",
-      }));
+      .map(([key, staticValue]) => {
+        const translatedValue = bundledData?.[key];
+
+        return {
+          key,
+          title: translatedValue?.title || staticValue.title,
+          description:
+            translatedValue?.description || staticValue.description,
+          image: staticValue.Services1?.image, // ✅ ALWAYS from static file
+        };
+      });
 
     setTranslatedServices(api_getted_data);
   }, [t, isReady, activeService]);
@@ -50,7 +55,7 @@ const Services4 = () => {
 
   const prev = () => setStartIndex(i => Math.max(i - 1, 0));
   const next = () => setStartIndex(i => Math.min(i + 1, maxIndex));
-  if (!isReady) return null;
+  if (!isReady) return <Loading />
 
   return (
     <section className="w-full bg-white py-6 lg:py-12 mb-8">
@@ -166,7 +171,7 @@ const ServiceCard = ({ service, onClick, mobile, }) => {
     >
       {/* IMAGE */}
       <Image
-        src={service.image}
+        src={service?.image}
         alt={service.title}
         fill
         className="object-cover transition-transform duration-500 group-hover:scale-102"

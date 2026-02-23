@@ -4,7 +4,7 @@ import { TiCloudStorage } from "react-icons/ti";
 import { AiOutlineClose } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 
-export default function ResumeUpload({ setFieldValue, value }) {
+export default function ResumeUpload({ setFieldValue, value,data }) {
   const inputRef = useRef(null);
 
   const handleFile = (file) => {
@@ -83,14 +83,14 @@ export default function ResumeUpload({ setFieldValue, value }) {
           </div>
 
           <p className="text-sm md:font-medium text-gray-800">
-            Drag your resume here or{" "}
+          {data?.placeholders?.resume}{" "}
             <span className="text-green-600 font-semibold">
-              click to upload
+           {data?.placehgolders?.span}
             </span>
           </p>
 
           <p className="text-xs md:text-sm text-gray-500 mt-1">
-            Acceptable file types: PDF, DOCX (5MB max)
+           {data?.placeholders?.file}
           </p>
         </>
       )}

@@ -7,10 +7,26 @@ import nowitImg from "../../../public/nowit.png";
 import { ThemeBottomBorder2 } from "../shared/UI-Elements/Custom-Elements";
 import { useNowit } from "@/store/useNowit";
 import Loading from "@/app/loading";
+import { BiLogoFacebook } from "react-icons/bi";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 
 /* ---------------- LOGO SECTION ---------------- */
 
+
 const LogoSection = ({ footer }) => {
+
+  const getIcon = (name) => {
+    if (name === "linkedin") return <FaLinkedin />;
+    if (name === "twitter") return <FaTwitter />;
+    if (name === "instagram") return <FaInstagram />;
+    if (name === "youtube") return <FaYoutube />;
+    return null;
+  };
+
   return (
     <section className="flex flex-col gap-6 w-full px-2 lg:px-4">
       <Image src={nowitImg} alt="now it" className="w-36 h-auto" />
@@ -29,8 +45,9 @@ const LogoSection = ({ footer }) => {
           >
             <span className="absolute inset-0 rounded-full bg-[#55B233] blur-md opacity-10"></span>
             <span className="absolute h-8 w-8 rounded-full bg-[#55B233] blur-[1px]"></span>
-            <span className="relative z-10 text-white">
-              {each.icon}
+
+            <span className="relative z-10 text-white text-lg">
+              {getIcon(each.name)}
             </span>
           </a>
         ))}
@@ -43,6 +60,7 @@ const LogoSection = ({ footer }) => {
 
 const QuickLinksSec = ({ footer }) => {
   const data = footer?.quickLinks;
+  console.log(data, "dat here..")
   if (!data) return null;
 
   return (

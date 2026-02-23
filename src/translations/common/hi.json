@@ -17,13 +17,41 @@
       "label": "सेवाएँ",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "स्मार्ट मार्केटिंग", "link": "/" },
-        { "name": "business launch", "label": "बिज़नेस लॉन्च", "link": "/" },
-        { "name": "professional services", "label": "प्रोफेशनल सेवाएँ", "link": "/" },
-        { "name": "migration", "label": "माइग्रेशन", "link": "/" },
-        { "name": "training services", "label": "ट्रेनिंग सेवाएँ", "link": "/" },
-        { "name": "messaging services", "label": "मैसेजिंग सेवाएँ", "link": "/" },
-        { "name": "ip filing services", "label": "आईपी फाइलिंग सेवाएँ", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "स्मार्ट मार्केटिंग",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "बिज़नेस लॉन्च",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "प्रोफेशनल सेवाएँ",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "माइग्रेशन",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "ट्रेनिंग सेवाएँ",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "मैसेजिंग सेवाएँ",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "आईपी फाइलिंग सेवाएँ",
+          "link": "/"
+        }
       ]
     },
     {
@@ -45,90 +73,148 @@
       "options": []
     }
   ],
-
   "contactUs": "संपर्क करें",
-
   "footer": {
     "description": "एक डिजिटल ट्रांसफॉर्मेशन पार्टनर जो क्लाउड-फर्स्ट और एआई-संचालित समाधानों के माध्यम से स्केलेबल विकास और संचालन उत्कृष्टता प्रदान करता है।",
-
     "socialMedia": [
-      { "name": "linkedin", "link": "https://linkedin.com" },
-      { "name": "twitter", "link": "https://twitter.com" },
-      { "name": "instagram", "link": "https://instagram.com" }
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com"
+      },
+      {
+        "name": "instagram",
+        "link": "https://instagram.com"
+      }
     ],
-
     "quickLinks": {
       "title": "त्वरित लिंक",
       "items": [
-        { "label": "होम", "link": "/" },
-        { "label": "हमारे बारे में", "link": "/about-us" },
-        { "label": "सेवाएँ", "link": "/services" },
-        { "label": "उत्पाद", "link": "/products" }
+        {
+          "label": "होम",
+          "link": "/"
+        },
+        {
+          "label": "हमारे बारे में",
+          "link": "/about-us"
+        },
+        {
+          "label": "सेवाएँ",
+          "link": "/services"
+        },
+        {
+          "label": "उत्पाद",
+          "link": "/products"
+        }
       ]
     },
-
     "services": {
       "title": "व्यावसायिक साझेदारियाँ",
       "items": [
-        { "label": "एंटरप्राइज़ सॉल्यूशंस", "link": "/services" },
-        { "label": "एआई और ऑटोमेशन", "link": "/services" }
+        {
+          "label": "एंटरप्राइज़ सॉल्यूशंस",
+          "link": "/services"
+        },
+        {
+          "label": "एआई और ऑटोमेशन",
+          "link": "/services"
+        }
       ]
     },
-
     "legal": {
       "title": "कानूनी एवं अनुपालन",
       "items": [
-        { "label": "गोपनीयता नीति", "link": "/privacy" },
-        { "label": "नियम और शर्तें", "link": "/terms" }
+        {
+          "label": "गोपनीयता नीति",
+          "link": "/privacy"
+        },
+        {
+          "label": "नियम और शर्तें",
+          "link": "/terms"
+        }
       ]
     },
-
-    "copyright":
-      "© 2026 Nowit Services. सर्वाधिकार सुरक्षित।"
+    "copyright": "© 2026 Nowit Services. सर्वाधिकार सुरक्षित।"
   },
   "footer": {
     "description": "क्लाउड-फर्स्ट और एआई-आधारित समाधानों के साथ स्केलेबल विकास को सक्षम करने वाला डिजिटल ट्रांसफॉर्मेशन पार्टनर।",
-
     "socialMedia": [
-      { "name": "linkedin", "link": "https://linkedin.com" },
-      { "name": "twitter", "link": "https://twitter.com" },
-      { "name": "instagram", "link": "https://instagram.com" }
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com/company/nowitservices/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.linkedin.com/company/nowitservices/",
+        "icon": ""
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_nowitservices_/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/@NOWITSERVICES-j7k",
+        "icon": "FaYoutube"
+      }
     ],
-
     "quickLinks": {
       "title": "त्वरित लिंक",
       "items": [
-        { "label": "होम", "link": "/" },
-        { "label": "हमारे बारे में", "link": "/about-us" },
-        { "label": "सेवाएँ", "link": "/services" },
-        { "label": "प्रोडक्ट्स", "link": "/products" }
+        {
+          "label": "होम",
+          "link": "/"
+        },
+        {
+          "label": "हमारे बारे में",
+          "link": "/about-us"
+        },
+        {
+          "label": "सेवाएँ",
+          "link": "/services"
+        },
+        {
+          "label": "प्रोडक्ट्स",
+          "link": "/products"
+        }
       ]
     },
-
     "services": {
       "title": "बिज़नेस पार्टनरशिप",
       "items": [
-        { "label": "एंटरप्राइज़ समाधान", "link": "/services" },
-        { "label": "एआई और ऑटोमेशन", "link": "/services" }
+        {
+          "label": "एंटरप्राइज़ समाधान",
+          "link": "/services"
+        },
+        {
+          "label": "एआई और ऑटोमेशन",
+          "link": "/services"
+        }
       ]
     },
-
     "legal": {
       "title": "कानूनी और अनुपालन",
       "items": [
-        { "label": "प्राइवेसी पॉलिसी", "link": "/privacy" },
-        { "label": "नियम और शर्तें", "link": "/terms" }
+        {
+          "label": "प्राइवेसी पॉलिसी",
+          "link": "/privacy"
+        },
+        {
+          "label": "नियम और शर्तें",
+          "link": "/terms"
+        }
       ]
     },
-
-    "copyright":
-      "© 2026 Nowit Services. सर्वाधिकार सुरक्षित।"
+    "copyright": "© 2026 Nowit Services. सर्वाधिकार सुरक्षित।"
   },
-
   "contact": {
     "title": "चर्चा की शुरुआत करें",
     "subtitle": "अपनी आवश्यकता साझा करें और हमारी टीम आपसे संपर्क करेगी",
-
     "labels": {
       "name": "नाम",
       "email": "ईमेल आईडी",
@@ -136,7 +222,6 @@
       "date": "पसंदीदा संपर्क दिनांक और समय",
       "message": "संदेश"
     },
-
     "placeholders": {
       "name": "अपना नाम दर्ज करें",
       "email": "अपना ईमेल दर्ज करें",
@@ -144,7 +229,6 @@
       "date": "दिनांक और समय चुनें",
       "message": "संदेश दर्ज करें"
     },
-
     "button": {
       "send": "भेजें",
       "sending": "भेजा जा रहा है..."
@@ -167,7 +251,146 @@
       "title": "जर्मनी",
       "address": "हाउज़डॉर्फश्ट्रासे 61, 53129 बॉन, जर्मनी।"
     }
-  ]
-
-
+  ],
+  "organizationForm": {
+    "organizationDetails": {
+      "title": "संगठन विवरण",
+      "description": "हमें आपके संगठन और व्यवसाय की पृष्ठभूमि को समझने में सहायता करें।",
+      "sectionTitle": "संगठन संबंधी जानकारी",
+      "sectionHint": "कृपया पासपोर्ट के अनुसार सटीक विवरण दर्ज करें"
+    },
+    "otherDetails": {
+      "title": "अन्य विवरण",
+      "description": "अपनी संपर्क जानकारी और निवेश रुचियों को साझा करें ताकि हम आपसे संपर्क कर सकें।"
+    },
+    "fields": {
+      "companyName": "कंपनी का नाम",
+      "entityType": "संस्था का प्रकार",
+      "country": "देश",
+      "city": "शहर",
+      "website": "वेबसाइट (वैकल्पिक)",
+      "fullName": "पूरा नाम",
+      "email": "ईमेल",
+      "role": "भूमिका",
+      "phone": "फ़ोन नंबर",
+      "interestNature": "रुचि का प्रकार",
+      "primaryInterest": "प्राथमिक रुचि",
+      "attachment": "वैकल्पिक संलग्नक",
+      "message": "संदेश"
+    },
+    "checkbox": {
+      "confirm": "मैं पुष्टि करता/करती हूँ कि प्रदान की गई जानकारी सत्य और सटीक है।",
+      "consent": "मैं आगे की चर्चा के लिए संगठन द्वारा संपर्क किए जाने की सहमति देता/देती हूँ।"
+    },
+    "buttons": {
+      "next": "आगे",
+      "back": "वापस",
+      "send": "भेजें",
+      "sending": "भेजा जा रहा है..."
+    },
+    "validation": {
+      "companyName": "कंपनी का नाम आवश्यक है",
+      "entityType": "संस्था का प्रकार आवश्यक है",
+      "country": "देश आवश्यक है",
+      "city": "शहर आवश्यक है",
+      "fullName": "पूरा नाम आवश्यक है",
+      "emailRequired": "ईमेल आवश्यक है",
+      "emailInvalid": "अमान्य ईमेल पता",
+      "role": "भूमिका आवश्यक है",
+      "phone": "संपर्क नंबर आवश्यक है",
+      "message": "संदेश आवश्यक है",
+      "messageMax": "संदेश 500 अक्षरों से अधिक नहीं होना चाहिए"
+    },
+    "options": {
+      "entityType": [
+        {
+          "value": "Start Up",
+          "label": "स्टार्ट अप"
+        },
+        {
+          "value": "Enterprise",
+          "label": "एंटरप्राइज"
+        }
+      ],
+      "role": [
+        {
+          "value": "Founder",
+          "label": "संस्थापक"
+        },
+        {
+          "value": "Partner",
+          "label": "साझेदार"
+        }
+      ],
+      "interestNature": [
+        {
+          "value": "Investor",
+          "label": "निवेशक"
+        }
+      ],
+      "primaryInterest": [
+        {
+          "value": "Strategic Partnership",
+          "label": "रणनीतिक साझेदारी"
+        }
+      ],
+      "investmentSize": [
+        {
+          "value": "Upto 10Cr",
+          "label": "10 करोड़ तक"
+        }
+      ],
+      "timeline": [
+        {
+          "value": "6-12 Months",
+          "label": "6–12 महीने"
+        }
+      ]
+    },
+    "toast": {
+      "success": "फ़ॉर्म सफलतापूर्वक सबमिट किया गया",
+      "failure": "सबमिशन असफल रहा। कृपया पुनः प्रयास करें।",
+      "serverError": "सबमिट करने में विफल।"
+    }
+  },
+  "jobApplicationForm": {
+    "applicationForm": "आवेदन फॉर्म",
+    "personalInformation": "व्यक्तिगत जानकारी",
+    "slidingText": "वर्तमान रिक्तियाँ",
+    "jobid": "जॉब आईडी",
+    "projectRole": "प्रोजेक्ट भूमिका",
+    "ApplyForThisJob": "इस नौकरी के लिए आवेदन करें",
+    "JobDescription": "नौकरी का विवरण",
+    "experience": "आवश्यक अनुभव",
+    "prodescription": "प्रोजेक्ट विवरण",
+    "skills": "कौशल",
+    "education": "शैक्षिक योग्यता",
+    "benifits": "लाभ",
+    "summary": "सारांश",
+    "application": "आवेदन फॉर्म",
+    "personal": "व्यक्तिगत जानकारी",
+    "fname": "पहला नाम",
+    "lname": "अंतिम नाम",
+    "email": "ईमेल पता",
+    "phone": "फ़ोन नंबर",
+    "resume": "रिज़्यूमे",
+    "cletter": "कवर लेटर",
+    "certifications": "प्रमाणपत्र",
+    "cuurentpack": "वर्तमान पैकेज",
+    "expectedpack": "अपेक्षित पैकेज",
+    "company": "कंपनी का नाम",
+    "role": "भूमिका / पद",
+    "start": "प्रारंभ तिथि",
+    "end": "समाप्ति तिथि",
+    "tSkills": "तकनीकी कौशल",
+    "scertifications": "कौशल एवं प्रमाणपत्र",
+    "submit": "सबमिट करें",
+    "submitting": "सबमिट किया जा रहा है",
+    "workExperience": "कार्य अनुभव",
+    "placeholders.coverletter": "हमें बताएं कि आप हमारी टीम के लिए उपयुक्त क्यों हैं...",
+    "placeholders.resume": "अपना रिज़्यूमे यहाँ ड्रैग करें या अपलोड करें",
+    "placeholders.file": "स्वीकृत फ़ाइल प्रकार: PDF, DOCX (अधिकतम 5MB)",
+    "placeholders.certifications": "AWS प्रमाणित डेवलपर, PMP...",
+    "placeholders.skills": "JavaScript, React, Node.js..."
+  }
 }

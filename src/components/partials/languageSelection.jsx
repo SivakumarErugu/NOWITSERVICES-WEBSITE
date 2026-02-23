@@ -7,19 +7,19 @@ import useLocale from '../../app/hooks/useLocale';
 import { useNowit } from '@/store/useNowit';
 
 const languages = [
-    { value: 'en', label: 'English' },
-    { value: 'zh', label: 'Simplified Chinese (Mandarin)' },
-    { value: 'es', label: 'Spanish' },
-    { value: 'fr', label: 'French' },
-    { value: 'ar', label: 'Arabic' },
-    { value: 'pt', label: 'Portuguese' },
-    { value: 'de', label: 'German' },
-    { value: 'hi', label: 'Hindi' },
-    { value: 'ja', label: 'Japanese' },
-    { value: 'ru', label: 'Russian' }
-];
+    { value: 'en', label: 'EN-English' },
 
-export default function LanguageSwitcher() {
+    { value: 'es', label: 'ES-Spanish' },
+    { value: 'fr', label: 'FR-French' },
+    { value: 'ar', label: 'AR-Arabic' },
+    { value: 'pt', label: 'PT-Portuguese' },
+    { value: 'de', label: 'DE-German' },
+    { value: 'hi', label: 'HI-Hindi' },
+    { value: 'ja', label: 'JA-Japanese' },
+    { value: 'ru', label: 'RU-Russian' },
+    { value: 'zh', label: 'ZH-Chinese' }
+];
+export default function LanguageSwitcher({isMobile=false,onSelect}) {
     const { locale, changeLanguage } = useNowit();
     const [selectedOption, setSelectedOption] = useState('en');
 
@@ -34,57 +34,95 @@ export default function LanguageSwitcher() {
     };
 
     // Custom control to add globe icon
-    const CustomControl = ({ children, ...props }) => (
-        <components.Control {...props}>
-            <FiGlobe style={{ marginLeft: 12, marginRight: 8, fontSize: 18 }} />
-            {children}
-        </components.Control>
+    const CustomControl = ({ children, ...props }) => {
+        return (
+            <components.Control
+                {...props}
+                className="border-2"
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    paddingLeft: 6
+                }}
+            >
+                <FiGlobe
+                    size={16}
+                    style={{
+                        marginRight: 6,
+                        cursor: "pointer"
+                    }}
+                    onMouseDown={props.innerProps.onMouseDown}
+                />
+
+                {children}
+            </components.Control>
+        );
+    };
+    const CustomSingleValue = ({ data }) => (
+        <span className="text-sm font-medium uppercase">
+            {data.value}
+        </span>
     );
 
+ 
     return (
-        <div style={{ width: 140 }}>
+        <div style={{ width: 90 }}>
             <Select
                 instanceId="language-select"
                 options={languages}
                 value={selectedOption}
                 onChange={handleChange}
                 isSearchable={false}
-                components={{ Control: CustomControl }}
+
+                components={{
+                    Control: CustomControl,
+                    DropdownIndicator: () => null, // ❌ remove arrow
+                    IndicatorSeparator: () => null,
+                    SingleValue: CustomSingleValue
+                }}
+
                 styles={{
                     control: (base) => ({
                         ...base,
-                        backgroundColor: '#f3f4f6',
+                        backgroundColor: 'transparent',
                         border: 'none',
                         boxShadow: 'none',
-                        borderRadius: '6px',
-                        minHeight: '40px',
                         cursor: 'pointer',
+                        minHeight: '28px'
+                    }),
 
-                    }),
-                    dropdownIndicator: (base) => ({
-                        ...base,
-                        color: '#333'
-                    }),
-                    indicatorSeparator: () => ({
-                        display: 'none'
-                    }),
-                    valueContainer: (base) => ({
-                        ...base,
-                        padding: '0 8px'
-                    }),
                     menu: (base) => ({
                         ...base,
-                        borderRadius: '6px',
+                        width: 180,              // 🔥 Increase dropdown width
+                        borderRadius: '10px',
                         overflow: 'hidden'
                     }),
+
+                    menuList: (base) => ({
+                        ...base,
+                        padding: 0
+                    }),
+
                     option: (base, state) => ({
                         ...base,
                         backgroundColor: state.isFocused ? '#f3f4f6' : '#fff',
                         color: '#111',
-                        cursor: 'pointer'
-                    })
+                        cursor: 'pointer',
+                        fontSize: '13px',
+                        whiteSpace: 'nowrap',     // 🔥 Force single line
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis'  // Prevent overflow breaking layout
+                    }),
+                    valueContainer: (base) => ({
+                        ...base,
+                        padding: 0,
+                        margin: 0,
+                        display: "flex",
+                        alignItems: "center"
+                    }),
                 }}
             />
         </div>
     );
+
 }
