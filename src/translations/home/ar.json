@@ -1,58 +1,243 @@
 {
+  "contactUs": "اتصل بنا",
   "banner.subtitle": "إطلاق إمكانات الأعمال من خلال",
   "banner.title": "التحول الرقمي الذكي",
-  "banner.description": "تمكين الشركات من النمو بشكل أسرع من خلال الأتمتة المدعومة بالذكاء الاصطناعي وحلول السحابة والابتكار القائم على البيانات.",
-  "banner.recommend": "أوصِ بنا",
+  "banner.description": "تمكين الشركات من النمو بشكل أسرع من خلال الأتمتة المدعومة بالذكاء الاصطناعي، وحلول السحابة، والابتكار القائم على البيانات.",
+  "banner.recommend": "قم بترشيحنا",
   "banner.customer": "9/10 عملاء",
   "banner.100": "100%",
   "banner.quality": "جودة مضمونة",
   "banner.24": "24/7",
   "banner.support": "الدعم",
-  "banner.industrial": "عقد من الخبرة ",
-  "banner.experience": "الصناعية",
+  "banner.industrial": "عقد من الخبرة الصناعية",
+  "banner.experience": "خبرة",
   "banner.3": "3+",
   "banner.countries": "دول",
-  "banner.projects": "16+ مشروعًا",
-  "banner.onTime": "التسليم في الوقت المحدد",
+  "banner.projects": "16+ مشروع",
+  "banner.onTime": "تسليم في الوقت المحدد",
   "hero.getStarted": "ابدأ الآن",
-  "hero.unified": "خدمات موحدة",
+  "hero.unified": "خدمات متكاملة",
   "hero.reliable": "دعم موثوق",
+
   "partner.slidingTitle": "من نحن",
   "partner.title.prefix": "شريكك",
   "partner.span": "الموثوق",
   "partner.title.suffix": "في التحول الرقمي",
-  "partner.description": "نحن فريق تقني ملتزم بتقديم حلول رقمية ذكية وقابلة للتوسع وموثوقة للشركات الحديثة.",
+  "partner.description": "نحن فريق تقني متخصص في تقديم حلول رقمية قابلة للتوسع وذكية وموثوقة للشركات الحديثة.",
   "partner.knowmore": "اعرف المزيد",
   "partner.trusted": "موثوق",
   "partner.clients": "من قبل عملاء عالميين",
-  "partner.talktoai": "تحدث مع الذكاء الاصطناعي",
+  "partner.talktoai": "تحدث إلى الذكاء الاصطناعي",
+
   "services.slidingTitle": "خدماتنا",
-  "services.title": "خدمات رقمية",
-  "services.span": "متكاملة",
-  "services.description": "نقدم خدمات برمجية شاملة لمساعدة الشركات على البناء والتوسع والتحديث الرقمي.",
+  "services.title": "من البداية إلى النهاية",
+  "services.span": "خدمات رقمية",
+  "services.description": "نقدم خدمات برمجية متكاملة تساعد الشركات على بناء وتطوير وتحديث منتجاتها الرقمية.",
+
+  "services.carouselList": [
+    {
+      "id": 1,
+      "name": "خدمات التسويق الذكي",
+      "description": "حلول تسويقية قائمة على البيانات لتحسين الوصول والتفاعل.",
+      "items": [
+        "حملات رقمية قائمة على البيانات",
+        "المحتوى وسرد العلامة التجارية",
+        "استهداف الجمهور بالذكاء الاصطناعي",
+        "تتبع الأداء والتحليلات"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+    },
+    {
+      "id": 2,
+      "name": "ترحيل السحابة والتطبيقات",
+      "description": "خدمات ترحيل سحابية آمنة وقابلة للتوسع.",
+      "items": [
+        "ترحيل آمن للبيانات والسحابة",
+        "تحسين البنية التحتية",
+        "تكامل الأنظمة وواجهات API",
+        "تقييم المخاطر والتخطيط"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "الخدمات المهنية والاستشارية",
+      "description": "استشارات أعمال وتقنية لدعم النمو الاستراتيجي.",
+      "items": [
+        "استشارات الأعمال وتقنية المعلومات",
+        "تخطيط وتنفيذ المشاريع",
+        "إدارة الموارد",
+        "دعم فني مستمر"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "خدمات المراسلة والاتصال",
+      "description": "حلول اتصال مدعومة بالذكاء الاصطناعي لتعزيز تفاعل العملاء.",
+      "items": [
+        "رسائل SMS وWhatsApp جماعية",
+        "روبوتات محادثة بالذكاء الاصطناعي",
+        "إدارة العملاء في الوقت الحقيقي",
+        "تحليلات الحملات"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "خدمات إطلاق الأعمال",
+      "description": "نساعد الشركات على الانطلاق بقوة من خلال دعم شامل.",
+      "items": [
+        "تسجيل العلامة التجارية وبناء الهوية",
+        "إنشاء الموقع والحضور الرقمي",
+        "حملات التسويق والعلاقات العامة"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "خدمات تسجيل الملكية الفكرية",
+      "description": "احمِ ابتكاراتك من خلال خدمات ملكية فكرية موثوقة.",
+      "items": [
+        "تسجيل وإدارة براءات الاختراع",
+        "تسجيل العلامات التجارية",
+        "حماية حقوق النشر",
+        "بحث ملكية فكرية مدعوم بالذكاء الاصطناعي"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "خدمات التدريب والتطوير",
+      "description": "تطوير مهارات الفرق من خلال تدريب تقني حديث.",
+      "items": [
+        "تدريب مهارات رقمية وتقنية",
+        "برامج الذكاء الاصطناعي والسحابة",
+        "حملات التسويق",
+        "تحليلات سوق مدعومة بالذكاء الاصطناعي"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+    }
+  ],
+
   "products.slidingTitle": "منتجاتنا",
   "products.title": "منتجات رقمية",
   "products.span": "جاهزة للمؤسسات",
-  "products.description": "منتجات مصممة لحل تحديات الأعمال من خلال حلول رقمية ذكية وقابلة للتوسع.",
+  "products.description": "تم تصميم منتجاتنا لحل تحديات الأعمال من خلال حلول رقمية ذكية وقابلة للتوسع.",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "WON Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "منصة تعليمية متكاملة لإدارة المدارس وتحسين تجربة التعلم."
+    },
+    {
+      "id": 2,
+      "name": "WON Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "منصة شاملة لإدارة التعليم."
+    },
+    {
+      "id": 3,
+      "name": "WON Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "برنامج ذكي لإدارة المستشفيات."
+    },
+    {
+      "id": 4,
+      "name": "WON Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "حل ذكي للفوترة والإدارة المالية."
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "منصة متكاملة للتواصل والتعاون."
+    }
+  ],
+
   "products.viewProduct": "عرض المنتج",
+
   "Industry.title": "حلول لـ",
-  "Industry.span": "كل قطاع",
-  "Industry.description": "تقدم NOWIT Services خدمات تحول رقمي مدعومة بالذكاء الاصطناعي.",
+  "Industry.span": "كل صناعة",
+  "Industry.description": "توفر NOWIT خدمات التحول الرقمي المدعومة بالذكاء الاصطناعي لتحسين الكفاءة وتسريع النمو.",
+  "Industry.list": [
+    "الرعاية الصحية",
+    "التعليم",
+    "التمويل والبنوك",
+    "التجزئة والتجارة الإلكترونية",
+    "التصنيع",
+    "اللوجستيات وسلسلة التوريد",
+    "العقارات",
+    "السفر والضيافة",
+    "تقنية المعلومات",
+    "الاتصالات",
+    "الطاقة والمرافق",
+    "السيارات"
+  ],
+
   "testimonials.slidingTitle": "آراء العملاء",
   "testimonials.title.prefix": "بناء",
-  "testimonials.title.suffix": "من خلال النتائج",
+  "testimonials.title.suffix": "الثقة من خلال النتائج",
   "testimonials.span": "الثقة",
-  "testimonials.description": "آراء حقيقية من عملاء تعاونوا معنا.",
+  "testimonials.description": "آراء حقيقية من عملائنا.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "قدمت NowIT ما نحتاجه تمامًا في الوقت المحدد وبجودة عالية."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "فهموا رؤيتنا بسرعة وحولوها إلى منتج قابل للتوسع."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "ساعدتنا خبرتهم التقنية في بناء حل موثوق."
+    }
+  ],
+
   "faq.span": "الأسئلة الشائعة",
-  "faq.title": "الأسئلة المتكررة",
-  "faq.subquestion": "هل لديك أسئلة أخرى؟",
-  "faq.description": "نحن هنا لمساعدتك على الفهم والنمو معنا.",
+  "faq.title": "الأسئلة الشائعة",
+  "faq.subquestion": "هل لديك المزيد من الأسئلة؟",
+  "faq.description": "نحن هنا لمساعدتك.",
   "faq.getintouch": "تواصل معنا",
+  "faq.list": [
+    {
+      "id": 1,
+      "title": "ما هي الصناعات التي تخدمونها؟",
+      "description": "نخدم التمويل والرعاية الصحية والتجزئة والتعليم وتقنية المعلومات."
+    },
+    {
+      "id": 2,
+      "title": "كيف تبدأون مشروعًا جديدًا؟",
+      "description": "نبدأ بالاكتشاف ثم التنفيذ مع تغذية راجعة مستمرة."
+    },
+    {
+      "id": 3,
+      "title": "كيف يمكننا البدء؟",
+      "description": "تواصل معنا عبر نموذج الاتصال."
+    },
+    {
+      "id": 4,
+      "title": "هل حلولكم قابلة للتوسع؟",
+      "description": "نعم، حلولنا مصممة للنمو المستقبلي."
+    }
+  ],
+
   "trustedbanner.subTitle": "موثوق من قبل",
   "trustedbanner.title": "مزود خدمات عالمي",
-  "becomepartner.title.prefix": "نمُ",
+  "becomepartner.title.prefix": "النمو",
   "becomepartner.title.middle": "معًا",
   "becomepartner.title.suffix": "من خلال الشراكة",
-  "becomepartner.description": "تعاون مع NowIT Services للابتكار وتقديم حلول مخصصة.",
-  "becomepartner.becomepartner": "كن شريكًا"
+  "becomepartner.description": "شارك NowIT للتعاون والابتكار.",
+  "becomepartner.becomepartner": "كن شريكًا",
+
+  "contactus": "اتصل بنا",
+  "industries": "الصناعات",
+  "testimonials.title": "آراء العملاء",
+  "whoweare": "من نحن"
 }

@@ -1,0 +1,82 @@
+{
+  "banner.title": "面向",
+  "banner.span": "现代企业的技术洞察",
+  "banner.scroll": "向下滚动以探索",
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "Cloud"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "探索人工智能与云计算的未来",
+        "excerpt": "人工智能和云计算如何塑造现代企业。",
+        "publishedAt": "2024年5月11日",
+        "readingTime": "6 分钟阅读",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "NOW IT 团队",
+        "content": "## 人工智能与云计算的融合\n\n人工智能和云平台正在重塑企业基础架构。\n\n> Cloud + AI 赋能智能且可扩展的系统。\n\n### 主要优势\n\n- **预测式扩展** – 自动资源管理\n- **安全性** – 基于 AI 的威胁检测\n- **效率** – 降低运营成本\n\n<Highlight title=\"关键要点\">\n- AI 提升可扩展性\n- 自动化降低成本\n- 更快的决策\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["Migration", "Cloud"],
+        "slug": "why-cloud-migration-matters",
+        "title": "为什么云迁移至关重要",
+        "excerpt": "理解云迁移带来的真实影响。",
+        "publishedAt": "2024年6月02日",
+        "readingTime": "5 分钟阅读",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "NOW IT 团队",
+        "content": "## 云迁移解析\n\n云迁移帮助企业实现 IT 系统现代化。\n\n### 优势\n\n- 更快部署\n- 成本优化\n- 全球扩展能力"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["Cybersecurity", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "人工智能时代的网络安全",
+        "excerpt": "人工智能如何重塑数字安全。",
+        "publishedAt": "2024年6月18日",
+        "readingTime": "7 分钟阅读",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "安全团队",
+        "content": "## AI 驱动的安全\n\nAI 可实现实时威胁检测与响应。\n\n> 安全不再是被动的——而是预测性的。"
+      },
+      {
+        "id": "4",
+        "tags": ["Architecture", "Web Development"],
+        "slug": "scalable-web-architecture",
+        "title": "构建可扩展的 Web 架构",
+        "excerpt": "可扩展 Web 系统的最佳实践。",
+        "publishedAt": "2024年7月01日",
+        "readingTime": "8 分钟阅读",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "工程团队",
+        "content": "## 可扩展架构原则\n\n- 无状态服务\n- 水平扩展\n- 云原生设计"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "DevOps 的未来",
+        "excerpt": "DevOps 如何与 AI 共同演进。",
+        "publishedAt": "2024年7月15日",
+        "readingTime": "6 分钟阅读",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "DevOps 团队",
+        "content": "## 云驱动智能创新的未来\n\n云计算已成为现代企业运营的核心。\n\n云的未来不仅是可扩展的——更是智能的。"
+      }
+    ]
+  },
+  "blogs.readMore": "阅读更多",
+  "blogs.latest": "最新博客",
+  "blogs.similarBlogs": "相关文章",
+  "blogs.share": "分享",
+  "newsletter.title": "获取最新技术洞察",
+  "newsletter.description": "订阅我们的新闻通讯，获取关于云计算、人工智能和企业技术趋势的每周更新。",
+  "newsletter.subscribe": "订阅",
+  "newsletter.subscribing": "正在订阅...",
+  "newsletter.spam": "不含垃圾邮件。可随时取消订阅。",
+  "newsletter.emailPlaceholder": "请输入您的邮箱地址"
+}

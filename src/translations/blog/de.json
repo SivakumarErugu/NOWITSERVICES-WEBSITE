@@ -1,0 +1,82 @@
+{
+  "banner.title": "Technologische Einblicke für",
+  "banner.span": "moderne Unternehmen",
+  "banner.scroll": "ZUM ENTDECKEN SCROLLEN",
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "Cloud"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "Die Zukunft von KI und Cloud erkunden",
+        "excerpt": "Wie KI und Cloud-Computing moderne Unternehmen prägen.",
+        "publishedAt": "11. Mai 2024",
+        "readingTime": "6 Min. Lesezeit",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "NOW IT Team",
+        "content": "## Die Konvergenz von KI und Cloud\n\nKI- und Cloud-Plattformen verändern die Unternehmensinfrastruktur grundlegend.\n\n> Cloud + AI ermöglichen skalierbare, intelligente Systeme.\n\n### Zentrale Vorteile\n\n- **Prädiktive Skalierung** – Automatisches Ressourcenmanagement\n- **Sicherheit** – KI-gestützte Bedrohungserkennung\n- **Effizienz** – Reduzierte Betriebskosten\n\n<Highlight title=\"Wichtige Erkenntnisse\">\n- KI verbessert die Skalierbarkeit\n- Automatisierung senkt Kosten\n- Schnellere Entscheidungsfindung\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["Migration", "Cloud"],
+        "slug": "why-cloud-migration-matters",
+        "title": "Warum Cloud-Migration wichtig ist",
+        "excerpt": "Das tatsächliche Potenzial der Cloud-Migration verstehen.",
+        "publishedAt": "02. Juni 2024",
+        "readingTime": "5 Min. Lesezeit",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "NOW IT Team",
+        "content": "## Cloud-Migration erklärt\n\nCloud-Migration ermöglicht es Unternehmen, ihre IT-Systeme zu modernisieren.\n\n### Vorteile\n\n- Schnellere Bereitstellung\n- Kostenoptimierung\n- Globale Skalierbarkeit"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["Cybersecurity", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "Cybersicherheit im Zeitalter der KI",
+        "excerpt": "Wie KI die digitale Sicherheit neu definiert.",
+        "publishedAt": "18. Juni 2024",
+        "readingTime": "7 Min. Lesezeit",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "Security Team",
+        "content": "## KI-gestützte Sicherheit\n\nKI ermöglicht die Erkennung und Reaktion auf Bedrohungen in Echtzeit.\n\n> Sicherheit ist nicht mehr reaktiv – sie ist prädiktiv."
+      },
+      {
+        "id": "4",
+        "tags": ["Architecture", "Web Development"],
+        "slug": "scalable-web-architecture",
+        "title": "Skalierbare Web-Architekturen aufbauen",
+        "excerpt": "Best Practices für skalierbare Websysteme.",
+        "publishedAt": "01. Juli 2024",
+        "readingTime": "8 Min. Lesezeit",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "Engineering Team",
+        "content": "## Prinzipien skalierbarer Architektur\n\n- Zustandslose Services\n- Horizontale Skalierung\n- Cloud-natives Design"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "Die Zukunft von DevOps",
+        "excerpt": "Wie sich DevOps mit KI weiterentwickelt.",
+        "publishedAt": "15. Juli 2024",
+        "readingTime": "6 Min. Lesezeit",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "DevOps Team",
+        "content": "## Die Zukunft intelligenter und Cloud-gestützter Innovation\n\nIn der sich schnell entwickelnden Welt der Unternehmenstechnologie ist Cloud-Computing das Rückgrat moderner Geschäftsprozesse geworden.\n\nDie Zukunft des Cloud-Computings ist nicht nur skalierbar – sie ist intelligent."
+      }
+    ]
+  },
+  "blogs.readMore": "Mehr lesen",
+  "blogs.latest": "Neueste Blogs",
+  "blogs.similarBlogs": "Ähnliche Blogs",
+  "blogs.share": "Teilen",
+  "newsletter.title": "Bleiben Sie mit den neuesten Einblicken auf dem Laufenden",
+  "newsletter.description": "Abonnieren Sie unseren Newsletter und erhalten Sie wöchentliche Updates zu Cloud-Computing, KI und Technologietrends für Unternehmen.",
+  "newsletter.subscribe": "Abonnieren",
+  "newsletter.subscribing": "Wird abonniert...",
+  "newsletter.spam": "Kein Spam. Abmeldung jederzeit möglich.",
+  "newsletter.emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein"
+}

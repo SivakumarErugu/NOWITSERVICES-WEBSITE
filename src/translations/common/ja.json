@@ -1,38 +1,110 @@
 {
   "headerOptions": [
-    { "name": "home", "label": "ホーム", "link": "/", "options": [] },
-    { "name": "about us", "label": "会社概要", "link": "/aboutus", "options": [] },
+    {
+      "name": "home",
+      "label": "ホーム",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "会社概要",
+      "link": "/aboutus",
+      "options": []
+    },
     {
       "name": "services",
       "label": "サービス",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "スマートマーケティング", "link": "/" },
-        { "name": "business launch", "label": "ビジネス立ち上げ", "link": "/" },
-        { "name": "professional services", "label": "プロフェッショナルサービス", "link": "/" },
-        { "name": "migration", "label": "移行", "link": "/" },
-        { "name": "training services", "label": "トレーニングサービス", "link": "/" },
-        { "name": "messaging services", "label": "メッセージングサービス", "link": "/" },
-        { "name": "ip filing services", "label": "知的財産申請サービス", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "スマートマーケティング",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "ビジネス立ち上げ",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "プロフェッショナルサービス",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "移行",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "トレーニングサービス",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "メッセージングサービス",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "知的財産出願サービス",
+          "link": "/"
+        }
       ]
     },
-    { "name": "products", "label": "製品", "link": "/products", "options": [] },
-    { "name": "blog", "label": "ブログ", "link": "/blog", "options": [] },
-    { "name": "careers", "label": "採用情報", "link": "/careers", "options": [] }
+    {
+      "name": "products",
+      "label": "製品",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "ブログ",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "採用情報",
+      "link": "/careers",
+      "options": []
+    }
   ],
+
   "contactUs": "お問い合わせ",
+
   "footer": {
-    "description": "クラウドファーストでAI主導のデジタルトランスフォーメーションパートナー。",
+    "description": "クラウドファーストかつAI主導のソリューションを提供し、スケーラブルな成長と業務効率の向上を実現するデジタルトランスフォーメーションパートナー。",
     "socialMedia": [
-      { "name": "linkedin", "link": "https://linkedin.com" },
-      { "name": "twitter", "link": "https://twitter.com" },
-      { "name": "instagram", "link": "https://instagram.com" }
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com/company/nowitservices/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.linkedin.com/company/nowitservices/",
+        "icon": ""
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_nowitservices_/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/@NOWITSERVICES-j7k",
+        "icon": "FaYoutube"
+      }
     ],
     "quickLinks": {
       "title": "クイックリンク",
       "items": [
         { "label": "ホーム", "link": "/" },
-        { "label": "会社概要", "link": "/about-us" },
+        { "label": "会社概要", "link": "/aboutus" },
         { "label": "サービス", "link": "/services" },
         { "label": "製品", "link": "/products" }
       ]
@@ -41,31 +113,33 @@
       "title": "ビジネスパートナーシップ",
       "items": [
         { "label": "エンタープライズソリューション", "link": "/services" },
-        { "label": "AIと自動化", "link": "/services" }
+        { "label": "AI & 自動化", "link": "/services" }
       ]
     },
     "legal": {
       "title": "法務・コンプライアンス",
       "items": [
-        { "label": "プライバシーポリシー", "link": "/privacy" },
-        { "label": "利用規約", "link": "/terms" }
+        { "label": "プライバシーポリシー", "link": "/terms-privacy-cookie-policy" },
+        { "label": "利用規約", "link": "/terms-privacy-cookie-policy" },
+        { "label": "クッキーポリシー", "link": "/terms-privacy-cookie-policy" }
       ]
     },
-    "copyright": "© 2026 Nowit Services. 無断転載禁止。"
+    "copyright": "© 2026 Nowit Services. 無断転載を禁じます。"
   },
+
   "contact": {
-    "title": "会話を始めましょう",
-    "subtitle": "ご要望を共有してください。担当チームがご連絡します。",
+    "title": "まずはご相談ください",
+    "subtitle": "ご要件を共有いただければ、担当チームよりご連絡いたします",
     "labels": {
-      "name": "名前",
+      "name": "お名前",
       "email": "メールアドレス",
       "whatsapp": "WhatsApp番号",
-      "date": "希望する連絡日時",
+      "date": "ご希望の連絡日時",
       "message": "メッセージ"
     },
     "placeholders": {
-      "name": "名前を入力してください",
-      "email": "メールを入力してください",
+      "name": "お名前を入力してください",
+      "email": "メールアドレスを入力してください",
       "phone": "電話番号を入力してください",
       "date": "日時を選択してください",
       "message": "メッセージを入力してください"
@@ -74,5 +148,143 @@
       "send": "送信",
       "sending": "送信中..."
     }
+  },
+
+  "locations": [
+    {
+      "title": "インド - アマラヴァティ",
+      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+    },
+    {
+      "title": "インド - ヴィジャヤワーダ",
+      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+    },
+    {
+      "title": "イギリス",
+      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+    },
+    {
+      "title": "ドイツ",
+      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+    }
+  ],
+
+  "organizationForm": {
+    "organizationDetails": {
+      "title": "組織情報",
+      "description": "貴社および事業背景について教えてください。",
+      "sectionTitle": "組織データ",
+      "sectionHint": "パスポートと同一の表記で入力してください"
+    },
+    "otherDetails": {
+      "title": "その他の情報",
+      "description": "連絡先情報および投資関心を共有してください。"
+    },
+    "fields": {
+      "companyName": "会社名",
+      "entityType": "法人形態",
+      "country": "国",
+      "city": "市区町村",
+      "website": "ウェブサイト（任意）",
+      "fullName": "氏名",
+      "email": "メールアドレス",
+      "role": "役職",
+      "phone": "電話番号",
+      "interestNature": "関心の種類",
+      "primaryInterest": "主な関心",
+      "attachment": "添付ファイル（任意）",
+      "message": "メッセージ"
+    },
+    "checkbox": {
+      "confirm": "提供した情報が正確であることを確認します。",
+      "consent": "今後の連絡に同意します。"
+    },
+    "buttons": {
+      "next": "次へ",
+      "back": "戻る",
+      "send": "送信",
+      "sending": "送信中..."
+    },
+    "validation": {
+      "companyName": "会社名は必須です",
+      "entityType": "法人形態は必須です",
+      "country": "国は必須です",
+      "city": "市区町村は必須です",
+      "fullName": "氏名は必須です",
+      "emailRequired": "メールアドレスは必須です",
+      "emailInvalid": "無効なメールアドレスです",
+      "role": "役職は必須です",
+      "phone": "電話番号は必須です",
+      "message": "メッセージは必須です",
+      "messageMax": "メッセージは500文字以内で入力してください"
+    },
+    "options": {
+      "entityType": [
+        { "value": "Start Up", "label": "スタートアップ" },
+        { "value": "Enterprise", "label": "企業" }
+      ],
+      "role": [
+        { "value": "Founder", "label": "創業者" },
+        { "value": "Partner", "label": "パートナー" }
+      ],
+      "interestNature": [
+        { "value": "Investor", "label": "投資家" }
+      ],
+      "primaryInterest": [
+        { "value": "Strategic Partnership", "label": "戦略的パートナーシップ" }
+      ],
+      "investmentSize": [
+        { "value": "Upto 10Cr", "label": "最大10Crまで" }
+      ],
+      "timeline": [
+        { "value": "6-12 Months", "label": "6〜12か月" }
+      ]
+    },
+    "toast": {
+      "success": "フォームが正常に送信されました",
+      "failure": "送信に失敗しました。再度お試しください。",
+      "serverError": "送信に失敗しました。"
+    }
+  },
+
+  "jobApplicationForm": {
+    "applicationForm": "応募フォーム",
+    "personalInformation": "個人情報",
+    "slidingText": "現在の募集職種",
+    "jobid": "求人ID",
+    "projectRole": "プロジェクト役割",
+    "ApplyForThisJob": "この求人に応募する",
+    "JobDescription": "仕事内容",
+    "experience": "必要な経験",
+    "prodescription": "プロジェクト概要",
+    "skills": "スキル",
+    "education": "学歴・資格",
+    "benifits": "福利厚生",
+    "summary": "概要",
+    "application": "応募フォーム",
+    "personal": "個人情報",
+    "fname": "名",
+    "lname": "姓",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "resume": "履歴書",
+    "cletter": "カバーレター",
+    "certifications": "資格",
+    "cuurentpack": "現在の給与",
+    "expectedpack": "希望給与",
+    "company": "会社名",
+    "role": "役職 / ポジション",
+    "start": "開始日",
+    "end": "終了日",
+    "tSkills": "技術スキル",
+    "scertifications": "スキル・資格",
+    "submit": "送信",
+    "submitting": "送信中",
+    "workExperience": "職務経験",
+    "placeholders.coverletter": "なぜ当社に適しているかを教えてください...",
+    "placeholders.resume": "履歴書をここにドラッグするか ",
+    "placeholders.file": "対応形式：PDF、DOCX（最大5MB）",
+    "placeholders.certifications": "AWS Certified Developer, PMP...",
+    "placeholders.skills": "JavaScript, React, Nodejs..."
   }
 }

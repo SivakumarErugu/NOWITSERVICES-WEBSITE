@@ -1,164 +1,290 @@
 {
-    "headerOptions": [
-        {
-            "name": "home",
-            "label": "首页",
-            "link": "/",
-            "options": []
-        },
-        {
-            "name": "about us",
-            "label": "关于我们",
-            "link": "/aboutus",
-            "options": []
-        },
-        {
-            "name": "services",
-            "label": "服务",
-            "link": "/",
-            "options": [
-                {
-                    "name": "smart marketing",
-                    "label": "智能营销",
-                    "link": "/"
-                },
-                {
-                    "name": "business launch",
-                    "label": "业务启动",
-                    "link": "/"
-                },
-                {
-                    "name": "professional services",
-                    "label": "专业服务",
-                    "link": "/"
-                },
-                {
-                    "name": "migration",
-                    "label": "迁移",
-                    "link": "/"
-                },
-                {
-                    "name": "training services",
-                    "label": "培训服务",
-                    "link": "/"
-                },
-                {
-                    "name": "messaging services",
-                    "label": "消息服务",
-                    "link": "/"
-                },
-                {
-                    "name": "ip filing services",
-                    "label": "知识产权申报服务",
-                    "link": "/"
-                }
-            ]
-        },
-        {
-            "name": "products",
-            "label": "产品",
-            "link": "/products",
-            "options": []
-        },
-        {
-            "name": "blog",
-            "label": "博客",
-            "link": "/blog",
-            "options": []
-        },
-        {
-            "name": "careers",
-            "label": "招聘",
-            "link": "/careers",
-            "options": []
-        }
-    ],
-    "contactUs": "联系我们",
-    "footer": {
-        "description": "提供以云和人工智能为核心的数字化转型解决方案。",
-        "socialMedia": [
-            {
-                "name": "linkedin",
-                "link": "https://linkedin.com"
-            },
-            {
-                "name": "twitter",
-                "link": "https://twitter.com"
-            },
-            {
-                "name": "instagram",
-                "link": "https://instagram.com"
-            }
-        ],
-        "quickLinks": {
-            "title": "快速链接",
-            "items": [
-                {
-                    "label": "首页",
-                    "link": "/"
-                },
-                {
-                    "label": "关于我们",
-                    "link": "/about-us"
-                },
-                {
-                    "label": "服务",
-                    "link": "/services"
-                },
-                {
-                    "label": "产品",
-                    "link": "/products"
-                }
-            ]
-        },
-        "services": {
-            "title": "业务合作",
-            "items": [
-                {
-                    "label": "企业解决方案",
-                    "link": "/services"
-                },
-                {
-                    "label": "人工智能与自动化",
-                    "link": "/services"
-                }
-            ]
-        },
-        "legal": {
-            "title": "法律与合规",
-            "items": [
-                {
-                    "label": "隐私政策",
-                    "link": "/privacy"
-                },
-                {
-                    "label": "条款与条件",
-                    "link": "/terms"
-                }
-            ]
-        },
-        "copyright": "© 2026 Nowit Services. 版权所有。"
+  "headerOptions": [
+    {
+      "name": "home",
+      "label": "首页",
+      "link": "/",
+      "options": []
     },
-    "contact": {
-        "title": "开启沟通",
-        "subtitle": "分享您的需求，我们将尽快与您联系",
-        "labels": {
-            "name": "姓名",
-            "email": "邮箱",
-            "whatsapp": "WhatsApp号码",
-            "date": "首选联系时间",
-            "message": "留言"
+    {
+      "name": "about us",
+      "label": "关于我们",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "服务",
+      "link": "/",
+      "options": [
+        {
+          "name": "smart marketing",
+          "label": "智能营销",
+          "link": "/"
         },
-        "placeholders": {
-            "name": "请输入姓名",
-            "email": "请输入邮箱",
-            "phone": "请输入电话号码",
-            "date": "选择日期和时间",
-            "message": "请输入留言"
+        {
+          "name": "business launch",
+          "label": "业务启动",
+          "link": "/"
         },
-        "button": {
-            "send": "发送",
-            "sending": "发送中..."
+        {
+          "name": "professional services",
+          "label": "专业服务",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "迁移",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "培训服务",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "消息服务",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "知识产权申请服务",
+          "link": "/"
         }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "产品",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "博客",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "招聘",
+      "link": "/careers",
+      "options": []
     }
+  ],
+
+  "contactUs": "联系我们",
+
+  "footer": {
+    "description": "数字化转型合作伙伴，提供以云为先、人工智能驱动的解决方案，助力企业实现可扩展增长与卓越运营。",
+    "socialMedia": [
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com/company/nowitservices/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.linkedin.com/company/nowitservices/",
+        "icon": ""
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_nowitservices_/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/@NOWITSERVICES-j7k",
+        "icon": "FaYoutube"
+      }
+    ],
+    "quickLinks": {
+      "title": "快速链接",
+      "items": [
+        { "label": "首页", "link": "/" },
+        { "label": "关于我们", "link": "/aboutus" },
+        { "label": "服务", "link": "/services" },
+        { "label": "产品", "link": "/products" }
+      ]
+    },
+    "services": {
+      "title": "业务合作",
+      "items": [
+        { "label": "企业解决方案", "link": "/services" },
+        { "label": "人工智能与自动化", "link": "/services" }
+      ]
+    },
+    "legal": {
+      "title": "法律与合规",
+      "items": [
+        { "label": "隐私政策", "link": "/terms-privacy-cookie-policy" },
+        { "label": "条款与条件", "link": "/terms-privacy-cookie-policy" },
+        { "label": "Cookie 政策", "link": "/terms-privacy-cookie-policy" }
+      ]
+    },
+    "copyright": "© 2026 Nowit Services. 版权所有。"
+  },
+
+  "contact": {
+    "title": "开启沟通",
+    "subtitle": "请分享您的需求，我们的团队将与您联系",
+    "labels": {
+      "name": "姓名",
+      "email": "电子邮箱",
+      "whatsapp": "WhatsApp 号码",
+      "date": "首选联系日期和时间",
+      "message": "留言"
+    },
+    "placeholders": {
+      "name": "请输入您的姓名",
+      "email": "请输入您的电子邮箱",
+      "phone": "请输入电话号码",
+      "date": "请选择日期和时间",
+      "message": "请输入留言"
+    },
+    "button": {
+      "send": "发送",
+      "sending": "发送中..."
+    }
+  },
+
+  "locations": [
+    {
+      "title": "印度 - 阿马拉瓦蒂",
+      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+    },
+    {
+      "title": "印度 - 维杰亚瓦达",
+      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+    },
+    {
+      "title": "英国",
+      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+    },
+    {
+      "title": "德国",
+      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+    }
+  ],
+
+  "organizationForm": {
+    "organizationDetails": {
+      "title": "组织信息",
+      "description": "请帮助我们了解您的组织及业务背景。",
+      "sectionTitle": "组织数据",
+      "sectionHint": "请与护照信息保持一致"
+    },
+    "otherDetails": {
+      "title": "其他信息",
+      "description": "请分享您的联系方式和投资意向，以便我们与您联系。"
+    },
+    "fields": {
+      "companyName": "公司名称",
+      "entityType": "实体类型",
+      "country": "国家",
+      "city": "城市",
+      "website": "网站（可选）",
+      "fullName": "姓名",
+      "email": "电子邮箱",
+      "role": "职位",
+      "phone": "电话",
+      "interestNature": "兴趣性质",
+      "primaryInterest": "主要兴趣",
+      "attachment": "可选附件",
+      "message": "留言"
+    },
+    "checkbox": {
+      "confirm": "我确认所提供的信息真实准确。",
+      "consent": "我同意后续联系。"
+    },
+    "buttons": {
+      "next": "下一步",
+      "back": "返回",
+      "send": "发送",
+      "sending": "发送中..."
+    },
+    "validation": {
+      "companyName": "公司名称为必填项",
+      "entityType": "实体类型为必填项",
+      "country": "国家为必填项",
+      "city": "城市为必填项",
+      "fullName": "姓名为必填项",
+      "emailRequired": "电子邮箱为必填项",
+      "emailInvalid": "无效的电子邮箱地址",
+      "role": "职位为必填项",
+      "phone": "联系电话为必填项",
+      "message": "留言为必填项",
+      "messageMax": "留言不能超过 500 个字符"
+    },
+    "options": {
+      "entityType": [
+        { "value": "Start Up", "label": "初创公司" },
+        { "value": "Enterprise", "label": "企业" }
+      ],
+      "role": [
+        { "value": "Founder", "label": "创始人" },
+        { "value": "Partner", "label": "合伙人" }
+      ],
+      "interestNature": [
+        { "value": "Investor", "label": "投资者" }
+      ],
+      "primaryInterest": [
+        { "value": "Strategic Partnership", "label": "战略合作" }
+      ],
+      "investmentSize": [
+        { "value": "Upto 10Cr", "label": "最高 10Cr" }
+      ],
+      "timeline": [
+        { "value": "6-12 Months", "label": "6-12 个月" }
+      ]
+    },
+    "toast": {
+      "success": "表单提交成功",
+      "failure": "提交失败，请重试。",
+      "serverError": "提交失败。"
+    }
+  },
+
+  "jobApplicationForm": {
+    "applicationForm": "申请表",
+    "personalInformation": "个人信息",
+    "slidingText": "当前职位",
+    "jobid": "职位编号",
+    "projectRole": "项目角色",
+    "ApplyForThisJob": "申请该职位",
+    "JobDescription": "职位描述",
+    "experience": "所需经验",
+    "prodescription": "项目描述",
+    "skills": "技能",
+    "education": "学历要求",
+    "benifits": "福利",
+    "summary": "摘要",
+    "application": "申请表",
+    "personal": "个人信息",
+    "fname": "名",
+    "lname": "姓",
+    "email": "电子邮箱",
+    "phone": "电话号码",
+    "resume": "简历",
+    "cletter": "求职信",
+    "certifications": "证书",
+    "cuurentpack": "当前薪资",
+    "expectedpack": "期望薪资",
+    "company": "公司名称",
+    "role": "职位 / 岗位",
+    "start": "开始日期",
+    "end": "结束日期",
+    "tSkills": "技术技能",
+    "scertifications": "技能与证书",
+    "submit": "提交",
+    "submitting": "提交中",
+    "workExperience": "工作经验",
+    "placeholders.coverletter": "请说明为什么您适合我们的团队...",
+    "placeholders.resume": "将简历拖到此处或 ",
+    "placeholders.file": "支持格式：PDF、DOCX（最大 5MB）",
+    "placeholders.certifications": "AWS Certified Developer, PMP...",
+    "placeholders.skills": "JavaScript, React, Nodejs..."
+  }
 }

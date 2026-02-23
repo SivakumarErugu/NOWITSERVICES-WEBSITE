@@ -1,0 +1,88 @@
+{
+  "servicesData": {
+    "smart marketing": {
+      "title": "智能营销",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+      "description": "我们的智能营销服务结合战略、创意和人工智能洞察，帮助企业建立强大的品牌影响力、提升用户参与度并优化数字营销表现。",
+      "Services1": {
+        "headingSmall": "营销，能够",
+        "headingMain": "思考、学习并创造价值",
+        "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
+      },
+      "Services2": {
+        "heading": "包含内容",
+        "highlight": "智能营销",
+        "description": "基于数据和人工智能的数字营销服务。",
+        "cards": [
+          {
+            "title": "数据驱动的数字营销活动",
+            "desc": "基于数据洞察构建的精准营销活动。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "内容与品牌故事",
+            "desc": "增强品牌认知与连接用户的内容。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "AI用户分群",
+            "desc": "基于行为与偏好的智能分群。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "营销效果分析",
+            "desc": "实时监控与优化投资回报率。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "预测式互动洞察（AI Edge）",
+            "desc": "预测用户行为并提升营销效果。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "business launch": {
+      "title": "企业启动服务",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+      "description": "为新企业提供系统化的全流程启动支持。",
+      "Services1": {
+        "headingSmall": "启动您的",
+        "headingMain": "企业更有信心",
+        "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
+      },
+      "Services2": {
+        "heading": "包含内容",
+        "highlight": "企业启动",
+        "description": "助力企业成功进入市场。",
+        "cards": [
+          {
+            "title": "企业名称与Logo注册",
+            "desc": "品牌命名与法律注册支持。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "网站与品牌建设",
+            "desc": "现代化品牌官网建设。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "营销与发布活动",
+            "desc": "提升市场认知度。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "活动与公关管理",
+            "desc": "企业发布与媒体活动。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "市场预测模拟（AI Edge）",
+            "desc": "AI驱动的市场进入分析。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    }
+  }
+}

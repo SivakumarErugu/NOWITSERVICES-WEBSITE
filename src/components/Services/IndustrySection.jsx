@@ -74,7 +74,7 @@ const IndustrySection = () => {
             <div className="mx-auto px-5 md:px-8 lg:px-15">
 
                 {/* ===== Header ===== */}
-                <SlidingHeader title="Industries" bottom="mb-2" />
+                <SlidingHeader title={t("industries")} bottom="mb-2" />
 
                 <h2 className="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
                   {t("Industry.title")|| "Industry Solutions"}  <span className="text-[#0b5ed7]">{t("Industry.span") || "Every Industry"}</span>

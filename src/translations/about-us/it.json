@@ -1,111 +1,221 @@
 {
   "banner.span": "Costruire tecnologia",
-  "banner.title": "che genera impatto.",
+  "banner.title": "che crea impatto.",
   "banner.description1": "Sviluppiamo soluzioni digitali scalabili per web, mobile e cloud.",
-  "banner.description2": "Aiutiamo le aziende a risolvere sfide reali attraverso una tecnologia affidabile e intelligente.",
+  "banner.description2": "Aiutiamo le aziende a risolvere sfide reali attraverso una tecnologia intelligente e affidabile.",
 
-  "vision.slidingHeader.title": "La nostra",
+  "vision.slidingHeader.title": "La Nostra",
   "vision.span": "Visione",
-  "vision.title": "La nostra",
-  "vision.description1": "Guidare l’innovazione attraverso soluzioni digitali intelligenti che risolvono sfide aziendali reali.",
-  "vision.description2": "Siamo impegnati nell’apprendimento continuo, nell’adattabilità e in un’esecuzione attenta.",
-  "vision.description3": "Crediamo che una tecnologia solida sia costruita con responsabilità e sostenibilità.",
+  "vision.title": "La Nostra",
+  "vision.description1": "Guidare l’innovazione attraverso soluzioni digitali intelligenti che risolvono reali sfide aziendali. Immaginiamo un futuro in cui la tecnologia abilita efficienza, crescita e progresso significativo.",
+  "vision.description2": "Siamo impegnati nell’apprendimento continuo, nell’adattabilità e in un’esecuzione consapevole, assicurando che le nostre soluzioni rimangano rilevanti in un panorama digitale in continua evoluzione.",
+  "vision.description3": "Crediamo che una tecnologia solida debba essere costruita con responsabilità. La nostra visione è semplificare la complessità, abbracciare l’innovazione e creare soluzioni digitali che supportino una crescita sostenibile e il successo a lungo termine dei nostri clienti.",
 
-  "journey.title": "Il nostro",
+  "journey.title": "Il Nostro",
   "journey.span": "Percorso",
-  "journey.description": "Aiutiamo i brand a crescere con tecnologia affidabile.",
+  "journey.description": "Aiutiamo i brand ad avere successo grazie a una tecnologia intelligente e affidabile.",
   "journey.List": [
-    { "suffix": "20", "description": "Costituita nel Regno Unito come società di consulenza tecnologica" },
-    { "suffix": "21", "description": "Avvio dei servizi di consulenza tecnologica in India per AspireSystems, Qbrainx e UST Global" },
-    { "suffix": "22", "description": "Espansione delle operazioni in India rafforzando il team di sviluppo" },
-    { "suffix": "23", "description": "Focus su innovazione di prodotto e architettura SaaS scalabile" },
-    { "suffix": "24", "description": "Avvio come azienda orientata al prodotto con il brand WON Apps" },
-    { "suffix": "25", "description": "Lancio della prima piattaforma SaaS ed espansione nel WON App Store" },
-    { "suffix": "26", "description": "Crescita verso cinque piattaforme nel WON App Store" }
+    {
+      "suffix": "20",
+      "description": "Costituzione nel Regno Unito come società di consulenza tecnologica"
+    },
+    {
+      "suffix": "21",
+      "description": "Avvio dei servizi di consulenza tecnologica in India per AspireSystems, Qbrainx e UST Global e sviluppo di applicazioni web e mobile personalizzate"
+    },
+    {
+      "suffix": "22",
+      "description": "Espansione delle operazioni in India rafforzando il team di sviluppo e accelerando le iniziative di ricerca e sviluppo"
+    },
+    {
+      "suffix": "23",
+      "description": "Focus su innovazione di prodotto, acquisizione clienti e creazione di architetture SaaS scalabili"
+    },
+    {
+      "suffix": "24",
+      "description": "Avvio come azienda product-based con il brand WON Apps"
+    },
+    {
+      "suffix": "25",
+      "description": "Lancio della prima piattaforma SaaS e aggiunta graduale di altre due piattaforme SaaS nel WON App Store"
+    },
+    {
+      "suffix": "26",
+      "description": "Progresso verso l’aggiunta di ulteriori piattaforme, arrivando a cinque nel WON App Store"
+    }
   ],
 
-  "aboutUs.description": "Deteniamo brevetti su una piattaforma di calzature intelligenti di nuova generazione che trasforma il movimento quotidiano in dati sanitari significativi.",
+  "aboutUs.description": "Deteniamo brevetti su una piattaforma di smart footwear di nuova generazione che trasforma il movimento quotidiano in informazioni sanitarie significative. Combinando tecnologie di sensori avanzati con analisi intelligenti dei dati, il sistema consente il monitoraggio in tempo reale e feedback personalizzati sul benessere. Efficiente dal punto di vista energetico e perfettamente connessa, questa innovazione si colloca all’intersezione tra sanità, mobilità e tecnologia indossabile, plasmando il futuro dell’assistenza preventiva basata sui dati.",
 
   "chooseus.title": "Perché",
-  "chooseus.span": "sceglierci",
-  "chooseus.description": "Tecnologia affidabile per risultati concreti.",
+  "chooseus.span": "Sceglierci",
+  "chooseus.description": "Aiutiamo i brand ad avere successo grazie a una tecnologia intelligente e affidabile.",
   "chooseus.List": [
-    { "id": 1, "title": "Approccio user-first", "description": "Soluzioni progettate attorno alle reali esigenze degli utenti." },
-    { "id": 2, "title": "Intelligenza basata su AI", "description": "Integrazione intelligente dell’AI per automatizzare i processi." },
-    { "id": 3, "title": "Cloud-first e pronto per il futuro", "description": "Architetture cloud scalabili." },
-    { "id": 4, "title": "Responsabilità end-to-end", "description": "Gestiamo i risultati dall’idea alla consegna." },
-    { "id": 5, "title": "Soluzioni orientate al settore", "description": "Allineate alle reali sfide industriali." },
-    { "id": 6, "title": "Progettato per scalare", "description": "Affidabilità e crescita a lungo termine." },
-    { "id": 7, "title": "Trasparenza e fiducia", "description": "Comunicazione chiara e risultati misurabili." }
+    {
+      "id": 1,
+      "title": "Approccio orientato all’utente",
+      "description": "Progettiamo soluzioni basate su reali esigenze degli utenti, garantendo chiarezza, facilità d’uso e decisioni consapevoli in ogni fase."
+    },
+    {
+      "id": 2,
+      "title": "Intelligenza guidata dall’IA",
+      "description": "Integriamo l’intelligenza artificiale in modo strategico per automatizzare i flussi di lavoro e favorire decisioni più intelligenti."
+    },
+    {
+      "id": 3,
+      "title": "Cloud-first e pronto per il futuro",
+      "description": "Costruito su architetture cloud scalabili che crescono insieme al tuo business."
+    },
+    {
+      "id": 4,
+      "title": "Responsabilità end-to-end",
+      "description": "Dall’ideazione al deployment e oltre, ci assumiamo la piena responsabilità dei risultati."
+    },
+    {
+      "id": 5,
+      "title": "Soluzioni orientate al settore",
+      "description": "Soluzioni focalizzate sul dominio, allineate alle reali sfide del settore."
+    },
+    {
+      "id": 6,
+      "title": "Progettato per scalare, non solo per il lancio",
+      "description": "Ingegnerizzato per prestazioni a lungo termine, affidabilità e crescita."
+    },
+    {
+      "id": 7,
+      "title": "Fiducia attraverso la trasparenza",
+      "description": "Comunicazione chiara, tempistiche oneste e risultati misurabili."
+    }
   ],
 
   "brands.span": "Brand",
-  "brands.title": "Che si fidano di noi",
-  "brands.description": "Partnership basate su fiducia e risultati.",
+  "brands.title": "Che Si Fidano di Noi",
+  "brands.description": "Aiutiamo i brand ad avere successo grazie a una tecnologia intelligente e affidabile.",
 
   "projects.title": "Progetti",
-  "projects.description": "Progetti che riflettono la nostra esperienza",
+  "projects.description": "Progetti che riflettono la nostra competenza e il nostro impegno per la qualità",
   "projects.List": [
     {
       "id": 1,
       "title": "WON Bill",
-      "description": "WON Bill è una piattaforma enterprise per l’automazione della fatturazione.",
+      "description": "WON Bills è una piattaforma enterprise di automazione della fatturazione. Semplifica fatturazione e pagamenti. Progettata per scalabilità e precisione.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png"
     },
     {
       "id": 2,
       "title": "WON Digi",
-      "description": "WON Digi è una piattaforma digitale completa per la gestione scolastica.",
+      "description": "WON Digi è una piattaforma completa per la gestione di scuole e istituti. Digitalizza i flussi accademici, amministrativi e operativi.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg"
     },
     {
       "id": 3,
       "title": "WON Pulse",
-      "description": "WON Pulse è un sistema completo di gestione ospedaliera.",
+      "description": "WON Pulse è un sistema completo di gestione ospedaliera e sanitaria. Ottimizza i processi clinici, amministrativi e operativi.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg"
     },
     {
       "id": 4,
       "title": "WON Hubs",
-      "description": "WON Hubs è la piattaforma infrastrutturale centrale dell’ecosistema WON.",
+      "description": "WON Hubs è la piattaforma infrastrutturale centrale. Alimenta l’intero ecosistema WON. Progettata per scalabilità e resilienza.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
     {
       "id": 5,
       "title": "WON Bridge",
-      "description": "WON Bridge collega sistemi aziendali consentendo uno scambio dati fluido.",
+      "description": "WON Bridge connette i sistemi aziendali in modo fluido. Consente uno scambio di dati efficiente. Progettata per integrazioni enterprise.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
     }
   ],
 
   "projects.viewAll": "Visualizza tutti i prodotti",
 
-  "testimonials.slidingTitle": "Testimonianze",
+  "testimonials.title": "Testimonianze",
   "testimonials.title.prefix": "Costruire",
-  "testimonials.title.suffix": "attraverso i risultati",
+  "testimonials.title.suffix": "Fiducia Attraverso i Risultati",
   "testimonials.span": "Fiducia",
-  "testimonials.description": "Feedback reale dai nostri clienti.",
+  "testimonials.description": "Feedback reali dei clienti che hanno collaborato con noi per costruire soluzioni digitali affidabili.",
   "testimonials.list": [
     {
       "name": "Rajesh Kumar",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT ha consegnato esattamente ciò di cui avevamo bisogno, puntualmente."
+      "text": "NowIT ha consegnato esattamente ciò di cui avevamo bisogno, nei tempi previsti e con grande attenzione alla qualità. Il team è stato professionale, reattivo e collaborativo durante tutto il progetto."
     },
     {
       "name": "Ananya Sharma",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "Hanno trasformato la nostra visione in un prodotto scalabile."
+      "text": "Hanno compreso rapidamente la nostra visione e l’hanno trasformata in un prodotto scalabile. Il processo è stato fluido e il risultato finale ha superato le nostre aspettative."
     },
     {
       "name": "Vikram Rao",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "Un partner affidabile e competente nel lungo periodo."
+      "text": "La loro competenza tecnica e l’approccio strutturato ci hanno aiutato a costruire una soluzione affidabile su web e mobile. Li consideriamo un partner a lungo termine."
     }
   ],
 
   "becomepartner.title.prefix": "Crescere",
   "becomepartner.title.middle": "Insieme",
-  "becomepartner.title.suffix": "Attraverso la partnership",
-  "becomepartner.description": "Collabora con NowIT Services per innovare e creare soluzioni personalizzate.",
-  "becomepartner.becomepartner": "Diventa partner"
+  "becomepartner.title.suffix": "Attraverso la Partnership",
+  "becomepartner.description": "Diventa partner di NowIT Services per collaborare, innovare e offrire soluzioni personalizzate.",
+  "becomepartner.becomepartner": "Diventa Partner",
+
+  "headerOptions": [
+    {
+      "name": "home",
+      "label": "Home",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "Chi Siamo",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "Servizi",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Marketing Intelligente", "link": "/" },
+        { "name": "business launch", "label": "Avvio Business", "link": "/" },
+        { "name": "professional services", "label": "Servizi Professionali", "link": "/" },
+        { "name": "migration", "label": "Migrazione", "link": "/" },
+        { "name": "training services", "label": "Servizi di Formazione", "link": "/" },
+        { "name": "messaging services", "label": "Servizi di Messaggistica", "link": "/" },
+        { "name": "ip filing services", "label": "Servizi di Deposito IP", "link": "/" }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "Prodotti",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "Blog",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "Carriere",
+      "link": "/careers",
+      "options": []
+    }
+  ],
+
+  "Aboutus.text": "Deteniamo brevetti su una piattaforma di smart footwear di nuova generazione che trasforma il movimento quotidiano in informazioni sanitarie significative. Combinando tecnologie di sensori avanzate con analisi intelligenti dei dati, il sistema consente il monitoraggio in tempo reale e feedback personalizzati sul benessere. Questa innovazione efficiente dal punto di vista energetico si colloca all’intersezione tra sanità, mobilità e tecnologia indossabile, modellando il futuro dell’assistenza preventiva basata sui dati.",
+
+  "clients": "Clienti",
+  "services": "Servizi",
+  "products": "Prodotti",
+  "countries": "Paesi",
+
+  "stats": [
+    { "label": "18+ Clienti", "href": "/clients" },
+    { "label": "12+ Servizi", "href": "/services" },
+    { "label": "10+ Prodotti", "href": "/products" },
+    { "label": "3+ Paesi", "href": "/countries" }
+  ]
 }

@@ -4,7 +4,7 @@
   "banner.title": "Transformación Digital Inteligente",
   "banner.description": "Permite que las empresas crezcan más rápido con automatización impulsada por IA, soluciones en la nube e innovación basada en datos.",
   "banner.recommend": "Recomiéndanos",
-  "banner.customer": "9 de cada 10 Clientes",
+  "banner.customer": "9/10 Clientes",
   "banner.100": "100%",
   "banner.quality": "Calidad Garantizada",
   "banner.24": "24/7",
@@ -14,7 +14,7 @@
   "banner.3": "3+",
   "banner.countries": "Países",
   "banner.projects": "16+ Proyectos",
-  "banner.onTime": "Entrega a Tiempo",
+  "banner.onTime": "Entrega Puntual",
   "hero.getStarted": "Comenzar",
   "hero.unified": "Servicios Unificados",
   "hero.reliable": "Soporte Confiable",
@@ -30,9 +30,9 @@
   "partner.talktoai": "Hablar con IA",
 
   "services.slidingTitle": "Nuestros Servicios",
-  "services.title": "Servicios Digitales",
-  "services.span": "Integrales",
-  "services.description": "Ofrecemos servicios de software integrales que ayudan a las empresas a construir, escalar y modernizar sus productos digitales. Desde la estrategia y el diseño hasta el desarrollo y la implementación, entregamos soluciones confiables y de alta calidad adaptadas a tus necesidades empresariales.",
+  "services.title": "De Extremo a Extremo",
+  "services.span": "Servicios Digitales",
+  "services.description": "Ofrecemos servicios de software integrales que ayudan a las empresas a construir, escalar y modernizar sus productos digitales. Desde la estrategia y el diseño hasta el desarrollo y la implementación, entregamos soluciones confiables y de alta calidad adaptadas a tus necesidades.",
 
   "services.carouselList": [
     {
@@ -41,7 +41,7 @@
       "description": "Soluciones de marketing basadas en datos diseñadas para mejorar el alcance y la interacción.",
       "items": [
         "Campañas digitales basadas en datos",
-        "Contenido y storytelling de marca",
+        "Contenido y narrativa de marca",
         "Segmentación de audiencia con IA",
         "Seguimiento y análisis de rendimiento"
       ],
@@ -52,83 +52,57 @@
       "name": "Migración a la Nube y Aplicaciones",
       "description": "Servicios de migración a la nube seguros y escalables para empresas modernas",
       "items": [
-        "Migración segura de nube y datos",
+        "Migración segura de datos y nube",
         "Optimización de infraestructura",
         "Integraciones de API y sistemas",
         "Evaluación y planificación de riesgos"
       ],
       "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
-    },
-    {
-      "id": 3,
-      "name": "Servicios Profesionales y de Consultoría",
-      "description": "Consultoría empresarial y de TI experta para crecimiento estratégico y ejecución.",
-      "items": [
-        "Consultoría empresarial y de TI",
-        "Planificación y entrega de proyectos",
-        "Gestión de recursos",
-        "Soporte técnico continuo"
-      ],
-      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
-    },
-    {
-      "id": 4,
-      "name": "Servicios de Mensajería y Comunicación",
-      "description": "Soluciones de comunicación impulsadas por IA para una mejor interacción con clientes.",
-      "items": [
-        "Mensajería masiva SMS y WhatsApp",
-        "Chatbots con IA y respuestas automáticas",
-        "Gestión de clientes en tiempo real",
-        "Análisis de campañas"
-      ],
-      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
-    },
-    {
-      "id": 5,
-      "name": "Servicios de Lanzamiento Empresarial",
-      "description": "Ayudamos a las empresas a comenzar con fuerza mediante soporte integral de lanzamiento e información impulsada por IA.",
-      "items": [
-        "Registro de marca y configuración de identidad",
-        "Creación de sitio web y presencia digital",
-        "Marketing, PR y campañas de lanzamiento"
-      ],
-      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
-    },
-    {
-      "id": 6,
-      "name": "Servicios de Registro de Propiedad Intelectual",
-      "description": "Protege tu innovación con servicios de PI seguros y confiables.",
-      "items": [
-        "Registro y gestión de patentes",
-        "Registro de marcas",
-        "Protección de derechos de autor",
-        "Búsqueda y validación de PI asistida por IA"
-      ],
-      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Servicios de Capacitación y Desarrollo",
-      "description": "Mejora las habilidades de los equipos con formación digital y tecnológica relevante para la industria.",
-      "items": [
-        "Capacitación en habilidades digitales y TI",
-        "Programas de IA y tecnología en la nube",
-        "Marketing, PR y campañas de lanzamiento",
-        "Perspectivas de mercado impulsadas por IA"
-      ],
-      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
     }
   ],
 
   "products.slidingTitle": "Nuestros Productos",
   "products.title": "Productos Digitales",
   "products.span": "Listos para Empresas",
-  "products.description": "Nuestros productos están diseñados para resolver desafíos empresariales mediante soluciones digitales inteligentes, escalables y fáciles de usar.",
+  "products.description": "Nuestros productos están diseñados para resolver desafíos empresariales mediante soluciones digitales inteligentes y escalables.",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "WON Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "WON Hubs es una plataforma educativa integral diseñada para transformar la gestión escolar y el aprendizaje."
+    },
+    {
+      "id": 2,
+      "name": "WON Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "WON Digi es una plataforma educativa todo en uno para la gestión académica."
+    },
+    {
+      "id": 3,
+      "name": "WON Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "WON Pulse es un software integral de gestión hospitalaria diseñado para optimizar procesos clínicos y administrativos."
+    },
+    {
+      "id": 4,
+      "name": "WON Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "WON Bills es una solución inteligente de facturación y gestión financiera."
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "WON Bridge es una plataforma integrada de comunicación y colaboración."
+    }
+  ],
+
   "products.viewProduct": "Ver Producto",
 
   "Industry.title": "Soluciones para",
   "Industry.span": "Cada Industria",
-  "Industry.description": "NOWIT Services ofrece servicios de transformación digital impulsados por IA que ayudan a las empresas a mejorar la eficiencia, automatizar operaciones y crecer más rápido.",
+  "Industry.description": "NOWIT Services ofrece transformación digital impulsada por IA.",
   "Industry.list": [
     "Salud",
     "Educación",
@@ -148,50 +122,50 @@
   "testimonials.title.prefix": "Construyendo",
   "testimonials.title.suffix": "a Través de Resultados",
   "testimonials.span": "Confianza",
-  "testimonials.description": "Comentarios reales de clientes que se han asociado con nosotros.",
+  "testimonials.description": "Comentarios reales de clientes.",
   "testimonials.list": [
     {
       "name": "Rajesh Kumar",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT entregó exactamente lo que necesitábamos, a tiempo y con gran atención a la calidad."
+      "text": "NowIT entregó exactamente lo que necesitábamos, a tiempo y con alta calidad."
     },
     {
       "name": "Ananya Sharma",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "Entendieron rápidamente nuestra visión y la convirtieron en un producto escalable."
+      "text": "Entendieron nuestra visión y la transformaron en un producto escalable."
     },
     {
       "name": "Vikram Rao",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "Su experiencia técnica y enfoque estructurado nos ayudaron a construir una solución confiable."
+      "text": "Su experiencia técnica nos ayudó a construir una solución confiable."
     }
   ],
 
   "faq.span": "Preguntas Frecuentes",
   "faq.title": "Preguntas Frecuentes",
   "faq.subquestion": "¿Aún tienes preguntas?",
-  "faq.description": "Estamos aquí para ayudarte a entender cómo trabajamos y cómo podemos crecer juntos.",
+  "faq.description": "Estamos aquí para ayudarte.",
   "faq.getintouch": "Ponerse en Contacto",
   "faq.list": [
     {
       "id": 1,
       "title": "¿Qué industrias atienden?",
-      "description": "Atendemos finanzas, salud, retail, educación, manufactura y TI."
+      "description": "Atendemos finanzas, salud, retail, educación y tecnología."
     },
     {
       "id": 2,
       "title": "¿Cómo abordan un nuevo proyecto?",
-      "description": "Comenzamos con descubrimiento, alineamos objetivos y ejecutamos con retroalimentación continua."
+      "description": "Comenzamos con descubrimiento y ejecutamos con retroalimentación continua."
     },
     {
       "id": 3,
       "title": "¿Cómo podemos comenzar?",
-      "description": "Contáctanos a través de nuestro formulario y nuestro equipo te guiará."
+      "description": "Contáctanos y nuestro equipo te guiará."
     },
     {
       "id": 4,
-      "title": "¿Pueden escalar sus soluciones?",
-      "description": "Sí, nuestras soluciones están diseñadas para escalar sin problemas."
+      "title": "¿Sus soluciones pueden escalar?",
+      "description": "Sí, están diseñadas para escalar sin problemas."
     }
   ],
 
@@ -200,6 +174,11 @@
   "becomepartner.title.prefix": "Crecer",
   "becomepartner.title.middle": "Juntos",
   "becomepartner.title.suffix": "a Través de la Asociación",
-  "becomepartner.description": "Asóciate con NowIT Services para colaborar e innovar.",
-  "becomepartner.becomepartner": "Conviértete en Socio"
+  "becomepartner.description": "Asóciate con NowIT Services para innovar.",
+  "becomepartner.becomepartner": "Conviértete en Socio",
+
+  "contactus": "Contáctanos",
+  "industries": "Industrias",
+  "testimonials.title": "Testimonios",
+  "whoweare": "Quiénes Somos"
 }

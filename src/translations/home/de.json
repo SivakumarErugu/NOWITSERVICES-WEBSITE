@@ -1,58 +1,243 @@
 {
+  "contactUs": "Kontaktieren Sie uns",
   "banner.subtitle": "Entfaltung des Geschäftspotenzials durch",
   "banner.title": "Intelligente Digitale Transformation",
-  "banner.description": "Ermöglichen Sie Unternehmen schnelleres Wachstum mit KI-gestützter Automatisierung, Cloud-Lösungen und datengetriebener Innovation.",
+  "banner.description": "Ermöglichen Sie Unternehmen schneller zu wachsen mit KI-gestützter Automatisierung, Cloud-Lösungen und datengetriebener Innovation.",
   "banner.recommend": "Empfehlen Sie uns",
   "banner.customer": "9/10 Kunden",
   "banner.100": "100%",
   "banner.quality": "Qualität Garantiert",
   "banner.24": "24/7",
   "banner.support": "Support",
-  "banner.industrial": "Ein Jahrzehnt industrieller ",
+  "banner.industrial": "Ein Jahrzehnt industrielle",
   "banner.experience": "Erfahrung",
   "banner.3": "3+",
   "banner.countries": "Länder",
   "banner.projects": "16+ Projekte",
   "banner.onTime": "Pünktliche Lieferung",
   "hero.getStarted": "Jetzt Starten",
-  "hero.unified": "Vereinheitlichte Services",
+  "hero.unified": "Integrierte Services",
   "hero.reliable": "Zuverlässiger Support",
+
   "partner.slidingTitle": "Wer wir sind",
   "partner.title.prefix": "Ihr",
   "partner.span": "Vertrauenswürdiger Partner",
   "partner.title.suffix": "für Digitale Transformation",
-  "partner.description": "Wir sind ein technologiegetriebenes Team, das skalierbare, intelligente und zuverlässige digitale Lösungen für moderne Unternehmen liefert.",
+  "partner.description": "Wir sind ein technologieorientiertes Team, das skalierbare, intelligente und zuverlässige digitale Lösungen für moderne Unternehmen liefert.",
   "partner.knowmore": "Mehr Erfahren",
-  "partner.trusted": "Vertraut",
+  "partner.trusted": "Vertrauenswürdig",
   "partner.clients": "von Globalen Kunden",
-  "partner.talktoai": "Mit KI sprechen",
-  "services.slidingTitle": "Unsere Services",
+  "partner.talktoai": "Mit KI Sprechen",
+
+  "services.slidingTitle": "Unsere Dienstleistungen",
   "services.title": "End-to-End",
   "services.span": "Digitale Services",
-  "services.description": "Wir bieten umfassende Software-Services, um digitale Produkte zu entwickeln, zu skalieren und zu modernisieren.",
+  "services.description": "Wir bieten End-to-End-Softwarelösungen, die Unternehmen beim Aufbau, der Skalierung und Modernisierung ihrer digitalen Produkte unterstützen.",
+
+  "services.carouselList": [
+    {
+      "id": 1,
+      "name": "Intelligente Marketing Services",
+      "description": "Datenbasierte Marketinglösungen zur Verbesserung von Reichweite und Engagement.",
+      "items": [
+        "Datengetriebene digitale Kampagnen",
+        "Content- und Marken-Storytelling",
+        "KI-basierte Zielgruppenansprache",
+        "Performance-Tracking und Analysen"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+    },
+    {
+      "id": 2,
+      "name": "Cloud- & Anwendungs-Migration",
+      "description": "Sichere und skalierbare Cloud-Migrationsservices.",
+      "items": [
+        "Sichere Cloud- und Datenmigration",
+        "Infrastruktur-Optimierung",
+        "API- und Systemintegrationen",
+        "Risikobewertung und Planung"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "Professionelle Beratungsdienste",
+      "description": "Strategische Geschäfts- und IT-Beratung.",
+      "items": [
+        "Business- und IT-Beratung",
+        "Projektplanung und Umsetzung",
+        "Ressourcenmanagement",
+        "Kontinuierlicher technischer Support"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "Messaging- & Kommunikationsservices",
+      "description": "KI-gestützte Kommunikationslösungen.",
+      "items": [
+        "Massen-SMS und WhatsApp-Nachrichten",
+        "KI-Chatbots und Auto-Responder",
+        "Echtzeit-Kundenmanagement",
+        "Kampagnenanalysen"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "Business-Launch-Services",
+      "description": "Komplette Unterstützung für erfolgreiche Unternehmensstarts.",
+      "items": [
+        "Markenregistrierung und Identitätsaufbau",
+        "Website- und digitale Präsenz",
+        "Marketing- und PR-Kampagnen"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "IP-Anmeldeservices",
+      "description": "Schützen Sie Ihre Innovation mit zuverlässigen IP-Services.",
+      "items": [
+        "Patentregistrierung und -verwaltung",
+        "Markenanmeldung",
+        "Urheberrechtsschutz",
+        "KI-gestützte IP-Recherche"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Schulungs- & Entwicklungsservices",
+      "description": "Digitale Weiterbildung für moderne Teams.",
+      "items": [
+        "Digitale und IT-Schulungen",
+        "KI- und Cloud-Programme",
+        "Marketing- und PR-Kampagnen",
+        "KI-basierte Marktanalysen"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+    }
+  ],
+
   "products.slidingTitle": "Unsere Produkte",
   "products.title": "Digitale Produkte",
-  "products.span": "Unternehmensbereit",
-  "products.description": "Unsere Produkte lösen geschäftliche Herausforderungen mit intelligenten, skalierbaren und benutzerfreundlichen digitalen Lösungen.",
+  "products.span": "Enterprise-ready",
+  "products.description": "Unsere Produkte lösen geschäftliche Herausforderungen durch intelligente, skalierbare und benutzerfreundliche digitale Lösungen.",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "WON Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "Eine All-in-One-Bildungsplattform zur Modernisierung von Schulen."
+    },
+    {
+      "id": 2,
+      "name": "WON Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "Eine umfassende Schulverwaltungsplattform."
+    },
+    {
+      "id": 3,
+      "name": "WON Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "Intelligente Krankenhausverwaltungssoftware."
+    },
+    {
+      "id": 4,
+      "name": "WON Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "Intelligente Abrechnungs- und Finanzmanagementlösung."
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "Integrierte Kommunikations- und Kollaborationsplattform."
+    }
+  ],
+
   "products.viewProduct": "Produkt Ansehen",
+
   "Industry.title": "Lösungen für",
   "Industry.span": "Jede Branche",
-  "Industry.description": "NOWIT Services bietet KI-gestützte digitale Transformationslösungen für nachhaltiges Unternehmenswachstum.",
+  "Industry.description": "NOWIT Services bietet KI-gestützte digitale Transformationslösungen.",
+  "Industry.list": [
+    "Gesundheitswesen",
+    "Bildung",
+    "Finanzen & Banken",
+    "Einzelhandel & E-Commerce",
+    "Fertigung",
+    "Logistik & Lieferkette",
+    "Immobilien",
+    "Reise & Gastgewerbe",
+    "IT & Technologie",
+    "Telekommunikation",
+    "Energie & Versorgungsunternehmen",
+    "Automobilindustrie"
+  ],
+
   "testimonials.slidingTitle": "Referenzen",
   "testimonials.title.prefix": "Vertrauen",
-  "testimonials.title.suffix": "durch Ergebnisse",
-  "testimonials.span": "Aufbauen",
-  "testimonials.description": "Echtes Feedback von Kunden, die mit uns zusammengearbeitet haben.",
+  "testimonials.title.suffix": "Durch Ergebnisse",
+  "testimonials.span": "Vertrauen",
+  "testimonials.description": "Echtes Feedback von Kunden.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT hat genau das geliefert, was wir brauchten – pünktlich und in hoher Qualität."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Sie haben unsere Vision schnell verstanden und umgesetzt."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Ihre technische Expertise half uns, eine zuverlässige Lösung zu entwickeln."
+    }
+  ],
+
   "faq.span": "FAQ",
   "faq.title": "Häufig Gestellte Fragen",
   "faq.subquestion": "Noch Fragen?",
-  "faq.description": "Wir helfen Ihnen zu verstehen, wie wir arbeiten und gemeinsam wachsen.",
-  "faq.getintouch": "Kontaktieren",
-  "trustedbanner.subTitle": "Vertraut von",
+  "faq.description": "Wir helfen Ihnen gerne weiter.",
+  "faq.getintouch": "Kontakt Aufnehmen",
+  "faq.list": [
+    {
+      "id": 1,
+      "title": "Welche Branchen bedienen Sie?",
+      "description": "Wir bedienen Finanzen, Gesundheitswesen, Einzelhandel, Bildung und IT."
+    },
+    {
+      "id": 2,
+      "title": "Wie starten Sie ein neues Projekt?",
+      "description": "Wir beginnen mit einer Analyse und arbeiten iterativ."
+    },
+    {
+      "id": 3,
+      "title": "Wie können wir starten?",
+      "description": "Kontaktieren Sie uns über das Formular."
+    },
+    {
+      "id": 4,
+      "title": "Sind Ihre Lösungen skalierbar?",
+      "description": "Ja, sie sind für Wachstum konzipiert."
+    }
+  ],
+
+  "trustedbanner.subTitle": "Vertrauenswürdig von",
   "trustedbanner.title": "Globaler Dienstleister",
   "becomepartner.title.prefix": "Wachsen",
   "becomepartner.title.middle": "Gemeinsam",
   "becomepartner.title.suffix": "Durch Partnerschaft",
-  "becomepartner.description": "Arbeiten Sie mit NowIT Services zusammen, um gemeinsam innovative Lösungen zu liefern.",
-  "becomepartner.becomepartner": "Partner Werden"
+  "becomepartner.description": "Arbeiten Sie mit NowIT Services zusammen.",
+  "becomepartner.becomepartner": "Partner Werden",
+
+  "contactus": "Kontaktieren Sie uns",
+  "industries": "Branchen",
+  "testimonials.title": "Referenzen",
+  "whoweare": "Wer wir sind"
 }

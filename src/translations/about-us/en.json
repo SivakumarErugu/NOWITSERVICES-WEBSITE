@@ -121,7 +121,7 @@
         }
     ],
     "projects.viewAll": "View All Products",
-    "testimonials.slidingTitle": "Testimonials",
+    "testimonials.title": "Testimonials",
     "testimonials.title.prefix": "Building",
     "testimonials.title.suffix": "Through Results",
     "testimonials.span": "Trust",
@@ -148,80 +148,28 @@
     "becomepartner.title.suffix": "Through Partnership",
     "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
     "becomepartner.becomepartner": "Become a Partner",
-    "headerOptions": [
+
+    "Aboutus.text": " We hold patents on next-generation smart footwear platform that transforms everyday movement into meaningful health insights. By combining advanced sensing technology with intelligent data analytics, the system enables real-time monitoring and personalized wellness feedback. Energy-efficient and seamlessly connected, this innovation sits at the intersection of healthcare, mobility, and wearable technology shaping the future of preventive, data-driven care.",
+    "clients": "Clients",
+    "services": "Services",
+    "products": "Products",
+    "countries": "Countries",
+    "stats": [
         {
-            "name": "home",
-            "label": "Home",
-            "link": "/",
-            "options": []
+            "label": "18+ Clients",
+            "href": "/clients"
         },
         {
-            "name": "about us",
-            "label": "About Us",
-            "link": "/aboutus",
-            "options": []
+            "label": "12+ Services",
+            "href": "/services"
         },
         {
-            "name": "services",
-            "label": "Services",
-            "link": "/",
-            "options": [
-                {
-                    "name": "smart marketing",
-                    "label": "Smart Marketing",
-                    "link": "/"
-                },
-                {
-                    "name": "business launch",
-                    "label": "Business Launch",
-                    "link": "/"
-                },
-                {
-                    "name": "professional services",
-                    "label": "Professional Services",
-                    "link": "/"
-                },
-                {
-                    "name": "migration",
-                    "label": "Migration",
-                    "link": "/"
-                },
-                {
-                    "name": "training services",
-                    "label": "Training Services",
-                    "link": "/"
-                },
-                {
-                    "name": "messaging services",
-                    "label": "Messaging Services",
-                    "link": "/"
-                },
-                {
-                    "name": "ip filing services",
-                    "label": "IP Filing Services",
-                    "link": "/"
-                }
-            ]
+            "label": "10+ Products",
+            "href": "/products"
         },
         {
-            "name": "products",
-            "label": "Products",
-            "link": "/products",
-            "options": []
-        },
-        {
-            "name": "blog",
-            "label": "Blog",
-            "link": "/blog",
-            "options": []
-        },
-        {
-            "name": "careers",
-            "label": "Careers",
-            "link": "/careers",
-            "options": []
+            "label": "3+ Countries",
+            "href": "/countries"
         }
-    ],
-    "Aboutus.text":
-    " We hold patents on next-generation smart footwear platform that transforms everyday movement into meaningful health insights. By combining advanced sensing technology with intelligent data analytics, the system enables real-time monitoring and personalized wellness feedback. Energy-efficient and seamlessly connected, this innovation sits at the intersection of healthcare, mobility, and wearable technology shaping the future of preventive, data-driven care."
+    ]
 }

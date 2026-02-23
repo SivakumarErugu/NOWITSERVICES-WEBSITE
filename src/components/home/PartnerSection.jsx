@@ -26,7 +26,7 @@ const PartnerSection = () => {
       <div className="w-full mx-auto px-1 lg:px-6">
 
         {/* HEADER */}
-        <SlidingHeader title="Who we are" bottom="mb-4" />
+        <SlidingHeader title={t("whoweare")} bottom="mb-4" />
 
         {/* ================= TOP TEXT ================= */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-10 lg:gap-20">

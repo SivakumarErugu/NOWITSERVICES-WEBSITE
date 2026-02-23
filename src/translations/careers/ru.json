@@ -1,39 +1,254 @@
 {
-  "banner.title":"Ваш Следующий Карьерный Шаг",
-  "banner.span":"Начинается Здесь",
-  "banner.scroll":"Прокрутите, чтобы узнать больше",
-
-  "carrerVisualBlock.line1.title":"Приглашаем",
-  "carrerVisualBlock.line1.span":"всех",
-  "carrerVisualBlock.line2.title2":"инноваторов",
-  "carrerVisualBlock.line3.title":"Готовых",
-  "carrerVisualBlock.line3.span":"Создавать",
-  "carrerVisualBlock.line4.title":"Будущее",
-
-  "carrerVisualBlock.description":"Мы ищем талантливых специалистов, увлеченных технологиями.",
-  "carrerVisualBlock.BtnText":"Посмотреть Вакансии",
-
-  "joinus.span":"Присоединяйтесь",
-  "joinus.title":"Станьте Частью Будущего Технологий",
-  "joinus.description":"Работайте с увлеченными людьми.",
-
-  "oppurtunities.slidingHeader":"Текущие Вакансии",
-  "oppurtunities.search.placeholder":"Поиск по роли, навыку, местоположению",
-
-  "jobList.jobOpenings":[
-    {"id":"NOWIT-JO-001","section":"development","role":"MERN Stack Разработчик","detailedRole":"Full Stack JavaScript Разработчик","location":"Амаравати, Андхра-Прадеш, Индия","type":"Полный рабочий день","experience":"2+ года","description":"Степень в области CS.","requirements":["MongoDB","REST API","Git"],"skills":["MongoDB","Express.js","React.js","Node.js","JavaScript"],"projectRole":"Разработчик ПО","projectDescription":"MERN приложения.","educationalQualifications":"CS","benefits":["Медстраховка","Бонус","Гибкий график"],"summary":"Возможность MERN.","postedDate":"2024-06-01"},
-    {"id":"NOWIT-JO-002","section":"development","role":"Мобильный Разработчик","detailedRole":"React Native / Flutter","location":"Амаравати, Андхра-Прадеш, Индия","type":"Полный рабочий день","experience":"2+ года","description":"Android и iOS приложения.","requirements":["Flutter","API","Deploy"],"skills":["React Native","Flutter","Firebase","REST APIs","TypeScript"],"projectRole":"Mobile Dev","projectDescription":"Мультиплатформенные приложения.","educationalQualifications":"CS","benefits":["Страховка","Бонус","Отпуск"],"summary":"Мобильные приложения.","postedDate":"2024-06-05"},
-    {"id":"NOWIT-JO-003","section":"development","role":"Cloud Инженер","detailedRole":"AWS / Azure","location":"Амаравати, Андхра-Прадеш, Индия","type":"Полный рабочий день","experience":"2+ года","description":"Cloud инфраструктура.","requirements":["AWS","CI/CD","Docker"],"skills":["AWS","Azure","Docker","Kubernetes","DevOps"],"projectRole":"Cloud Eng","projectDescription":"Cloud управление.","educationalQualifications":"B.Tech","benefits":["Сертификация","Страховка","Гибкий"],"summary":"Cloud системы.","postedDate":"2024-06-10"},
-    {"id":"NOWIT-JO-004","section":"uiuxdesigning","role":"UI/UX Дизайнер","detailedRole":"Product Designer","location":"Амаравати, Андхра-Прадеш, Индия","type":"Полный рабочий день","experience":"2+ года","description":"UI интерфейсы.","requirements":["Figma","UX","Wireframe"],"skills":["Figma","Adobe XD","Prototyping","User Research","Design Systems"],"projectRole":"UI/UX","projectDescription":"UX решения.","educationalQualifications":"Design","benefits":["Креатив","Workshops","Гибкий"],"summary":"UX.","postedDate":"2024-06-12"},
-    {"id":"NOWIT-JO-005","section":"management","role":"Менеджер Бизнес Развития","detailedRole":"Strategic Growth Manager","location":"Амаравати, Андхра-Прадеш, Индия","type":"Полный рабочий день","experience":"2+ года","description":"Рост бизнеса.","requirements":["Коммуникация","Продажи","Анализ"],"skills":["Sales Strategy","Lead Generation","CRM Tools","Negotiation","Market Analysis"],"projectRole":"Growth","projectDescription":"Расширение.","educationalQualifications":"MBA","benefits":["Бонус","Поездки","Здоровье"],"summary":"Рост.","postedDate":"2024-06-15"},
-    {"id":"NOWIT-JO-006","section":"internship","role":"Разработчик ПО (Стажировка)","detailedRole":"Full Stack Intern","location":"Амаравати, Андхра-Прадеш, Индия","type":"Стажировка","experience":"3 месяца - 1 год","description":"Практические проекты.","requirements":["HTML","Обучаемость","Решение"],"skills":["HTML","CSS","JavaScript","React Basics","Git"],"projectRole":"Intern","projectDescription":"Поддержка.","educationalQualifications":"CS","benefits":["Сертификат","Стипендия","PPO"],"summary":"Начало карьеры.","postedDate":"2024-06-18"},
-    {"id":"NOWIT-JO-007","section":"internship","role":"Cloud Инженер (Стажировка)","detailedRole":"AWS / Azure Intern","location":"Амаравати, Андхра-Прадеш, Индия","type":"Стажировка","experience":"3 месяца - 1 год","description":"Cloud опыт.","requirements":["AWS","Linux","Networking"],"skills":["AWS Basics","Azure Basics","Linux","Docker Fundamentals","Git"],"projectRole":"Cloud Intern","projectDescription":"Поддержка.","educationalQualifications":"CS","benefits":["Сертификат","Обучение","Стипендия","PPO"],"summary":"Cloud старт.","postedDate":"2024-06-20"}
+  "banner.title": "Ваш следующий карьерный шаг",
+  "banner.span": "Начинается здесь",
+  "banner.scroll": "Прокрутите, чтобы посмотреть",
+  "carrerVisualBlock.line1.title": "Призыв ко",
+  "carrerVisualBlock.line1.span": "всем",
+  "carrerVisualBlock.line2.title2": "новаторам",
+  "carrerVisualBlock.line3.title": "Готовы",
+  "carrerVisualBlock.line3.span": "создавать",
+  "carrerVisualBlock.line4.title": "будущее",
+  "carrerVisualBlock.description": "Мы всегда ищем талантливых людей, увлечённых технологиями, инновациями и созданием реального влияния. Присоединяйтесь к команде, где ценятся ваши идеи и поддерживается профессиональный рост.",
+  "carrerVisualBlock.BtnText": "Посмотреть открытые вакансии",
+  "joinus.span": "Присоединяйтесь к нам",
+  "joinus.title": "Станьте частью будущего технологий",
+  "joinus.description": "Работайте с увлечёнными людьми, решайте значимые задачи и развивайте свои навыки, создавая инновационные цифровые решения с реальным эффектом.",
+  "oppurtunities.slidingHeader": "Открытые вакансии",
+  "oppurtunities.search.placeholder": "Поиск по должности, навыку, локации",
+  "jobList.jobOpenings": [
+    {
+      "id": "NOWIT-JO-001",
+      "section": "development",
+      "role": "Разработчик MERN Stack",
+      "detailedRole": "Full Stack JavaScript разработчик",
+      "location": "Амаравати, Андхра-Прадеш, Индия",
+      "type": "Полная занятость",
+      "experience": "2+ года",
+      "description": "Степень бакалавра в области компьютерных наук, инженерии или эквивалентный опыт. Глубокое понимание full stack JavaScript и современных веб-технологий.",
+      "requirements": [
+        "Глубокие знания MongoDB, Express.js, React, Node.js",
+        "Разработка REST API",
+        "Контроль версий с помощью Git"
+      ],
+      "skills": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript"
+      ],
+      "projectRole": "Разработчик ПО",
+      "projectDescription": "Разработка и поддержка масштабируемых full stack веб-приложений с использованием MERN Stack.",
+      "educationalQualifications": "Бакалавр компьютерных наук или смежной области",
+      "benefits": [
+        "Медицинская страховка",
+        "Бонус за производительность",
+        "Гибкий график работы"
+      ],
+      "summary": "Отличная возможность для опытного MERN Stack разработчика.",
+      "postedDate": "2024-06-01"
+    },
+    {
+      "id": "NOWIT-JO-002",
+      "section": "development",
+      "role": "Мобильный разработчик",
+      "detailedRole": "React Native / Flutter разработчик",
+      "location": "Амаравати, Андхра-Прадеш, Индия",
+      "type": "Полная занятость",
+      "experience": "2+ года",
+      "description": "Разработка и поддержка высококачественных мобильных приложений для Android и iOS.",
+      "requirements": [
+        "Опыт работы с React Native или Flutter",
+        "Интеграция API",
+        "Публикация в App Store / Play Store"
+      ],
+      "skills": [
+        "React Native",
+        "Flutter",
+        "Firebase",
+        "REST APIs",
+        "TypeScript"
+      ],
+      "projectRole": "Мобильный разработчик",
+      "projectDescription": "Создание кроссплатформенных мобильных приложений с качественным UI/UX.",
+      "educationalQualifications": "Бакалавр компьютерных наук или эквивалент",
+      "benefits": [
+        "Медицинская страховка",
+        "Бонус за релиз приложения",
+        "Оплачиваемый отпуск"
+      ],
+      "summary": "Создавайте инновационные мобильные приложения для растущих цифровых платформ.",
+      "postedDate": "2024-06-05"
+    },
+    {
+      "id": "NOWIT-JO-003",
+      "section": "development",
+      "role": "Cloud инженер",
+      "detailedRole": "AWS / Azure специалист",
+      "location": "Амаравати, Андхра-Прадеш, Индия",
+      "type": "Полная занятость",
+      "experience": "2+ года",
+      "description": "Проектирование, развертывание и управление масштабируемой облачной инфраструктурой.",
+      "requirements": [
+        "Практический опыт работы с AWS или Azure",
+        "CI/CD пайплайны",
+        "Знания Docker и Kubernetes"
+      ],
+      "skills": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "DevOps"
+      ],
+      "projectRole": "Инженер облачной инфраструктуры",
+      "projectDescription": "Управление облачной инфраструктурой и обеспечение надежности и масштабируемости.",
+      "educationalQualifications": "B.Tech / BE в области компьютерных наук или IT",
+      "benefits": [
+        "Поддержка облачных сертификаций",
+        "Медицинская страховка",
+        "Гибкий график"
+      ],
+      "summary": "Возможность проектировать и управлять безопасными облачными системами.",
+      "postedDate": "2024-06-10"
+    },
+    {
+      "id": "NOWIT-JO-004",
+      "section": "uiuxdesigning",
+      "role": "UI/UX дизайнер",
+      "detailedRole": "Продуктовый дизайнер",
+      "location": "Амаравати, Андхра-Прадеш, Индия",
+      "type": "Полная занятость",
+      "experience": "2+ года",
+      "description": "Проектирование интуитивных и визуально привлекательных интерфейсов для веб- и мобильных приложений.",
+      "requirements": [
+        "Опыт работы с Figma или Adobe XD",
+        "Wireframing и прототипирование",
+        "Знания пользовательских исследований"
+      ],
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "Prototyping",
+        "User Research",
+        "Design Systems"
+      ],
+      "projectRole": "UI/UX дизайнер",
+      "projectDescription": "Создание удобных пользовательских интерфейсов и интерактивных дизайнов.",
+      "educationalQualifications": "Диплом в области дизайна или мультимедиа",
+      "benefits": [
+        "Творческая свобода",
+        "Дизайн-воркшопы",
+        "Гибкий график"
+      ],
+      "summary": "Создавайте увлекательные и удобные цифровые продукты.",
+      "postedDate": "2024-06-12"
+    },
+    {
+      "id": "NOWIT-JO-005",
+      "section": "management",
+      "role": "Менеджер по развитию бизнеса",
+      "detailedRole": "Менеджер стратегического роста",
+      "location": "Амаравати, Андхра-Прадеш, Индия",
+      "type": "Полная занятость",
+      "experience": "2+ года",
+      "description": "Развитие компании через поиск новых возможностей и выстраивание отношений с клиентами.",
+      "requirements": [
+        "Отличные коммуникативные навыки",
+        "Опыт продаж и переговоров",
+        "Навыки анализа рынка"
+      ],
+      "skills": [
+        "Стратегия продаж",
+        "Генерация лидов",
+        "CRM инструменты",
+        "Переговоры",
+        "Анализ рынка"
+      ],
+      "projectRole": "Менеджер роста бизнеса",
+      "projectDescription": "Расширение присутствия на рынке и достижение финансовых целей.",
+      "educationalQualifications": "MBA или бакалавр по бизнес-администрированию",
+      "benefits": [
+        "Бонусы за результаты",
+        "Командировочные",
+        "Медицинские льготы"
+      ],
+      "summary": "Руководите стратегическими инициативами для роста бизнеса.",
+      "postedDate": "2024-06-15"
+    },
+    {
+      "id": "NOWIT-JO-006",
+      "section": "internship",
+      "role": "Разработчики ПО (стажировка)",
+      "detailedRole": "Стажёр Full Stack разработки",
+      "location": "Амаравати, Андхра-Прадеш, Индия",
+      "type": "Стажировка",
+      "experience": "3 месяца – 1 год",
+      "description": "Возможность для студентов и выпускников получить практический опыт в реальных проектах.",
+      "requirements": [
+        "Базовые знания HTML, CSS, JavaScript",
+        "Желание учиться",
+        "Навыки решения задач"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React основы",
+        "Git"
+      ],
+      "projectRole": "Стажёр разработчик",
+      "projectDescription": "Помощь старшим разработчикам в создании и поддержке приложений.",
+      "educationalQualifications": "Обучается или окончил бакалавриат в области ИТ или КС",
+      "benefits": [
+        "Сертификат стажировки",
+        "Стипендия",
+        "Возможность трудоустройства"
+      ],
+      "summary": "Начните карьеру в разработке программного обеспечения.",
+      "postedDate": "2024-06-18"
+    },
+    {
+      "id": "NOWIT-JO-007",
+      "section": "internship",
+      "role": "Cloud инженеры (стажировка)",
+      "detailedRole": "Стажёр AWS / Azure Cloud",
+      "location": "Амаравати, Андхра-Прадеш, Индия",
+      "type": "Стажировка",
+      "experience": "3 месяца – 1 год",
+      "description": "Получите практический опыт в облачной инфраструктуре, деплое и DevOps.",
+      "requirements": [
+        "Базовые знания AWS или Azure",
+        "Основы Linux",
+        "Базовые знания сетей"
+      ],
+      "skills": [
+        "AWS основы",
+        "Azure основы",
+        "Linux",
+        "Docker основы",
+        "Git"
+      ],
+      "projectRole": "Стажёр Cloud",
+      "projectDescription": "Помощь в управлении облачными средами и процессами деплоя.",
+      "educationalQualifications": "Студент или выпускник по ИТ, КС или смежной специальности",
+      "benefits": [
+        "Сертификат стажировки",
+        "Практическое обучение Cloud",
+        "Стипендия",
+        "Возможность трудоустройства"
+      ],
+      "summary": "Начните карьеру в Cloud Engineering с реальными проектами.",
+      "postedDate": "2024-06-20"
+    }
   ],
-
-  "jobList.jobSections":[
-    {"name":"allroles","label":"Все Роли"},
-    {"name":"development","label":"Разработка"},
-    {"name":"uiuxdesigning","label":"UI/UX Дизайн"},
-    {"name":"qatesting","label":"QA / Тестирование"}
-  ]
+  "jobList.jobSections": [
+    { "name": "allroles", "label": "Все роли" },
+    { "name": "development", "label": "Разработка" },
+    { "name": "uiuxdesigning", "label": "UI/UX дизайн" },
+    { "name": "qatesting", "label": "QA / Тестирование" }
+  ],
+  "jobList.applyNow": "Откликнуться",
+  "jobList.viewMore": "Показать больше",
+  "jobList.noResults": "Нет вакансий, соответствующих вашему запросу"
 }

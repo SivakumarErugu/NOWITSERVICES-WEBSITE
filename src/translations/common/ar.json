@@ -1,0 +1,290 @@
+{
+  "headerOptions": [
+    {
+      "name": "home",
+      "label": "الرئيسية",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "من نحن",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "الخدمات",
+      "link": "/",
+      "options": [
+        {
+          "name": "smart marketing",
+          "label": "التسويق الذكي",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "إطلاق الأعمال",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "الخدمات الاحترافية",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "الترحيل",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "خدمات التدريب",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "خدمات المراسلة",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "خدمات تسجيل الملكية الفكرية",
+          "link": "/"
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "المنتجات",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "المدونة",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "الوظائف",
+      "link": "/careers",
+      "options": []
+    }
+  ],
+
+  "contactUs": "اتصل بنا",
+
+  "footer": {
+    "description": "شريك التحول الرقمي الذي يقدم حلولاً سحابية مدعومة بالذكاء الاصطناعي لتمكين النمو القابل للتوسع والتميز التشغيلي.",
+    "socialMedia": [
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com/company/nowitservices/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.linkedin.com/company/nowitservices/",
+        "icon": ""
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_nowitservices_/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/@NOWITSERVICES-j7k",
+        "icon": "FaYoutube"
+      }
+    ],
+    "quickLinks": {
+      "title": "روابط سريعة",
+      "items": [
+        { "label": "الرئيسية", "link": "/" },
+        { "label": "من نحن", "link": "/aboutus" },
+        { "label": "الخدمات", "link": "/services" },
+        { "label": "المنتجات", "link": "/products" }
+      ]
+    },
+    "services": {
+      "title": "شراكات الأعمال",
+      "items": [
+        { "label": "حلول المؤسسات", "link": "/services" },
+        { "label": "الذكاء الاصطناعي والأتمتة", "link": "/services" }
+      ]
+    },
+    "legal": {
+      "title": "القانون والامتثال",
+      "items": [
+        { "label": "سياسة الخصوصية", "link": "/terms-privacy-cookie-policy" },
+        { "label": "الشروط والأحكام", "link": "/terms-privacy-cookie-policy" },
+        { "label": "سياسة ملفات تعريف الارتباط", "link": "/terms-privacy-cookie-policy" }
+      ]
+    },
+    "copyright": "© 2026 Nowit Services. جميع الحقوق محفوظة."
+  },
+
+  "contact": {
+    "title": "لنبدأ المحادثة",
+    "subtitle": "شارك متطلباتك وسيتواصل معك فريقنا",
+    "labels": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "whatsapp": "رقم واتساب",
+      "date": "التاريخ والوقت المفضل للتواصل",
+      "message": "الرسالة"
+    },
+    "placeholders": {
+      "name": "أدخل اسمك",
+      "email": "أدخل بريدك الإلكتروني",
+      "phone": "أدخل رقم الهاتف",
+      "date": "اختر التاريخ والوقت",
+      "message": "أدخل الرسالة"
+    },
+    "button": {
+      "send": "إرسال",
+      "sending": "جارٍ الإرسال..."
+    }
+  },
+
+  "locations": [
+    {
+      "title": "الهند - أمارافاثي",
+      "address": "المستوى 4، حديقة مايورِي التقنية، مخرج NRI، طريق باي باس، المدينة الإلكترونية، تشينّاككاني، أندرا براديش، 522503."
+    },
+    {
+      "title": "الهند - فيجاياوادا",
+      "address": "الطابق الأرضي، تشالاساني ناغار، كانورو، فيجاياوادا، أندرا براديش، 520007."
+    },
+    {
+      "title": "المملكة المتحدة",
+      "address": "قناة غراند يونيون، بالقرب من محطة هايز وهارلينغتون، لندن الكبرى، المملكة المتحدة، UB3 4QF."
+    },
+    {
+      "title": "ألمانيا",
+      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+    }
+  ],
+
+  "organizationForm": {
+    "organizationDetails": {
+      "title": "تفاصيل المؤسسة",
+      "description": "ساعدنا في فهم مؤسستك وخلفيتك التجارية.",
+      "sectionTitle": "بيانات المؤسسة",
+      "sectionHint": "يرجى الكتابة كما هو مذكور في جواز السفر"
+    },
+    "otherDetails": {
+      "title": "تفاصيل أخرى",
+      "description": "شارك معلومات الاتصال واهتمامات الاستثمار الخاصة بك لنتواصل معك."
+    },
+    "fields": {
+      "companyName": "اسم الشركة",
+      "entityType": "نوع الكيان",
+      "country": "الدولة",
+      "city": "المدينة",
+      "website": "الموقع الإلكتروني (اختياري)",
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "phone": "رقم الهاتف",
+      "interestNature": "طبيعة الاهتمام",
+      "primaryInterest": "الاهتمام الرئيسي",
+      "attachment": "مرفق اختياري",
+      "message": "الرسالة"
+    },
+    "checkbox": {
+      "confirm": "أؤكد أن المعلومات المقدمة صحيحة ودقيقة.",
+      "consent": "أوافق على أن يتم التواصل معي لمزيد من المناقشة."
+    },
+    "buttons": {
+      "next": "التالي",
+      "back": "رجوع",
+      "send": "إرسال",
+      "sending": "جارٍ الإرسال..."
+    },
+    "validation": {
+      "companyName": "اسم الشركة مطلوب",
+      "entityType": "نوع الكيان مطلوب",
+      "country": "الدولة مطلوبة",
+      "city": "المدينة مطلوبة",
+      "fullName": "الاسم الكامل مطلوب",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "عنوان بريد إلكتروني غير صالح",
+      "role": "الدور مطلوب",
+      "phone": "رقم الاتصال مطلوب",
+      "message": "الرسالة مطلوبة",
+      "messageMax": "لا يمكن أن تتجاوز الرسالة 500 حرف"
+    },
+    "options": {
+      "entityType": [
+        { "value": "Start Up", "label": "شركة ناشئة" },
+        { "value": "Enterprise", "label": "مؤسسة" }
+      ],
+      "role": [
+        { "value": "Founder", "label": "مؤسس" },
+        { "value": "Partner", "label": "شريك" }
+      ],
+      "interestNature": [
+        { "value": "Investor", "label": "مستثمر" }
+      ],
+      "primaryInterest": [
+        { "value": "Strategic Partnership", "label": "شراكة استراتيجية" }
+      ],
+      "investmentSize": [
+        { "value": "Upto 10Cr", "label": "حتى 10 كرور" }
+      ],
+      "timeline": [
+        { "value": "6-12 Months", "label": "6-12 شهرًا" }
+      ]
+    },
+    "toast": {
+      "success": "تم إرسال النموذج بنجاح",
+      "failure": "فشل الإرسال. يرجى المحاولة مرة أخرى.",
+      "serverError": "فشل في الإرسال."
+    }
+  },
+
+  "jobApplicationForm": {
+    "applicationForm": "نموذج التقديم",
+    "personalInformation": "المعلومات الشخصية",
+    "slidingText": "الوظائف المتاحة",
+    "jobid": "رقم الوظيفة",
+    "projectRole": "الدور الوظيفي",
+    "ApplyForThisJob": "التقديم على هذه الوظيفة",
+    "JobDescription": "وصف الوظيفة",
+    "experience": "الخبرة المطلوبة",
+    "prodescription": "وصف المشروع",
+    "skills": "المهارات",
+    "education": "المؤهلات التعليمية",
+    "benifits": "المزايا",
+    "summary": "الملخص",
+    "application": "نموذج التقديم",
+    "personal": "المعلومات الشخصية",
+    "fname": "الاسم الأول",
+    "lname": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "resume": "السيرة الذاتية",
+    "cletter": "خطاب التغطية",
+    "certifications": "الشهادات",
+    "cuurentpack": "الراتب الحالي",
+    "expectedpack": "الراتب المتوقع",
+    "company": "اسم الشركة",
+    "role": "الدور / المنصب",
+    "start": "تاريخ البدء",
+    "end": "تاريخ الانتهاء",
+    "tSkills": "المهارات التقنية",
+    "scertifications": "المهارات والشهادات",
+    "submit": "إرسال",
+    "submitting": "جارٍ الإرسال",
+    "workExperience": "الخبرة العملية",
+    "placeholders.coverletter": "أخبرنا لماذا ستكون مناسبًا لفريقنا...",
+    "placeholders.resume": "اسحب سيرتك الذاتية هنا أو ",
+    "placeholders.file": "الملفات المقبولة: PDF, DOCX (حد أقصى 5MB)",
+    "placeholders.certifications": "AWS Certified Developer, PMP...",
+    "placeholders.skills": "JavaScript, React, Nodejs..."
+  }
+}

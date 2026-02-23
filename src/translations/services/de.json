@@ -1,0 +1,427 @@
+{
+  "servicesData": {
+    "smart marketing": {
+      "title": "Intelligentes Marketing",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+      "description": "Unser intelligenter Marketingservice kombiniert Strategie, Kreativität und KI-gestützte Erkenntnisse, um Unternehmen beim Aufbau einer starken Markenpräsenz, der effektiven Ansprache von Zielgruppen und der Verbesserung der Marketingperformance über digitale Kanäle hinweg zu unterstützen.",
+      "Services1": {
+        "headingSmall": "Marketing, das",
+        "headingMain": "Denkt, Lernt und Performt",
+        "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
+      },
+      "Services2": {
+        "heading": "Was ist enthalten in",
+        "highlight": "Intelligentem Marketing",
+        "description": "Datenbasierte digitale Marketingservices mit KI-Unterstützung.",
+        "cards": [
+          {
+            "title": "Datengetriebene Digitalkampagnen",
+            "desc": "Gezielte Marketingkampagnen auf Basis von Datenanalysen zur Maximierung von Reichweite und Conversions.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Content- & Marken-Storytelling",
+            "desc": "Überzeugende Inhalte und Botschaften zur Stärkung der Markenidentität.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "KI-basierte Zielgruppensegmentierung",
+            "desc": "Intelligente Segmentierung basierend auf Verhalten, Absicht und Präferenzen.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Analyse der Kampagnenleistung",
+            "desc": "Echtzeit-Tracking, Reporting und Optimierung zur Verbesserung des ROI.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Prädiktive Engagement-Insights (AI Edge)",
+            "desc": "KI-gestützte Prognosen zur Vorhersage des Kundenverhaltens.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "business launch": {
+      "title": "Business-Launch-Services",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+      "description": "Ganzheitliche Unterstützung für neue Unternehmen mit einem strukturierten End-to-End-Launch-Ansatz für Klarheit, Sichtbarkeit und frühen Markterfolg.",
+      "Services1": {
+        "headingSmall": "Starten Sie Ihr",
+        "headingMain": "Unternehmen mit Vertrauen",
+        "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
+      },
+      "Services2": {
+        "heading": "Was ist enthalten in",
+        "highlight": "Business Launch",
+        "description": "Strukturierte Launch-Services für einen erfolgreichen Markteintritt.",
+        "cards": [
+          {
+            "title": "Firmenname- & Logo-Registrierung",
+            "desc": "Unterstützung bei der Namensfindung, Logoerstellung und rechtlicher Registrierung.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Website- & Markenaufbau",
+            "desc": "Design und Entwicklung einer modernen Website im Einklang mit Ihrer Marke.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Marketing- & Launch-Kampagnen",
+            "desc": "Strategische Kampagnen zur Steigerung von Bekanntheit und Engagement.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Event- & PR-Management",
+            "desc": "Planung und Durchführung von Launch-Events und Medienarbeit.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Prädiktive Marktsimulationen (AI Edge)",
+            "desc": "KI-gestützte Simulation verschiedener Markteintrittsszenarien.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "migration": {
+      "title": "Cloud- & Applikationsmigration",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+      "description": "Nahtlose Migration Ihrer Anwendungen, Daten und Workloads in die Cloud mit minimalen Unterbrechungen.",
+      "Services1": {
+        "headingSmall": "Nahtlose",
+        "headingMain": "Plattformmigration",
+        "image": "../../../public/images/ServicesImages/Migration.jpg"
+      },
+      "Services2": {
+        "heading": "Was ist enthalten in",
+        "highlight": "Migrationsservices",
+        "description": "Sichere, effiziente und skalierbare Migration in moderne Cloud-Plattformen.",
+        "cards": [
+          {
+            "title": "Cloud- & Applikationsmigration",
+            "desc": "End-to-End-Migration von Anwendungen und Systemen.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Sicherer Datentransfer",
+            "desc": "Verschlüsselte und konforme Datenübertragung.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Infrastruktur-Optimierung",
+            "desc": "Optimierung nach der Migration.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "API- & Systemintegrationen",
+            "desc": "Integration von Cloud-Plattformen mit bestehenden Systemen.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Intelligente Risikoanalyse (AI Edge)",
+            "desc": "KI-gestützte Risikoerkennung.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "training services": {
+      "title": "Trainings- & Entwicklungsservices",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+      "description": "Vermittlung praxisnaher und zukunftsfähiger Kompetenzen.",
+      "Services1": {
+        "headingSmall": "Weiterbilden mit",
+        "headingMain": "Professionellem Training",
+        "image": "../../../public/images/ServicesImages/Training.png"
+      },
+      "Services2": {
+        "heading": "Was ist enthalten in",
+        "highlight": "Trainingsservices",
+        "description": "Programme zur Entwicklung zukunftsrelevanter Fähigkeiten.",
+        "cards": [
+          {
+            "title": "Digitale & IT-Trainings",
+            "desc": "Praxisorientierte technische Schulungen.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Marketing- & Branding-Workshops",
+            "desc": "Optimierung von Marken- und Wachstumsstrategien.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "KI- & Quanten-Awareness-Programme",
+            "desc": "Einführung in neue und aufkommende Technologien.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Leadership-Entwicklung",
+            "desc": "Programme zur Entwicklung von Führungskompetenzen.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Personalisierte Lernpfade (AI Edge)",
+            "desc": "KI-gestützte Lernanalysen.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "professional services": {
+      "title": "Professionelle Services",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+      "description": "Stärkung von Organisationen durch fachkundige Beratung.",
+      "Services1": {
+        "headingSmall": "Experten",
+        "headingMain": "Professionelle Services",
+        "image": "../../../public/images/ServicesImages/Professional.jpg"
+      },
+      "Services2": {
+        "heading": "Was ist enthalten in",
+        "highlight": "Professionellen Services",
+        "description": "Beratungsleistungen zur Planung, Umsetzung und Optimierung skalierbarer Lösungen.",
+        "spantext": "Professionelle Beratungsservices ab 15 $ pro Stunde.",
+        "cards": [
+          {
+            "title": "Strategische Business- & IT-Beratung",
+            "desc": "Ausrichtung von Geschäfts- und Technologiezielen.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Projektmanagement & Umsetzung",
+            "desc": "Strukturiertes Projektmanagement.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Ressourcenaufstockung & Training",
+            "desc": "Zugang zu qualifizierten Fachkräften.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Laufender Technischer Support",
+            "desc": "Zuverlässiger technischer Support.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Decision-Intelligence-Modelle (AI Edge)",
+            "desc": "KI-gestützte Entscheidungsmodelle.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "messaging services": {
+      "title": "Messaging- & Kommunikationsservices",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+      "description": "Intelligente Echtzeitkommunikation ermöglichen.",
+      "Services1": {
+        "headingSmall": "Leistungsstarke",
+        "headingMain": "Messaging-Services",
+        "image": "../../../public/images/ServicesImages/Messaging.jpg"
+      },
+      "Services2": {
+        "heading": "Was ist enthalten in",
+        "highlight": "Messaging-Services",
+        "description": "Verbesserung des Engagements in großem Maßstab.",
+        "cards": [
+          {
+            "title": "Bulk-SMS- & WhatsApp-Kampagnen",
+            "desc": "Nachrichtenversand mit hohem Volumen.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Chatbot-Automatisierung",
+            "desc": "KI-gestützte Chatbots.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Kampagnen-Analyse-Dashboard",
+            "desc": "Echtzeit-Dashboards.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Echtzeit-Engagement-Optimierung",
+            "desc": "Dynamische Kampagnenanpassungen.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Prädiktive Engagement-Analysen (AI Edge)",
+            "desc": "Vorhersage von Interaktionstrends.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "ip filing services": {
+      "title": "IP-Registrierungsservices",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+      "description": "Schützen Sie Ihre Ideen und Innovationen.",
+      "Services1": {
+        "headingSmall": "Schützen Sie Ihr",
+        "headingMain": "Geistiges Eigentum",
+        "image": "../../../public/images/ServicesImages/IPFilling.png"
+      },
+      "Services2": {
+        "heading": "Was ist enthalten in",
+        "highlight": "IP-Services",
+        "description": "Schutz geistiger Vermögenswerte.",
+        "cards": [
+          {
+            "title": "Patentregistrierung & -verwaltung",
+            "desc": "Unterstützung bei der Patentanmeldung.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Markenregistrierung",
+            "desc": "Dienstleistungen zur Markenanmeldung.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Urheberrechtsschutz",
+            "desc": "Registrierung von Urheberrechten.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "KI-gestützte IP-Suche & Validierung",
+            "desc": "Intelligente IP-Recherchen.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Reduzierung rechtlicher Risiken (AI Edge)",
+            "desc": "Mustererkennung zur Risikominimierung.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    }
+  },
+  "slidesData": [
+    {
+      "key": 1,
+      "title": "Wachstumsorientierte Arbeitskultur",
+      "desc": "Ein Arbeitsumfeld, das Lernen und langfristige Karriereentwicklung fördert."
+    },
+    {
+      "key": 2,
+      "title": "Domänenübergreifendes Lernen & Zertifizierungen",
+      "desc": "Möglichkeiten, bereichsübergreifend zu lernen und anerkannte Zertifikate zu erwerben."
+    },
+    {
+      "key": 3,
+      "title": "Globale Projekterfahrung",
+      "desc": "Praktische Erfahrung mit internationalen Kunden und globalen Teams."
+    },
+    {
+      "key": 4,
+      "title": "Anerkennung, Belohnungen & Leadership-Mentoring",
+      "desc": "Anerkennung Ihrer Leistungen und Mentoring durch erfahrene Führungskräfte."
+    }
+  ],
+  "service3.title": "Aufgebaut auf",
+  "service3.span": "Vertrauen und Qualität",
+  "service3.previousbtnText": "Zurück",
+  "service3.nextbtnText": "Weiter",
+  "service3.slidingText": "Warum Uns Wählen",
+  "service4.title": "Weitere Services",
+  "service4.span": "Die Wir Anbieten",
+  "service4.slidingHeader": "Unsere Services",
+  "service5.title": "Wie Wir Liefern",
+  "service5.description": "Wir begleiten Ihr Projekt durch jede Phase – von der Idee bis zur Umsetzung.",
+  "service5.tabs": [
+    { "key": 1, "title": "Entdecken" },
+    { "key": 2, "title": "Design" },
+    { "key": 3, "title": "Entwicklung" },
+    { "key": 4, "title": "Lieferung" }
+  ],
+  "service5.tabContent": {
+    "1": {
+      "title": "Entdecken",
+      "description": "Analyse der Geschäftsziele und Anforderungen."
+    },
+    "2": {
+      "title": "Design & Architektur",
+      "description": "Gestaltung intuitiver Nutzererlebnisse und stabiler Architekturen."
+    },
+    "3": {
+      "title": "Entwicklung",
+      "description": "Agile und strukturierte Umsetzung der Lösung."
+    },
+    "4": {
+      "title": "Bereitstellung",
+      "description": "Testen und Deployment für den Produktivbetrieb."
+    },
+    "5": {
+      "title": "Kontinuierliche Weiterentwicklung",
+      "description": "Laufende Unterstützung und Optimierung mit KI."
+    }
+  },
+  "Industry.title": "Lösungen für",
+  "Industry.span": "Jede Branche",
+  "Industry.description": "NOWIT Services bietet KI-gestützte digitale Transformationslösungen.",
+  "Industry.list": [
+    "Gesundheitswesen",
+    "Bildung",
+    "Finanzen & Banken",
+    "Einzelhandel & E-Commerce",
+    "Fertigung",
+    "Logistik & Lieferkette",
+    "Immobilien",
+    "Reisen & Gastgewerbe",
+    "IT & Technologie",
+    "Telekommunikation",
+    "Energie & Versorger",
+    "Automobilindustrie"
+  ],
+  "bussinessBanner.title.prefix": "Bereit",
+  "bussinessBanner.title.suffix": "Zu Starten",
+  "bussinessBanner.line2.title": "Und Ihr Geschäft Zu Skalieren",
+  "bussinessBanner.description": "Sprechen Sie mit unseren Experten, um Ihr Wachstum zu beschleunigen.",
+  "bussinessBanner.buttonText": "Kontaktieren Sie Uns",
+  "headerOptions": [
+    {
+      "name": "home",
+      "label": "Startseite",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "Über Uns",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "Services",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Intelligentes Marketing", "link": "/" },
+        { "name": "business launch", "label": "Business Launch", "link": "/" },
+        { "name": "professional services", "label": "Professionelle Services", "link": "/" },
+        { "name": "migration", "label": "Migration", "link": "/" },
+        { "name": "training services", "label": "Training", "link": "/" },
+        { "name": "messaging services", "label": "Messaging", "link": "/" },
+        { "name": "ip filing services", "label": "IP-Services", "link": "/" }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "Produkte",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "Blog",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "Karriere",
+      "link": "/careers",
+      "options": []
+    }
+  ]
+}

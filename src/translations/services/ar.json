@@ -1,0 +1,427 @@
+{
+  "servicesData": {
+    "smart marketing": {
+      "title": "التسويق الذكي",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+      "description": "تجمع خدمة التسويق الذكي بين الاستراتيجية والإبداع والرؤى المدعومة بالذكاء الاصطناعي لمساعدة الشركات على بناء حضور قوي للعلامة التجارية وزيادة التفاعل وتحسين أداء التسويق عبر القنوات الرقمية.",
+      "Services1": {
+        "headingSmall": "تسويق",
+        "headingMain": "يفكر ويتعلم ويحقق الأداء",
+        "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
+      },
+      "Services2": {
+        "heading": "ما الذي يتضمنه",
+        "highlight": "التسويق الذكي",
+        "description": "خدمات تسويق رقمية قائمة على البيانات ومدعومة بالذكاء الاصطناعي.",
+        "cards": [
+          {
+            "title": "حملات رقمية قائمة على البيانات",
+            "desc": "حملات تسويقية مستهدفة مبنية على تحليلات البيانات لزيادة الوصول والتحويلات.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "المحتوى وسرد قصة العلامة التجارية",
+            "desc": "محتوى ورسائل قوية تعزز هوية العلامة التجارية وتصل للجمهور المناسب.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "تقسيم الجمهور باستخدام الذكاء الاصطناعي",
+            "desc": "تصنيف ذكي للجمهور بناءً على السلوك والاهتمامات.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "تحليل أداء الحملات",
+            "desc": "تتبع وتحسين الأداء في الوقت الحقيقي لزيادة العائد على الاستثمار.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "رؤى تفاعلية تنبؤية (AI Edge)",
+            "desc": "توقع سلوك العملاء وتحسين فعالية الحملات باستخدام الذكاء الاصطناعي.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "business launch": {
+      "title": "خدمات إطلاق الأعمال",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+      "description": "دعم شامل لإطلاق الأعمال الجديدة من خلال نهج منظم يضمن الوضوح والرؤية والزخم المبكر.",
+      "Services1": {
+        "headingSmall": "أطلق",
+        "headingMain": "عملك بثقة",
+        "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
+      },
+      "Services2": {
+        "heading": "ما الذي يتضمنه",
+        "highlight": "إطلاق الأعمال",
+        "description": "خدمات إطلاق شاملة من البداية إلى النهاية.",
+        "cards": [
+          {
+            "title": "تسجيل اسم النشاط والشعار",
+            "desc": "المساعدة في اختيار اسم مميز وتصميم شعار احترافي.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "إنشاء الموقع وبناء العلامة التجارية",
+            "desc": "تصميم وتطوير موقع حديث متوافق مع هوية العلامة.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "حملات التسويق والإطلاق",
+            "desc": "استراتيجيات لزيادة الوعي والتفاعل المبكر.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "إدارة الفعاليات والعلاقات العامة",
+            "desc": "تخطيط وتنفيذ فعاليات الإطلاق والأنشطة الإعلامية.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "محاكاة سوق تنبؤية (AI Edge)",
+            "desc": "تحليل سيناريوهات دخول السوق باستخدام الذكاء الاصطناعي.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "migration": {
+      "title": "ترحيل السحابة والتطبيقات",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+      "description": "نقل التطبيقات والبيانات إلى السحابة بسلاسة وأمان.",
+      "Services1": {
+        "headingSmall": "ترحيل",
+        "headingMain": "المنصات بسلاسة",
+        "image": "../../../public/images/ServicesImages/Migration.jpg"
+      },
+      "Services2": {
+        "heading": "ما الذي يتضمنه",
+        "highlight": "خدمات الترحيل",
+        "description": "انتقال آمن وفعال وقابل للتوسع إلى المنصات السحابية.",
+        "cards": [
+          {
+            "title": "ترحيل التطبيقات والسحابة",
+            "desc": "ترحيل شامل للأنظمة وأحمال العمل.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "نقل البيانات الآمن",
+            "desc": "نقل بيانات مشفر ومتوافق مع المعايير.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "تحسين البنية التحتية",
+            "desc": "تحسين الأداء بعد الترحيل.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "تكامل الأنظمة وواجهات API",
+            "desc": "دمج الأنظمة السحابية مع الأنظمة الحالية.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "تحليل المخاطر الذكي (AI Edge)",
+            "desc": "تحليل المخاطر باستخدام الذكاء الاصطناعي.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "training services": {
+      "title": "خدمات التدريب",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+      "description": "تطوير مهارات عملية وجاهزة للمستقبل.",
+      "Services1": {
+        "headingSmall": "طوّر مهاراتك مع",
+        "headingMain": "التدريب الاحترافي",
+        "image": "../../../public/images/ServicesImages/Training.png"
+      },
+      "Services2": {
+        "heading": "ما الذي يتضمنه",
+        "highlight": "خدمات التدريب",
+        "description": "برامج لبناء مهارات المستقبل.",
+        "cards": [
+          {
+            "title": "التدريب الرقمي وتقنية المعلومات",
+            "desc": "تدريب تقني عملي.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "ورش التسويق وبناء العلامة التجارية",
+            "desc": "تحسين استراتيجيات النمو والهوية.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "برامج الذكاء الاصطناعي والوعي الكمي",
+            "desc": "التعرف على التقنيات الناشئة.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "تطوير القيادات",
+            "desc": "برامج قيادية احترافية.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "مسارات تعلم مخصصة (AI Edge)",
+            "desc": "تحليلات تعلم مدعومة بالذكاء الاصطناعي.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "professional services": {
+      "title": "الخدمات المهنية",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+      "description": "تمكين المؤسسات من خلال توجيه وخبرة متخصصة.",
+      "Services1": {
+        "headingSmall": "خدمات",
+        "headingMain": "مهنية متخصصة",
+        "image": "../../../public/images/ServicesImages/Professional.jpg"
+      },
+      "Services2": {
+        "heading": "ما الذي يتضمنه",
+        "highlight": "الخدمات المهنية",
+        "description": "خدمات استشارية لتخطيط وبناء وتحسين حلول تقنية قابلة للتوسع.",
+        "spantext": "تبدأ الخدمات الاستشارية المهنية من 15 دولارًا في الساعة.",
+        "cards": [
+          {
+            "title": "الاستشارات الاستراتيجية للأعمال وتقنية المعلومات",
+            "desc": "مواءمة أهداف الأعمال مع التكنولوجيا.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "إدارة وتسليم المشاريع",
+            "desc": "إدارة مشاريع منظمة وفعالة.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "تعزيز الموارد والتدريب",
+            "desc": "الوصول إلى محترفين مهرة.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "الدعم التقني المستمر",
+            "desc": "دعم تقني موثوق.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "نماذج ذكاء القرار (AI Edge)",
+            "desc": "نماذج اتخاذ قرار مدعومة بالذكاء الاصطناعي.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "messaging services": {
+      "title": "خدمات المراسلة",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+      "description": "تمكين التواصل الذكي في الوقت الحقيقي.",
+      "Services1": {
+        "headingSmall": "خدمات",
+        "headingMain": "مراسلة قوية",
+        "image": "../../../public/images/ServicesImages/Messaging.jpg"
+      },
+      "Services2": {
+        "heading": "ما الذي يتضمنه",
+        "highlight": "خدمات المراسلة",
+        "description": "تحسين التفاعل على نطاق واسع.",
+        "cards": [
+          {
+            "title": "حملات الرسائل النصية وواتساب الجماعية",
+            "desc": "مراسلة عالية الحجم.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "أتمتة الشات بوت",
+            "desc": "روبوتات محادثة مدعومة بالذكاء الاصطناعي.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "لوحة تحليلات الحملات",
+            "desc": "لوحات بيانات في الوقت الحقيقي.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "تحسين التفاعل في الوقت الحقيقي",
+            "desc": "تعديلات ديناميكية للحملات.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "تحليلات تفاعل تنبؤية (AI Edge)",
+            "desc": "توقع اتجاهات التفاعل.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "ip filing services": {
+      "title": "خدمات تسجيل الملكية الفكرية",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+      "description": "حماية أفكارك وابتكاراتك.",
+      "Services1": {
+        "headingSmall": "احمِ",
+        "headingMain": "ملكيتك الفكرية",
+        "image": "../../../public/images/ServicesImages/IPFilling.png"
+      },
+      "Services2": {
+        "heading": "ما الذي يتضمنه",
+        "highlight": "خدمات الملكية الفكرية",
+        "description": "حماية الأصول الفكرية.",
+        "cards": [
+          {
+            "title": "تسجيل وإدارة براءات الاختراع",
+            "desc": "دعم كامل لتسجيل البراءات.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "تسجيل العلامات التجارية",
+            "desc": "خدمات تسجيل العلامات التجارية.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "حماية حقوق النشر",
+            "desc": "تسجيل حقوق الملكية الفكرية.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "البحث والتحقق باستخدام الذكاء الاصطناعي",
+            "desc": "عمليات بحث ذكية للأصول الفكرية.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "تقليل المخاطر القانونية (AI Edge)",
+            "desc": "تحليل الأنماط القانونية باستخدام الذكاء الاصطناعي.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    }
+  },
+  "slidesData": [
+    {
+      "key": 1,
+      "title": "ثقافة عمل قائمة على النمو",
+      "desc": "بيئة عمل تشجع التعلم والتطور المهني طويل الأمد."
+    },
+    {
+      "key": 2,
+      "title": "تعلم متعدد المجالات وشهادات",
+      "desc": "فرص للتعلم عبر مجالات متعددة."
+    },
+    {
+      "key": 3,
+      "title": "خبرة في مشاريع عالمية",
+      "desc": "العمل مع عملاء دوليين وفرق عالمية."
+    },
+    {
+      "key": 4,
+      "title": "مكافآت وتقدير وإرشاد قيادي",
+      "desc": "الاعتراف بالإنجازات والتعلم من قادة ذوي خبرة."
+    }
+  ],
+  "service3.title": "مبني على",
+  "service3.span": "الثقة والجودة",
+  "service3.previousbtnText": "السابق",
+  "service3.nextbtnText": "التالي",
+  "service3.slidingText": "لماذا تختارنا",
+  "service4.title": "خدمات أخرى",
+  "service4.span": "نقدمها",
+  "service4.slidingHeader": "خدماتنا",
+  "service5.title": "كيف نُنفذ",
+  "service5.description": "نرافق مشروعك في كل مرحلة لضمان نجاحه بسلاسة ودقة.",
+  "service5.tabs": [
+    { "key": 1, "title": "اكتشاف" },
+    { "key": 2, "title": "تصميم" },
+    { "key": 3, "title": "تطوير" },
+    { "key": 4, "title": "تسليم" }
+  ],
+  "service5.tabContent": {
+    "1": {
+      "title": "اكتشاف",
+      "description": "فهم أهداف ومتطلبات العمل."
+    },
+    "2": {
+      "title": "التصميم والبنية",
+      "description": "تصميم تجارب مستخدم وبنية تقنية قوية."
+    },
+    "3": {
+      "title": "التطوير",
+      "description": "تنفيذ الحل باستخدام منهجيات مرنة."
+    },
+    "4": {
+      "title": "النشر",
+      "description": "اختبار الحل ونشره للاستخدام الفعلي."
+    },
+    "5": {
+      "title": "التطور المستمر",
+      "description": "دعم وتحسين مستمر باستخدام الأتمتة والذكاء الاصطناعي."
+    }
+  },
+  "Industry.title": "حلول لـ",
+  "Industry.span": "كل قطاع",
+  "Industry.description": "تقدم NOWIT Services حلول تحول رقمي مدعومة بالذكاء الاصطناعي.",
+  "Industry.list": [
+    "الرعاية الصحية",
+    "التعليم",
+    "التمويل والبنوك",
+    "التجزئة والتجارة الإلكترونية",
+    "التصنيع",
+    "الخدمات اللوجستية وسلسلة التوريد",
+    "العقارات",
+    "السفر والضيافة",
+    "تقنية المعلومات والتكنولوجيا",
+    "الاتصالات",
+    "الطاقة والمرافق",
+    "السيارات"
+  ],
+  "bussinessBanner.title.prefix": "جاهز",
+  "bussinessBanner.title.suffix": "للإطلاق",
+  "bussinessBanner.line2.title": "وتوسيع عملك",
+  "bussinessBanner.description": "تحدث مع خبرائنا لاستكشاف فرص النمو.",
+  "bussinessBanner.buttonText": "تواصل معنا",
+  "headerOptions": [
+    {
+      "name": "home",
+      "label": "الرئيسية",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "من نحن",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "الخدمات",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "التسويق الذكي", "link": "/" },
+        { "name": "business launch", "label": "إطلاق الأعمال", "link": "/" },
+        { "name": "professional services", "label": "الخدمات المهنية", "link": "/" },
+        { "name": "migration", "label": "الترحيل", "link": "/" },
+        { "name": "training services", "label": "التدريب", "link": "/" },
+        { "name": "messaging services", "label": "المراسلة", "link": "/" },
+        { "name": "ip filing services", "label": "الملكية الفكرية", "link": "/" }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "المنتجات",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "المدونة",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "الوظائف",
+      "link": "/careers",
+      "options": []
+    }
+  ]
+}

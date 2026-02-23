@@ -1,90 +1,115 @@
 {
-  "banner.title": "Il Tuo Prossimo Passo di Carriera",
-  "banner.span": "Inizia Qui",
+  "banner.title": "La tua prossima mossa di carriera",
+  "banner.span": "Inizia qui",
   "banner.scroll": "Scorri per esplorare",
-
-  "carrerVisualBlock.line1.title": "Invito a",
-  "carrerVisualBlock.line1.span": "tutti gli",
-  "carrerVisualBlock.line2.title2": "innovatori",
-  "carrerVisualBlock.line3.title": "Pronti a",
+  "carrerVisualBlock.line1.title": "Chiamata a",
+  "carrerVisualBlock.line1.span": "tutti",
+  "carrerVisualBlock.line2.title2": "gli innovatori",
+  "carrerVisualBlock.line3.title": "Pronto a",
   "carrerVisualBlock.line3.span": "Costruire",
   "carrerVisualBlock.line4.title": "il Futuro",
-
-  "carrerVisualBlock.description": "Siamo sempre alla ricerca di persone di talento appassionate di tecnologia, innovazione e creazione di un impatto significativo. Unisciti a un team dove le tue idee contano e la tua crescita è supportata.",
-  "carrerVisualBlock.BtnText": "Visualizza Ruoli Disponibili",
-
+  "carrerVisualBlock.description": "Siamo sempre alla ricerca di persone di talento appassionate di tecnologia, innovazione e impatto concreto. Unisciti a un team in cui le tue idee contano e la tua crescita è supportata.",
+  "carrerVisualBlock.BtnText": "Visualizza le posizioni aperte",
   "joinus.span": "Unisciti a noi",
-  "joinus.title": "Fai Parte del Futuro della Tecnologia",
-  "joinus.description": "Lavora con persone appassionate, risolvi problemi significativi e sviluppa le tue competenze creando soluzioni digitali innovative.",
-
-  "oppurtunities.slidingHeader": "Posizioni Aperte",
-  "oppurtunities.search.placeholder": "Cerca per ruolo, competenza, posizione",
-
+  "joinus.title": "Fai parte del futuro della tecnologia",
+  "joinus.description": "Lavora con persone appassionate, risolvi problemi significativi e sviluppa le tue competenze creando soluzioni digitali innovative che generano un impatto reale.",
+  "oppurtunities.slidingHeader": "Posizioni aperte",
+  "oppurtunities.search.placeholder": "Cerca per ruolo, competenza, località",
   "jobList.jobOpenings": [
     {
       "id": "NOWIT-JO-001",
       "section": "development",
       "role": "Sviluppatore MERN Stack",
-      "detailedRole": "Sviluppatore Full Stack JavaScript",
-      "location": "Amaravati, Andhra Pradesh, India",
+      "detailedRole": "Sviluppatore JavaScript Full Stack",
+      "location": "Amaravathi, Andhra Pradesh, India",
       "type": "Tempo pieno",
       "experience": "2+ anni",
-      "description": "Laurea in Informatica, Ingegneria o esperienza equivalente.",
+      "description": "Laurea in Informatica, Ingegneria o esperienza equivalente. Solida conoscenza dello sviluppo JavaScript full stack e delle moderne tecnologie web.",
       "requirements": [
         "Ottima conoscenza di MongoDB, Express.js, React, Node.js",
-        "Sviluppo API REST",
-        "Controllo versione Git"
+        "Sviluppo di API REST",
+        "Controllo versione con Git"
       ],
-      "skills": ["MongoDB","Express.js","React.js","Node.js","JavaScript"],
+      "skills": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript"
+      ],
       "projectRole": "Sviluppatore Software",
-      "projectDescription": "Sviluppo e manutenzione di applicazioni web scalabili.",
-      "educationalQualifications": "Laurea in CS o campo correlato",
-      "benefits": ["Assicurazione sanitaria","Bonus di performance","Orari flessibili"],
-      "summary": "Ottima opportunità per Sviluppatore MERN.",
+      "projectDescription": "Sviluppo e manutenzione di applicazioni web full stack scalabili utilizzando il MERN stack.",
+      "educationalQualifications": "Laurea in Informatica o campo correlato",
+      "benefits": [
+        "Assicurazione sanitaria",
+        "Bonus di performance",
+        "Orari di lavoro flessibili"
+      ],
+      "summary": "Ottima opportunità per uno sviluppatore MERN Stack qualificato.",
       "postedDate": "2024-06-01"
     },
     {
       "id": "NOWIT-JO-002",
       "section": "development",
-      "role": "Sviluppatore Mobile",
+      "role": "Sviluppatore App Mobile",
       "detailedRole": "Sviluppatore React Native / Flutter",
-      "location": "Amaravati, Andhra Pradesh, India",
+      "location": "Amaravathi, Andhra Pradesh, India",
       "type": "Tempo pieno",
       "experience": "2+ anni",
-      "description": "Sviluppo di applicazioni mobile per Android e iOS.",
+      "description": "Sviluppo e manutenzione di applicazioni mobili di alta qualità per Android e iOS.",
       "requirements": [
-        "Esperienza in React Native o Flutter",
+        "Esperienza con React Native o Flutter",
         "Integrazione API",
-        "Distribuzione su Play Store / App Store"
+        "Pubblicazione su Play Store / App Store"
       ],
-      "skills": ["React Native","Flutter","Firebase","REST APIs","TypeScript"],
+      "skills": [
+        "React Native",
+        "Flutter",
+        "Firebase",
+        "REST APIs",
+        "TypeScript"
+      ],
       "projectRole": "Sviluppatore Mobile",
-      "projectDescription": "Applicazioni mobile multipiattaforma.",
-      "educationalQualifications": "Laurea in CS o equivalente",
-      "benefits": ["Assicurazione sanitaria","Bonus rilascio app","Ferie retribuite"],
-      "summary": "Sviluppa app innovative.",
+      "projectDescription": "Creazione di applicazioni mobili multipiattaforma con UI/UX fluida.",
+      "educationalQualifications": "Laurea in Informatica o equivalente",
+      "benefits": [
+        "Assicurazione sanitaria",
+        "Bonus di rilascio app",
+        "Ferie retribuite"
+      ],
+      "summary": "Crea applicazioni mobili innovative per piattaforme digitali in crescita.",
       "postedDate": "2024-06-05"
     },
     {
       "id": "NOWIT-JO-003",
       "section": "development",
       "role": "Ingegnere Cloud",
-      "detailedRole": "Specialista AWS / Azure",
-      "location": "Amaravati, Andhra Pradesh, India",
+      "detailedRole": "Specialista Cloud AWS / Azure",
+      "location": "Amaravathi, Andhra Pradesh, India",
       "type": "Tempo pieno",
       "experience": "2+ anni",
-      "description": "Progettazione e gestione infrastrutture cloud.",
+      "description": "Progettazione, distribuzione e gestione di infrastrutture cloud scalabili.",
       "requirements": [
-        "Esperienza AWS/Azure",
+        "Esperienza pratica con AWS o Azure",
         "Pipeline CI/CD",
-        "Docker e Kubernetes"
+        "Conoscenza di Docker e Kubernetes"
       ],
-      "skills": ["AWS","Azure","Docker","Kubernetes","DevOps"],
+      "skills": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "DevOps"
+      ],
       "projectRole": "Ingegnere Infrastruttura Cloud",
-      "projectDescription": "Gestione infrastruttura cloud.",
-      "educationalQualifications": "B.Tech / BE",
-      "benefits": ["Certificazione Cloud","Assicurazione sanitaria","Orari flessibili"],
-      "summary": "Gestione sistemi cloud sicuri.",
+      "projectDescription": "Gestione dell’infrastruttura cloud garantendo affidabilità e scalabilità.",
+      "educationalQualifications": "B.Tech / BE in Informatica o IT",
+      "benefits": [
+        "Sponsorizzazione certificazioni cloud",
+        "Assicurazione sanitaria",
+        "Orari flessibili"
+      ],
+      "summary": "Opportunità per progettare e gestire sistemi cloud sicuri.",
       "postedDate": "2024-06-10"
     },
     {
@@ -92,95 +117,138 @@
       "section": "uiuxdesigning",
       "role": "Designer UI/UX",
       "detailedRole": "Product Designer",
-      "location": "Amaravati, Andhra Pradesh, India",
+      "location": "Amaravathi, Andhra Pradesh, India",
       "type": "Tempo pieno",
       "experience": "2+ anni",
-      "description": "Progettazione interfacce intuitive.",
+      "description": "Progettazione di interfacce intuitive e visivamente accattivanti per applicazioni web e mobile.",
       "requirements": [
-        "Figma / Adobe XD",
-        "Wireframing",
-        "User Research"
+        "Competenza in Figma o Adobe XD",
+        "Wireframing e Prototyping",
+        "Conoscenza della ricerca utente"
       ],
-      "skills": ["Figma","Adobe XD","Prototyping","User Research","Design Systems"],
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "Prototyping",
+        "User Research",
+        "Design Systems"
+      ],
       "projectRole": "Designer UI/UX",
-      "projectDescription": "Esperienze utente intuitive.",
-      "educationalQualifications": "Laurea in Design",
-      "benefits": ["Libertà creativa","Workshop","Orari flessibili"],
-      "summary": "Progetta esperienze coinvolgenti.",
+      "projectDescription": "Creazione di esperienze utente fluide e design di prodotto interattivi.",
+      "educationalQualifications": "Laurea in Design o Multimedia",
+      "benefits": [
+        "Libertà creativa",
+        "Workshop di design",
+        "Orari flessibili"
+      ],
+      "summary": "Dai forma a esperienze digitali coinvolgenti e intuitive.",
       "postedDate": "2024-06-12"
     },
     {
       "id": "NOWIT-JO-005",
       "section": "management",
       "role": "Business Development Manager",
-      "detailedRole": "Strategic Growth Manager",
-      "location": "Amaravati, Andhra Pradesh, India",
+      "detailedRole": "Responsabile Crescita Strategica",
+      "location": "Amaravathi, Andhra Pradesh, India",
       "type": "Tempo pieno",
       "experience": "2+ anni",
-      "description": "Identificazione opportunità di business.",
+      "description": "Guidare la crescita aziendale identificando nuove opportunità e costruendo relazioni con i clienti.",
       "requirements": [
-        "Comunicazione efficace",
-        "Competenze di vendita",
+        "Forti capacità comunicative",
+        "Competenze in vendita e negoziazione",
+        "Capacità di analisi di mercato"
+      ],
+      "skills": [
+        "Strategia di vendita",
+        "Generazione lead",
+        "Strumenti CRM",
+        "Negoziazione",
         "Analisi di mercato"
       ],
-      "skills": ["Sales Strategy","Lead Generation","CRM Tools","Negotiation","Market Analysis"],
-      "projectRole": "Business Growth Manager",
-      "projectDescription": "Espansione mercato.",
-      "educationalQualifications": "MBA",
-      "benefits": ["Incentivi","Trasferta","Assicurazione sanitaria"],
-      "summary": "Guida crescita aziendale.",
+      "projectRole": "Responsabile Crescita Business",
+      "projectDescription": "Espansione della presenza sul mercato e raggiungimento degli obiettivi di fatturato.",
+      "educationalQualifications": "MBA o Laurea in Economia",
+      "benefits": [
+        "Incentivi di performance",
+        "Indennità di viaggio",
+        "Benefici sanitari"
+      ],
+      "summary": "Guida iniziative strategiche per l’espansione aziendale.",
       "postedDate": "2024-06-15"
     },
     {
       "id": "NOWIT-JO-006",
       "section": "internship",
-      "role": "Sviluppatore Software (Stage)",
-      "detailedRole": "Full Stack Intern",
-      "location": "Amaravati, Andhra Pradesh, India",
+      "role": "Sviluppatori Software (Stage)",
+      "detailedRole": "Stagista Sviluppo Full Stack",
+      "location": "Amaravathi, Andhra Pradesh, India",
       "type": "Stage",
-      "experience": "3 mesi - 1 anno",
-      "description": "Esperienza pratica su progetti reali.",
+      "experience": "3 mesi – 1 anno",
+      "description": "Opportunità per studenti o neolaureati di acquisire esperienza pratica su progetti reali.",
       "requirements": [
-        "HTML, CSS, JavaScript",
+        "Conoscenza base di HTML, CSS, JavaScript",
         "Voglia di imparare",
-        "Problem solving"
+        "Capacità di problem solving"
       ],
-      "skills": ["HTML","CSS","JavaScript","React Basics","Git"],
-      "projectRole": "Intern Developer",
-      "projectDescription": "Supporto sviluppo web.",
-      "educationalQualifications": "Laurea CS",
-      "benefits": ["Certificato","Stipendio","PPO"],
-      "summary": "Inizia la tua carriera.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React Base",
+        "Git"
+      ],
+      "projectRole": "Stagista Sviluppatore",
+      "projectDescription": "Supporto agli sviluppatori senior nella creazione e manutenzione delle applicazioni.",
+      "educationalQualifications": "Studente o laureato in Informatica o IT",
+      "benefits": [
+        "Certificato di stage",
+        "Compenso",
+        "Opportunità di assunzione"
+      ],
+      "summary": "Avvia la tua carriera nello sviluppo software.",
       "postedDate": "2024-06-18"
     },
     {
       "id": "NOWIT-JO-007",
       "section": "internship",
-      "role": "Ingegnere Cloud (Stage)",
-      "detailedRole": "Cloud Intern AWS / Azure",
-      "location": "Amaravati, Andhra Pradesh, India",
+      "role": "Ingegneri Cloud (Stage)",
+      "detailedRole": "Stagista Cloud AWS / Azure",
+      "location": "Amaravathi, Andhra Pradesh, India",
       "type": "Stage",
-      "experience": "3 mesi - 1 anno",
-      "description": "Esperienza infrastruttura cloud.",
+      "experience": "3 mesi – 1 anno",
+      "description": "Acquisisci esperienza pratica in infrastrutture cloud, deployment e pratiche DevOps.",
       "requirements": [
-        "Base AWS o Azure",
-        "Linux",
-        "Networking"
+        "Conoscenza base di AWS o Azure",
+        "Fondamenti di Linux",
+        "Conoscenza base di networking"
       ],
-      "skills": ["AWS Basics","Azure Basics","Linux","Docker Fundamentals","Git"],
-      "projectRole": "Cloud Intern",
-      "projectDescription": "Supporto ambienti cloud.",
-      "educationalQualifications": "Laurea CS",
-      "benefits": ["Certificato","Formazione","Stipendio","PPO"],
-      "summary": "Inizia carriera cloud.",
+      "skills": [
+        "AWS Base",
+        "Azure Base",
+        "Linux",
+        "Docker Fondamentale",
+        "Git"
+      ],
+      "projectRole": "Stagista Cloud",
+      "projectDescription": "Supporto nella gestione degli ambienti cloud e nei processi di deployment.",
+      "educationalQualifications": "Studente o laureato in Informatica, IT o campo correlato",
+      "benefits": [
+        "Certificato di stage",
+        "Formazione cloud pratica",
+        "Compenso",
+        "Opportunità di assunzione"
+      ],
+      "summary": "Inizia la tua carriera nel Cloud Engineering con progetti reali.",
       "postedDate": "2024-06-20"
     }
   ],
-
   "jobList.jobSections": [
-    { "name": "allroles", "label": "Tutti i Ruoli" },
+    { "name": "allroles", "label": "Tutti i ruoli" },
     { "name": "development", "label": "Sviluppo" },
-    { "name": "uiuxdesigning", "label": "UI/UX Design" },
+    { "name": "uiuxdesigning", "label": "Design UI/UX" },
     { "name": "qatesting", "label": "QA / Testing" }
-  ]
+  ],
+  "jobList.applyNow": "Candidati ora",
+  "jobList.viewMore": "Visualizza altro",
+  "jobList.noResults": "Nessuna posizione corrisponde alla tua ricerca"
 }

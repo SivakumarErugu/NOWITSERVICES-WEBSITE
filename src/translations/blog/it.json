@@ -1,0 +1,82 @@
+{
+  "banner.title": "Approfondimenti tecnologici per",
+  "banner.span": "le aziende moderne",
+  "banner.scroll": "SCORRI PER ESPLORARE",
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "Cloud"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "Esplorare il futuro dell’IA e del Cloud",
+        "excerpt": "Come l’IA e il cloud stanno plasmando le aziende moderne.",
+        "publishedAt": "11 maggio 2024",
+        "readingTime": "6 min di lettura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "Team NOW IT",
+        "content": "## La convergenza tra IA e Cloud\n\nLe piattaforme di IA e cloud stanno trasformando l’infrastruttura aziendale.\n\n> Cloud + AI consentono sistemi intelligenti e scalabili.\n\n### Vantaggi principali\n\n- **Scalabilità predittiva** – Gestione automatica delle risorse\n- **Sicurezza** – Rilevamento delle minacce basato su IA\n- **Efficienza** – Riduzione dei costi operativi\n\n<Highlight title=\"Punti chiave\">\n- L’IA migliora la scalabilità\n- L’automazione riduce i costi\n- Decisioni più rapide\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["Migration", "Cloud"],
+        "slug": "why-cloud-migration-matters",
+        "title": "Perché la migrazione al cloud è importante",
+        "excerpt": "Comprendere il vero impatto della migrazione al cloud.",
+        "publishedAt": "02 giugno 2024",
+        "readingTime": "5 min di lettura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "Team NOW IT",
+        "content": "## Migrazione al cloud spiegata\n\nLa migrazione al cloud consente alle aziende di modernizzare i sistemi IT.\n\n### Vantaggi\n\n- Distribuzione più rapida\n- Ottimizzazione dei costi\n- Scalabilità globale"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["Cybersecurity", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "Cybersecurity nell’era dell’IA",
+        "excerpt": "Come l’IA sta ridefinendo la sicurezza digitale.",
+        "publishedAt": "18 giugno 2024",
+        "readingTime": "7 min di lettura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "Team Sicurezza",
+        "content": "## Sicurezza basata sull’IA\n\nL’IA consente il rilevamento e la risposta alle minacce in tempo reale.\n\n> La sicurezza non è più reattiva — è predittiva."
+      },
+      {
+        "id": "4",
+        "tags": ["Architecture", "Web Development"],
+        "slug": "scalable-web-architecture",
+        "title": "Costruire architetture web scalabili",
+        "excerpt": "Best practice per sistemi web scalabili.",
+        "publishedAt": "01 luglio 2024",
+        "readingTime": "8 min di lettura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "Team di Ingegneria",
+        "content": "## Principi di architettura scalabile\n\n- Servizi stateless\n- Scalabilità orizzontale\n- Design cloud-native"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "Il futuro del DevOps",
+        "excerpt": "Come il DevOps si evolve con l’IA.",
+        "publishedAt": "15 luglio 2024",
+        "readingTime": "6 min di lettura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "Team DevOps",
+        "content": "## Il futuro dell’innovazione intelligente basata sul cloud\n\nIl cloud computing è diventato il fondamento delle operazioni moderne.\n\nIl futuro del cloud non è solo scalabile — è intelligente."
+      }
+    ]
+  },
+  "blogs.readMore": "Leggi di più",
+  "blogs.latest": "Ultimi blog",
+  "blogs.similarBlogs": "Blog simili",
+  "blogs.share": "Condividi",
+  "newsletter.title": "Resta aggiornato con le ultime analisi",
+  "newsletter.description": "Iscriviti alla nostra newsletter per ricevere aggiornamenti settimanali su cloud, IA e trend tecnologici.",
+  "newsletter.subscribe": "Iscriviti",
+  "newsletter.subscribing": "Iscrizione in corso...",
+  "newsletter.spam": "Niente spam. Disiscriviti in qualsiasi momento.",
+  "newsletter.emailPlaceholder": "Inserisci il tuo indirizzo email"
+}

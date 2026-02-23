@@ -1,39 +1,254 @@
 {
-  "banner.title":"您的下一步职业发展",
-  "banner.span":"从这里开始",
-  "banner.scroll":"滚动以探索",
-
-  "carrerVisualBlock.line1.title":"呼吁",
-  "carrerVisualBlock.line1.span":"所有",
-  "carrerVisualBlock.line2.title2":"创新者",
-  "carrerVisualBlock.line3.title":"准备好",
-  "carrerVisualBlock.line3.span":"构建",
-  "carrerVisualBlock.line4.title":"未来",
-
-  "carrerVisualBlock.description":"我们始终在寻找对技术充满热情的人才。",
-  "carrerVisualBlock.BtnText":"查看职位",
-
-  "joinus.span":"加入我们",
-  "joinus.title":"成为科技未来的一部分",
-  "joinus.description":"与充满激情的人一起工作。",
-
-  "oppurtunities.slidingHeader":"当前职位",
-  "oppurtunities.search.placeholder":"按角色、技能、地点搜索",
-
-  "jobList.jobOpenings":[
-    {"id":"NOWIT-JO-001","section":"development","role":"MERN 开发工程师","detailedRole":"全栈 JavaScript 开发工程师","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"计算机科学学位。","requirements":["MongoDB","REST API","Git"],"skills":["MongoDB","Express.js","React.js","Node.js","JavaScript"],"projectRole":"软件开发工程师","projectDescription":"MERN 应用开发。","educationalQualifications":"CS","benefits":["健康保险","奖金","弹性时间"],"summary":"MERN 机会。","postedDate":"2024-06-01"},
-    {"id":"NOWIT-JO-002","section":"development","role":"移动开发工程师","detailedRole":"React Native / Flutter","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"Android iOS 应用。","requirements":["Flutter","API","部署"],"skills":["React Native","Flutter","Firebase","REST APIs","TypeScript"],"projectRole":"Mobile Dev","projectDescription":"跨平台应用。","educationalQualifications":"CS","benefits":["保险","奖金","假期"],"summary":"创新应用。","postedDate":"2024-06-05"},
-    {"id":"NOWIT-JO-003","section":"development","role":"云工程师","detailedRole":"AWS / Azure","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"云基础设施。","requirements":["AWS","CI/CD","Docker"],"skills":["AWS","Azure","Docker","Kubernetes","DevOps"],"projectRole":"Cloud Eng","projectDescription":"云管理。","educationalQualifications":"B.Tech","benefits":["认证","保险","弹性"],"summary":"云系统。","postedDate":"2024-06-10"},
-    {"id":"NOWIT-JO-004","section":"uiuxdesigning","role":"UI/UX 设计师","detailedRole":"Product Designer","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"UI 界面设计。","requirements":["Figma","UX","Wireframe"],"skills":["Figma","Adobe XD","Prototyping","User Research","Design Systems"],"projectRole":"UI/UX","projectDescription":"UX 体验。","educationalQualifications":"Design","benefits":["创意","Workshop","弹性"],"summary":"UX。","postedDate":"2024-06-12"},
-    {"id":"NOWIT-JO-005","section":"management","role":"业务发展经理","detailedRole":"Strategic Growth Manager","location":"阿马拉瓦蒂，安得拉邦，印度","type":"全职","experience":"2年以上","description":"业务增长。","requirements":["沟通","销售","市场"],"skills":["Sales Strategy","Lead Generation","CRM Tools","Negotiation","Market Analysis"],"projectRole":"Growth","projectDescription":"市场扩展。","educationalQualifications":"MBA","benefits":["奖励","差旅","健康"],"summary":"增长。","postedDate":"2024-06-15"},
-    {"id":"NOWIT-JO-006","section":"internship","role":"软件开发实习生","detailedRole":"Full Stack Intern","location":"阿马拉瓦蒂，安得拉邦，印度","type":"实习","experience":"3个月-1年","description":"实际项目。","requirements":["HTML","学习","问题解决"],"skills":["HTML","CSS","JavaScript","React Basics","Git"],"projectRole":"Intern","projectDescription":"开发支持。","educationalQualifications":"CS","benefits":["证书","津贴","PPO"],"summary":"职业开始。","postedDate":"2024-06-18"},
-    {"id":"NOWIT-JO-007","section":"internship","role":"云工程师实习生","detailedRole":"AWS / Azure Intern","location":"阿马拉瓦蒂，安得拉邦，印度","type":"实习","experience":"3个月-1年","description":"云经验。","requirements":["AWS","Linux","网络"],"skills":["AWS Basics","Azure Basics","Linux","Docker Fundamentals","Git"],"projectRole":"Cloud Intern","projectDescription":"支持。","educationalQualifications":"CS","benefits":["证书","培训","津贴","PPO"],"summary":"云开始。","postedDate":"2024-06-20"}
+  "banner.title": "您的下一步职业发展",
+  "banner.span": "从这里开始",
+  "banner.scroll": "向下滚动以探索",
+  "carrerVisualBlock.line1.title": "召集",
+  "carrerVisualBlock.line1.span": "所有",
+  "carrerVisualBlock.line2.title2": "创新者",
+  "carrerVisualBlock.line3.title": "准备好",
+  "carrerVisualBlock.line3.span": "打造",
+  "carrerVisualBlock.line4.title": "未来",
+  "carrerVisualBlock.description": "我们始终在寻找对技术、创新和创造真实影响充满热情的人才。加入一个重视您的想法并支持您成长的团队。",
+  "carrerVisualBlock.BtnText": "查看开放职位",
+  "joinus.span": "加入我们",
+  "joinus.title": "成为科技未来的一部分",
+  "joinus.description": "与充满热情的人共事，解决有意义的问题，在打造具有真实影响力的创新数字解决方案的同时提升您的技能。",
+  "oppurtunities.slidingHeader": "当前职位空缺",
+  "oppurtunities.search.placeholder": "按职位、技能、地点搜索",
+  "jobList.jobOpenings": [
+    {
+      "id": "NOWIT-JO-001",
+      "section": "development",
+      "role": "MERN 技术栈开发工程师",
+      "detailedRole": "全栈 JavaScript 开发工程师",
+      "location": "印度 安得拉邦 阿马拉瓦蒂",
+      "type": "全职",
+      "experience": "2年以上",
+      "description": "计算机科学、工程学学士学位或同等经验。具备扎实的全栈 JavaScript 开发能力及现代 Web 技术基础。",
+      "requirements": [
+        "精通 MongoDB、Express.js、React、Node.js",
+        "REST API 开发经验",
+        "熟悉 Git 版本控制"
+      ],
+      "skills": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript"
+      ],
+      "projectRole": "软件开发工程师",
+      "projectDescription": "使用 MERN 技术栈构建和维护可扩展的全栈 Web 应用。",
+      "educationalQualifications": "计算机科学或相关专业学士学位",
+      "benefits": [
+        "医疗保险",
+        "绩效奖金",
+        "弹性工作时间"
+      ],
+      "summary": "适合具备经验的 MERN 全栈开发工程师的优秀机会。",
+      "postedDate": "2024-06-01"
+    },
+    {
+      "id": "NOWIT-JO-002",
+      "section": "development",
+      "role": "移动应用开发工程师",
+      "detailedRole": "React Native / Flutter 开发工程师",
+      "location": "印度 安得拉邦 阿马拉瓦蒂",
+      "type": "全职",
+      "experience": "2年以上",
+      "description": "为 Android 和 iOS 平台开发和维护高质量移动应用。",
+      "requirements": [
+        "具备 React Native 或 Flutter 开发经验",
+        "API 集成经验",
+        "应用商店（Play Store / App Store）发布经验"
+      ],
+      "skills": [
+        "React Native",
+        "Flutter",
+        "Firebase",
+        "REST APIs",
+        "TypeScript"
+      ],
+      "projectRole": "移动开发工程师",
+      "projectDescription": "构建具备流畅 UI/UX 的跨平台移动应用。",
+      "educationalQualifications": "计算机科学学士或同等学历",
+      "benefits": [
+        "医疗保险",
+        "应用发布奖金",
+        "带薪休假"
+      ],
+      "summary": "为快速发展的数字平台打造创新型移动应用。",
+      "postedDate": "2024-06-05"
+    },
+    {
+      "id": "NOWIT-JO-003",
+      "section": "development",
+      "role": "云工程师",
+      "detailedRole": "AWS / Azure 云平台专家",
+      "location": "印度 安得拉邦 阿马拉瓦蒂",
+      "type": "全职",
+      "experience": "2年以上",
+      "description": "设计、部署并管理可扩展的云基础设施。",
+      "requirements": [
+        "具备 AWS 或 Azure 实操经验",
+        "CI/CD 流水线经验",
+        "熟悉 Docker 与 Kubernetes"
+      ],
+      "skills": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "DevOps"
+      ],
+      "projectRole": "云基础架构工程师",
+      "projectDescription": "管理云基础设施，确保系统稳定性与可扩展性。",
+      "educationalQualifications": "计算机科学或 IT 相关专业本科",
+      "benefits": [
+        "云认证支持",
+        "医疗保险",
+        "弹性工作时间"
+      ],
+      "summary": "参与设计和管理安全稳定的云系统。",
+      "postedDate": "2024-06-10"
+    },
+    {
+      "id": "NOWIT-JO-004",
+      "section": "uiuxdesigning",
+      "role": "UI / UX 设计师",
+      "detailedRole": "产品设计师",
+      "location": "印度 安得拉邦 阿马拉瓦蒂",
+      "type": "全职",
+      "experience": "2年以上",
+      "description": "为 Web 与移动应用设计直观且具有吸引力的用户界面。",
+      "requirements": [
+        "熟练使用 Figma 或 Adobe XD",
+        "线框图与原型设计经验",
+        "用户研究基础"
+      ],
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "Prototyping",
+        "User Research",
+        "Design Systems"
+      ],
+      "projectRole": "UI / UX 设计师",
+      "projectDescription": "打造流畅的用户体验和互动式产品设计。",
+      "educationalQualifications": "设计或多媒体相关专业学历",
+      "benefits": [
+        "创意自由",
+        "设计工作坊",
+        "弹性工作时间"
+      ],
+      "summary": "塑造引人入胜、以用户为中心的数字体验。",
+      "postedDate": "2024-06-12"
+    },
+    {
+      "id": "NOWIT-JO-005",
+      "section": "management",
+      "role": "业务发展经理",
+      "detailedRole": "战略增长经理",
+      "location": "印度 安得拉邦 阿马拉瓦蒂",
+      "type": "全职",
+      "experience": "2年以上",
+      "description": "通过识别新业务机会并建立客户关系，推动公司增长。",
+      "requirements": [
+        "优秀的沟通能力",
+        "销售与谈判经验",
+        "市场分析能力"
+      ],
+      "skills": [
+        "销售策略",
+        "客户开发",
+        "CRM 工具",
+        "谈判技巧",
+        "市场分析"
+      ],
+      "projectRole": "业务增长经理",
+      "projectDescription": "拓展市场影响力并实现收入目标。",
+      "educationalQualifications": "MBA 或工商管理相关学历",
+      "benefits": [
+        "绩效激励",
+        "差旅补贴",
+        "健康福利"
+      ],
+      "summary": "领导战略举措，推动业务扩展。",
+      "postedDate": "2024-06-15"
+    },
+    {
+      "id": "NOWIT-JO-006",
+      "section": "internship",
+      "role": "软件开发工程师（实习）",
+      "detailedRole": "全栈开发实习生",
+      "location": "印度 安得拉邦 阿马拉瓦蒂",
+      "type": "实习",
+      "experience": "3个月 - 1年",
+      "description": "为学生或应届毕业生提供参与真实项目并获得实践经验的机会。",
+      "requirements": [
+        "具备 HTML、CSS、JavaScript 基础",
+        "积极学习的态度",
+        "良好的问题解决能力"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React 基础",
+        "Git"
+      ],
+      "projectRole": "开发实习生",
+      "projectDescription": "协助高级开发人员构建和维护 Web 应用。",
+      "educationalQualifications": "计算机科学或 IT 专业在读 / 已毕业",
+      "benefits": [
+        "实习证明",
+        "实习补贴",
+        "转正机会"
+      ],
+      "summary": "开启您的软件开发职业生涯。",
+      "postedDate": "2024-06-18"
+    },
+    {
+      "id": "NOWIT-JO-007",
+      "section": "internship",
+      "role": "云工程师（实习）",
+      "detailedRole": "AWS / Azure 云实习生",
+      "location": "印度 安得拉邦 阿马拉瓦蒂",
+      "type": "实习",
+      "experience": "3个月 - 1年",
+      "description": "在资深工程师指导下，获得云基础设施、部署和 DevOps 的实践经验。",
+      "requirements": [
+        "具备 AWS 或 Azure 基础知识",
+        "了解 Linux 基础",
+        "掌握基本网络概念"
+      ],
+      "skills": [
+        "AWS 基础",
+        "Azure 基础",
+        "Linux",
+        "Docker 基础",
+        "Git"
+      ],
+      "projectRole": "云实习生",
+      "projectDescription": "协助管理云环境、监控基础设施并支持部署流程。",
+      "educationalQualifications": "计算机科学、IT 或相关专业在读 / 已毕业",
+      "benefits": [
+        "实习证明",
+        "云技术实践培训",
+        "实习补贴",
+        "转正机会"
+      ],
+      "summary": "通过真实项目开启您的云工程职业之路。",
+      "postedDate": "2024-06-20"
+    }
   ],
-
-  "jobList.jobSections":[
-    {"name":"allroles","label":"所有职位"},
-    {"name":"development","label":"开发"},
-    {"name":"uiuxdesigning","label":"UI/UX 设计"},
-    {"name":"qatesting","label":"QA / 测试"}
-  ]
+  "jobList.jobSections": [
+    { "name": "allroles", "label": "所有职位" },
+    { "name": "development", "label": "开发" },
+    { "name": "uiuxdesigning", "label": "UI / UX 设计" },
+    { "name": "qatesting", "label": "QA / 测试" }
+  ],
+  "jobList.applyNow": "立即申请",
+  "jobList.viewMore": "查看更多",
+  "jobList.noResults": "没有符合您搜索条件的职位"
 }

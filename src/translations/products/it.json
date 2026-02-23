@@ -1,132 +1,143 @@
 {
-    "banner.title": "Siamo Un Ecosistema. Il Futuro Inizia Qui.",
-    "banner.description": "Crea e scala piattaforme intelligenti senza codice — inizia con piattaforme pronte al lancio o progetta una soluzione completamente personalizzata.",
-    "banner.explore": "Esplora Ora",
-    "infinity.title": "Piattaforme Che",
-    "infnity.description": "Piattaforme zero-code pronte per l’impresa che evolvono, si adattano e scalano — dagli individui alle aziende.",
-    "infinity.span": "Pensare, Adattarsi e Crescere",
-    "infinity.right.text": "Esperienze Umane",
-    "infinity.left.text": "Piattaforme Intelligenti",
-    "infinity.middle.top": "WON Suite",
-    "infinity.middle.bottom": "Semplice | Intelligente | Sicuro",
-    "products.slidingHeader": "I Nostri Prodotti",
-    "products.title": "Prodotti Progettati per Ogni Percorso",
-    "products.span": "Da Individuale ad Aziendale",
-    "products.List": {
-        "won_digi": {
-            "name": "WON Digitale",
-            "description": "Piattaforma completa per la gestione educativa che digitalizza processi accademici, amministrativi e operativi."
-        },
-        "won_pulse": {
-            "name": "WON Impulso Sanitario",
-            "description": "Sistema completo per la gestione ospedaliera e dei servizi sanitari."
-        },
-        "won_cart": {
-            "name": "WON Carrello",
-            "description": "Piattaforma di commercio digitale sicura e fluida per vendite online."
-        },
-        "won_bless": {
-            "name": "WON Benedizione",
-            "description": "Ecosistema spirituale e di benessere che unisce tradizione ed esperienze digitali moderne."
-        },
-        "won_fits": {
-            "name": "WON Fitness",
-            "description": "Piattaforma intelligente per percorsi personalizzati di fitness e benessere."
-        },
-        "won_kids": {
-            "name": "WON Bambini",
-            "description": "Piattaforma digitale educativa progettata per la crescita e la creatività dei bambini."
-        },
-        "won_nest": {
-            "name": "WON Nido",
-            "description": "Ecosistema per la pianificazione finanziaria e lo stile di vita personale."
-        },
-        "won_home": {
-            "name": "WON Casa",
-            "description": "Piattaforma di automazione domestica che integra comfort, sicurezza ed efficienza."
-        },
-        "won_pets": {
-            "name": "WON Animali",
-            "description": "Piattaforma digitale per la cura, la salute e il benessere degli animali domestici."
-        },
-        "won_shield": {
-            "name": "WON Scudo Digitale",
-            "description": "Sistema di protezione contro i moderni rischi e le minacce digitali."
-        },
-        "won_drive": {
-            "name": "WON Guida",
-            "description": "Ecosistema di mobilità intelligente per monitoraggio, sicurezza e ottimizzazione dei veicoli."
-        },
-        "won_grid": {
-            "name": "WON Rete Energetica",
-            "description": "Piattaforma digitale per infrastrutture energetiche efficienti e sostenibili."
-        },
-        "won_trip": {
-            "name": "WON Viaggi",
-            "description": "Piattaforma digitale che semplifica la pianificazione e migliora l’esperienza di viaggio."
-        },
-        "won_bills": {
-            "name": "WON Fatturazione",
-            "description": "Sistema aziendale per l’automazione di fatture e pagamenti."
-        },
-        "won_bridge": {
-            "name": "WON Ponte",
-            "description": "Soluzione che consente l’integrazione sicura e fluida tra sistemi aziendali."
-        },
-        "won_tap": {
-            "name": "WON Pagamenti Rapidi",
-            "description": "Piattaforma per pagamenti e accessi rapidi e sicuri."
-        },
-        "won_mart": {
-            "name": "WON Mercato",
-            "description": "Marketplace digitale scalabile per il commercio B2B."
-        },
-        "won_build": {
-            "name": "WON Costruzione",
-            "description": "Piattaforma per la gestione di progetti e infrastrutture aziendali."
-        },
-        "won_move": {
-            "name": "WON Movimento",
-            "description": "Soluzione logistica per ottimizzare trasporti e catena di approvvigionamento."
-        },
-        "won_serve": {
-            "name": "WON Servizi",
-            "description": "Piattaforma per la gestione dei servizi e dell’assistenza clienti."
-        },
-        "won_forge": {
-            "name": "WON Fucina Digitale",
-            "description": "Ambiente di innovazione per lo sviluppo rapido di prodotti digitali."
-        },
-        "won_hrms": {
-            "name": "WON Risorse Umane",
-            "description": "Sistema completo per la gestione moderna delle risorse umane."
-        },
-        "won_guard": {
-            "name": "WON Sicurezza Aziendale",
-            "description": "Piattaforma di sicurezza digitale proattiva per le imprese."
-        },
-        "won_events": {
-            "name": "WON Eventi",
-            "description": "Piattaforma completa per la gestione digitale di eventi."
-        },
-        "won_harvest": {
-            "name": "WON Raccolto",
-            "description": "Marketplace agro-digitale che collega agricoltori, aziende e consumatori."
-        },
-        "won_law": {
-            "name": "WON Legale",
-            "description": "Piattaforma tecnologica per la gestione sicura dei processi legali digitali."
-        },
-        "won_hubs": {
-            "name": "WON Hub Centrale",
-            "description": "Infrastruttura centrale che collega, gestisce e alimenta l’intero ecosistema WON."
-        }
+  "banner.title": "Siamo un Ecosistema Digitale. Il Futuro Funziona Qui.",
+  "banner.description": "Crea e scala piattaforme intelligenti senza codice — inizia con piattaforme di settore pronte al lancio oppure progetta una soluzione completamente personalizzata.",
+  "banner.explore": "Esplora Ora",
+
+  "infinity.title": "Piattaforme Che ",
+  "infnity.description": "Piattaforme Zero-Code pronte per l’impresa che evolvono, si adattano e scalano — dai singoli alle aziende.",
+  "infinity.span": "Pensano, Si Adattano e Scalano",
+  "infinity.right.text": "Esperienze Umane",
+  "infinity.left.text": "Piattaforme Intelligenti",
+  "infinity.middle.top": "WON Suite",
+  "infinity.middle.bottom": "Semplice | Intelligente | Sicuro",
+
+  "products.slidingHeader": "I Nostri Prodotti",
+  "products.title": "Prodotti Progettati per Ogni Percorso",
+  "products.span": "Dal Singolo all’Impresa",
+
+  "products.List": {
+    "won_digi": {
+      "name": "WON Digitale",
+      "description": "WON Digitale è una piattaforma completa di gestione scolastica e istituzionale che digitalizza i processi accademici, amministrativi e operativi."
     },
+    "won_pulse": {
+      "name": "WON Salute",
+      "description": "WON Salute è un sistema completo di gestione ospedaliera e sanitaria che ottimizza i processi clinici, amministrativi e operativi."
+    },
+    "won_cart": {
+      "name": "WON Carrello",
+      "description": "WON Carrello è una piattaforma di commercio digitale di nuova generazione progettata per esperienze di acquisto online sicure e fluide."
+    },
+    "won_bless": {
+      "name": "WON Benedizione",
+      "description": "WON Benedizione è un ecosistema spirituale e di stile di vita che collega tradizioni ed esperienze digitali moderne."
+    },
+    "won_fits": {
+      "name": "WON Fitness",
+      "description": "WON Fitness è una piattaforma di intelligenza per fitness e benessere progettata per percorsi di salute personalizzati."
+    },
+    "won_kids": {
+      "name": "WON Bambini",
+      "description": "WON Bambini è una piattaforma digitale di apprendimento e coinvolgimento progettata per la crescita e la creatività dei bambini."
+    },
+    "won_nest": {
+      "name": "WON Pianificazione",
+      "description": "WON Pianificazione è un ecosistema di pianificazione finanziaria e stile di vita che aiuta le persone a gestire e far crescere le proprie risorse."
+    },
+    "won_home": {
+      "name": "WON Casa",
+      "description": "WON Casa è una piattaforma di automazione per la casa intelligente che integra comfort, sicurezza ed efficienza."
+    },
+    "won_pets": {
+      "name": "WON Animali",
+      "description": "WON Animali è una piattaforma digitale di cura che supporta la salute, il monitoraggio e il benessere degli animali domestici."
+    },
+    "won_shield": {
+      "name": "WON Protezione",
+      "description": "WON Protezione è una piattaforma di protezione digitale che tutela gli utenti dai rischi digitali moderni."
+    },
+    "won_drive": {
+      "name": "WON Mobilità",
+      "description": "WON Mobilità è un ecosistema di mobilità intelligente progettato per monitoraggio, sicurezza e ottimizzazione dei veicoli."
+    },
+    "won_grid": {
+      "name": "WON Rete",
+      "description": "WON Rete è una piattaforma digitale per energia e infrastrutture focalizzata su efficienza e sostenibilità."
+    },
+    "won_trip": {
+      "name": "WON Viaggio",
+      "description": "WON Viaggio è una piattaforma digitale di viaggio che semplifica la pianificazione e migliora l’esperienza di viaggio."
+    },
+    "won_bills": {
+      "name": "WON Fattura",
+      "description": "WON Fattura è una piattaforma aziendale di automazione della fatturazione che semplifica la gestione di fatture e pagamenti."
+    },
+    "won_bridge": {
+      "name": "WON Ponte",
+      "description": "WON Ponte consente un’integrazione sicura e fluida tra sistemi aziendali."
+    },
+    "won_tap": {
+      "name": "WON Pagamento",
+      "description": "WON Pagamento è una piattaforma intelligente di pagamento e accesso per transazioni rapide e sicure."
+    },
+    "won_mart": {
+      "name": "WON Mercato",
+      "description": "WON Mercato è un marketplace digitale che abilita il commercio B2B scalabile."
+    },
+    "won_build": {
+      "name": "WON Costruzione",
+      "description": "WON Costruzione è una piattaforma di gestione progetti e infrastrutture per la pianificazione aziendale."
+    },
+    "won_move": {
+      "name": "WON Logistica",
+      "description": "WON Logistica è una piattaforma che ottimizza le operazioni della catena di approvvigionamento."
+    },
+    "won_serve": {
+      "name": "WON Servizio",
+      "description": "WON Servizio è una piattaforma di gestione dei servizi per flussi di lavoro di coinvolgimento clienti."
+    },
+    "won_forge": {
+      "name": "WON Innovazione",
+      "description": "WON Innovazione è una piattaforma digitale che supporta lo sviluppo rapido di prodotti."
+    },
+    "won_hrms": {
+      "name": "WON Risorse Umane",
+      "description": "WON Risorse Umane è un sistema completo di gestione delle risorse umane per organizzazioni moderne."
+    },
+    "won_guard": {
+      "name": "WON Sicurezza",
+      "description": "WON Sicurezza è una piattaforma di sicurezza aziendale progettata per una protezione digitale proattiva."
+    },
+    "won_events": {
+      "name": "WON Eventi",
+      "description": "WON Eventi è una piattaforma digitale completa per la gestione di eventi."
+    },
+    "won_harvest": {
+      "name": "WON Raccolta",
+      "description": "WON Raccolta è un marketplace agri-digitale che collega agricoltori, aziende e consumatori."
+    },
+    "won_law": {
+      "name": "WON Diritto",
+      "description": "WON Diritto è una piattaforma LegalTech per flussi di lavoro legali digitali e sicuri."
+    },
+    "won_hubs": {
+      "name": "WON Hub Centrale",
+      "description": "WON Hub Centrale è la piattaforma infrastrutturale principale che alimenta l’intero ecosistema WON."
+    }
+  },
+
   "products.viewProduct": "Visualizza Prodotto",
-    "customize.slidingHeader": "Personalizza Il Tuo Prodotto",
-    "customize.title.prefix": "Hai Un’Idea?",
-    "customize.span": "La Personalizziamo",
-    "customize.title.suffix": "Secondo La Tua Visione.",
-    "customize.getInTouch": "Contattaci",
-    "becomepartner.becomepartner": "Diventa Partner"
+
+  "customize.slidingHeader": "Personalizza il Tuo Prodotto",
+  "customize.title.prefix": "Hai un’Idea?",
+  "customize.span": "La Personalizziamo",
+  "customize.title.suffix": "Secondo la Tua Visione.",
+  "customize.description": "Condividi la tua idea con noi e collaboreremo strettamente per trasformarla in un prodotto digitale completamente personalizzato. Dal concept e design allo sviluppo e alla scalabilità, adattiamo ogni soluzione alla tua visione, ai tuoi utenti e ai tuoi obiettivi a lungo termine.",
+  "customize.getInTouch": "Contattaci",
+
+  "becomepartner.title.prefix": "Cresciamo",
+  "becomepartner.title.middle": "Insieme",
+  "becomepartner.title.suffix": "Attraverso la Partnership",
+  "becomepartner.description": "Collabora con NowIT Services per innovare e offrire soluzioni personalizzate.",
+  "becomepartner.becomepartner": "Diventa Partner"
 }

@@ -1,58 +1,243 @@
 {
+  "contactUs": "Связаться с нами",
   "banner.subtitle": "Раскрывая потенциал бизнеса через",
   "banner.title": "Интеллектуальную цифровую трансформацию",
-  "banner.description": "Помогаем бизнесу расти быстрее с помощью ИИ-автоматизации, облачных решений и инноваций на основе данных.",
-  "banner.recommend": "Рекомендовать нас",
-  "banner.customer": "9/10 клиентов",
+  "banner.description": "Помогаем компаниям расти быстрее с помощью автоматизации на базе ИИ, облачных решений и инноваций, основанных на данных.",
+  "banner.recommend": "Рекомендуйте нас",
+  "banner.customer": "9 из 10 клиентов",
   "banner.100": "100%",
   "banner.quality": "Гарантия качества",
   "banner.24": "24/7",
   "banner.support": "Поддержка",
-  "banner.industrial": "Десятилетний ",
-  "banner.experience": "опыт в отрасли",
+  "banner.industrial": "Десятилетие отраслевого",
+  "banner.experience": "опыта",
   "banner.3": "3+",
-  "banner.countries": "страны",
-  "banner.projects": "16+ проектов",
+  "banner.countries": "Страны",
+  "banner.projects": "16+ Проектов",
   "banner.onTime": "Своевременная доставка",
   "hero.getStarted": "Начать",
-  "hero.unified": "Единые сервисы",
-  "hero.reliable": "Надежная поддержка",
+  "hero.unified": "Единые услуги",
+  "hero.reliable": "Надёжная поддержка",
+
   "partner.slidingTitle": "Кто мы",
   "partner.title.prefix": "Ваш",
-  "partner.span": "Надежный партнер",
+  "partner.span": "Надёжный партнёр",
   "partner.title.suffix": "в цифровой трансформации",
-  "partner.description": "Мы — технологическая команда, создающая масштабируемые и надежные цифровые решения.",
+  "partner.description": "Мы технологическая команда, предоставляющая масштабируемые, интеллектуальные и надёжные цифровые решения для современных компаний.",
   "partner.knowmore": "Узнать больше",
   "partner.trusted": "Нам доверяют",
-  "partner.clients": "клиенты по всему миру",
+  "partner.clients": "глобальные клиенты",
   "partner.talktoai": "Поговорить с ИИ",
+
   "services.slidingTitle": "Наши услуги",
-  "services.title": "Цифровые услуги",
-  "services.span": "Полного цикла",
-  "services.description": "Мы предоставляем комплексные программные решения для развития бизнеса.",
+  "services.title": "Комплексные",
+  "services.span": "Цифровые услуги",
+  "services.description": "Мы предоставляем комплексные программные услуги, помогающие компаниям создавать, масштабировать и модернизировать цифровые продукты.",
+
+  "services.carouselList": [
+    {
+      "id": 1,
+      "name": "Умные маркетинговые услуги",
+      "description": "Маркетинговые решения на основе данных для повышения охвата и вовлечённости.",
+      "items": [
+        "Цифровые кампании на основе данных",
+        "Контент и бренд-сторителлинг",
+        "Таргетинг аудитории с ИИ",
+        "Аналитика и отслеживание эффективности"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+    },
+    {
+      "id": 2,
+      "name": "Миграция в облако и приложений",
+      "description": "Безопасные и масштабируемые облачные миграции.",
+      "items": [
+        "Безопасная миграция данных и облака",
+        "Оптимизация инфраструктуры",
+        "Интеграция API и систем",
+        "Оценка рисков и планирование"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "Профессиональные и консалтинговые услуги",
+      "description": "Стратегический бизнес- и IT-консалтинг.",
+      "items": [
+        "Бизнес- и IT-консалтинг",
+        "Планирование и реализация проектов",
+        "Управление ресурсами",
+        "Постоянная техническая поддержка"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "Услуги сообщений и коммуникации",
+      "description": "Коммуникационные решения на базе ИИ.",
+      "items": [
+        "Массовые SMS и WhatsApp",
+        "ИИ-чат-боты и автоответчики",
+        "Управление клиентами в реальном времени",
+        "Аналитика кампаний"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "Услуги запуска бизнеса",
+      "description": "Полная поддержка для успешного старта бизнеса.",
+      "items": [
+        "Регистрация бренда и создание идентичности",
+        "Создание сайта и цифрового присутствия",
+        "Маркетинговые и PR-кампании"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "Услуги регистрации интеллектуальной собственности",
+      "description": "Защитите свои инновации с помощью надёжных IP-услуг.",
+      "items": [
+        "Регистрация и управление патентами",
+        "Регистрация товарных знаков",
+        "Защита авторских прав",
+        "ИИ-поиск и проверка IP"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Обучение и развитие",
+      "description": "Повышение квалификации команд с помощью цифрового обучения.",
+      "items": [
+        "Обучение цифровым и IT-навыкам",
+        "Программы по ИИ и облачным технологиям",
+        "Маркетинговые кампании",
+        "Аналитика рынка с ИИ"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+    }
+  ],
+
   "products.slidingTitle": "Наши продукты",
   "products.title": "Цифровые продукты",
-  "products.span": "Для бизнеса",
-  "products.description": "Интеллектуальные цифровые продукты для решения бизнес-задач.",
+  "products.span": "Готовые для предприятий",
+  "products.description": "Наши продукты решают бизнес-задачи с помощью интеллектуальных и масштабируемых цифровых решений.",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "WON Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "Единая образовательная платформа для управления школами."
+    },
+    {
+      "id": 2,
+      "name": "WON Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "Комплексная платформа управления образованием."
+    },
+    {
+      "id": 3,
+      "name": "WON Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "Интеллектуальное программное обеспечение для управления больницами."
+    },
+    {
+      "id": 4,
+      "name": "WON Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "Умное решение для выставления счетов и финансового управления."
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "Интегрированная платформа коммуникации и сотрудничества."
+    }
+  ],
+
   "products.viewProduct": "Посмотреть продукт",
+
   "Industry.title": "Решения для",
-  "Industry.span": "каждой отрасли",
-  "Industry.description": "NOWIT Services предоставляет ИИ-решения для цифровой трансформации.",
+  "Industry.span": "Каждой отрасли",
+  "Industry.description": "NOWIT предоставляет цифровую трансформацию на базе ИИ для повышения эффективности и роста.",
+  "Industry.list": [
+    "Здравоохранение",
+    "Образование",
+    "Финансы и банки",
+    "Розничная торговля и e-commerce",
+    "Производство",
+    "Логистика и цепочка поставок",
+    "Недвижимость",
+    "Путешествия и гостиничный бизнес",
+    "IT и технологии",
+    "Телекоммуникации",
+    "Энергетика и коммунальные услуги",
+    "Автомобильная промышленность"
+  ],
+
   "testimonials.slidingTitle": "Отзывы",
   "testimonials.title.prefix": "Создание",
-  "testimonials.title.suffix": "доверия через результат",
+  "testimonials.title.suffix": "Доверия через результаты",
   "testimonials.span": "Доверие",
   "testimonials.description": "Реальные отзывы наших клиентов.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT предоставила именно то, что нам было нужно, вовремя и с высоким качеством."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Они быстро поняли наше видение и превратили его в масштабируемый продукт."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Их техническая экспертиза помогла нам создать надёжное решение."
+    }
+  ],
+
   "faq.span": "FAQ",
   "faq.title": "Часто задаваемые вопросы",
   "faq.subquestion": "Остались вопросы?",
-  "faq.description": "Мы здесь, чтобы помочь вам.",
+  "faq.description": "Мы готовы помочь вам.",
   "faq.getintouch": "Связаться с нами",
+  "faq.list": [
+    {
+      "id": 1,
+      "title": "С какими отраслями вы работаете?",
+      "description": "Мы работаем с финансами, здравоохранением, розницей, образованием и IT."
+    },
+    {
+      "id": 2,
+      "title": "Как вы начинаете новый проект?",
+      "description": "Мы начинаем с анализа и работаем поэтапно."
+    },
+    {
+      "id": 3,
+      "title": "Как начать сотрудничество?",
+      "description": "Свяжитесь с нами через контактную форму."
+    },
+    {
+      "id": 4,
+      "title": "Ваши решения масштабируемы?",
+      "description": "Да, они разработаны для роста вашего бизнеса."
+    }
+  ],
+
   "trustedbanner.subTitle": "Нам доверяют",
   "trustedbanner.title": "Глобальный поставщик услуг",
   "becomepartner.title.prefix": "Расти",
-  "becomepartner.title.middle": "вместе",
-  "becomepartner.title.suffix": "через партнерство",
-  "becomepartner.description": "Станьте партнером NowIT Services для совместных инноваций.",
-  "becomepartner.becomepartner": "Стать партнером"
+  "becomepartner.title.middle": "Вместе",
+  "becomepartner.title.suffix": "Через партнёрство",
+  "becomepartner.description": "Сотрудничайте с NowIT для инноваций и роста.",
+  "becomepartner.becomepartner": "Стать партнёром",
+
+  "contactus": "Связаться с нами",
+  "industries": "Отрасли",
+  "testimonials.title": "Отзывы",
+  "whoweare": "Кто мы"
 }

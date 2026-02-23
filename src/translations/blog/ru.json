@@ -1,0 +1,82 @@
+{
+  "banner.title": "Технологические инсайты для",
+  "banner.span": "современного бизнеса",
+  "banner.scroll": "ПРОКРУТИТЕ ДЛЯ ПРОСМОТРА",
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "Cloud"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "Изучение будущего ИИ и облака",
+        "excerpt": "Как ИИ и облачные технологии формируют современный бизнес.",
+        "publishedAt": "11 мая 2024",
+        "readingTime": "6 мин чтения",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "Команда NOW IT",
+        "content": "## Конвергенция ИИ и облака\n\nПлатформы ИИ и облака трансформируют корпоративную инфраструктуру.\n\n> Cloud + AI позволяют создавать масштабируемые интеллектуальные системы.\n\n### Ключевые преимущества\n\n- **Прогнозируемое масштабирование** – Автоматическое управление ресурсами\n- **Безопасность** – Обнаружение угроз с помощью ИИ\n- **Эффективность** – Снижение операционных затрат\n\n<Highlight title=\"Ключевые выводы\">\n- ИИ повышает масштабируемость\n- Автоматизация снижает затраты\n- Более быстрые решения\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["Migration", "Cloud"],
+        "slug": "why-cloud-migration-matters",
+        "title": "Почему миграция в облако важна",
+        "excerpt": "Понимание реального влияния облачной миграции.",
+        "publishedAt": "02 июня 2024",
+        "readingTime": "5 мин чтения",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "Команда NOW IT",
+        "content": "## Облачная миграция: объяснение\n\nМиграция в облако позволяет модернизировать ИТ-системы.\n\n### Преимущества\n\n- Более быстрое развертывание\n- Оптимизация затрат\n- Глобальная масштабируемость"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["Cybersecurity", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "Кибербезопасность в эпоху ИИ",
+        "excerpt": "Как ИИ меняет цифровую безопасность.",
+        "publishedAt": "18 июня 2024",
+        "readingTime": "7 мин чтения",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "Команда безопасности",
+        "content": "## Безопасность на основе ИИ\n\nИИ обеспечивает обнаружение и реагирование на угрозы в реальном времени.\n\n> Безопасность больше не реактивная — она предиктивная."
+      },
+      {
+        "id": "4",
+        "tags": ["Architecture", "Web Development"],
+        "slug": "scalable-web-architecture",
+        "title": "Построение масштабируемой веб-архитектуры",
+        "excerpt": "Лучшие практики для масштабируемых веб-систем.",
+        "publishedAt": "01 июля 2024",
+        "readingTime": "8 мин чтения",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "Инженерная команда",
+        "content": "## Принципы масштабируемой архитектуры\n\n- Stateless-сервисы\n- Горизонтальное масштабирование\n- Cloud-native дизайн"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "Будущее DevOps",
+        "excerpt": "Как DevOps развивается с помощью ИИ.",
+        "publishedAt": "15 июля 2024",
+        "readingTime": "6 мин чтения",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "Команда DevOps",
+        "content": "## Будущее интеллектуальных облачных инноваций\n\nОблачные технологии стали основой современных бизнес-процессов.\n\nБудущее облака — не просто масштабируемое, а интеллектуальное."
+      }
+    ]
+  },
+  "blogs.readMore": "Читать далее",
+  "blogs.latest": "Последние статьи",
+  "blogs.similarBlogs": "Похожие статьи",
+  "blogs.share": "Поделиться",
+  "newsletter.title": "Будьте в курсе последних инсайтов",
+  "newsletter.description": "Подпишитесь на нашу рассылку и получайте еженедельные обновления о cloud, ИИ и технологических трендах.",
+  "newsletter.subscribe": "Подписаться",
+  "newsletter.subscribing": "Подписка...",
+  "newsletter.spam": "Без спама. Отписаться можно в любое время.",
+  "newsletter.emailPlaceholder": "Введите ваш email"
+}

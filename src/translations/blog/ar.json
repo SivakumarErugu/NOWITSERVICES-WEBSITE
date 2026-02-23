@@ -1,0 +1,82 @@
+{
+  "banner.title": "رؤى تقنية لـ",
+  "banner.span": "الأعمال الحديثة",
+  "banner.scroll": "مرر للاستكشاف",
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "Cloud"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "استكشاف مستقبل الذكاء الاصطناعي والحوسبة السحابية",
+        "excerpt": "كيف يُشكل الذكاء الاصطناعي والحوسبة السحابية مستقبل الشركات الحديثة.",
+        "publishedAt": "11 مايو 2024",
+        "readingTime": "6 دقائق قراءة",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "فريق NOW IT",
+        "content": "## تكامل الذكاء الاصطناعي والحوسبة السحابية\n\nتُحدث منصات الذكاء الاصطناعي والسحابة تحولًا جذريًا في بنية أنظمة الشركات.\n\n> Cloud + AI تمكّن أنظمة ذكية وقابلة للتوسع.\n\n### الفوائد الرئيسية\n\n- **التوسع التنبؤي** – إدارة تلقائية للموارد\n- **الأمان** – اكتشاف التهديدات بالاعتماد على الذكاء الاصطناعي\n- **الكفاءة** – تقليل التكاليف التشغيلية\n\n<Highlight title=\"أهم النقاط\">\n- الذكاء الاصطناعي يعزز القابلية للتوسع\n- الأتمتة تقلل التكاليف\n- قرارات أسرع\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["Migration", "Cloud"],
+        "slug": "why-cloud-migration-matters",
+        "title": "لماذا تُعد الهجرة إلى السحابة مهمة",
+        "excerpt": "فهم التأثير الحقيقي للهجرة إلى الحوسبة السحابية.",
+        "publishedAt": "02 يونيو 2024",
+        "readingTime": "5 دقائق قراءة",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "فريق NOW IT",
+        "content": "## شرح الهجرة إلى السحابة\n\nتُمكّن الهجرة إلى السحابة الشركات من تحديث أنظمة تكنولوجيا المعلومات.\n\n### المزايا\n\n- نشر أسرع\n- تحسين التكاليف\n- قابلية التوسع عالميًا"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["Cybersecurity", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "الأمن السيبراني في عصر الذكاء الاصطناعي",
+        "excerpt": "كيف يُعيد الذكاء الاصطناعي تشكيل الأمن الرقمي.",
+        "publishedAt": "18 يونيو 2024",
+        "readingTime": "7 دقائق قراءة",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "فريق الأمن",
+        "content": "## الأمن المدعوم بالذكاء الاصطناعي\n\nيُمكّن الذكاء الاصطناعي من اكتشاف التهديدات والاستجابة لها في الوقت الفعلي.\n\n> لم يعد الأمن تفاعليًا — بل أصبح تنبؤيًا."
+      },
+      {
+        "id": "4",
+        "tags": ["Architecture", "Web Development"],
+        "slug": "scalable-web-architecture",
+        "title": "بناء بنية ويب قابلة للتوسع",
+        "excerpt": "أفضل الممارسات لبناء أنظمة ويب قابلة للتوسع.",
+        "publishedAt": "01 يوليو 2024",
+        "readingTime": "8 دقائق قراءة",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "فريق الهندسة",
+        "content": "## مبادئ البنية القابلة للتوسع\n\n- خدمات عديمة الحالة\n- التوسع الأفقي\n- تصميم سحابي أصلي"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "مستقبل DevOps",
+        "excerpt": "كيف يتطور DevOps بالاعتماد على الذكاء الاصطناعي.",
+        "publishedAt": "15 يوليو 2024",
+        "readingTime": "6 دقائق قراءة",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "فريق DevOps",
+        "content": "## استكشاف مستقبل الذكاء والابتكار المدعوم بالسحابة\n\nفي عالم تقنيات المؤسسات سريع التطور، أصبحت الحوسبة السحابية العمود الفقري للعمليات الحديثة.\n\nمستقبل الحوسبة السحابية ليس فقط قابلًا للتوسع — بل ذكي."
+      }
+    ]
+  },
+  "blogs.readMore": "اقرأ المزيد",
+  "blogs.latest": "أحدث المقالات",
+  "blogs.similarBlogs": "مقالات مشابهة",
+  "blogs.share": "مشاركة",
+  "newsletter.title": "ابقَ على اطلاع بآخر الرؤى",
+  "newsletter.description": "اشترك في نشرتنا البريدية واحصل على تحديثات أسبوعية حول الحوسبة السحابية والذكاء الاصطناعي واتجاهات تكنولوجيا المؤسسات.",
+  "newsletter.subscribe": "اشترك",
+  "newsletter.subscribing": "جاري الاشتراك...",
+  "newsletter.spam": "لا رسائل مزعجة. يمكنك إلغاء الاشتراك في أي وقت.",
+  "newsletter.emailPlaceholder": "أدخل عنوان بريدك الإلكتروني"
+}

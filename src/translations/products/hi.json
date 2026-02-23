@@ -2,6 +2,7 @@
   "banner.title": "हम एक इकोसिस्टम हैं। भविष्य यहीं से शुरू होता है।",
   "banner.description": "नो-कोड के साथ बुद्धिमान प्लेटफॉर्म बनाएं और स्केल करें — लॉन्च के लिए तैयार उद्योग प्लेटफॉर्म से शुरुआत करें या पूरी तरह कस्टम समाधान डिज़ाइन करें",
   "banner.explore": "अभी एक्सप्लोर करें",
+
   "infinity.title": "ऐसे प्लेटफॉर्म जो ",
   "infnity.description": "एंटरप्राइज़-रेडी ज़ीरो-कोड प्लेटफॉर्म जो विकसित होते हैं, अनुकूलित होते हैं और स्केल करते हैं — व्यक्तियों से लेकर एंटरप्राइज़ तक",
   "infinity.span": "सोचें, अनुकूलित करें और स्केल करें",
@@ -9,9 +10,11 @@
   "infinity.left.text": "बुद्धिमान प्लेटफॉर्म",
   "infinity.middle.top": "वॉन सूट",
   "infinity.middle.bottom": "सरल | स्मार्ट | सुरक्षित",
+
   "products.slidingHeader": "हमारे उत्पाद",
   "products.title": "हर यात्रा के लिए बनाए गए उत्पाद",
   "products.span": "व्यक्ति से एंटरप्राइज़ तक",
+
   "products.List": {
     "won_digi": {
       "name": "वॉन डिजी",
@@ -122,6 +125,7 @@
       "description": "वॉन हब्स पूरे वॉन इकोसिस्टम को संचालित करने वाला मुख्य इंफ्रास्ट्रक्चर प्लेटफॉर्म है।"
     }
   },
+
   "products.viewProduct": "उत्पाद देखें",
 
   "customize.slidingHeader": "अपने उत्पाद को कस्टमाइज़ करें",
@@ -135,79 +139,6 @@
   "becomepartner.title.middle": "आगे बढ़ें",
   "becomepartner.title.suffix": "साझेदारी के माध्यम से",
   "becomepartner.description": "NowIT Services के साथ साझेदारी करें और अनुकूलित समाधान प्रदान करें।",
-  "becomepartner.becomepartner": "साझेदार बनें",
-  "headerOptions": [
-  {
-    "name": "home",
-    "label": "होम",
-    "link": "/",
-    "options": []
-  },
-  {
-    "name": "about us",
-    "label": "हमारे बारे में",
-    "link": "/aboutus",
-    "options": []
-  },
-  {
-    "name": "services",
-    "label": "सेवाएँ",
-    "link": "/",
-    "options": [
-      {
-        "name": "smart marketing",
-        "label": "स्मार्ट मार्केटिंग",
-        "link": "/"
-      },
-      {
-        "name": "business launch",
-        "label": "बिज़नेस लॉन्च",
-        "link": "/"
-      },
-      {
-        "name": "professional services",
-        "label": "प्रोफेशनल सेवाएँ",
-        "link": "/"
-      },
-      {
-        "name": "migration",
-        "label": "माइग्रेशन",
-        "link": "/"
-      },
-      {
-        "name": "training services",
-        "label": "ट्रेनिंग सेवाएँ",
-        "link": "/"
-      },
-      {
-        "name": "messaging services",
-        "label": "मैसेजिंग सेवाएँ",
-        "link": "/"
-      },
-      {
-        "name": "ip filing services",
-        "label": "आईपी फाइलिंग सेवाएँ",
-        "link": "/"
-      }
-    ]
-  },
-  {
-    "name": "products",
-    "label": "प्रोडक्ट्स",
-    "link": "/products",
-    "options": []
-  },
-  {
-    "name": "blog",
-    "label": "ब्लॉग",
-    "link": "/blog",
-    "options": []
-  },
-  {
-    "name": "careers",
-    "label": "करियर",
-    "link": "/careers",
-    "options": []
-  }
-]
+  "becomepartner.becomepartner": "साझेदार बनें"
+
 }

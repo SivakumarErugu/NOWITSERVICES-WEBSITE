@@ -8,37 +8,40 @@
       "link": "/",
       "options": [
         { "name": "smart marketing", "label": "Marketing Inteligente", "link": "/" },
-        { "name": "business launch", "label": "Lanzamiento de Negocios", "link": "/" },
+        { "name": "business launch", "label": "Lanzamiento de Negocio", "link": "/" },
         { "name": "professional services", "label": "Servicios Profesionales", "link": "/" },
         { "name": "migration", "label": "Migración", "link": "/" },
         { "name": "training services", "label": "Servicios de Capacitación", "link": "/" },
         { "name": "messaging services", "label": "Servicios de Mensajería", "link": "/" },
-        { "name": "ip filing services", "label": "Servicios de Registro IP", "link": "/" }
+        { "name": "ip filing services", "label": "Servicios de Registro de Propiedad Intelectual", "link": "/" }
       ]
     },
     { "name": "products", "label": "Productos", "link": "/products", "options": [] },
     { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
     { "name": "careers", "label": "Carreras", "link": "/careers", "options": [] }
   ],
+
   "contactUs": "Contáctanos",
+
   "footer": {
-    "description": "Socio de transformación digital que ofrece soluciones cloud-first impulsadas por IA para un crecimiento escalable.",
+    "description": "Socio de transformación digital que ofrece soluciones basadas en la nube e impulsadas por IA para un crecimiento escalable y excelencia operativa.",
     "socialMedia": [
-      { "name": "linkedin", "link": "https://linkedin.com" },
-      { "name": "twitter", "link": "https://twitter.com" },
-      { "name": "instagram", "link": "https://instagram.com" }
+      { "name": "linkedin", "link": "https://linkedin.com/company/nowitservices/", "icon": "FaLinkedin" },
+      { "name": "twitter", "link": "https://www.linkedin.com/company/nowitservices/", "icon": "" },
+      { "name": "instagram", "link": "https://www.instagram.com/_nowitservices_/", "icon": "FaInstagram" },
+      { "name": "youtube", "link": "https://www.youtube.com/@NOWITSERVICES-j7k", "icon": "FaYoutube" }
     ],
     "quickLinks": {
       "title": "Enlaces Rápidos",
       "items": [
         { "label": "Inicio", "link": "/" },
-        { "label": "Sobre Nosotros", "link": "/about-us" },
+        { "label": "Sobre Nosotros", "link": "/aboutus" },
         { "label": "Servicios", "link": "/services" },
         { "label": "Productos", "link": "/products" }
       ]
     },
     "services": {
-      "title": "Alianzas Comerciales",
+      "title": "Alianzas Empresariales",
       "items": [
         { "label": "Soluciones Empresariales", "link": "/services" },
         { "label": "IA y Automatización", "link": "/services" }
@@ -47,32 +50,152 @@
     "legal": {
       "title": "Legal y Cumplimiento",
       "items": [
-        { "label": "Política de Privacidad", "link": "/privacy" },
-        { "label": "Términos y Condiciones", "link": "/terms" }
+        { "label": "Política de Privacidad", "link": "/terms-privacy-cookie-policy" },
+        { "label": "Términos y Condiciones", "link": "/terms-privacy-cookie-policy" },
+        { "label": "Política de Cookies", "link": "/terms-privacy-cookie-policy" }
       ]
     },
     "copyright": "© 2026 Nowit Services. Todos los derechos reservados."
   },
+
   "contact": {
     "title": "Comencemos la Conversación",
-    "subtitle": "Comparte tu requerimiento y nuestro equipo se pondrá en contacto contigo",
+    "subtitle": "Comparte tus requisitos y nuestro equipo se pondrá en contacto contigo",
     "labels": {
       "name": "Nombre",
       "email": "Correo Electrónico",
       "whatsapp": "Número de WhatsApp",
-      "date": "Fecha y Hora Preferida",
+      "date": "Fecha y Hora Preferida de Contacto",
       "message": "Mensaje"
     },
     "placeholders": {
       "name": "Ingresa tu nombre",
-      "email": "Ingresa tu correo",
-      "phone": "Ingresa el número de teléfono",
+      "email": "Ingresa tu correo electrónico",
+      "phone": "Ingresa número de teléfono",
       "date": "Selecciona fecha y hora",
-      "message": "Ingresa el mensaje"
+      "message": "Ingresa mensaje"
     },
-    "button": {
-      "send": "Enviar",
-      "sending": "Enviando..."
+    "button": { "send": "Enviar", "sending": "Enviando..." }
+  },
+
+  "locations": [
+    { "title": "INDIA - Amaravathi", "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503." },
+    { "title": "INDIA - Vijayawada", "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007." },
+    { "title": "REINO UNIDO", "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF." },
+    { "title": "ALEMANIA", "address": "Hausdorffstraße 61, 53129 Bonn, Germany." }
+  ],
+
+  "organizationForm": {
+    "organizationDetails": {
+      "title": "Detalles de la Organización",
+      "description": "Ayúdanos a comprender tu organización y antecedentes comerciales.",
+      "sectionTitle": "Datos de la organización",
+      "sectionHint": "Especificar exactamente como en el pasaporte"
+    },
+    "otherDetails": {
+      "title": "Otros Detalles",
+      "description": "Comparte tu información de contacto e intereses de inversión."
+    },
+    "fields": {
+      "companyName": "Nombre de la Empresa",
+      "entityType": "Tipo de Entidad",
+      "country": "País",
+      "city": "Ciudad",
+      "website": "Sitio Web (Opcional)",
+      "fullName": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "role": "Rol",
+      "phone": "Teléfono",
+      "interestNature": "Naturaleza del Interés",
+      "primaryInterest": "Interés Principal",
+      "attachment": "Adjunto Opcional",
+      "message": "Mensaje"
+    },
+    "checkbox": {
+      "confirm": "Confirmo que la información proporcionada es verdadera y precisa.",
+      "consent": "Acepto ser contactado para más conversaciones."
+    },
+    "buttons": { "next": "Siguiente", "back": "Atrás", "send": "Enviar", "sending": "Enviando..." },
+    "validation": {
+      "companyName": "El nombre de la empresa es obligatorio",
+      "entityType": "El tipo de entidad es obligatorio",
+      "country": "El país es obligatorio",
+      "city": "La ciudad es obligatoria",
+      "fullName": "El nombre completo es obligatorio",
+      "emailRequired": "El correo electrónico es obligatorio",
+      "emailInvalid": "Correo electrónico inválido",
+      "role": "El rol es obligatorio",
+      "phone": "El número de contacto es obligatorio",
+      "message": "El mensaje es obligatorio",
+      "messageMax": "El mensaje no puede exceder 500 caracteres"
+    },
+    "options": {
+      "entityType": [
+        { "value": "Start Up", "label": "Startup" },
+        { "value": "Enterprise", "label": "Empresa" }
+      ],
+      "role": [
+        { "value": "Founder", "label": "Fundador" },
+        { "value": "Partner", "label": "Socio" }
+      ],
+      "interestNature": [
+        { "value": "Investor", "label": "Inversor" }
+      ],
+      "primaryInterest": [
+        { "value": "Strategic Partnership", "label": "Alianza Estratégica" }
+      ],
+      "investmentSize": [
+        { "value": "Upto 10Cr", "label": "Hasta 10Cr" }
+      ],
+      "timeline": [
+        { "value": "6-12 Months", "label": "6-12 Meses" }
+      ]
+    },
+    "toast": {
+      "success": "Formulario enviado con éxito",
+      "failure": "Error en el envío. Inténtalo de nuevo.",
+      "serverError": "Error al enviar."
     }
+  },
+
+  "jobApplicationForm": {
+    "applicationForm": "Formulario de Solicitud",
+    "personalInformation": "Información Personal",
+    "slidingText": "Vacantes Actuales",
+    "jobid": "ID del Puesto",
+    "projectRole": "Rol del Proyecto",
+    "ApplyForThisJob": "Postular a este Puesto",
+    "JobDescription": "Descripción del Puesto",
+    "experience": "Experiencia Requerida",
+    "prodescription": "Descripción del Proyecto",
+    "skills": "Habilidades",
+    "education": "Calificaciones Educativas",
+    "benifits": "Beneficios",
+    "summary": "Resumen",
+    "application": "Formulario de Solicitud",
+    "personal": "Información Personal",
+    "fname": "Nombre",
+    "lname": "Apellido",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "resume": "Currículum",
+    "cletter": "Carta de Presentación",
+    "certifications": "Certificaciones",
+    "cuurentpack": "Paquete Actual",
+    "expectedpack": "Paquete Esperado",
+    "company": "Nombre de la Empresa",
+    "role": "Rol / Posición",
+    "start": "Fecha de Inicio",
+    "end": "Fecha de Finalización",
+    "tSkills": "Habilidades Técnicas",
+    "scertifications": "Habilidades y Certificaciones",
+    "submit": "Enviar",
+    "submitting": "Enviando",
+    "workExperience": "Experiencia Laboral",
+    "placeholders.coverletter": "Cuéntanos por qué serías ideal para nuestro equipo...",
+    "placeholders.resume": "Arrastra tu currículum aquí o ",
+    "placeholders.file": "Tipos aceptados: PDF, DOCX (máx. 5MB)",
+    "placeholders.certifications": "AWS Certified Developer, PMP...",
+    "placeholders.skills": "JavaScript, React, Nodejs..."
   }
 }

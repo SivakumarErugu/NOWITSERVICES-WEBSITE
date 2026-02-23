@@ -1,71 +1,146 @@
-{
+
+  {
   "headerOptions": [
-    { "name": "home", "label": "Главная", "link": "/", "options": [] },
-    { "name": "about us", "label": "О Нас", "link": "/aboutus", "options": [] },
+    {
+      "name": "home",
+      "label": "Главная",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "О нас",
+      "link": "/aboutus",
+      "options": []
+    },
     {
       "name": "services",
       "label": "Услуги",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "Умный Маркетинг", "link": "/" },
-        { "name": "business launch", "label": "Запуск Бизнеса", "link": "/" },
-        { "name": "professional services", "label": "Профессиональные Услуги", "link": "/" },
-        { "name": "migration", "label": "Миграция", "link": "/" },
-        { "name": "training services", "label": "Обучающие Услуги", "link": "/" },
-        { "name": "messaging services", "label": "Сообщения", "link": "/" },
-        { "name": "ip filing services", "label": "Регистрация ИС", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "Умный маркетинг",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "Запуск бизнеса",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "Профессиональные услуги",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "Миграция",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "Обучающие услуги",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "Сервисы обмена сообщениями",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "Услуги по регистрации интеллектуальной собственности",
+          "link": "/"
+        }
       ]
     },
-    { "name": "products", "label": "Продукты", "link": "/products", "options": [] },
-    { "name": "blog", "label": "Блог", "link": "/blog", "options": [] },
-    { "name": "careers", "label": "Карьера", "link": "/careers", "options": [] }
+    {
+      "name": "products",
+      "label": "Продукты",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "Блог",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "Карьера",
+      "link": "/careers",
+      "options": []
+    }
   ],
+
   "contactUs": "Связаться с нами",
+
   "footer": {
-    "description": "Партнер по цифровой трансформации с решениями на базе ИИ.",
+    "description": "Партнёр по цифровой трансформации, предоставляющий облачные и AI-ориентированные решения для масштабируемого роста и операционного совершенства.",
     "socialMedia": [
-      { "name": "linkedin", "link": "https://linkedin.com" },
-      { "name": "twitter", "link": "https://twitter.com" },
-      { "name": "instagram", "link": "https://instagram.com" }
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com/company/nowitservices/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "twitter",
+        "link": "https://www.linkedin.com/company/nowitservices/",
+        "icon": ""
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_nowitservices_/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/@NOWITSERVICES-j7k",
+        "icon": "FaYoutube"
+      }
     ],
     "quickLinks": {
       "title": "Быстрые ссылки",
       "items": [
         { "label": "Главная", "link": "/" },
-        { "label": "О Нас", "link": "/about-us" },
+        { "label": "О нас", "link": "/aboutus" },
         { "label": "Услуги", "link": "/services" },
         { "label": "Продукты", "link": "/products" }
       ]
     },
     "services": {
-      "title": "Бизнес-Партнерства",
+      "title": "Бизнес-партнёрства",
       "items": [
-        { "label": "Корпоративные Решения", "link": "/services" },
-        { "label": "ИИ и Автоматизация", "link": "/services" }
+        { "label": "Корпоративные решения", "link": "/services" },
+        { "label": "ИИ и автоматизация", "link": "/services" }
       ]
     },
     "legal": {
-      "title": "Правовая Информация",
+      "title": "Право и соответствие",
       "items": [
-        { "label": "Политика Конфиденциальности", "link": "/privacy" },
-        { "label": "Условия Использования", "link": "/terms" }
+        { "label": "Политика конфиденциальности", "link": "/terms-privacy-cookie-policy" },
+        { "label": "Условия и положения", "link": "/terms-privacy-cookie-policy" },
+        { "label": "Политика использования файлов cookie", "link": "/terms-privacy-cookie-policy" }
       ]
     },
     "copyright": "© 2026 Nowit Services. Все права защищены."
   },
+
   "contact": {
-    "title": "Начнем Разговор",
-    "subtitle": "Поделитесь запросом, и мы свяжемся с вами",
+    "title": "Давайте начнём разговор",
+    "subtitle": "Поделитесь вашими требованиями, и наша команда свяжется с вами",
     "labels": {
       "name": "Имя",
-      "email": "Email",
+      "email": "Электронная почта",
       "whatsapp": "Номер WhatsApp",
-      "date": "Предпочтительная Дата и Время",
+      "date": "Предпочтительная дата и время контакта",
       "message": "Сообщение"
     },
     "placeholders": {
-      "name": "Введите имя",
-      "email": "Введите email",
+      "name": "Введите ваше имя",
+      "email": "Введите вашу электронную почту",
       "phone": "Введите номер телефона",
       "date": "Выберите дату и время",
       "message": "Введите сообщение"
@@ -74,5 +149,143 @@
       "send": "Отправить",
       "sending": "Отправка..."
     }
+  },
+
+  "locations": [
+    {
+      "title": "ИНДИЯ - Амаравати",
+      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+    },
+    {
+      "title": "ИНДИЯ - Виджаявада",
+      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+    },
+    {
+      "title": "ВЕЛИКОБРИТАНИЯ",
+      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+    },
+    {
+      "title": "ГЕРМАНИЯ",
+      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+    }
+  ],
+
+  "organizationForm": {
+    "organizationDetails": {
+      "title": "Данные организации",
+      "description": "Помогите нам понять вашу организацию и бизнес-контекст.",
+      "sectionTitle": "Данные организации",
+      "sectionHint": "Указывайте точно как в паспорте"
+    },
+    "otherDetails": {
+      "title": "Дополнительные сведения",
+      "description": "Поделитесь контактной информацией и инвестиционными интересами."
+    },
+    "fields": {
+      "companyName": "Название компании",
+      "entityType": "Тип организации",
+      "country": "Страна",
+      "city": "Город",
+      "website": "Веб-сайт (необязательно)",
+      "fullName": "Полное имя",
+      "email": "Электронная почта",
+      "role": "Роль",
+      "phone": "Телефон",
+      "interestNature": "Характер интереса",
+      "primaryInterest": "Основной интерес",
+      "attachment": "Необязательное вложение",
+      "message": "Сообщение"
+    },
+    "checkbox": {
+      "confirm": "Я подтверждаю, что предоставленная информация является точной.",
+      "consent": "Я согласен на дальнейший контакт."
+    },
+    "buttons": {
+      "next": "Далее",
+      "back": "Назад",
+      "send": "Отправить",
+      "sending": "Отправка..."
+    },
+    "validation": {
+      "companyName": "Название компании обязательно",
+      "entityType": "Тип организации обязателен",
+      "country": "Страна обязательна",
+      "city": "Город обязателен",
+      "fullName": "Полное имя обязательно",
+      "emailRequired": "Электронная почта обязательна",
+      "emailInvalid": "Неверный адрес электронной почты",
+      "role": "Роль обязательна",
+      "phone": "Контактный номер обязателен",
+      "message": "Сообщение обязательно",
+      "messageMax": "Сообщение не должно превышать 500 символов"
+    },
+    "options": {
+      "entityType": [
+        { "value": "Start Up", "label": "Стартап" },
+        { "value": "Enterprise", "label": "Компания" }
+      ],
+      "role": [
+        { "value": "Founder", "label": "Основатель" },
+        { "value": "Partner", "label": "Партнёр" }
+      ],
+      "interestNature": [
+        { "value": "Investor", "label": "Инвестор" }
+      ],
+      "primaryInterest": [
+        { "value": "Strategic Partnership", "label": "Стратегическое партнёрство" }
+      ],
+      "investmentSize": [
+        { "value": "Upto 10Cr", "label": "До 10Cr" }
+      ],
+      "timeline": [
+        { "value": "6-12 Months", "label": "6-12 месяцев" }
+      ]
+    },
+    "toast": {
+      "success": "Форма успешно отправлена",
+      "failure": "Ошибка отправки. Пожалуйста, попробуйте снова.",
+      "serverError": "Не удалось отправить."
+    }
+  },
+
+  "jobApplicationForm": {
+    "applicationForm": "Форма заявки",
+    "personalInformation": "Личная информация",
+    "slidingText": "Текущие вакансии",
+    "jobid": "ID вакансии",
+    "projectRole": "Роль в проекте",
+    "ApplyForThisJob": "Подать заявку",
+    "JobDescription": "Описание вакансии",
+    "experience": "Требуемый опыт",
+    "prodescription": "Описание проекта",
+    "skills": "Навыки",
+    "education": "Образование",
+    "benifits": "Преимущества",
+    "summary": "Резюме",
+    "application": "Форма заявки",
+    "personal": "Личная информация",
+    "fname": "Имя",
+    "lname": "Фамилия",
+    "email": "Электронная почта",
+    "phone": "Номер телефона",
+    "resume": "Резюме",
+    "cletter": "Сопроводительное письмо",
+    "certifications": "Сертификаты",
+    "cuurentpack": "Текущая зарплата",
+    "expectedpack": "Ожидаемая зарплата",
+    "company": "Название компании",
+    "role": "Должность",
+    "start": "Дата начала",
+    "end": "Дата окончания",
+    "tSkills": "Технические навыки",
+    "scertifications": "Навыки и сертификаты",
+    "submit": "Отправить",
+    "submitting": "Отправка",
+    "workExperience": "Опыт работы",
+    "placeholders.coverletter": "Расскажите, почему вы отлично подойдёте нашей команде...",
+    "placeholders.resume": "Перетащите ваше резюме сюда или ",
+    "placeholders.file": "Допустимые форматы: PDF, DOCX (макс. 5MB)",
+    "placeholders.certifications": "AWS Certified Developer, PMP...",
+    "placeholders.skills": "JavaScript, React, Nodejs..."
   }
 }

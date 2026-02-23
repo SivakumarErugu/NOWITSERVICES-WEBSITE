@@ -1,58 +1,243 @@
 {
+  "contactUs": "Contactez-nous",
   "banner.subtitle": "Libérer le potentiel des entreprises grâce à",
-  "banner.title": "La Transformation Digitale Intelligente",
-  "banner.description": "Permettez aux entreprises de croître plus rapidement grâce à l’automatisation IA, aux solutions cloud et à l’innovation basée sur les données.",
-  "banner.recommend": "Nous Recommander",
+  "banner.title": "Transformation Digitale Intelligente",
+  "banner.description": "Permettez aux entreprises de croître plus rapidement grâce à l’automatisation basée sur l’IA, aux solutions cloud et à l’innovation pilotée par les données.",
+  "banner.recommend": "Recommandez-nous",
   "banner.customer": "9/10 Clients",
   "banner.100": "100%",
   "banner.quality": "Qualité Garantie",
   "banner.24": "24/7",
   "banner.support": "Support",
-  "banner.industrial": "Une décennie d’expérience ",
-  "banner.experience": "industrielle",
+  "banner.industrial": "Une décennie d’expérience industrielle",
+  "banner.experience": "expérience",
   "banner.3": "3+",
   "banner.countries": "Pays",
   "banner.projects": "16+ Projets",
-  "banner.onTime": "Livraison Ponctuelle",
+  "banner.onTime": "Livraison à Temps",
   "hero.getStarted": "Commencer",
   "hero.unified": "Services Unifiés",
   "hero.reliable": "Support Fiable",
+
   "partner.slidingTitle": "Qui sommes-nous",
   "partner.title.prefix": "Votre",
   "partner.span": "Partenaire de Confiance",
   "partner.title.suffix": "en Transformation Digitale",
-  "partner.description": "Nous sommes une équipe technologique dédiée à la création de solutions numériques évolutives et fiables.",
-  "partner.knowmore": "En Savoir Plus",
+  "partner.description": "Nous sommes une équipe axée sur la technologie dédiée à la fourniture de solutions numériques évolutives, intelligentes et fiables pour les entreprises modernes.",
+  "partner.knowmore": "En savoir plus",
   "partner.trusted": "Approuvé",
   "partner.clients": "par des Clients Internationaux",
   "partner.talktoai": "Parler à l’IA",
+
   "services.slidingTitle": "Nos Services",
-  "services.title": "Services Numériques",
-  "services.span": "Complets",
-  "services.description": "Nous fournissons des services logiciels complets pour développer et moderniser vos produits numériques.",
+  "services.title": "De Bout en Bout",
+  "services.span": "Services Numériques",
+  "services.description": "Nous proposons des services logiciels de bout en bout qui aident les entreprises à créer, développer et moderniser leurs produits numériques. De la stratégie et du design au développement et au déploiement, nous livrons des solutions fiables et de haute qualité adaptées à vos besoins.",
+
+  "services.carouselList": [
+    {
+      "id": 1,
+      "name": "Services de Marketing Intelligent",
+      "description": "Solutions marketing basées sur les données conçues pour améliorer la portée et l’engagement.",
+      "items": [
+        "Campagnes digitales basées sur les données",
+        "Contenu et storytelling de marque",
+        "Ciblage d’audience basé sur l’IA",
+        "Suivi et analyse des performances"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+    },
+    {
+      "id": 2,
+      "name": "Migration Cloud & Applications",
+      "description": "Services de migration cloud sécurisés et évolutifs pour les entreprises modernes",
+      "items": [
+        "Migration sécurisée des données et du cloud",
+        "Optimisation de l’infrastructure",
+        "Intégrations API et systèmes",
+        "Évaluation et planification des risques"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "Services Professionnels & Conseil",
+      "description": "Conseil stratégique en affaires et en IT pour une croissance maîtrisée.",
+      "items": [
+        "Conseil en affaires et en IT",
+        "Planification et livraison de projets",
+        "Gestion des ressources",
+        "Support technique continu"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "Services de Messagerie & Communication",
+      "description": "Solutions de communication basées sur l’IA pour un meilleur engagement client.",
+      "items": [
+        "SMS en masse et messagerie WhatsApp",
+        "Chatbots IA et réponses automatiques",
+        "Gestion client en temps réel",
+        "Analyse des campagnes"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "Services de Lancement d’Entreprise",
+      "description": "Nous aidons les entreprises à démarrer efficacement grâce à un accompagnement complet et des analyses basées sur l’IA.",
+      "items": [
+        "Enregistrement de marque et identité",
+        "Création de site web et présence digitale",
+        "Marketing, RP et campagnes de lancement"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "Services de Dépôt de Propriété Intellectuelle",
+      "description": "Protégez votre innovation grâce à des services de PI sécurisés et fiables.",
+      "items": [
+        "Dépôt et gestion de brevets",
+        "Enregistrement de marques",
+        "Protection des droits d’auteur",
+        "Recherche et validation PI assistées par IA"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Services de Formation & Développement",
+      "description": "Développez les compétences des équipes grâce à des formations digitales adaptées à l’industrie.",
+      "items": [
+        "Formation en compétences digitales et IT",
+        "Programmes IA et cloud",
+        "Marketing, RP et campagnes",
+        "Analyses de marché basées sur l’IA"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+    }
+  ],
+
   "products.slidingTitle": "Nos Produits",
-  "products.title": "Produits Numériques",
+  "products.title": "Produits Digitaux",
   "products.span": "Prêts pour l’Entreprise",
-  "products.description": "Des solutions numériques intelligentes conçues pour résoudre des défis métier.",
+  "products.description": "Nos produits sont conçus pour résoudre les défis commerciaux grâce à des solutions numériques intelligentes, évolutives et faciles à utiliser.",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "WON Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "WON Hubs est une plateforme éducative tout-en-un conçue pour transformer la gestion scolaire et l’apprentissage."
+    },
+    {
+      "id": 2,
+      "name": "WON Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "WON Digi est une plateforme complète de gestion éducative."
+    },
+    {
+      "id": 3,
+      "name": "WON Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "WON Pulse est un logiciel intelligent de gestion hospitalière."
+    },
+    {
+      "id": 4,
+      "name": "WON Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "WON Bills est une solution intelligente de facturation et de gestion financière."
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "WON Bridge est une plateforme intégrée de communication et de collaboration."
+    }
+  ],
+
   "products.viewProduct": "Voir le Produit",
+
   "Industry.title": "Solutions pour",
   "Industry.span": "Chaque Industrie",
-  "Industry.description": "NOWIT Services propose des solutions de transformation digitale basées sur l’IA.",
+  "Industry.description": "NOWIT Services propose des services de transformation digitale basés sur l’IA pour améliorer l’efficacité et accélérer la croissance.",
+  "Industry.list": [
+    "Santé",
+    "Éducation",
+    "Finance & Banque",
+    "Commerce de Détail & E-commerce",
+    "Industrie Manufacturière",
+    "Logistique & Chaîne d’Approvisionnement",
+    "Immobilier",
+    "Voyage & Hôtellerie",
+    "IT & Technologie",
+    "Télécommunications",
+    "Énergie & Services Publics",
+    "Automobile"
+  ],
+
   "testimonials.slidingTitle": "Témoignages",
   "testimonials.title.prefix": "Construire",
-  "testimonials.title.suffix": "par les Résultats",
-  "testimonials.span": "la Confiance",
-  "testimonials.description": "Avis réels de clients ayant collaboré avec nous.",
+  "testimonials.title.suffix": "Grâce aux Résultats",
+  "testimonials.span": "Confiance",
+  "testimonials.description": "Retours réels de clients ayant collaboré avec nous.",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT a livré exactement ce dont nous avions besoin, dans les délais et avec une grande qualité."
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "Ils ont rapidement compris notre vision et l’ont transformée en un produit évolutif."
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "Leur expertise technique nous a aidés à construire une solution fiable."
+    }
+  ],
+
   "faq.span": "FAQ",
-  "faq.title": "Questions Fréquentes",
-  "faq.subquestion": "Encore des questions ?",
-  "faq.description": "Nous sommes là pour vous accompagner et grandir ensemble.",
+  "faq.title": "Questions Fréquemment Posées",
+  "faq.subquestion": "Vous avez encore des questions ?",
+  "faq.description": "Nous sommes là pour vous aider à comprendre comment nous travaillons.",
   "faq.getintouch": "Nous Contacter",
+  "faq.list": [
+    {
+      "id": 1,
+      "title": "Quels secteurs desservez-vous ?",
+      "description": "Nous servons la finance, la santé, le retail, l’éducation et la technologie."
+    },
+    {
+      "id": 2,
+      "title": "Comment abordez-vous un nouveau projet ?",
+      "description": "Nous commençons par une phase de découverte puis exécutons avec des retours itératifs."
+    },
+    {
+      "id": 3,
+      "title": "Comment pouvons-nous commencer ?",
+      "description": "Contactez-nous via notre formulaire et notre équipe vous guidera."
+    },
+    {
+      "id": 4,
+      "title": "Vos solutions peuvent-elles évoluer ?",
+      "description": "Oui, nos solutions sont conçues pour évoluer de manière transparente."
+    }
+  ],
+
   "trustedbanner.subTitle": "Approuvé par",
-  "trustedbanner.title": "Fournisseur de Services Mondial",
+  "trustedbanner.title": "Fournisseur Mondial de Services",
   "becomepartner.title.prefix": "Grandir",
   "becomepartner.title.middle": "Ensemble",
   "becomepartner.title.suffix": "Grâce au Partenariat",
-  "becomepartner.description": "Associez-vous à NowIT Services pour innover et créer des solutions sur mesure.",
-  "becomepartner.becomepartner": "Devenir Partenaire"
+  "becomepartner.description": "Associez-vous à NowIT Services pour collaborer et innover.",
+  "becomepartner.becomepartner": "Devenir Partenaire",
+
+  "contactus": "Contactez-nous",
+  "industries": "Industries",
+  "testimonials.title": "Témoignages",
+  "whoweare": "Qui sommes-nous"
 }

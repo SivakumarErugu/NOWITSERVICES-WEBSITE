@@ -1,0 +1,371 @@
+{
+  "servicesData": {
+    "smart marketing": {
+      "title": "Умный Маркетинг",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+      "description": "Наш сервис умного маркетинга объединяет стратегию, креативность и аналитику на базе ИИ, помогая бизнесу усиливать бренд, вовлекать аудиторию и повышать эффективность цифрового маркетинга.",
+      "Services1": {
+        "headingSmall": "Маркетинг, который",
+        "headingMain": "Думает, Учится и Работает",
+        "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
+      },
+      "Services2": {
+        "heading": "Что входит в",
+        "highlight": "Умный Маркетинг",
+        "description": "Цифровые маркетинговые услуги на основе данных и искусственного интеллекта.",
+        "cards": [
+          {
+            "title": "Цифровые кампании на основе данных",
+            "desc": "Таргетированные маркетинговые кампании для максимального охвата и конверсий.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Контент и бренд-сторителлинг",
+            "desc": "Сильный контент для укрепления идентичности бренда.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Сегментация аудитории с ИИ",
+            "desc": "Интеллектуальное разделение аудитории по поведению и интересам.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Аналитика эффективности кампаний",
+            "desc": "Отслеживание и оптимизация в реальном времени.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Прогнозируемые инсайты вовлеченности (AI Edge)",
+            "desc": "ИИ-прогнозирование поведения клиентов.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "business launch": {
+      "title": "Услуги Запуска Бизнеса",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+      "description": "Комплексная поддержка новых бизнесов для уверенного выхода на рынок.",
+      "Services1": {
+        "headingSmall": "Запустите",
+        "headingMain": "Бизнес с Уверенностью",
+        "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
+      },
+      "Services2": {
+        "heading": "Что входит в",
+        "highlight": "Запуск Бизнеса",
+        "description": "Полный цикл услуг для успешного старта.",
+        "cards": [
+          {
+            "title": "Регистрация названия и логотипа",
+            "desc": "Помощь в создании и юридической регистрации бренда.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Создание сайта и бренда",
+            "desc": "Современный сайт, соответствующий ценностям бренда.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Маркетинговые и запускные кампании",
+            "desc": "Стратегии для повышения узнаваемости.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Управление событиями и PR",
+            "desc": "Планирование мероприятий и медиа-активностей.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Прогнозирование рынка (AI Edge)",
+            "desc": "ИИ-анализ сценариев выхода на рынок.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "migration": {
+      "title": "Миграция в Облако и Приложений",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+      "description": "Безопасная и эффективная миграция в облако.",
+      "Services1": {
+        "headingSmall": "Плавная",
+        "headingMain": "Миграция Платформ",
+        "image": "../../../public/images/ServicesImages/Migration.jpg"
+      },
+      "Services2": {
+        "heading": "Что входит в",
+        "highlight": "Услуги Миграции",
+        "description": "Безопасный и масштабируемый переход в облако.",
+        "cards": [
+          {
+            "title": "Миграция облака и приложений",
+            "desc": "Полная миграция систем и сервисов.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Безопасная передача данных",
+            "desc": "Шифрованная передача данных.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Оптимизация инфраструктуры",
+            "desc": "Повышение производительности.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Интеграция API и систем",
+            "desc": "Связь облака с текущими системами.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Интеллектуальный анализ рисков (AI Edge)",
+            "desc": "ИИ-оценка рисков.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "training services": {
+      "title": "Обучение и Развитие",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+      "description": "Развитие практических и будущих навыков.",
+      "Services1": {
+        "headingSmall": "Повышайте квалификацию с",
+        "headingMain": "Профессиональным Обучением",
+        "image": "../../../public/images/ServicesImages/Training.png"
+      },
+      "Services2": {
+        "heading": "Что входит в",
+        "highlight": "Обучающие Услуги",
+        "description": "Программы для навыков будущего.",
+        "cards": [
+          {
+            "title": "Цифровое и IT-обучение",
+            "desc": "Практическое техническое обучение.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Маркетинг и брендинг",
+            "desc": "Развитие стратегий роста.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "ИИ и квантовые технологии",
+            "desc": "Знакомство с новыми технологиями.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Развитие лидерства",
+            "desc": "Программы управленческих навыков.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Персонализированное обучение (AI Edge)",
+            "desc": "ИИ-аналитика обучения.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "professional services": {
+      "title": "Профессиональные Услуги",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+      "description": "Экспертная поддержка для организаций.",
+      "Services1": {
+        "headingSmall": "Экспертные",
+        "headingMain": "Профессиональные Услуги",
+        "image": "../../../public/images/ServicesImages/Professional.jpg"
+      },
+      "Services2": {
+        "heading": "Что входит в",
+        "highlight": "Профессиональные Услуги",
+        "description": "Консалтинг для масштабируемых решений.",
+        "spantext": "Профессиональные консультации от $15/час.",
+        "cards": [
+          {
+            "title": "Стратегический бизнес и IT-консалтинг",
+            "desc": "Согласование целей бизнеса и технологий.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Управление проектами",
+            "desc": "Структурированная реализация проектов.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Усиление ресурсов и обучение",
+            "desc": "Доступ к квалифицированным специалистам.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Постоянная техническая поддержка",
+            "desc": "Надежная поддержка.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Модели принятия решений (AI Edge)",
+            "desc": "ИИ-модели для принятия решений.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "messaging services": {
+      "title": "Сервисы Сообщений и Коммуникаций",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+      "description": "Интеллектуальная коммуникация в реальном времени.",
+      "Services1": {
+        "headingSmall": "Мощные",
+        "headingMain": "Сервисы Сообщений",
+        "image": "../../../public/images/ServicesImages/Messaging.jpg"
+      },
+      "Services2": {
+        "heading": "Что входит в",
+        "highlight": "Сервисы Сообщений",
+        "description": "Повышение вовлеченности в масштабе.",
+        "cards": [
+          {
+            "title": "Массовые SMS и WhatsApp кампании",
+            "desc": "Высокообъемные рассылки.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Автоматизация чат-ботов",
+            "desc": "Чат-боты на базе ИИ.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Панель аналитики кампаний",
+            "desc": "Аналитика в реальном времени.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Оптимизация вовлеченности",
+            "desc": "Динамическая оптимизация.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Прогноз аналитики вовлеченности (AI Edge)",
+            "desc": "Прогнозирование трендов.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "ip filing services": {
+      "title": "Услуги Регистрации Интеллектуальной Собственности",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+      "description": "Защитите свои идеи и инновации.",
+      "Services1": {
+        "headingSmall": "Защитите свою",
+        "headingMain": "Интеллектуальную Собственность",
+        "image": "../../../public/images/ServicesImages/IPFilling.png"
+      },
+      "Services2": {
+        "heading": "Что входит в",
+        "highlight": "IP Услуги",
+        "description": "Полная защита интеллектуальных активов.",
+        "cards": [
+          {
+            "title": "Регистрация и управление патентами",
+            "desc": "Поддержка патентования.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Регистрация товарных знаков",
+            "desc": "Регистрация брендов.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Защита авторских прав",
+            "desc": "Регистрация авторских прав.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "ИИ-поиск и проверка IP",
+            "desc": "Интеллектуальный поиск.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Снижение юридических рисков (AI Edge)",
+            "desc": "ИИ-анализ правовых рисков.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    }
+  },
+  "slidesData": [
+    { "key": 1, "title": "Культура роста", "desc": "Среда, способствующая обучению и развитию." },
+    { "key": 2, "title": "Междисциплинарное обучение", "desc": "Обучение в разных областях." },
+    { "key": 3, "title": "Глобальные проекты", "desc": "Работа с международными клиентами." },
+    { "key": 4, "title": "Признание и наставничество", "desc": "Поощрение и обучение у лидеров." }
+  ],
+  "service3.title": "Построено на",
+  "service3.span": "Доверии и Качестве",
+  "service3.previousbtnText": "Назад",
+  "service3.nextbtnText": "Вперед",
+  "service3.slidingText": "Почему Выбирают Нас",
+  "service4.title": "Другие Услуги",
+  "service4.span": "Которые Мы Предлагаем",
+  "service4.slidingHeader": "Наши Услуги",
+  "service5.title": "Как Мы Работаем",
+  "service5.description": "Мы сопровождаем проект на каждом этапе.",
+  "service5.tabs": [
+    { "key": 1, "title": "Анализ" },
+    { "key": 2, "title": "Дизайн" },
+    { "key": 3, "title": "Разработка" },
+    { "key": 4, "title": "Доставка" }
+  ],
+  "service5.tabContent": {
+    "1": { "title": "Анализ", "description": "Понимание целей бизнеса." },
+    "2": { "title": "Дизайн и Архитектура", "description": "Проектирование UX и архитектуры." },
+    "3": { "title": "Разработка", "description": "Гибкая реализация." },
+    "4": { "title": "Развертывание", "description": "Тестирование и запуск." },
+    "5": { "title": "Непрерывное развитие", "description": "Поддержка и оптимизация." }
+  },
+  "Industry.title": "Решения для",
+  "Industry.span": "Любой Отрасли",
+  "Industry.description": "NOWIT Services предоставляет ИИ-решения цифровой трансформации.",
+  "Industry.list": [
+    "Здравоохранение",
+    "Образование",
+    "Финансы и Банки",
+    "Ритейл и Электронная коммерция",
+    "Производство",
+    "Логистика",
+    "Недвижимость",
+    "Туризм и Гостиницы",
+    "IT и Технологии",
+    "Телекоммуникации",
+    "Энергетика",
+    "Автомобили"
+  ],
+  "bussinessBanner.title.prefix": "Готовы",
+  "bussinessBanner.title.suffix": "К Запуску",
+  "bussinessBanner.line2.title": "И Масштабированию Бизнеса",
+  "bussinessBanner.description": "Свяжитесь с нашими экспертами.",
+  "bussinessBanner.buttonText": "Связаться",
+  "headerOptions": [
+    { "name": "home", "label": "Главная", "link": "/", "options": [] },
+    { "name": "about us", "label": "О Нас", "link": "/aboutus", "options": [] },
+    {
+      "name": "services",
+      "label": "Услуги",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Умный Маркетинг", "link": "/" },
+        { "name": "business launch", "label": "Запуск Бизнеса", "link": "/" },
+        { "name": "professional services", "label": "Профессиональные Услуги", "link": "/" },
+        { "name": "migration", "label": "Миграция", "link": "/" },
+        { "name": "training services", "label": "Обучение", "link": "/" },
+        { "name": "messaging services", "label": "Сообщения", "link": "/" },
+        { "name": "ip filing services", "label": "Интеллектуальная Собственность", "link": "/" }
+      ]
+    },
+    { "name": "products", "label": "Продукты", "link": "/products", "options": [] },
+    { "name": "blog", "label": "Блог", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "Карьера", "link": "/careers", "options": [] }
+  ]
+}

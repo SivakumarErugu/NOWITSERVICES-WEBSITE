@@ -1,0 +1,82 @@
+{
+  "banner.title": "Perspectivas tecnológicas para",
+  "banner.span": "empresas modernas",
+  "banner.scroll": "DESPLÁZATE PARA EXPLORAR",
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "Cloud"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "Explorando el futuro de la IA y la nube",
+        "excerpt": "Cómo la IA y la computación en la nube están dando forma a las empresas modernas.",
+        "publishedAt": "11 de mayo de 2024",
+        "readingTime": "6 min de lectura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "Equipo NOW IT",
+        "content": "## La convergencia de la IA y la nube\n\nLas plataformas de IA y la nube están transformando la infraestructura empresarial.\n\n> Cloud + AI permite sistemas inteligentes y escalables.\n\n### Beneficios clave\n\n- **Escalado predictivo** – Gestión automática de recursos\n- **Seguridad** – Detección de amenazas impulsada por IA\n- **Eficiencia** – Reducción de costos operativos\n\n<Highlight title=\"Puntos clave\">\n- La IA mejora la escalabilidad\n- La automatización reduce costos\n- Decisiones más rápidas\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["Migration", "Cloud"],
+        "slug": "why-cloud-migration-matters",
+        "title": "Por qué la migración a la nube es importante",
+        "excerpt": "Comprendiendo el impacto real de la migración a la nube.",
+        "publishedAt": "02 de junio de 2024",
+        "readingTime": "5 min de lectura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "Equipo NOW IT",
+        "content": "## Explicación de la migración a la nube\n\nLa migración a la nube permite a las empresas modernizar sus sistemas de TI.\n\n### Ventajas\n\n- Implementación más rápida\n- Optimización de costos\n- Escalabilidad global"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["Cybersecurity", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "Ciberseguridad en la era de la IA",
+        "excerpt": "Cómo la IA está transformando la seguridad digital.",
+        "publishedAt": "18 de junio de 2024",
+        "readingTime": "7 min de lectura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "Equipo de Seguridad",
+        "content": "## Seguridad impulsada por IA\n\nLa IA permite la detección y respuesta a amenazas en tiempo real.\n\n> La seguridad ya no es reactiva: es predictiva."
+      },
+      {
+        "id": "4",
+        "tags": ["Architecture", "Web Development"],
+        "slug": "scalable-web-architecture",
+        "title": "Construyendo arquitecturas web escalables",
+        "excerpt": "Mejores prácticas para sistemas web escalables.",
+        "publishedAt": "01 de julio de 2024",
+        "readingTime": "8 min de lectura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "Equipo de Ingeniería",
+        "content": "## Principios de arquitectura escalable\n\n- Servicios sin estado\n- Escalado horizontal\n- Diseño nativo en la nube"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "El futuro de DevOps",
+        "excerpt": "Cómo DevOps está evolucionando con la IA.",
+        "publishedAt": "15 de julio de 2024",
+        "readingTime": "6 min de lectura",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "Equipo DevOps",
+        "content": "## Explorando el futuro de la inteligencia y la innovación impulsada por la nube\n\nEn el panorama de rápida evolución de la tecnología empresarial, la computación en la nube se ha convertido en la base de las operaciones modernas...\n\nEl futuro de la computación en la nube no solo es escalable — es inteligente."
+      }
+    ]
+  },
+  "blogs.readMore": "Leer más",
+  "blogs.latest": "Últimos blogs",
+  "blogs.similarBlogs": "Blogs similares",
+  "blogs.share": "Compartir",
+  "newsletter.title": "Mantente actualizado con los últimos contenidos",
+  "newsletter.description": "Suscríbete a nuestro boletín y recibe actualizaciones semanales sobre computación en la nube, IA y tendencias tecnológicas empresariales.",
+  "newsletter.subscribe": "Suscribirse",
+  "newsletter.subscribing": "Suscribiéndose...",
+  "newsletter.spam": "Sin spam. Cancela la suscripción en cualquier momento.",
+  "newsletter.emailPlaceholder": "Introduce tu correo electrónico"
+}

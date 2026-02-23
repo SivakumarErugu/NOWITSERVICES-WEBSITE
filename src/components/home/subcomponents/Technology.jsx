@@ -6,6 +6,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useNowit } from '@/store/useNowit'
+import { useEffect ,useState} from 'react'
 import Loading from '@/app/loading'
 const List = [
     { id: 1, url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770266736/145c9ed16f0b8b28d6b99b5cae888dab7cb8677d_xz741g.jpg" },
@@ -23,8 +24,18 @@ const stats = [
 
 const Technology = () => {
     const { t, isReady, activeTab } = useNowit();
+    const [statlist,setStatList]=useState(stats)
+    useEffect(() => {
+        if(isReady){
+            const list=t("stats")
+            setStatList(list)
+        }else{
+            setStatList(stats)
+        }
+    },[isReady])
 
     if (!isReady) return <Loading />
+
 
     // or skeleton loader
     return (
@@ -91,7 +102,7 @@ const Technology = () => {
 
             {/* MOBILE LINKS */}
             <div className="md:hidden flex flex-wrap justify-center gap-6 text-[10px] font-semibold text-[#1F2937]">
-                {stats.map((item) => (
+                {statlist.length>0 && statlist?.map((item) => (
                     <Link
                         key={item.label}
                         href={item.href}

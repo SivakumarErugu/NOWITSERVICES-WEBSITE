@@ -1,0 +1,62 @@
+{
+  "banner.title": "我们是一个数字生态系统。未来从这里开始。",
+  "banner.description": "无需代码即可创建和扩展智能平台——从即刻可用的行业平台开始，或设计完全定制的解决方案。",
+  "banner.explore": "立即探索",
+
+  "infinity.title": "能够 ",
+  "infnity.description": "企业级零代码平台，持续进化、灵活适应并可扩展——从个人到企业。",
+  "infinity.span": "思考、适应与扩展",
+  "infinity.right.text": "人性化体验",
+  "infinity.left.text": "智能平台",
+  "infinity.middle.top": "WON 套件",
+  "infinity.middle.bottom": "简单 | 智能 | 安全",
+
+  "products.slidingHeader": "我们的产品",
+  "products.title": "为每个阶段打造的产品",
+  "products.span": "从个人到企业",
+
+  "products.List": {
+    "won_digi": { "name": "旺 Digi", "description": "旺 Digi 是一款综合性的学校与机构管理平台，实现教学与运营流程数字化。" },
+    "won_pulse": { "name": "旺 Pulse", "description": "旺 Pulse 是完整的医院与医疗管理系统。" },
+    "won_cart": { "name": "旺 Cart", "description": "旺 Cart 是新一代安全无缝的数字电商平台。" },
+    "won_bless": { "name": "旺 Bless", "description": "旺 Bless 是连接传统与现代数字体验的精神生态系统。" },
+    "won_fits": { "name": "旺 Fits", "description": "旺 Fits 是个性化健康与健身智能平台。" },
+    "won_kids": { "name": "旺 Kids", "description": "旺 Kids 是专为儿童成长设计的数字学习平台。" },
+    "won_nest": { "name": "旺 Nest", "description": "旺 Nest 是金融与生活规划生态系统。" },
+    "won_home": { "name": "旺 Home", "description": "旺 Home 是智能家居自动化平台。" },
+    "won_pets": { "name": "旺 Pets", "description": "旺 Pets 是宠物健康管理数字平台。" },
+    "won_shield": { "name": "旺 Shield", "description": "旺 Shield 是数字安全防护平台。" },
+    "won_drive": { "name": "旺 Drive", "description": "旺 Drive 是智能出行生态系统。" },
+    "won_grid": { "name": "旺 Grid", "description": "旺 Grid 是数字能源与基础设施平台。" },
+    "won_trip": { "name": "旺 Trip", "description": "旺 Trip 是数字旅行平台。" },
+    "won_bills": { "name": "旺 Bills", "description": "旺 Bills 是企业级账单自动化平台。" },
+    "won_bridge": { "name": "旺 Bridge", "description": "旺 Bridge 实现企业系统间安全集成。" },
+    "won_tap": { "name": "旺 Tap", "description": "旺 Tap 是快速安全支付平台。" },
+    "won_mart": { "name": "旺 Mart", "description": "旺 Mart 是可扩展的 B2B 数字市场。" },
+    "won_build": { "name": "旺 Build", "description": "旺 Build 是企业项目管理平台。" },
+    "won_move": { "name": "旺 Move", "description": "旺 Move 是供应链优化平台。" },
+    "won_serve": { "name": "旺 Serve", "description": "旺 Serve 是服务管理平台。" },
+    "won_forge": { "name": "旺 Forge", "description": "旺 Forge 是数字创新平台。" },
+    "won_hrms": { "name": "旺 HRMS", "description": "旺 HRMS 是现代人力资源管理系统。" },
+    "won_guard": { "name": "旺 Guard", "description": "旺 Guard 是企业安全平台。" },
+    "won_events": { "name": "旺 Events", "description": "旺 Events 是数字活动管理平台。" },
+    "won_harvest": { "name": "旺 Harvest", "description": "旺 Harvest 是农业数字市场平台。" },
+    "won_law": { "name": "旺 Law", "description": "旺 Law 是数字法律技术平台。" },
+    "won_hubs": { "name": "旺 Hubs", "description": "旺 Hubs 是驱动整个 WON 生态系统的核心基础平台。" }
+  },
+
+  "products.viewProduct": "查看产品",
+
+  "customize.slidingHeader": "定制您的产品",
+  "customize.title.prefix": "有想法吗？",
+  "customize.span": "我们将",
+  "customize.title.suffix": "为您量身定制。",
+  "customize.description": "与我们分享您的想法，我们将协作打造完全定制的数字产品。",
+  "customize.getInTouch": "联系我们",
+
+  "becomepartner.title.prefix": "共同",
+  "becomepartner.title.middle": "成长",
+  "becomepartner.title.suffix": "通过合作",
+  "becomepartner.description": "与 NowIT Services 合作，提供定制化解决方案。",
+  "becomepartner.becomepartner": "成为合作伙伴"
+}

@@ -1,5 +1,5 @@
 {
-    "banner.title": " We’re ONe Ecosystem. The Future Runs Here.",
+    "banner.title": " We’re ONe Digital Ecosystem. The Future Runs Here.",
     "banner.description": " Create and scale intelligent platforms with no code — start with launch-ready industry platforms or design a fully customized solution",
     "banner.explore": "Explore Now",
     "infinity.title": "Platforms That ",
@@ -9,8 +9,6 @@
     "infinity.left.text": "Intelligent Platforms",
     "infinity.middle.top": "WON Suite",
     "infinity.middle.bottom": "Simple | Smart | Secure",
-
-    
     "products.slidingHeader": "Our Products",
     "products.title": "Products Built for Every Journey",
     "products.span": "Individual to Enterprise",
@@ -135,79 +133,6 @@
     "becomepartner.title.middle": "Together",
     "becomepartner.title.suffix": "Through Partnership",
     "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
-    "becomepartner.becomepartner": "Become a Partner",
-    "headerOptions": [
-        {
-            "name": "home",
-            "label": "Home",
-            "link": "/",
-            "options": []
-        },
-        {
-            "name": "about us",
-            "label": "About Us",
-            "link": "/aboutus",
-            "options": []
-        },
-        {
-            "name": "services",
-            "label": "Services",
-            "link": "/",
-            "options": [
-                {
-                    "name": "smart marketing",
-                    "label": "Smart Marketing",
-                    "link": "/"
-                },
-                {
-                    "name": "business launch",
-                    "label": "Business Launch",
-                    "link": "/"
-                },
-                {
-                    "name": "professional services",
-                    "label": "Professional Services",
-                    "link": "/"
-                },
-                {
-                    "name": "migration",
-                    "label": "Migration",
-                    "link": "/"
-                },
-                {
-                    "name": "training services",
-                    "label": "Training Services",
-                    "link": "/"
-                },
-                {
-                    "name": "messaging services",
-                    "label": "Messaging Services",
-                    "link": "/"
-                },
-                {
-                    "name": "ip filing services",
-                    "label": "IP Filing Services",
-                    "link": "/"
-                }
-            ]
-        },
-        {
-            "name": "products",
-            "label": "Products",
-            "link": "/products",
-            "options": []
-        },
-        {
-            "name": "blog",
-            "label": "Blog",
-            "link": "/blog",
-            "options": []
-        },
-        {
-            "name": "careers",
-            "label": "Careers",
-            "link": "/careers",
-            "options": []
-        }
-    ]
+    "becomepartner.becomepartner": "Become a Partner"
+
 }

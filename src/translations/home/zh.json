@@ -1,58 +1,233 @@
 {
-  "banner.subtitle": "通过智能方式释放企业潜力",
+  "contactUs": "联系我们",
+  "banner.subtitle": "通过以下方式释放企业潜力：",
   "banner.title": "智能数字化转型",
-  "banner.description": "借助 AI 自动化、云解决方案和数据驱动创新，助力企业加速增长。",
+  "banner.description": "通过AI驱动的自动化、云解决方案和数据驱动创新，助力企业更快成长。",
   "banner.recommend": "推荐我们",
-  "banner.customer": "9/10 客户",
+  "banner.customer": "10位客户中有9位",
   "banner.100": "100%",
   "banner.quality": "质量保证",
   "banner.24": "24/7",
   "banner.support": "支持",
-  "banner.industrial": "十年的行业 ",
+  "banner.industrial": "十年的行业",
   "banner.experience": "经验",
   "banner.3": "3+",
   "banner.countries": "国家",
   "banner.projects": "16+ 项目",
   "banner.onTime": "准时交付",
-  "hero.getStarted": "立即开始",
+  "hero.getStarted": "开始",
   "hero.unified": "统一服务",
   "hero.reliable": "可靠支持",
-  "partner.slidingTitle": "关于我们",
-  "partner.title.prefix": "您值得信赖的",
-  "partner.span": "合作伙伴",
-  "partner.title.suffix": "数字化转型领域",
-  "partner.description": "我们是一支技术驱动的团队，为现代企业提供智能、可扩展的数字解决方案。",
+  "partner.slidingTitle": "我们是谁",
+  "partner.title.prefix": "您的",
+  "partner.span": "可信赖合作伙伴",
+  "partner.title.suffix": "在数字化转型中",
+  "partner.description": "我们是一支以技术为驱动的团队，致力于为现代企业提供可扩展、智能且可靠的数字解决方案。",
   "partner.knowmore": "了解更多",
-  "partner.trusted": "深受",
-  "partner.clients": "全球客户信赖",
-  "partner.talktoai": "与 AI 对话",
+  "partner.trusted": "值得信赖",
+  "partner.clients": "受到全球客户信任",
+  "partner.talktoai": "与AI对话",
   "services.slidingTitle": "我们的服务",
-  "services.title": "数字服务",
-  "services.span": "一站式",
-  "services.description": "我们提供端到端的软件服务，助力企业实现数字化升级。",
+  "services.title": "端到端",
+  "services.span": "数字服务",
+  "services.description": "我们提供端到端的软件服务，帮助企业构建、扩展和升级其数字产品。",
+  "services.carouselList": [
+    {
+      "id": 1,
+      "name": "智能营销服务",
+      "description": "以数据为驱动的营销解决方案，提升覆盖率和参与度。",
+      "items": [
+        "数据驱动的数字营销活动",
+        "内容与品牌故事打造",
+        "AI受众精准定位",
+        "绩效跟踪与分析"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+    },
+    {
+      "id": 2,
+      "name": "云与应用迁移",
+      "description": "安全且可扩展的云迁移服务。",
+      "items": [
+        "安全的数据与云迁移",
+        "基础设施优化",
+        "API与系统集成",
+        "风险评估与规划"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "专业与咨询服务",
+      "description": "战略性业务与IT咨询。",
+      "items": [
+        "业务与IT咨询",
+        "项目规划与实施",
+        "资源管理",
+        "持续技术支持"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "消息与通信服务",
+      "description": "AI驱动的通信解决方案。",
+      "items": [
+        "批量短信与WhatsApp消息",
+        "AI聊天机器人",
+        "实时客户管理",
+        "营销活动分析"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "企业启动服务",
+      "description": "为企业提供全面启动支持。",
+      "items": [
+        "品牌注册与身份建立",
+        "网站与数字化形象建设",
+        "市场营销与公关活动"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "知识产权申请服务",
+      "description": "通过可靠的IP服务保护您的创新。",
+      "items": [
+        "专利申请与管理",
+        "商标注册",
+        "版权保护",
+        "AI辅助IP检索"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "培训与发展服务",
+      "description": "通过数字与技术培训提升团队能力。",
+      "items": [
+        "数字与IT技能培训",
+        "AI与云技术课程",
+        "营销活动策划",
+        "AI市场洞察"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+    }
+  ],
   "products.slidingTitle": "我们的产品",
   "products.title": "数字产品",
-  "products.span": "企业级",
-  "products.description": "智能、易用且可扩展的数字产品。",
+  "products.span": "企业级解决方案",
+  "products.description": "我们的产品通过智能、可扩展且易用的数字解决方案解决企业挑战。",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "WON Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "一体化教育管理平台，提升学校运营效率。"
+    },
+    {
+      "id": 2,
+      "name": "WON Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "综合教育管理数字平台。"
+    },
+    {
+      "id": 3,
+      "name": "WON Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "智能医院管理软件。"
+    },
+    {
+      "id": 4,
+      "name": "WON Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "智能账单与财务管理解决方案。"
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "集成通信与协作平台。"
+    }
+  ],
   "products.viewProduct": "查看产品",
-  "Industry.title": "适用于",
-  "Industry.span": "各行各业",
-  "Industry.description": "NOWIT Services 提供 AI 驱动的数字化转型服务。",
+  "Industry.title": "行业解决方案",
+  "Industry.span": "覆盖各行业",
+  "Industry.description": "NOWIT 提供基于AI的数字化转型服务，提升效率并促进增长。",
+  "Industry.list": [
+    "医疗健康",
+    "教育",
+    "金融与银行",
+    "零售与电商",
+    "制造业",
+    "物流与供应链",
+    "房地产",
+    "旅游与酒店业",
+    "IT与科技",
+    "电信",
+    "能源与公共事业",
+    "汽车行业"
+  ],
   "testimonials.slidingTitle": "客户评价",
-  "testimonials.title.prefix": "用成果",
-  "testimonials.title.suffix": "建立信任",
+  "testimonials.title.prefix": "通过成果建立",
+  "testimonials.title.suffix": "信任",
   "testimonials.span": "信任",
-  "testimonials.description": "来自真实客户的反馈。",
+  "testimonials.description": "来自合作客户的真实反馈。",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowIT 准时并高质量地交付了我们所需的解决方案。"
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "他们迅速理解我们的愿景，并将其转化为可扩展产品。"
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "他们的技术专长帮助我们构建了可靠的解决方案。"
+    }
+  ],
   "faq.span": "常见问题",
-  "faq.title": "常见问题解答",
+  "faq.title": "常见问题",
   "faq.subquestion": "还有疑问？",
-  "faq.description": "我们随时为您提供帮助。",
+  "faq.description": "我们随时为您解答。",
   "faq.getintouch": "联系我们",
+  "faq.list": [
+    {
+      "id": 1,
+      "title": "你们服务哪些行业？",
+      "description": "我们服务金融、医疗、零售、教育和IT行业。"
+    },
+    {
+      "id": 2,
+      "title": "如何启动新项目？",
+      "description": "我们从需求分析开始，逐步推进实施。"
+    },
+    {
+      "id": 3,
+      "title": "如何开始合作？",
+      "description": "通过联系表单与我们取得联系。"
+    },
+    {
+      "id": 4,
+      "title": "你们的解决方案可扩展吗？",
+      "description": "是的，我们的解决方案支持业务增长。"
+    }
+  ],
   "trustedbanner.subTitle": "值得信赖",
   "trustedbanner.title": "全球服务提供商",
-  "becomepartner.title.prefix": "携手",
+  "becomepartner.title.prefix": "共同",
   "becomepartner.title.middle": "成长",
-  "becomepartner.title.suffix": "共建合作",
-  "becomepartner.description": "与 NowIT Services 合作，共同创新，打造定制解决方案。",
-  "becomepartner.becomepartner": "成为合作伙伴"
+  "becomepartner.title.suffix": "通过合作",
+  "becomepartner.description": "与 NowIT 合作，共同创新与发展。",
+  "becomepartner.becomepartner": "成为合作伙伴",
+  "contactus": "联系我们",
+  "industries": "行业",
+  "testimonials.title": "客户评价",
+  "whoweare": "我们是谁"
 }

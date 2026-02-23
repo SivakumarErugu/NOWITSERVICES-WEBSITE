@@ -1,58 +1,243 @@
 {
+  "contactUs": "お問い合わせ",
   "banner.subtitle": "ビジネスの可能性を解き放つ",
-  "banner.title": "インテリジェントなデジタル変革",
-  "banner.description": "AI自動化、クラウドソリューション、データ主導の革新により、企業の成長を加速します。",
-  "banner.recommend": "推薦する",
+  "banner.title": "インテリジェント・デジタルトランスフォーメーション",
+  "banner.description": "AIを活用した自動化、クラウドソリューション、データ主導のイノベーションで企業の成長を加速させます。",
+  "banner.recommend": "おすすめする",
   "banner.customer": "10人中9人の顧客",
   "banner.100": "100%",
   "banner.quality": "品質保証",
-  "banner.24": "24/7",
+  "banner.24": "24時間年中無休",
   "banner.support": "サポート",
-  "banner.industrial": "10年の",
-  "banner.experience": "業界経験",
+  "banner.industrial": "10年の産業",
+  "banner.experience": "経験",
   "banner.3": "3+",
-  "banner.countries": "か国",
-  "banner.projects": "16+ プロジェクト",
+  "banner.countries": "国",
+  "banner.projects": "16以上のプロジェクト",
   "banner.onTime": "納期厳守",
   "hero.getStarted": "始める",
   "hero.unified": "統合サービス",
   "hero.reliable": "信頼できるサポート",
+
   "partner.slidingTitle": "私たちについて",
   "partner.title.prefix": "あなたの",
   "partner.span": "信頼できるパートナー",
   "partner.title.suffix": "デジタル変革において",
-  "partner.description": "私たちは、現代のビジネス向けにスケーラブルで信頼性の高いデジタルソリューションを提供する技術主導のチームです。",
+  "partner.description": "私たちは、現代企業向けにスケーラブルでインテリジェントかつ信頼性の高いデジタルソリューションを提供するテクノロジーチームです。",
   "partner.knowmore": "詳細を見る",
-  "partner.trusted": "信頼",
-  "partner.clients": "グローバルクライアントより",
+  "partner.trusted": "信頼される",
+  "partner.clients": "グローバル顧客より",
   "partner.talktoai": "AIと話す",
+
   "services.slidingTitle": "サービス",
-  "services.title": "デジタルサービス",
-  "services.span": "エンドツーエンド",
-  "services.description": "ビジネスの構築、拡張、近代化を支援する包括的なソフトウェアサービスを提供します。",
+  "services.title": "エンドツーエンド",
+  "services.span": "デジタルサービス",
+  "services.description": "企業がデジタル製品を構築・拡張・近代化できるよう、包括的なソフトウェアサービスを提供します。",
+
+  "services.carouselList": [
+    {
+      "id": 1,
+      "name": "スマートマーケティングサービス",
+      "description": "リーチとエンゲージメントを向上させるデータ主導型マーケティング。",
+      "items": [
+        "データ主導のデジタルキャンペーン",
+        "コンテンツとブランドストーリーテリング",
+        "AIによるオーディエンスターゲティング",
+        "パフォーマンス分析"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
+    },
+    {
+      "id": 2,
+      "name": "クラウド＆アプリケーション移行",
+      "description": "安全でスケーラブルなクラウド移行サービス。",
+      "items": [
+        "安全なクラウドおよびデータ移行",
+        "インフラ最適化",
+        "APIおよびシステム統合",
+        "リスク評価と計画"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "プロフェッショナル＆コンサルティングサービス",
+      "description": "戦略的成長のためのビジネスおよびITコンサルティング。",
+      "items": [
+        "ビジネスおよびITコンサルティング",
+        "プロジェクト計画と実行",
+        "リソース管理",
+        "継続的な技術サポート"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "メッセージング＆コミュニケーションサービス",
+      "description": "顧客エンゲージメント向上のためのAI活用型コミュニケーション。",
+      "items": [
+        "大量SMSおよびWhatsAppメッセージ",
+        "AIチャットボット",
+        "リアルタイム顧客管理",
+        "キャンペーン分析"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "ビジネス立ち上げサービス",
+      "description": "包括的なサポートで強力なスタートを支援。",
+      "items": [
+        "ブランド登録とアイデンティティ構築",
+        "ウェブサイトおよびデジタルプレゼンス構築",
+        "マーケティングおよびPRキャンペーン"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "知的財産出願サービス",
+      "description": "信頼できるIPサービスでイノベーションを保護。",
+      "items": [
+        "特許出願および管理",
+        "商標登録",
+        "著作権保護",
+        "AI支援IP検索"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "トレーニング＆開発サービス",
+      "description": "デジタルおよび技術スキル向上トレーニング。",
+      "items": [
+        "デジタルおよびITトレーニング",
+        "AIおよびクラウドプログラム",
+        "マーケティングキャンペーン",
+        "AI市場分析"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
+    }
+  ],
+
   "products.slidingTitle": "製品",
   "products.title": "デジタル製品",
   "products.span": "エンタープライズ対応",
-  "products.description": "ビジネス課題を解決するために設計されたスマートなデジタル製品です。",
+  "products.description": "ビジネス課題を解決するインテリジェントでスケーラブルなデジタル製品。",
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "WON Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "学校管理を変革するオールインワンプラットフォーム。"
+    },
+    {
+      "id": 2,
+      "name": "WON Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "教育機関向け総合管理プラットフォーム。"
+    },
+    {
+      "id": 3,
+      "name": "WON Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "病院向けインテリジェント管理ソフトウェア。"
+    },
+    {
+      "id": 4,
+      "name": "WON Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "スマート請求および財務管理ソリューション。"
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "統合コミュニケーションおよびコラボレーションプラットフォーム。"
+    }
+  ],
+
   "products.viewProduct": "製品を見る",
-  "Industry.title": "業界向け",
-  "Industry.span": "ソリューション",
-  "Industry.description": "NOWIT ServicesはAI主導のデジタルトランスフォーメーションを提供します。",
+
+  "Industry.title": "業界向けソリューション",
+  "Industry.span": "あらゆる業界に対応",
+  "Industry.description": "NOWITはAIを活用したデジタル変革サービスを提供します。",
+  "Industry.list": [
+    "医療",
+    "教育",
+    "金融・銀行",
+    "小売・Eコマース",
+    "製造",
+    "物流・サプライチェーン",
+    "不動産",
+    "旅行・ホスピタリティ",
+    "IT・テクノロジー",
+    "通信",
+    "エネルギー・公共事業",
+    "自動車"
+  ],
+
   "testimonials.slidingTitle": "お客様の声",
-  "testimonials.title.prefix": "結果で築く",
-  "testimonials.title.suffix": "",
+  "testimonials.title.prefix": "結果を通じて",
+  "testimonials.title.suffix": "信頼を築く",
   "testimonials.span": "信頼",
-  "testimonials.description": "私たちと協業したクライアントからの実際の声です。",
-  "faq.span": "FAQ",
+  "testimonials.description": "お客様からの実際のフィードバック。",
+  "testimonials.list": [
+    {
+      "name": "Rajesh Kumar",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
+      "text": "NowITは高品質で納期通りに提供してくれました。"
+    },
+    {
+      "name": "Ananya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
+      "text": "私たちのビジョンを迅速に理解し、実現してくれました。"
+    },
+    {
+      "name": "Vikram Rao",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
+      "text": "技術力と体系的なアプローチに感謝しています。"
+    }
+  ],
+
+  "faq.span": "よくある質問",
   "faq.title": "よくある質問",
-  "faq.subquestion": "まだ質問がありますか？",
-  "faq.description": "私たちはあなたをサポートします。",
+  "faq.subquestion": "他に質問がありますか？",
+  "faq.description": "私たちがサポートします。",
   "faq.getintouch": "お問い合わせ",
-  "trustedbanner.subTitle": "信頼される",
+  "faq.list": [
+    {
+      "id": 1,
+      "title": "どの業界に対応していますか？",
+      "description": "金融、医療、小売、教育、ITなど幅広く対応しています。"
+    },
+    {
+      "id": 2,
+      "title": "新しいプロジェクトはどのように開始しますか？",
+      "description": "ヒアリングから始め、段階的に進めます。"
+    },
+    {
+      "id": 3,
+      "title": "どのように始めればよいですか？",
+      "description": "お問い合わせフォームからご連絡ください。"
+    },
+    {
+      "id": 4,
+      "title": "ソリューションは拡張可能ですか？",
+      "description": "はい、成長に合わせて拡張可能です。"
+    }
+  ],
+
+  "trustedbanner.subTitle": "信頼されています",
   "trustedbanner.title": "グローバルサービスプロバイダー",
   "becomepartner.title.prefix": "共に",
-  "becomepartner.title.middle": "成長",
-  "becomepartner.title.suffix": "パートナーシップで",
-  "becomepartner.description": "NowIT Servicesと提携し、革新的なソリューションを提供しましょう。",
-  "becomepartner.becomepartner": "パートナーになる"
+  "becomepartner.title.middle": "成長する",
+  "becomepartner.title.suffix": "パートナーシップを通じて",
+  "becomepartner.description": "NowITと提携し、共に革新を。",
+  "becomepartner.becomepartner": "パートナーになる",
+
+  "contactus": "お問い合わせ",
+  "industries": "業界",
+  "testimonials.title": "お客様の声",
+  "whoweare": "私たちについて"
 }

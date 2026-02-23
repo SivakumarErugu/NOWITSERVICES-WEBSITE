@@ -1,0 +1,82 @@
+{
+  "banner.title": "Analyses technologiques pour",
+  "banner.span": "les entreprises modernes",
+  "banner.scroll": "FAITES DÉFILER POUR EXPLORER",
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "Cloud"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "Explorer l’avenir de l’IA et du Cloud",
+        "excerpt": "Comment l’IA et le cloud façonnent les entreprises modernes.",
+        "publishedAt": "11 mai 2024",
+        "readingTime": "6 min de lecture",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "Équipe NOW IT",
+        "content": "## La convergence de l’IA et du Cloud\n\nLes plateformes d’IA et de cloud transforment l’infrastructure des entreprises.\n\n> Cloud + IA permettent des systèmes intelligents et évolutifs.\n\n### Avantages clés\n\n- **Scalabilité prédictive** – Gestion automatique des ressources\n- **Sécurité** – Détection des menaces par l’IA\n- **Efficacité** – Réduction des coûts opérationnels\n\n<Highlight title=\"Points clés\">\n- L’IA améliore la scalabilité\n- L’automatisation réduit les coûts\n- Décisions plus rapides\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["Migration", "Cloud"],
+        "slug": "why-cloud-migration-matters",
+        "title": "Pourquoi la migration vers le cloud est essentielle",
+        "excerpt": "Comprendre l’impact réel de la migration vers le cloud.",
+        "publishedAt": "02 juin 2024",
+        "readingTime": "5 min de lecture",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "Équipe NOW IT",
+        "content": "## Migration vers le cloud expliquée\n\nLa migration vers le cloud permet aux entreprises de moderniser leurs systèmes informatiques.\n\n### Avantages\n\n- Déploiement plus rapide\n- Optimisation des coûts\n- Scalabilité mondiale"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["Cybersecurity", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "La cybersécurité à l’ère de l’IA",
+        "excerpt": "Comment l’IA transforme la sécurité numérique.",
+        "publishedAt": "18 juin 2024",
+        "readingTime": "7 min de lecture",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "Équipe Sécurité",
+        "content": "## Sécurité pilotée par l’IA\n\nL’IA permet la détection et la réponse aux menaces en temps réel.\n\n> La sécurité n’est plus réactive — elle est prédictive."
+      },
+      {
+        "id": "4",
+        "tags": ["Architecture", "Web Development"],
+        "slug": "scalable-web-architecture",
+        "title": "Construire des architectures web évolutives",
+        "excerpt": "Bonnes pratiques pour des systèmes web évolutifs.",
+        "publishedAt": "01 juillet 2024",
+        "readingTime": "8 min de lecture",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "Équipe d’ingénierie",
+        "content": "## Principes d’architecture évolutive\n\n- Services sans état\n- Scalabilité horizontale\n- Conception cloud-native"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "L’avenir du DevOps",
+        "excerpt": "Comment le DevOps évolue avec l’IA.",
+        "publishedAt": "15 juillet 2024",
+        "readingTime": "6 min de lecture",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "Équipe DevOps",
+        "content": "## L’avenir de l’innovation intelligente et du cloud\n\nLe cloud computing est devenu le socle des opérations modernes.\n\nL’avenir du cloud n’est pas seulement évolutif — il est intelligent."
+      }
+    ]
+  },
+  "blogs.readMore": "Lire la suite",
+  "blogs.latest": "Derniers articles",
+  "blogs.similarBlogs": "Articles similaires",
+  "blogs.share": "Partager",
+  "newsletter.title": "Restez informé des dernières analyses",
+  "newsletter.description": "Abonnez-vous à notre newsletter pour recevoir chaque semaine des mises à jour sur le cloud, l’IA et les tendances technologiques.",
+  "newsletter.subscribe": "S’abonner",
+  "newsletter.subscribing": "Abonnement en cours...",
+  "newsletter.spam": "Aucun spam. Désinscription possible à tout moment.",
+  "newsletter.emailPlaceholder": "Entrez votre adresse e-mail"
+}

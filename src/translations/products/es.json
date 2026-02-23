@@ -1,0 +1,143 @@
+{
+  "banner.title": "Somos un Ecosistema Digital. El Futuro Funciona Aquí.",
+  "banner.description": "Crea y escala plataformas inteligentes sin código — comienza con plataformas sectoriales listas para lanzar o diseña una solución totalmente personalizada.",
+  "banner.explore": "Explorar Ahora",
+
+  "infinity.title": "Plataformas Que ",
+  "infnity.description": "Plataformas Zero-Code listas para empresas que evolucionan, se adaptan y escalan — desde individuos hasta corporaciones.",
+  "infinity.span": "Piensan, Se Adaptan y Escalan",
+  "infinity.right.text": "Experiencias Humanas",
+  "infinity.left.text": "Plataformas Inteligentes",
+  "infinity.middle.top": "WON Suite",
+  "infinity.middle.bottom": "Simple | Inteligente | Seguro",
+
+  "products.slidingHeader": "Nuestros Productos",
+  "products.title": "Productos Diseñados para Cada Etapa",
+  "products.span": "De Individuos a Empresas",
+
+  "products.List": {
+    "won_digi": {
+      "name": "WON Digi",
+      "description": "WON Digi es una plataforma integral de gestión escolar e institucional que digitaliza procesos académicos, administrativos y operativos."
+    },
+    "won_pulse": {
+      "name": "WON Pulse",
+      "description": "WON Pulse es un sistema completo de gestión hospitalaria y de salud que optimiza procesos clínicos, administrativos y operativos."
+    },
+    "won_cart": {
+      "name": "WON Cart",
+      "description": "WON Cart es una plataforma de comercio digital de nueva generación diseñada para experiencias de compra en línea seguras y fluidas."
+    },
+    "won_bless": {
+      "name": "WON Bless",
+      "description": "WON Bless es un ecosistema espiritual y de estilo de vida que conecta tradiciones con experiencias digitales modernas."
+    },
+    "won_fits": {
+      "name": "WON Fits",
+      "description": "WON Fits es una plataforma de inteligencia en fitness y bienestar diseñada para recorridos de salud personalizados."
+    },
+    "won_kids": {
+      "name": "WON Kids",
+      "description": "WON Kids es una plataforma digital de aprendizaje y participación diseñada para el crecimiento y la creatividad infantil."
+    },
+    "won_nest": {
+      "name": "WON Nest",
+      "description": "WON Nest es un ecosistema de planificación financiera y de estilo de vida que ayuda a las personas a gestionar y hacer crecer sus recursos."
+    },
+    "won_home": {
+      "name": "WON Home",
+      "description": "WON Home es una plataforma de automatización para hogares inteligentes que integra confort, seguridad y eficiencia."
+    },
+    "won_pets": {
+      "name": "WON Pets",
+      "description": "WON Pets es una plataforma digital de cuidado que apoya la salud, el seguimiento y el bienestar de las mascotas."
+    },
+    "won_shield": {
+      "name": "WON Shield",
+      "description": "WON Shield es una plataforma de protección digital que protege a los usuarios frente a riesgos digitales modernos."
+    },
+    "won_drive": {
+      "name": "WON Drive",
+      "description": "WON Drive es un ecosistema de movilidad inteligente diseñado para seguimiento, seguridad y optimización vehicular."
+    },
+    "won_grid": {
+      "name": "WON Grid",
+      "description": "WON Grid es una plataforma digital de energía e infraestructura enfocada en eficiencia y sostenibilidad."
+    },
+    "won_trip": {
+      "name": "WON Trip",
+      "description": "WON Trip es una plataforma digital de viajes que simplifica la planificación y mejora la experiencia de viaje."
+    },
+    "won_bills": {
+      "name": "WON Bill",
+      "description": "WON Bill es una plataforma empresarial de automatización de facturación que simplifica la emisión de facturas y los pagos."
+    },
+    "won_bridge": {
+      "name": "WON Bridge",
+      "description": "WON Bridge permite una integración segura y fluida entre sistemas empresariales."
+    },
+    "won_tap": {
+      "name": "WON Tap",
+      "description": "WON Tap es una plataforma inteligente de pagos y acceso para transacciones rápidas y seguras."
+    },
+    "won_mart": {
+      "name": "WON Mart",
+      "description": "WON Mart es un mercado digital que permite el comercio B2B escalable."
+    },
+    "won_build": {
+      "name": "WON Build",
+      "description": "WON Build es una plataforma de gestión de proyectos e infraestructura para planificación empresarial."
+    },
+    "won_move": {
+      "name": "WON Move",
+      "description": "WON Move es una plataforma logística que optimiza las operaciones de la cadena de suministro."
+    },
+    "won_serve": {
+      "name": "WON Serve",
+      "description": "WON Serve es una plataforma de gestión de servicios para flujos de trabajo de interacción con clientes."
+    },
+    "won_forge": {
+      "name": "WON Forge",
+      "description": "WON Forge es una plataforma de innovación digital que apoya el desarrollo rápido de productos."
+    },
+    "won_hrms": {
+      "name": "WON HRMS",
+      "description": "WON HRMS es un sistema completo de gestión de recursos humanos para organizaciones modernas."
+    },
+    "won_guard": {
+      "name": "WON Guard",
+      "description": "WON Guard es una plataforma de seguridad empresarial diseñada para protección digital proactiva."
+    },
+    "won_events": {
+      "name": "WON Events",
+      "description": "WON Events es una plataforma digital completa para la gestión de eventos."
+    },
+    "won_harvest": {
+      "name": "WON Harvest",
+      "description": "WON Harvest es un mercado agrodigital que conecta agricultores, empresas y consumidores."
+    },
+    "won_law": {
+      "name": "WON Law",
+      "description": "WON Law es una plataforma de tecnología legal para flujos de trabajo jurídicos digitales y seguros."
+    },
+    "won_hubs": {
+      "name": "WON Hubs",
+      "description": "WON Hubs es la plataforma de infraestructura central que impulsa todo el ecosistema WON."
+    }
+  },
+
+  "products.viewProduct": "Ver Producto",
+
+  "customize.slidingHeader": "Personaliza Tu Producto",
+  "customize.title.prefix": "¿Tienes una Idea?",
+  "customize.span": "La Personalizamos",
+  "customize.title.suffix": "Para Ajustarla a Tu Visión.",
+  "customize.description": "Comparte tu idea con nosotros y colaboraremos estrechamente para transformarla en un producto digital totalmente personalizado. Desde el concepto y diseño hasta el desarrollo y la escalabilidad, adaptamos cada solución a tu visión, usuarios y objetivos a largo plazo.",
+  "customize.getInTouch": "Contáctanos",
+
+  "becomepartner.title.prefix": "Crece",
+  "becomepartner.title.middle": "Juntos",
+  "becomepartner.title.suffix": "A Través de la Asociación",
+  "becomepartner.description": "Asóciate con NowIT Services para colaborar, innovar y ofrecer soluciones personalizadas.",
+  "becomepartner.becomepartner": "Conviértete en Socio"
+}

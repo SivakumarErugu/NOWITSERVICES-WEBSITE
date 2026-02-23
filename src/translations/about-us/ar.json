@@ -1,0 +1,110 @@
+{
+  "banner.span":"بناء التكنولوجيا",
+  "banner.title": "التي تُحدث تأثيرًا حقيقيًا.",
+  "banner.description1": "نقوم ببناء حلول رقمية قابلة للتوسع للويب وتطبيقات الهاتف والسحابة.",
+  "banner.description2": "نساعد الشركات على حل التحديات الحقيقية من خلال تقنيات ذكية وموثوقة.",
+
+  "vision.slidingHeader.title": "رؤيتنا",
+  "vision.span": "رؤية",
+  "vision.title": "رؤيتنا",
+  "vision.description1": "دفع الابتكار من خلال حلول رقمية ذكية تعالج تحديات الأعمال الحقيقية. نتصور مستقبلًا تمكّن فيه التكنولوجيا الكفاءة والنمو والتقدم المستدام.",
+  "vision.description2": "نلتزم بالتعلم المستمر والمرونة والتنفيذ المدروس لضمان بقاء حلولنا ذات قيمة في بيئة رقمية متغيرة باستمرار.",
+  "vision.description3": "نؤمن بأن التكنولوجيا القوية تُبنى بمسؤولية. تتمثل رؤيتنا في تبسيط التعقيد واحتضان الابتكار وبناء حلول رقمية تدعم النمو المستدام والنجاح طويل الأمد لعملائنا.",
+
+  "journey.title": "مسيرتنا",
+  "journey.span": "الرحلة",
+  "journey.description": "نساعد العلامات التجارية على النجاح من خلال تقنيات ذكية وموثوقة.",
+  "journey.List": [
+    { "suffix": "20", "description": "التأسيس في المملكة المتحدة كشركة استشارات تقنية" },
+    { "suffix": "21", "description": "إطلاق خدمات الاستشارات التقنية في الهند لصالح AspireSystems وQbrainx وUST Global، وبدء تطوير تطبيقات ويب وجوال مخصصة" },
+    { "suffix": "22", "description": "توسيع العمليات في الهند من خلال تعزيز فريق التطوير وتسريع مبادرات البحث والتطوير" },
+    { "suffix": "23", "description": "التركيز على ابتكار المنتجات، واكتساب العملاء، وبناء بنية SaaS قابلة للتوسع" },
+    { "suffix": "24", "description": "التحول إلى شركة قائمة على المنتجات تحت علامة WON Apps" },
+    { "suffix": "25", "description": "إطلاق أول منصة SaaS وإضافة منصتين أخريين تدريجيًا إلى متجر WON" },
+    { "suffix": "26", "description": "الاستمرار في التوسع للوصول إلى خمس منصات ضمن متجر WON" }
+  ],
+
+  "aboutUs.description": "نمتلك براءات اختراع لمنصة أحذية ذكية من الجيل التالي تحوّل الحركة اليومية إلى بيانات صحية ذات قيمة. من خلال دمج تقنيات الاستشعار المتقدمة مع تحليلات البيانات الذكية، يتيح النظام المراقبة في الوقت الحقيقي وتقديم ملاحظات صحية مخصصة. تتميز هذه الابتكارات بالكفاءة في استهلاك الطاقة والاتصال السلس، وتقع عند تقاطع الرعاية الصحية والتنقل والتقنيات القابلة للارتداء، مما يشكل مستقبل الرعاية الوقائية المعتمدة على البيانات.",
+
+  "chooseus.title": "لماذا",
+  "chooseus.span": "تختارنا",
+  "chooseus.description": "نساعد العلامات التجارية على النجاح من خلال تقنيات ذكية وموثوقة.",
+  "chooseus.List": [
+    { "id": 1, "title": "نهج يركز على المستخدم", "description": "نصمم الحلول بناءً على احتياجات المستخدمين الحقيقية لضمان الوضوح وسهولة الاستخدام واتخاذ قرارات واثقة." },
+    { "id": 2, "title": "ذكاء مدعوم بالذكاء الاصطناعي", "description": "نُدمج الذكاء الاصطناعي بعناية لأتمتة العمليات ودعم قرارات أكثر ذكاءً." },
+    { "id": 3, "title": "السحابة أولًا وجاهزية للمستقبل", "description": "مبني على بنى سحابية قابلة للتوسع تنمو مع أعمالك." },
+    { "id": 4, "title": "مسؤولية شاملة", "description": "من الفكرة إلى التنفيذ وما بعده، نتحمل المسؤولية الكاملة عن النتائج." },
+    { "id": 5, "title": "حلول مدركة للقطاع", "description": "حلول متخصصة تتماشى مع التحديات الفعلية لكل قطاع." },
+    { "id": 6, "title": "مصمم للتوسع وليس للإطلاق فقط", "description": "مُهندس للأداء طويل الأمد والموثوقية والنمو." },
+    { "id": 7, "title": "الثقة من خلال الشفافية", "description": "تواصل واضح، جداول زمنية صادقة، ونتائج قابلة للقياس." }
+  ],
+
+  "brands.span": "العلامات التجارية",
+  "brands.title": "التي تثق بنا",
+  "brands.description": "نساعد العلامات التجارية على النجاح من خلال تقنيات ذكية وموثوقة.",
+
+  "projects.title": "المشاريع",
+  "projects.description": "مشاريع تعكس خبرتنا والتزامنا بالجودة",
+  "projects.List": [
+    { "id": 1, "title": "WON Bill", "description": "منصة فوترة مؤسسية لأتمتة الفواتير والمدفوعات، مصممة للدقة وقابلية التوسع.", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770229103/c7b2f5175ba18e0eae94fed530dd717de53cbac4_3_nojd86.png" },
+    { "id": 2, "title": "WON Digi", "description": "منصة شاملة لإدارة المدارس والمؤسسات التعليمية وتحويل العمليات إلى رقمية.", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227821/c631f590f3e1c0c7e22c70bb1e53c33523b20383_1_vby7wt.jpg" },
+    { "id": 3, "title": "WON Pulse", "description": "نظام متكامل لإدارة المستشفيات والرعاية الصحية.", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227773/4c46f68565408040fdb66d0e8de15e20e9dbdee8_avdjiv.jpg" },
+    { "id": 4, "title": "WON Hubs", "description": "منصة البنية التحتية الأساسية التي تشغّل منظومة WON بالكامل.", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png" },
+    { "id": 5, "title": "WON Bridge", "description": "منصة تكامل مؤسسية تربط الأنظمة بسلاسة وتدعم تبادل البيانات.", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg" }
+  ],
+
+  "projects.viewAll": "عرض جميع المنتجات",
+
+  "testimonials.title": "آراء العملاء",
+  "testimonials.title.prefix": "بناء",
+  "testimonials.title.suffix": "الثقة من خلال النتائج",
+  "testimonials.span": "الثقة",
+  "testimonials.description": "آراء حقيقية من عملاء تعاونوا معنا لبناء حلول رقمية موثوقة.",
+  "testimonials.list": [
+    { "name": "Rajesh Kumar", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg", "text": "قدّمت NowIT ما نحتاجه تمامًا في الوقت المحدد وبجودة عالية." },
+    { "name": "Ananya Sharma", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg", "text": "فهموا رؤيتنا بسرعة وحولوها إلى منتج قابل للتوسع." },
+    { "name": "Vikram Rao", "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg", "text": "خبرتهم التقنية ونهجهم المنهجي جعلتهم شريكًا طويل الأمد." }
+  ],
+
+  "becomepartner.title.prefix": "لننمو",
+  "becomepartner.title.middle": "معًا",
+  "becomepartner.title.suffix": "من خلال الشراكة",
+  "becomepartner.description": "كن شريكًا مع NowIT Services للتعاون والابتكار وتقديم حلول مخصصة.",
+  "becomepartner.becomepartner": "كن شريكًا",
+
+  "headerOptions": [
+    { "name": "home", "label": "الرئيسية", "link": "/", "options": [] },
+    { "name": "about us", "label": "من نحن", "link": "/aboutus", "options": [] },
+    {
+      "name": "services",
+      "label": "الخدمات",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "التسويق الذكي", "link": "/" },
+        { "name": "business launch", "label": "إطلاق الأعمال", "link": "/" },
+        { "name": "professional services", "label": "الخدمات الاحترافية", "link": "/" },
+        { "name": "migration", "label": "الترحيل", "link": "/" },
+        { "name": "training services", "label": "خدمات التدريب", "link": "/" },
+        { "name": "messaging services", "label": "خدمات المراسلة", "link": "/" },
+        { "name": "ip filing services", "label": "خدمات تسجيل الملكية الفكرية", "link": "/" }
+      ]
+    },
+    { "name": "products", "label": "المنتجات", "link": "/products", "options": [] },
+    { "name": "blog", "label": "المدونة", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "الوظائف", "link": "/careers", "options": [] }
+  ],
+
+  "Aboutus.text": "نمتلك براءات اختراع لمنصة أحذية ذكية من الجيل التالي تحوّل الحركة اليومية إلى بيانات صحية ذات قيمة، مما يشكل مستقبل الرعاية الوقائية المعتمدة على البيانات.",
+
+  "clients": "العملاء",
+  "services": "الخدمات",
+  "products": "المنتجات",
+  "countries": "الدول",
+
+  "stats": [
+    { "label": "18+ عملاء", "href": "/clients" },
+    { "label": "12+ خدمات", "href": "/services" },
+    { "label": "10+ منتجات", "href": "/products" },
+    { "label": "3+ دول", "href": "/countries" }
+  ]
+}
