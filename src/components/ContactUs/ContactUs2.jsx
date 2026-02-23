@@ -9,6 +9,9 @@ import Amaravathi from '../../../public/images/Locations/Amaravathi.png'
 import Mayuri from '../../../public/images/Locations/Mayuri.png'
 import Germany from '../../../public/images/Locations/Germany.png'
 import UK from '../../../public/images/Locations/UK.jpg'
+import { useEffect,useState } from 'react'
+import { useNowit } from '@/store/useNowit'
+import Loading from '@/app/loading'
 
 /* ---------------- REUSABLE LOCATION CARD ---------------- */
 const LocationCard = ({ image, title, address }) => {
@@ -41,7 +44,7 @@ const LocationCard = ({ image, title, address }) => {
 
 /* ---------------- MAIN COMPONENT ---------------- */
 const ContactUs2 = () => {
-    const locations = [
+    const locations_dummyList = [
         {
             title: ' INDIA - Amaravathi ',
             image: Mayuri,
@@ -68,6 +71,15 @@ const ContactUs2 = () => {
         },
 
     ]
+    const [locations,setLocations]=useState(locations_dummyList)
+    const {tc,commonReady}=useNowit()
+    useEffect(()=>{
+        if(commonReady){
+            const List=tc("locations")
+            setLocations(List)
+        }
+    },[commonReady])
+    if(!commonReady) return <Loading />
 
     return (
         <section className="w-full bg-white py-4 lg:py-8 px-4 lg:px-10">

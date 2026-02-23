@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { motion } from "framer-motion";
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 
 const testimonialsList = [
     {
@@ -30,19 +31,20 @@ const ClientCardComponent = () => {
     const MOBILE_DURATION = 1.8;
     const [testimonials, setTestimonials] = useState(testimonialsList);
     const { t,isReady } = useNowit();
-    if(!isReady) return null;
+    if(!isReady) return <Loading />;
 
-    // useEffect(() => {
-    //     if (!isReady) return;
-    //     const translatedList = t("testimonials.list", { returnObjects: true })
+    useEffect(() => {
+        if (!isReady) return;
+        const translatedList = t("testimonials.list", { returnObjects: true })
 
-    //     if (Array.isArray(translatedList) && translatedList.length > 0) {
-    //         // console.log("Translated List:", translatedList); // Debugging log
-    //         setTestimonials(translatedList)
-    //     } else {
-    //         setTestimonials(testimonials)
-    //     }
-    // }, [t, isReady]);
+        if (Array.isArray(translatedList) && translatedList.length > 0) {
+            // console.log("Translated List:", translatedList); // Debugging log
+            setTestimonials(translatedList)
+        } else {
+            setTestimonials(testimonials)
+        }
+    }, [isReady]);
+
     return (
         <section className="w-full px-4 lg:px-8 mb-15">
             <div className="mx-auto px-1 lg:px-6">

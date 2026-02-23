@@ -4,6 +4,7 @@ import { CustomHeading, ThemeBottomBorder2 } from '@/components/shared/UI-Elemen
 import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader'
 import React, { useState, useEffect } from 'react'
 import { useNowit } from '@/store/useNowit'
+import Loading from '@/app/loading'
 
 const List = [
   {
@@ -52,7 +53,7 @@ const List = [
 
 const ChooseUs = () => {
   const [activeId, setActiveId] = useState(null)
-  const { t } = useNowit()
+  const { t,isReady } = useNowit()
   const [chooseUsList, setChooseUsList] = useState(List)
   useEffect(() => {
     const translatedList = t("chooseus.List", { returnObjects: true })
@@ -64,6 +65,8 @@ const ChooseUs = () => {
       setChooseUsList(List)
     }
   }, [t])
+  
+  if(!isReady) return <Loading />
 
 
   return (

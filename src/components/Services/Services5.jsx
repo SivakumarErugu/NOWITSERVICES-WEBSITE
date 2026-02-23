@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState,useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import Image from "next/image"
 
 import Services5bg from "../../../public/images/ServicesImages/Services5bg.jpg"
@@ -13,35 +13,35 @@ import { image } from "framer-motion/client"
 import { useNowit } from "@/store/useNowit";
 
 const tabs = [
-    "Discover",
-    "Design & Architecture",
-    "Development",
-    "Deployment",
-    "Continuous Evolution",
-]
+    { key: 1, fallback: "Discover" },
+    { key: 2, fallback: "Design & Architecture" },
+    { key: 3, fallback: "Development" },
+    { key: 4, fallback: "Deployment" },
+    { key: 5, fallback: "Continuous Evolution" }
+];
 
 const tabContent = {
     1: {
-        
+
         image: Services5Image1,
     },
     2: {
-       
+
         image: Services5Image2,
 
     },
     3: {
-      
+
         image: Services5Image3,
 
     },
     4: {
-        
+
         image: Services5Image4,
 
     },
-   5: {
-       
+    5: {
+
         image: Services5Image5,
 
     },
@@ -65,9 +65,9 @@ const Services5 = () => {
 
         }
     }, [isReady, t])
-    
+
     if (!isReady) return null;
-    
+    console.log(translatedTabs, "translated")
     return (
         <section
             className="w-full flex items-center justify-center bg-cover bg-center mb-2 "
@@ -113,7 +113,7 @@ const Services5 = () => {
                                     {tab}
                                 </button>
                             ))} */}
-                            {translatedTabs.map((tab) => (
+                            {translatedTabs?.map((tab) => (
                                 <button
                                     key={tab}
                                     onClick={() => setActiveTab(tab.key)}
@@ -148,13 +148,13 @@ const Services5 = () => {
                         <div className="lg:col-span-2">
                             <h3 className="text-lg md:text-2xl font-semibold">
                                 {/* {tabContent[activeTab].title} */}
-                             
-                               {translatedTabContent[activeTab]?.title || "Title not found"}
+
+                                {translatedTabContent[activeTab]?.title || "Title not found"}
                             </h3>
 
                             <p className="mt-2 text-xs md:text-sm 2xl:text-[16px] text-white/70 leading-relaxed max-w-2xl 2xl:max-w-5xl">
                                 {/* {tabContent[activeTab].description} */}
-                                                           {translatedTabContent[activeTab]?.description || "Title not found"}
+                                {translatedTabContent[activeTab]?.description || "Title not found"}
 
                             </p>
                         </div>

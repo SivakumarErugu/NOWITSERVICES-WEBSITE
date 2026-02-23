@@ -1,16 +1,23 @@
 "use client"
 
 import { useNowit } from "@/store/useNowit";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BsStars } from "react-icons/bs";
+import Loading from "@/app/loading";
 
 const AiBtn = () => {
   const { setChatOpen } = useNowit();
-  const {t}=useNowit()
+  const { t, isReady } = useNowit()
+  const [isMount, setIsMount] = useState(false);
 
   const handleClick = () => {
     setChatOpen(true);
   };
+  useEffect(() => {
+    setIsMount(true)
+  }, [])
+
+  if (!isReady || !isMount) return <Loading />
 
   return (
     <div className="hidden md:flex items-end justify-end p-0 w-[96%] mt-3 mb-3">
@@ -24,7 +31,7 @@ const AiBtn = () => {
 
           {/* Text */}
           <span className="text-[#174F88] font-medium whitespace-nowrap">
-           {t("partner.talktoai") || "Talk To AI"}
+            {t("partner.talktoai") || "Talk To AI"}
           </span>
 
           {/* Icon Circle */}

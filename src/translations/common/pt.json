@@ -1,0 +1,78 @@
+{
+  "headerOptions": [
+    { "name": "home", "label": "Início", "link": "/", "options": [] },
+    { "name": "about us", "label": "Sobre Nós", "link": "/aboutus", "options": [] },
+    {
+      "name": "services",
+      "label": "Serviços",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Marketing Inteligente", "link": "/" },
+        { "name": "business launch", "label": "Lançamento de Negócios", "link": "/" },
+        { "name": "professional services", "label": "Serviços Profissionais", "link": "/" },
+        { "name": "migration", "label": "Migração", "link": "/" },
+        { "name": "training services", "label": "Serviços de Treinamento", "link": "/" },
+        { "name": "messaging services", "label": "Serviços de Mensagens", "link": "/" },
+        { "name": "ip filing services", "label": "Serviços de Registro IP", "link": "/" }
+      ]
+    },
+    { "name": "products", "label": "Produtos", "link": "/products", "options": [] },
+    { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "Carreiras", "link": "/careers", "options": [] }
+  ],
+  "contactUs": "Contato",
+  "footer": {
+    "description": "Parceiro de transformação digital com soluções em nuvem e IA.",
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+    "quickLinks": {
+      "title": "Links Rápidos",
+      "items": [
+        { "label": "Início", "link": "/" },
+        { "label": "Sobre Nós", "link": "/about-us" },
+        { "label": "Serviços", "link": "/services" },
+        { "label": "Produtos", "link": "/products" }
+      ]
+    },
+    "services": {
+      "title": "Parcerias Empresariais",
+      "items": [
+        { "label": "Soluções Corporativas", "link": "/services" },
+        { "label": "IA e Automação", "link": "/services" }
+      ]
+    },
+    "legal": {
+      "title": "Legal e Conformidade",
+      "items": [
+        { "label": "Política de Privacidade", "link": "/privacy" },
+        { "label": "Termos e Condições", "link": "/terms" }
+      ]
+    },
+    "copyright": "© 2026 Nowit Services. Todos os direitos reservados."
+  },
+  "contact": {
+    "title": "Vamos Iniciar a Conversa",
+    "subtitle": "Compartilhe sua necessidade e entraremos em contato",
+    "labels": {
+      "name": "Nome",
+      "email": "Email",
+      "whatsapp": "Número do WhatsApp",
+      "date": "Data e Hora Preferidas",
+      "message": "Mensagem"
+    },
+    "placeholders": {
+      "name": "Digite seu nome",
+      "email": "Digite seu email",
+      "phone": "Digite o número de telefone",
+      "date": "Selecione data e hora",
+      "message": "Digite a mensagem"
+    },
+    "button": {
+      "send": "Enviar",
+      "sending": "Enviando..."
+    }
+  }
+}

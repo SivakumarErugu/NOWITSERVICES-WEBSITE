@@ -6,6 +6,7 @@ import TitleAndDescription from '@/components/shared/UI-Elements/TitleAndDescrip
 import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader';
 import Link from 'next/link';
 import { useNowit } from '@/store/useNowit';
+import Loading from '@/app/loading';
 const AppsList = [{
     id: 1,
     name: "WON Hubs",
@@ -48,7 +49,7 @@ const EnterpriseProducts = () => {
     const activeApp = appsList[activeIndex];
     const leftList = appsList.slice(0, activeIndex);
     const rightList = appsList.slice(activeIndex + 1);
-    const { t } = useNowit()
+    const { t ,isReady} = useNowit()
 
     useEffect(() => {
         const translatedList = t("products.appList", { returnObjects: true })
@@ -73,6 +74,7 @@ const EnterpriseProducts = () => {
             </div>
         </li>
     );
+    if(!isReady) return <Loading />
 
     return (
         <section className='w-full px-4 lg:px-8'>

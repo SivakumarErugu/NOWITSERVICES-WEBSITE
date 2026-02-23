@@ -12,6 +12,8 @@ import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
 import Contactbg from "../../../public/images/ContactUsImages/Contactbg.jpg";
 import { countryCodes } from "./utils";
 import { toast } from "sonner";
+import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 /* ---------------- VALIDATION ---------------- */
 
 const validationSchema = Yup.object({
@@ -39,7 +41,7 @@ const validationSchema = Yup.object({
 /* ---------------- COMPONENT ---------------- */
 
 export default function ContactSection() {
-
+    const {tc,commonReady}=useNowit();
     const submitForm = async (values) => {
         const formData = new FormData();
 
@@ -156,8 +158,11 @@ export default function ContactSection() {
             </div>
         );
     }
-
-
+    
+    if(!commonReady) return <Loading />;
+    const contact=tc("contact")
+    console.log(contact," Contact here ")
+    if(!contact) return null
 
     return (
         <section
@@ -188,12 +193,13 @@ export default function ContactSection() {
 
                     {/* Header */}
                     <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold flex items-center gap-2">
-                        Let’s Start the Conversation
+                      {contact.title}
                         <span className="inline-block w-6 sm:w-8 lg:w-12 h-0.5 bg-[#55B233]" />
                     </h2>
 
                     <p className="mt-2 text-xs sm:text-sm text-gray-200">
-                        Share your requirement and our team will connect with you
+                        {/* Share your requirement and our team will connect with you */}
+                        {contact.subtitle}
                     </p>
 
                     {/* FORM */}
@@ -204,7 +210,7 @@ export default function ContactSection() {
                         {/* Name */}
                         <div className="h-23">
                             <label htmlFor="name" className="text-sm mb-1 block">
-                                Name *
+                                {contact.labels.name} *
                             </label>
                             <input
                                 id="name"
@@ -212,7 +218,7 @@ export default function ContactSection() {
                                 value={formik.values.name}
                                 onChange={formik.handleChange}
                                 onBlur={formik.handleBlur}
-                                placeholder="Enter your Name"
+                                placeholder={contact.placeholders.name}
                                 className={inputBase}
                             />
                             {formik.touched.name && formik.errors.name && (
@@ -223,7 +229,7 @@ export default function ContactSection() {
                         {/* Email */}
                         <div className="h-23">
                             <label htmlFor="email" className="text-sm mb-1 block">
-                                Email Id *
+                               {contact.labels.email} *
                             </label>
                             <input
                                 id="email"
@@ -232,7 +238,7 @@ export default function ContactSection() {
                                 value={formik.values.email}
                                 onChange={formik.handleChange}
                                 onBlur={formik.handleBlur}
-                                placeholder="Enter your Email"
+                                placeholder={contact.placeholders.email}
                                 className={inputBase}
                             />
                             {formik.touched.email && formik.errors.email && (
@@ -243,7 +249,7 @@ export default function ContactSection() {
                         {/* Whatsapp */}
                         <div className="md:col-span-1 h-23">
                             <label className="text-sm mb-1 block">
-                                Whatsapp Number *
+                             {contact.labels.whatsapp} *
                             </label>
 
                             <div className="flex">
@@ -263,7 +269,7 @@ export default function ContactSection() {
                                     value={formik.values.phone}
                                     onChange={formik.handleChange}
                                     onBlur={formik.handleBlur}
-                                    placeholder="Enter phone number"
+                                    placeholder={contact.placeholders.phone}
                                     className={`${inputBase} rounded-l-none`}
                                 />
                             </div>
@@ -276,7 +282,7 @@ export default function ContactSection() {
                         {/* DATE + TIME */}
                         <div className="h-23 w-full">
                             <label className="text-sm mb-1 block">
-                                Preferred Contact Date & Time *
+                              {contact.labels.date} *
                             </label>
 
                             <DatePicker
@@ -286,7 +292,7 @@ export default function ContactSection() {
                                 timeFormat="HH:mm"
                                 timeIntervals={15}
                                 dateFormat="dd/MM/yyyy h:mm aa"
-                                placeholderText="Select date & time"
+                                placeholderText={contact.placeholders.date}
                                 className={`${inputBase} `}
                                 wrapperClassName="w-full"
                                 minDate={new Date()}
@@ -300,7 +306,7 @@ export default function ContactSection() {
                         {/* Message */}
                         <div className="md:col-span-2 h-30">
                             <label htmlFor="message" className="text-sm mb-1 block">
-                                Message *
+                              {contact.labels.message} *
                             </label>
                             <textarea
                                 id="message"
@@ -309,7 +315,7 @@ export default function ContactSection() {
                                 value={formik.values.message}
                                 onChange={formik.handleChange}
                                 onBlur={formik.handleBlur}
-                                placeholder="Enter Message"
+                                placeholder={contact.placeholders.message}
                                 className="w-full rounded-md bg-white/20 border border-white/30 px-3 py-2 text-sm text-white placeholder-gray-300 focus:outline-none focus:border-white"
                             />
                             {formik.touched.message && formik.errors.message && (
@@ -320,7 +326,7 @@ export default function ContactSection() {
                         {/* Submit */}
                         <div className="md:col-span-2 mt-3 flex justify-center">
                             <ThemeBtnTag
-                                BtnText={formik.isSubmitting ? "Sending..." : "Send"}
+                                BtnText={formik.isSubmitting ? contact.button.sending: contact.button.send}
                                 type="submit"
                                 disabled={formik.isSubmitting}
                                 styles="w-full sm:w-2/3 lg:w-1/2 h-[42px] bg-[#55B233] text-white !font-medium !rounded-md hover:bg-[#43a047] border-0 disabled:opacity-60"

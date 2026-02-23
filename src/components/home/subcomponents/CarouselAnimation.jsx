@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { useState, useEffect } from "react";
 import { useNowit } from "@/store/useNowit";
+import { Carattere } from "next/font/google";
 const List = [{
     id: 1,
     name: 'Smart Marketing Services',
@@ -61,7 +62,7 @@ const ServicesHero = () => {
     const [isHovering, setIsHovering] = useState(false);
     const [hasStarted, setHasStarted] = useState(false);
     const [carouselList, setCarouselList] = useState(List);
-    const { t } = useNowit()
+    const { t, isReady } = useNowit()
 
     // useEffect(() => {
     //     if (!isHovering) return;
@@ -84,7 +85,7 @@ const ServicesHero = () => {
     //     }, 1000);
     //     return () => clearInterval(interval);
     // }, [hasStarted]);
-    const currentItem = List[currentIndex];
+    const currentItem = carouselList[currentIndex];
     // for Pausing the slide 
     const INTERVAL_TIME = 3000; // 3 sec per slide
     const HOVER_DELAY = 2500;  // 2.5 sec pause for reading
@@ -111,7 +112,7 @@ const ServicesHero = () => {
         if (t("services.carouselList")) {
             setCarouselList(t("services.carouselList"))
         }
-    }, [t])
+    }, [t, isReady])
 
 
     return (
@@ -184,7 +185,7 @@ const ServicesHero = () => {
             <div className='h-15 md:hidden' />
             {/* ================= MOBILE VIEW (STATIC LIST) ================= */}
             <div className="md:hidden flex flex-col items-center justify-center gap-6 ">
-                {List.map((item) => (
+                {carouselList.map((item) => (
                     <div
                         key={item.id}
                         className="relative h-[510px] w-[364px] text-white rounded-lg overflow-hidden pr-3"

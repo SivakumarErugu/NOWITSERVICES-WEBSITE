@@ -7,13 +7,14 @@ import { ThemeLinkTag } from "../../shared/UI-Elements/Custom-Elements";
 import partnerBanner1 from "../../../../public/images/PartnerBannerImages/partnerBanner1.png";
 import partnerBanner2 from "../../../../public/images/PartnerBannerImages/partnerBanner2.png";
 import partnerBannerBg from "../../../../public/images/PartnerBannerImages/partnerBannerBg.jpg";
-import Link from "next/link";
 import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 
 const PartnerBanner = () => {
     const { t, isReady } = useNowit();
 
-    if (!isReady) return null; // or skeleton loader
+    if (!isReady) return <Loading />;
+     // or skeleton loader
     return (
         <section
             className="

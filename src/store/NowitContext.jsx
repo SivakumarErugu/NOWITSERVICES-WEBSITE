@@ -23,8 +23,13 @@ const NowitContextProvider = ({ children }) => {
     return localStorage.getItem("nowit_locale") || "en";
   });
 
-  const [messages, setMessages] = useState({});
+  const [messages, setMessages] = useState({});// this will be normal pageMessages
   const [isReady, setIsReady] = useState(false)
+  const [pageKey, setPageKey] = useState('')
+  const [commonMessages, setCommonMessages] = useState({});
+  const [commonReady, setCommonReady] = useState(false);
+
+  // const [pageMessages, setPageMessages] = useState({});
   // Load translation file
 
   const normalizeTabForPath = (tab) => {
@@ -35,28 +40,48 @@ const NowitContextProvider = ({ children }) => {
   };
 
 
-  const loadMessages = async (lang) => {
+  const loadMessages = async (lang, page) => {
+    if (!page) return;
+
     try {
       const normalized = lang.split("-")[0];
-      console.log("Normalized language:", normalized);
-      console.log("Active Tab:", activeTab);
-      const tabName = normalizeTabForPath(activeTab);
-      const data = await import(`../translations/${tabName}/${normalized}.json`);
+      setIsReady(false);
+
+      const data = await import(
+        `../translations/${page}/${normalized}.json`
+      );
 
       setMessages(data.default);
       setIsReady(true);
     } catch (error) {
-      console.log(error, "error here"
-      )
-      console.error("Translation file not found:", error);
+      console.error("Translation load failed:", error);
+      setMessages({});
       setIsReady(true);
+    }
+  };
+
+  const loadCommonMessages = async (lang) => {
+    try {
+      const normalized = lang.split('-')[0];
+      const data = await import(`../translations/common/${normalized}.json`);
+      setCommonMessages(data.default);
+    } catch (e) {
+      setCommonMessages({});
+    }
+    finally{
+      setCommonReady(true);
     }
   };
 
   // On first mount
   useEffect(() => {
-    loadMessages(locale);
-  }, []);
+    if (!locale || !pageKey) return;
+    loadMessages(locale, pageKey);
+  }, [locale, pageKey]);
+
+  useEffect(() => {
+    loadCommonMessages(locale);
+  }, [locale]);
 
   // Change language
   const changeLanguage = (lang) => {
@@ -67,10 +92,10 @@ const NowitContextProvider = ({ children }) => {
 
   // Translation function
   const t = (key) => {
-    return messages[key] || key;
+    return messages?.[key] ?? "";
   };
 
-
+  const tc = (key) => commonMessages?.[key] ?? "";
   // Persist changes
   useEffect(() => {
     localStorage.setItem("nowit_active_tab", activeTab);
@@ -94,7 +119,10 @@ const NowitContextProvider = ({ children }) => {
         locale,
         changeLanguage,
         t,
-        isReady
+        isReady,
+        setPageKey,
+        tc,
+        commonReady
       }}
     >
       {children}

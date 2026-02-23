@@ -4,6 +4,7 @@ import React from 'react';
 import SlidingHeader from "@/components/shared/UI-Elements/SlidingHeader";
 import { useNowit } from '@/store/useNowit';
 import { useState, useEffect } from 'react';
+import Loading from '@/app/loading';
 
 const INDUSTRIES = [
     "Healthcare",
@@ -55,10 +56,8 @@ const Pill = ({ label }) => {
 };
 
 const IndustrySection = () => {
-    const { t } = useNowit()
-
+    const { t,isReady } = useNowit()
     const [industries, setIndustries] = useState(INDUSTRIES);
-
     useEffect(() => {
         const translated = t("Industry.list", { returnObjects: true });
         if (Array.isArray(translated) && translated.length > 0) {
@@ -66,8 +65,10 @@ const IndustrySection = () => {
         } else {
             setIndustries(INDUSTRIES);
         }
-    }, [t]);
+    }, [t,isReady]);
 
+    if(!isReady) return <Loading />;
+    
     return (
         <section className="w-full bg-white py-6 lg:py-10 mb-5">
             <div className="mx-auto px-5 md:px-8 lg:px-15">

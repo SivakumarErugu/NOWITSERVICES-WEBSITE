@@ -1,0 +1,78 @@
+{
+  "headerOptions": [
+    { "name": "home", "label": "Inicio", "link": "/", "options": [] },
+    { "name": "about us", "label": "Sobre Nosotros", "link": "/aboutus", "options": [] },
+    {
+      "name": "services",
+      "label": "Servicios",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Marketing Inteligente", "link": "/" },
+        { "name": "business launch", "label": "Lanzamiento de Negocios", "link": "/" },
+        { "name": "professional services", "label": "Servicios Profesionales", "link": "/" },
+        { "name": "migration", "label": "Migración", "link": "/" },
+        { "name": "training services", "label": "Servicios de Capacitación", "link": "/" },
+        { "name": "messaging services", "label": "Servicios de Mensajería", "link": "/" },
+        { "name": "ip filing services", "label": "Servicios de Registro IP", "link": "/" }
+      ]
+    },
+    { "name": "products", "label": "Productos", "link": "/products", "options": [] },
+    { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "Carreras", "link": "/careers", "options": [] }
+  ],
+  "contactUs": "Contáctanos",
+  "footer": {
+    "description": "Socio de transformación digital que ofrece soluciones cloud-first impulsadas por IA para un crecimiento escalable.",
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "items": [
+        { "label": "Inicio", "link": "/" },
+        { "label": "Sobre Nosotros", "link": "/about-us" },
+        { "label": "Servicios", "link": "/services" },
+        { "label": "Productos", "link": "/products" }
+      ]
+    },
+    "services": {
+      "title": "Alianzas Comerciales",
+      "items": [
+        { "label": "Soluciones Empresariales", "link": "/services" },
+        { "label": "IA y Automatización", "link": "/services" }
+      ]
+    },
+    "legal": {
+      "title": "Legal y Cumplimiento",
+      "items": [
+        { "label": "Política de Privacidad", "link": "/privacy" },
+        { "label": "Términos y Condiciones", "link": "/terms" }
+      ]
+    },
+    "copyright": "© 2026 Nowit Services. Todos los derechos reservados."
+  },
+  "contact": {
+    "title": "Comencemos la Conversación",
+    "subtitle": "Comparte tu requerimiento y nuestro equipo se pondrá en contacto contigo",
+    "labels": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "whatsapp": "Número de WhatsApp",
+      "date": "Fecha y Hora Preferida",
+      "message": "Mensaje"
+    },
+    "placeholders": {
+      "name": "Ingresa tu nombre",
+      "email": "Ingresa tu correo",
+      "phone": "Ingresa el número de teléfono",
+      "date": "Selecciona fecha y hora",
+      "message": "Ingresa el mensaje"
+    },
+    "button": {
+      "send": "Enviar",
+      "sending": "Enviando..."
+    }
+  }
+}

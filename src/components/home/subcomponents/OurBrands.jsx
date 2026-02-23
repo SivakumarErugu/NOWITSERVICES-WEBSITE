@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useNowit } from '@/store/useNowit';
+import Loading from '@/app/loading';
 
 const ImagesList = [
   { id: 1, url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770638608/before1_d2puz8.png" },
@@ -24,7 +25,7 @@ const ImagesList = [
 
 const OurBrands = () => {
   const [duration, setDuration] = useState(15);
-  const {t}=useNowit();
+  const {t,isReady}=useNowit();
 
   useEffect(() => {
     const updateDuration = () => {
@@ -41,6 +42,7 @@ const OurBrands = () => {
     window.addEventListener('resize', updateDuration);
     return () => window.removeEventListener('resize', updateDuration);
   }, []);
+  if(!isReady) return <Loading />
 
   return (
     <section className="w-full flex justify-center overflow-hidden">

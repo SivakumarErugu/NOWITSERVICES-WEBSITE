@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { ThemeBottomBorder } from "@/components/shared/UI-Elements/Custom-Elements";
 import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 
 const List = [
     {
@@ -25,8 +26,10 @@ const List = [
 ];
 
 const TrustedBannerSection = () => {
-    const { t } = useNowit()
+    const { t, isReady } = useNowit()
     // console.log(t("trustedbanner.subTitle"), "Translated Trusted Banner Subtitle")
+    if (!isReady) return <Loading />
+
     return (
         <div
             className="

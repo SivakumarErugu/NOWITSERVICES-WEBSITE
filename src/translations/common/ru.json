@@ -1,0 +1,78 @@
+{
+  "headerOptions": [
+    { "name": "home", "label": "Главная", "link": "/", "options": [] },
+    { "name": "about us", "label": "О Нас", "link": "/aboutus", "options": [] },
+    {
+      "name": "services",
+      "label": "Услуги",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Умный Маркетинг", "link": "/" },
+        { "name": "business launch", "label": "Запуск Бизнеса", "link": "/" },
+        { "name": "professional services", "label": "Профессиональные Услуги", "link": "/" },
+        { "name": "migration", "label": "Миграция", "link": "/" },
+        { "name": "training services", "label": "Обучающие Услуги", "link": "/" },
+        { "name": "messaging services", "label": "Сообщения", "link": "/" },
+        { "name": "ip filing services", "label": "Регистрация ИС", "link": "/" }
+      ]
+    },
+    { "name": "products", "label": "Продукты", "link": "/products", "options": [] },
+    { "name": "blog", "label": "Блог", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "Карьера", "link": "/careers", "options": [] }
+  ],
+  "contactUs": "Связаться с нами",
+  "footer": {
+    "description": "Партнер по цифровой трансформации с решениями на базе ИИ.",
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+    "quickLinks": {
+      "title": "Быстрые ссылки",
+      "items": [
+        { "label": "Главная", "link": "/" },
+        { "label": "О Нас", "link": "/about-us" },
+        { "label": "Услуги", "link": "/services" },
+        { "label": "Продукты", "link": "/products" }
+      ]
+    },
+    "services": {
+      "title": "Бизнес-Партнерства",
+      "items": [
+        { "label": "Корпоративные Решения", "link": "/services" },
+        { "label": "ИИ и Автоматизация", "link": "/services" }
+      ]
+    },
+    "legal": {
+      "title": "Правовая Информация",
+      "items": [
+        { "label": "Политика Конфиденциальности", "link": "/privacy" },
+        { "label": "Условия Использования", "link": "/terms" }
+      ]
+    },
+    "copyright": "© 2026 Nowit Services. Все права защищены."
+  },
+  "contact": {
+    "title": "Начнем Разговор",
+    "subtitle": "Поделитесь запросом, и мы свяжемся с вами",
+    "labels": {
+      "name": "Имя",
+      "email": "Email",
+      "whatsapp": "Номер WhatsApp",
+      "date": "Предпочтительная Дата и Время",
+      "message": "Сообщение"
+    },
+    "placeholders": {
+      "name": "Введите имя",
+      "email": "Введите email",
+      "phone": "Введите номер телефона",
+      "date": "Выберите дату и время",
+      "message": "Введите сообщение"
+    },
+    "button": {
+      "send": "Отправить",
+      "sending": "Отправка..."
+    }
+  }
+}

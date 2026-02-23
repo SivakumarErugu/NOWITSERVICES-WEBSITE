@@ -1,0 +1,164 @@
+{
+    "headerOptions": [
+        {
+            "name": "home",
+            "label": "首页",
+            "link": "/",
+            "options": []
+        },
+        {
+            "name": "about us",
+            "label": "关于我们",
+            "link": "/aboutus",
+            "options": []
+        },
+        {
+            "name": "services",
+            "label": "服务",
+            "link": "/",
+            "options": [
+                {
+                    "name": "smart marketing",
+                    "label": "智能营销",
+                    "link": "/"
+                },
+                {
+                    "name": "business launch",
+                    "label": "业务启动",
+                    "link": "/"
+                },
+                {
+                    "name": "professional services",
+                    "label": "专业服务",
+                    "link": "/"
+                },
+                {
+                    "name": "migration",
+                    "label": "迁移",
+                    "link": "/"
+                },
+                {
+                    "name": "training services",
+                    "label": "培训服务",
+                    "link": "/"
+                },
+                {
+                    "name": "messaging services",
+                    "label": "消息服务",
+                    "link": "/"
+                },
+                {
+                    "name": "ip filing services",
+                    "label": "知识产权申报服务",
+                    "link": "/"
+                }
+            ]
+        },
+        {
+            "name": "products",
+            "label": "产品",
+            "link": "/products",
+            "options": []
+        },
+        {
+            "name": "blog",
+            "label": "博客",
+            "link": "/blog",
+            "options": []
+        },
+        {
+            "name": "careers",
+            "label": "招聘",
+            "link": "/careers",
+            "options": []
+        }
+    ],
+    "contactUs": "联系我们",
+    "footer": {
+        "description": "提供以云和人工智能为核心的数字化转型解决方案。",
+        "socialMedia": [
+            {
+                "name": "linkedin",
+                "link": "https://linkedin.com"
+            },
+            {
+                "name": "twitter",
+                "link": "https://twitter.com"
+            },
+            {
+                "name": "instagram",
+                "link": "https://instagram.com"
+            }
+        ],
+        "quickLinks": {
+            "title": "快速链接",
+            "items": [
+                {
+                    "label": "首页",
+                    "link": "/"
+                },
+                {
+                    "label": "关于我们",
+                    "link": "/about-us"
+                },
+                {
+                    "label": "服务",
+                    "link": "/services"
+                },
+                {
+                    "label": "产品",
+                    "link": "/products"
+                }
+            ]
+        },
+        "services": {
+            "title": "业务合作",
+            "items": [
+                {
+                    "label": "企业解决方案",
+                    "link": "/services"
+                },
+                {
+                    "label": "人工智能与自动化",
+                    "link": "/services"
+                }
+            ]
+        },
+        "legal": {
+            "title": "法律与合规",
+            "items": [
+                {
+                    "label": "隐私政策",
+                    "link": "/privacy"
+                },
+                {
+                    "label": "条款与条件",
+                    "link": "/terms"
+                }
+            ]
+        },
+        "copyright": "© 2026 Nowit Services. 版权所有。"
+    },
+    "contact": {
+        "title": "开启沟通",
+        "subtitle": "分享您的需求，我们将尽快与您联系",
+        "labels": {
+            "name": "姓名",
+            "email": "邮箱",
+            "whatsapp": "WhatsApp号码",
+            "date": "首选联系时间",
+            "message": "留言"
+        },
+        "placeholders": {
+            "name": "请输入姓名",
+            "email": "请输入邮箱",
+            "phone": "请输入电话号码",
+            "date": "选择日期和时间",
+            "message": "请输入留言"
+        },
+        "button": {
+            "send": "发送",
+            "sending": "发送中..."
+        }
+    }
+}

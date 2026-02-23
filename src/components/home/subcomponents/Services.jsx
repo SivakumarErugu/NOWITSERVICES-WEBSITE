@@ -3,8 +3,11 @@ import SlidingHeader from '@/components/shared/UI-Elements/SlidingHeader'
 import React from 'react'
 import CarouselAnimaiton from "@/components/home/subcomponents/CarouselAnimation"
 import { useNowit } from '@/store/useNowit'
+import Loading from '@/app/loading'
+
 const Services = () => {
-    const {t} = useNowit()
+    const {t,isReady} = useNowit()
+    if(!isReady) return <Loading />
     return (
         <div className='w-full px-4 lg:px-8'>
             <div className='mx-auto px-1 lg:px-6'>

@@ -6,6 +6,7 @@ import { CustomHeading, ThemeBtnTag, ThemeBtnTag2, ThemeLinkTag } from "@/compon
 import Image from "next/image"
 import { useNowit } from "@/store/useNowit"
 import { useState,useEffect } from "react"
+import Loading from "@/app/loading"
 
 const ProjectCard = ({ item, height, width }) => {
     return (
@@ -86,7 +87,7 @@ const List = [
 ]
 
 const OurProjects = () => {
-    const {t}=useNowit()
+    const {t,isReady}=useNowit()
     const [projectsList,setProjectsList] = useState(List)
     
       useEffect(() => {
@@ -99,6 +100,8 @@ const OurProjects = () => {
           setProjectsList(List)
         }
       }, [t])
+
+      if(!isReady) return <Loading />
     
     return (
         <section className="w-full py-20 md:flex md:justify-center px-4 lg:px-10">

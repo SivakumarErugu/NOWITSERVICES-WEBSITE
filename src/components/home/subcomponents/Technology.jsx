@@ -6,6 +6,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useNowit } from '@/store/useNowit'
+import Loading from '@/app/loading'
 const List = [
     { id: 1, url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770266736/145c9ed16f0b8b28d6b99b5cae888dab7cb8677d_xz741g.jpg" },
     { id: 2, url: "https://res.cloudinary.com/dr9thittl/image/upload/v1770266725/743b25d4afb0244ff45c18da9643c35921833a23_b5gsre.jpg" },
@@ -23,8 +24,9 @@ const stats = [
 const Technology = () => {
     const { t, isReady, activeTab } = useNowit();
 
+    if (!isReady) return <Loading />
 
-    if (!isReady) return null; // or skeleton loader
+    // or skeleton loader
     return (
         <section className="w-full flex flex-col items-center gap-5 md:gap-10 py-16 bg-white overflow-hidden">
 

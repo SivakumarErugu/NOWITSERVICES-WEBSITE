@@ -4,9 +4,12 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useNowit } from '@/store/useNowit';
+import Loading from '@/app/loading';
 const OurVision = () => {
   const { t, isReady } = useNowit()
-  if(!isReady) return null; // or skeleton loader
+
+  if(!isReady) return <Loading />;
+ // or skeleton loader
   return (
     <section className="w-full flex justify-center py-24 bg-white">
       {/* FRAME (1240 × 473.68) */}
@@ -21,6 +24,7 @@ const OurVision = () => {
             priority
           />
         </div> */}
+        
         <motion.div
           className="relative w-[553px] h-[474px] hidden md:block  overflow-hidden"
           initial={{ x: -120, opacity: 0 }}

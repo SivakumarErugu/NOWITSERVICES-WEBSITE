@@ -1,113 +1,158 @@
-'use client'
+'use client';
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Image from "next/image";
-import nowitImg from "../../../public/nowit.png";
 import Link from "next/link";
+import nowitImg from "../../../public/nowit.png";
 import { ThemeBottomBorder2 } from "../shared/UI-Elements/Custom-Elements";
-import { getFooterTranslations } from "./translatedfunctions";
-import {
-    quickLinks,
-    bussinessPartnerships,
-    LegalLinks
-} from "./utils";
-import { socialMedia } from "./utils";
+import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 
-const Footer = () => {
-    const [locale, setLocale] = useState("en");
+/* ---------------- LOGO SECTION ---------------- */
 
-    useEffect(() => {
-        const stored = typeof window !== "undefined"
-            ? localStorage.getItem("nowit_locale")
-            : null;
+const LogoSection = ({ footer }) => {
+  return (
+    <section className="flex flex-col gap-6 w-full px-2 lg:px-4">
+      <Image src={nowitImg} alt="now it" className="w-36 h-auto" />
 
-        if (stored) setLocale(stored);
-    }, []);
+      <p className="font-light text-sm sm:text-md text-white leading-6 tracking-wide">
+        {footer?.description}
+      </p>
 
-    const {
-        quickLinkText,
-        businessSecText,
-        legalText,
-        rightText,
-    } = getFooterTranslations(locale);
-
-    const quickLinkOptions = quickLinks[locale] || quickLinks.en;
-    const businessOptions = bussinessPartnerships[locale] || bussinessPartnerships.en;
-    const legalOptions = LegalLinks[locale] || LegalLinks.en;
-
-    return (
-        <div className="relative">
-            <div className="max-w-8xl mx-auto flex flex-col lg:flex-row gap-14 lg:gap-10">
-
-                {/* LOGO SECTION */}
-                <section className="w-full lg:w-4/12 flex flex-col gap-6 px-2 lg:px-4">
-                    <Image src={nowitImg} alt="now it" className="w-36 h-auto" />
-
-                    <p className="text-sm text-white/80">
-                        {locale === "hi"
-                            ? "एक डिजिटल ट्रांसफॉर्मेशन पार्टनर..."
-                            : "A digital transformation partner delivering cloud-first, AI-driven solutions."}
-                    </p>
-
-                    <div className="flex gap-5">
-                        {socialMedia.map((each, i) => (
-                            <a key={i} href={each.link} target="_blank">
-                                {each.icon}
-                            </a>
-                        ))}
-                    </div>
-                </section>
-
-                {/* RIGHT SECTIONS */}
-                <div className="w-full lg:w-8/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
-
-                    {/* QUICK LINKS */}
-                    <section>
-                        <h4 className="text-lg font-bold text-white">{quickLinkText}</h4>
-                        <ThemeBottomBorder2 width="60%" />
-                        <ul className="mt-4 space-y-2">
-                            {quickLinkOptions?.map((item, i) => (
-                                <Link key={i} href={item.link} className="text-white/70 text-sm">
-                                    {item.label}
-                                </Link>
-                            ))}
-                        </ul>
-                    </section>
-
-                    {/* BUSINESS */}
-                    <section>
-                        <h4 className="text-lg font-bold text-white">{businessSecText}</h4>
-                        <ThemeBottomBorder2 width="60%" />
-                        <ul className="mt-4 space-y-2">
-                            {businessOptions?.map((item, i) => (
-                                <Link key={i} href={item.link} className="text-white/70 text-sm">
-                                    {item.label}
-                                </Link>
-                            ))}
-                        </ul>
-                    </section>
-
-                    {/* LEGAL */}
-                    <section>
-                        <h4 className="text-lg font-bold text-white">{legalText}</h4>
-                        <ThemeBottomBorder2 width="40%" />
-                        <ul className="mt-4 space-y-2">
-                            {legalOptions?.map((item, i) => (
-                                <Link key={i} href={item.link} className="text-white/70 text-sm">
-                                    {item.label}
-                                </Link>
-                            ))}
-                        </ul>
-                    </section>
-
-                </div>
-            </div>
-
-            <p className="absolute bottom-5 left-0 right-0 text-center text-xs text-white/50">
-                {rightText}
-            </p>
-        </div>
-    );
+      <div className="flex gap-5">
+        {(footer?.socialMedia || []).map((each, i) => (
+          <a
+            href={each.link}
+            target="_blank"
+            key={i}
+            className="relative h-10 w-10 flex items-center justify-center cursor-pointer"
+          >
+            <span className="absolute inset-0 rounded-full bg-[#55B233] blur-md opacity-10"></span>
+            <span className="absolute h-8 w-8 rounded-full bg-[#55B233] blur-[1px]"></span>
+            <span className="relative z-10 text-white">
+              {each.icon}
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
 };
 
-export default Footer;
+/* ---------------- QUICK LINKS ---------------- */
+
+const QuickLinksSec = ({ footer }) => {
+  const data = footer?.quickLinks;
+  if (!data) return null;
+
+  return (
+    <section className="flex flex-col gap-y-5">
+      <div className="relative w-fit">
+        <h4 className="text-lg font-bold text-white">{data.title}</h4>
+        <ThemeBottomBorder2 width="60%" />
+      </div>
+
+      <ul className="grid grid-cols-2 md:grid-cols-1 gap-x-8 gap-y-2">
+        {data.items.map((each, i) => (
+          <Link
+            href={each.link}
+            key={i}
+            className="font-extralight text-sm text-white/75 max-md:text-center"
+          >
+            {each.label}
+          </Link>
+        ))}
+      </ul>
+    </section>
+  );
+};
+
+/* ---------------- SERVICES ---------------- */
+
+const BusinessSec = ({ footer }) => {
+  const data = footer?.services;
+  if (!data) return null;
+
+  return (
+    <section className="flex flex-col gap-y-5">
+      <div className="relative w-fit">
+        <h4 className="text-lg font-bold text-white">{data.title}</h4>
+        <ThemeBottomBorder2 width="60%" />
+      </div>
+
+      <ul className="flex flex-col gap-y-1">
+        {data.items.map((each, i) => (
+          <Link
+            href={each.link}
+            key={i}
+            className="font-extralight text-sm text-white/75"
+          >
+            {each.label}
+          </Link>
+        ))}
+      </ul>
+    </section>
+  );
+};
+
+/* ---------------- LEGAL ---------------- */
+
+const LegalSec = ({ footer }) => {
+  const data = footer?.legal;
+  if (!data) return null;
+
+  return (
+    <section className="flex flex-col gap-y-5">
+      <div className="relative w-fit">
+        <h4 className="text-lg font-bold text-white">{data.title}</h4>
+        <ThemeBottomBorder2 width="40%" />
+      </div>
+
+      <ul className="flex flex-col gap-y-1">
+        {data.items.map((each, i) => (
+          <Link
+            href={each.link}
+            key={i}
+            className="font-extralight text-sm text-white/75"
+          >
+            {each.label}
+          </Link>
+        ))}
+      </ul>
+    </section>
+  );
+};
+
+/* ---------------- FOOTER ---------------- */
+
+const FooterSubComponent = () => {
+  const { tc, commonReady } = useNowit();
+
+  if (!commonReady) return <Loading />;
+
+  const footer = tc("footer"); // ✅ READ ONCE
+
+  if (!footer) return null;
+
+  return (
+    <footer className="bg-[#04192D] w-full pt-14 pb-20 px-6 md:px-10 2xl:px-25 text-white relative">
+      <div className="max-w-8xl mx-auto flex flex-col lg:flex-row gap-14 lg:gap-10">
+        <div className="w-full lg:w-4/12">
+          <LogoSection footer={footer} />
+        </div>
+
+        <div className="w-full lg:w-8/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+          <QuickLinksSec footer={footer} />
+          <BusinessSec footer={footer} />
+          <LegalSec footer={footer} />
+        </div>
+      </div>
+
+      <p className="absolute bottom-5 left-0 right-0 text-center text-xs text-white/50">
+        {footer.copyright}
+      </p>
+    </footer>
+  );
+};
+
+export default FooterSubComponent;

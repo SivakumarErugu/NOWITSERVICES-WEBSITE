@@ -1,4 +1,78 @@
 {
+    "headerOptions": [
+        {
+            "name": "home",
+            "label": "Home",
+            "link": "/",
+            "options": []
+        },
+        {
+            "name": "about us",
+            "label": "About Us",
+            "link": "/aboutus",
+            "options": []
+        },
+        {
+            "name": "services",
+            "label": "Services",
+            "link": "/",
+            "options": [
+                {
+                    "name": "smart marketing",
+                    "label": "Smart Marketing",
+                    "link": "/"
+                },
+                {
+                    "name": "business launch",
+                    "label": "Business Launch",
+                    "link": "/"
+                },
+                {
+                    "name": "professional services",
+                    "label": "Professional Services",
+                    "link": "/"
+                },
+                {
+                    "name": "migration",
+                    "label": "Migration",
+                    "link": "/"
+                },
+                {
+                    "name": "training services",
+                    "label": "Training Services",
+                    "link": "/"
+                },
+                {
+                    "name": "messaging services",
+                    "label": "Messaging Services",
+                    "link": "/"
+                },
+                {
+                    "name": "ip filing services",
+                    "label": "IP Filing Services",
+                    "link": "/"
+                }
+            ]
+        },
+        {
+            "name": "products",
+            "label": "Products",
+            "link": "/products",
+            "options": []
+        },
+        {
+            "name": "blog",
+            "label": "Blog",
+            "link": "/blog",
+            "options": []
+        },
+        {
+            "name": "careers",
+            "label": "Careers",
+            "link": "/careers",
+            "options": []
+        }
+    ],
     "banner.title": "Technology Insights for ",
     "banner.span": "Modern Businesses",
     "banner.scroll": "SCROLL TO EXPLORE",
@@ -85,87 +159,13 @@
         ]
     },
     "blogs.readMore": "Read More",
-    "blogs.latest":"Latest Blogs",
-    "blogs.similarBlogs":"Similar Blogs",
-    "blogs.share":"Share",
-    "newsletter.title":"Stay Updated with Latest Insights",
-    "newsletter.description":"  Subscribe to our newsletter and get weekly updates on cloud computing, AI, and enterprise technology trends.",
-    "newsletter.subscribe":"Subscribe",
-    "newsletter.subscribing":"Subscribing...",
-    "newsletter.spam":"No spam. Unsubscribe anytime.",
-    "newsletter.emailPlaceholder":"Enter your email address",
-    "headerOptions": [
-        {
-            "name": "home",
-            "label": "Home",
-            "link": "/",
-            "options": []
-        },
-        {
-            "name": "about us",
-            "label": "About Us",
-            "link": "/aboutus",
-            "options": []
-        },
-        {
-            "name": "services",
-            "label": "Services",
-            "link": "/",
-            "options": [
-                {
-                    "name": "smart marketing",
-                    "label": "Smart Marketing",
-                    "link": "/"
-                },
-                {
-                    "name": "business launch",
-                    "label": "Business Launch",
-                    "link": "/"
-                },
-                {
-                    "name": "professional services",
-                    "label": "Professional Services",
-                    "link": "/"
-                },
-                {
-                    "name": "migration",
-                    "label": "Migration",
-                    "link": "/"
-                },
-                {
-                    "name": "training services",
-                    "label": "Training Services",
-                    "link": "/"
-                },
-                {
-                    "name": "messaging services",
-                    "label": "Messaging Services",
-                    "link": "/"
-                },
-                {
-                    "name": "ip filing services",
-                    "label": "IP Filing Services",
-                    "link": "/"
-                }
-            ]
-        },
-        {
-            "name": "products",
-            "label": "Products",
-            "link": "/products",
-            "options": []
-        },
-        {
-            "name": "blog",
-            "label": "Blog",
-            "link": "/blog",
-            "options": []
-        },
-        {
-            "name": "careers",
-            "label": "Careers",
-            "link": "/careers",
-            "options": []
-        }
-    ]
+    "blogs.latest": "Latest Blogs",
+    "blogs.similarBlogs": "Similar Blogs",
+    "blogs.share": "Share",
+    "newsletter.title": "Stay Updated with Latest Insights",
+    "newsletter.description": "  Subscribe to our newsletter and get weekly updates on cloud computing, AI, and enterprise technology trends.",
+    "newsletter.subscribe": "Subscribe",
+    "newsletter.subscribing": "Subscribing...",
+    "newsletter.spam": "No spam. Unsubscribe anytime.",
+    "newsletter.emailPlaceholder": "Enter your email address"
 }

@@ -8,6 +8,7 @@ import { ThemeBtnTag } from "../shared/UI-Elements/Custom-Elements";
 import SlidingHeader from "../shared/UI-Elements/SlidingHeader";
 import { useRouter } from "next/navigation";
 import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 const Images = [
   "https://res.cloudinary.com/dr9thittl/image/upload/v1770368688/351c910257cd7a99096737785ceb42a38d558322_ccqwyd.jpg",
   "https://res.cloudinary.com/dr9thittl/image/upload/v1770368642/caa249fdeb6501b6af932cf99bbbdac74cd48abc_savzbx.jpg"
@@ -17,7 +18,7 @@ const PartnerSection = () => {
   const [hoverKey, setHoverKey] = useState(0);
   const router = useRouter();
   const { t, isReady } = useNowit()
-  if(!isReady) return null; 
+  if(!isReady) return <Loading />; 
   
   return (
     <section id="partnerSectionHome" className="w-full py-10 px-4 lg:px-8">

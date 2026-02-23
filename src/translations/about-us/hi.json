@@ -128,19 +128,19 @@
   "testimonials.description": "हमारे साथ काम करने वाले ग्राहकों की वास्तविक प्रतिक्रिया।",
   "testimonials.list": [
     {
-      "name": "Rajesh Kumar",
+      "name": "राजेश कुमार",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT ने समय पर उच्च गुणवत्ता वाला समाधान प्रदान किया।"
+      "text": "NowIT ने समय पर और उच्च गुणवत्ता के साथ हमारी आवश्यकताओं को पूरा किया। पूरी प्रक्रिया के दौरान टीम पेशेवर और सहयोगी रही।"
     },
     {
-      "name": "Ananya Sharma",
+      "name": "अनन्या शर्मा",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "उन्होंने हमारी कल्पना को एक स्केलेबल प्रोडक्ट में बदला।"
+      "text": "उन्होंने हमारी दृष्टि को समझकर उसे एक स्केलेबल प्रोडक्ट में बदल दिया। अंतिम परिणाम हमारी अपेक्षाओं से बेहतर था।"
     },
     {
-      "name": "Vikram Rao",
+      "name": "विक्रम राव",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "दीर्घकालिक और भरोसेमंद तकनीकी साझेदार।"
+      "text": "उनकी तकनीकी विशेषज्ञता और संरचित दृष्टिकोण ने हमें एक विश्वसनीय समाधान बनाने में मदद की। हम उन्हें दीर्घकालिक भागीदार मानते हैं।"
     }
   ],
   "becomepartner.title.prefix": "साथ",
@@ -149,77 +149,78 @@
   "becomepartner.description": "NowIT Services के साथ साझेदारी करें और नवाचार करें।",
   "becomepartner.becomepartner": "पार्टनर बनें",
   "headerOptions": [
-  {
-    "name": "home",
-    "label": "होम",
-    "link": "/",
-    "options": []
-  },
-  {
-    "name": "about us",
-    "label": "हमारे बारे में",
-    "link": "/aboutus",
-    "options": []
-  },
-  {
-    "name": "services",
-    "label": "सेवाएँ",
-    "link": "/",
-    "options": [
-      {
-        "name": "smart marketing",
-        "label": "स्मार्ट मार्केटिंग",
-        "link": "/"
-      },
-      {
-        "name": "business launch",
-        "label": "बिज़नेस लॉन्च",
-        "link": "/"
-      },
-      {
-        "name": "professional services",
-        "label": "प्रोफेशनल सेवाएँ",
-        "link": "/"
-      },
-      {
-        "name": "migration",
-        "label": "माइग्रेशन",
-        "link": "/"
-      },
-      {
-        "name": "training services",
-        "label": "ट्रेनिंग सेवाएँ",
-        "link": "/"
-      },
-      {
-        "name": "messaging services",
-        "label": "मैसेजिंग सेवाएँ",
-        "link": "/"
-      },
-      {
-        "name": "ip filing services",
-        "label": "आईपी फाइलिंग सेवाएँ",
-        "link": "/"
-      }
-    ]
-  },
-  {
-    "name": "products",
-    "label": "प्रोडक्ट्स",
-    "link": "/products",
-    "options": []
-  },
-  {
-    "name": "blog",
-    "label": "ब्लॉग",
-    "link": "/blog",
-    "options": []
-  },
-  {
-    "name": "careers",
-    "label": "करियर",
-    "link": "/careers",
-    "options": []
-  }
-]
+    {
+      "name": "home",
+      "label": "होम",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "हमारे बारे में",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "सेवाएँ",
+      "link": "/",
+      "options": [
+        {
+          "name": "smart marketing",
+          "label": "स्मार्ट मार्केटिंग",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "बिज़नेस लॉन्च",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "प्रोफेशनल सेवाएँ",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "माइग्रेशन",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "ट्रेनिंग सेवाएँ",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "मैसेजिंग सेवाएँ",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "आईपी फाइलिंग सेवाएँ",
+          "link": "/"
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "प्रोडक्ट्स",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "ब्लॉग",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "करियर",
+      "link": "/careers",
+      "options": []
+    }
+  ],
+  "Aboutus.text": "हम अगली पीढ़ी के स्मार्ट फुटवियर प्लेटफ़ॉर्म पर पेटेंट रखते हैं, जो रोज़मर्रा की गतिविधियों को सार्थक स्वास्थ्य अंतर्दृष्टियों में परिवर्तित करता है। उन्नत सेंसिंग तकनीक और बुद्धिमान डेटा एनालिटिक्स के संयोजन से यह प्रणाली रियल-टाइम मॉनिटरिंग और व्यक्तिगत वेलनेस फ़ीडबैक सक्षम करती है। ऊर्जा-कुशल और सहज रूप से कनेक्टेड यह नवाचार स्वास्थ्य सेवा, गतिशीलता और वियरेबल तकनीक के संगम पर स्थित है, जो निवारक और डेटा-आधारित देखभाल के भविष्य को आकार दे रहा है।"
 }

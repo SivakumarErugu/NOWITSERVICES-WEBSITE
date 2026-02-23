@@ -1,0 +1,134 @@
+{
+  "headerOptions": [
+    {
+      "name": "home",
+      "label": "Home",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "About Us",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "Services",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Smart Marketing", "link": "/" },
+        { "name": "business launch", "label": "Business Launch", "link": "/" },
+        { "name": "professional services", "label": "Professional Services", "link": "/" },
+        { "name": "migration", "label": "Migration", "link": "/" },
+        { "name": "training services", "label": "Training Services", "link": "/" },
+        { "name": "messaging services", "label": "Messaging Services", "link": "/" },
+        { "name": "ip filing services", "label": "IP Filing Services", "link": "/" }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "Products",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "Blog",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "Careers",
+      "link": "/careers",
+      "options": []
+    }
+  ],
+  "contactUs":"contactUs",
+  
+  "footer": {
+    "description": "A digital transformation partner delivering cloud-first, AI-driven solutions that enable scalable growth and operational excellence.",
+
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+
+    "quickLinks": {
+      "title": "Quick Links",
+      "items": [
+        { "label": "Home", "link": "/" },
+        { "label": "About Us", "link": "/about-us" },
+        { "label": "Services", "link": "/services" },
+        { "label": "Products", "link": "/products" }
+      ]
+    },
+
+    "services": {
+      "title": "Business Partnerships",
+      "items": [
+        { "label": "Enterprise Solutions", "link": "/services" },
+        { "label": "AI & Automation", "link": "/services" }
+      ]
+    },
+
+    "legal": {
+      "title": "Legal & Compliance",
+      "items": [
+        { "label": "Privacy Policy", "link": "/privacy" },
+        { "label": "Terms & Conditions", "link": "/terms" }
+      ]
+    },
+
+    "copyright":
+      "© 2026 Nowit Services. All rights reserved."
+  },
+  
+  "contact": {
+    "title": "Let’s Start the Conversation",
+    "subtitle": "Share your requirement and our team will connect with you",
+
+    "labels": {
+      "name": "Name",
+      "email": "Email Id",
+      "whatsapp": "Whatsapp Number",
+      "date": "Preferred Contact Date & Time",
+      "message": "Message"
+    },
+
+    "placeholders": {
+      "name": "Enter your Name",
+      "email": "Enter your Email",
+      "phone": "Enter phone number",
+      "date": "Select date & time",
+      "message": "Enter Message"
+    },
+
+    "button": {
+      "send": "Send",
+      "sending": "Sending..."
+    }
+  },
+  "locations": [
+    {
+      "title": "INDIA - Amaravathi",
+      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+    },
+    {
+      "title": "INDIA - Vijayawada",
+      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+    },
+    {
+      "title": "UK",
+      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+    },
+    {
+      "title": "GERMANY",
+      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+    }
+  ]
+
+
+}

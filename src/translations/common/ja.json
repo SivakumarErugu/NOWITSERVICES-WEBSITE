@@ -1,0 +1,78 @@
+{
+  "headerOptions": [
+    { "name": "home", "label": "ホーム", "link": "/", "options": [] },
+    { "name": "about us", "label": "会社概要", "link": "/aboutus", "options": [] },
+    {
+      "name": "services",
+      "label": "サービス",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "スマートマーケティング", "link": "/" },
+        { "name": "business launch", "label": "ビジネス立ち上げ", "link": "/" },
+        { "name": "professional services", "label": "プロフェッショナルサービス", "link": "/" },
+        { "name": "migration", "label": "移行", "link": "/" },
+        { "name": "training services", "label": "トレーニングサービス", "link": "/" },
+        { "name": "messaging services", "label": "メッセージングサービス", "link": "/" },
+        { "name": "ip filing services", "label": "知的財産申請サービス", "link": "/" }
+      ]
+    },
+    { "name": "products", "label": "製品", "link": "/products", "options": [] },
+    { "name": "blog", "label": "ブログ", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "採用情報", "link": "/careers", "options": [] }
+  ],
+  "contactUs": "お問い合わせ",
+  "footer": {
+    "description": "クラウドファーストでAI主導のデジタルトランスフォーメーションパートナー。",
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+    "quickLinks": {
+      "title": "クイックリンク",
+      "items": [
+        { "label": "ホーム", "link": "/" },
+        { "label": "会社概要", "link": "/about-us" },
+        { "label": "サービス", "link": "/services" },
+        { "label": "製品", "link": "/products" }
+      ]
+    },
+    "services": {
+      "title": "ビジネスパートナーシップ",
+      "items": [
+        { "label": "エンタープライズソリューション", "link": "/services" },
+        { "label": "AIと自動化", "link": "/services" }
+      ]
+    },
+    "legal": {
+      "title": "法務・コンプライアンス",
+      "items": [
+        { "label": "プライバシーポリシー", "link": "/privacy" },
+        { "label": "利用規約", "link": "/terms" }
+      ]
+    },
+    "copyright": "© 2026 Nowit Services. 無断転載禁止。"
+  },
+  "contact": {
+    "title": "会話を始めましょう",
+    "subtitle": "ご要望を共有してください。担当チームがご連絡します。",
+    "labels": {
+      "name": "名前",
+      "email": "メールアドレス",
+      "whatsapp": "WhatsApp番号",
+      "date": "希望する連絡日時",
+      "message": "メッセージ"
+    },
+    "placeholders": {
+      "name": "名前を入力してください",
+      "email": "メールを入力してください",
+      "phone": "電話番号を入力してください",
+      "date": "日時を選択してください",
+      "message": "メッセージを入力してください"
+    },
+    "button": {
+      "send": "送信",
+      "sending": "送信中..."
+    }
+  }
+}

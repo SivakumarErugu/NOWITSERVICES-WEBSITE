@@ -4,11 +4,12 @@ import BannerButtonSection from "./subcomponents/BannerButtonSection";
 import HeroSection from "./Hero1";
 
 import { useNowit } from "@/store/useNowit";
+import Loading from "@/app/loading";
 
 const BannerSection = () => {
   const { t ,isReady} = useNowit();
   // console.log(t("banner.subtitle"), "Triggering Hereeee ")
-  if(!isReady) return null;
+  if(!isReady) return <Loading />
   return (
     <section className="relative w-full overflow-hidden bg-[#eef5ff] min-h-[820px]">
 

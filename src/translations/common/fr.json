@@ -1,0 +1,78 @@
+{
+  "headerOptions": [
+    { "name": "home", "label": "Accueil", "link": "/", "options": [] },
+    { "name": "about us", "label": "À Propos", "link": "/aboutus", "options": [] },
+    {
+      "name": "services",
+      "label": "Services",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "Marketing Intelligent", "link": "/" },
+        { "name": "business launch", "label": "Lancement d’Entreprise", "link": "/" },
+        { "name": "professional services", "label": "Services Professionnels", "link": "/" },
+        { "name": "migration", "label": "Migration", "link": "/" },
+        { "name": "training services", "label": "Services de Formation", "link": "/" },
+        { "name": "messaging services", "label": "Services de Messagerie", "link": "/" },
+        { "name": "ip filing services", "label": "Dépôt de Propriété Intellectuelle", "link": "/" }
+      ]
+    },
+    { "name": "products", "label": "Produits", "link": "/products", "options": [] },
+    { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "Carrières", "link": "/careers", "options": [] }
+  ],
+  "contactUs": "Contactez-nous",
+  "footer": {
+    "description": "Partenaire de transformation digitale offrant des solutions cloud-first basées sur l’IA.",
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "items": [
+        { "label": "Accueil", "link": "/" },
+        { "label": "À Propos", "link": "/about-us" },
+        { "label": "Services", "link": "/services" },
+        { "label": "Produits", "link": "/products" }
+      ]
+    },
+    "services": {
+      "title": "Partenariats Commerciaux",
+      "items": [
+        { "label": "Solutions Entreprise", "link": "/services" },
+        { "label": "IA & Automatisation", "link": "/services" }
+      ]
+    },
+    "legal": {
+      "title": "Mentions Légales",
+      "items": [
+        { "label": "Politique de Confidentialité", "link": "/privacy" },
+        { "label": "Conditions Générales", "link": "/terms" }
+      ]
+    },
+    "copyright": "© 2026 Nowit Services. Tous droits réservés."
+  },
+  "contact": {
+    "title": "Démarrons la Conversation",
+    "subtitle": "Partagez votre besoin et notre équipe vous contactera",
+    "labels": {
+      "name": "Nom",
+      "email": "Email",
+      "whatsapp": "Numéro WhatsApp",
+      "date": "Date et Heure Préférées",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Entrez votre nom",
+      "email": "Entrez votre email",
+      "phone": "Entrez le numéro de téléphone",
+      "date": "Sélectionnez date et heure",
+      "message": "Entrez le message"
+    },
+    "button": {
+      "send": "Envoyer",
+      "sending": "Envoi..."
+    }
+  }
+}

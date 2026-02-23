@@ -1,9 +1,9 @@
 'use client'
 
 
-import React, { useRef, useState, useEffect, use } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { useNowit } from "@/store/useNowit";
-
+import Loading from "@/app/loading";
 const List = [
   {
     suffix: "20",
@@ -45,7 +45,7 @@ const OurJourney = () => {
   const scrollRef = useRef(null);
   const [scrolled, setScrolled] = useState(false);
   const [journeyList, setJourneyList] = useState(List);
-  const {t}=useNowit()
+  const {t,isReady}=useNowit()
 
   const handleScroll = () => {
     if (scrollRef.current.scrollTop > 10) {
@@ -62,6 +62,8 @@ useEffect(() => {
             setJourneyList(List)
         }
     }, [t])
+
+    if(!isReady) return <Loading />
 
   return (
     <section className="w-full flex flex-col items-center md:py-24 mt-0 px-5 md:px-10 lg:px-15">

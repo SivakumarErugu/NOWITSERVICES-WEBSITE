@@ -1,0 +1,173 @@
+{
+  "headerOptions": [
+    {
+      "name": "home",
+      "label": "होम",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "हमारे बारे में",
+      "link": "/aboutus",
+      "options": []
+    },
+    {
+      "name": "services",
+      "label": "सेवाएँ",
+      "link": "/",
+      "options": [
+        { "name": "smart marketing", "label": "स्मार्ट मार्केटिंग", "link": "/" },
+        { "name": "business launch", "label": "बिज़नेस लॉन्च", "link": "/" },
+        { "name": "professional services", "label": "प्रोफेशनल सेवाएँ", "link": "/" },
+        { "name": "migration", "label": "माइग्रेशन", "link": "/" },
+        { "name": "training services", "label": "ट्रेनिंग सेवाएँ", "link": "/" },
+        { "name": "messaging services", "label": "मैसेजिंग सेवाएँ", "link": "/" },
+        { "name": "ip filing services", "label": "आईपी फाइलिंग सेवाएँ", "link": "/" }
+      ]
+    },
+    {
+      "name": "products",
+      "label": "उत्पाद",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "ब्लॉग",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "करियर",
+      "link": "/careers",
+      "options": []
+    }
+  ],
+
+  "contactUs": "संपर्क करें",
+
+  "footer": {
+    "description": "एक डिजिटल ट्रांसफॉर्मेशन पार्टनर जो क्लाउड-फर्स्ट और एआई-संचालित समाधानों के माध्यम से स्केलेबल विकास और संचालन उत्कृष्टता प्रदान करता है।",
+
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+
+    "quickLinks": {
+      "title": "त्वरित लिंक",
+      "items": [
+        { "label": "होम", "link": "/" },
+        { "label": "हमारे बारे में", "link": "/about-us" },
+        { "label": "सेवाएँ", "link": "/services" },
+        { "label": "उत्पाद", "link": "/products" }
+      ]
+    },
+
+    "services": {
+      "title": "व्यावसायिक साझेदारियाँ",
+      "items": [
+        { "label": "एंटरप्राइज़ सॉल्यूशंस", "link": "/services" },
+        { "label": "एआई और ऑटोमेशन", "link": "/services" }
+      ]
+    },
+
+    "legal": {
+      "title": "कानूनी एवं अनुपालन",
+      "items": [
+        { "label": "गोपनीयता नीति", "link": "/privacy" },
+        { "label": "नियम और शर्तें", "link": "/terms" }
+      ]
+    },
+
+    "copyright":
+      "© 2026 Nowit Services. सर्वाधिकार सुरक्षित।"
+  },
+  "footer": {
+    "description": "क्लाउड-फर्स्ट और एआई-आधारित समाधानों के साथ स्केलेबल विकास को सक्षम करने वाला डिजिटल ट्रांसफॉर्मेशन पार्टनर।",
+
+    "socialMedia": [
+      { "name": "linkedin", "link": "https://linkedin.com" },
+      { "name": "twitter", "link": "https://twitter.com" },
+      { "name": "instagram", "link": "https://instagram.com" }
+    ],
+
+    "quickLinks": {
+      "title": "त्वरित लिंक",
+      "items": [
+        { "label": "होम", "link": "/" },
+        { "label": "हमारे बारे में", "link": "/about-us" },
+        { "label": "सेवाएँ", "link": "/services" },
+        { "label": "प्रोडक्ट्स", "link": "/products" }
+      ]
+    },
+
+    "services": {
+      "title": "बिज़नेस पार्टनरशिप",
+      "items": [
+        { "label": "एंटरप्राइज़ समाधान", "link": "/services" },
+        { "label": "एआई और ऑटोमेशन", "link": "/services" }
+      ]
+    },
+
+    "legal": {
+      "title": "कानूनी और अनुपालन",
+      "items": [
+        { "label": "प्राइवेसी पॉलिसी", "link": "/privacy" },
+        { "label": "नियम और शर्तें", "link": "/terms" }
+      ]
+    },
+
+    "copyright":
+      "© 2026 Nowit Services. सर्वाधिकार सुरक्षित।"
+  },
+
+  "contact": {
+    "title": "चर्चा की शुरुआत करें",
+    "subtitle": "अपनी आवश्यकता साझा करें और हमारी टीम आपसे संपर्क करेगी",
+
+    "labels": {
+      "name": "नाम",
+      "email": "ईमेल आईडी",
+      "whatsapp": "व्हाट्सएप नंबर",
+      "date": "पसंदीदा संपर्क दिनांक और समय",
+      "message": "संदेश"
+    },
+
+    "placeholders": {
+      "name": "अपना नाम दर्ज करें",
+      "email": "अपना ईमेल दर्ज करें",
+      "phone": "फोन नंबर दर्ज करें",
+      "date": "दिनांक और समय चुनें",
+      "message": "संदेश दर्ज करें"
+    },
+
+    "button": {
+      "send": "भेजें",
+      "sending": "भेजा जा रहा है..."
+    }
+  },
+  "locations": [
+    {
+      "title": "भारत - अमरावती",
+      "address": "लेवल 4, मयूरी टेक पार्क, एनआरआई एग्ज़िट, बायपास रोड, इलेक्ट्रॉनिक सिटी, चिन्नाककानी, आंध्र प्रदेश, 522503।"
+    },
+    {
+      "title": "भारत - विजयवाड़ा",
+      "address": "ग्राउंड फ़्लोर, चालसानी नगर, कानुरु, विजयवाड़ा, आंध्र प्रदेश, 520007।"
+    },
+    {
+      "title": "यूके",
+      "address": "ग्रैंड यूनियन कैनाल, हेज़ और हार्लिंगटन स्टेशन के पास, ग्रेटर लंदन, यूनाइटेड किंगडम, UB3 4QF।"
+    },
+    {
+      "title": "जर्मनी",
+      "address": "हाउज़डॉर्फश्ट्रासे 61, 53129 बॉन, जर्मनी।"
+    }
+  ]
+
+
+}
