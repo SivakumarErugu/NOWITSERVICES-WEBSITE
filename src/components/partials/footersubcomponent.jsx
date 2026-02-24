@@ -24,6 +24,7 @@ const LogoSection = ({ footer }) => {
     if (name === "twitter") return <FaTwitter />;
     if (name === "instagram") return <FaInstagram />;
     if (name === "youtube") return <FaYoutube />;
+    if (name === 'facebook') return <BiLogoFacebook />;
     return null;
   };
 

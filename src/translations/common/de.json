@@ -73,22 +73,21 @@
       "options": []
     }
   ],
-
   "contactUs": "Kontaktieren Sie uns",
-
   "footer": {
     "description": "Ihr Partner für digitale Transformation mit Cloud-First- und KI-gestützten Lösungen für skalierbares Wachstum und operative Exzellenz.",
     "socialMedia": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/p/NOWIT-Services-61559601166623/",
+        "icon": "BiLogoFacebook "
+      },
       {
         "name": "linkedin",
         "link": "https://linkedin.com/company/nowitservices/",
         "icon": "FaLinkedin"
       },
-      {
-        "name": "twitter",
-        "link": "https://www.linkedin.com/company/nowitservices/",
-        "icon": ""
-      },
+      
       {
         "name": "instagram",
         "link": "https://www.instagram.com/_nowitservices_/",
@@ -103,30 +102,56 @@
     "quickLinks": {
       "title": "Schnellzugriffe",
       "items": [
-        { "label": "Startseite", "link": "/" },
-        { "label": "Über uns", "link": "/aboutus" },
-        { "label": "Dienstleistungen", "link": "/services" },
-        { "label": "Produkte", "link": "/products" }
+        {
+          "label": "Startseite",
+          "link": "/"
+        },
+        {
+          "label": "Über uns",
+          "link": "/aboutus"
+        },
+        {
+          "label": "Dienstleistungen",
+          "link": "/services"
+        },
+        {
+          "label": "Produkte",
+          "link": "/products"
+        }
       ]
     },
     "services": {
       "title": "Geschäftspartnerschaften",
       "items": [
-        { "label": "Unternehmenslösungen", "link": "/services" },
-        { "label": "KI & Automatisierung", "link": "/services" }
+        {
+          "label": "Unternehmenslösungen",
+          "link": "/services"
+        },
+        {
+          "label": "KI & Automatisierung",
+          "link": "/services"
+        }
       ]
     },
     "legal": {
       "title": "Recht & Compliance",
       "items": [
-        { "label": "Datenschutzrichtlinie", "link": "/terms-privacy-cookie-policy" },
-        { "label": "Allgemeine Geschäftsbedingungen", "link": "/terms-privacy-cookie-policy" },
-        { "label": "Cookie-Richtlinie", "link": "/terms-privacy-cookie-policy" }
+        {
+          "label": "Datenschutzrichtlinie",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Allgemeine Geschäftsbedingungen",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Cookie-Richtlinie",
+          "link": "/terms-privacy-cookie-policy"
+        }
       ]
     },
     "copyright": "© 2026 Nowit Services. Alle Rechte vorbehalten."
   },
-
   "contact": {
     "title": "Lassen Sie uns das Gespräch beginnen",
     "subtitle": "Teilen Sie uns Ihre Anforderungen mit und unser Team wird sich mit Ihnen in Verbindung setzen",
@@ -149,26 +174,28 @@
       "sending": "Wird gesendet..."
     }
   },
-
   "locations": [
     {
+      "key": "1",
       "title": "INDIEN - Amaravathi",
       "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
     },
     {
+      "key": "2",
       "title": "INDIEN - Vijayawada",
       "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
     },
     {
+      "key": "3",
       "title": "VEREINIGTES KÖNIGREICH",
       "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
     },
     {
+      "key":"4",
       "title": "DEUTSCHLAND",
       "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
     }
   ],
-
   "organizationForm": {
     "organizationDetails": {
       "title": "Organisationsdetails",
@@ -220,24 +247,48 @@
     },
     "options": {
       "entityType": [
-        { "value": "Start Up", "label": "Start-up" },
-        { "value": "Enterprise", "label": "Unternehmen" }
+        {
+          "value": "Start Up",
+          "label": "Start-up"
+        },
+        {
+          "value": "Enterprise",
+          "label": "Unternehmen"
+        }
       ],
       "role": [
-        { "value": "Founder", "label": "Gründer" },
-        { "value": "Partner", "label": "Partner" }
+        {
+          "value": "Founder",
+          "label": "Gründer"
+        },
+        {
+          "value": "Partner",
+          "label": "Partner"
+        }
       ],
       "interestNature": [
-        { "value": "Investor", "label": "Investor" }
+        {
+          "value": "Investor",
+          "label": "Investor"
+        }
       ],
       "primaryInterest": [
-        { "value": "Strategic Partnership", "label": "Strategische Partnerschaft" }
+        {
+          "value": "Strategic Partnership",
+          "label": "Strategische Partnerschaft"
+        }
       ],
       "investmentSize": [
-        { "value": "Upto 10Cr", "label": "Bis zu 10Cr" }
+        {
+          "value": "Upto 10Cr",
+          "label": "Bis zu 10Cr"
+        }
       ],
       "timeline": [
-        { "value": "6-12 Months", "label": "6-12 Monate" }
+        {
+          "value": "6-12 Months",
+          "label": "6-12 Monate"
+        }
       ]
     },
     "toast": {
@@ -246,7 +297,6 @@
       "serverError": "Übermittlung fehlgeschlagen."
     }
   },
-
   "jobApplicationForm": {
     "applicationForm": "Bewerbungsformular",
     "personalInformation": "Persönliche Informationen",

@@ -143,15 +143,16 @@
     "description": "क्लाउड-फर्स्ट और एआई-आधारित समाधानों के साथ स्केलेबल विकास को सक्षम करने वाला डिजिटल ट्रांसफॉर्मेशन पार्टनर।",
     "socialMedia": [
       {
+        "name": "facebook",
+        "link": "https://www.facebook.com/p/NOWIT-Services-61559601166623/",
+        "icon": "BiLogoFacebook "
+      },
+      {
         "name": "linkedin",
         "link": "https://linkedin.com/company/nowitservices/",
         "icon": "FaLinkedin"
       },
-      {
-        "name": "twitter",
-        "link": "https://www.linkedin.com/company/nowitservices/",
-        "icon": ""
-      },
+      
       {
         "name": "instagram",
         "link": "https://www.instagram.com/_nowitservices_/",
@@ -236,18 +237,20 @@
   },
   "locations": [
     {
+      "key":"1",
       "title": "भारत - अमरावती",
       "address": "लेवल 4, मयूरी टेक पार्क, एनआरआई एग्ज़िट, बायपास रोड, इलेक्ट्रॉनिक सिटी, चिन्नाककानी, आंध्र प्रदेश, 522503।"
     },
     {
+      "key":"2",
       "title": "भारत - विजयवाड़ा",
       "address": "ग्राउंड फ़्लोर, चालसानी नगर, कानुरु, विजयवाड़ा, आंध्र प्रदेश, 520007।"
     },
-    {
+    {"key":"3",
       "title": "यूके",
       "address": "ग्रैंड यूनियन कैनाल, हेज़ और हार्लिंगटन स्टेशन के पास, ग्रेटर लंदन, यूनाइटेड किंगडम, UB3 4QF।"
     },
-    {
+    {"key":"4",
       "title": "जर्मनी",
       "address": "हाउज़डॉर्फश्ट्रासे 61, 53129 बॉन, जर्मनी।"
     }

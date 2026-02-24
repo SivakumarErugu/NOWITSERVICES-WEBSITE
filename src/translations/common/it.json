@@ -80,16 +80,16 @@
     "description": "Partner per la trasformazione digitale che offre soluzioni cloud-first e basate sull’IA per una crescita scalabile e l’eccellenza operativa.",
     "socialMedia": [
       {
+        "name": "facebook",
+        "link": "https://www.facebook.com/p/NOWIT-Services-61559601166623/",
+        "icon": "BiLogoFacebook "
+      },
+      {
         "name": "linkedin",
         "link": "https://linkedin.com/company/nowitservices/",
         "icon": "FaLinkedin"
       },
-      {
-        "name": "twitter",
-        "link": "https://www.linkedin.com/company/nowitservices/",
-        "icon": ""
-      },
-      {
+          {
         "name": "instagram",
         "link": "https://www.instagram.com/_nowitservices_/",
         "icon": "FaInstagram"
@@ -178,19 +178,19 @@
   },
 
   "locations": [
-    {
+    {"key":"1",
       "title": "INDIA - Amaravathi",
       "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
     },
-    {
+    {"key":"2",
       "title": "INDIA - Vijayawada",
       "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
     },
-    {
+    {"key":"3",
       "title": "REGNO UNITO",
       "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
     },
-    {
+    {"key":"4",
       "title": "GERMANIA",
       "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
     }

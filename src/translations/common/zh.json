@@ -73,21 +73,19 @@
       "options": []
     }
   ],
-
   "contactUs": "联系我们",
-
   "footer": {
     "description": "数字化转型合作伙伴，提供以云为先、人工智能驱动的解决方案，助力企业实现可扩展增长与卓越运营。",
     "socialMedia": [
       {
+        "name": "facebook",
+        "link": "https://www.facebook.com/p/NOWIT-Services-61559601166623/",
+        "icon": "BiLogoFacebook "
+      },
+      {
         "name": "linkedin",
         "link": "https://linkedin.com/company/nowitservices/",
         "icon": "FaLinkedin"
-      },
-      {
-        "name": "twitter",
-        "link": "https://www.linkedin.com/company/nowitservices/",
-        "icon": ""
       },
       {
         "name": "instagram",
@@ -103,30 +101,56 @@
     "quickLinks": {
       "title": "快速链接",
       "items": [
-        { "label": "首页", "link": "/" },
-        { "label": "关于我们", "link": "/aboutus" },
-        { "label": "服务", "link": "/services" },
-        { "label": "产品", "link": "/products" }
+        {
+          "label": "首页",
+          "link": "/"
+        },
+        {
+          "label": "关于我们",
+          "link": "/aboutus"
+        },
+        {
+          "label": "服务",
+          "link": "/services"
+        },
+        {
+          "label": "产品",
+          "link": "/products"
+        }
       ]
     },
     "services": {
       "title": "业务合作",
       "items": [
-        { "label": "企业解决方案", "link": "/services" },
-        { "label": "人工智能与自动化", "link": "/services" }
+        {
+          "label": "企业解决方案",
+          "link": "/services"
+        },
+        {
+          "label": "人工智能与自动化",
+          "link": "/services"
+        }
       ]
     },
     "legal": {
       "title": "法律与合规",
       "items": [
-        { "label": "隐私政策", "link": "/terms-privacy-cookie-policy" },
-        { "label": "条款与条件", "link": "/terms-privacy-cookie-policy" },
-        { "label": "Cookie 政策", "link": "/terms-privacy-cookie-policy" }
+        {
+          "label": "隐私政策",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "条款与条件",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Cookie 政策",
+          "link": "/terms-privacy-cookie-policy"
+        }
       ]
     },
     "copyright": "© 2026 Nowit Services. 版权所有。"
   },
-
   "contact": {
     "title": "开启沟通",
     "subtitle": "请分享您的需求，我们的团队将与您联系",
@@ -149,26 +173,28 @@
       "sending": "发送中..."
     }
   },
-
   "locations": [
     {
+      "key": "1..",
       "title": "印度 - 阿马拉瓦蒂",
       "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
     },
     {
+      "key": "2",
       "title": "印度 - 维杰亚瓦达",
       "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
     },
     {
+      "key": "3",
       "title": "英国",
       "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
     },
     {
+      "key": "4",
       "title": "德国",
       "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
     }
   ],
-
   "organizationForm": {
     "organizationDetails": {
       "title": "组织信息",
@@ -220,24 +246,48 @@
     },
     "options": {
       "entityType": [
-        { "value": "Start Up", "label": "初创公司" },
-        { "value": "Enterprise", "label": "企业" }
+        {
+          "value": "Start Up",
+          "label": "初创公司"
+        },
+        {
+          "value": "Enterprise",
+          "label": "企业"
+        }
       ],
       "role": [
-        { "value": "Founder", "label": "创始人" },
-        { "value": "Partner", "label": "合伙人" }
+        {
+          "value": "Founder",
+          "label": "创始人"
+        },
+        {
+          "value": "Partner",
+          "label": "合伙人"
+        }
       ],
       "interestNature": [
-        { "value": "Investor", "label": "投资者" }
+        {
+          "value": "Investor",
+          "label": "投资者"
+        }
       ],
       "primaryInterest": [
-        { "value": "Strategic Partnership", "label": "战略合作" }
+        {
+          "value": "Strategic Partnership",
+          "label": "战略合作"
+        }
       ],
       "investmentSize": [
-        { "value": "Upto 10Cr", "label": "最高 10Cr" }
+        {
+          "value": "Upto 10Cr",
+          "label": "最高 10Cr"
+        }
       ],
       "timeline": [
-        { "value": "6-12 Months", "label": "6-12 个月" }
+        {
+          "value": "6-12 Months",
+          "label": "6-12 个月"
+        }
       ]
     },
     "toast": {
@@ -246,7 +296,6 @@
       "serverError": "提交失败。"
     }
   },
-
   "jobApplicationForm": {
     "applicationForm": "申请表",
     "personalInformation": "个人信息",

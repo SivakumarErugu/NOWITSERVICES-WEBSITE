@@ -1,5 +1,4 @@
-
-  {
+{
   "headerOptions": [
     {
       "name": "home",
@@ -74,21 +73,19 @@
       "options": []
     }
   ],
-
   "contactUs": "Связаться с нами",
-
   "footer": {
     "description": "Партнёр по цифровой трансформации, предоставляющий облачные и AI-ориентированные решения для масштабируемого роста и операционного совершенства.",
     "socialMedia": [
       {
+        "name": "facebook",
+        "link": "https://www.facebook.com/p/NOWIT-Services-61559601166623/",
+        "icon": "BiLogoFacebook "
+      },
+      {
         "name": "linkedin",
         "link": "https://linkedin.com/company/nowitservices/",
         "icon": "FaLinkedin"
-      },
-      {
-        "name": "twitter",
-        "link": "https://www.linkedin.com/company/nowitservices/",
-        "icon": ""
       },
       {
         "name": "instagram",
@@ -104,30 +101,56 @@
     "quickLinks": {
       "title": "Быстрые ссылки",
       "items": [
-        { "label": "Главная", "link": "/" },
-        { "label": "О нас", "link": "/aboutus" },
-        { "label": "Услуги", "link": "/services" },
-        { "label": "Продукты", "link": "/products" }
+        {
+          "label": "Главная",
+          "link": "/"
+        },
+        {
+          "label": "О нас",
+          "link": "/aboutus"
+        },
+        {
+          "label": "Услуги",
+          "link": "/services"
+        },
+        {
+          "label": "Продукты",
+          "link": "/products"
+        }
       ]
     },
     "services": {
       "title": "Бизнес-партнёрства",
       "items": [
-        { "label": "Корпоративные решения", "link": "/services" },
-        { "label": "ИИ и автоматизация", "link": "/services" }
+        {
+          "label": "Корпоративные решения",
+          "link": "/services"
+        },
+        {
+          "label": "ИИ и автоматизация",
+          "link": "/services"
+        }
       ]
     },
     "legal": {
       "title": "Право и соответствие",
       "items": [
-        { "label": "Политика конфиденциальности", "link": "/terms-privacy-cookie-policy" },
-        { "label": "Условия и положения", "link": "/terms-privacy-cookie-policy" },
-        { "label": "Политика использования файлов cookie", "link": "/terms-privacy-cookie-policy" }
+        {
+          "label": "Политика конфиденциальности",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Условия и положения",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Политика использования файлов cookie",
+          "link": "/terms-privacy-cookie-policy"
+        }
       ]
     },
     "copyright": "© 2026 Nowit Services. Все права защищены."
   },
-
   "contact": {
     "title": "Давайте начнём разговор",
     "subtitle": "Поделитесь вашими требованиями, и наша команда свяжется с вами",
@@ -150,26 +173,28 @@
       "sending": "Отправка..."
     }
   },
-
   "locations": [
     {
+      "key": "1",
       "title": "ИНДИЯ - Амаравати",
       "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
     },
     {
+      "key": "2",
       "title": "ИНДИЯ - Виджаявада",
       "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
     },
     {
+      "key": "3",
       "title": "ВЕЛИКОБРИТАНИЯ",
       "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
     },
     {
+      "key": "4",
       "title": "ГЕРМАНИЯ",
       "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
     }
   ],
-
   "organizationForm": {
     "organizationDetails": {
       "title": "Данные организации",
@@ -221,24 +246,48 @@
     },
     "options": {
       "entityType": [
-        { "value": "Start Up", "label": "Стартап" },
-        { "value": "Enterprise", "label": "Компания" }
+        {
+          "value": "Start Up",
+          "label": "Стартап"
+        },
+        {
+          "value": "Enterprise",
+          "label": "Компания"
+        }
       ],
       "role": [
-        { "value": "Founder", "label": "Основатель" },
-        { "value": "Partner", "label": "Партнёр" }
+        {
+          "value": "Founder",
+          "label": "Основатель"
+        },
+        {
+          "value": "Partner",
+          "label": "Партнёр"
+        }
       ],
       "interestNature": [
-        { "value": "Investor", "label": "Инвестор" }
+        {
+          "value": "Investor",
+          "label": "Инвестор"
+        }
       ],
       "primaryInterest": [
-        { "value": "Strategic Partnership", "label": "Стратегическое партнёрство" }
+        {
+          "value": "Strategic Partnership",
+          "label": "Стратегическое партнёрство"
+        }
       ],
       "investmentSize": [
-        { "value": "Upto 10Cr", "label": "До 10Cr" }
+        {
+          "value": "Upto 10Cr",
+          "label": "До 10Cr"
+        }
       ],
       "timeline": [
-        { "value": "6-12 Months", "label": "6-12 месяцев" }
+        {
+          "value": "6-12 Months",
+          "label": "6-12 месяцев"
+        }
       ]
     },
     "toast": {
@@ -247,7 +296,6 @@
       "serverError": "Не удалось отправить."
     }
   },
-
   "jobApplicationForm": {
     "applicationForm": "Форма заявки",
     "personalInformation": "Личная информация",

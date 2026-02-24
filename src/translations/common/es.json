@@ -1,63 +1,156 @@
 {
   "headerOptions": [
-    { "name": "home", "label": "Inicio", "link": "/", "options": [] },
-    { "name": "about us", "label": "Sobre Nosotros", "link": "/aboutus", "options": [] },
+    {
+      "name": "home",
+      "label": "Inicio",
+      "link": "/",
+      "options": []
+    },
+    {
+      "name": "about us",
+      "label": "Sobre Nosotros",
+      "link": "/aboutus",
+      "options": []
+    },
     {
       "name": "services",
       "label": "Servicios",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "Marketing Inteligente", "link": "/" },
-        { "name": "business launch", "label": "Lanzamiento de Negocio", "link": "/" },
-        { "name": "professional services", "label": "Servicios Profesionales", "link": "/" },
-        { "name": "migration", "label": "Migración", "link": "/" },
-        { "name": "training services", "label": "Servicios de Capacitación", "link": "/" },
-        { "name": "messaging services", "label": "Servicios de Mensajería", "link": "/" },
-        { "name": "ip filing services", "label": "Servicios de Registro de Propiedad Intelectual", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "Marketing Inteligente",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "Lanzamiento de Negocio",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "Servicios Profesionales",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "Migración",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "Servicios de Capacitación",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "Servicios de Mensajería",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "Servicios de Registro de Propiedad Intelectual",
+          "link": "/"
+        }
       ]
     },
-    { "name": "products", "label": "Productos", "link": "/products", "options": [] },
-    { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
-    { "name": "careers", "label": "Carreras", "link": "/careers", "options": [] }
+    {
+      "name": "products",
+      "label": "Productos",
+      "link": "/products",
+      "options": []
+    },
+    {
+      "name": "blog",
+      "label": "Blog",
+      "link": "/blog",
+      "options": []
+    },
+    {
+      "name": "careers",
+      "label": "Carreras",
+      "link": "/careers",
+      "options": []
+    }
   ],
-
   "contactUs": "Contáctanos",
-
   "footer": {
     "description": "Socio de transformación digital que ofrece soluciones basadas en la nube e impulsadas por IA para un crecimiento escalable y excelencia operativa.",
     "socialMedia": [
-      { "name": "linkedin", "link": "https://linkedin.com/company/nowitservices/", "icon": "FaLinkedin" },
-      { "name": "twitter", "link": "https://www.linkedin.com/company/nowitservices/", "icon": "" },
-      { "name": "instagram", "link": "https://www.instagram.com/_nowitservices_/", "icon": "FaInstagram" },
-      { "name": "youtube", "link": "https://www.youtube.com/@NOWITSERVICES-j7k", "icon": "FaYoutube" }
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/p/NOWIT-Services-61559601166623/",
+        "icon": "BiLogoFacebook "
+      },
+      {
+        "name": "linkedin",
+        "link": "https://linkedin.com/company/nowitservices/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/_nowitservices_/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/@NOWITSERVICES-j7k",
+        "icon": "FaYoutube"
+      }
     ],
     "quickLinks": {
       "title": "Enlaces Rápidos",
       "items": [
-        { "label": "Inicio", "link": "/" },
-        { "label": "Sobre Nosotros", "link": "/aboutus" },
-        { "label": "Servicios", "link": "/services" },
-        { "label": "Productos", "link": "/products" }
+        {
+          "label": "Inicio",
+          "link": "/"
+        },
+        {
+          "label": "Sobre Nosotros",
+          "link": "/aboutus"
+        },
+        {
+          "label": "Servicios",
+          "link": "/services"
+        },
+        {
+          "label": "Productos",
+          "link": "/products"
+        }
       ]
     },
     "services": {
       "title": "Alianzas Empresariales",
       "items": [
-        { "label": "Soluciones Empresariales", "link": "/services" },
-        { "label": "IA y Automatización", "link": "/services" }
+        {
+          "label": "Soluciones Empresariales",
+          "link": "/services"
+        },
+        {
+          "label": "IA y Automatización",
+          "link": "/services"
+        }
       ]
     },
     "legal": {
       "title": "Legal y Cumplimiento",
       "items": [
-        { "label": "Política de Privacidad", "link": "/terms-privacy-cookie-policy" },
-        { "label": "Términos y Condiciones", "link": "/terms-privacy-cookie-policy" },
-        { "label": "Política de Cookies", "link": "/terms-privacy-cookie-policy" }
+        {
+          "label": "Política de Privacidad",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Términos y Condiciones",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "Política de Cookies",
+          "link": "/terms-privacy-cookie-policy"
+        }
       ]
     },
     "copyright": "© 2026 Nowit Services. Todos los derechos reservados."
   },
-
   "contact": {
     "title": "Comencemos la Conversación",
     "subtitle": "Comparte tus requisitos y nuestro equipo se pondrá en contacto contigo",
@@ -75,16 +168,33 @@
       "date": "Selecciona fecha y hora",
       "message": "Ingresa mensaje"
     },
-    "button": { "send": "Enviar", "sending": "Enviando..." }
+    "button": {
+      "send": "Enviar",
+      "sending": "Enviando..."
+    }
   },
-
   "locations": [
-    { "title": "INDIA - Amaravathi", "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503." },
-    { "title": "INDIA - Vijayawada", "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007." },
-    { "title": "REINO UNIDO", "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF." },
-    { "title": "ALEMANIA", "address": "Hausdorffstraße 61, 53129 Bonn, Germany." }
+    {
+      "key": "1",
+      "title": "INDIA - Amaravathi",
+      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+    },
+    {
+      "key": "2",
+      "title": "INDIA - Vijayawada",
+      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+    },
+    {
+      "key": "3",
+      "title": "REINO UNIDO",
+      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+    },
+    {
+      "key": "4",
+      "title": "ALEMANIA",
+      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+    }
   ],
-
   "organizationForm": {
     "organizationDetails": {
       "title": "Detalles de la Organización",
@@ -115,7 +225,12 @@
       "confirm": "Confirmo que la información proporcionada es verdadera y precisa.",
       "consent": "Acepto ser contactado para más conversaciones."
     },
-    "buttons": { "next": "Siguiente", "back": "Atrás", "send": "Enviar", "sending": "Enviando..." },
+    "buttons": {
+      "next": "Siguiente",
+      "back": "Atrás",
+      "send": "Enviar",
+      "sending": "Enviando..."
+    },
     "validation": {
       "companyName": "El nombre de la empresa es obligatorio",
       "entityType": "El tipo de entidad es obligatorio",
@@ -131,24 +246,48 @@
     },
     "options": {
       "entityType": [
-        { "value": "Start Up", "label": "Startup" },
-        { "value": "Enterprise", "label": "Empresa" }
+        {
+          "value": "Start Up",
+          "label": "Startup"
+        },
+        {
+          "value": "Enterprise",
+          "label": "Empresa"
+        }
       ],
       "role": [
-        { "value": "Founder", "label": "Fundador" },
-        { "value": "Partner", "label": "Socio" }
+        {
+          "value": "Founder",
+          "label": "Fundador"
+        },
+        {
+          "value": "Partner",
+          "label": "Socio"
+        }
       ],
       "interestNature": [
-        { "value": "Investor", "label": "Inversor" }
+        {
+          "value": "Investor",
+          "label": "Inversor"
+        }
       ],
       "primaryInterest": [
-        { "value": "Strategic Partnership", "label": "Alianza Estratégica" }
+        {
+          "value": "Strategic Partnership",
+          "label": "Alianza Estratégica"
+        }
       ],
       "investmentSize": [
-        { "value": "Upto 10Cr", "label": "Hasta 10Cr" }
+        {
+          "value": "Upto 10Cr",
+          "label": "Hasta 10Cr"
+        }
       ],
       "timeline": [
-        { "value": "6-12 Months", "label": "6-12 Meses" }
+        {
+          "value": "6-12 Months",
+          "label": "6-12 Meses"
+        }
       ]
     },
     "toast": {
@@ -157,7 +296,6 @@
       "serverError": "Error al enviar."
     }
   },
-
   "jobApplicationForm": {
     "applicationForm": "Formulario de Solicitud",
     "personalInformation": "Información Personal",

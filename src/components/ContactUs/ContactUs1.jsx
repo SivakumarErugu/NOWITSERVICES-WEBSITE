@@ -41,7 +41,7 @@ const validationSchema = Yup.object({
 /* ---------------- COMPONENT ---------------- */
 
 export default function ContactSection() {
-    const {tc,commonReady}=useNowit();
+    const { tc, commonReady } = useNowit();
     const submitForm = async (values) => {
         const formData = new FormData();
 
@@ -158,11 +158,11 @@ export default function ContactSection() {
             </div>
         );
     }
-    
-    if(!commonReady) return <Loading />;
-    const contact=tc("contact")
-    console.log(contact," Contact here ")
-    if(!contact) return null
+
+    if (!commonReady) return <Loading />;
+    const contact = tc("contact")
+    console.log(contact, " Contact here ")
+    if (!contact) return null
 
     return (
         <section
@@ -193,7 +193,7 @@ export default function ContactSection() {
 
                     {/* Header */}
                     <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold flex items-center gap-2">
-                      {contact.title}
+                        {contact.title}
                         <span className="inline-block w-6 sm:w-8 lg:w-12 h-0.5 bg-[#55B233]" />
                     </h2>
 
@@ -229,7 +229,7 @@ export default function ContactSection() {
                         {/* Email */}
                         <div className="h-23">
                             <label htmlFor="email" className="text-sm mb-1 block">
-                               {contact.labels.email} *
+                                {contact.labels.email} *
                             </label>
                             <input
                                 id="email"
@@ -249,7 +249,7 @@ export default function ContactSection() {
                         {/* Whatsapp */}
                         <div className="md:col-span-1 h-23">
                             <label className="text-sm mb-1 block">
-                             {contact.labels.whatsapp} *
+                                {contact.labels.whatsapp} *
                             </label>
 
                             <div className="flex">
@@ -282,7 +282,7 @@ export default function ContactSection() {
                         {/* DATE + TIME */}
                         <div className="h-23 w-full">
                             <label className="text-sm mb-1 block">
-                              {contact.labels.date} *
+                                {contact.labels.date} *
                             </label>
 
                             <DatePicker
@@ -306,7 +306,7 @@ export default function ContactSection() {
                         {/* Message */}
                         <div className="md:col-span-2 h-30">
                             <label htmlFor="message" className="text-sm mb-1 block">
-                              {contact.labels.message} *
+                                {contact.labels.message} *
                             </label>
                             <textarea
                                 id="message"
@@ -326,7 +326,7 @@ export default function ContactSection() {
                         {/* Submit */}
                         <div className="md:col-span-2 mt-3 flex justify-center">
                             <ThemeBtnTag
-                                BtnText={formik.isSubmitting ? contact.button.sending: contact.button.send}
+                                BtnText={formik.isSubmitting ? contact.button.sending : contact.button.send}
                                 type="submit"
                                 disabled={formik.isSubmitting}
                                 styles="w-full sm:w-2/3 lg:w-1/2 h-[42px] bg-[#55B233] text-white !font-medium !rounded-md hover:bg-[#43a047] border-0 disabled:opacity-60"
@@ -350,8 +350,8 @@ export default function ContactSection() {
                         </div>
 
                         <span className="opacity-60 hidden sm:inline">|</span>
-                        <a href="mailto: contact.us@nowitservices.com" className="hover:underline">
-                            contact.us@nowitservices.com
+                        <a href="tel:+919876543210" className="hover:underline">
+                            +91 7893536373
                         </a>
 
                         <span className="opacity-60 hidden sm:inline">|</span>

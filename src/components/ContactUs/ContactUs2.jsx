@@ -9,7 +9,7 @@ import Amaravathi from '../../../public/images/Locations/Amaravathi.png'
 import Mayuri from '../../../public/images/Locations/Mayuri.png'
 import Germany from '../../../public/images/Locations/Germany.png'
 import UK from '../../../public/images/Locations/UK.jpg'
-import { useEffect,useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNowit } from '@/store/useNowit'
 import Loading from '@/app/loading'
 
@@ -41,7 +41,12 @@ const LocationCard = ({ image, title, address }) => {
         </div>
     )
 }
-
+const locationImages = {
+    "1": Mayuri,
+    "2": Amaravathi,
+    "3": UK,
+    "4": Germany
+}
 /* ---------------- MAIN COMPONENT ---------------- */
 const ContactUs2 = () => {
     const locations_dummyList = [
@@ -71,15 +76,20 @@ const ContactUs2 = () => {
         },
 
     ]
-    const [locations,setLocations]=useState(locations_dummyList)
-    const {tc,commonReady}=useNowit()
-    useEffect(()=>{
-        if(commonReady){
-            const List=tc("locations")
-            setLocations(List)
-        }
-    },[commonReady])
-    if(!commonReady) return <Loading />
+    const [locations, setLocations] = useState(locations_dummyList)
+    const { tc, commonReady } = useNowit()
+useEffect(() => {
+  if (commonReady) {
+    const List = tc("locations")
+
+    const mappedLocations = List.map((loc) => ({
+      ...loc,
+      image: locationImages[loc.key] || Mayuri // fallback safety
+    }))
+    setLocations(mappedLocations)
+  }
+}, [commonReady])
+    if (!commonReady) return <Loading />
 
     return (
         <section className="w-full bg-white py-4 lg:py-8 px-4 lg:px-10">

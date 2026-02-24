@@ -80,15 +80,16 @@
     "description": "شريك التحول الرقمي الذي يقدم حلولاً سحابية مدعومة بالذكاء الاصطناعي لتمكين النمو القابل للتوسع والتميز التشغيلي.",
     "socialMedia": [
       {
+        "name": "facebook",
+        "link": "https://www.facebook.com/p/NOWIT-Services-61559601166623/",
+        "icon": "BiLogoFacebook "
+      },
+      {
         "name": "linkedin",
         "link": "https://linkedin.com/company/nowitservices/",
         "icon": "FaLinkedin"
       },
-      {
-        "name": "twitter",
-        "link": "https://www.linkedin.com/company/nowitservices/",
-        "icon": ""
-      },
+      
       {
         "name": "instagram",
         "link": "https://www.instagram.com/_nowitservices_/",
@@ -152,18 +153,22 @@
 
   "locations": [
     {
+      "key":"1",
       "title": "الهند - أمارافاثي",
       "address": "المستوى 4، حديقة مايورِي التقنية، مخرج NRI، طريق باي باس، المدينة الإلكترونية، تشينّاككاني، أندرا براديش، 522503."
     },
     {
+      "key":"2",
       "title": "الهند - فيجاياوادا",
       "address": "الطابق الأرضي، تشالاساني ناغار، كانورو، فيجاياوادا، أندرا براديش، 520007."
     },
     {
+      "key":"3",
       "title": "المملكة المتحدة",
       "address": "قناة غراند يونيون، بالقرب من محطة هايز وهارلينغتون، لندن الكبرى، المملكة المتحدة، UB3 4QF."
     },
     {
+      "key":"4",
       "title": "ألمانيا",
       "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
     }
