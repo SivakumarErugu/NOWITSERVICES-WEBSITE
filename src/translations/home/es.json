@@ -18,7 +18,6 @@
   "hero.getStarted": "Comenzar",
   "hero.unified": "Servicios Unificados",
   "hero.reliable": "Soporte Confiable",
-
   "partner.slidingTitle": "Quiénes Somos",
   "partner.title.prefix": "Tu",
   "partner.span": "Socio de Confianza",
@@ -28,12 +27,10 @@
   "partner.trusted": "Confiado",
   "partner.clients": "por Clientes Globales",
   "partner.talktoai": "Hablar con IA",
-
   "services.slidingTitle": "Nuestros Servicios",
   "services.title": "De Extremo a Extremo",
   "services.span": "Servicios Digitales",
   "services.description": "Ofrecemos servicios de software integrales que ayudan a las empresas a construir, escalar y modernizar sus productos digitales. Desde la estrategia y el diseño hasta el desarrollo y la implementación, entregamos soluciones confiables y de alta calidad adaptadas a tus necesidades.",
-
   "services.carouselList": [
     {
       "id": 1,
@@ -43,63 +40,119 @@
         "Campañas digitales basadas en datos",
         "Contenido y narrativa de marca",
         "Segmentación de audiencia con IA",
-        "Seguimiento y análisis de rendimiento"
+        "Seguimiento del rendimiento y análisis"
       ],
       "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770101348/11e3aac0dce76853e6258264f65104a0fa6a3c79_fh8u6f.png"
     },
     {
       "id": 2,
-      "name": "Migración a la Nube y Aplicaciones",
-      "description": "Servicios de migración a la nube seguros y escalables para empresas modernas",
+      "name": "Migración a la Nube y de Aplicaciones",
+      "description": "Servicios seguros y escalables de migración a la nube para empresas modernas.",
       "items": [
-        "Migración segura de datos y nube",
+        "Migración segura de nube y datos",
         "Optimización de infraestructura",
         "Integraciones de API y sistemas",
-        "Evaluación y planificación de riesgos"
+        "Evaluación de riesgos y planificación"
       ],
       "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356901/787391b8a2d01629d1826883507b814724f98de5_kukm4w.png"
+    },
+    {
+      "id": 3,
+      "name": "Servicios Profesionales y de Consultoría",
+      "description": "Consultoría empresarial y de TI experta para el crecimiento estratégico y la ejecución.",
+      "items": [
+        "Consultoría empresarial y de TI",
+        "Planificación y ejecución de proyectos",
+        "Gestión de recursos",
+        "Soporte técnico continuo"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356865/dfdc55b3695c6498accd3d27af5fcd826c2f6150_qkuvdr.png"
+    },
+    {
+      "id": 4,
+      "name": "Servicios de Mensajería y Comunicación",
+      "description": "Soluciones de comunicación impulsadas por IA para mejorar la interacción con los clientes.",
+      "items": [
+        "Envío masivo de SMS y mensajes por WhatsApp",
+        "Chatbots con IA y respuestas automáticas",
+        "Gestión de clientes en tiempo real",
+        "Análisis de campañas"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356840/01c80b55732fc272c8810482d6e08e9861510ec2_dw1il7.png"
+    },
+    {
+      "id": 5,
+      "name": "Servicios de Lanzamiento Empresarial",
+      "description": "Ayudamos a las empresas a comenzar con fuerza mediante soporte integral de lanzamiento e información impulsada por IA.",
+      "items": [
+        "Registro de marca y configuración de identidad",
+        "Creación de sitio web y presencia digital",
+        "Marketing, relaciones públicas y campañas de lanzamiento"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770452201/dac7f0714e3f8860a8013c2383c387bb9356d9cd_gwa9y2.png"
+    },
+    {
+      "id": 6,
+      "name": "Servicios de Registro de Propiedad Intelectual",
+      "description": "Protege tu innovación con servicios de propiedad intelectual seguros y confiables.",
+      "items": [
+        "Presentación y gestión de patentes",
+        "Registro de marcas",
+        "Protección de derechos de autor",
+        "Búsqueda y validación de PI asistida por IA"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356827/6b8cd3f3dd9b6ca2334620d8ea0abd241ae56e1b_sfuofx.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Servicios de Formación y Desarrollo",
+      "description": "Capacita a los equipos con formación digital y tecnológica relevante para la industria.",
+      "items": [
+        "Formación en habilidades digitales y de TI",
+        "Programas de IA y tecnología en la nube",
+        "Marketing, relaciones públicas y campañas de lanzamiento",
+        "Información de mercado impulsada por IA"
+      ],
+      "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
     }
   ],
-
   "products.slidingTitle": "Nuestros Productos",
   "products.title": "Productos Digitales",
   "products.span": "Listos para Empresas",
   "products.description": "Nuestros productos están diseñados para resolver desafíos empresariales mediante soluciones digitales inteligentes y escalables.",
-"products.appList": [
-  {
-    "id": 1,
-    "name": "Guon Hubs",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-    "description": "Guon Hubs es una plataforma educativa integral diseñada para transformar la gestión escolar y el aprendizaje."
-  },
-  {
-    "id": 2,
-    "name": "Guon Digi",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-    "description": "Guon Digi es una plataforma educativa todo en uno para la gestión académica."
-  },
-  {
-    "id": 3,
-    "name": "Guon Pulse",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-    "description": "Guon Pulse es un software integral de gestión hospitalaria diseñado para optimizar procesos clínicos y administrativos."
-  },
-  {
-    "id": 4,
-    "name": "Guon Bills",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-    "description": "Guon Bills es una solución inteligente de facturación y gestión financiera."
-  },
-  {
-    "id": 5,
-    "name": "Guon Bridge",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-    "description": "Guon Bridge es una plataforma integrada de comunicación y colaboración."
-  }
-],
-
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "Guon Hubs",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "Guon Hubs es una plataforma educativa integral diseñada para transformar la gestión escolar y el aprendizaje."
+    },
+    {
+      "id": 2,
+      "name": "Guon Digi",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "Guon Digi es una plataforma educativa todo en uno para la gestión académica."
+    },
+    {
+      "id": 3,
+      "name": "Guon Pulse",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "Guon Pulse es un software integral de gestión hospitalaria diseñado para optimizar procesos clínicos y administrativos."
+    },
+    {
+      "id": 4,
+      "name": "Guon Bills",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "Guon Bills es una solución inteligente de facturación y gestión financiera."
+    },
+    {
+      "id": 5,
+      "name": "Guon Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "Guon Bridge es una plataforma integrada de comunicación y colaboración."
+    }
+  ],
   "products.viewProduct": "Ver Producto",
-
   "Industry.title": "Soluciones para",
   "Industry.span": "Cada Industria",
   "Industry.description": "NOWIT Services ofrece transformación digital impulsada por IA.",
@@ -109,7 +162,7 @@
     "Finanzas y Banca",
     "Retail y Comercio Electrónico",
     "Manufactura",
-    "Logística y Cadena de Suministro",
+    "Logística y Cadena  Suministro",
     "Bienes Raíces",
     "Viajes y Hospitalidad",
     "TI y Tecnología",
@@ -117,7 +170,6 @@
     "Energía y Servicios Públicos",
     "Automotriz"
   ],
-
   "testimonials.slidingTitle": "Testimonios",
   "testimonials.title.prefix": "Construyendo",
   "testimonials.title.suffix": "a Través de Resultados",
@@ -140,7 +192,6 @@
       "text": "Su experiencia técnica nos ayudó a construir una solución confiable."
     }
   ],
-
   "faq.span": "Preguntas Frecuentes",
   "faq.title": "Preguntas Frecuentes",
   "faq.subquestion": "¿Aún tienes preguntas?",
@@ -168,7 +219,6 @@
       "description": "Sí, están diseñadas para escalar sin problemas."
     }
   ],
-
   "trustedbanner.subTitle": "Confiado Por",
   "trustedbanner.title": "Proveedor Global de Servicios",
   "becomepartner.title.prefix": "Crecer",
@@ -176,7 +226,6 @@
   "becomepartner.title.suffix": "a Través de la Asociación",
   "becomepartner.description": "Asóciate con NowIT Services para innovar.",
   "becomepartner.becomepartner": "Conviértete en Socio",
-
   "contactus": "Contáctanos",
   "industries": "Industrias",
   "testimonials.title": "Testimonios",

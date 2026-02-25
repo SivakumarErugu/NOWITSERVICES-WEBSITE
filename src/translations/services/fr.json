@@ -377,51 +377,6 @@
   "bussinessBanner.title.suffix": "À Lancer",
   "bussinessBanner.line2.title": "Et Développer Votre Entreprise",
   "bussinessBanner.description": "Parlez à nos experts pour accélérer votre croissance.",
-  "bussinessBanner.buttonText": "Contactez-nous",
-  "headerOptions": [
-    {
-      "name": "home",
-      "label": "Accueil",
-      "link": "/",
-      "options": []
-    },
-    {
-      "name": "about us",
-      "label": "À Propos",
-      "link": "/aboutus",
-      "options": []
-    },
-    {
-      "name": "services",
-      "label": "Services",
-      "link": "/",
-      "options": [
-        { "name": "smart marketing", "label": "Marketing Intelligent", "link": "/" },
-        { "name": "business launch", "label": "Lancement d’Entreprise", "link": "/" },
-        { "name": "professional services", "label": "Services Professionnels", "link": "/" },
-        { "name": "migration", "label": "Migration", "link": "/" },
-        { "name": "training services", "label": "Formation", "link": "/" },
-        { "name": "messaging services", "label": "Messagerie", "link": "/" },
-        { "name": "ip filing services", "label": "Propriété Intellectuelle", "link": "/" }
-      ]
-    },
-    {
-      "name": "products",
-      "label": "Produits",
-      "link": "/products",
-      "options": []
-    },
-    {
-      "name": "blog",
-      "label": "Blog",
-      "link": "/blog",
-      "options": []
-    },
-    {
-      "name": "careers",
-      "label": "Carrières",
-      "link": "/careers",
-      "options": []
-    }
-  ]
+  "bussinessBanner.buttonText": "Contactez-nous"
+
 }

@@ -121,19 +121,19 @@
         }
       ]
     },
-    "services": {
-      "title": "Parcerias Empresariais",
-      "items": [
-        {
-          "label": "Soluções Empresariais",
-          "link": "/services"
-        },
-        {
-          "label": "IA & Automação",
-          "link": "/services"
-        }
-      ]
+"services": {
+  "title": "Parcerias Empresariais",
+  "items": [
+    {
+      "label": "Torne-se um Parceiro",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "Torne-se um Investidor",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "Legal & Conformidade",
       "items": [

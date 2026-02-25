@@ -144,20 +144,20 @@ const ServicesHero = () => {
                         {/* LEFT */}
                         <div className="flex flex-col justify-between py-16 px-10 h-[90%]">
                             <h2 className="text-[36px] font-medium ibmPlex-text">
-                                {currentItem.name}
+                                {currentItem?.name}
                             </h2>
                             <span className="text-[72px] font-bold opacity-90 praise-text">
-                                {currentItem.id}
+                                {currentItem?.id}
                             </span>
                         </div>
 
                         {/* CENTER */}
                         <div className="flex items-center justify-center">
                             <div className="relative w-[336px] h-[383px] overflow-hidden">
-                                {currentItem.image_url && (
+                                {currentItem?.image_url && (
                                     <Image
-                                        src={currentItem.image_url}
-                                        alt={currentItem.name}
+                                        src={currentItem?.image_url}
+                                        alt={currentItem?.name}
                                         fill
                                         className="object-cover shadow-lg"
                                         priority
@@ -169,11 +169,11 @@ const ServicesHero = () => {
                         {/* RIGHT */}
                         <div className="flex flex-col justify-center w-[400px] h-[50%] p-2 mt-40">
                             <p className="mb-6 text-[16px] leading-relaxed opacity-90 inter-text">
-                                {currentItem.description}
+                                {currentItem?.description}
                             </p>
 
                             <ul className="space-y-3 text-[15px] list-disc list-inside opacity-90">
-                                {currentItem.items.map((item, index) => (
+                                {currentItem?.items.map((item, index) => (
                                     <li key={index}>{item}</li>
                                 ))}
                             </ul>

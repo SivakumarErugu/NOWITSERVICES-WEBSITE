@@ -110,13 +110,19 @@
         { "label": "المنتجات", "link": "/products" }
       ]
     },
-    "services": {
-      "title": "شراكات الأعمال",
-      "items": [
-        { "label": "حلول المؤسسات", "link": "/services" },
-        { "label": "الذكاء الاصطناعي والأتمتة", "link": "/services" }
-      ]
+"services": {
+  "title": "الشراكات التجارية",
+  "items": [
+    {
+      "label": "كن شريكًا",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "كن مستثمرًا",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "القانون والامتثال",
       "items": [

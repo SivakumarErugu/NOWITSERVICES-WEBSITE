@@ -119,19 +119,19 @@
         }
       ]
     },
-    "services": {
-      "title": "Бизнес-партнёрства",
-      "items": [
-        {
-          "label": "Корпоративные решения",
-          "link": "/services"
-        },
-        {
-          "label": "ИИ и автоматизация",
-          "link": "/services"
-        }
-      ]
+"services": {
+  "title": "Бизнес-партнерства",
+  "items": [
+    {
+      "label": "Стать партнёром",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "Стать инвестором",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "Право и соответствие",
       "items": [

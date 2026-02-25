@@ -1,0 +1,143 @@
+{
+  "banner.title": "خطوتك المهنية القادمة",
+  "banner.span": "تبدأ من هنا",
+  "banner.scroll": "مرر للاستكشاف",
+
+  "carrerVisualBlock.line1.title": "ندعو",
+  "carrerVisualBlock.line1.span": "جميع",
+  "carrerVisualBlock.line2.title2": "المبتكرين",
+  "carrerVisualBlock.line3.title": "المستعدين لـ",
+  "carrerVisualBlock.line3.span": "بناء",
+  "carrerVisualBlock.line4.title": "المستقبل",
+  "carrerVisualBlock.description": "نبحث دائمًا عن أشخاص موهوبين شغوفين بالتكنولوجيا والابتكار وصناعة تأثير حقيقي. انضم إلى فريق تُقدَّر فيه أفكارك ويُدعَم فيه نموك المهني.",
+  "carrerVisualBlock.BtnText": "عرض الوظائف المتاحة",
+
+  "joinus.span": "انضم إلينا",
+  "joinus.title": "كن جزءًا من مستقبل التكنولوجيا",
+  "joinus.description": "اعمل مع أشخاص شغوفين، وحل مشكلات حقيقية، وطوّر مهاراتك أثناء بناء حلول رقمية مبتكرة تُحدث تأثيرًا فعليًا.",
+
+  "oppurtunities.slidingHeader": "الوظائف الحالية",
+  "oppurtunities.search.placeholder": "ابحث حسب الوظيفة، المهارة، الموقع",
+
+  "jobList.jobOpenings": [
+    {
+      "id": "NOWIT-JO-001",
+      "section": "development",
+      "role": "مطور MERN Stack",
+      "detailedRole": "مطور جافاسكريبت متكامل (Full Stack)",
+      "location": "أمارافاثي، أندرا براديش، الهند",
+      "type": "دوام كامل",
+      "experience": "سنتان أو أكثر",
+      "description": "درجة البكالوريوس في علوم الحاسوب أو الهندسة أو خبرة مكافئة. فهم قوي لتطوير JavaScript المتكامل وتقنيات الويب الحديثة.",
+      "requirements": [
+        "معرفة قوية بـ MongoDB و Express.js و React و Node.js",
+        "تطوير REST API",
+        "إدارة الإصدارات باستخدام Git"
+      ],
+      "skills": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript"
+      ],
+      "projectRole": "مطور برمجيات",
+      "projectDescription": "بناء وصيانة تطبيقات ويب متكاملة وقابلة للتوسع باستخدام MERN Stack.",
+      "educationalQualifications": "بكالوريوس في علوم الحاسوب أو مجال ذي صلة",
+      "benefits": [
+        "تأمين صحي",
+        "مكافأة أداء",
+        "ساعات عمل مرنة"
+      ],
+      "summary": "فرصة مميزة لمطور MERN Stack محترف.",
+      "postedDate": "2024-06-01"
+    },
+    {
+      "id": "NOWIT-JO-002",
+      "section": "development",
+      "role": "مطور تطبيقات جوال",
+      "detailedRole": "مطور React Native / Flutter",
+      "location": "أمارافاثي، أندرا براديش، الهند",
+      "type": "دوام كامل",
+      "experience": "سنتان أو أكثر",
+      "description": "تطوير وصيانة تطبيقات جوال عالية الجودة لمنصتي Android و iOS.",
+      "requirements": [
+        "خبرة في React Native أو Flutter",
+        "تكامل واجهات API",
+        "نشر التطبيقات على Play Store / App Store"
+      ],
+      "skills": [
+        "React Native",
+        "Flutter",
+        "Firebase",
+        "REST APIs",
+        "TypeScript"
+      ],
+      "projectRole": "مطور تطبيقات جوال",
+      "projectDescription": "بناء تطبيقات متعددة المنصات بواجهة مستخدم سلسة.",
+      "educationalQualifications": "بكالوريوس في علوم الحاسوب أو ما يعادلها",
+      "benefits": [
+        "تأمين صحي",
+        "مكافأة إطلاق التطبيق",
+        "إجازات مدفوعة"
+      ],
+      "summary": "ساهم في بناء تطبيقات جوال مبتكرة لمنصات رقمية متنامية.",
+      "postedDate": "2024-06-05"
+    },
+    {
+      "id": "NOWIT-JO-003",
+      "section": "development",
+      "role": "مهندس سحابة",
+      "detailedRole": "أخصائي AWS / Azure",
+      "location": "أمارافاثي، أندرا براديش، الهند",
+      "type": "دوام كامل",
+      "experience": "سنتان أو أكثر",
+      "description": "تصميم ونشر وإدارة بنية تحتية سحابية قابلة للتوسع.",
+      "requirements": [
+        "خبرة عملية في AWS أو Azure",
+        "معرفة بـ CI/CD",
+        "إلمام بـ Docker و Kubernetes"
+      ],
+      "skills": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "DevOps"
+      ],
+      "projectRole": "مهندس بنية تحتية سحابية",
+      "projectDescription": "إدارة البنية السحابية وضمان الاستقرار والقابلية للتوسع.",
+      "educationalQualifications": "بكالوريوس هندسة / علوم حاسوب",
+      "benefits": [
+        "رعاية شهادات سحابية",
+        "تأمين صحي",
+        "مرونة في أوقات العمل"
+      ],
+      "summary": "فرصة لتصميم وإدارة أنظمة سحابية آمنة.",
+      "postedDate": "2024-06-10"
+    }
+  ],
+
+  "jobList.jobSections": [
+    {
+      "name": "allroles",
+      "label": "جميع الوظائف"
+    },
+    {
+      "name": "development",
+      "label": "التطوير"
+    },
+    {
+      "name": "uiuxdesigning",
+      "label": "تصميم UI/UX"
+    },
+    {
+      "name": "qatesting",
+      "label": "اختبار الجودة"
+    }
+  ],
+
+  "jobList.applyNow": "قدّم الآن",
+  "jobList.viewMore": "عرض المزيد",
+  "jobList.noResults": "لا توجد وظائف مطابقة لبحثك"
+}

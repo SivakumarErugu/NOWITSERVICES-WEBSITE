@@ -78,17 +78,22 @@ const ContactUs2 = () => {
     ]
     const [locations, setLocations] = useState(locations_dummyList)
     const { tc, commonReady } = useNowit()
-useEffect(() => {
-  if (commonReady) {
-    const List = tc("locations")
 
-    const mappedLocations = List.map((loc) => ({
-      ...loc,
-      image: locationImages[loc.key] || Mayuri // fallback safety
-    }))
-    setLocations(mappedLocations)
-  }
-}, [commonReady,locations])
+    const updateLocations = (locations) => {
+        setLocations(locations)
+    }
+
+    useEffect(() => {
+        if (commonReady) {
+            const List = tc("locations")
+
+            const mappedLocations = List.map((loc) => ({
+                ...loc,
+                image: locationImages[loc.key] || Mayuri // fallback safety
+            }))
+            updateLocations(mappedLocations)
+        }
+    }, [tc])
     if (!commonReady) return <Loading />
 
     return (

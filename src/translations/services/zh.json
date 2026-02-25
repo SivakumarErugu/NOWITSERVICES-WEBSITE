@@ -3,86 +3,376 @@
     "smart marketing": {
       "title": "智能营销",
       "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
-      "description": "我们的智能营销服务结合战略、创意和人工智能洞察，帮助企业建立强大的品牌影响力、提升用户参与度并优化数字营销表现。",
+      "description": "我们的智能营销服务结合战略、创意与AI驱动洞察，帮助企业建立强大的品牌影响力，有效吸引受众，并提升数字渠道的营销表现。",
       "Services1": {
-        "headingSmall": "营销，能够",
-        "headingMain": "思考、学习并创造价值",
+        "headingSmall": "会思考、会学习、",
+        "headingMain": "更高效的营销",
         "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
       },
       "Services2": {
         "heading": "包含内容",
-        "highlight": "智能营销",
-        "description": "基于数据和人工智能的数字营销服务。",
+        "highlight": "智能营销服务",
+        "description": "通过数据与人工智能赋能，实现品牌增长与营销优化。",
         "cards": [
           {
-            "title": "数据驱动的数字营销活动",
-            "desc": "基于数据洞察构建的精准营销活动。",
+            "title": "数据驱动数字营销活动",
+            "desc": "基于数据洞察构建精准营销活动，最大化覆盖率与转化率。",
             "bg": "bg-blue-50 border-blue-100"
           },
           {
-            "title": "内容与品牌故事",
-            "desc": "增强品牌认知与连接用户的内容。",
+            "title": "内容与品牌故事打造",
+            "desc": "打造强化品牌形象并连接目标受众的优质内容。",
             "bg": "bg-green-50 border-green-100"
           },
           {
-            "title": "AI用户分群",
-            "desc": "基于行为与偏好的智能分群。",
+            "title": "AI受众智能分群",
+            "desc": "基于行为与偏好进行智能用户细分。",
             "bg": "bg-purple-50 border-purple-100"
           },
           {
             "title": "营销效果分析",
-            "desc": "实时监控与优化投资回报率。",
+            "desc": "实时跟踪与优化，提高投资回报率。",
             "bg": "bg-orange-50 border-orange-100"
           },
           {
             "title": "预测式互动洞察（AI Edge）",
-            "desc": "预测用户行为并提升营销效果。",
+            "desc": "利用AI预测客户行为并优化营销效果。",
             "bg": "bg-gray-50 border-gray-200"
           }
         ]
       }
     },
+
     "business launch": {
       "title": "企业启动服务",
       "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
-      "description": "为新企业提供系统化的全流程启动支持。",
+      "description": "通过结构化、端到端的启动方案支持新企业发展，确保清晰定位、品牌曝光与初期增长动力。",
       "Services1": {
-        "headingSmall": "启动您的",
-        "headingMain": "企业更有信心",
+        "headingSmall": "自信开启",
+        "headingMain": "您的企业之旅",
         "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
       },
       "Services2": {
         "heading": "包含内容",
-        "highlight": "企业启动",
-        "description": "助力企业成功进入市场。",
+        "highlight": "企业启动服务",
+        "description": "帮助新企业以清晰战略和专业形象成功进入市场。",
         "cards": [
           {
-            "title": "企业名称与Logo注册",
-            "desc": "品牌命名与法律注册支持。",
+            "title": "公司名称与标志注册",
+            "desc": "品牌命名、Logo设计及合法注册支持。",
             "bg": "bg-blue-50 border-blue-100"
           },
           {
             "title": "网站与品牌建设",
-            "desc": "现代化品牌官网建设。",
+            "desc": "打造与品牌价值一致的现代化网站。",
             "bg": "bg-green-50 border-green-100"
           },
           {
-            "title": "营销与发布活动",
-            "desc": "提升市场认知度。",
+            "title": "市场推广与启动活动",
+            "desc": "制定战略营销活动，提升知名度。",
             "bg": "bg-purple-50 border-purple-100"
           },
           {
             "title": "活动与公关管理",
-            "desc": "企业发布与媒体活动。",
+            "desc": "策划并执行发布活动与媒体推广。",
             "bg": "bg-orange-50 border-orange-100"
           },
           {
-            "title": "市场预测模拟（AI Edge）",
-            "desc": "AI驱动的市场进入分析。",
+            "title": "AI市场预测模拟（AI Edge）",
+            "desc": "基于AI的市场进入场景分析。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "migration": {
+      "title": "云与应用迁移服务",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+      "description": "安全、高效地将应用与数据迁移至云端。",
+      "Services1": {
+        "headingSmall": "无缝实现",
+        "headingMain": "平台迁移",
+        "image": "../../../public/images/ServicesImages/Migration.jpg"
+      },
+      "Services2": {
+        "heading": "包含内容",
+        "highlight": "迁移服务",
+        "description": "确保安全、可扩展的云平台转型。",
+        "cards": [
+          {
+            "title": "云与应用迁移",
+            "desc": "端到端系统迁移。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "安全数据传输",
+            "desc": "加密且符合合规要求的数据迁移。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "基础设施优化",
+            "desc": "迁移后的系统性能优化。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "API与系统集成",
+            "desc": "与现有系统无缝集成。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "智能风险分析（AI Edge）",
+            "desc": "基于AI的风险评估。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "training services": {
+      "title": "培训与发展服务",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+      "description": "通过系统化培训提升团队未来竞争力。",
+      "Services1": {
+        "headingSmall": "提升技能",
+        "headingMain": "专业培训计划",
+        "image": "../../../public/images/ServicesImages/Training.png"
+      },
+      "Services2": {
+        "heading": "包含内容",
+        "highlight": "培训服务",
+        "description": "构建面向未来的专业技能。",
+        "cards": [
+          {
+            "title": "数字与IT培训",
+            "desc": "实战型技术培训。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "营销与品牌研讨会",
+            "desc": "提升品牌与增长战略能力。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "AI与量子技术课程",
+            "desc": "前沿科技培训项目。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "领导力发展",
+            "desc": "培养未来领导者。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "个性化学习路径（AI Edge）",
+            "desc": "AI驱动学习分析。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "professional services": {
+      "title": "专业咨询服务",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+      "description": "通过专家指导助力企业成长。",
+      "Services1": {
+        "headingSmall": "专业",
+        "headingMain": "咨询服务",
+        "image": "../../../public/images/ServicesImages/Professional.jpg"
+      },
+      "Services2": {
+        "heading": "包含内容",
+        "highlight": "专业服务",
+        "description": "帮助企业规划与优化可扩展技术解决方案。",
+        "spantext": "专业咨询服务每小时15美元起。",
+        "cards": [
+          {
+            "title": "战略业务与IT咨询",
+            "desc": "实现业务与技术对齐。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "项目管理与交付",
+            "desc": "结构化项目执行。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "资源与培训支持",
+            "desc": "提供专业技术人才。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "持续技术支持",
+            "desc": "稳定可靠的支持服务。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "决策智能模型（AI Edge）",
+            "desc": "AI驱动的决策支持系统。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "messaging services": {
+      "title": "消息与通信服务",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+      "description": "实现智能化实时沟通。",
+      "Services1": {
+        "headingSmall": "强大的",
+        "headingMain": "通信服务",
+        "image": "../../../public/images/ServicesImages/Messaging.jpg"
+      },
+      "Services2": {
+        "heading": "包含内容",
+        "highlight": "通信服务",
+        "description": "提升大规模用户互动能力。",
+        "cards": [
+          {
+            "title": "批量短信与WhatsApp营销",
+            "desc": "高容量消息发送。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "聊天机器人自动化",
+            "desc": "AI智能客服机器人。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "营销分析仪表盘",
+            "desc": "实时数据监控。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "实时互动优化",
+            "desc": "动态优化营销效果。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "预测式互动分析（AI Edge）",
+            "desc": "预测互动趋势。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "ip filing services": {
+      "title": "知识产权申报服务",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+      "description": "保护您的创新与创意。",
+      "Services1": {
+        "headingSmall": "保护您的",
+        "headingMain": "知识产权",
+        "image": "../../../public/images/ServicesImages/IPFilling.png"
+      },
+      "Services2": {
+        "heading": "包含内容",
+        "highlight": "知识产权服务",
+        "description": "全面保护知识资产。",
+        "cards": [
+          {
+            "title": "专利申请与管理",
+            "desc": "专利注册支持。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "商标注册",
+            "desc": "品牌保护服务。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "版权保护",
+            "desc": "版权登记服务。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "AI知识产权搜索与验证",
+            "desc": "智能搜索分析。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "法律风险降低（AI Edge）",
+            "desc": "AI模式识别。",
             "bg": "bg-gray-50 border-gray-200"
           }
         ]
       }
     }
+  },
+
+  "slidesData": [
+    { "key": 1, "title": "成长导向型企业文化", "desc": "鼓励学习与长期职业发展的工作环境。" },
+    { "key": 2, "title": "跨领域学习与认证", "desc": "获得行业认可证书的机会。" },
+    { "key": 3, "title": "全球项目经验", "desc": "与国际客户合作的实践经验。" },
+    { "key": 4, "title": "奖励与领导力指导", "desc": "获得认可并向经验丰富的领导学习。" }
+  ],
+
+  "service3.title": "建立在",
+  "service3.span": "信任与品质之上",
+  "service3.previousbtnText": "上一页",
+  "service3.nextbtnText": "下一页",
+  "service3.slidingText": "为什么选择我们",
+
+  "service4.title": "其他",
+  "service4.span": "服务项目",
+  "service4.slidingHeader": "我们的服务",
+
+  "service5.title": "我们的交付流程",
+  "service5.description": "从构思到上线，我们全程护航。",
+  "service5.tabs": [
+  { "key": 1, "title": "调研" },
+  { "key": 2, "title": "设计" },
+  { "key": 3, "title": "开发" },
+  { "key": 4, "title": "交付" }
+],
+
+"service5.tabContent": {
+  "1": {
+    "title": "需求调研",
+    "description": "全面了解业务目标、需求分析和用户场景，明确解决方案的发展方向。"
+  },
+  "2": {
+    "title": "设计与架构",
+    "description": "打造直观的用户体验，并建立安全、可扩展的技术架构。"
+  },
+  "3": {
+    "title": "开发",
+    "description": "采用敏捷开发方法，实现核心功能并确保系统性能与稳定性。"
+  },
+  "4": {
+    "title": "部署",
+    "description": "上线前进行全面测试，验证后部署到生产环境。"
+  },
+  "5": {
+    "title": "持续优化",
+    "description": "提供持续支持与AI驱动优化，推动长期创新。"
   }
+},
+  
+  "Industry.title": "行业解决方案",
+  "Industry.span": "覆盖各领域",
+  "Industry.description": "NOWIT Services 提供AI驱动的数字化转型解决方案。",
+  "Industry.list": [
+    "医疗健康",
+    "教育",
+    "金融与银行",
+    "零售与电商",
+    "制造业",
+    "物流与供应链",
+    "房地产",
+    "旅游与酒店",
+    "IT与科技",
+    "电信",
+    "能源与公共事业",
+    "汽车行业"
+  ],
+
+  "bussinessBanner.title.prefix": "准备好",
+  "bussinessBanner.title.suffix": "启动您的业务了吗",
+  "bussinessBanner.line2.title": "并实现规模化增长",
+  "bussinessBanner.description": "与我们的专家沟通，推动长期发展。",
+  "bussinessBanner.buttonText": "联系我们"
 }

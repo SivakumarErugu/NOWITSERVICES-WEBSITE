@@ -119,19 +119,20 @@
         }
       ]
     },
-    "services": {
-      "title": "业务合作",
-      "items": [
-        {
-          "label": "企业解决方案",
-          "link": "/services"
-        },
-        {
-          "label": "人工智能与自动化",
-          "link": "/services"
-        }
-      ]
+   "services": {
+  "title": "商业合作伙伴",
+  "items": [
+    {
+      "label": "成为合作伙伴",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "成为投资者",
+      "link": "/become-a-partner"
+    }
+  ]
+},
+
     "legal": {
       "title": "法律与合规",
       "items": [

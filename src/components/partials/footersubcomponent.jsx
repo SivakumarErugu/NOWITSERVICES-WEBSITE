@@ -101,13 +101,14 @@ const BusinessSec = ({ footer }) => {
 
       <ul className="flex flex-col gap-y-1">
         {data.items.map((each, i) => (
-          <Link
+          <a
             href={each.link}
             key={i}
+            target="_self"
             className="font-extralight text-sm text-white/75"
           >
             {each.label}
-          </Link>
+          </a>
         ))}
       </ul>
     </section>

@@ -3,116 +3,114 @@
     "smart marketing": {
       "title": "スマートマーケティング",
       "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
-      "description": "当社のスマートマーケティングサービスは、戦略、創造性、そしてAI主導のインサイトを組み合わせ、企業が強力なブランドプレゼンスを構築し、効果的に顧客と関わり、デジタルチャネル全体でマーケティング成果を向上させることを支援します。",
+      "description": "スマートマーケティングサービスは、戦略・創造性・AI主導のインサイトを組み合わせ、企業のブランド力向上、効果的な顧客エンゲージメント、デジタルチャネルでの成果最大化を実現します。",
       "Services1": {
-        "headingSmall": "考え、学び、",
-        "headingMain": "成果を生み出すマーケティング",
+        "headingSmall": "考え、学び、成果を出す",
+        "headingMain": "次世代マーケティング",
         "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
       },
       "Services2": {
-        "heading": "スマートマーケティングに",
-        "highlight": "含まれる内容",
-        "description": "戦略・創造性・AIインサイトを融合し、ブランド強化と成果向上を実現します。",
+        "heading": "含まれる内容",
+        "highlight": "スマートマーケティング",
+        "description": "データとAIを活用し、持続可能なブランド成長を支援します。",
         "cards": [
           {
-            "title": "データ主導型デジタルキャンペーン",
-            "desc": "データ分析に基づくターゲット型キャンペーンで、リーチとコンバージョンを最大化します。",
+            "title": "データドリブン型デジタルキャンペーン",
+            "desc": "データ分析に基づくターゲット施策で成果を最大化。",
             "bg": "bg-blue-50 border-blue-100"
           },
           {
             "title": "コンテンツ＆ブランドストーリーテリング",
-            "desc": "ブランド価値を強化し、適切な顧客層とつながる魅力的なコンテンツ制作。",
+            "desc": "ブランド価値を高める戦略的コンテンツ制作。",
             "bg": "bg-green-50 border-green-100"
           },
           {
-            "title": "AIによるオーディエンスセグメンテーション",
-            "desc": "行動・意図・嗜好に基づくインテリジェントな顧客分類。",
+            "title": "AIによる顧客セグメンテーション",
+            "desc": "行動・嗜好データに基づく高度な分類。",
             "bg": "bg-purple-50 border-purple-100"
           },
           {
             "title": "キャンペーンパフォーマンス分析",
-            "desc": "リアルタイム追跡と最適化でROIを向上。",
+            "desc": "リアルタイム分析と最適化。",
             "bg": "bg-orange-50 border-orange-100"
           },
           {
-            "title": "予測型エンゲージメント分析（AI強化）",
-            "desc": "AIによる顧客行動予測で効果を最大化。",
+            "title": "予測型エンゲージメント分析（AI Edge）",
+            "desc": "顧客行動を予測し効果を最大化。",
             "bg": "bg-gray-50 border-gray-200"
           }
         ]
       }
     },
-
     "business launch": {
-      "title": "ビジネスローンチサービス",
+      "title": "ビジネス立ち上げ支援サービス",
       "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
-      "description": "新規事業の立ち上げを、明確さ・可視性・初期成長を確保する包括的アプローチで支援します。",
+      "description": "新規事業の成功を支える包括的な立ち上げ支援。",
       "Services1": {
         "headingSmall": "自信を持って",
-        "headingMain": "ビジネスを立ち上げる",
+        "headingMain": "ビジネスをスタート",
         "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
       },
       "Services2": {
-        "heading": "ビジネスローンチに",
-        "highlight": "含まれる内容",
-        "description": "市場参入を成功させるための体系的フレームワークを提供します。",
+        "heading": "含まれる内容",
+        "highlight": "ビジネス立ち上げ",
+        "description": "市場参入を成功に導く包括的フレームワーク。",
         "cards": [
           {
-            "title": "事業名・ロゴ登録",
-            "desc": "ブランド確立のための名称選定とロゴ設計サポート。",
+            "title": "商号・ロゴ登録支援",
+            "desc": "ブランド確立と法的登録サポート。",
             "bg": "bg-blue-50 border-blue-100"
           },
           {
-            "title": "ウェブサイト＆ブランド構築",
-            "desc": "ブランド価値に沿ったモダンなウェブサイト制作。",
+            "title": "Webサイト＆ブランド構築",
+            "desc": "統一感のあるデジタルブランド設計。",
             "bg": "bg-green-50 border-green-100"
           },
           {
-            "title": "マーケティング＆ローンチキャンペーン",
-            "desc": "認知度向上と初期エンゲージメント創出の戦略。",
+            "title": "ローンチキャンペーン",
+            "desc": "市場認知拡大施策。",
             "bg": "bg-purple-50 border-purple-100"
           },
           {
             "title": "イベント＆PR管理",
-            "desc": "ローンチイベントやメディア対応の企画運営。",
+            "desc": "広報活動の企画・実行。",
             "bg": "bg-orange-50 border-orange-100"
           },
           {
-            "title": "AI市場シミュレーション",
-            "desc": "AIを活用した市場参入シナリオ分析。",
+            "title": "AI市場シミュレーション（AI Edge）",
+            "desc": "参入戦略の予測分析。",
             "bg": "bg-gray-50 border-gray-200"
           }
         ]
       }
     },
-
     "migration": {
       "title": "クラウド＆アプリケーション移行",
       "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
-      "description": "最小限の停止時間でクラウド移行を実現します。",
+      "description": "安全かつ効率的にクラウドへ移行。",
       "Services1": {
         "headingSmall": "シームレスな",
         "headingMain": "プラットフォーム移行",
         "image": "../../../public/images/ServicesImages/Migration.jpg"
       },
       "Services2": {
-        "heading": "移行サービスに",
-        "highlight": "含まれる内容",
-        "description": "安全かつ効率的なクラウド移行を保証します。",
+        "heading": "含まれる内容",
+        "highlight": "移行サービス",
+        "description": "安全で拡張性の高いクラウド移行。",
         "cards": [
           {
-            "title": "クラウド移行",
-            "desc": "アプリケーションとワークロードの包括的移行。",
+            "title": "アプリケーション移行",
+            "desc": "エンドツーエンド移行。",
             "bg": "bg-blue-50 border-blue-100"
           },
           {
             "title": "安全なデータ転送",
-            "desc": "暗号化された安全な転送プロセス。",
+            "desc": "暗号化とコンプライアンス対応。",
             "bg": "bg-green-50 border-green-100"
           },
           {
             "title": "インフラ最適化",
-            "desc": "移行後のパフォーマンス改善。",
+            "desc": "移行後の最適化。",
             "bg": "bg-purple-50 border-purple-100"
           },
           {
@@ -121,66 +119,253 @@
             "bg": "bg-orange-50 border-orange-100"
           },
           {
-            "title": "AIリスク分析",
-            "desc": "AIによるリスクマッピング。",
+            "title": "AIリスク分析（AI Edge）",
+            "desc": "リスク評価と軽減。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "training services": {
+      "title": "研修・人材開発サービス",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Training_Services.jpg_xtpmii.jpg",
+      "description": "将来を見据えたスキル育成。",
+      "Services1": {
+        "headingSmall": "スキル向上を",
+        "headingMain": "プロフェッショナル研修で",
+        "image": "../../../public/images/ServicesImages/Training.png"
+      },
+      "Services2": {
+        "heading": "含まれる内容",
+        "highlight": "研修サービス",
+        "description": "未来志向の能力開発。",
+        "cards": [
+          {
+            "title": "IT研修",
+            "desc": "実践型トレーニング。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "マーケティング研修",
+            "desc": "ブランド戦略強化。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "AI・量子技術プログラム",
+            "desc": "先端技術研修。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "リーダーシップ開発",
+            "desc": "経営人材育成。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "AI学習パス（AI Edge）",
+            "desc": "個別最適化学習。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "professional services": {
+      "title": "プロフェッショナルサービス",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Professional_Services.jpg_laru2z.jpg",
+      "description": "専門家による戦略支援。",
+      "Services1": {
+        "headingSmall": "専門性を活かした",
+        "headingMain": "コンサルティングサービス",
+        "image": "../../../public/images/ServicesImages/Professional.jpg"
+      },
+      "Services2": {
+        "heading": "含まれる内容",
+        "highlight": "プロフェッショナルサービス",
+        "description": "スケーラブルな技術基盤構築支援。",
+        "spantext": "コンサルティングは1時間15ドルから。",
+        "cards": [
+          {
+            "title": "戦略コンサルティング",
+            "desc": "ビジネスとITの統合。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "プロジェクト管理",
+            "desc": "構造化されたデリバリー。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "リソース支援",
+            "desc": "専門人材提供。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "技術サポート",
+            "desc": "継続的サポート。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "AI意思決定モデル（AI Edge）",
+            "desc": "高度な意思決定支援。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "messaging services": {
+      "title": "メッセージングサービス",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973174/ChatGPT_Image_Feb_13_2026_02_29_23_PM_idvawh.png",
+      "description": "リアルタイムコミュニケーションを実現。",
+      "Services1": {
+        "headingSmall": "強力な",
+        "headingMain": "メッセージング基盤",
+        "image": "../../../public/images/ServicesImages/Messaging.jpg"
+      },
+      "Services2": {
+        "heading": "含まれる内容",
+        "highlight": "メッセージングサービス",
+        "description": "大規模エンゲージメント向上。",
+        "cards": [
+          {
+            "title": "SMS・WhatsApp配信",
+            "desc": "大量メッセージ配信。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "チャットボット自動化",
+            "desc": "AI対応ボット。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "分析ダッシュボード",
+            "desc": "リアルタイム分析。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "エンゲージメント最適化",
+            "desc": "動的改善。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "予測分析（AI Edge）",
+            "desc": "傾向予測。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+    "ip filing services": {
+      "title": "知的財産登録サービス",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970216/IP_Filling_Services_iek8i1.png",
+      "description": "革新とアイデアを守る。",
+      "Services1": {
+        "headingSmall": "あなたの",
+        "headingMain": "知的財産を保護",
+        "image": "../../../public/images/ServicesImages/IPFilling.png"
+      },
+      "Services2": {
+        "heading": "含まれる内容",
+        "highlight": "知的財産サービス",
+        "description": "知的資産の戦略的保護。",
+        "cards": [
+          {
+            "title": "特許出願支援",
+            "desc": "包括的サポート。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "商標登録",
+            "desc": "ブランド保護。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "著作権登録",
+            "desc": "法的保護。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "AI特許検索",
+            "desc": "高度分析。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "法的リスク軽減（AI Edge）",
+            "desc": "パターン分析。",
             "bg": "bg-gray-50 border-gray-200"
           }
         ]
       }
     }
   },
-
   "slidesData": [
     {
       "key": 1,
-      "title": "成長志向の職場文化",
+      "title": "成長志向の企業文化",
       "desc": "学習と長期的成長を促進する環境。"
     },
     {
       "key": 2,
-      "title": "分野横断学習と資格取得",
+      "title": "分野横断型学習",
       "desc": "業界認定資格取得の機会。"
     },
     {
       "key": 3,
       "title": "グローバルプロジェクト経験",
-      "desc": "国際クライアントとの実務経験。"
+      "desc": "国際顧客との実務経験。"
     },
     {
       "key": 4,
-      "title": "表彰とリーダーシップ指導",
-      "desc": "実績を認められ、経験豊富なリーダーから学べます。"
+      "title": "表彰とメンタリング",
+      "desc": "経験豊富なリーダーから学ぶ機会。"
     }
   ],
-
-  "service3.title": "信頼と品質に",
-  "service3.span": "基づいて構築",
+  "service3.title": "信頼と品質に基づく",
+  "service3.span": "確かな実績",
   "service3.previousbtnText": "前へ",
   "service3.nextbtnText": "次へ",
   "service3.slidingText": "選ばれる理由",
-
   "service4.title": "その他の",
   "service4.span": "提供サービス",
-  "service4.slidingHeader": "当社のサービス",
-
+  "service4.slidingHeader": "サービス一覧",
   "service5.title": "提供プロセス",
-  "service5.description": "企画から開発・導入まで、すべての工程を丁寧にサポートします。",
+  "service5.description": "企画から開発・運用まで一貫支援します。",
   "service5.tabs": [
-    { "key": 1, "title": "調査" },
-    { "key": 2, "title": "設計" },
-    { "key": 3, "title": "開発" },
-    { "key": 4, "title": "導入" }
-  ],
+  { "key": 1, "title": "調査" },
+  { "key": 2, "title": "設計" },
+  { "key": 3, "title": "開発" },
+  { "key": 4, "title": "導入" }
+],
 
-  "Industry.title": "あらゆる",
-  "Industry.span": "業界向けソリューション",
-  "Industry.description": "AIを活用したデジタルトランスフォーメーションサービス。",
+"service5.tabContent": {
+  "1": {
+    "title": "調査フェーズ",
+    "description": "ビジネス目標、要件、ユーザー理解を通じて全体像を明確にします。"
+  },
+  "2": {
+    "title": "設計とアーキテクチャ",
+    "description": "直感的なUI設計と拡張性・安全性の高い技術基盤を構築します。"
+  },
+  "3": {
+    "title": "開発",
+    "description": "アジャイル手法によりコア機能を実装し、性能と信頼性を確保します。"
+  },
+  "4": {
+    "title": "導入",
+    "description": "本番前に十分なテストを行い、本番環境へ展開します。"
+  },
+  "5": {
+    "title": "継続的改善",
+    "description": "運用後も継続的なサポートとAI最適化を提供します。"
+  }
+},
+  "Industry.title": "業界別",
+  "Industry.span": "ソリューション",
+  "Industry.description": "NOWIT ServicesはAI活用型デジタル変革を提供します。",
   "Industry.list": [
     "医療",
     "教育",
-    "金融",
+    "金融・銀行",
     "小売・Eコマース",
-    "製造業",
+    "製造",
     "物流",
     "不動産",
     "旅行・ホスピタリティ",
@@ -189,19 +374,9 @@
     "エネルギー",
     "自動車"
   ],
-
-  "bussinessBanner.title.prefix": "準備は",
-  "bussinessBanner.title.suffix": "できていますか",
-  "bussinessBanner.line2.title": "ビジネスを成長させるために",
+  "bussinessBanner.title.prefix": "準備はできていますか",
+  "bussinessBanner.title.suffix": "ビジネスを立ち上げる",
+  "bussinessBanner.line2.title": "そして拡大するために",
   "bussinessBanner.description": "専門家にご相談ください。",
-  "bussinessBanner.buttonText": "お問い合わせ",
-
-  "headerOptions": [
-    { "name": "home", "label": "ホーム", "link": "/", "options": [] },
-    { "name": "about us", "label": "会社概要", "link": "/aboutus", "options": [] },
-    { "name": "services", "label": "サービス", "link": "/", "options": [] },
-    { "name": "products", "label": "製品", "link": "/products", "options": [] },
-    { "name": "blog", "label": "ブログ", "link": "/blog", "options": [] },
-    { "name": "careers", "label": "採用情報", "link": "/careers", "options": [] }
-  ]
+  "bussinessBanner.buttonText": "お問い合わせ"
 }

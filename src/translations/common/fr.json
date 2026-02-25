@@ -121,19 +121,19 @@
         }
       ]
     },
-    "services": {
-      "title": "Partenariats Commerciaux",
-      "items": [
-        {
-          "label": "Solutions d’Entreprise",
-          "link": "/services"
-        },
-        {
-          "label": "IA & Automatisation",
-          "link": "/services"
-        }
-      ]
+  "services": {
+  "title": "Partenariats d’Affaires",
+  "items": [
+    {
+      "label": "Devenir Partenaire",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "Devenir Investisseur",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "Légal & Conformité",
       "items": [

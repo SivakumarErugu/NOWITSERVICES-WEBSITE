@@ -119,19 +119,19 @@
         }
       ]
     },
-    "services": {
-      "title": "ビジネスパートナーシップ",
-      "items": [
-        {
-          "label": "エンタープライズソリューション",
-          "link": "/services"
-        },
-        {
-          "label": "AI & 自動化",
-          "link": "/services"
-        }
-      ]
+"services": {
+  "title": "ビジネスパートナーシップ",
+  "items": [
+    {
+      "label": "パートナーになる",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "投資家になる",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "法務・コンプライアンス",
       "items": [

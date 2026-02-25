@@ -1,0 +1,143 @@
+{
+  "banner.title": "私たちはひとつのデジタルエコシステム。未来はここから動き出す。",
+  "banner.description": "ノーコードでインテリジェントなプラットフォームを構築・拡張。業界向け即時導入可能なプラットフォームから始めるか、完全カスタマイズソリューションを設計できます。",
+  "banner.explore": "今すぐ見る",
+
+  "infinity.title": "進化し続けるプラットフォーム",
+  "infnity.description": "進化・適応・拡張するエンタープライズ対応ノーコードプラットフォーム — 個人から大企業まで",
+  "infinity.span": "考え、適応し、拡張する",
+  "infinity.right.text": "ヒューマンエクスペリエンス",
+  "infinity.left.text": "インテリジェントプラットフォーム",
+  "infinity.middle.top": "WON Suite",
+  "infinity.middle.bottom": "Simple | Smart | Secure",
+
+  "products.slidingHeader": "製品一覧",
+  "products.title": "あらゆる成長段階に対応する製品",
+  "products.span": "個人からエンタープライズまで",
+
+  "products.List": {
+    "won_digi": {
+      "name": "WON Digi",
+      "description": "WON Digiは、学校および教育機関向けの包括的な管理プラットフォームで、学務・管理・運営プロセスをデジタル化します。"
+    },
+    "won_pulse": {
+      "name": "WON Pulse",
+      "description": "WON Pulseは、医療機関向けの統合型病院管理システムで、臨床・管理・運営プロセスを効率化します。"
+    },
+    "won_cart": {
+      "name": "WON Cart",
+      "description": "WON Cartは、安全でシームレスなオンラインショッピング体験を実現する次世代デジタルコマースプラットフォームです。"
+    },
+    "won_bless": {
+      "name": "WON Bless",
+      "description": "WON Blessは、伝統と現代のデジタル体験を融合するスピリチュアル＆ライフスタイルエコシステムです。"
+    },
+    "won_fits": {
+      "name": "WON Fits",
+      "description": "WON Fitsは、パーソナライズされた健康管理を実現するフィットネス＆ウェルネスインテリジェンスプラットフォームです。"
+    },
+    "won_kids": {
+      "name": "WON Kids",
+      "description": "WON Kidsは、子どもの成長と創造性を支援するデジタル学習・エンゲージメントプラットフォームです。"
+    },
+    "won_nest": {
+      "name": "WON Nest",
+      "description": "WON Nestは、個人の資産管理とライフプランニングを支援する金融・ライフスタイルエコシステムです。"
+    },
+    "won_home": {
+      "name": "WON Home",
+      "description": "WON Homeは、快適性・安全性・効率性を統合するスマートホーム自動化プラットフォームです。"
+    },
+    "won_pets": {
+      "name": "WON Pets",
+      "description": "WON Petsは、ペットの健康管理・追跡・ウェルネスをサポートするデジタルケアプラットフォームです。"
+    },
+    "won_shield": {
+      "name": "WON Shield",
+      "description": "WON Shieldは、現代のデジタルリスクからユーザーを保護するセキュリティプラットフォームです。"
+    },
+    "won_drive": {
+      "name": "WON Drive",
+      "description": "WON Driveは、追跡・安全性・車両最適化を実現するスマートモビリティエコシステムです。"
+    },
+    "won_grid": {
+      "name": "WON Grid",
+      "description": "WON Gridは、効率性と持続可能性に重点を置いたデジタルエネルギー・インフラプラットフォームです。"
+    },
+    "won_trip": {
+      "name": "WON Trip",
+      "description": "WON Tripは、旅行計画を簡素化し体験価値を高めるデジタルトラベルプラットフォームです。"
+    },
+    "won_bills": {
+      "name": "WON Bills",
+      "description": "WON Billsは、請求および支払い業務を効率化するエンタープライズ向け請求自動化プラットフォームです。"
+    },
+    "won_bridge": {
+      "name": "WON Bridge",
+      "description": "WON Bridgeは、エンタープライズシステム間の安全かつシームレスな統合を実現します。"
+    },
+    "won_tap": {
+      "name": "WON Tap",
+      "description": "WON Tapは、高速かつ安全な取引を可能にするスマート決済・アクセスプラットフォームです。"
+    },
+    "won_mart": {
+      "name": "WON Mart",
+      "description": "WON Martは、スケーラブルなB2B取引を実現するデジタルマーケットプレイスです。"
+    },
+    "won_build": {
+      "name": "WON Build",
+      "description": "WON Buildは、エンタープライズ向けのプロジェクトおよびインフラ管理プラットフォームです。"
+    },
+    "won_move": {
+      "name": "WON Move",
+      "description": "WON Moveは、サプライチェーン業務を最適化するロジスティクスプラットフォームです。"
+    },
+    "won_serve": {
+      "name": "WON Serve",
+      "description": "WON Serveは、顧客エンゲージメントワークフローを管理するサービスプラットフォームです。"
+    },
+    "won_forge": {
+      "name": "WON Forge",
+      "description": "WON Forgeは、迅速な製品開発を支援するデジタルイノベーションプラットフォームです。"
+    },
+    "won_hrms": {
+      "name": "WON HRMS",
+      "description": "WON HRMSは、現代組織向けの包括的な人事管理システムです。"
+    },
+    "won_guard": {
+      "name": "WON Guard",
+      "description": "WON Guardは、先進的なデジタル保護を実現するエンタープライズセキュリティプラットフォームです。"
+    },
+    "won_events": {
+      "name": "WON Events",
+      "description": "WON Eventsは、包括的なデジタルイベント管理プラットフォームです。"
+    },
+    "won_harvest": {
+      "name": "WON Harvest",
+      "description": "WON Harvestは、農家・企業・消費者をつなぐアグリデジタルマーケットプレイスです。"
+    },
+    "won_law": {
+      "name": "WON Law",
+      "description": "WON Lawは、安全なデジタル法務ワークフローを実現するリーガルテックプラットフォームです。"
+    },
+    "won_hubs": {
+      "name": "WON Hubs",
+      "description": "WON Hubsは、WONエコシステム全体を支える中核インフラプラットフォームです。"
+    }
+  },
+
+  "products.viewProduct": "製品を見る",
+
+  "customize.slidingHeader": "製品をカスタマイズ",
+  "customize.title.prefix": "アイデアをお持ちですか？ ",
+  "customize.span": "私たちが",
+  "customize.title.suffix": "あなたのビジョンに合わせて実現します。",
+  "customize.description": "アイデアを共有してください。構想・設計から開発・スケールまで、ビジョンとユーザー、長期目標に合わせて完全カスタマイズされたデジタル製品へと共に創り上げます。",
+  "customize.getInTouch": "お問い合わせ",
+
+  "becomepartner.title.prefix": "共に",
+  "becomepartner.title.middle": "成長し",
+  "becomepartner.title.suffix": "パートナーシップを築く",
+  "becomepartner.description": "NowIT Servicesと提携し、共に革新し、最適化されたソリューションを提供しましょう。",
+  "becomepartner.becomepartner": "パートナーになる"
+}

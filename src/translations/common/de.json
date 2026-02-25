@@ -120,19 +120,19 @@
         }
       ]
     },
-    "services": {
-      "title": "Geschäftspartnerschaften",
-      "items": [
-        {
-          "label": "Unternehmenslösungen",
-          "link": "/services"
-        },
-        {
-          "label": "KI & Automatisierung",
-          "link": "/services"
-        }
-      ]
+"services": {
+  "title": "Geschäftspartnerschaften",
+  "items": [
+    {
+      "label": "Partner werden",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "Investor werden",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "Recht & Compliance",
       "items": [

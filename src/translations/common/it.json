@@ -121,19 +121,19 @@
         }
       ]
     },
-    "services": {
-      "title": "Partnership Aziendali",
-      "items": [
-        {
-          "label": "Soluzioni Enterprise",
-          "link": "/services"
-        },
-        {
-          "label": "IA e Automazione",
-          "link": "/services"
-        }
-      ]
+   "services": {
+  "title": "Partnership Aziendali",
+  "items": [
+    {
+      "label": "Diventa Partner",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "Diventa Investitore",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "Legale e Conformità",
       "items": [

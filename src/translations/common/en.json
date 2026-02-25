@@ -124,12 +124,12 @@
       "title": "Business Partnerships",
       "items": [
         {
-          "label": "Enterprise Solutions",
-          "link": "/services"
+          "label": "Become a Partner",
+          "link": "/become-a-partner"
         },
         {
-          "label": "AI & Automation",
-          "link": "/services"
+          "label": "Become an Invester",
+          "link": "/become-a-partner"
         }
       ]
     },

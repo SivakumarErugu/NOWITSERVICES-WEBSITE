@@ -185,19 +185,19 @@
         }
       ]
     },
-    "services": {
-      "title": "बिज़नेस पार्टनरशिप",
-      "items": [
-        {
-          "label": "एंटरप्राइज़ समाधान",
-          "link": "/services"
-        },
-        {
-          "label": "एआई और ऑटोमेशन",
-          "link": "/services"
-        }
-      ]
+"services": {
+  "title": "व्यावसायिक साझेदारियाँ",
+  "items": [
+    {
+      "label": "साझेदार बनें",
+      "link": "/become-a-partner"
     },
+    {
+      "label": "निवेशक बनें",
+      "link": "/become-a-partner"
+    }
+  ]
+},
     "legal": {
       "title": "कानूनी और अनुपालन",
       "items": [
