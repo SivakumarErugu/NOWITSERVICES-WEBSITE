@@ -234,6 +234,7 @@ It supports sustainable digital living.
         `,
     },
     {
+        key:'won_trip',
         title: 'WON Trip',
         category: 'B2C',
         image: PRODUCT_IMAGES.WONTrip,

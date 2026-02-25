@@ -6,13 +6,16 @@
     "infnity.description": "Enterprise-Ready Zero-Code Platforms That Evolve, Adapt, and Scale — From Individuals to Enterprises",
     "infinity.span": "Think, Adapt, and Scale",
     "infinity.right.text": "Human Experiences",
-    "infinity.left.text": "Intelligent Platforms",
+    "infinity.left.text": "Industry Operations",
     "infinity.middle.top": "WON Suite",
     "infinity.middle.bottom": "Simple | Smart | Secure",
     "products.slidingHeader": "Our Products",
     "products.title": "Products Built for Every Journey",
     "products.span": "Individual to Enterprise",
     "products.List": {
+
+
+        
         "won_digi": {
             "name": "WON Digi",
             "description": "WON Digi is a comprehensive school and institute management platform that digitizes academic, administrative, and operational workflows."

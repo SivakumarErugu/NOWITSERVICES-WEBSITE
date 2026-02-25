@@ -7,7 +7,7 @@ import Footersubcomponent from "./footersubcomponent";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#04192D] w-full pt-14 pb-20 px-6 md:px-10 2xl:px-25 text-white relative">
+        <div>
             {/* MAIN CONTENT */}
             {/* <div className="max-w-8xl mx-auto flex flex-col lg:flex-row gap-14 lg:gap-10">
 
@@ -26,7 +26,7 @@ const Footer = () => {
 
             {/* COPYRIGHT */}
            
-        </footer>
+        </div>
     );
 };
 

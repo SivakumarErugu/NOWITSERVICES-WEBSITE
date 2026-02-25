@@ -375,5 +375,11 @@
   "bussinessBanner.title.suffix": "लॉन्च करने के लिए",
   "bussinessBanner.line2.title": "और अपने व्यवसाय को बढ़ाने के लिए",
   "bussinessBanner.description": "हमारे विशेषज्ञों से बात करें और विकास को तेज़ करें।",
-  "bussinessBanner.buttonText": "संपर्क करें"
+  "bussinessBanner.buttonText": "संपर्क करें",
+  "service.overview": "सेवा अवलोकन",
+  "service.whychoose": "हमें क्यों चुनें",
+  "chooseus.description": "हम तकनीकी विशेषज्ञता, विचारशील डिज़ाइन और विश्वसनीय डिलीवरी को मिलाकर वास्तविक व्यावसायिक आवश्यकताओं को पूरा करने वाले स्केलेबल डिजिटल समाधान तैयार करते हैं।",
+  "services.our": "हमारी सेवाएँ",
+  "industries": "उद्योग"
+
 }

@@ -331,24 +331,24 @@
 
 "service5.tabContent": {
   "1": {
-    "title": "需求调研",
-    "description": "全面了解业务目标、需求分析和用户场景，明确解决方案的发展方向。"
+    "title": "Scoperta",
+    "description": "Iniziamo comprendendo l’intero percorso del business o del prodotto, identificando obiettivi e requisiti e definendo l’evoluzione futura della soluzione."
   },
   "2": {
-    "title": "设计与架构",
-    "description": "打造直观的用户体验，并建立安全、可扩展的技术架构。"
+    "title": "Design e Architettura",
+    "description": "Sulla base delle analisi, progettiamo esperienze intuitive e un’architettura tecnica solida, scalabile e sicura."
   },
   "3": {
-    "title": "开发",
-    "description": "采用敏捷开发方法，实现核心功能并确保系统性能与稳定性。"
+    "title": "Sviluppo",
+    "description": "La soluzione viene sviluppata con metodologie agili e strutturate, garantendo prestazioni e affidabilità."
   },
   "4": {
-    "title": "部署",
-    "description": "上线前进行全面测试，验证后部署到生产环境。"
+    "title": "Distribuzione",
+    "description": "Prima del rilascio, la soluzione viene testata accuratamente. Dopo la validazione, viene distribuita in produzione."
   },
   "5": {
-    "title": "持续优化",
-    "description": "提供持续支持与AI驱动优化，推动长期创新。"
+    "title": "Evoluzione Continua",
+    "description": "Dopo il lancio, forniamo supporto continuo e integriamo automazione e funzionalità basate su IA."
   }
 },
   
@@ -374,5 +374,10 @@
   "bussinessBanner.title.suffix": "启动您的业务了吗",
   "bussinessBanner.line2.title": "并实现规模化增长",
   "bussinessBanner.description": "与我们的专家沟通，推动长期发展。",
-  "bussinessBanner.buttonText": "联系我们"
+  "bussinessBanner.buttonText": "联系我们",
+  "service.overview": "服务概览",
+  "service.whychoose": "为什么选择我们",
+  "chooseus.description": "我们结合技术专长、深思熟虑的设计和可靠的交付，构建可扩展的数字解决方案，以满足真实的业务需求。",
+  "services.our": "我们的服务",
+  "industries": "行业"
 }

@@ -62,7 +62,7 @@ const Services4 = () => {
       <div className="mx-auto px-5 md:px-8 lg:px-15">
 
         {/* HEADER */}
-        <SlidingHeader title="Our Services" bottom="mb-2" />
+        <SlidingHeader title={t("services.our")} bottom="mb-2" />
 
         {/* TITLE + ARROWS */}
         <div className="flex items-center justify-between mb-5">

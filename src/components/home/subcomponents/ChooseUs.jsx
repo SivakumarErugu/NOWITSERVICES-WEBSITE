@@ -155,7 +155,7 @@ const ChooseUs = () => {
             scroll-invisible no-scrollbar
           "
         >
-          {List.map((item) => {
+          {chooseUsList.map((item) => {
             const isActive = activeId === item.id
 
             return (

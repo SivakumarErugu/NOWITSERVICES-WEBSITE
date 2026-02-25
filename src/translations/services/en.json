@@ -377,7 +377,7 @@
         "Finance & Banking",
         "Retail & E-commerce",
         "Manufacturing",
-        "Logistics & Supply Chain",
+        "Logistics ",
         "Real Estate",
         "Travel & Hospitality",
         "IT & Technology",
@@ -389,6 +389,12 @@
     "bussinessBanner.title.suffix": "To Launch",
     "bussinessBanner.line2.title": "And Scale Your Business",
     "bussinessBanner.description": "Talk to our experts to explore how our services can support your goals and drive long-term growth.",
-    "bussinessBanner.buttonText": "Get in Touch"
+    "bussinessBanner.buttonText": "Get in Touch",
+    "service.overview":"Service Overview",
+   
+    "chooseus.description":"We combine technical expertise, thoughtful design, and reliable delivery to build scalable digital solutions that meet real business needs.",
+    "services.our":"Our Services",
+    "industries":"Industries"
+
    
 }

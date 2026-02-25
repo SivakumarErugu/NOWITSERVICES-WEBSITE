@@ -363,20 +363,25 @@
     "Santé",
     "Éducation",
     "Finance et Banque",
-    "Commerce de Détail et E-commerce",
+    "Commerce de Détail ",
     "Industrie Manufacturière",
-    "Logistique et Chaîne d’Approvisionnement",
+    "Logistique",
     "Immobilier",
     "Voyage et Hôtellerie",
     "IT et Technologie",
     "Télécommunications",
-    "Énergie et Services Publics",
+    "Énergie et Services ",
     "Automobile"
   ],
   "bussinessBanner.title.prefix": "Prêt",
   "bussinessBanner.title.suffix": "À Lancer",
   "bussinessBanner.line2.title": "Et Développer Votre Entreprise",
   "bussinessBanner.description": "Parlez à nos experts pour accélérer votre croissance.",
-  "bussinessBanner.buttonText": "Contactez-nous"
+  "bussinessBanner.buttonText": "Contactez-nous",
+  "service.overview": "Aperçu du service",
+  "service.whychoose": "Pourquoi nous choisir",
+  "chooseus.description": "Nous combinons expertise technique, conception réfléchie et livraison fiable pour créer des solutions numériques évolutives répondant aux besoins réels des entreprises.",
+  "services.our": "Nos services",
+  "industries": "Secteurs"
 
 }

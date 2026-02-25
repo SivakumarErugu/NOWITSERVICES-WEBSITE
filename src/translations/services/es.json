@@ -335,12 +335,27 @@
     { "key": 4, "title": "Entregar" }
   ],
   "service5.tabContent": {
-    "1": { "title": "Descubrir", "description": "Comprendemos los objetivos y necesidades del negocio." },
-    "2": { "title": "Diseño y Arquitectura", "description": "Diseñamos experiencias y bases técnicas sólidas." },
-    "3": { "title": "Desarrollo", "description": "Construcción ágil y estructurada del producto." },
-    "4": { "title": "Despliegue", "description": "Pruebas exhaustivas y puesta en producción." },
-    "5": { "title": "Evolución Continua", "description": "Soporte continuo y mejoras impulsadas por IA." }
+  "1": {
+    "title": "Descubrimiento",
+    "description": "Comenzamos comprendiendo el alcance completo del negocio o producto. Identificamos objetivos, analizamos requisitos y definimos cómo debe evolucionar la solución."
   },
+  "2": {
+    "title": "Diseño y Arquitectura",
+    "description": "Con base en el análisis, diseñamos experiencias intuitivas y una arquitectura técnica sólida, garantizando escalabilidad y seguridad."
+  },
+  "3": {
+    "title": "Desarrollo",
+    "description": "La solución se construye mediante prácticas ágiles y estructuradas, enfocándonos en rendimiento y confiabilidad."
+  },
+  "4": {
+    "title": "Despliegue",
+    "description": "Antes de su lanzamiento, la solución se prueba exhaustivamente. Tras la validación, se implementa en producción."
+  },
+  "5": {
+    "title": "Evolución Continua",
+    "description": "Después del lanzamiento, brindamos soporte continuo e incorporamos automatización y capacidades impulsadas por IA."
+  }
+},
   "Industry.title": "Soluciones para",
   "Industry.span": "Cada Industria",
   "Industry.description": "NOWIT Services ofrece servicios de transformación digital impulsados por IA.",
@@ -350,7 +365,7 @@
     "Finanzas y Banca",
     "Retail y Comercio Electrónico",
     "Manufactura",
-    "Logística y Cadena de Suministro",
+    "Logística y Cadena  Suministro",
     "Bienes Raíces",
     "Viajes y Hospitalidad",
     "TI y Tecnología",
@@ -383,5 +398,10 @@
     { "name": "products", "label": "Productos", "link": "/products", "options": [] },
     { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
     { "name": "careers", "label": "Carreras", "link": "/careers", "options": [] }
-  ]
+  ],
+    "service.overview": "Descripción del Servicio",
+  "service.whychoose": "Por Qué Elegirnos",
+  "chooseus.description": "Combinamos experiencia técnica, diseño estratégico y entrega confiable para crear soluciones digitales escalables que satisfacen necesidades empresariales reales.",
+  "services.our": "Nuestros Servicios",
+  "industries": "Industrias"
 }

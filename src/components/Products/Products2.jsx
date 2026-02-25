@@ -21,11 +21,10 @@ const Products2 = () => {
           </h2>
 
           <p className="mt-3 text-xs md:text-sm 2xl:text-[17px] text-gray-600 max-w-2xl">
-            {t("infinity.description") || "Enterprise-Ready Zero-Code Platforms That Evolve, Adapt, and Scale — From Individuals to Enterprises"}
+            {t("infnity.description") || "Enterprise-Ready Zero-Code Platforms That Evolve, Adapt, and Scale — From Individuals to Enterprises"}
           </p>
         </div>
       }
-
       {/* Infinity Image Container */}
       <InfiniteLoop />
 

@@ -334,28 +334,28 @@
     { "key": 3, "title": "Entwicklung" },
     { "key": 4, "title": "Lieferung" }
   ],
-  "service5.tabContent": {
-    "1": {
-      "title": "Entdecken",
-      "description": "Analyse der Geschäftsziele und Anforderungen."
-    },
-    "2": {
-      "title": "Design & Architektur",
-      "description": "Gestaltung intuitiver Nutzererlebnisse und stabiler Architekturen."
-    },
-    "3": {
-      "title": "Entwicklung",
-      "description": "Agile und strukturierte Umsetzung der Lösung."
-    },
-    "4": {
-      "title": "Bereitstellung",
-      "description": "Testen und Deployment für den Produktivbetrieb."
-    },
-    "5": {
-      "title": "Kontinuierliche Weiterentwicklung",
-      "description": "Laufende Unterstützung und Optimierung mit KI."
-    }
+ "service5.tabContent": {
+  "1": {
+    "title": "Analyse",
+    "description": "Wir beginnen mit einem umfassenden Verständnis der Geschäfts- oder Produktreise. Dazu gehören Zieldefinition, Anforderungsanalyse, Nutzerverständnis und die Festlegung der zukünftigen Entwicklung der Lösung."
   },
+  "2": {
+    "title": "Design & Architektur",
+    "description": "Basierend auf den Erkenntnissen entwerfen wir intuitive Nutzererlebnisse und eine stabile technische Architektur. Die Lösung wird skalierbar, sicher und flexibel konzipiert."
+  },
+  "3": {
+    "title": "Entwicklung",
+    "description": "Die Lösung wird mit strukturierten und agilen Methoden entwickelt. Fokus liegt auf Kernfunktionen, Performance und Zuverlässigkeit."
+  },
+  "4": {
+    "title": "Bereitstellung",
+    "description": "Vor dem Go-Live wird die Lösung gründlich getestet. Nach erfolgreicher Validierung erfolgt die Bereitstellung in der Produktionsumgebung."
+  },
+  "5": {
+    "title": "Kontinuierliche Weiterentwicklung",
+    "description": "Nach dem Launch bieten wir fortlaufenden Support und Optimierungen, einschließlich Automatisierung und KI-gestützter Funktionen."
+  }
+},
   "Industry.title": "Lösungen für",
   "Industry.span": "Jede Branche",
   "Industry.description": "NOWIT Services bietet KI-gestützte digitale Transformationslösungen.",
@@ -363,7 +363,7 @@
     "Gesundheitswesen",
     "Bildung",
     "Finanzen & Banken",
-    "Einzelhandel & E-Commerce",
+    "Einzelhandel",
     "Fertigung",
     "Logistik & Lieferkette",
     "Immobilien",
@@ -423,5 +423,10 @@
       "link": "/careers",
       "options": []
     }
-  ]
+  ],
+    "service.overview": "Serviceübersicht",
+  "service.whychoose": "Warum uns wählen",
+  "chooseus.description": "Wir kombinieren technisches Fachwissen, durchdachtes Design und zuverlässige Umsetzung, um skalierbare digitale Lösungen zu entwickeln, die reale Geschäftsanforderungen erfüllen.",
+  "services.our": "Unsere Dienstleistungen",
+  "industries": "Branchen"
 }

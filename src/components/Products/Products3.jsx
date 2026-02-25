@@ -32,16 +32,16 @@ const Products3 = () => {
 
     useEffect(() => {
         const translatedList = t("products.List")
-        console.log("Raw Translation Output:", translatedList, translatedList?.length > 0); // Debugging log
-
+        // console.log("Raw Translation Output:", translatedList, translatedList?.length > 0); // Debugging log
         if (Object.keys(translatedList).length > 0) {
             console.log("Translated List:", translatedList); // Debugging log
             setTranslatedProductsList(translatedList)
         } else {
             setTranslatedProductsList(translatedList)
         }
-    }, [t, translatedProductsList])
+    }, [t, isReady])
 
+    console.log(translatedProductsList,"translated Heree")
 
     return (
         <section className="w-full bg-white py-1 px-4 lg:px-8 mb-5 ">
@@ -52,7 +52,6 @@ const Products3 = () => {
                 <div className="mx-auto px-1 lg:px-6">
                     {/* HEADER */}
                     <SlidingHeader title={t("products.slidingHeader") || "Our Products"} bottom="mb-2" />
-
                     <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-[#0b2b4b] leading-normal max-w-3xl">
                         {t("products.title") || "Products Built for Every Journey "}
                         <span className="hidden md:inline">
@@ -118,7 +117,8 @@ const Products3 = () => {
                                 // console.log(translatedProductsList, "list here")
                                 // console.log(translatedProductsList[item.key], "value in")
                                 // console.log("triggering in IF BLOCK")
-                                return (<ProductCard
+                                return (
+                                <ProductCard
                                     key={item.key}
                                     title={translatedProductsList[item.key]?.name || item.title}
                                     desc={translatedProductsList[item.key]?.description || item.desc}

@@ -71,14 +71,14 @@ const Services3 = () => {
 
                 {/* HEADER */}
                 <div className="mb-6">
-                    <SlidingHeader title="Why Choose Us" bottom="mb-2" />
+                    <SlidingHeader title={t("service3.slidingText")} bottom="mb-2" />
 
                     <h2 className=" text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900">
                         {t("service3.title")} <span className="text-[#0b5ed7]">{t("service3.span")}</span>
                     </h2>
 
                     <p className="mt-3 text-gray-600 text-sm md:text-base 2xl:text-lg max-w-5xl 2xl:max-w-7xl">
-                      {t("service3.description")||" We combine technical expertise, thoughtful design, and reliable delivery to build scalable digital solutions that meet real business needs."} 
+                      {t("chooseus.description")||" We combine technical expertise, thoughtful design, and reliable delivery to build scalable digital solutions that meet real business needs."} 
                     </p>
                 </div>
             </div>

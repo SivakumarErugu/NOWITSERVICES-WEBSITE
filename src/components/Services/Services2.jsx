@@ -28,8 +28,7 @@ const Services2 = () => {
         <section className="w-full bg-white py-5 lg:py-2   mb-4 lg:mb-8 2xl:mb-20">
             <div className=" mx-auto px-5 md:px-8 lg:px-15">
                 {/* HEADER */}
-                <SlidingHeader title="Service Overview" bottom="mb-2" top="mt-2 lg:mt-2" />
-
+                <SlidingHeader title={t("service.overview")} bottom="mb-2" top="mt-2 lg:mt-2" />
                 {/* CONTENT */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
 

@@ -334,13 +334,28 @@
     { "key": 3, "title": "Sviluppare" },
     { "key": 4, "title": "Consegnare" }
   ],
-  "service5.tabContent": {
-    "1": { "title": "Scoprire", "description": "Comprendere obiettivi e requisiti del business." },
-    "2": { "title": "Design e Architettura", "description": "Progettazione di esperienze intuitive e basi tecniche solide." },
-    "3": { "title": "Sviluppo", "description": "Sviluppo strutturato e agile della soluzione." },
-    "4": { "title": "Distribuzione", "description": "Test completi e rilascio in produzione." },
-    "5": { "title": "Evoluzione Continua", "description": "Supporto continuo e miglioramenti basati su IA." }
+ "service5.tabContent": {
+  "1": {
+    "title": "Scoperta",
+    "description": "Iniziamo comprendendo l’intero percorso del business o del prodotto, identificando obiettivi e requisiti e definendo l’evoluzione futura della soluzione."
   },
+  "2": {
+    "title": "Design e Architettura",
+    "description": "Sulla base delle analisi, progettiamo esperienze intuitive e un’architettura tecnica solida, scalabile e sicura."
+  },
+  "3": {
+    "title": "Sviluppo",
+    "description": "La soluzione viene sviluppata con metodologie agili e strutturate, garantendo prestazioni e affidabilità."
+  },
+  "4": {
+    "title": "Distribuzione",
+    "description": "Prima del rilascio, la soluzione viene testata accuratamente. Dopo la validazione, viene distribuita in produzione."
+  },
+  "5": {
+    "title": "Evoluzione Continua",
+    "description": "Dopo il lancio, forniamo supporto continuo e integriamo automazione e funzionalità basate su IA."
+  }
+},
   "Industry.title": "Soluzioni per",
   "Industry.span": "Ogni Settore",
   "Industry.description": "NOWIT Services offre soluzioni di trasformazione digitale basate sull’intelligenza artificiale.",
@@ -383,5 +398,10 @@
     { "name": "products", "label": "Prodotti", "link": "/products", "options": [] },
     { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
     { "name": "careers", "label": "Carriere", "link": "/careers", "options": [] }
-  ]
+  ],
+    "service.overview": "Panoramica del Servizio",
+  "service.whychoose": "Perché Sceglierci",
+  "chooseus.description": "Combiniamo competenza tecnica, design strategico e consegna affidabile per sviluppare soluzioni digitali scalabili che rispondono alle reali esigenze aziendali.",
+  "services.our": "I Nostri Servizi",
+  "industries": "Settori"
 }

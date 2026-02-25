@@ -348,23 +348,23 @@
 "service5.tabContent": {
   "1": {
     "title": "Descoberta",
-    "description": "Compreendemos os objetivos do negócio, analisamos requisitos e identificamos necessidades dos usuários."
+    "description": "Começamos entendendo todo o escopo da jornada do negócio ou produto. Identificamos objetivos, analisamos requisitos e definimos como a solução deve evoluir ao longo do tempo."
   },
   "2": {
     "title": "Design e Arquitetura",
-    "description": "Criamos experiências intuitivas e uma base técnica escalável e segura."
+    "description": "Com base na descoberta, projetamos experiências intuitivas e definimos uma base técnica sólida, garantindo escalabilidade, segurança e flexibilidade."
   },
   "3": {
     "title": "Desenvolvimento",
-    "description": "Implementação estruturada com foco em desempenho, confiabilidade e alinhamento arquitetural."
+    "description": "A solução é construída com práticas ágeis e estruturadas, garantindo desempenho e alinhamento com a arquitetura definida."
   },
   "4": {
     "title": "Implantação",
-    "description": "Testes completos antes da publicação e implantação no ambiente de produção."
+    "description": "Antes do lançamento, realizamos testes completos para garantir qualidade e estabilidade. Após validação, a solução é implantada em produção."
   },
   "5": {
     "title": "Evolução Contínua",
-    "description": "Suporte contínuo e otimizações com inteligência artificial para crescimento sustentável."
+    "description": "Após o lançamento, oferecemos suporte contínuo e melhorias, incluindo automação e capacidades baseadas em IA."
   }
 },
   "Industry.title": "Soluções para",
@@ -389,5 +389,11 @@
   "bussinessBanner.title.suffix": "Para Lançar",
   "bussinessBanner.line2.title": "E Expandir Seu Negócio",
   "bussinessBanner.description": "Converse com nossos especialistas e descubra como podemos impulsionar seu crescimento.",
-  "bussinessBanner.buttonText": "Fale Conosco"
+  "bussinessBanner.buttonText": "Fale Conosco",
+
+  "service.overview": "Visão Geral do Serviço",
+  "service.whychoose": "Por Que Nos Escolher",
+  "chooseus.description": "Combinamos expertise técnica, design estratégico e entrega confiável para desenvolver soluções digitais escaláveis que atendem às reais necessidades do negócio.",
+  "services.our": "Nossos Serviços",
+  "industries": "Indústrias"
 }

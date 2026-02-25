@@ -13,7 +13,6 @@ import Link from 'next/link';
 import LanguageSwitcher from './languageSelection';
 const languages = [
     { value: 'en', label: 'EN-English' },
-
     { value: 'es', label: 'ES-Spanish' },
     { value: 'fr', label: 'FR-French' },
     { value: 'ar', label: 'AR-Arabic' },

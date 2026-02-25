@@ -337,24 +337,24 @@
 
 "service5.tabContent": {
   "1": {
-    "title": "調査フェーズ",
-    "description": "ビジネス目標、要件、ユーザー理解を通じて全体像を明確にします。"
+    "title": "発見",
+    "description": "まず、ビジネスやプロダクトの全体像を把握することから始めます。目標の特定、要件分析、ユーザー理解、そして将来的な進化の方向性を明確に定義します。"
   },
   "2": {
     "title": "設計とアーキテクチャ",
-    "description": "直感的なUI設計と拡張性・安全性の高い技術基盤を構築します。"
+    "description": "発見フェーズの洞察をもとに、直感的なUX設計と強固な技術基盤を構築します。拡張性・セキュリティ・将来の統合に対応可能な設計を行います。"
   },
   "3": {
     "title": "開発",
-    "description": "アジャイル手法によりコア機能を実装し、性能と信頼性を確保します。"
+    "description": "構造化されたアジャイル開発プロセスで構築します。主要機能の実装、パフォーマンス、信頼性を重視します。"
   },
   "4": {
     "title": "導入",
-    "description": "本番前に十分なテストを行い、本番環境へ展開します。"
+    "description": "本番前に徹底的なテストを実施し、安定性と品質を確保します。検証後、本番環境へ展開します。"
   },
   "5": {
-    "title": "継続的改善",
-    "description": "運用後も継続的なサポートとAI最適化を提供します。"
+    "title": "継続的な進化",
+    "description": "リリース後も継続的なサポートと改善を提供します。ビジネスの成長に合わせ、自動化やAI機能を導入します。"
   }
 },
   "Industry.title": "業界別",
@@ -378,5 +378,10 @@
   "bussinessBanner.title.suffix": "ビジネスを立ち上げる",
   "bussinessBanner.line2.title": "そして拡大するために",
   "bussinessBanner.description": "専門家にご相談ください。",
-  "bussinessBanner.buttonText": "お問い合わせ"
+  "bussinessBanner.buttonText": "お問い合わせ",
+  "service.overview": "サービス概要",
+  "service.whychoose": "私たちを選ぶ理由",
+  "chooseus.description": "私たちは技術的専門知識、洗練された設計、そして信頼できる提供体制を組み合わせ、実際のビジネスニーズに応える拡張可能なデジタルソリューションを構築します。",
+  "services.our": "私たちのサービス",
+  "industries": "業界"
 }
