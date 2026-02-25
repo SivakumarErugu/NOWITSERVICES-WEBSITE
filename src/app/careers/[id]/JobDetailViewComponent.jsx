@@ -9,24 +9,23 @@ import JobDetailView from '@/components/careers/OpportunitiesHub/JobDetailView'
 
 const JobDetailViewComponent = ({ id }) => {
     // console.log(id, "id hereee")
-    const { t ,tc,commonReady} = useNowit()
+    const { t, tc, commonReady } = useNowit()
     const { setPageKey, isReady } = useNowit();
-
-
-
-  // ✅ Wait for translations
-  if (!isReady) return null; // or <Loading />
-
+    console.log(id, "id Here")
+    useEffect(() => {
+        setPageKey('careers');
+    }, [setPageKey, t, tc]);
     if (!isReady) return <Loading />
     const JobList = t("jobList.jobOpenings")
-    const data=tc("jobApplicationForm")
-    console.log(data,"data here")
+    const data = tc("jobApplicationForm")
+    console.log(data, "data here")
     console.log(JobList)
-    const Job = JobList.find((jobid) => jobid.id == id)
-    console.log(Job,"job hereee")
+    const Job = JobList?.find((jobid) => jobid.id == id)
+    console.log(Job, "job hereee")
+
     return (
         <div>
-        {Job &&<JobDetailView job={Job} data={data}/>}
+            {Job && <JobDetailView job={Job} data={data} />}
         </div>
     )
 }

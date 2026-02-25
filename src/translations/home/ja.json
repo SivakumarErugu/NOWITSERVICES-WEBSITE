@@ -124,38 +124,38 @@
   "products.title": "デジタル製品",
   "products.span": "エンタープライズ対応",
   "products.description": "ビジネス課題を解決するインテリジェントでスケーラブルなデジタル製品。",
-  "products.appList": [
-    {
-      "id": 1,
-      "name": "WON Hubs",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "学校管理を変革するオールインワンプラットフォーム。"
-    },
-    {
-      "id": 2,
-      "name": "WON Digi",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-      "description": "教育機関向け総合管理プラットフォーム。"
-    },
-    {
-      "id": 3,
-      "name": "WON Pulse",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-      "description": "病院向けインテリジェント管理ソフトウェア。"
-    },
-    {
-      "id": 4,
-      "name": "WON Bills",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-      "description": "スマート請求および財務管理ソリューション。"
-    },
-    {
-      "id": 5,
-      "name": "WON Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "統合コミュニケーションおよびコラボレーションプラットフォーム。"
-    }
-  ],
+"products.appList": [
+  {
+    "id": 1,
+    "name": "ウォン ハブス",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+    "description": "学校管理を変革するオールインワンプラットフォーム。"
+  },
+  {
+    "id": 2,
+    "name": "ウォン デジ",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+    "description": "教育機関向け総合管理プラットフォーム。"
+  },
+  {
+    "id": 3,
+    "name": "ウォン パルス",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+    "description": "病院向けインテリジェント管理ソフトウェア。"
+  },
+  {
+    "id": 4,
+    "name": "ウォン ビルズ",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+    "description": "スマート請求および財務管理ソリューション。"
+  },
+  {
+    "id": 5,
+    "name": "ウォン ブリッジ",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+    "description": "統合コミュニケーションおよびコラボレーションプラットフォーム。"
+  }
+],
 
   "products.viewProduct": "製品を見る",
 

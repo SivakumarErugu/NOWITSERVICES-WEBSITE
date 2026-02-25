@@ -178,26 +178,27 @@
   },
 
   "locations": [
-    {
-      "key":"1",
-      "title": "ÍNDIA - Amaravathi",
-      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
-    },
-    {
-      "key":"2",
-      "title": "ÍNDIA - Vijayawada",
-      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
-    },
-    {"key":"3",
-      "title": "REINO UNIDO",
-      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
-    },
-    {
-      "key":"4",
-      "title": "ALEMANHA",
-      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
-    }
-  ],
+  {
+    "key": "1",
+    "title": "インド - アマラヴァティ",
+    "address": "インド、アーンドラ・プラデーシュ州522503、チンナカカニ、エレクトロニックシティ、バイパスロード、NRI出口、マユリ・テックパーク4階。"
+  },
+  {
+    "key": "2",
+    "title": "インド - ヴィジャヤワーダ",
+    "address": "インド、アーンドラ・プラデーシュ州520007、ヴィジャヤワーダ、カヌル、チャラサニ・ナガル、1階。"
+  },
+  {
+    "key": "3",
+    "title": "イギリス",
+    "address": "イギリス、UB3 4QF、グレーター・ロンドン、ヘイズ＆ハーリントン駅近く、グランド・ユニオン運河。"
+  },
+  {
+    "key": "4",
+    "title": "ドイツ",
+    "address": "ドイツ、53129 ボン、ハウスドルフ通り61番地。"
+  }
+],
 
   "organizationForm": {
     "organizationDetails": {

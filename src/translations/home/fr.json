@@ -18,7 +18,6 @@
   "hero.getStarted": "Commencer",
   "hero.unified": "Services Unifiés",
   "hero.reliable": "Support Fiable",
-
   "partner.slidingTitle": "Qui sommes-nous",
   "partner.title.prefix": "Votre",
   "partner.span": "Partenaire de Confiance",
@@ -28,12 +27,10 @@
   "partner.trusted": "Approuvé",
   "partner.clients": "par des Clients Internationaux",
   "partner.talktoai": "Parler à l’IA",
-
   "services.slidingTitle": "Nos Services",
   "services.title": "De Bout en Bout",
   "services.span": "Services Numériques",
   "services.description": "Nous proposons des services logiciels de bout en bout qui aident les entreprises à créer, développer et moderniser leurs produits numériques. De la stratégie et du design au développement et au déploiement, nous livrons des solutions fiables et de haute qualité adaptées à vos besoins.",
-
   "services.carouselList": [
     {
       "id": 1,
@@ -119,7 +116,6 @@
       "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
     }
   ],
-
   "products.slidingTitle": "Nos Produits",
   "products.title": "Produits Digitaux",
   "products.span": "Prêts pour l’Entreprise",
@@ -127,38 +123,36 @@
   "products.appList": [
     {
       "id": 1,
-      "name": "WON Hubs",
+      "name": "Ouon Hubs",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "WON Hubs est une plateforme éducative tout-en-un conçue pour transformer la gestion scolaire et l’apprentissage."
+      "description": "Ouon Hubs est une plateforme éducative tout-en-un conçue pour transformer la gestion scolaire et l’apprentissage."
     },
     {
       "id": 2,
-      "name": "WON Digi",
+      "name": "Ouon Digi",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-      "description": "WON Digi est une plateforme complète de gestion éducative."
+      "description": "Ouon Digi est une plateforme complète de gestion éducative."
     },
     {
       "id": 3,
-      "name": "WON Pulse",
+      "name": "Ouon Pulse",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-      "description": "WON Pulse est un logiciel intelligent de gestion hospitalière."
+      "description": "Ouon Pulse est un logiciel intelligent de gestion hospitalière."
     },
     {
       "id": 4,
-      "name": "WON Bills",
+      "name": "Ouon Bills",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-      "description": "WON Bills est une solution intelligente de facturation et de gestion financière."
+      "description": "Ouon Bills est une solution intelligente de facturation et de gestion financière."
     },
     {
       "id": 5,
-      "name": "WON Bridge",
+      "name": "Ouon Bridge",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "WON Bridge est une plateforme intégrée de communication et de collaboration."
+      "description": "Ouon Bridge est une plateforme intégrée de communication et de collaboration."
     }
   ],
-
   "products.viewProduct": "Voir le Produit",
-
   "Industry.title": "Solutions pour",
   "Industry.span": "Chaque Industrie",
   "Industry.description": "NOWIT Services propose des services de transformation digitale basés sur l’IA pour améliorer l’efficacité et accélérer la croissance.",
@@ -168,7 +162,7 @@
     "Finance & Banque",
     "Commerce de Détail & E-commerce",
     "Industrie Manufacturière",
-    "Logistique & Chaîne d’Approvisionnement",
+    "Logistique ",
     "Immobilier",
     "Voyage & Hôtellerie",
     "IT & Technologie",
@@ -176,7 +170,6 @@
     "Énergie & Services Publics",
     "Automobile"
   ],
-
   "testimonials.slidingTitle": "Témoignages",
   "testimonials.title.prefix": "Construire",
   "testimonials.title.suffix": "Grâce aux Résultats",
@@ -199,7 +192,6 @@
       "text": "Leur expertise technique nous a aidés à construire une solution fiable."
     }
   ],
-
   "faq.span": "FAQ",
   "faq.title": "Questions Fréquemment Posées",
   "faq.subquestion": "Vous avez encore des questions ?",
@@ -227,7 +219,6 @@
       "description": "Oui, nos solutions sont conçues pour évoluer de manière transparente."
     }
   ],
-
   "trustedbanner.subTitle": "Approuvé par",
   "trustedbanner.title": "Fournisseur Mondial de Services",
   "becomepartner.title.prefix": "Grandir",
@@ -235,7 +226,6 @@
   "becomepartner.title.suffix": "Grâce au Partenariat",
   "becomepartner.description": "Associez-vous à NowIT Services pour collaborer et innover.",
   "becomepartner.becomepartner": "Devenir Partenaire",
-
   "contactus": "Contactez-nous",
   "industries": "Industries",
   "testimonials.title": "Témoignages",

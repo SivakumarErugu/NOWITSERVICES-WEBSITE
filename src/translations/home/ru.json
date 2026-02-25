@@ -124,39 +124,38 @@
   "products.title": "Цифровые продукты",
   "products.span": "Готовые для предприятий",
   "products.description": "Наши продукты решают бизнес-задачи с помощью интеллектуальных и масштабируемых цифровых решений.",
-  "products.appList": [
-    {
-      "id": 1,
-      "name": "WON Hubs",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "Единая образовательная платформа для управления школами."
-    },
-    {
-      "id": 2,
-      "name": "WON Digi",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-      "description": "Комплексная платформа управления образованием."
-    },
-    {
-      "id": 3,
-      "name": "WON Pulse",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-      "description": "Интеллектуальное программное обеспечение для управления больницами."
-    },
-    {
-      "id": 4,
-      "name": "WON Bills",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-      "description": "Умное решение для выставления счетов и финансового управления."
-    },
-    {
-      "id": 5,
-      "name": "WON Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "Интегрированная платформа коммуникации и сотрудничества."
-    }
-  ],
-
+"products.appList": [
+  {
+    "id": 1,
+    "name": "ВонХабс",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+    "description": "Единая образовательная платформа для управления школами."
+  },
+  {
+    "id": 2,
+    "name": "ВонДиджи",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+    "description": "Комплексная платформа управления образованием."
+  },
+  {
+    "id": 3,
+    "name": "ВонПалс",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+    "description": "Интеллектуальное программное обеспечение для управления больницами."
+  },
+  {
+    "id": 4,
+    "name": "ВонБиллс",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+    "description": "Умное решение для выставления счетов и финансового управления."
+  },
+  {
+    "id": 5,
+    "name": "ВонБридж",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+    "description": "Интегрированная платформа коммуникации и сотрудничества."
+  }
+],
   "products.viewProduct": "Посмотреть продукт",
 
   "Industry.title": "Решения для",

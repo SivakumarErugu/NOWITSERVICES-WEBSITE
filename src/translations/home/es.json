@@ -65,38 +65,38 @@
   "products.title": "Productos Digitales",
   "products.span": "Listos para Empresas",
   "products.description": "Nuestros productos están diseñados para resolver desafíos empresariales mediante soluciones digitales inteligentes y escalables.",
-  "products.appList": [
-    {
-      "id": 1,
-      "name": "WON Hubs",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "WON Hubs es una plataforma educativa integral diseñada para transformar la gestión escolar y el aprendizaje."
-    },
-    {
-      "id": 2,
-      "name": "WON Digi",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-      "description": "WON Digi es una plataforma educativa todo en uno para la gestión académica."
-    },
-    {
-      "id": 3,
-      "name": "WON Pulse",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-      "description": "WON Pulse es un software integral de gestión hospitalaria diseñado para optimizar procesos clínicos y administrativos."
-    },
-    {
-      "id": 4,
-      "name": "WON Bills",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-      "description": "WON Bills es una solución inteligente de facturación y gestión financiera."
-    },
-    {
-      "id": 5,
-      "name": "WON Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "WON Bridge es una plataforma integrada de comunicación y colaboración."
-    }
-  ],
+"products.appList": [
+  {
+    "id": 1,
+    "name": "Guon Hubs",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+    "description": "Guon Hubs es una plataforma educativa integral diseñada para transformar la gestión escolar y el aprendizaje."
+  },
+  {
+    "id": 2,
+    "name": "Guon Digi",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+    "description": "Guon Digi es una plataforma educativa todo en uno para la gestión académica."
+  },
+  {
+    "id": 3,
+    "name": "Guon Pulse",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+    "description": "Guon Pulse es un software integral de gestión hospitalaria diseñado para optimizar procesos clínicos y administrativos."
+  },
+  {
+    "id": 4,
+    "name": "Guon Bills",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+    "description": "Guon Bills es una solución inteligente de facturación y gestión financiera."
+  },
+  {
+    "id": 5,
+    "name": "Guon Bridge",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+    "description": "Guon Bridge es una plataforma integrada de comunicación y colaboración."
+  }
+],
 
   "products.viewProduct": "Ver Producto",
 

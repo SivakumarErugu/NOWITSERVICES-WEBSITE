@@ -124,39 +124,38 @@
   "products.title": "منتجات رقمية",
   "products.span": "جاهزة للمؤسسات",
   "products.description": "تم تصميم منتجاتنا لحل تحديات الأعمال من خلال حلول رقمية ذكية وقابلة للتوسع.",
-  "products.appList": [
-    {
-      "id": 1,
-      "name": "WON Hubs",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "منصة تعليمية متكاملة لإدارة المدارس وتحسين تجربة التعلم."
-    },
-    {
-      "id": 2,
-      "name": "WON Digi",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-      "description": "منصة شاملة لإدارة التعليم."
-    },
-    {
-      "id": 3,
-      "name": "WON Pulse",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-      "description": "برنامج ذكي لإدارة المستشفيات."
-    },
-    {
-      "id": 4,
-      "name": "WON Bills",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-      "description": "حل ذكي للفوترة والإدارة المالية."
-    },
-    {
-      "id": 5,
-      "name": "WON Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "منصة متكاملة للتواصل والتعاون."
-    }
-  ],
-
+"products.appList": [
+  {
+    "id": 1,
+    "name": "وون هبز",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+    "description": "منصة تعليمية متكاملة لإدارة المدارس وتحسين تجربة التعلم."
+  },
+  {
+    "id": 2,
+    "name": "وون ديجي",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+    "description": "منصة شاملة لإدارة التعليم."
+  },
+  {
+    "id": 3,
+    "name": "وون بالس",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+    "description": "برنامج ذكي لإدارة المستشفيات."
+  },
+  {
+    "id": 4,
+    "name": "وون بيلز",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+    "description": "حل ذكي للفوترة والإدارة المالية."
+  },
+  {
+    "id": 5,
+    "name": "وون بريدج",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+    "description": "منصة متكاملة للتواصل والتعاون."
+  }
+],
   "products.viewProduct": "عرض المنتج",
 
   "Industry.title": "حلول لـ",

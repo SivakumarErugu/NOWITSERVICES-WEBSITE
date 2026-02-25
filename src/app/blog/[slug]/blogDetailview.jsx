@@ -8,6 +8,7 @@ import { BiTimeFive } from "react-icons/bi";
 import { socialMedia } from "@/components/partials/utils";
 import SimilarBlogs from "@/components/blogs/slug/SimilarBlogs";
 import NewsletterCard from "@/components/blogs/slug/NewsLetterCard";
+import Link from "next/link";
 
 const tagColors = [
     "text-blue-600",
@@ -22,10 +23,10 @@ const tagColors = [
 
 const BlogDetailView = ({ blogid }) => {
     const [GettedBlogId, setBlogid] = useState(0)
-    const [translatedBlogContent, setTranslatedBlogContent] = useState({})
-    const { t, isReady } = useNowit()
+    const [translatedBlogContent, setTranslatedBlogContent] = useState(null)
+    const { t, isReady,setPageKey } = useNowit()
     const [translatedBlogs, setTranslatedBlogs] = useState([])
-    const [btnText,setBtnText]=useState("Read More") 
+    const [btnText, setBtnText] = useState("Read More")
     //  const similarBlogs = translatedBlogs
     //         .filter(b =>
     //             b.slug !== blog.slug && // exclude current blog
@@ -40,15 +41,22 @@ const BlogDetailView = ({ blogid }) => {
 
     console.log("blogid in detail view", blogid);
     useEffect(() => {
-        setBlogid(blogid)
-        if (isReady) {
-            const data = t("blogs")
-            const currentBlog = data?.data?.find(b => b.id == blogid) || {}
-            setTranslatedBlogs(data?.data || [])
-            setTranslatedBlogContent(currentBlog)
-            setBtnText(t("blog.readMore"))
-        }
-    }, [blogid, isReady, t, translatedBlogContent,translatedBlogs])
+        if (!isReady || !blogid) return;
+
+        const data = t("blogs");
+        const blogs = data?.data || [];
+        const currentBlog = blogs.find(b => b.id == blogid) || null;
+
+        setTranslatedBlogs(blogs);
+        setTranslatedBlogContent(currentBlog);
+        setBtnText(t("blog.readMore"));
+
+    }, [blogid, isReady, t]);
+    useEffect(() => {
+        setPageKey('blog');
+    }, [setPageKey]);
+
+    if (!translatedBlogContent || !isReady) return null;
     // console.log(translatedBlogContent, "translatedBlogContent")
     if (!translatedBlogContent || !isReady) return null
     console.log("translatedBlogContent in detail view", translatedBlogContent);
@@ -100,9 +108,10 @@ const BlogDetailView = ({ blogid }) => {
                     <h4 className="text-[#4B5563] ">{t("blogs.share")}</h4>
                     <div className="flex gap-4">
                         {socialMedia.map((each, i) => (
-                            <span
+                            <Link
                                 key={i}
                                 className="relative h-10 w-10 flex items-center justify-center cursor-pointer"
+                                href={each.link}
                             >
                                 {/* Diffused glow */}
                                 <span className="absolute inset-0 rounded-full bg-[#55B233] blur-md opacity-10"></span>
@@ -114,14 +123,14 @@ const BlogDetailView = ({ blogid }) => {
                                 <span className="relative z-10 text-white">
                                     {each.icon}
                                 </span>
-                            </span>
+                            </Link>
                         ))}
                     </div>
                 </div>
             </section>
 
             <section>
-                    <SimilarBlogs relatedDesc={translatedBlogContent?.excerpt} blogs={translatedBlogs} />    
+                <SimilarBlogs relatedDesc={translatedBlogContent?.excerpt} blogs={translatedBlogs} />
             </section>
             <section>
                 <NewsletterCard />

@@ -120,38 +120,38 @@
   "products.title": "数字产品",
   "products.span": "企业级解决方案",
   "products.description": "我们的产品通过智能、可扩展且易用的数字解决方案解决企业挑战。",
-  "products.appList": [
-    {
-      "id": 1,
-      "name": "WON Hubs",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "一体化教育管理平台，提升学校运营效率。"
-    },
-    {
-      "id": 2,
-      "name": "WON Digi",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-      "description": "综合教育管理数字平台。"
-    },
-    {
-      "id": 3,
-      "name": "WON Pulse",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-      "description": "智能医院管理软件。"
-    },
-    {
-      "id": 4,
-      "name": "WON Bills",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-      "description": "智能账单与财务管理解决方案。"
-    },
-    {
-      "id": 5,
-      "name": "WON Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "集成通信与协作平台。"
-    }
-  ],
+ "products.appList": [
+  {
+    "id": 1,
+    "name": "沃恩哈布斯",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+    "description": "一体化教育管理平台，提升学校运营效率。"
+  },
+  {
+    "id": 2,
+    "name": "沃恩迪吉",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+    "description": "综合教育管理数字平台。"
+  },
+  {
+    "id": 3,
+    "name": "沃恩脉冲",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+    "description": "智能医院管理软件。"
+  },
+  {
+    "id": 4,
+    "name": "沃恩比尔斯",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+    "description": "智能账单与财务管理解决方案。"
+  },
+  {
+    "id": 5,
+    "name": "沃恩布里奇",
+    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+    "description": "集成通信与协作平台。"
+  }
+],
   "products.viewProduct": "查看产品",
   "Industry.title": "行业解决方案",
   "Industry.span": "覆盖各行业",

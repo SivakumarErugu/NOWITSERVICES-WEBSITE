@@ -179,7 +179,7 @@ const TopArticles = () => {
             // console.log(data,"topArticles")
             setTranslatedBlogs(data?.data || [])
         }
-    }, [isReady,translatedBlogs])
+    }, [isReady])
 
     // Sort blogs by "top" priority
     const sortedBlogs = useMemo(() => {

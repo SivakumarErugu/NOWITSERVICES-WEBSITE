@@ -1,0 +1,207 @@
+{
+  "servicesData": {
+    "smart marketing": {
+      "title": "Marketing Inteligente",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+      "description": "Nosso serviço de Marketing Inteligente combina estratégia, criatividade e insights orientados por IA para ajudar empresas a construir uma forte presença de marca, engajar públicos de forma eficaz e melhorar o desempenho de marketing em canais digitais.",
+      "Services1": {
+        "headingSmall": "Marketing Que",
+        "headingMain": "Pensa, Aprende e Gera Resultados",
+        "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
+      },
+      "Services2": {
+        "heading": "O Que Está Incluído em",
+        "highlight": "Marketing Inteligente",
+        "description": "Nosso serviço de Marketing Inteligente combina estratégia, criatividade e insights orientados por IA para ajudar empresas a construir uma forte presença de marca, engajar públicos de forma eficaz e melhorar o desempenho de marketing em canais digitais.",
+        "cards": [
+          {
+            "title": "Campanhas Digitais Baseadas em Dados",
+            "desc": "Campanhas direcionadas construídas com insights de dados para maximizar alcance e conversões.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Conteúdo e Storytelling de Marca",
+            "desc": "Conteúdo e mensagens envolventes que fortalecem a identidade da marca e conectam com o público certo.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Segmentação de Público Baseada em IA",
+            "desc": "Agrupamento inteligente de público usando comportamento, intenção e preferências para engajamento personalizado.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Análise de Desempenho de Campanhas",
+            "desc": "Monitoramento, relatórios e otimização em tempo real para melhorar o ROI.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Insights Preditivos de Engajamento (Diferencial IA)",
+            "desc": "Previsão baseada em IA para antecipar o comportamento do cliente e otimizar campanhas.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "business launch": {
+      "title": "Serviços de Lançamento de Negócios",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+      "description": "Apoiamos novos negócios com uma abordagem estruturada e completa de lançamento, garantindo clareza, visibilidade e impulso inicial.",
+      "Services1": {
+        "headingSmall": "Lance Seu",
+        "headingMain": "Negócio com Confiança",
+        "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
+      },
+      "Services2": {
+        "heading": "O Que Está Incluído em",
+        "highlight": "Lançamento de Negócio",
+        "description": "Oferecemos uma estrutura completa para ajudar novas empresas a entrar no mercado com confiança.",
+        "cards": [
+          {
+            "title": "Registro de Nome e Logotipo",
+            "desc": "Suporte na escolha do nome e criação de identidade visual profissional.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Criação de Website e Marca",
+            "desc": "Desenvolvimento de site moderno alinhado aos valores da marca.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Campanhas de Marketing e Lançamento",
+            "desc": "Estratégias para gerar visibilidade e engajamento inicial.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Gestão de Eventos e RP",
+            "desc": "Planejamento e execução de eventos e mídia.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Simulações de Mercado Preditivas (IA)",
+            "desc": "Simulações orientadas por IA para avaliar cenários de entrada no mercado.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "migration": {
+      "title": "Migração para Nuvem e Aplicações",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+      "description": "Migre aplicações e dados para a nuvem com mínima interrupção e máximo desempenho.",
+      "Services1": {
+        "headingSmall": "Migração",
+        "headingMain": "Sem Complicações",
+        "image": "../../../public/images/ServicesImages/Migration.jpg"
+      },
+      "Services2": {
+        "heading": "O Que Está Incluído em",
+        "highlight": "Serviços de Migração",
+        "description": "Transição segura e eficiente para plataformas modernas.",
+        "cards": [
+          {
+            "title": "Migração de Aplicações e Nuvem",
+            "desc": "Migração completa de sistemas e cargas de trabalho.",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "Transferência Segura de Dados",
+            "desc": "Processos criptografados e em conformidade.",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "Otimização de Infraestrutura",
+            "desc": "Melhorias pós-migração.",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "Integrações de API e Sistemas",
+            "desc": "Integração com sistemas existentes.",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "Mapeamento Inteligente de Riscos (IA)",
+            "desc": "Análise de riscos baseada em IA.",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    }
+  },
+
+  "slidesData": [
+    {
+      "key": 1,
+      "title": "Cultura de Trabalho Orientada ao Crescimento",
+      "desc": "Ambiente que promove aprendizado e evolução profissional."
+    },
+    {
+      "key": 2,
+      "title": "Aprendizado Multidisciplinar e Certificações",
+      "desc": "Oportunidades de aprendizado e certificações reconhecidas."
+    },
+    {
+      "key": 3,
+      "title": "Exposição a Projetos Globais",
+      "desc": "Experiência prática com clientes internacionais."
+    },
+    {
+      "key": 4,
+      "title": "Reconhecimento e Mentoria de Liderança",
+      "desc": "Reconhecimento profissional com orientação de líderes experientes."
+    }
+  ],
+
+  "service3.title": "Construído com",
+  "service3.span": "Confiança e Qualidade",
+  "service3.previousbtnText": "Anterior",
+  "service3.nextbtnText": "Próximo",
+  "service3.slidingText": "Por Que Nos Escolher",
+
+  "service4.title": "Outros Serviços",
+  "service4.span": "Que Oferecemos",
+  "service4.slidingHeader": "Nossos Serviços",
+
+  "service5.title": "Como Entregamos",
+  "service5.description": "Guiamos seu projeto em todas as etapas, da ideação à entrega.",
+  "service5.tabs": [
+    { "key": 1, "title": "Descobrir" },
+    { "key": 2, "title": "Design" },
+    { "key": 3, "title": "Desenvolver" },
+    { "key": 4, "title": "Entregar" }
+  ],
+
+  "Industry.title": "Soluções para",
+  "Industry.span": "Todos os Setores",
+  "Industry.description": "Serviços de transformação digital com IA para impulsionar crescimento empresarial.",
+  "Industry.list": [
+    "Saúde",
+    "Educação",
+    "Finanças e Bancos",
+    "Varejo e E-commerce",
+    "Manufatura",
+    "Logística",
+    "Imobiliário",
+    "Turismo",
+    "Tecnologia da Informação",
+    "Telecomunicações",
+    "Energia",
+    "Automotivo"
+  ],
+
+  "bussinessBanner.title.prefix": "Pronto",
+  "bussinessBanner.title.suffix": "Para Lançar",
+  "bussinessBanner.line2.title": "E Expandir Seu Negócio",
+  "bussinessBanner.description": "Fale com nossos especialistas para impulsionar seu crescimento.",
+  "bussinessBanner.buttonText": "Entre em Contato",
+
+  "headerOptions": [
+    { "name": "home", "label": "Início", "link": "/", "options": [] },
+    { "name": "about us", "label": "Sobre Nós", "link": "/aboutus", "options": [] },
+    { "name": "services", "label": "Serviços", "link": "/", "options": [] },
+    { "name": "products", "label": "Produtos", "link": "/products", "options": [] },
+    { "name": "blog", "label": "Blog", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "Carreiras", "link": "/careers", "options": [] }
+  ]
+}

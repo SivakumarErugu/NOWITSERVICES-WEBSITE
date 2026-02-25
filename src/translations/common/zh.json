@@ -173,28 +173,28 @@
       "sending": "发送中..."
     }
   },
-  "locations": [
-    {
-      "key": "1..",
-      "title": "印度 - 阿马拉瓦蒂",
-      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
-    },
-    {
-      "key": "2",
-      "title": "印度 - 维杰亚瓦达",
-      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
-    },
-    {
-      "key": "3",
-      "title": "英国",
-      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
-    },
-    {
-      "key": "4",
-      "title": "德国",
-      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
-    }
-  ],
+ "locations": [
+  {
+    "key": "1",
+    "title": "印度 - 阿马拉瓦蒂",
+    "address": "印度安得拉邦522503，奇纳卡卡尼，电子城绕城路NRI出口，马尤里科技园4层。"
+  },
+  {
+    "key": "2",
+    "title": "印度 - 维杰亚瓦达",
+    "address": "印度安得拉邦520007，维杰亚瓦达，卡努鲁，查拉萨尼纳加尔，一层。"
+  },
+  {
+    "key": "3",
+    "title": "英国",
+    "address": "英国UB3 4QF，大伦敦，海斯与哈灵顿站附近，大联合运河。"
+  },
+  {
+    "key": "4",
+    "title": "德国",
+    "address": "德国53129，波恩，豪斯多夫大街61号。"
+  }
+],
   "organizationForm": {
     "organizationDetails": {
       "title": "组织信息",

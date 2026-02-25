@@ -1,0 +1,207 @@
+{
+  "servicesData": {
+    "smart marketing": {
+      "title": "スマートマーケティング",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770974390/ChatGPT_Image_Feb_13_2026_02_49_38_PM_bffjhb.png",
+      "description": "当社のスマートマーケティングサービスは、戦略、創造性、そしてAI主導のインサイトを組み合わせ、企業が強力なブランドプレゼンスを構築し、効果的に顧客と関わり、デジタルチャネル全体でマーケティング成果を向上させることを支援します。",
+      "Services1": {
+        "headingSmall": "考え、学び、",
+        "headingMain": "成果を生み出すマーケティング",
+        "image": "../../../public/images/ServicesImages/SmartMarketing.jpg"
+      },
+      "Services2": {
+        "heading": "スマートマーケティングに",
+        "highlight": "含まれる内容",
+        "description": "戦略・創造性・AIインサイトを融合し、ブランド強化と成果向上を実現します。",
+        "cards": [
+          {
+            "title": "データ主導型デジタルキャンペーン",
+            "desc": "データ分析に基づくターゲット型キャンペーンで、リーチとコンバージョンを最大化します。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "コンテンツ＆ブランドストーリーテリング",
+            "desc": "ブランド価値を強化し、適切な顧客層とつながる魅力的なコンテンツ制作。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "AIによるオーディエンスセグメンテーション",
+            "desc": "行動・意図・嗜好に基づくインテリジェントな顧客分類。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "キャンペーンパフォーマンス分析",
+            "desc": "リアルタイム追跡と最適化でROIを向上。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "予測型エンゲージメント分析（AI強化）",
+            "desc": "AIによる顧客行動予測で効果を最大化。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "business launch": {
+      "title": "ビジネスローンチサービス",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770973999/ChatGPT_Image_Feb_13_2026_02_43_02_PM_vo6d5s.png",
+      "description": "新規事業の立ち上げを、明確さ・可視性・初期成長を確保する包括的アプローチで支援します。",
+      "Services1": {
+        "headingSmall": "自信を持って",
+        "headingMain": "ビジネスを立ち上げる",
+        "image": "../../../public/images/ServicesImages/BusinessLaunch.png"
+      },
+      "Services2": {
+        "heading": "ビジネスローンチに",
+        "highlight": "含まれる内容",
+        "description": "市場参入を成功させるための体系的フレームワークを提供します。",
+        "cards": [
+          {
+            "title": "事業名・ロゴ登録",
+            "desc": "ブランド確立のための名称選定とロゴ設計サポート。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "ウェブサイト＆ブランド構築",
+            "desc": "ブランド価値に沿ったモダンなウェブサイト制作。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "マーケティング＆ローンチキャンペーン",
+            "desc": "認知度向上と初期エンゲージメント創出の戦略。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "イベント＆PR管理",
+            "desc": "ローンチイベントやメディア対応の企画運営。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "AI市場シミュレーション",
+            "desc": "AIを活用した市場参入シナリオ分析。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    },
+
+    "migration": {
+      "title": "クラウド＆アプリケーション移行",
+      "mainimage": "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770970217/Migration.jpg_zmuqev.jpg",
+      "description": "最小限の停止時間でクラウド移行を実現します。",
+      "Services1": {
+        "headingSmall": "シームレスな",
+        "headingMain": "プラットフォーム移行",
+        "image": "../../../public/images/ServicesImages/Migration.jpg"
+      },
+      "Services2": {
+        "heading": "移行サービスに",
+        "highlight": "含まれる内容",
+        "description": "安全かつ効率的なクラウド移行を保証します。",
+        "cards": [
+          {
+            "title": "クラウド移行",
+            "desc": "アプリケーションとワークロードの包括的移行。",
+            "bg": "bg-blue-50 border-blue-100"
+          },
+          {
+            "title": "安全なデータ転送",
+            "desc": "暗号化された安全な転送プロセス。",
+            "bg": "bg-green-50 border-green-100"
+          },
+          {
+            "title": "インフラ最適化",
+            "desc": "移行後のパフォーマンス改善。",
+            "bg": "bg-purple-50 border-purple-100"
+          },
+          {
+            "title": "API統合",
+            "desc": "既存システムとの統合。",
+            "bg": "bg-orange-50 border-orange-100"
+          },
+          {
+            "title": "AIリスク分析",
+            "desc": "AIによるリスクマッピング。",
+            "bg": "bg-gray-50 border-gray-200"
+          }
+        ]
+      }
+    }
+  },
+
+  "slidesData": [
+    {
+      "key": 1,
+      "title": "成長志向の職場文化",
+      "desc": "学習と長期的成長を促進する環境。"
+    },
+    {
+      "key": 2,
+      "title": "分野横断学習と資格取得",
+      "desc": "業界認定資格取得の機会。"
+    },
+    {
+      "key": 3,
+      "title": "グローバルプロジェクト経験",
+      "desc": "国際クライアントとの実務経験。"
+    },
+    {
+      "key": 4,
+      "title": "表彰とリーダーシップ指導",
+      "desc": "実績を認められ、経験豊富なリーダーから学べます。"
+    }
+  ],
+
+  "service3.title": "信頼と品質に",
+  "service3.span": "基づいて構築",
+  "service3.previousbtnText": "前へ",
+  "service3.nextbtnText": "次へ",
+  "service3.slidingText": "選ばれる理由",
+
+  "service4.title": "その他の",
+  "service4.span": "提供サービス",
+  "service4.slidingHeader": "当社のサービス",
+
+  "service5.title": "提供プロセス",
+  "service5.description": "企画から開発・導入まで、すべての工程を丁寧にサポートします。",
+  "service5.tabs": [
+    { "key": 1, "title": "調査" },
+    { "key": 2, "title": "設計" },
+    { "key": 3, "title": "開発" },
+    { "key": 4, "title": "導入" }
+  ],
+
+  "Industry.title": "あらゆる",
+  "Industry.span": "業界向けソリューション",
+  "Industry.description": "AIを活用したデジタルトランスフォーメーションサービス。",
+  "Industry.list": [
+    "医療",
+    "教育",
+    "金融",
+    "小売・Eコマース",
+    "製造業",
+    "物流",
+    "不動産",
+    "旅行・ホスピタリティ",
+    "IT・テクノロジー",
+    "通信",
+    "エネルギー",
+    "自動車"
+  ],
+
+  "bussinessBanner.title.prefix": "準備は",
+  "bussinessBanner.title.suffix": "できていますか",
+  "bussinessBanner.line2.title": "ビジネスを成長させるために",
+  "bussinessBanner.description": "専門家にご相談ください。",
+  "bussinessBanner.buttonText": "お問い合わせ",
+
+  "headerOptions": [
+    { "name": "home", "label": "ホーム", "link": "/", "options": [] },
+    { "name": "about us", "label": "会社概要", "link": "/aboutus", "options": [] },
+    { "name": "services", "label": "サービス", "link": "/", "options": [] },
+    { "name": "products", "label": "製品", "link": "/products", "options": [] },
+    { "name": "blog", "label": "ブログ", "link": "/blog", "options": [] },
+    { "name": "careers", "label": "採用情報", "link": "/careers", "options": [] }
+  ]
+}

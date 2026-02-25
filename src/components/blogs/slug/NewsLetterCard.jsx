@@ -22,15 +22,11 @@ const NewsletterCard = () => {
       const result = await response.json();
 
       if (response.ok) {
-        toast.success(result.message || "Subscribed successfully!");
+        toast.success(result.message);
         return true;
       }
 
-      if (response.status === 409) {
-        toast.error("Email already subscribed");
-        return false;
-      }
-
+      // Handles 409, 400, 500 etc dynamically
       toast.error(result.message || "Subscription failed");
       return false;
 

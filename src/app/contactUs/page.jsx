@@ -9,14 +9,12 @@ export const metadata = {
 const Page = () => {
     return (
         <main className="relative w-full bg-white">
-
             <section className=" px-1 py-1 lg:px-10">
                 <ContactSection />
             </section>
             <section>
                 <ContactUs2 />
             </section>
-
         </main>
     );
 };

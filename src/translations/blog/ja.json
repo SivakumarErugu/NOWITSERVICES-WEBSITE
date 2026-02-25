@@ -1,0 +1,85 @@
+{
+  "banner.title": "テクノロジーインサイトで切り拓く",
+  "banner.span": "現代ビジネスの未来",
+  "banner.scroll": "スクロールして探索",
+
+  "blogs": {
+    "data": [
+      {
+        "id": "1",
+        "top": "1",
+        "tags": ["AI", "クラウド"],
+        "slug": "future-of-ai-and-cloud",
+        "title": "AIとクラウドの未来を探る",
+        "excerpt": "AIとクラウドコンピューティングが現代企業をどのように変革しているか。",
+        "publishedAt": "2024年5月11日",
+        "readingTime": "6分で読めます",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/6c293c20a69b1db1f024c0b696af59e796aec2ed_tdnee4.jpg",
+        "author": "NOW IT チーム",
+        "content": "## AIとクラウドの融合\n\nAIとクラウドプラットフォームは企業インフラを変革しています。\n\n> クラウド + AI により、拡張性の高いインテリジェントなシステムが実現します。\n\n### 主なメリット\n\n- **予測スケーリング** – 自動リソース管理\n- **セキュリティ** – AIによる脅威検知\n- **効率化** – 運用コスト削減\n\n<Highlight title=\"重要ポイント\">\n- AIは拡張性を向上させる\n- 自動化はコスト削減につながる\n- 意思決定が迅速化する\n</Highlight>"
+      },
+      {
+        "id": "2",
+        "top": "2",
+        "tags": ["移行", "クラウド"],
+        "slug": "why-cloud-migration-matters",
+        "title": "クラウド移行が重要な理由",
+        "excerpt": "クラウド移行の本当の影響を理解する。",
+        "publishedAt": "2024年6月2日",
+        "readingTime": "5分で読めます",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/ab300b1ead7ebf99eebbb1242960330d47fc8e2a_udvylf.jpg",
+        "author": "NOW IT チーム",
+        "content": "## クラウド移行とは\n\nクラウド移行により、企業はITシステムを最新化できます。\n\n### 利点\n\n- 迅速な導入\n- コスト最適化\n- グローバルな拡張性"
+      },
+      {
+        "id": "3",
+        "top": "3",
+        "tags": ["サイバーセキュリティ", "AI"],
+        "slug": "cybersecurity-in-ai-era",
+        "title": "AI時代のサイバーセキュリティ",
+        "excerpt": "AIがデジタルセキュリティをどのように再構築しているか。",
+        "publishedAt": "2024年6月18日",
+        "readingTime": "7分で読めます",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770096504/5c343f941b696de289818a8fbdaefd59499c2c7b_izzrqr.png",
+        "author": "セキュリティチーム",
+        "content": "## AI主導のセキュリティ\n\nAIはリアルタイムの脅威検知と対応を可能にします。\n\n> セキュリティはもはや受動的ではなく、予測型へと進化しています。"
+      },
+      {
+        "id": "4",
+        "tags": ["アーキテクチャ", "ウェブ開発"],
+        "slug": "scalable-web-architecture",
+        "title": "スケーラブルなWebアーキテクチャの構築",
+        "excerpt": "拡張性の高いWebシステムのベストプラクティス。",
+        "publishedAt": "2024年7月1日",
+        "readingTime": "8分で読めます",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109923/1a8918586b5896b630b24b063376c42cbd565ac3_df6taf.jpg",
+        "author": "エンジニアリングチーム",
+        "content": "## スケーラブルアーキテクチャの原則\n\n- ステートレスサービス\n- 水平スケーリング\n- クラウドネイティブ設計"
+      },
+      {
+        "id": "5",
+        "tags": ["DevOps", "AI"],
+        "slug": "future-of-devops",
+        "title": "DevOpsの未来",
+        "excerpt": "AIとともに進化するDevOps。",
+        "publishedAt": "2024年7月15日",
+        "readingTime": "6分で読めます",
+        "image": "https://res.cloudinary.com/dca9sij3n/image/upload/v1770109921/c3d7218d5c2d695772aa71f602c5a8c407e265f9_s91qhq.jpg",
+        "author": "DevOpsチーム",
+        "content": "## インテリジェンスとクラウド主導イノベーションの未来を探る\n\n急速に進化する企業テクノロジーの世界において、クラウドコンピューティングは現代ビジネス運営の基盤となっています。デジタルトランスフォーメーションが進む中、人工知能はクラウドインフラの設計、管理、最適化の方法を根本から変えています。\n\n## AIとクラウドの融合\n\nAIのクラウド統合は単なる改善ではなく、計算資源の利用方法におけるパラダイムシフトです。機械学習アルゴリズムはシステム動作を分析し、需要を予測し、従来は手動管理が必要だったインフラ判断を自動化します。\n\n主要クラウドプロバイダーは、よりインテリジェントで耐障害性が高く、コスト効率に優れたAIツールに多額の投資を行っています。\n\n<Callout>\n「クラウドコンピューティングの未来は、単なるストレージや処理能力ではなく、リアルタイムで適応・学習・最適化できるインテリジェントなシステムにあります。」  \n— クラウドアーキテクチャ専門家 サラ・ウィリアムズ博士\n</Callout>\n\n## AI活用クラウドの主な利点\n\n<BenefitItem title=\"予測スケーリング\">\nAIアルゴリズムが使用パターンを分析し、需要増加前に自動スケーリングを実施します。\n</BenefitItem>\n\n<BenefitItem title=\"プロアクティブセキュリティ\">\n機械学習モデルが異常を検知し、迅速な対応を可能にします。\n</BenefitItem>\n\n<BenefitItem title=\"運用効率\">\nAIによる自動化が業務を合理化し、エンジニアは革新に集中できます。\n</BenefitItem>\n\n<Takeaways items={[\"AI活用クラウドは拡張性・セキュリティ・コスト管理で大きな利点を提供\", \"段階的導入がリスクを抑えながら価値を実現\", \"AI導入には人材育成が不可欠\", \"早期導入企業は競争優位を得やすい\"]} />"
+      }
+    ]
+  },
+
+  "blogs.readMore": "続きを読む",
+  "blogs.latest": "最新ブログ",
+  "blogs.similarBlogs": "関連記事",
+  "blogs.share": "共有",
+
+  "newsletter.title": "最新インサイトを受け取る",
+  "newsletter.description": "ニュースレターに登録して、クラウド、AI、エンタープライズ技術の最新情報を毎週受け取りましょう。",
+  "newsletter.subscribe": "登録する",
+  "newsletter.subscribing": "登録中...",
+  "newsletter.spam": "スパムはありません。いつでも解除可能です。",
+  "newsletter.emailPlaceholder": "メールアドレスを入力"
+}

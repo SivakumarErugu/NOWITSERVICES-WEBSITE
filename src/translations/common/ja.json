@@ -73,9 +73,7 @@
       "options": []
     }
   ],
-
   "contactUs": "お問い合わせ",
-
   "footer": {
     "description": "クラウドファーストかつAI主導のソリューションを提供し、スケーラブルな成長と業務効率の向上を実現するデジタルトランスフォーメーションパートナー。",
     "socialMedia": [
@@ -103,30 +101,56 @@
     "quickLinks": {
       "title": "クイックリンク",
       "items": [
-        { "label": "ホーム", "link": "/" },
-        { "label": "会社概要", "link": "/aboutus" },
-        { "label": "サービス", "link": "/services" },
-        { "label": "製品", "link": "/products" }
+        {
+          "label": "ホーム",
+          "link": "/"
+        },
+        {
+          "label": "会社概要",
+          "link": "/aboutus"
+        },
+        {
+          "label": "サービス",
+          "link": "/services"
+        },
+        {
+          "label": "製品",
+          "link": "/products"
+        }
       ]
     },
     "services": {
       "title": "ビジネスパートナーシップ",
       "items": [
-        { "label": "エンタープライズソリューション", "link": "/services" },
-        { "label": "AI & 自動化", "link": "/services" }
+        {
+          "label": "エンタープライズソリューション",
+          "link": "/services"
+        },
+        {
+          "label": "AI & 自動化",
+          "link": "/services"
+        }
       ]
     },
     "legal": {
       "title": "法務・コンプライアンス",
       "items": [
-        { "label": "プライバシーポリシー", "link": "/terms-privacy-cookie-policy" },
-        { "label": "利用規約", "link": "/terms-privacy-cookie-policy" },
-        { "label": "クッキーポリシー", "link": "/terms-privacy-cookie-policy" }
+        {
+          "label": "プライバシーポリシー",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "利用規約",
+          "link": "/terms-privacy-cookie-policy"
+        },
+        {
+          "label": "クッキーポリシー",
+          "link": "/terms-privacy-cookie-policy"
+        }
       ]
     },
     "copyright": "© 2026 Nowit Services. 無断転載を禁じます。"
   },
-
   "contact": {
     "title": "まずはご相談ください",
     "subtitle": "ご要件を共有いただければ、担当チームよりご連絡いたします",
@@ -149,30 +173,28 @@
       "sending": "送信中..."
     }
   },
-
   "locations": [
     {
-      "key":"1",
+      "key": "1",
       "title": "インド - アマラヴァティ",
-      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+      "address": "〒522-503 インド アーンドラ・プラデーシュ州 グントゥール県 チンナカカニ エレクトロニックシティ バイパス通り NRI出口 マユリ・テックパーク 4階"
     },
     {
-      "key":"2",
+      "key": "2",
       "title": "インド - ヴィジャヤワーダ",
-      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+      "address": "〒520-007 インド アーンドラ・プラデーシュ州 ヴィジャヤワーダ カヌル チャラサニナガル 1階"
     },
     {
-      "key":"3",
+      "key": "3",
       "title": "イギリス",
-      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+      "address": "〒UB3 4QF イギリス グレーター・ロンドン ヘイズ ハーリントン駅近く グランド・ユニオン運河沿い"
     },
     {
-      "key":"4",
+      "key": "4",
       "title": "ドイツ",
-      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+      "address": "〒53129 ドイツ ノルトライン＝ヴェストファーレン州 ボン ハウスドルフ通り61番地"
     }
   ],
-
   "organizationForm": {
     "organizationDetails": {
       "title": "組織情報",
@@ -224,24 +246,48 @@
     },
     "options": {
       "entityType": [
-        { "value": "Start Up", "label": "スタートアップ" },
-        { "value": "Enterprise", "label": "企業" }
+        {
+          "value": "Start Up",
+          "label": "スタートアップ"
+        },
+        {
+          "value": "Enterprise",
+          "label": "企業"
+        }
       ],
       "role": [
-        { "value": "Founder", "label": "創業者" },
-        { "value": "Partner", "label": "パートナー" }
+        {
+          "value": "Founder",
+          "label": "創業者"
+        },
+        {
+          "value": "Partner",
+          "label": "パートナー"
+        }
       ],
       "interestNature": [
-        { "value": "Investor", "label": "投資家" }
+        {
+          "value": "Investor",
+          "label": "投資家"
+        }
       ],
       "primaryInterest": [
-        { "value": "Strategic Partnership", "label": "戦略的パートナーシップ" }
+        {
+          "value": "Strategic Partnership",
+          "label": "戦略的パートナーシップ"
+        }
       ],
       "investmentSize": [
-        { "value": "Upto 10Cr", "label": "最大10Crまで" }
+        {
+          "value": "Upto 10Cr",
+          "label": "最大10Crまで"
+        }
       ],
       "timeline": [
-        { "value": "6-12 Months", "label": "6〜12か月" }
+        {
+          "value": "6-12 Months",
+          "label": "6〜12か月"
+        }
       ]
     },
     "toast": {
@@ -250,7 +296,6 @@
       "serverError": "送信に失敗しました。"
     }
   },
-
   "jobApplicationForm": {
     "applicationForm": "応募フォーム",
     "personalInformation": "個人情報",

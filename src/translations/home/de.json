@@ -18,7 +18,6 @@
   "hero.getStarted": "Jetzt Starten",
   "hero.unified": "Integrierte Services",
   "hero.reliable": "Zuverlässiger Support",
-
   "partner.slidingTitle": "Wer wir sind",
   "partner.title.prefix": "Ihr",
   "partner.span": "Vertrauenswürdiger Partner",
@@ -28,12 +27,10 @@
   "partner.trusted": "Vertrauenswürdig",
   "partner.clients": "von Globalen Kunden",
   "partner.talktoai": "Mit KI Sprechen",
-
   "services.slidingTitle": "Unsere Dienstleistungen",
   "services.title": "End-to-End",
   "services.span": "Digitale Services",
   "services.description": "Wir bieten End-to-End-Softwarelösungen, die Unternehmen beim Aufbau, der Skalierung und Modernisierung ihrer digitalen Produkte unterstützen.",
-
   "services.carouselList": [
     {
       "id": 1,
@@ -119,7 +116,6 @@
       "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
     }
   ],
-
   "products.slidingTitle": "Unsere Produkte",
   "products.title": "Digitale Produkte",
   "products.span": "Enterprise-ready",
@@ -127,38 +123,37 @@
   "products.appList": [
     {
       "id": 1,
-      "name": "WON Hubs",
+      "name": "Von Hubs",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
       "description": "Eine All-in-One-Bildungsplattform zur Modernisierung von Schulen."
     },
     {
       "id": 2,
-      "name": "WON Digi",
+      "name": "Von Digi",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
       "description": "Eine umfassende Schulverwaltungsplattform."
     },
     {
       "id": 3,
-      "name": "WON Pulse",
+      "name": "Von Pulse",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
       "description": "Intelligente Krankenhausverwaltungssoftware."
     },
     {
       "id": 4,
-      "name": "WON Bills",
+      "name": "Von Bills",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
       "description": "Intelligente Abrechnungs- und Finanzmanagementlösung."
     },
     {
       "id": 5,
-      "name": "WON Bridge",
+      "name": "Von Bridge",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
       "description": "Integrierte Kommunikations- und Kollaborationsplattform."
     }
   ],
 
   "products.viewProduct": "Produkt Ansehen",
-
   "Industry.title": "Lösungen für",
   "Industry.span": "Jede Branche",
   "Industry.description": "NOWIT Services bietet KI-gestützte digitale Transformationslösungen.",
@@ -176,7 +171,6 @@
     "Energie & Versorgungsunternehmen",
     "Automobilindustrie"
   ],
-
   "testimonials.slidingTitle": "Referenzen",
   "testimonials.title.prefix": "Vertrauen",
   "testimonials.title.suffix": "Durch Ergebnisse",
@@ -199,7 +193,6 @@
       "text": "Ihre technische Expertise half uns, eine zuverlässige Lösung zu entwickeln."
     }
   ],
-
   "faq.span": "FAQ",
   "faq.title": "Häufig Gestellte Fragen",
   "faq.subquestion": "Noch Fragen?",
@@ -227,7 +220,6 @@
       "description": "Ja, sie sind für Wachstum konzipiert."
     }
   ],
-
   "trustedbanner.subTitle": "Vertrauenswürdig von",
   "trustedbanner.title": "Globaler Dienstleister",
   "becomepartner.title.prefix": "Wachsen",
@@ -235,7 +227,6 @@
   "becomepartner.title.suffix": "Durch Partnerschaft",
   "becomepartner.description": "Arbeiten Sie mit NowIT Services zusammen.",
   "becomepartner.becomepartner": "Partner Werden",
-
   "contactus": "Kontaktieren Sie uns",
   "industries": "Branchen",
   "testimonials.title": "Referenzen",

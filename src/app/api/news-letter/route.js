@@ -1,23 +1,22 @@
-import { connectDB } from "../../../../lib/mongodb"; 
+import { connectDB } from "../../../../lib/mongodb";
 import Newsletter from "../../../../models/newsLetter";
 
 export async function POST(request) {
   try {
-    // DB connection
     await connectDB();
 
-    // Parse request body
-    const { email } = await request.json();
-    console.log(email)
+    const body = await request.json().catch(() => null);
+    console.log("", body);
 
-    if (!email) {
+    if (!body || !body.email) {
       return Response.json(
         { success: false, message: "Email is required" },
         { status: 400 }
       );
     }
 
-    // Check existing subscriber
+    const email = body.email.trim().toLowerCase();
+
     const existingSubscriber = await Newsletter.findOne({ email });
 
     if (existingSubscriber) {
@@ -27,7 +26,6 @@ export async function POST(request) {
       );
     }
 
-    // Create subscriber
     await Newsletter.create({ email });
 
     return Response.json(
@@ -39,7 +37,7 @@ export async function POST(request) {
     console.error("Newsletter subscription error:", error);
 
     return Response.json(
-      { success: false, message: "Internal server error" },
+      { success: false, message: error.message || "Internal server error" },
       { status: 500 }
     );
   }

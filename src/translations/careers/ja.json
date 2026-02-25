@@ -1,0 +1,260 @@
+{
+  "banner.title": "次のキャリアステップへ",
+  "banner.span": "ここから始まる",
+  "banner.scroll": "スクロールして探索",
+
+  "carrerVisualBlock.line1.title": "革新者の",
+  "carrerVisualBlock.line1.span": "皆さんへ",
+  "carrerVisualBlock.line2.title2": "挑戦の呼びかけ",
+  "carrerVisualBlock.line3.title": "未来を",
+  "carrerVisualBlock.line3.span": "創る",
+  "carrerVisualBlock.line4.title": "準備はできていますか",
+  "carrerVisualBlock.description": "私たちは、テクノロジーとイノベーションに情熱を持ち、意味のある価値を創造したい才能ある人材を常に求めています。あなたのアイデアが尊重され、成長を支援するチームに参加しませんか。",
+  "carrerVisualBlock.BtnText": "募集職種を見る",
+
+  "joinus.span": "参加しよう",
+  "joinus.title": "テクノロジーの未来の一員に",
+  "joinus.description": "情熱ある仲間と共に意義ある課題に取り組み、実社会に影響を与える革新的なデジタルソリューションを構築しながらスキルを成長させましょう。",
+
+  "oppurtunities.slidingHeader": "現在の募集",
+  "oppurtunities.search.placeholder": "職種・スキル・勤務地で検索",
+
+  "jobList.jobOpenings": [
+    {
+      "id": "NOWIT-JO-001",
+      "section": "development",
+      "role": "MERNスタック開発者",
+      "detailedRole": "フルスタックJavaScript開発者",
+      "location": "インド アンドラ・プラデーシュ州 アマラーヴァティ",
+      "type": "フルタイム",
+      "experience": "実務経験2年以上",
+      "description": "コンピュータサイエンス、エンジニアリング、または同等の実務経験。フルスタックJavaScript開発および最新Web技術への深い理解。",
+      "requirements": [
+        "MongoDB、Express.js、React、Node.jsの知識",
+        "REST APIの開発経験",
+        "Gitによるバージョン管理"
+      ],
+      "skills": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "JavaScript"
+      ],
+      "projectRole": "ソフトウェア開発者",
+      "projectDescription": "MERNスタックを用いたスケーラブルなWebアプリケーションの開発および保守。",
+      "educationalQualifications": "コンピュータサイエンスまたは関連分野の学士号",
+      "benefits": [
+        "健康保険",
+        "成果連動ボーナス",
+        "柔軟な勤務時間"
+      ],
+      "summary": "経験豊富なMERNスタック開発者向けの魅力的なポジションです。",
+      "postedDate": "2024-06-01"
+    },
+    {
+      "id": "NOWIT-JO-002",
+      "section": "development",
+      "role": "モバイルアプリ開発者",
+      "detailedRole": "React Native / Flutter 開発者",
+      "location": "インド アンドラ・プラデーシュ州 アマラーヴァティ",
+      "type": "フルタイム",
+      "experience": "実務経験2年以上",
+      "description": "AndroidおよびiOS向けの高品質なモバイルアプリケーションを開発・保守します。",
+      "requirements": [
+        "React Native または Flutter の経験",
+        "API連携",
+        "Play Store / App Storeへの公開経験"
+      ],
+      "skills": [
+        "React Native",
+        "Flutter",
+        "Firebase",
+        "REST API",
+        "TypeScript"
+      ],
+      "projectRole": "モバイル開発者",
+      "projectDescription": "優れたUI/UXを備えたクロスプラットフォームアプリの構築。",
+      "educationalQualifications": "コンピュータサイエンスまたは同等の学位",
+      "benefits": [
+        "健康保険",
+        "アプリ公開ボーナス",
+        "有給休暇"
+      ],
+      "summary": "成長中のデジタルプラットフォーム向けに革新的なモバイルアプリを開発。",
+      "postedDate": "2024-06-05"
+    },
+    {
+      "id": "NOWIT-JO-003",
+      "section": "development",
+      "role": "クラウドエンジニア",
+      "detailedRole": "AWS / Azure クラウドスペシャリスト",
+      "location": "インド アンドラ・プラデーシュ州 アマラーヴァティ",
+      "type": "フルタイム",
+      "experience": "実務経験2年以上",
+      "description": "スケーラブルなクラウドインフラとサービスの設計・構築・運用を担当します。",
+      "requirements": [
+        "AWSまたはAzureの実務経験",
+        "CI/CDパイプライン",
+        "DockerおよびKubernetesの知識"
+      ],
+      "skills": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "DevOps"
+      ],
+      "projectRole": "クラウドインフラエンジニア",
+      "projectDescription": "クラウド環境の管理と高い可用性・拡張性の確保。",
+      "educationalQualifications": "コンピュータサイエンスまたはIT分野の学士号",
+      "benefits": [
+        "クラウド資格取得支援",
+        "健康保険",
+        "柔軟な勤務時間"
+      ],
+      "summary": "安全でスケーラブルなクラウドシステムを設計する機会。",
+      "postedDate": "2024-06-10"
+    },
+    {
+      "id": "NOWIT-JO-004",
+      "section": "uiuxdesigning",
+      "role": "UI/UXデザイナー",
+      "detailedRole": "プロダクトデザイナー",
+      "location": "インド アンドラ・プラデーシュ州 アマラーヴァティ",
+      "type": "フルタイム",
+      "experience": "実務経験2年以上",
+      "description": "Webおよびモバイル向けに直感的で魅力的なUIを設計します。",
+      "requirements": [
+        "Figma / Adobe XD の使用経験",
+        "ワイヤーフレームおよびプロトタイピング",
+        "ユーザーリサーチの知識"
+      ],
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "プロトタイピング",
+        "ユーザーリサーチ",
+        "デザインシステム"
+      ],
+      "projectRole": "UI/UXデザイナー",
+      "projectDescription": "シームレスなユーザー体験とインタラクティブな製品デザインを創出。",
+      "educationalQualifications": "デザインまたはマルチメディア分野の学位",
+      "benefits": [
+        "高い創造性の自由",
+        "デザインワークショップ",
+        "柔軟な勤務時間"
+      ],
+      "summary": "魅力的で使いやすいデジタル体験を形にする役割です。",
+      "postedDate": "2024-06-12"
+    },
+    {
+      "id": "NOWIT-JO-005",
+      "section": "management",
+      "role": "ビジネス開発マネージャー",
+      "detailedRole": "戦略的成長マネージャー",
+      "location": "インド アンドラ・プラデーシュ州 アマラーヴァティ",
+      "type": "フルタイム",
+      "experience": "実務経験2年以上",
+      "description": "新規ビジネス機会の創出と顧客関係の構築を通じて、企業成長を推進します。",
+      "requirements": [
+        "優れたコミュニケーション能力",
+        "営業および交渉スキル",
+        "市場調査能力"
+      ],
+      "skills": [
+        "営業戦略",
+        "リード創出",
+        "CRMツール",
+        "交渉",
+        "市場分析"
+      ],
+      "projectRole": "ビジネス成長マネージャー",
+      "projectDescription": "市場拡大と収益目標の達成を推進。",
+      "educationalQualifications": "MBA または 経営学系学士号",
+      "benefits": [
+        "成果報酬制度",
+        "出張手当",
+        "健康保険"
+      ],
+      "summary": "事業拡大を牽引する戦略的ポジションです。",
+      "postedDate": "2024-06-15"
+    },
+    {
+      "id": "NOWIT-JO-006",
+      "section": "internship",
+      "role": "ソフトウェア開発インターン",
+      "detailedRole": "フルスタック開発インターン",
+      "location": "インド アンドラ・プラデーシュ州 アマラーヴァティ",
+      "type": "インターンシップ",
+      "experience": "3か月〜1年",
+      "description": "学生や新卒者向けに、実案件を通じた実践的な経験を提供します。",
+      "requirements": [
+        "HTML、CSS、JavaScriptの基礎知識",
+        "学習意欲",
+        "問題解決能力"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React基礎",
+        "Git"
+      ],
+      "projectRole": "開発インターン",
+      "projectDescription": "シニア開発者のサポートのもとWebアプリケーションを開発。",
+      "educationalQualifications": "CS / IT 学士課程在学中または修了",
+      "benefits": [
+        "インターン修了証",
+        "奨学金（スティペンド）",
+        "内定機会"
+      ],
+      "summary": "ソフトウェア開発キャリアの第一歩に最適。",
+      "postedDate": "2024-06-18"
+    },
+    {
+      "id": "NOWIT-JO-007",
+      "section": "internship",
+      "role": "クラウドエンジニア（インターン）",
+      "detailedRole": "AWS / Azure クラウドインターン",
+      "location": "インド アンドラ・プラデーシュ州 アマラーヴァティ",
+      "type": "インターンシップ",
+      "experience": "3か月〜1年",
+      "description": "シニアエンジニアの指導のもと、クラウド基盤やDevOpsの実務経験を積みます。",
+      "requirements": [
+        "AWSまたはAzureの基礎知識",
+        "Linuxの基本理解",
+        "ネットワーク基礎知識"
+      ],
+      "skills": [
+        "AWS基礎",
+        "Azure基礎",
+        "Linux",
+        "Docker基礎",
+        "Git"
+      ],
+      "projectRole": "クラウドインターン",
+      "projectDescription": "クラウド環境の運用、監視、デプロイ支援。",
+      "educationalQualifications": "CS / IT / 関連分野の学士課程在学中または修了",
+      "benefits": [
+        "インターン修了証",
+        "クラウド実践トレーニング",
+        "奨学金（スティペンド）",
+        "内定機会"
+      ],
+      "summary": "実践的なクラウドエンジニアリングキャリアをスタート。",
+      "postedDate": "2024-06-20"
+    }
+  ],
+
+  "jobList.jobSections": [
+    { "name": "allroles", "label": "すべての職種" },
+    { "name": "development", "label": "開発" },
+    { "name": "uiuxdesigning", "label": "UI / UX デザイン" },
+    { "name": "qatesting", "label": "QA / テスト" }
+  ],
+
+  "jobList.applyNow": "今すぐ応募",
+  "jobList.viewMore": "もっと見る",
+  "jobList.noResults": "検索条件に一致する求人がありません"
+}

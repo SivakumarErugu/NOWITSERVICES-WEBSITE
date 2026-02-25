@@ -88,7 +88,7 @@ useEffect(() => {
     }))
     setLocations(mappedLocations)
   }
-}, [commonReady])
+}, [commonReady,locations])
     if (!commonReady) return <Loading />
 
     return (
