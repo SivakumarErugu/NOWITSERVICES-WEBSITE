@@ -182,23 +182,54 @@
   "testimonials.title.suffix": "信頼を築く",
   "testimonials.span": "信頼",
   "testimonials.description": "お客様からの実際のフィードバック。",
-  "testimonials.list": [
+  "testimonialsList": [
     {
-      "name": "Rajesh Kumar",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowITは高品質で納期通りに提供してくれました。"
+      "name": "アミナ・ハサン",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
+      "text": "Nowitservicesは、プロフェッショナルなコンサルティングおよび自動化プラットフォームを通じて、当社の内部システムの近代化を支援しました。WONエコシステムは、業務効率とサービス提供の質を大幅に向上させました。信頼できる先進的なテクノロジーパートナーです。"
     },
     {
-      "name": "Ananya Sharma",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "私たちのビジョンを迅速に理解し、実現してくれました。"
+      "name": "マイケル・サントス",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
+      "text": "教育関連プロセスの最適化のためにWON Digitalを導入し、非常に優れた成果を得ることができました。集中管理型アプリケーションと自動化システムにより、ユーザー体験と管理効率の両方が向上しました。強く推奨します。"
     },
     {
-      "name": "Vikram Rao",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "技術力と体系的なアプローチに感謝しています。"
+      "name": "エレナ・ペトロワ",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "text": "Nowitservicesのコンサルティングおよびスマートマーケティング戦略により、当社のデジタルプレゼンスが強化されました。構造化された自動化プラットフォームは、業務フローに明確さと統制をもたらしました。開始から完了まで非常にプロフェッショナルな導入でした。"
+    },
+    {
+      "name": "ケンジ・サトウ",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "text": "WON Pulseは、当社の医療業務に対して効率的かつ信頼性の高い自動化フレームワークを提供しました。本プラットフォームにより、プロセスの透明性とサービス連携が向上しました。Nowitservicesの正確性と専門性を高く評価しています。"
+    },
+    {
+      "name": "リー・ウェイ",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
+      "text": "WONエコシステムは、当社のサービスアプリケーションを一元化し、運用管理を簡素化しました。Nowitservicesは導入全体を通じて高い技術力と戦略的支援を示しました。総合的に非常に優れた体験でした。"
+    },
+    {
+      "name": "プリヤ・シャルマ",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
+      "text": "WON Digitalは、スムーズな自動化と集中処理により、当社の教育管理システムを変革しました。Nowitservicesは、技術的な堅牢性と戦略的コンサルティングの両面を提供しました。信頼できるデジタルトランスフォーメーションパートナーです。"
+    },
+    {
+      "name": "ジェームズ・アンダーソン",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
+      "text": "当社の医療部門はWON Pulseを導入し、ワークフロー効率およびシステム統合が大幅に向上しました。ビジネス要件と技術調整に対するチームの理解は非常に優れていました。Nowitservicesを自信を持って推奨します。"
+    },
+    {
+      "name": "オリビア・ベネット",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
+      "text": "Nowitservicesのプロフェッショナルなコンサルティングおよび自動化サービスは、分散していた当社の業務を最適化しました。WONプラットフォームは、速度、正確性、全体的な可視性を向上させました。信頼できる拡張性の高いソリューションプロバイダーです。"
+    },
+    {
+      "name": "ウィリアム・デイビス",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
+      "text": "Nowitservicesは、WONエコシステムに支えられた構造的なデジタルトランスフォーメーション戦略を提供しました。集中型自動化プラットフォームは、各部門の効率を向上させました。非常にプロフェッショナルで成果志向のチームです。"
     }
-  ],
+  ]
+,
 
   "faq.span": "よくある質問",
   "faq.title": "よくある質問",

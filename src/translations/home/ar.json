@@ -181,24 +181,62 @@
   "testimonials.title.suffix": "الثقة من خلال النتائج",
   "testimonials.span": "الثقة",
   "testimonials.description": "آراء حقيقية من عملائنا.",
-  "testimonials.list": [
+  "testimonialsList": [
     {
-      "name": "Rajesh Kumar",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "قدمت NowIT ما نحتاجه تمامًا في الوقت المحدد وبجودة عالية."
+      "key":1,
+      "name": "أمينة حسن",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
+      "text": "ساعدتنا Nowitservices في تحديث أنظمتنا الداخلية من خلال منصتها الاحترافية للاستشارات والأتمتة. لقد ساهم نظام WON البيئي في تحسين الكفاءة التشغيلية وتقديم الخدمات بشكل ملحوظ. شريك تقني موثوق وذو رؤية مستقبلية."
     },
     {
-      "name": "Ananya Sharma",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "فهموا رؤيتنا بسرعة وحولوها إلى منتج قابل للتوسع."
+      "key":2,
+      "name": "مايكل سانتوس",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
+      "text": "قمنا بتطبيق WON Digital لتبسيط عملياتنا التعليمية وكانت النتائج مميزة للغاية. حسّن التطبيق المركزي ونظام الأتمتة تجربة المستخدم وكفاءة الإدارة على حد سواء. نوصي به بشدة."
     },
     {
-      "name": "Vikram Rao",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "ساعدتنا خبرتهم التقنية في بناء حل موثوق."
+      "key":3,
+      "name": "إيلينا بيتروفا",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "text": "عززت استراتيجيات الاستشارات والتسويق الذكي من Nowitservices حضورنا الرقمي. كما وفرت منصة الأتمتة المنظمة وضوحًا وتحكمًا في سير العمل لدينا. تنفيذ احترافي من البداية حتى النهاية."
+    },
+    {
+      "key":4,
+      "name": "كينجي ساتو",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "text": "وفّر WON Pulse إطار عمل فعال وموثوق للأتمتة في عمليات الرعاية الصحية لدينا. حسّنت المنصة شفافية العمليات وتنسيق الخدمات. نُقدّر دقة واحترافية Nowitservices."
+    },
+    {
+      "key":5,
+      "name": "لي وي",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
+      "text": "قام نظام WON البيئي بمركزة تطبيقات الخدمات لدينا وتبسيط إدارة العمليات. أظهرت Nowitservices خبرة تقنية قوية وتوجيهًا استراتيجيًا طوال فترة التنفيذ. تجربة ممتازة بشكل عام."
+    },
+    {
+      "key":6,
+      "name": "بريا شارما",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
+      "text": "أحدث WON Digital تحولًا في نظام الإدارة التعليمية لدينا من خلال أتمتة سلسة ومعالجة مركزية. قدمت Nowitservices قوة تقنية واستشارات استراتيجية. شريك موثوق في التحول الرقمي."
+    },
+    {
+      "key":7,
+      "name": "جيمس أندرسون",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
+      "text": "اعتمد قسم الرعاية الصحية لدينا WON Pulse، مما أدى إلى تحسين كبير في كفاءة سير العمل وتكامل الأنظمة. كان فهم الفريق للاحتياجات التشغيلية والتنسيق التقني ممتازًا. نوصي بـ Nowitservices بثقة تامة."
+    },
+    {
+      "key":8,
+      "name": "أوليفيا بينيت",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
+      "text": "قامت خدمات الاستشارات والأتمتة الاحترافية من Nowitservices بتنظيم عملياتنا المتفرقة. حسّنت منصة WON السرعة والدقة والرؤية الشاملة. مزود حلول موثوق وقابل للتوسع."
+    },
+    {
+      "key":9,
+      "name": "ويليام ديفيس",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
+      "text": "قدمت Nowitservices استراتيجية منظمة للتحول الرقمي مدعومة بنظام WON البيئي. عززت منصة الأتمتة المركزية الكفاءة عبر مختلف الأقسام. فريق محترف للغاية ويركز على تحقيق النتائج."
     }
   ],
-
   "faq.span": "الأسئلة الشائعة",
   "faq.title": "الأسئلة الشائعة",
   "faq.subquestion": "هل لديك المزيد من الأسئلة؟",

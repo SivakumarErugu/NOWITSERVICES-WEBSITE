@@ -18,7 +18,6 @@
   "hero.getStarted": "Inizia Ora",
   "hero.unified": "Servizi Integrati",
   "hero.reliable": "Supporto Affidabile",
-
   "partner.slidingTitle": "Chi siamo",
   "partner.title.prefix": "Il tuo",
   "partner.span": "Partner di Fiducia",
@@ -28,12 +27,10 @@
   "partner.trusted": "Affidabile",
   "partner.clients": "da Clienti Globali",
   "partner.talktoai": "Parla con l'IA",
-
   "services.slidingTitle": "I Nostri Servizi",
   "services.title": "End-to-End",
   "services.span": "Servizi Digitali",
   "services.description": "Forniamo servizi software completi che aiutano le aziende a costruire, scalare e modernizzare i loro prodotti digitali.",
-
   "services.carouselList": [
     {
       "id": 1,
@@ -119,7 +116,6 @@
       "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
     }
   ],
-
   "products.slidingTitle": "I Nostri Prodotti",
   "products.title": "Prodotti Digitali",
   "products.span": "Pronti per l'Enterprise",
@@ -157,7 +153,6 @@
     }
   ],
   "products.viewProduct": "Visualizza Prodotto",
-
   "Industry.title": "Soluzioni per",
   "Industry.span": "Ogni Settore",
   "Industry.description": "NOWIT Services offre trasformazione digitale basata su IA.",
@@ -175,30 +170,58 @@
     "Energia & Utility",
     "Automotive"
   ],
-
   "testimonials.slidingTitle": "Testimonianze",
   "testimonials.title.prefix": "Costruire",
   "testimonials.title.suffix": "Attraverso i Risultati",
   "testimonials.span": "Fiducia",
   "testimonials.description": "Feedback reale dai nostri clienti.",
-  "testimonials.list": [
+  "testimonialsList": [
     {
-      "name": "Rajesh Kumar",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT ha consegnato esattamente ciò di cui avevamo bisogno, puntualmente e con alta qualità."
+      "name": "Amina Hassan",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
+      "text": "Nowitservices ci ha aiutato a modernizzare i nostri sistemi interni attraverso la sua piattaforma professionale di consulenza e automazione. L’ecosistema WON ha migliorato significativamente l’efficienza operativa e l’erogazione dei servizi. Un partner tecnologico affidabile e lungimirante."
     },
     {
-      "name": "Ananya Sharma",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "Hanno compreso rapidamente la nostra visione."
+      "name": "Maikel Santos",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
+      "text": "Abbiamo implementato WON Digital per ottimizzare i nostri processi educativi e i risultati sono stati eccellenti. L’applicazione centralizzata e il sistema di automazione hanno migliorato sia l’esperienza utente sia l’efficienza amministrativa. Altamente raccomandato."
     },
     {
-      "name": "Vikram Rao",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "La loro competenza tecnica ci ha aiutato a costruire una soluzione affidabile."
+      "name": "Elena Petrova",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "text": "Le strategie di consulenza e smart marketing di Nowitservices hanno rafforzato la nostra presenza digitale. La loro piattaforma di automazione strutturata ha portato chiarezza e controllo nei nostri flussi di lavoro. Implementazione professionale dall’inizio alla fine."
+    },
+    {
+      "name": "Kenji Sato",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "text": "WON Pulse ha fornito un framework di automazione efficiente e affidabile per le nostre operazioni sanitarie. La piattaforma ha migliorato la trasparenza dei processi e il coordinamento dei servizi. Apprezziamo la precisione e la professionalità di Nowitservices."
+    },
+    {
+      "name": "Li Wei",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
+      "text": "L’ecosistema WON ha centralizzato le nostre applicazioni di servizio e semplificato la gestione operativa. Nowitservices ha dimostrato una solida competenza tecnica e una guida strategica durante tutta l’implementazione. Un’esperienza complessiva eccellente."
+    },
+    {
+      "name": "Priya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
+      "text": "WON Digital ha trasformato il nostro sistema di amministrazione educativa attraverso un’automazione fluida e un’elaborazione centralizzata. Nowitservices ha fornito solidità tecnica e consulenza strategica. Un partner affidabile per la trasformazione digitale."
+    },
+    {
+      "name": "Gheims Anderson",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
+      "text": "Il nostro dipartimento sanitario ha adottato WON Pulse, migliorando notevolmente l’efficienza del flusso di lavoro e l’integrazione dei sistemi. La comprensione delle esigenze aziendali e il coordinamento tecnico del team sono stati eccellenti. Raccomandiamo Nowitservices con piena fiducia."
+    },
+    {
+      "name": "Olivia Bennet",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
+      "text": "I servizi professionali di consulenza e automazione di Nowitservices hanno ottimizzato le nostre operazioni frammentate. La piattaforma WON ha migliorato velocità, precisione e visibilità complessiva. Un fornitore di soluzioni affidabile e scalabile."
+    },
+    {
+      "name": "Uiliam Deivis",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
+      "text": "Nowitservices ha fornito una strategia strutturata di trasformazione digitale supportata dall’ecosistema WON. La piattaforma di automazione centralizzata ha aumentato l’efficienza nei vari reparti. Un team altamente professionale e orientato ai risultati."
     }
   ],
-
   "faq.span": "FAQ",
   "faq.title": "Domande Frequenti",
   "faq.subquestion": "Hai ancora domande?",
@@ -226,7 +249,6 @@
       "description": "Sì, sono progettate per crescere con la tua azienda."
     }
   ],
-
   "trustedbanner.subTitle": "Scelto da",
   "trustedbanner.title": "Fornitore Globale di Servizi",
   "becomepartner.title.prefix": "Crescere",
@@ -234,7 +256,6 @@
   "becomepartner.title.suffix": "Attraverso la Partnership",
   "becomepartner.description": "Collabora con NowIT Services per innovare.",
   "becomepartner.becomepartner": "Diventa Partner",
-
   "contactus": "Contattaci",
   "industries": "Settori",
   "testimonials.title": "Testimonianze",

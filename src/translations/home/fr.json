@@ -175,21 +175,51 @@
   "testimonials.title.suffix": "Grâce aux Résultats",
   "testimonials.span": "Confiance",
   "testimonials.description": "Retours réels de clients ayant collaboré avec nous.",
-  "testimonials.list": [
+  "testimonialsList": [
     {
-      "name": "Rajesh Kumar",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT a livré exactement ce dont nous avions besoin, dans les délais et avec une grande qualité."
+      "name": "Amina Hassane",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
+      "text": "Nowitservices nous a aidés à moderniser nos systèmes internes grâce à sa plateforme professionnelle de conseil et d’automatisation. L’écosystème WON a considérablement amélioré l’efficacité opérationnelle et la prestation de services. Un partenaire technologique fiable et visionnaire."
     },
     {
-      "name": "Ananya Sharma",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "Ils ont rapidement compris notre vision et l’ont transformée en un produit évolutif."
+      "name": "Maïkel Santoss",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
+      "text": "Nous avons mis en œuvre WON Digital afin d’optimiser nos processus éducatifs, et les résultats ont été impressionnants. L’application centralisée et le système d’automatisation ont amélioré à la fois l’expérience utilisateur et l’efficacité administrative. Fortement recommandé."
     },
     {
-      "name": "Vikram Rao",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "Leur expertise technique nous a aidés à construire une solution fiable."
+      "name": "Elena Petrova",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "text": "Les stratégies de conseil et de marketing intelligent de Nowitservices ont renforcé notre présence numérique. Leur plateforme d’automatisation structurée a apporté clarté et contrôle à nos flux de travail. Une mise en œuvre professionnelle du début à la fin."
+    },
+    {
+      "name": "Kenji Sato",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "text": "WON Pulse a fourni un cadre d’automatisation efficace et fiable pour nos opérations de santé. La plateforme a amélioré la transparence des processus et la coordination des services. Nous apprécions la précision et le professionnalisme de Nowitservices."
+    },
+    {
+      "name": "Li Wei",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
+      "text": "L’écosystème WON a centralisé nos applications de service et simplifié la gestion opérationnelle. Nowitservices a démontré une solide expertise technique et un accompagnement stratégique tout au long du déploiement. Une expérience globale excellente."
+    },
+    {
+      "name": "Priya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
+      "text": "WON Digital a transformé notre système d’administration éducative grâce à une automatisation fluide et un traitement centralisé. Nowitservices a fourni à la fois robustesse technique et conseil stratégique. Un partenaire fiable pour la transformation numérique."
+    },
+    {
+      "name": "Djaïms Andersone",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
+      "text": "Notre département de santé a adopté WON Pulse, ce qui a nettement amélioré l’efficacité des flux de travail et l’intégration des systèmes. La compréhension des besoins métier et la coordination technique de l’équipe étaient excellentes. Nous recommandons Nowitservices en toute confiance."
+    },
+    {
+      "name": "Olivia Bennette",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
+      "text": "Les services professionnels de conseil et d’automatisation de Nowitservices ont rationalisé nos opérations fragmentées. La plateforme WON a amélioré la rapidité, la précision et la visibilité globale. Un fournisseur de solutions fiable et évolutif."
+    },
+    {
+      "name": "Ouilliam Déivisse",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
+      "text": "Nowitservices a proposé une stratégie structurée de transformation numérique soutenue par l’écosystème WON. La plateforme d’automatisation centralisée a accru l’efficacité dans différents départements. Une équipe hautement professionnelle et orientée résultats."
     }
   ],
   "faq.span": "FAQ",

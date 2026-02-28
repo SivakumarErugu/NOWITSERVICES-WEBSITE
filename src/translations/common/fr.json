@@ -176,28 +176,31 @@
     }
   },
 
+
+ 
   "locations": [
     {
-      "key":"1",
+      "key": "1",
       "title": "INDE - Amaravathi",
-      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+      "address": "Niveau 4, Parc technologique Mayuri, Sortie NRI, Route de contournement, Electronic City, Chinnakakani, Andhra Pradesh, 522503, Inde."
     },
     {
-      "key":"2",
+      "key": "2",
       "title": "INDE - Vijayawada",
-      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+      "address": "Rez-de-chaussée, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007, Inde."
     },
     {
-      "key":"3",
+      "key": "3",
       "title": "ROYAUME-UNI",
-      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+      "address": "Canal Grand Union, près de la gare de Hays and Harlington, Grand Londres, Royaume-Uni, UB3 4QF."
     },
     {
-      "key":"4",
+      "key": "4",
       "title": "ALLEMAGNE",
-      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+      "address": "Hausdorffstraße 61, 53129 Bonn, Allemagne."
     }
   ],
+
 
   "organizationForm": {
     "organizationDetails": {

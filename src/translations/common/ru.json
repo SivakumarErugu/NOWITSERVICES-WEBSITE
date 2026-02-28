@@ -173,26 +173,27 @@
       "sending": "Отправка..."
     }
   },
- "locations": [
+
+  "locations": [
     {
       "key": "1",
-      "title": "ИНДИЯ - Амаравати",
-      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+      "title": "ИНДИЯ — Амаравати",
+      "address": "4-й этаж, Технопарк «Маюри», выезд NRI, объездная дорога, Электронный город, Чиннакакании, Андхра-Прадеш, 522503, Индия."
     },
     {
       "key": "2",
-      "title": "ИНДИЯ - Виджаявада",
-      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+      "title": "ИНДИЯ — Виджаявада",
+      "address": "Первый этаж, Чаласани Нагар, Кануру, Виджаявада, Андхра-Прадеш, 520007, Индия."
     },
     {
       "key": "3",
       "title": "ВЕЛИКОБРИТАНИЯ",
-      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+      "address": "Канал Гранд-Юнион, рядом со станцией Хейс и Харлингтон, Большой Лондон, Великобритания, UB3 4QF."
     },
     {
       "key": "4",
       "title": "ГЕРМАНИЯ",
-      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+      "address": "Хаусдорфштрассе 61, 53129 Бонн, Германия."
     }
   ],
   "organizationForm": {

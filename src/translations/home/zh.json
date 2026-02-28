@@ -175,21 +175,51 @@
   "testimonials.title.suffix": "信任",
   "testimonials.span": "信任",
   "testimonials.description": "来自合作客户的真实反馈。",
-  "testimonials.list": [
+   "testimonialsList": [
     {
-      "name": "Rajesh Kumar",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT 准时并高质量地交付了我们所需的解决方案。"
+      "name": "阿米娜·哈桑",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
+      "text": "Nowitservices 通过其专业的咨询与自动化平台，帮助我们实现了内部系统的现代化升级。WON 生态系统显著提升了运营效率和服务交付能力。是一家值得信赖且具有前瞻性的技术合作伙伴。"
     },
     {
-      "name": "Ananya Sharma",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "他们迅速理解我们的愿景，并将其转化为可扩展产品。"
+      "name": "迈克尔·桑托斯",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
+      "text": "我们引入了 WON Digital 来优化教育相关流程，取得了令人印象深刻的成果。集中式应用与自动化系统同时提升了用户体验和管理效率。强烈推荐。"
     },
     {
-      "name": "Vikram Rao",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "他们的技术专长帮助我们构建了可靠的解决方案。"
+      "name": "埃琳娜·彼得罗娃",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "text": "Nowitservices 的咨询与智能营销策略增强了我们的数字化影响力。其结构化自动化平台为我们的工作流程带来了清晰度与可控性。从始至终都体现出高度的专业执行力。"
+    },
+    {
+      "name": "健司·佐藤",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "text": "WON Pulse 为我们的医疗运营提供了高效且可靠的自动化框架。该平台提升了流程透明度和服务协同能力。我们高度认可 Nowitservices 的精准性与专业水准。"
+    },
+    {
+      "name": "李伟",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
+      "text": "WON 生态系统整合了我们的服务应用，并简化了运营管理流程。Nowitservices 在整个实施过程中展现了扎实的技术能力与战略指导。整体体验非常出色。"
+    },
+    {
+      "name": "普里娅·夏尔马",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
+      "text": "WON Digital 通过流畅的自动化和集中化处理，成功转型了我们的教育管理系统。Nowitservices 同时提供了技术稳健性与战略咨询支持。是值得信赖的数字化转型合作伙伴。"
+    },
+    {
+      "name": "詹姆斯·安德森",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
+      "text": "我们的医疗部门采用了 WON Pulse，显著提升了工作流程效率和系统集成水平。团队对业务需求和技术协同的理解非常到位。我们对 Nowitservices 给予高度推荐。"
+    },
+    {
+      "name": "奥利维亚·贝内特",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
+      "text": "Nowitservices 的专业咨询与自动化服务优化了我们分散的运营流程。WON 平台提升了速度、准确性以及整体可视化水平。是一家可靠且具备可扩展能力的解决方案提供商。"
+    },
+    {
+      "name": "威廉·戴维斯",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
+      "text": "Nowitservices 提供了由 WON 生态系统支持的结构化数字化转型战略。集中式自动化平台提升了各部门的运营效率。团队高度专业且以成果为导向。"
     }
   ],
   "faq.span": "常见问题",

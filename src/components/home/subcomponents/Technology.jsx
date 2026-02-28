@@ -17,8 +17,8 @@ const List = [
 
 const stats = [
     { label: '18+ Clients', href: '/clients' },
-    { label: '12+ Services', href: '/services' },
-    { label: '10+ Products', href: '/products' },
+    { label: '8+ Services', href: '/services' },
+    { label: '20+ Products', href: '/products' },
     { label: '3+ Countries', href: '/countries' },
 ]
 

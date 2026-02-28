@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { useState, useEffect } from "react";
 import { useNowit } from "@/store/useNowit";
-import { Carattere } from "next/font/google";
+
 const List = [{
     id: 1,
     name: 'Smart Marketing Services',
@@ -87,26 +87,26 @@ const ServicesHero = () => {
     // }, [hasStarted]);
     const currentItem = carouselList[currentIndex];
     // for Pausing the slide 
-    const INTERVAL_TIME = 3000; // 3 sec per slide
+    const INTERVAL_TIME = 1500; // 3 sec per slide
     const HOVER_DELAY = 2500;  // 2.5 sec pause for reading
 
-    useEffect(() => {
-        if (!hasStarted) return;
-        if (isHovering) return;
-        if (currentIndex === List.length - 1) return; // STOP at last slide
+    // useEffect(() => {
+    //     if (!hasStarted) return;
+    //     if (isHovering) return;
+    //     if (currentIndex === List.length - 1) return; // STOP at last slide
 
-        const interval = setInterval(() => {
-            setCurrentIndex((prev) => {
-                if (prev === List.length - 1) {
-                    clearInterval(interval);
-                    return prev;
-                }
-                return prev + 1;
-            });
-        }, INTERVAL_TIME);
+    //     const interval = setInterval(() => {
+    //         setCurrentIndex((prev) => {
+    //             if (prev === List.length - 1) {
+    //                 clearInterval(interval);
+    //                 return prev;
+    //             }
+    //             return prev + 1;
+    //         });
+    //     }, INTERVAL_TIME);
 
-        return () => clearInterval(interval);
-    }, [hasStarted, isHovering, currentIndex]);
+    //     return () => clearInterval(interval);
+    // }, [hasStarted, isHovering, currentIndex]);
 
     useEffect(() => {
         if (t("services.carouselList")) {
@@ -114,10 +114,22 @@ const ServicesHero = () => {
         }
     }, [t, isReady])
 
+    useEffect(() => {
+        if (!hasStarted || isHovering) return;
+        if (currentIndex === carouselList.length - 1) return;
 
+        const interval = setInterval(() => {
+            setCurrentIndex((prev) =>
+                prev < carouselList.length - 1 ? prev + 1 : prev
+            );
+        }, INTERVAL_TIME);
+
+        return () => clearInterval(interval);
+    }, [hasStarted, isHovering, currentIndex, carouselList.length]);
+
+    // console.log(isHovering,"hereee")
     return (
         <>
-
             <div
                 className=" h-150 mb-3 hidden md:block py-5"
                 onMouseEnter={() => {
@@ -216,14 +228,13 @@ const ServicesHero = () => {
                                 </ul>
                             </div>
 
-                            <span className="text-[96px] font-bold opacity-80 absolute bottom-1 right-10 praise-text">
+                            <span className="text-[96px] font-bold opacity-80 absolute bottom-1 right-15 praise-text">
                                 {item.id}
                             </span>
                         </div>
                     </div>
                 ))}
             </div>
-
         </>
     );
 

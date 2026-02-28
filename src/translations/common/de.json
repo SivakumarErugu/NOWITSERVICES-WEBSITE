@@ -73,7 +73,7 @@
       "options": []
     }
   ],
-  "contactUs": "Kontaktieren Sie uns",
+  "contactUs": "Kontakt",
   "footer": {
     "description": "Ihr Partner für digitale Transformation mit Cloud-First- und KI-gestützten Lösungen für skalierbares Wachstum und operative Exzellenz.",
     "socialMedia": [
@@ -178,22 +178,22 @@
     {
       "key": "1",
       "title": "INDIEN - Amaravathi",
-      "address": "Level 4, Mayuri Tech Park, NRI Exit, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503."
+      "address": "4. Etage, Mayuri Tech Park, NRI-Ausfahrt, Bypass Road, Electronic City, Chinnakakani, Andhra Pradesh, 522503, Indien."
     },
     {
       "key": "2",
       "title": "INDIEN - Vijayawada",
-      "address": "Ground Floor, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007."
+      "address": "Erdgeschoss, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh, 520007, Indien."
     },
     {
       "key": "3",
       "title": "VEREINIGTES KÖNIGREICH",
-      "address": "Grand Union Canal, Near Hays and Harlington Station, Greater London, United Kingdom, UB3 4QF."
+      "address": "Grand Union Canal, in der Nähe des Bahnhofs Hays and Harlington, Großraum London, Vereinigtes Königreich, UB3 4QF."
     },
     {
-      "key":"4",
+      "key": "4",
       "title": "DEUTSCHLAND",
-      "address": "Hausdorffstraße 61, 53129 Bonn, Germany."
+      "address": "Hausdorffstraße 61, 53129 Bonn, Deutschland."
     }
   ],
   "organizationForm": {

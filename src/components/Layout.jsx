@@ -11,8 +11,11 @@ const Layout = ({ children }) => {
             </header>
 
             {/* ONLY THIS PART SCROLLS */}
-            <div className="flex-1 overflow-y-auto overflow-x-hidden scroll-smooth
-          [&::-webkit-scrollbar]:w-0 h-5
+            <div
+              id="scrollContainer"
+
+            className="flex-1 overflow-y-auto overflow-x-hidden scroll-smooth
+          [&::-webkit-scrollbar]:w-0 
           [&::-webkit-scrollbar]:bg-transparent
           scrollbar-none">
                 <main>

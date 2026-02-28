@@ -16,7 +16,24 @@ const Products1 = () => {
   const router = useRouter();
   const [isRaised, setIsRaised] = useState(false);
   const { t, isReady } = useNowit();
-  if(!isReady) return null; // or skeleton loader
+  if (!isReady) return null; // or skeleton loader
+
+
+
+  const handleScroll = () => {
+    const container = document.getElementById("scrollContainer");
+    const target = document.getElementById("myProducts");
+
+    if (!container || !target) {
+      console.log("Missing container or target");
+      return;
+    }
+
+    container.scrollTo({
+      top: target.offsetTop,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <section
@@ -55,32 +72,15 @@ const Products1 = () => {
         >
           {/* ================= MOBILE / TABLET BUTTON ================= */}
           <div className="lg:hidden flex justify-center mt-3">
-            <Link
-              href="#myProducts"
-              className="
-                relative overflow-hidden
-                h-9 min-w-20 px-10 rounded-md border-0
+            <button onClick={handleScroll} className="relative z-10 h-9 min-w-20 px-10 rounded-md border-0
                 inline-flex justify-center items-center
                 bg-[#55B233] text-white
                 text-sm font-semibold
                 shadow-lg
                 group
-                active:scale-95
-              "
-            >
-              {/* Gradient curtain */}
-              <span
-                className="
-                  absolute inset-0
-                  bg-linear-to-r from-[#0A66C2] to-[#05305C]
-                  transform scale-x-0 origin-left
-                  transition-transform duration-1000 ease-in-out
-                  group-hover:scale-x-100
-                "
-              />
-
-              <span className="relative z-10">{t("banner.explore") || "Explore Now"}</span>
-            </Link>
+                active:scale-95">
+              {t("banner.explore") || "Explore Now"}
+            </button>
           </div>
 
           {/* ================= DESKTOP ANIMATED BUTTON ================= */}
@@ -96,8 +96,8 @@ const Products1 = () => {
               }
             `}
           >
-            <Link
-              href="#myProducts"
+            <button
+              onClick={handleScroll}
               className="
                 relative overflow-hidden
                 h-9 min-w-20 px-10 rounded-md border-0
@@ -110,7 +110,7 @@ const Products1 = () => {
               "
             >
               <span className="relative z-10">{t("banner.explore") || "Explore Now"}</span>
-            </Link>
+            </button>
           </div>
 
           {/* ================= IMAGES ================= */}
