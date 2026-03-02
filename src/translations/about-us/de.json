@@ -3,14 +3,12 @@
   "banner.title": "die Wirkung zeigt.",
   "banner.description1": "Wir entwickeln skalierbare digitale Lösungen für Web, Mobile und Cloud.",
   "banner.description2": "Wir unterstützen Unternehmen dabei, reale Herausforderungen mit intelligenter und zuverlässiger Technologie zu lösen.",
-
   "vision.slidingHeader.title": "Unsere",
   "vision.span": "Vision",
   "vision.title": "Unsere",
   "vision.description1": "Innovation durch intelligente digitale Lösungen vorantreiben, die reale geschäftliche Herausforderungen lösen. Wir stellen uns eine Zukunft vor, in der Technologie Effizienz, Wachstum und sinnvollen Fortschritt ermöglicht.",
   "vision.description2": "Wir verpflichten uns zu kontinuierlichem Lernen, Anpassungsfähigkeit und durchdachter Umsetzung, damit unsere Lösungen in einer sich ständig wandelnden digitalen Landschaft relevant bleiben.",
   "vision.description3": "Wir sind überzeugt, dass starke Technologie verantwortungsvoll entwickelt wird. Unsere Vision ist es, Komplexität zu vereinfachen, Innovation zu fördern und digitale Lösungen zu schaffen, die nachhaltiges Wachstum und langfristigen Erfolg unserer Kunden unterstützen.",
-
   "journey.title": "Unser",
   "journey.span": "Weg",
   "journey.description": "Wir helfen Marken, durch intelligente und zuverlässige Technologie erfolgreich zu sein.",
@@ -44,9 +42,7 @@
       "description": "Fortschreitender Ausbau auf insgesamt fünf Plattformen im WON App Store"
     }
   ],
-
   "aboutUs.description": "Wir halten Patente für eine Smart-Footwear-Plattform der nächsten Generation, die alltägliche Bewegung in aussagekräftige Gesundheitsdaten verwandelt. Durch die Kombination fortschrittlicher Sensortechnologie mit intelligenter Datenanalyse ermöglicht das System Echtzeitüberwachung und personalisiertes Wellness-Feedback. Energieeffizient und nahtlos vernetzt positioniert sich diese Innovation an der Schnittstelle von Gesundheitswesen, Mobilität und Wearable-Technologie und prägt die Zukunft der präventiven, datengetriebenen Versorgung.",
-
   "chooseus.title": "Warum",
   "chooseus.span": "Uns Wählen",
   "chooseus.description": "Wir helfen Marken, durch intelligente und zuverlässige Technologie erfolgreich zu sein.",
@@ -87,11 +83,9 @@
       "description": "Klare Kommunikation, ehrliche Zeitpläne und messbare Ergebnisse."
     }
   ],
-
   "brands.span": "Marken",
   "brands.title": "Die Uns Vertrauen",
   "brands.description": "Wir helfen Marken, durch intelligente und zuverlässige Technologie erfolgreich zu sein.",
-
   "projects.title": "Projekte",
   "projects.description": "Projekte, die unsere Expertise und unser Engagement für Qualität widerspiegeln",
   "projects.List": [
@@ -126,38 +120,64 @@
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
     }
   ],
-
   "projects.viewAll": "Alle Produkte anzeigen",
-
   "testimonials.title": "Referenzen",
   "testimonials.title.prefix": "Vertrauen aufbauen",
   "testimonials.title.suffix": "Durch Ergebnisse",
   "testimonials.span": "Vertrauen",
   "testimonials.description": "Echtes Feedback von Kunden, die mit uns zuverlässige digitale Lösungen entwickelt haben.",
-  "testimonials.list": [
+  "testimonialsList": [
     {
-      "name": "Rajesh Kumar",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT hat genau das geliefert, was wir benötigt haben – termingerecht und in hoher Qualität. Das Team war professionell, reaktionsschnell und sehr angenehm in der Zusammenarbeit."
+      "name": "Amina Hassan",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
+      "text": "Nowitservices hat uns geholfen, unsere internen Systeme mithilfe seiner professionellen Beratungs- und Automatisierungsplattform zu modernisieren. Das WON-Ökosystem verbesserte die betriebliche Effizienz und die Servicebereitstellung erheblich. Ein zuverlässiger und zukunftsorientierter Technologiepartner."
     },
     {
-      "name": "Ananya Sharma",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "Sie haben unsere Vision schnell verstanden und in ein skalierbares Produkt umgesetzt. Der Prozess verlief reibungslos und das Ergebnis hat unsere Erwartungen übertroffen."
+      "name": "Maikel Santos",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
+      "text": "Wir haben WON Digital implementiert, um unsere Bildungsprozesse zu optimieren, und die Ergebnisse waren beeindruckend. Die zentrale Anwendung und das Automatisierungssystem verbesserten sowohl die Benutzererfahrung als auch die Verwaltungseffizienz. Sehr empfehlenswert."
     },
     {
-      "name": "Vikram Rao",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "Ihre technische Expertise und strukturierte Vorgehensweise halfen uns, eine zuverlässige Lösung für Web und Mobile zu entwickeln. Wir sehen sie als langfristigen Partner."
+      "name": "Elena Petrova",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "text": "Die Beratungs- und Smart-Marketing-Strategien von Nowitservices stärkten unsere digitale Präsenz. Die strukturierte Automatisierungsplattform brachte Klarheit und Kontrolle in unsere Arbeitsabläufe. Professionelle Umsetzung von Anfang bis Ende."
+    },
+    {
+      "name": "Kendschi Sato",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "text": "WON Pulse bot ein effizientes und zuverlässiges Automatisierungsframework für unsere Gesundheitsabläufe. Die Plattform verbesserte die Prozesstransparenz und die Servicekoordination. Wir schätzen die Präzision und Professionalität von Nowitservices."
+    },
+    {
+      "name": "Li Wei",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
+      "text": "Das WON-Ökosystem zentralisierte unsere Serviceanwendungen und vereinfachte das Betriebsmanagement. Nowitservices zeigte während der gesamten Implementierung starke technische Expertise und strategische Beratung. Insgesamt eine ausgezeichnete Erfahrung."
+    },
+    {
+      "name": "Priya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
+      "text": "WON Digital transformierte unser Bildungsverwaltungssystem durch nahtlose Automatisierung und zentrale Verarbeitung. Nowitservices lieferte sowohl technische Stabilität als auch strategische Beratung. Ein vertrauenswürdiger Partner für die digitale Transformation."
+    },
+    {
+      "name": "Dscheims Endersn",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
+      "text": "Unsere Gesundheitsabteilung führte WON Pulse ein, was die Workflow-Effizienz und die Systemintegration deutlich verbesserte. Das Verständnis des Teams für geschäftliche Anforderungen und technische Abstimmung war hervorragend. Wir empfehlen Nowitservices mit voller Überzeugung."
+    },
+    {
+      "name": "Olivia Bennet",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
+      "text": "Die professionellen Beratungs- und Automatisierungsdienste von Nowitservices optimierten unsere fragmentierten Abläufe. Die WON-Plattform verbesserte Geschwindigkeit, Genauigkeit und Gesamttransparenz. Ein zuverlässiger und skalierbarer Lösungsanbieter."
+    },
+    {
+      "name": "Wiljam Deiwis",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
+      "text": "Nowitservices lieferte eine strukturierte Strategie zur digitalen Transformation, unterstützt durch das WON-Ökosystem. Die zentrale Automatisierungsplattform steigerte die Effizienz in verschiedenen Abteilungen. Ein äußerst professionelles und ergebnisorientiertes Team."
     }
   ],
-
   "becomepartner.title.prefix": "Gemeinsam",
   "becomepartner.title.middle": "Wachsen",
   "becomepartner.title.suffix": "Durch Partnerschaft",
   "becomepartner.description": "Werden Sie Partner von NowIT Services, um gemeinsam zu arbeiten, zu innovieren und maßgeschneiderte Lösungen bereitzustellen.",
   "becomepartner.becomepartner": "Partner Werden",
-
   "headerOptions": [
     {
       "name": "home",
@@ -176,13 +196,41 @@
       "label": "Leistungen",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "Smartes Marketing", "link": "/" },
-        { "name": "business launch", "label": "Unternehmensstart", "link": "/" },
-        { "name": "professional services", "label": "Professionelle Services", "link": "/" },
-        { "name": "migration", "label": "Migration", "link": "/" },
-        { "name": "training services", "label": "Schulungsservices", "link": "/" },
-        { "name": "messaging services", "label": "Messaging-Services", "link": "/" },
-        { "name": "ip filing services", "label": "IP-Anmeldeservices", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "Smartes Marketing",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "Unternehmensstart",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "Professionelle Services",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "Migration",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "Schulungsservices",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "Messaging-Services",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "IP-Anmeldeservices",
+          "link": "/"
+        }
       ]
     },
     {
@@ -204,18 +252,27 @@
       "options": []
     }
   ],
-
   "Aboutus.text": "Wir halten Patente für eine Smart-Footwear-Plattform der nächsten Generation, die alltägliche Bewegung in aussagekräftige Gesundheitsdaten verwandelt. Durch die Kombination fortschrittlicher Sensortechnologie mit intelligenter Datenanalyse ermöglicht das System Echtzeitüberwachung und personalisiertes Wellness-Feedback. Diese energieeffiziente Innovation befindet sich an der Schnittstelle von Gesundheitswesen, Mobilität und Wearable-Technologie und gestaltet die Zukunft der präventiven, datengetriebenen Versorgung.",
-
   "clients": "Kunden",
   "services": "Leistungen",
   "products": "Produkte",
   "countries": "Länder",
-
   "stats": [
-    { "label": "18+ Kunden", "href": "/clients" },
-    { "label": "12+ Leistungen", "href": "/services" },
-    { "label": "10+ Produkte", "href": "/products" },
-    { "label": "3+ Länder", "href": "/countries" }
+    {
+      "label": "18+ Kunden",
+      "href": "/clients"
+    },
+    {
+      "label": "12+ Leistungen",
+      "href": "/services"
+    },
+    {
+      "label": "10+ Produkte",
+      "href": "/products"
+    },
+    {
+      "label": "3+ Länder",
+      "href": "/countries"
+    }
   ]
 }

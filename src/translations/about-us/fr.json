@@ -3,14 +3,12 @@
   "banner.title": "qui crée un impact.",
   "banner.description1": "Nous développons des solutions numériques évolutives pour le web, le mobile et le cloud.",
   "banner.description2": "Nous aidons les entreprises à relever de véritables défis grâce à une technologie intelligente et fiable.",
-
   "vision.slidingHeader.title": "Notre",
   "vision.span": "Vision",
   "vision.title": "Notre",
   "vision.description1": "Stimuler l’innovation grâce à des solutions numériques intelligentes qui répondent à de réels défis métier. Nous imaginons un avenir où la technologie favorise l’efficacité, la croissance et un progrès durable.",
   "vision.description2": "Nous nous engageons dans un apprentissage continu, une grande capacité d’adaptation et une exécution réfléchie afin que nos solutions restent pertinentes dans un environnement numérique en constante évolution.",
   "vision.description3": "Nous croyons qu’une technologie forte se construit avec responsabilité. Notre vision est de simplifier la complexité, d’adopter l’innovation et de créer des solutions numériques qui soutiennent une croissance durable et un succès à long terme pour nos clients.",
-
   "journey.title": "Notre",
   "journey.span": "Parcours",
   "journey.description": "Aider les marques à réussir grâce à une technologie intelligente et fiable.",
@@ -44,9 +42,7 @@
       "description": "Progression vers l’ajout de nouvelles plateformes pour atteindre cinq solutions dans le WON App Store"
     }
   ],
-
   "aboutUs.description": "Nous détenons des brevets sur une plateforme de chaussures intelligentes de nouvelle génération qui transforme les mouvements quotidiens en informations de santé exploitables. En combinant des technologies de capteurs avancées et des analyses de données intelligentes, le système permet un suivi en temps réel et un retour de bien-être personnalisé. Économe en énergie et parfaitement connectée, cette innovation se situe à l’intersection de la santé, de la mobilité et des technologies portables, façonnant l’avenir des soins préventifs basés sur les données.",
-
   "chooseus.title": "Pourquoi",
   "chooseus.span": "Nous Choisir",
   "chooseus.description": "Aider les marques à réussir grâce à une technologie intelligente et fiable.",
@@ -87,11 +83,9 @@
       "description": "Communication claire, délais honnêtes et résultats mesurables."
     }
   ],
-
   "brands.span": "Marques",
   "brands.title": "Qui Nous Font Confiance",
   "brands.description": "Aider les marques à réussir grâce à une technologie intelligente et fiable.",
-
   "projects.title": "Projets",
   "projects.description": "Des projets qui reflètent notre expertise et notre engagement envers la qualité",
   "projects.List": [
@@ -126,38 +120,64 @@
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
     }
   ],
-
   "projects.viewAll": "Voir tous les produits",
-
   "testimonials.title": "Témoignages",
   "testimonials.title.prefix": "Construire la",
   "testimonials.title.suffix": "Confiance par les Résultats",
   "testimonials.span": "Confiance",
   "testimonials.description": "Des retours authentiques de clients ayant collaboré avec nous pour créer des solutions numériques fiables.",
-  "testimonials.list": [
+  "testimonialsList": [
     {
-      "name": "Rajesh Kumar",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025734/ae9fe090925ae5576c390fa65546b255f1f765cd_is7pew.jpg",
-      "text": "NowIT a livré exactement ce dont nous avions besoin, dans les délais et avec une grande qualité. L’équipe a été professionnelle, réactive et agréable à chaque étape."
+      "name": "Amina Hassane",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
+      "text": "Nowitservices nous a aidés à moderniser nos systèmes internes grâce à sa plateforme professionnelle de conseil et d’automatisation. L’écosystème WON a considérablement amélioré l’efficacité opérationnelle et la prestation de services. Un partenaire technologique fiable et visionnaire."
     },
     {
-      "name": "Ananya Sharma",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025794/5aab5459786b226d5d70e39a1dfa0e817fee1e4d_di3wzg.jpg",
-      "text": "Ils ont rapidement compris notre vision et l’ont transformée en un produit évolutif. Le processus a été fluide et le résultat final a dépassé nos attentes."
+      "name": "Maïkel Santoss",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
+      "text": "Nous avons mis en œuvre WON Digital afin d’optimiser nos processus éducatifs, et les résultats ont été impressionnants. L’application centralisée et le système d’automatisation ont amélioré à la fois l’expérience utilisateur et l’efficacité administrative. Fortement recommandé."
     },
     {
-      "name": "Vikram Rao",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770025821/38f5bd4531c814db74a5a556bbbc302c3c1da5c1_psyqac.jpg",
-      "text": "Leur expertise technique et leur approche structurée nous ont permis de construire une solution fiable sur le web et le mobile. Nous les considérons comme un partenaire à long terme."
+      "name": "Elena Petrova",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "text": "Les stratégies de conseil et de marketing intelligent de Nowitservices ont renforcé notre présence numérique. Leur plateforme d’automatisation structurée a apporté clarté et contrôle à nos flux de travail. Une mise en œuvre professionnelle du début à la fin."
+    },
+    {
+      "name": "Kenji Sato",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "text": "WON Pulse a fourni un cadre d’automatisation efficace et fiable pour nos opérations de santé. La plateforme a amélioré la transparence des processus et la coordination des services. Nous apprécions la précision et le professionnalisme de Nowitservices."
+    },
+    {
+      "name": "Li Wei",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
+      "text": "L’écosystème WON a centralisé nos applications de service et simplifié la gestion opérationnelle. Nowitservices a démontré une solide expertise technique et un accompagnement stratégique tout au long du déploiement. Une expérience globale excellente."
+    },
+    {
+      "name": "Priya Sharma",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
+      "text": "WON Digital a transformé notre système d’administration éducative grâce à une automatisation fluide et un traitement centralisé. Nowitservices a fourni à la fois robustesse technique et conseil stratégique. Un partenaire fiable pour la transformation numérique."
+    },
+    {
+      "name": "Djaïms Andersone",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
+      "text": "Notre département de santé a adopté WON Pulse, ce qui a nettement amélioré l’efficacité des flux de travail et l’intégration des systèmes. La compréhension des besoins métier et la coordination technique de l’équipe étaient excellentes. Nous recommandons Nowitservices en toute confiance."
+    },
+    {
+      "name": "Olivia Bennette",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
+      "text": "Les services professionnels de conseil et d’automatisation de Nowitservices ont rationalisé nos opérations fragmentées. La plateforme WON a amélioré la rapidité, la précision et la visibilité globale. Un fournisseur de solutions fiable et évolutif."
+    },
+    {
+      "name": "Ouilliam Déivisse",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
+      "text": "Nowitservices a proposé une stratégie structurée de transformation numérique soutenue par l’écosystème WON. La plateforme d’automatisation centralisée a accru l’efficacité dans différents départements. Une équipe hautement professionnelle et orientée résultats."
     }
   ],
-
   "becomepartner.title.prefix": "Grandir",
   "becomepartner.title.middle": "Ensemble",
   "becomepartner.title.suffix": "Grâce au Partenariat",
   "becomepartner.description": "Devenez partenaire de NowIT Services pour collaborer, innover et proposer des solutions sur mesure.",
   "becomepartner.becomepartner": "Devenir Partenaire",
-
   "headerOptions": [
     {
       "name": "home",
@@ -176,13 +196,41 @@
       "label": "Services",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "Marketing Intelligent", "link": "/" },
-        { "name": "business launch", "label": "Lancement d’Entreprise", "link": "/" },
-        { "name": "professional services", "label": "Services Professionnels", "link": "/" },
-        { "name": "migration", "label": "Migration", "link": "/" },
-        { "name": "training services", "label": "Services de Formation", "link": "/" },
-        { "name": "messaging services", "label": "Services de Messagerie", "link": "/" },
-        { "name": "ip filing services", "label": "Services de Dépôt de PI", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "Marketing Intelligent",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "Lancement d’Entreprise",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "Services Professionnels",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "Migration",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "Services de Formation",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "Services de Messagerie",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "Services de Dépôt de PI",
+          "link": "/"
+        }
       ]
     },
     {
@@ -204,18 +252,27 @@
       "options": []
     }
   ],
-
   "Aboutus.text": "Nous détenons des brevets sur une plateforme de chaussures intelligentes de nouvelle génération qui transforme les mouvements quotidiens en informations de santé exploitables. En combinant des technologies de capteurs avancées et des analyses de données intelligentes, le système permet un suivi en temps réel et des retours de bien-être personnalisés. Cette innovation économe en énergie se situe à la croisée de la santé, de la mobilité et des technologies portables, façonnant l’avenir des soins préventifs basés sur les données.",
-
   "clients": "Clients",
   "services": "Services",
   "products": "Produits",
   "countries": "Pays",
-
   "stats": [
-    { "label": "18+ Clients", "href": "/clients" },
-    { "label": "12+ Services", "href": "/services" },
-    { "label": "10+ Produits", "href": "/products" },
-    { "label": "3+ Pays", "href": "/countries" }
+    {
+      "label": "18+ Clients",
+      "href": "/clients"
+    },
+    {
+      "label": "12+ Services",
+      "href": "/services"
+    },
+    {
+      "label": "10+ Produits",
+      "href": "/products"
+    },
+    {
+      "label": "3+ Pays",
+      "href": "/countries"
+    }
   ]
 }
