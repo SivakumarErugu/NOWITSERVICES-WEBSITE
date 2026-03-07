@@ -125,7 +125,7 @@
       "id": 1,
       "name": "Ouon Hubs",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "Ouon Hubs est une plateforme éducative tout-en-un conçue pour transformer la gestion scolaire et l’apprentissage."
+      "description": "Ouon Hubs  est une plateforme autonome d’automatisation des flux de travail centralisée basée sur le cloud qui connecte de manière transparente les systèmes omnicanaux et d’entreprise, permettant aux organisations de concevoir, automatiser et orchestrer les flux opérationnels depuis un hub unique et unifié."
     },
     {
       "id": 2,
@@ -145,12 +145,12 @@
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
       "description": "Ouon Bills est une solution intelligente de facturation et de gestion financière."
     },
-    {
-      "id": 5,
-      "name": "Ouon Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "Ouon Bridge est une plateforme intégrée de communication et de collaboration."
-    }
+  {
+  "id": 5,
+  "name": "WON Bridge",
+  "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+  "description": "WON Bridge est une plateforme de gestion minière qui simplifie les opérations de pesage et le suivi des matériaux grâce à un accès basé sur les rôles, des tableaux de bord centralisés, des alertes, une connectivité d'imprimante, la capture par caméras de sécurité, la sauvegarde des données et le suivi en temps réel des mouvements de stock."
+}
   ],
   "products.viewProduct": "Voir le Produit",
   "Industry.title": "Solutions pour",
@@ -188,7 +188,7 @@
     },
     {
       "name": "Elena Petrova",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
       "text": "Les stratégies de conseil et de marketing intelligent de Nowitservices ont renforcé notre présence numérique. Leur plateforme d’automatisation structurée a apporté clarté et contrôle à nos flux de travail. Une mise en œuvre professionnelle du début à la fin."
     },
     {

@@ -66,7 +66,7 @@ const Services3 = () => {
     }, [t, isReady])
     if (!isReady) return null;
     return (
-        <section className="w-full py-6 bg-white mb-10 ">
+        <section className="w-full pt-5 py-0 bg-white">
             <div className="mx-auto px-5 md:px-8 lg:px-15">
 
                 {/* HEADER */}

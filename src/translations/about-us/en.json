@@ -15,31 +15,31 @@
     "journey.List": [
         {
             "suffix": "20",
-            "description": "Incorporated in United Kingdom as a Technology Consulting Firm"
+            "description": "The company was incorporated in the UK as a technology consulting firm for enterprise digital transformation, working with global organizations like Infosys, IBM, HCL, Booking.com, DXC, Capgemini, and Accenture to build expertise in large-scale enterprise systems."
         },
         {
             "suffix": "21",
-            "description": "Started Tech Consulting Services in India for AspireSystems, Qbrainx, UST Global and initiated development of customized web and mobile applications"
+            "description": "Expanded operations to India, delivering consulting and product engineering for organizations like Aspire Systems, Qbrainx, and UST Global while developing custom web and mobile applications and building foundations for future platform products."
         },
         {
             "suffix": "22",
-            "description": "Expanded operations in India by strengthening the development team and accelerating research & development initiatives"
+            "description": "Strengthened our engineering capabilities and accelerated research and development initiatives in India. This phase focused on building next-generation digital architectures, automation frameworks, and AI-driven technology capabilities."
         },
         {
             "suffix": "23",
-            "description": "Focused on product innovation, client acquisition, and building scalable SaaS-ready architecture"
+            "description": "Focused on product innovation, strategic client growth, and designing scalable SaaS-ready architectures. This laid the groundwork for building multi-platform digital solutions across different industry verticals."
         },
         {
             "suffix": "24",
-            "description": "Started as a Product-based Company with the brand name WON Apps"
+            "description": "Transitioned into a product-focused organization with the launch of our brand WON Apps. This marked the beginning of the WON Ecosystem — a unified digital universe of platforms designed to power businesses across multiple industries."
         },
         {
             "suffix": "25",
-            "description": "Launched first SaaS platform and gradually added two more SaaS platforms to the WON App Store"
+            "description": "Launched our first intelligent platform and expanded the WON Platform Ecosystem. Additional platforms were introduced to address evolving digital transformation and operational needs of modern organizations."
         },
         {
             "suffix": "26",
-            "description": "Progressing to add more platforms, rounding it to five in the WON App Store"
+            "description": "Continuing to expand the WON Ecosystem as a network of autonomous and intelligent platforms powered by artificial intelligence. Our vision is to build a digital universe of interconnected platforms that learn, automate, and evolve with businesses across industries."
         }
     ],
     "aboutUs.description": "We hold patents on next-generation smart footwear platform that transforms everyday movement into meaningful health insights. By combining advanced sensing technology with intelligent data analytics, the system enables real-time monitoring and personalized wellness feedback.Energy-efficient and seamlessly connected, this innovation sits at the intersection of healthcare, mobility, and wearable technology — shaping the future of preventive, data-driven care.",
@@ -110,7 +110,7 @@
         {
             "id": 4,
             "title": "WON Hubs",
-            "description": "WON Hubs is the core infrastructure platform. It powers the entire WON ecosystem. Designed for scalability and resilience.",
+            "description": "WON Hubs is an Autonomous Cloud-Based Centralized Workflow Automation Platform that seamlessly connects omnichannel and enterprise systems, enabling organizations to design, automate, and orchestrate operational workflows from a single unified hub.",
             "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
         },
         {
@@ -148,7 +148,6 @@
     "becomepartner.title.suffix": "Through Partnership",
     "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
     "becomepartner.becomepartner": "Become a Partner",
-
     "Aboutus.text": " We hold patents on next-generation smart footwear platform that transforms everyday movement into meaningful health insights. By combining advanced sensing technology with intelligent data analytics, the system enables real-time monitoring and personalized wellness feedback. Energy-efficient and seamlessly connected, this innovation sits at the intersection of healthcare, mobility, and wearable technology shaping the future of preventive, data-driven care.",
     "clients": "Clients",
     "services": "Services",

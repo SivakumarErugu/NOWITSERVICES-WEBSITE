@@ -120,38 +120,38 @@
   "products.title": "数字产品",
   "products.span": "企业级解决方案",
   "products.description": "我们的产品通过智能、可扩展且易用的数字解决方案解决企业挑战。",
- "products.appList": [
-  {
-    "id": 1,
-    "name": "沃恩哈布斯",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-    "description": "一体化教育管理平台，提升学校运营效率。"
-  },
-  {
-    "id": 2,
-    "name": "沃恩迪吉",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-    "description": "综合教育管理数字平台。"
-  },
-  {
-    "id": 3,
-    "name": "沃恩脉冲",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-    "description": "智能医院管理软件。"
-  },
-  {
-    "id": 4,
-    "name": "沃恩比尔斯",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-    "description": "智能账单与财务管理解决方案。"
-  },
-  {
-    "id": 5,
-    "name": "沃恩布里奇",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-    "description": "集成通信与协作平台。"
-  }
-],
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "沃恩哈布斯",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "沃恩枢纽是一个自主的基于云的集中式工作流自动化平台，可无缝连接全渠道和企业系统，使组织能够从一个统一的中心设计、自动化和编排运营工作流程。"
+    },
+    {
+      "id": 2,
+      "name": "沃恩迪吉",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "综合教育管理数字平台。"
+    },
+    {
+      "id": 3,
+      "name": "沃恩脉冲",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
+      "description": "智能医院管理软件。"
+    },
+    {
+      "id": 4,
+      "name": "沃恩比尔斯",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "智能账单与财务管理解决方案。"
+    },
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "WON Bridge è una piattaforma di gestione mineraria che semplifica le operazioni di pesatura e il tracciamento dei materiali con accesso basato sui ruoli, dashboard centralizzate, avvisi, connettività alle stampanti, acquisizione tramite telecamere di sicurezza, backup dei dati e monitoraggio in tempo reale del movimento dei materiali."
+    }
+  ],
   "products.viewProduct": "查看产品",
   "Industry.title": "行业解决方案",
   "Industry.span": "覆盖各行业",
@@ -175,7 +175,7 @@
   "testimonials.title.suffix": "信任",
   "testimonials.span": "信任",
   "testimonials.description": "来自合作客户的真实反馈。",
-   "testimonialsList": [
+  "testimonialsList": [
     {
       "name": "阿米娜·哈桑",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
@@ -188,7 +188,7 @@
     },
     {
       "name": "埃琳娜·彼得罗娃",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
       "text": "Nowitservices 的咨询与智能营销策略增强了我们的数字化影响力。其结构化自动化平台为我们的工作流程带来了清晰度与可控性。从始至终都体现出高度的专业执行力。"
     },
     {

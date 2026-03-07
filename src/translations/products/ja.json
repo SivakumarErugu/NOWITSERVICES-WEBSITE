@@ -74,12 +74,12 @@
     },
     "won_bridge": {
       "name": "WON Bridge",
-      "description": "WON Bridgeは、エンタープライズシステム間の安全かつシームレスな統合を実現します。"
+      "description": "WONブリッジ は採掘管理プラットフォームで、計量業務と資材追跡を簡素化し、役割ベースのアクセス、集中ダッシュボード、アラート、在庫のリアルタイム監視を提供します。"
     },
-    "won_tap": {
-      "name": "WON Tap",
-      "description": "WON Tapは、高速かつ安全な取引を可能にするスマート決済・アクセスプラットフォームです。"
-    },
+   "won_tap": {
+  "name": "WON Meo",
+  "description": "WON Meo は iOS、Android、Web で利用できるクロスプラットフォームのデジタルIDおよびネットワーキングプラットフォームで、ユーザーはワンタップでデジタルIDを共有し、プロフェッショナルなつながりを築くことができます。"
+},
     "won_mart": {
       "name": "WON Mart",
       "description": "WON Martは、スケーラブルなB2B取引を実現するデジタルマーケットプレイスです。"

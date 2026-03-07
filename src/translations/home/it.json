@@ -125,7 +125,7 @@
       "id": 1,
       "name": "WON Hubs",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "Piattaforma educativa completa per la gestione scolastica."
+      "description": "WON Hubs è una piattaforma autonoma di automazione dei flussi di lavoro centralizzata basata su cloud che collega senza interruzioni sistemi omnicanale e aziendali, consentendo alle organizzazioni di progettare, automatizzare e orchestrare i flussi operativi da un unico hub unificato."
     },
     {
       "id": 2,
@@ -145,12 +145,12 @@
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
       "description": "Soluzione intelligente per fatturazione e gestione finanziaria."
     },
-    {
-      "id": 5,
-      "name": "WON Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "Piattaforma integrata di comunicazione e collaborazione."
-    }
+   {
+  "id": 5,
+  "name": "WON Bridge",
+  "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+  "description": "WON Bridge è una piattaforma di gestione mineraria che semplifica le operazioni di pesatura e il tracciamento dei materiali con accesso basato sui ruoli, dashboard centralizzate, avvisi, connettività alle stampanti, acquisizione tramite telecamere di sicurezza, backup dei dati e monitoraggio in tempo reale del movimento dei materiali."
+}
   ],
   "products.viewProduct": "Visualizza Prodotto",
   "Industry.title": "Soluzioni per",
@@ -188,7 +188,7 @@
     },
     {
       "name": "Elena Petrova",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
       "text": "Le strategie di consulenza e smart marketing di Nowitservices hanno rafforzato la nostra presenza digitale. La loro piattaforma di automazione strutturata ha portato chiarezza e controllo nei nostri flussi di lavoro. Implementazione professionale dall’inizio alla fine."
     },
     {

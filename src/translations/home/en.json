@@ -1,5 +1,4 @@
 {
-    
     "contactUs": "Contact Us",
     "banner.subtitle": "Unleashing Business Potential Through",
     "banner.title": "Intelligent Digital Transformation",
@@ -126,7 +125,7 @@
             "id": 1,
             "name": "WON Hubs",
             "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-            "description": "WON Hubs is your all-in-one educational platform designed to transform how schools operate and how students learn. We simplify school management and enhance learning experiences with cutting-edge digital tools."
+            "description": "WON Hubs is an Autonomous Cloud-Based Centralized Workflow Automation Platform that seamlessly connects omnichannel and enterprise systems, enabling organizations to design, automate, and orchestrate operational workflows from a single unified hub."
         },
         {
             "id": 2,
@@ -150,7 +149,7 @@
             "id": 5,
             "name": "WON Bridge",
             "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-            "description": "WON Bridge is an integrated communication and collaboration platform designed to connect institutions, teams, and stakeholders efficiently. It enhances coordination and productivity through secure, real-time digital interaction."
+            "description": "WON Bridge is a mining management platform that streamlines weighment operations and material tracking with role-based access, centralized dashboards, alerts, printer connectivity, security camera capture, data backup, and real-time stock monitoring."
         }
     ],
     "products.viewProduct": "View Product",
@@ -228,7 +227,7 @@
     "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
     "becomepartner.becomepartner": "Become a Partner",
     "contactus": "Contact Us",
-    "industries":"Industries",
-    "testimonials.title":"Testimonials",
-    "whoweare":"Who we are"
+    "industries": "Industries",
+    "testimonials.title": "Testimonials",
+    "whoweare": "Who we are"
 }

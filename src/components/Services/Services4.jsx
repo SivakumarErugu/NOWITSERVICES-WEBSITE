@@ -58,12 +58,11 @@ const Services4 = () => {
   if (!isReady) return <Loading />
 
   return (
-    <section className="w-full bg-white py-6 lg:py-12 mb-8">
+    <section className="w-full bg-white py-6 lg:py-10 ">
       <div className="mx-auto px-5 md:px-8 lg:px-15">
 
         {/* HEADER */}
         <SlidingHeader title={t("services.our")} bottom="mb-2" />
-
         {/* TITLE + ARROWS */}
         <div className="flex items-center justify-between mb-5">
           <h2 className="text-xl md:text-3xl font-semibold">

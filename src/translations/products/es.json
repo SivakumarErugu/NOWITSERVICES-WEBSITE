@@ -2,19 +2,16 @@
   "banner.title": "Somos un Ecosistema Digital. El Futuro Funciona Aquí.",
   "banner.description": "Crea y escala plataformas inteligentes sin código — comienza con plataformas sectoriales listas para lanzar o diseña una solución totalmente personalizada.",
   "banner.explore": "Explorar Ahora",
-
   "infinity.title": "Plataformas Que ",
   "infnity.description": "Plataformas Zero-Code listas para empresas que evolucionan, se adaptan y escalan — desde individuos hasta corporaciones.",
   "infinity.span": "Piensan, Se Adaptan y Escalan",
   "infinity.right.text": "Experiencias Humanas",
-"infinity.left.text": "Operaciones industriales",
+  "infinity.left.text": "Operaciones industriales",
   "infinity.middle.top": "WON Suite",
   "infinity.middle.bottom": "Simple | Inteligente | Seguro",
-
   "products.slidingHeader": "Nuestros Productos",
   "products.title": "Productos Diseñados para Cada Etapa",
   "products.span": "De Individuos a Empresas",
-
   "products.List": {
     "won_digi": {
       "name": "WON Digi",
@@ -74,11 +71,11 @@
     },
     "won_bridge": {
       "name": "WON Bridge",
-      "description": "WON Bridge permite una integración segura y fluida entre sistemas empresariales."
+      "description": "WON Bridge es una plataforma de gestión minera que simplifica las operaciones de pesaje y el seguimiento de materiales con acceso basado en roles, paneles centralizados, alertas y monitoreo de inventario en tiempo real."
     },
     "won_tap": {
-      "name": "WON Tap",
-      "description": "WON Tap es una plataforma inteligente de pagos y acceso para transacciones rápidas y seguras."
+      "name": "WON Meo",
+      "description": "WON Meo es una plataforma de identidad digital y networking multiplataforma disponible en iOS, Android y Web que permite a los usuarios compartir su identidad digital con un solo toque y crear conexiones profesionales."
     },
     "won_mart": {
       "name": "WON Mart",
@@ -125,16 +122,13 @@
       "description": "WON Hubs es la plataforma de infraestructura central que impulsa todo el ecosistema WON."
     }
   },
-
   "products.viewProduct": "Ver Producto",
-
   "customize.slidingHeader": "Personaliza Tu Producto",
   "customize.title.prefix": "¿Tienes una Idea?",
   "customize.span": "La Personalizamos",
   "customize.title.suffix": "Para Ajustarla a Tu Visión.",
   "customize.description": "Comparte tu idea con nosotros y colaboraremos estrechamente para transformarla en un producto digital totalmente personalizado. Desde el concepto y diseño hasta el desarrollo y la escalabilidad, adaptamos cada solución a tu visión, usuarios y objetivos a largo plazo.",
   "customize.getInTouch": "Contáctanos",
-
   "becomepartner.title.prefix": "Crece",
   "becomepartner.title.middle": "Juntos",
   "becomepartner.title.suffix": "A Través de la Asociación",

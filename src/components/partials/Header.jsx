@@ -29,15 +29,14 @@ const Header = () => {
     const pathname = usePathname();
     const router = useRouter();
     const [isPending, startTransition] = useTransition();
-
     const closeTimer = useRef(null);
     const [openMenu, setOpenMenu] = useState(null);
     const [arrowLeft, setArrowLeft] = useState(0);
     const [mobileOpen, setMobileOpen] = useState(false);
     const [mobileSub, setMobileSub] = useState(null);
     const [translatedHeaderOptions, setTranslatedHeaderOptions] = useState(headerOptions);// added by sandhya
-    const [ContactUs, setContactUs] = useState('');
-    const { tc, isReady, locale, changeLanguage } = useNowit();
+    const [ContactUs, setContactUs] = useState('contact us');
+    const { tc, locale, changeLanguage, t, commonReady } = useNowit();
     const navRefs = useRef({});
     const menuWrapperRef = useRef(null);
 
@@ -59,18 +58,21 @@ const Header = () => {
     }, [activeTab, setActiveTab]);
     /* ---------------- PREFETCH ROUTES ---------------- */
     useEffect(() => {
-        headerOptions.forEach(item => {
+
+        // console.log("triggering in useEfect1")
+        translatedHeaderOptions.forEach(item => {
             if (item.link) router.prefetch(item.link);
         });
+
     }, [router]);
     //  getting translated list 
     useEffect(() => {
-        if (!isReady) return;
-
+        // console.log("locale:", locale);
+        // console.log("headerOptions translation:", translatedHeaderOptions);
+        if (!commonReady) return;
+        // console.log("Triggering in useEffect2")
         const list = tc("headerOptions");
-        console.log(list
-
-        )
+        console.log(list, "here header list")
 
         if (Array.isArray(list)) {
             setTranslatedHeaderOptions(list);
@@ -78,10 +80,11 @@ const Header = () => {
             setTranslatedHeaderOptions(headerOptions);
         }
 
-        const cu = tc("contactUs");
+        const cu = tc("contactus");
+        console.log(cu, "@Header heree")
         setContactUs(typeof cu === "string" ? cu : "Contact Us");
 
-    }, [tc, isReady]);
+    }, [tc,  t, locale, commonReady]);
     /* ---------------- SAFE NAVIGATION ---------------- */
     const navigate = (path) => {
         startTransition(() => {
@@ -142,6 +145,7 @@ const Header = () => {
         }
         setMobileSub(prev => (prev === item.name ? null : item.name));
     };
+
 
     return (
         <header className="relative w-full bg-linear-to-b from-[#E5EFF8] to-white z-50">
@@ -217,6 +221,7 @@ const Header = () => {
                 <button
                     className="lg:hidden text-3xl text-gray-900"
                     onClick={() => setMobileOpen(true)}
+                    suppressHydrationWarning
                 >
                     <HiOutlineMenuAlt3 size={30} />
                 </button>

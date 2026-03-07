@@ -74,12 +74,12 @@
     },
     "won_bridge": {
       "name": "WON Pont",
-      "description": "WON Pont permet une intégration sécurisée et fluide entre les systèmes d’entreprise."
+      "description": "WONブリッジ は採掘管理プラットフォームで、計量業務と資材追跡を簡素化し、役割ベースのアクセス、集中ダッシュボード、アラート、在庫のリアルタイム監視を提供します。"
     },
     "won_tap": {
-      "name": "WON Paiement",
-      "description": "WON Paiement est une plateforme intelligente de paiement et d’accès pour des transactions rapides et sécurisées."
-    },
+  "name": "WON Meo",
+  "description": "WON Meo est une plateforme d'identité numérique et de réseautage multiplateforme disponible sur iOS, Android et Web, permettant aux utilisateurs de partager instantanément leur identité numérique d'un simple geste et de créer des connexions professionnelles."
+},
     "won_mart": {
       "name": "WON Marché",
       "description": "WON Marché est une place de marché numérique permettant un commerce B2B évolutif."

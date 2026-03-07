@@ -2,19 +2,16 @@
   "banner.title": "Wir sind ein Digitales Ökosystem. Die Zukunft Läuft Hier.",
   "banner.description": "Erstellen und skalieren Sie intelligente Plattformen ohne Code — starten Sie mit branchenfertigen Plattformen oder entwerfen Sie eine vollständig maßgeschneiderte Lösung.",
   "banner.explore": "Jetzt Entdecken",
-
   "infinity.title": "Plattformen, Die ",
   "infnity.description": "Unternehmensreife Zero-Code-Plattformen, die sich weiterentwickeln, anpassen und skalieren — von Einzelpersonen bis zu Unternehmen.",
   "infinity.span": "Denken, Anpassen und Skalieren",
   "infinity.right.text": "Menschliche Erlebnisse",
- "infinity.left.text": "Opérations industrielles",
+  "infinity.left.text": "Opérations industrielles",
   "infinity.middle.top": "WON Suite",
   "infinity.middle.bottom": "Einfach | Intelligent | Sicher",
-
   "products.slidingHeader": "Unsere Produkte",
   "products.title": "Produkte Für Jede Entwicklungsphase",
   "products.span": "Von Einzelpersonen Bis Unternehmen",
-
   "products.List": {
     "won_digi": {
       "name": "WON Digi",
@@ -74,11 +71,11 @@
     },
     "won_bridge": {
       "name": "WON Bridge",
-      "description": "WON Bridge ermöglicht eine sichere und nahtlose Integration zwischen Unternehmenssystemen."
+      "description": "WON Bridge ist eine Bergbau-Managementplattform, die Wiegevorgänge und Materialverfolgung vereinfacht und rollenbasierten Zugriff, zentrale Dashboards, Warnmeldungen und Echtzeit-Bestandsüberwachung bietet."
     },
     "won_tap": {
-      "name": "WON Tap",
-      "description": "WON Tap ist eine intelligente Zahlungs- und Zugangsplattform für schnelle und sichere Transaktionen."
+      "name": "WON Meo",
+      "description": "WON Meo ist eine plattformübergreifende digitale Identitäts- und Networking-Plattform für iOS, Android und Web, mit der Benutzer ihre digitale ID mit nur einem Tippen teilen und professionelle Verbindungen aufbauen können."
     },
     "won_mart": {
       "name": "WON Mart",
@@ -125,16 +122,13 @@
       "description": "WON Hubs ist die zentrale Infrastrukturplattform, die das gesamte WON-Ökosystem antreibt."
     }
   },
-
   "products.viewProduct": "Produkt Anzeigen",
-
   "customize.slidingHeader": "Produkt Anpassen",
   "customize.title.prefix": "Haben Sie Eine Idee?",
   "customize.span": "Wir Passen Sie",
   "customize.title.suffix": "An Ihre Vision An.",
   "customize.description": "Teilen Sie Ihre Idee mit uns, und wir arbeiten eng mit Ihnen zusammen, um sie in ein vollständig maßgeschneidertes digitales Produkt zu verwandeln. Vom Konzept und Design bis zur Entwicklung und Skalierung passen wir jede Lösung an Ihre Vision, Nutzer und langfristigen Ziele an.",
   "customize.getInTouch": "Kontaktieren Sie Uns",
-
   "becomepartner.title.prefix": "Wachsen",
   "becomepartner.title.middle": "Gemeinsam",
   "becomepartner.title.suffix": "Durch Partnerschaft",

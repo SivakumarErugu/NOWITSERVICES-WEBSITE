@@ -17,7 +17,7 @@ export const PRODUCT_IMAGES = {
 //B2B
     WONBills: "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770376626/d365ca1c87bb9c6942db1c685d940662ce0421c5_hrwsfi.jpg",
     WONBridge:  "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770376627/1226bd40a67c2b5b9b95900a54d1f3bab3295f40_eqporx.jpg",
-    WONTap:  "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770376626/47013c50b24e84c108c3ee99a04c1a462a3c594a_flpb4h.jpg",
+    WONTap:  "https://res.cloudinary.com/dr9thittl/image/upload/v1772795561/Screenshot_2026-03-06_163759_vkjis3.png",
     WONMart:  "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770376627/31181a1a3dd660022bdb0853c0803572d9979a4f_pztmmi.jpg",
     WONBuild:  "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770376626/45efe28cbc1bac6997bc3a409331f842296c785c_pptwqt.jpg",
     WONMove:  "https://res.cloudinary.com/dtb4vozhy/image/upload/v1770376627/fe03376496a0cc864737ffc21341a0249d3be3da_izutwg.jpg",

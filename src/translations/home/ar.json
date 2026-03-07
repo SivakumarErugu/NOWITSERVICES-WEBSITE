@@ -18,7 +18,6 @@
   "hero.getStarted": "ابدأ الآن",
   "hero.unified": "خدمات متكاملة",
   "hero.reliable": "دعم موثوق",
-
   "partner.slidingTitle": "من نحن",
   "partner.title.prefix": "شريكك",
   "partner.span": "الموثوق",
@@ -28,12 +27,10 @@
   "partner.trusted": "موثوق",
   "partner.clients": "من قبل عملاء عالميين",
   "partner.talktoai": "تحدث إلى الذكاء الاصطناعي",
-
   "services.slidingTitle": "خدماتنا",
   "services.title": "من البداية إلى النهاية",
   "services.span": "خدمات رقمية",
   "services.description": "نقدم خدمات برمجية متكاملة تساعد الشركات على بناء وتطوير وتحديث منتجاتها الرقمية.",
-
   "services.carouselList": [
     {
       "id": 1,
@@ -119,45 +116,43 @@
       "image_url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770356815/47384aa8ad459ceaf14d483126d5c575464dd3ba_obfm44.png"
     }
   ],
-
   "products.slidingTitle": "منتجاتنا",
   "products.title": "منتجات رقمية",
   "products.span": "جاهزة للمؤسسات",
   "products.description": "تم تصميم منتجاتنا لحل تحديات الأعمال من خلال حلول رقمية ذكية وقابلة للتوسع.",
-"products.appList": [
-  {
-    "id": 1,
-    "name": "وون هبز",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-    "description": "منصة تعليمية متكاملة لإدارة المدارس وتحسين تجربة التعلم."
-  },
-  {
-    "id": 2,
-    "name": "وون ديجي",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
-    "description": "منصة شاملة لإدارة التعليم."
-  },
-  {
-    "id": 3,
-    "name": "وون بالس",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107305/785f7f05f04bbf73a2f0e933017414fba094aeea_bwbmyw.jpg",
-    "description": "برنامج ذكي لإدارة المستشفيات."
-  },
-  {
-    "id": 4,
-    "name": "وون بيلز",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
-    "description": "حل ذكي للفوترة والإدارة المالية."
-  },
-  {
-    "id": 5,
-    "name": "وون بريدج",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-    "description": "منصة متكاملة للتواصل والتعاون."
-  }
-],
+  "products.appList": [
+    {
+      "id": 1,
+      "name": "وون هبز",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
+      "description": "وون هَبز هي منصة مركزية مستقلة لأتمتة سير العمل تعتمد على السحابة، وتربط بسلاسة أنظمة القنوات المتعددة وأنظمة المؤسسات، مما يمكّن المؤسسات من تصميم وأتمتة وتنظيم سير العمل التشغيلي من خلال مركز موحد واحد."
+    },
+    {
+      "id": 2,
+      "name": "وون ديجي",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107209/c631f590f3e1c0c7e22c70bb1e53c33523b20383_wexj7j.jpg",
+      "description": "منصة شاملة لإدارة التعليم."
+    },
+    {
+      "id": 3,
+      "name": "وون بالس",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
+      "description": "برنامج ذكي لإدارة المستشفيات."
+    },
+    {
+      "id": 4,
+      "name": "وون بيلز",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
+      "description": "حل ذكي للفوترة والإدارة المالية."
+    },
+    {
+      "id": 5,
+      "name": "वॉन ब्रिज",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "वॉन ब्रिज एक माइनिंग मैनेजमेंट प्लेटफ़ॉर्म है जो वेटमेंट ऑपरेशन्स और मटेरियल ट्रैकिंग को सुव्यवस्थित करता है, जिसमें रोल-आधारित एक्सेस, केंद्रीकृत डैशबोर्ड, अलर्ट, प्रिंटर कनेक्टिविटी, सुरक्षा कैमरा कैप्चर, डेटा बैकअप और मटेरियल स्टॉक की रियल-टाइम निगरानी शामिल है।"
+    }
+  ],
   "products.viewProduct": "عرض المنتج",
-
   "Industry.title": "حلول لـ",
   "Industry.span": "كل صناعة",
   "Industry.description": "توفر NOWIT خدمات التحول الرقمي المدعومة بالذكاء الاصطناعي لتحسين الكفاءة وتسريع النمو.",
@@ -175,7 +170,6 @@
     "الطاقة والمرافق",
     "السيارات"
   ],
-
   "testimonials.slidingTitle": "آراء العملاء",
   "testimonials.title.prefix": "بناء",
   "testimonials.title.suffix": "الثقة من خلال النتائج",
@@ -183,55 +177,55 @@
   "testimonials.description": "آراء حقيقية من عملائنا.",
   "testimonialsList": [
     {
-      "key":1,
+      "key": 1,
       "name": "أمينة حسن",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
       "text": "ساعدتنا Nowitservices في تحديث أنظمتنا الداخلية من خلال منصتها الاحترافية للاستشارات والأتمتة. لقد ساهم نظام WON البيئي في تحسين الكفاءة التشغيلية وتقديم الخدمات بشكل ملحوظ. شريك تقني موثوق وذو رؤية مستقبلية."
     },
     {
-      "key":2,
+      "key": 2,
       "name": "مايكل سانتوس",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134234_cneifp.png",
       "text": "قمنا بتطبيق WON Digital لتبسيط عملياتنا التعليمية وكانت النتائج مميزة للغاية. حسّن التطبيق المركزي ونظام الأتمتة تجربة المستخدم وكفاءة الإدارة على حد سواء. نوصي به بشدة."
     },
     {
-      "key":3,
+      "key": 3,
       "name": "إيلينا بيتروفا",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
       "text": "عززت استراتيجيات الاستشارات والتسويق الذكي من Nowitservices حضورنا الرقمي. كما وفرت منصة الأتمتة المنظمة وضوحًا وتحكمًا في سير العمل لدينا. تنفيذ احترافي من البداية حتى النهاية."
     },
     {
-      "key":4,
+      "key": 4,
       "name": "كينجي ساتو",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
       "text": "وفّر WON Pulse إطار عمل فعال وموثوق للأتمتة في عمليات الرعاية الصحية لدينا. حسّنت المنصة شفافية العمليات وتنسيق الخدمات. نُقدّر دقة واحترافية Nowitservices."
     },
     {
-      "key":5,
+      "key": 5,
       "name": "لي وي",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180429/Screenshot_2026-02-27_134415_akienn.png",
       "text": "قام نظام WON البيئي بمركزة تطبيقات الخدمات لدينا وتبسيط إدارة العمليات. أظهرت Nowitservices خبرة تقنية قوية وتوجيهًا استراتيجيًا طوال فترة التنفيذ. تجربة ممتازة بشكل عام."
     },
     {
-      "key":6,
+      "key": 6,
       "name": "بريا شارما",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180445/Screenshot_2026-02-27_134424_vbi7ix.png",
       "text": "أحدث WON Digital تحولًا في نظام الإدارة التعليمية لدينا من خلال أتمتة سلسة ومعالجة مركزية. قدمت Nowitservices قوة تقنية واستشارات استراتيجية. شريك موثوق في التحول الرقمي."
     },
     {
-      "key":7,
+      "key": 7,
       "name": "جيمس أندرسون",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134432_oez5kd.png",
       "text": "اعتمد قسم الرعاية الصحية لدينا WON Pulse، مما أدى إلى تحسين كبير في كفاءة سير العمل وتكامل الأنظمة. كان فهم الفريق للاحتياجات التشغيلية والتنسيق التقني ممتازًا. نوصي بـ Nowitservices بثقة تامة."
     },
     {
-      "key":8,
+      "key": 8,
       "name": "أوليفيا بينيت",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180446/Screenshot_2026-02-27_134440_vd1bbv.png",
       "text": "قامت خدمات الاستشارات والأتمتة الاحترافية من Nowitservices بتنظيم عملياتنا المتفرقة. حسّنت منصة WON السرعة والدقة والرؤية الشاملة. مزود حلول موثوق وقابل للتوسع."
     },
     {
-      "key":9,
+      "key": 9,
       "name": "ويليام ديفيس",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
       "text": "قدمت Nowitservices استراتيجية منظمة للتحول الرقمي مدعومة بنظام WON البيئي. عززت منصة الأتمتة المركزية الكفاءة عبر مختلف الأقسام. فريق محترف للغاية ويركز على تحقيق النتائج."
@@ -264,7 +258,6 @@
       "description": "نعم، حلولنا مصممة للنمو المستقبلي."
     }
   ],
-
   "trustedbanner.subTitle": "موثوق من قبل",
   "trustedbanner.title": "مزود خدمات عالمي",
   "becomepartner.title.prefix": "النمو",
@@ -272,7 +265,6 @@
   "becomepartner.title.suffix": "من خلال الشراكة",
   "becomepartner.description": "شارك NowIT للتعاون والابتكار.",
   "becomepartner.becomepartner": "كن شريكًا",
-
   "contactus": "اتصل بنا",
   "industries": "الصناعات",
   "testimonials.title": "آراء العملاء",

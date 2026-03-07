@@ -129,7 +129,7 @@
     "id": 1,
     "name": "ウォン ハブス",
     "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-    "description": "学校管理を変革するオールインワンプラットフォーム。"
+    "description": "ウォンハブズは、自律型クラウドベースの集中型ワークフロー自動化プラットフォームであり、オムニチャネルおよびエンタープライズシステムをシームレスに接続し、組織が単一の統合ハブから業務ワークフローを設計・自動化・管理できるようにします。学校管理を変革するオールインワンプラットフォーム。"
   },
   {
     "id": 2,
@@ -150,11 +150,11 @@
     "description": "スマート請求および財務管理ソリューション。"
   },
   {
-    "id": 5,
-    "name": "ウォン ブリッジ",
-    "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-    "description": "統合コミュニケーションおよびコラボレーションプラットフォーム。"
-  }
+  "id": 5,
+  "name": "WON Bridge",
+  "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+  "description": "WON Bridge は採掘管理プラットフォームで、計量業務と資材追跡を効率化し、役割ベースのアクセス、集中ダッシュボード、アラート、プリンター接続、セキュリティカメラキャプチャ、データバックアップ、資材在庫の入出庫をリアルタイムで監視します。"
+}
 ],
 
   "products.viewProduct": "製品を見る",
@@ -195,7 +195,7 @@
     },
     {
       "name": "エレナ・ペトロワ",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
       "text": "Nowitservicesのコンサルティングおよびスマートマーケティング戦略により、当社のデジタルプレゼンスが強化されました。構造化された自動化プラットフォームは、業務フローに明確さと統制をもたらしました。開始から完了まで非常にプロフェッショナルな導入でした。"
     },
     {

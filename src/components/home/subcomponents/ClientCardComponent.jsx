@@ -42,7 +42,7 @@ const testimonialsList = [
     {
         key: 3,
         name: "Elena Petrova",
-        image: "https://res.cloudinary.com/dr9thittl/image/upload/v1772262070/Screenshot_2026-02-28_122527_yjtzmk.png",
+        image: "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
         text: "The consulting and smart marketing strategies from NOWIT Services strengthened our digital presence. Their structured automation platforms brought clarity and control to our workflows. Professional execution from start to finish."
     },
     {
@@ -94,6 +94,7 @@ const ClientCardComponent = () => {
         if (!isReady) return;
         const translatedList = t("testimonialsList")
         console.log(translatedList, "testimonial here..,")
+
 
         if (Array.isArray(translatedList) && translatedList.length > 0) {
             console.log("Triggering in side ")

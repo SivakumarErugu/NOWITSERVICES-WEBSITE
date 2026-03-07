@@ -15,31 +15,31 @@
   "journey.List": [
     {
       "suffix": "20",
-      "description": "Costituzione nel Regno Unito come società di consulenza tecnologica"
+      "description": "L'azienda è stata fondata nel Regno Unito come società di consulenza tecnologica focalizzata sulla trasformazione digitale aziendale. In questa fase abbiamo lavorato con organizzazioni globali come Infosys, IBM, HCL, Booking.com, DXC, Capgemini e Accenture."
     },
     {
       "suffix": "21",
-      "description": "Avvio dei servizi di consulenza tecnologica in India per AspireSystems, Qbrainx e UST Global e sviluppo di applicazioni web e mobile personalizzate"
+      "description": "Abbiamo ampliato le operazioni in India fornendo consulenza tecnologica e ingegneria di prodotto per aziende come Aspire Systems, Qbrainx e UST Global, sviluppando anche applicazioni web e mobile personalizzate."
     },
     {
       "suffix": "22",
-      "description": "Espansione delle operazioni in India rafforzando il team di sviluppo e accelerando le iniziative di ricerca e sviluppo"
+      "description": "Abbiamo rafforzato le nostre capacità ingegneristiche e accelerato le iniziative di ricerca e sviluppo in India con focus su architetture digitali di nuova generazione e tecnologie basate sull'intelligenza artificiale."
     },
     {
       "suffix": "23",
-      "description": "Focus su innovazione di prodotto, acquisizione clienti e creazione di architetture SaaS scalabili"
+      "description": "Ci siamo concentrati sull'innovazione dei prodotti, sulla crescita strategica dei clienti e sulla progettazione di architetture SaaS scalabili."
     },
     {
       "suffix": "24",
-      "description": "Avvio come azienda product-based con il brand WON Apps"
+      "description": "L'azienda si è trasformata in un'organizzazione orientata ai prodotti con il lancio del marchio WON Apps, segnando l'inizio del WON Ecosystem."
     },
     {
       "suffix": "25",
-      "description": "Lancio della prima piattaforma SaaS e aggiunta graduale di altre due piattaforme SaaS nel WON App Store"
+      "description": "Abbiamo lanciato la nostra prima piattaforma intelligente ed espanso l'ecosistema WON Platform Ecosystem."
     },
     {
       "suffix": "26",
-      "description": "Progresso verso l’aggiunta di ulteriori piattaforme, arrivando a cinque nel WON App Store"
+      "description": "Continuiamo ad espandere il WON Ecosystem come rete di piattaforme autonome e intelligenti alimentate dall'intelligenza artificiale."
     }
   ],
   "aboutUs.description": "Deteniamo brevetti su una piattaforma di smart footwear di nuova generazione che trasforma il movimento quotidiano in informazioni sanitarie significative. Combinando tecnologie di sensori avanzati con analisi intelligenti dei dati, il sistema consente il monitoraggio in tempo reale e feedback personalizzati sul benessere. Efficiente dal punto di vista energetico e perfettamente connessa, questa innovazione si colloca all’intersezione tra sanità, mobilità e tecnologia indossabile, plasmando il futuro dell’assistenza preventiva basata sui dati.",
@@ -110,7 +110,7 @@
     {
       "id": 4,
       "title": "WON Hubs",
-      "description": "WON Hubs è la piattaforma infrastrutturale centrale. Alimenta l’intero ecosistema WON. Progettata per scalabilità e resilienza.",
+      "description": "WON Hubs è una piattaforma autonoma di automazione dei flussi di lavoro centralizzata basata su cloud che collega senza interruzioni sistemi omnicanale e aziendali, consentendo alle organizzazioni di progettare, automatizzare e orchestrare i flussi operativi da un unico hub unificato.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
     {

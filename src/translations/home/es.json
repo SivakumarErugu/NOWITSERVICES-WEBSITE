@@ -125,7 +125,7 @@
       "id": 1,
       "name": "Guon Hubs",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "Guon Hubs es una plataforma educativa integral diseñada para transformar la gestión escolar y el aprendizaje."
+      "description": "Guon Hubs es una plataforma autónoma de automatización de flujos de trabajo centralizada basada en la nube que conecta de forma fluida sistemas omnicanal y empresariales, permitiendo a las organizaciones diseñar, automatizar y orquestar flujos operativos desde un único centro unificado."
     },
     {
       "id": 2,
@@ -146,11 +146,11 @@
       "description": "Guon Bills es una solución inteligente de facturación y gestión financiera."
     },
     {
-      "id": 5,
-      "name": "Guon Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "Guon Bridge es una plataforma integrada de comunicación y colaboración."
-    }
+  "id": 5,
+  "name": "WON Bridge",
+  "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+  "description": "WON Bridge es una plataforma de gestión minera que simplifica las operaciones de pesaje y el seguimiento de materiales con acceso basado en roles, paneles centralizados, alertas, conectividad de impresoras, captura mediante cámaras de seguridad, copias de seguridad de datos y monitoreo en tiempo real del movimiento del stock de materiales."
+}
   ],
   "products.viewProduct": "Ver Producto",
   "Industry.title": "Soluciones para",
@@ -188,7 +188,7 @@
     },
     {
       "name": "Elena Petrova",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
       "text": "Las estrategias de consultoría y marketing inteligente de Nowitservices fortalecieron nuestra presencia digital. Su plataforma de automatización estructurada aportó claridad y control a nuestros flujos de trabajo. Implementación profesional de principio a fin."
     },
     {

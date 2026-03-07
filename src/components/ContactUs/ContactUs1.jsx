@@ -65,8 +65,6 @@ export default function ContactSection() {
 
         return data;
     };
-
-
     const formik = useFormik({
         initialValues: {
             name: "",
@@ -91,8 +89,6 @@ export default function ContactSection() {
             }
         },
     });
-
-
     const inputBase =
         "w-full h-10 rounded-md bg-white/20 border border-white/30 px-3 text-sm text-white placeholder-gray-300 focus:outline-none focus:border-white";
 
@@ -161,7 +157,7 @@ export default function ContactSection() {
 
     if (!commonReady) return <Loading />;
     const contact = tc("contact")
-    console.log(contact, " Contact here ")
+    console.log(contact, "Contact here ")
     if (!contact) return null
 
     return (

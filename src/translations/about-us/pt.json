@@ -15,31 +15,31 @@
   "journey.List": [
     {
       "suffix": "20",
-      "description": "Incorporação no Reino Unido como empresa de consultoria em tecnologia"
+      "description": "A empresa foi incorporada no Reino Unido como uma empresa de consultoria tecnológica focada na transformação digital empresarial. Durante esta fase trabalhamos com organizações globais como Infosys, IBM, HCL, Booking.com, DXC, Capgemini e Accenture, desenvolvendo forte experiência em sistemas empresariais de grande escala."
     },
     {
       "suffix": "21",
-      "description": "Início dos serviços de consultoria tecnológica na Índia para AspireSystems, Qbrainx e UST Global, além do desenvolvimento de aplicações web e mobile personalizadas"
+      "description": "Expandimos as operações para a Índia e começamos a fornecer consultoria tecnológica e engenharia de produtos para organizações como Aspire Systems, Qbrainx e UST Global, além de desenvolver aplicações web e móveis personalizadas e preparar a base para futuras plataformas."
     },
     {
       "suffix": "22",
-      "description": "Expansão das operações na Índia com o fortalecimento da equipe de desenvolvimento e aceleração das iniciativas de pesquisa e desenvolvimento"
+      "description": "Reforçamos nossas capacidades de engenharia e aceleramos iniciativas de pesquisa e desenvolvimento na Índia, com foco em arquiteturas digitais de próxima geração, frameworks de automação e tecnologias baseadas em inteligência artificial."
     },
     {
       "suffix": "23",
-      "description": "Foco em inovação de produtos, aquisição de clientes e construção de arquiteturas SaaS escaláveis"
+      "description": "Focamos em inovação de produtos, crescimento estratégico de clientes e arquiteturas escaláveis prontas para SaaS, estabelecendo a base para soluções digitais multiplataforma em diversos setores."
     },
     {
       "suffix": "24",
-      "description": "Início como empresa orientada a produtos sob a marca WON Apps"
+      "description": "A empresa passou a ser uma organização focada em produtos com o lançamento da marca WON Apps, marcando o início do WON Ecosystem — um universo digital unificado de plataformas para empresas de múltiplos setores."
     },
     {
       "suffix": "25",
-      "description": "Lançamento da primeira plataforma SaaS e adição gradual de mais duas plataformas SaaS na WON App Store"
+      "description": "Lançamos nossa primeira plataforma inteligente e expandimos o WON Platform Ecosystem, introduzindo novas plataformas para atender às necessidades de transformação digital das organizações modernas."
     },
     {
       "suffix": "26",
-      "description": "Avanço para a adição de mais plataformas, totalizando cinco na WON App Store"
+      "description": "Continuamos expandindo o WON Ecosystem como uma rede de plataformas autônomas e inteligentes alimentadas por inteligência artificial que aprendem, automatizam e evoluem com os negócios."
     }
   ],
   "aboutUs.description": "Detemos patentes de uma plataforma de calçados inteligentes de nova geração que transforma movimentos do dia a dia em informações de saúde significativas. Ao combinar tecnologia avançada de sensores com análises inteligentes de dados, o sistema permite monitoramento em tempo real e feedback personalizado de bem-estar. Eficiente em termos de energia e perfeitamente conectada, essa inovação está na interseção entre saúde, mobilidade e tecnologia vestível, moldando o futuro do cuidado preventivo orientado por dados.",
@@ -110,7 +110,7 @@
     {
       "id": 4,
       "title": "WON Hubs",
-      "description": "WON Hubs é a plataforma central de infraestrutura. Ela alimenta todo o ecossistema WON e foi projetada para escalabilidade e resiliência.",
+      "description": "WON Hubs é uma plataforma autônoma de automação de fluxos de trabalho centralizada baseada em nuvem que conecta perfeitamente sistemas omnichannel e empresariais, permitindo que as organizações projetem, automatizem e orquestrem fluxos operacionais a partir de um único hub unificado.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
     {

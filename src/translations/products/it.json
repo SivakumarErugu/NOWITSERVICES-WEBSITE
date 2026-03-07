@@ -2,7 +2,6 @@
   "banner.title": "Siamo un Ecosistema Digitale. Il Futuro Funziona Qui.",
   "banner.description": "Crea e scala piattaforme intelligenti senza codice — inizia con piattaforme di settore pronte al lancio oppure progetta una soluzione completamente personalizzata.",
   "banner.explore": "Esplora Ora",
-
   "infinity.title": "Piattaforme Che ",
   "infnity.description": "Piattaforme Zero-Code pronte per l’impresa che evolvono, si adattano e scalano — dai singoli alle aziende.",
   "infinity.span": "Pensano, Si Adattano e Scalano",
@@ -10,11 +9,9 @@
   "infinity.left.text": "Operazioni industriali",
   "infinity.middle.top": "WON Suite",
   "infinity.middle.bottom": "Semplice | Intelligente | Sicuro",
-
   "products.slidingHeader": "I Nostri Prodotti",
   "products.title": "Prodotti Progettati per Ogni Percorso",
   "products.span": "Dal Singolo all’Impresa",
-
   "products.List": {
     "won_digi": {
       "name": "WON Digitale",
@@ -73,12 +70,12 @@
       "description": "WON Fattura è una piattaforma aziendale di automazione della fatturazione che semplifica la gestione di fatture e pagamenti."
     },
     "won_bridge": {
-      "name": "WON Ponte",
-      "description": "WON Ponte consente un’integrazione sicura e fluida tra sistemi aziendali."
+      "name": "WON Bridge",
+      "description": "WON Bridge è una piattaforma di gestione mineraria che semplifica le operazioni di pesatura e il tracciamento dei materiali con accesso basato sui ruoli, dashboard centralizzate, avvisi e monitoraggio delle scorte in tempo reale."
     },
     "won_tap": {
-      "name": "WON Pagamento",
-      "description": "WON Pagamento è una piattaforma intelligente di pagamento e accesso per transazioni rapide e sicure."
+      "name": "WON Meo",
+      "description": "WON Meo è una piattaforma di identità digitale e networking multipiattaforma disponibile su iOS, Android e Web che consente agli utenti di condividere il proprio ID digitale con un solo tocco e creare connessioni professionali."
     },
     "won_mart": {
       "name": "WON Mercato",
@@ -125,16 +122,13 @@
       "description": "WON Hub Centrale è la piattaforma infrastrutturale principale che alimenta l’intero ecosistema WON."
     }
   },
-
   "products.viewProduct": "Visualizza Prodotto",
-
   "customize.slidingHeader": "Personalizza il Tuo Prodotto",
   "customize.title.prefix": "Hai un’Idea?",
   "customize.span": "La Personalizziamo",
   "customize.title.suffix": "Secondo la Tua Visione.",
   "customize.description": "Condividi la tua idea con noi e collaboreremo strettamente per trasformarla in un prodotto digitale completamente personalizzato. Dal concept e design allo sviluppo e alla scalabilità, adattiamo ogni soluzione alla tua visione, ai tuoi utenti e ai tuoi obiettivi a lungo termine.",
   "customize.getInTouch": "Contattaci",
-
   "becomepartner.title.prefix": "Cresciamo",
   "becomepartner.title.middle": "Insieme",
   "becomepartner.title.suffix": "Attraverso la Partnership",

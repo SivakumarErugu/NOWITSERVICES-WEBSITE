@@ -64,27 +64,6 @@ const ServicesHero = () => {
     const [carouselList, setCarouselList] = useState(List);
     const { t, isReady } = useNowit()
 
-    // useEffect(() => {
-    //     if (!isHovering) return;
-
-    //     const interval = setInterval(() => {
-    //         setCurrentIndex((prev) =>
-    //             prev === List.length - 1 ? 0 : prev + 1
-    //         );
-    //     }, 1000);
-
-    //     return () => clearInterval(interval);
-    // }, [isHovering]);
-
-    // useEffect(() => {
-    //     if (!hasStarted) return;
-    //     const interval = setInterval(() => {
-    //         setCurrentIndex((prev) =>
-    //             prev === List.length - 1 ? 0 : prev + 1
-    //         );
-    //     }, 1000);
-    //     return () => clearInterval(interval);
-    // }, [hasStarted]);
     const currentItem = carouselList[currentIndex];
     // for Pausing the slide 
     const INTERVAL_TIME = 1500; // 3 sec per slide
@@ -115,19 +94,30 @@ const ServicesHero = () => {
     }, [t, isReady])
 
     useEffect(() => {
-        if (!hasStarted || isHovering) return;
-        if (currentIndex === carouselList.length - 1) return;
+        setHasStarted(true);
+    }, []);
 
+    useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prev) =>
-                prev < carouselList.length - 1 ? prev + 1 : prev
+                prev === carouselList.length - 1 ? 0 : prev + 1
             );
         }, INTERVAL_TIME);
 
         return () => clearInterval(interval);
-    }, [hasStarted, isHovering, currentIndex, carouselList.length]);
+    }, [carouselList.length]);
 
-    // console.log(isHovering,"hereee")
+    useEffect(() => {
+        const interval = setInterval(() => {
+            if (!isHovering) {
+                setCurrentIndex((prev) =>
+                    prev === carouselList.length - 1 ? 0 : prev + 1
+                );
+            }
+        }, INTERVAL_TIME);
+
+        return () => clearInterval(interval);
+    }, [isHovering, carouselList.length]);
     return (
         <>
             <div
@@ -196,7 +186,15 @@ const ServicesHero = () => {
             </div>
             <div className='h-15 md:hidden' />
             {/* ================= MOBILE VIEW (STATIC LIST) ================= */}
-            <div className="md:hidden flex flex-col items-center justify-center gap-6 ">
+            <div className="md:hidden flex flex-col items-center justify-center gap-6 " onMouseEnter={() => {
+                setIsHovering(true)
+
+                setTimeout(() => {
+                    setIsHovering(false)
+                }, HOVER_DELAY)
+            }}
+
+            >
                 {carouselList.map((item) => (
                     <div
                         key={item.id}

@@ -13,9 +13,6 @@
     "products.title": "Products Built for Every Journey",
     "products.span": "Individual to Enterprise",
     "products.List": {
-
-
-        
         "won_digi": {
             "name": "WON Digi",
             "description": "WON Digi is a comprehensive school and institute management platform that digitizes academic, administrative, and operational workflows."
@@ -74,11 +71,11 @@
         },
         "won_bridge": {
             "name": "WON Bridge",
-            "description": "WON Bridge enables seamless and secure integration between enterprise systems."
+            "description": "WON Bridge is a mining management platform that simplifies weighment operations and material tracking with role-based access, centralized dashboards, alerts, and real-time stock monitoring."
         },
         "won_tap": {
-            "name": "WON Tap",
-            "description": "WON Tap is a smart payment and access platform for fast and secure transactions."
+            "name": "WON Meo",
+            "description": "WON Meo is a cross-platform digital identity and networking platform for iOS, Android, and Web that lets users instantly share their digital ID with a single tap and build professional connections."
         },
         "won_mart": {
             "name": "WON Mart",
@@ -137,5 +134,4 @@
     "becomepartner.title.suffix": "Through Partnership",
     "becomepartner.description": "Partner with NowIT Services to collaborate, innovate, and deliver customized solutions.",
     "becomepartner.becomepartner": "Become a Partner"
-
 }

@@ -41,7 +41,7 @@ const Products3 = () => {
         }
     }, [t, isReady])
 
-    console.log(translatedProductsList,"translated Heree")
+    // console.log(translatedProductsList,"translated Heree")
 
     return (
         <section className="w-full bg-white py-1 px-4 lg:px-8 mb-5 ">

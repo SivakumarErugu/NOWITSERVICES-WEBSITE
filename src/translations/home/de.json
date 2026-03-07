@@ -125,7 +125,7 @@
       "id": 1,
       "name": "Von Hubs",
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107230/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_ihgrab.png",
-      "description": "Eine All-in-One-Bildungsplattform zur Modernisierung von Schulen."
+      "description": "Von Hubs ist eine autonome, cloudbasierte zentrale Workflow-Automatisierungsplattform, die Omnichannel- und Unternehmenssysteme nahtlos verbindet und es Organisationen ermöglicht, operative Workflows über ein einziges einheitliches Hub zu entwerfen, zu automatisieren und zu orchestrieren."
     },
     {
       "id": 2,
@@ -145,12 +145,12 @@
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
       "description": "Intelligente Abrechnungs- und Finanzmanagementlösung."
     },
-    {
-      "id": 5,
-      "name": "Von Bridge",
-      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-      "description": "Integrierte Kommunikations- und Kollaborationsplattform."
-    }
+  {
+  "id": 5,
+  "name": "WON Bridge",
+  "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+  "description": "WON Bridge ist eine Bergbau-Managementplattform, die Wiegevorgänge und Materialverfolgung optimiert und rollenbasierten Zugriff, zentrale Dashboards, Warnmeldungen, Druckeranbindung, Sicherheitskamera-Erfassung, Datensicherung sowie Echtzeitüberwachung der Materialbestände bietet."
+}
   ],
 
   "products.viewProduct": "Produkt Ansehen",
@@ -190,7 +190,7 @@
     },
     {
       "name": "Elena Petrova",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134253_wxquri.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772793605/Screenshot_2026-03-06_160758_iuycz5.png",
       "text": "Die Beratungs- und Smart-Marketing-Strategien von Nowitservices stärkten unsere digitale Präsenz. Die strukturierte Automatisierungsplattform brachte Klarheit und Kontrolle in unsere Arbeitsabläufe. Professionelle Umsetzung von Anfang bis Ende."
     },
     {

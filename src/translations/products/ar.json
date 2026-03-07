@@ -2,19 +2,16 @@
   "banner.title": "نحن نظام رقمي متكامل واحد. المستقبل يبدأ من هنا.",
   "banner.description": "أنشئ ووسّع منصات ذكية بدون برمجة — ابدأ بمنصات جاهزة للإطلاق حسب القطاع أو صمّم حلاً مخصصًا بالكامل.",
   "banner.explore": "استكشف الآن",
-
   "infinity.title": "منصات ",
   "infnity.description": "منصات مؤسسية جاهزة بدون برمجة تتطور وتتكيّف وتتوسع — من الأفراد إلى المؤسسات",
   "infinity.span": "تفكر، تتكيف، وتتوسع",
   "infinity.right.text": "تجارب إنسانية",
- "infinity.left.text": "العمليات الصناعية",
+  "infinity.left.text": "العمليات الصناعية",
   "infinity.middle.top": "وون سويت",
   "infinity.middle.bottom": "بسيط | ذكي | آمن",
-
   "products.slidingHeader": "منتجاتنا",
   "products.title": "منتجات مصممة لكل رحلة",
   "products.span": "من الأفراد إلى المؤسسات",
-
   "products.List": {
     "won_digi": {
       "name": "وون ديجي",
@@ -74,11 +71,11 @@
     },
     "won_bridge": {
       "name": "وون بريدج",
-      "description": "وون بريدج تمكّن التكامل السلس والآمن بين أنظمة المؤسسات."
+      "description": "وون بريدج منصة لإدارة التعدين تعمل على تبسيط عمليات الوزن وتتبع المواد مع وصول قائم على الأدوار ولوحات تحكم مركزية وتنبيهات ومراقبة فورية للمخزون."
     },
     "won_tap": {
-      "name": "وون تاب",
-      "description": "وون تاب منصة دفع ووصول ذكية لعمليات سريعة وآمنة."
+      "name": "WON Meo",
+      "description": "وون تاب منصة هوية رقمية وشبكات تواصل متعددة المنصات تعمل على iOS وAndroid والويب وتتيح للمستخدمين مشاركة هويتهم الرقمية فورًا بلمسة واحدة وبناء علاقات مهنية."
     },
     "won_mart": {
       "name": "وون مارت",
@@ -125,16 +122,13 @@
       "description": "وون هَبز هي منصة البنية التحتية الأساسية التي تدعم منظومة وون بالكامل."
     }
   },
-
   "products.viewProduct": "عرض المنتج",
-
   "customize.slidingHeader": "خصص منتجك",
   "customize.title.prefix": "هل لديك فكرة؟ ",
   "customize.span": "نحن نخصص",
   "customize.title.suffix": "لتناسب رؤيتك.",
   "customize.description": "شاركنا فكرتك وسنعمل معك لتحويلها إلى منتج رقمي مخصص بالكامل، من الفكرة إلى التوسع.",
   "customize.getInTouch": "تواصل معنا",
-
   "becomepartner.title.prefix": "لننمو",
   "becomepartner.title.middle": "معًا",
   "becomepartner.title.suffix": "من خلال الشراكة",

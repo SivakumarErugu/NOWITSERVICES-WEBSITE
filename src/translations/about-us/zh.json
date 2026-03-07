@@ -15,31 +15,31 @@
   "journey.List": [
     {
       "suffix": "20",
-      "description": "在英国注册成立科技咨询公司"
+      "description": "L'azienda è stata fondata nel Regno Unito come società di consulenza tecnologica focalizzata sulla trasformazione digitale aziendale. In questa fase abbiamo lavorato con organizzazioni globali come Infosys, IBM, HCL, Booking.com, DXC, Capgemini e Accenture."
     },
     {
       "suffix": "21",
-      "description": "在印度为 AspireSystems、Qbrainx 和 UST Global 提供技术咨询服务，并启动定制化 Web 和移动应用开发"
+      "description": "Abbiamo ampliato le operazioni in India fornendo consulenza tecnologica e ingegneria di prodotto per aziende come Aspire Systems, Qbrainx e UST Global, sviluppando anche applicazioni web e mobile personalizzate."
     },
     {
       "suffix": "22",
-      "description": "通过强化开发团队并加速研发计划，扩大印度业务规模"
+      "description": "Abbiamo rafforzato le nostre capacità ingegneristiche e accelerato le iniziative di ricerca e sviluppo in India con focus su architetture digitali di nuova generazione e tecnologie basate sull'intelligenza artificiale."
     },
     {
       "suffix": "23",
-      "description": "聚焦产品创新、客户拓展以及可扩展的 SaaS 架构建设"
+      "description": "Ci siamo concentrati sull'innovazione dei prodotti, sulla crescita strategica dei clienti e sulla progettazione di architetture SaaS scalabili."
     },
     {
       "suffix": "24",
-      "description": "以 WON Apps 品牌转型为产品型公司"
+      "description": "L'azienda si è trasformata in un'organizzazione orientata ai prodotti con il lancio del marchio WON Apps, segnando l'inizio del WON Ecosystem."
     },
     {
       "suffix": "25",
-      "description": "发布首个 SaaS 平台，并逐步在 WON App Store 中新增两个 SaaS 平台"
+      "description": "Abbiamo lanciato la nostra prima piattaforma intelligente ed espanso l'ecosistema WON Platform Ecosystem."
     },
     {
       "suffix": "26",
-      "description": "持续扩展，目标在 WON App Store 中上线五个平台"
+      "description": "Continuiamo ad espandere il WON Ecosystem come rete di piattaforme autonome e intelligenti alimentate dall'intelligenza artificiale."
     }
   ],
   "aboutUs.description": "我们拥有下一代智能鞋履平台的专利，该平台可将日常运动转化为有价值的健康数据。通过融合先进的传感技术与智能数据分析，系统实现实时监测和个性化健康反馈。该创新方案兼具高能效与无缝连接能力，位于医疗健康、移动出行与可穿戴技术的交汇点，正在塑造数据驱动型预防医疗的未来。",
@@ -110,7 +110,7 @@
     {
       "id": 4,
       "title": "WON Hubs",
-      "description": "WON Hubs 是核心基础设施平台，支撑整个 WON 生态系统，具备高扩展性和高可靠性。",
+      "description": "WON Hubs 个自主的基于云的集中式工作流自动化平台，可无缝连接全渠道和企业系统，使组织能够从一个统一的中心设计、自动化和编排运营工作流程。",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
     {

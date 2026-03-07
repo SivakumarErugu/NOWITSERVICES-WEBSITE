@@ -91,6 +91,7 @@ const QuickLinksSec = ({ footer }) => {
 const BusinessSec = ({ footer }) => {
   const data = footer?.services;
   if (!data) return null;
+  console.log(data,"in Footer")
 
   return (
     <section className="flex flex-col gap-y-5">

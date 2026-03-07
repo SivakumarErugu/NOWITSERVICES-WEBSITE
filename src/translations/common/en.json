@@ -21,7 +21,6 @@
           "name": "smart marketing",
           "label": "Smart Marketing",
           "link": "/"
-          
         },
         {
           "name": "business launch",
@@ -74,7 +73,7 @@
       "options": []
     }
   ],
-  "contactUs": "contactUs",
+  "contactus": "Contact Us",
   "footer": {
     "description": "A digital transformation partner delivering cloud-first, AI-driven solutions that enable scalable growth and operational excellence.",
     "socialMedia": [

@@ -3,50 +3,46 @@
   "banner.title": "que genera impacto.",
   "banner.description1": "Desarrollamos soluciones digitales escalables en web, móvil y nube.",
   "banner.description2": "Ayudamos a las empresas a resolver desafíos reales mediante tecnología inteligente y confiable.",
-
   "vision.slidingHeader.title": "Nuestra",
   "vision.span": "Visión",
   "vision.title": "Nuestra",
   "vision.description1": "Impulsar la innovación a través de soluciones digitales inteligentes que resuelven desafíos empresariales reales. Visualizamos un futuro donde la tecnología habilita eficiencia, crecimiento y progreso significativo.",
   "vision.description2": "Estamos comprometidos con el aprendizaje continuo, la adaptabilidad y una ejecución consciente, asegurando que nuestras soluciones sigan siendo relevantes en un entorno digital en constante evolución.",
   "vision.description3": "Creemos que una tecnología sólida se construye con responsabilidad. Nuestra visión es simplificar la complejidad, adoptar la innovación y crear soluciones digitales que respalden el crecimiento sostenible y el éxito a largo plazo de nuestros clientes.",
-
   "journey.title": "Nuestro",
   "journey.span": "Recorrido",
   "journey.description": "Ayudando a las marcas a tener éxito mediante tecnología inteligente y confiable.",
   "journey.List": [
     {
       "suffix": "20",
-      "description": "Constitución en el Reino Unido como empresa de consultoría tecnológica"
+      "description": "La empresa fue incorporada en el Reino Unido como firma de consultoría tecnológica enfocada en la transformación digital empresarial."
     },
     {
       "suffix": "21",
-      "description": "Inicio de servicios de consultoría tecnológica en India para AspireSystems, Qbrainx y UST Global, y desarrollo de aplicaciones web y móviles personalizadas"
+      "description": "Las operaciones se expandieron a la India ofreciendo consultoría tecnológica e ingeniería de productos."
     },
     {
       "suffix": "22",
-      "description": "Expansión de operaciones en India mediante el fortalecimiento del equipo de desarrollo y la aceleración de iniciativas de investigación y desarrollo"
+      "description": "Fortalecimos nuestras capacidades de ingeniería y aceleramos la investigación y el desarrollo."
     },
     {
       "suffix": "23",
-      "description": "Enfoque en innovación de productos, adquisición de clientes y construcción de arquitecturas SaaS escalables"
+      "description": "Nos enfocamos en innovación de productos y arquitecturas SaaS escalables."
     },
     {
       "suffix": "24",
-      "description": "Inicio como empresa basada en productos bajo la marca WON Apps"
+      "description": "Se lanzó la marca WON Apps iniciando el WON Ecosystem."
     },
     {
       "suffix": "25",
-      "description": "Lanzamiento de la primera plataforma SaaS y adición gradual de dos plataformas SaaS más en la WON App Store"
+      "description": "Se lanzó la primera plataforma inteligente y se expandió el WON Platform Ecosystem."
     },
     {
       "suffix": "26",
-      "description": "Progreso hacia la incorporación de más plataformas, alcanzando cinco en la WON App Store"
+      "description": "Continuamos expandiendo el WON Ecosystem impulsado por inteligencia artificial."
     }
   ],
-
   "aboutUs.description": "Poseemos patentes sobre una plataforma de calzado inteligente de próxima generación que transforma el movimiento cotidiano en información de salud significativa. Al combinar tecnología avanzada de sensores con análisis de datos inteligentes, el sistema permite monitoreo en tiempo real y retroalimentación de bienestar personalizada. Eficiente en energía y perfectamente conectada, esta innovación se sitúa en la intersección de la salud, la movilidad y la tecnología wearable, dando forma al futuro de la atención preventiva basada en datos.",
-
   "chooseus.title": "Por qué",
   "chooseus.span": "Elegirnos",
   "chooseus.description": "Ayudando a las marcas a tener éxito mediante tecnología inteligente y confiable.",
@@ -87,11 +83,9 @@
       "description": "Comunicación clara, plazos honestos y resultados medibles."
     }
   ],
-
   "brands.span": "Marcas",
   "brands.title": "Que Confían en Nosotros",
   "brands.description": "Ayudando a las marcas a tener éxito mediante tecnología inteligente y confiable.",
-
   "projects.title": "Proyectos",
   "projects.description": "Proyectos que reflejan nuestra experiencia y compromiso con la calidad",
   "projects.List": [
@@ -116,7 +110,7 @@
     {
       "id": 4,
       "title": "WON Hubs",
-      "description": "WON Hubs es la plataforma central de infraestructura. Impulsa todo el ecosistema WON. Diseñada para escalabilidad y resiliencia.",
+      "description": "WON Hubs es una plataforma autónoma de automatización de flujos de trabajo centralizada basada en la nube que conecta de forma fluida sistemas omnicanal y empresariales, permitiendo a las organizaciones diseñar, automatizar y orquestar flujos operativos desde un único centro unificado.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227765/e6a0fd8448a91bb572a6416a7ffa3a013e4be790_1_qgsaxc.png"
     },
     {
@@ -126,15 +120,13 @@
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
     }
   ],
-
   "projects.viewAll": "Ver todos los productos",
-
   "testimonials.title": "Testimonios",
   "testimonials.title.prefix": "Construyendo",
   "testimonials.title.suffix": "Confianza a través de Resultados",
   "testimonials.span": "Confianza",
   "testimonials.description": "Opiniones reales de clientes que se han asociado con nosotros para crear soluciones digitales confiables.",
- "testimonialsList": [
+  "testimonialsList": [
     {
       "name": "Amina Hasán",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180416/Screenshot_2026-02-27_134048_xag4yt.png",
@@ -181,13 +173,11 @@
       "text": "Nowitservices ofreció una estrategia estructurada de transformación digital respaldada por el ecosistema WON. La plataforma de automatización centralizada incrementó la eficiencia en distintos departamentos. Un equipo altamente profesional y orientado a resultados."
     }
   ],
-
   "becomepartner.title.prefix": "Crecer",
   "becomepartner.title.middle": "Juntos",
   "becomepartner.title.suffix": "A través de la Asociación",
   "becomepartner.description": "Asóciese con NowIT Services para colaborar, innovar y ofrecer soluciones personalizadas.",
   "becomepartner.becomepartner": "Convertirse en Socio",
-
   "headerOptions": [
     {
       "name": "home",
@@ -206,13 +196,41 @@
       "label": "Servicios",
       "link": "/",
       "options": [
-        { "name": "smart marketing", "label": "Marketing Inteligente", "link": "/" },
-        { "name": "business launch", "label": "Lanzamiento de Negocios", "link": "/" },
-        { "name": "professional services", "label": "Servicios Profesionales", "link": "/" },
-        { "name": "migration", "label": "Migración", "link": "/" },
-        { "name": "training services", "label": "Servicios de Capacitación", "link": "/" },
-        { "name": "messaging services", "label": "Servicios de Mensajería", "link": "/" },
-        { "name": "ip filing services", "label": "Servicios de Registro de PI", "link": "/" }
+        {
+          "name": "smart marketing",
+          "label": "Marketing Inteligente",
+          "link": "/"
+        },
+        {
+          "name": "business launch",
+          "label": "Lanzamiento de Negocios",
+          "link": "/"
+        },
+        {
+          "name": "professional services",
+          "label": "Servicios Profesionales",
+          "link": "/"
+        },
+        {
+          "name": "migration",
+          "label": "Migración",
+          "link": "/"
+        },
+        {
+          "name": "training services",
+          "label": "Servicios de Capacitación",
+          "link": "/"
+        },
+        {
+          "name": "messaging services",
+          "label": "Servicios de Mensajería",
+          "link": "/"
+        },
+        {
+          "name": "ip filing services",
+          "label": "Servicios de Registro de PI",
+          "link": "/"
+        }
       ]
     },
     {
@@ -234,18 +252,27 @@
       "options": []
     }
   ],
-
   "Aboutus.text": "Poseemos patentes sobre una plataforma de calzado inteligente de próxima generación que transforma el movimiento cotidiano en información de salud significativa. Al combinar tecnología avanzada de sensores con análisis de datos inteligentes, el sistema permite monitoreo en tiempo real y retroalimentación de bienestar personalizada. Esta innovación eficiente en energía se encuentra en la intersección de la salud, la movilidad y la tecnología wearable, dando forma al futuro de la atención preventiva basada en datos.",
-
   "clients": "Clientes",
   "services": "Servicios",
   "products": "Productos",
   "countries": "Países",
-
   "stats": [
-    { "label": "18+ Clientes", "href": "/clients" },
-    { "label": "12+ Servicios", "href": "/services" },
-    { "label": "10+ Productos", "href": "/products" },
-    { "label": "3+ Países", "href": "/countries" }
+    {
+      "label": "18+ Clientes",
+      "href": "/clients"
+    },
+    {
+      "label": "12+ Servicios",
+      "href": "/services"
+    },
+    {
+      "label": "10+ Productos",
+      "href": "/products"
+    },
+    {
+      "label": "3+ Países",
+      "href": "/countries"
+    }
   ]
 }
