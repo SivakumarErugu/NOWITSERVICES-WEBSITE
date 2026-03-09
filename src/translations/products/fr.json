@@ -2,19 +2,16 @@
   "banner.title": "Nous Sommes Un Écosystème Numérique. L’Avenir Fonctionne Ici.",
   "banner.description": "Créez et développez des plateformes intelligentes sans code — commencez avec des plateformes sectorielles prêtes à être lancées ou concevez une solution entièrement personnalisée.",
   "banner.explore": "Explorer Maintenant",
-
   "infinity.title": "Des Plateformes Qui ",
   "infnity.description": "Des plateformes Zero-Code prêtes pour l’entreprise qui évoluent, s’adaptent et montent en puissance — des particuliers aux grandes entreprises.",
   "infinity.span": "Pensent, S’Adaptent et Évoluent",
   "infinity.right.text": "Expériences Humaines",
- "infinity.left.text": "Opérations industrielles",
+  "infinity.left.text": "Opérations industrielles",
   "infinity.middle.top": "WON Suite",
   "infinity.middle.bottom": "Simple | Intelligent | Sécurisé",
-
   "products.slidingHeader": "Nos Produits",
   "products.title": "Des Produits Conçus Pour Chaque Parcours",
   "products.span": "Du Particulier à l’Entreprise",
-
   "products.List": {
     "won_digi": {
       "name": "WON Numérique",
@@ -74,12 +71,12 @@
     },
     "won_bridge": {
       "name": "WON Pont",
-      "description": "WONブリッジ は採掘管理プラットフォームで、計量業務と資材追跡を簡素化し、役割ベースのアクセス、集中ダッシュボード、アラート、在庫のリアルタイム監視を提供します。"
+      "description": "WONBridge est une plateforme de gestion des opérations minières qui simplifie les processus de pesage et le suivi des matériaux, en offrant un accès basé sur les rôles, un tableau de bord centralisé, des alertes et une surveillance des stocks en temps réel."
     },
     "won_tap": {
-  "name": "WON Meo",
-  "description": "WON Meo est une plateforme d'identité numérique et de réseautage multiplateforme disponible sur iOS, Android et Web, permettant aux utilisateurs de partager instantanément leur identité numérique d'un simple geste et de créer des connexions professionnelles."
-},
+      "name": "WON Meo",
+      "description": "WON Meo est une plateforme d'identité numérique et de réseautage multiplateforme disponible sur iOS, Android et Web, permettant aux utilisateurs de partager instantanément leur identité numérique d'un simple geste et de créer des connexions professionnelles."
+    },
     "won_mart": {
       "name": "WON Marché",
       "description": "WON Marché est une place de marché numérique permettant un commerce B2B évolutif."
@@ -122,19 +119,16 @@
     },
     "won_hubs": {
       "name": "WON Hub Central",
-      "description": "WON Hub Central est la plateforme d’infrastructure principale alimentant l’ensemble de l’écosystème WON."
+      "description": "Ouon Hubs  est une plateforme autonome d’automatisation des flux de travail centralisée basée sur le cloud qui connecte de manière transparente les systèmes omnicanaux et d’entreprise, permettant aux organisations de concevoir, automatiser et orchestrer les flux opérationnels depuis un hub unique et unifié."
     }
   },
-
   "products.viewProduct": "Voir le Produit",
-
   "customize.slidingHeader": "Personnalisez Votre Produit",
   "customize.title.prefix": "Vous Avez Une Idée ?",
   "customize.span": "Nous La Personnalisons",
   "customize.title.suffix": "Pour Correspondre À Votre Vision.",
   "customize.description": "Partagez votre idée avec nous et nous collaborerons étroitement pour la transformer en un produit numérique entièrement personnalisé. Du concept et du design au développement et à l’évolution, nous adaptons chaque solution à votre vision, vos utilisateurs et vos objectifs à long terme.",
   "customize.getInTouch": "Nous Contacter",
-
   "becomepartner.title.prefix": "Grandissons",
   "becomepartner.title.middle": "Ensemble",
   "becomepartner.title.suffix": "Grâce Au Partenariat",

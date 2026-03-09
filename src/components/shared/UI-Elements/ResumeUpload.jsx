@@ -85,7 +85,7 @@ export default function ResumeUpload({ setFieldValue, value,data }) {
           <p className="text-sm md:font-medium text-gray-800">
           {data?.placeholders?.resume}{" "}
             <span className="text-green-600 font-semibold">
-           {data?.placehgolders?.span}
+           {data?.placeholders?.span}
             </span>
           </p>
 

@@ -73,6 +73,7 @@
       "name": "WON Bridge",
       "description": "WON Bridge è una piattaforma di gestione mineraria che semplifica le operazioni di pesatura e il tracciamento dei materiali con accesso basato sui ruoli, dashboard centralizzate, avvisi e monitoraggio delle scorte in tempo reale."
     },
+
     "won_tap": {
       "name": "WON Meo",
       "description": "WON Meo è una piattaforma di identità digitale e networking multipiattaforma disponibile su iOS, Android e Web che consente agli utenti di condividere il proprio ID digitale con un solo tocco e creare connessioni professionali."
@@ -119,7 +120,7 @@
     },
     "won_hubs": {
       "name": "WON Hub Centrale",
-      "description": "WON Hub Centrale è la piattaforma infrastrutturale principale che alimenta l’intero ecosistema WON."
+      "description": "WON Hubs è una piattaforma autonoma di automazione dei flussi di lavoro centralizzata basata su cloud che collega senza interruzioni sistemi omnicanale e aziendali, consentendo alle organizzazioni di progettare, automatizzare e orchestrare i flussi operativi da un unico hub unificato."
     }
   },
   "products.viewProduct": "Visualizza Prodotto",

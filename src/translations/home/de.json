@@ -145,14 +145,13 @@
       "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107185/c7b2f5175ba18e0eae94fed530dd717de53cbac4_cv9jr6.png",
       "description": "Intelligente Abrechnungs- und Finanzmanagementlösung."
     },
-  {
-  "id": 5,
-  "name": "WON Bridge",
-  "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
-  "description": "WON Bridge ist eine Bergbau-Managementplattform, die Wiegevorgänge und Materialverfolgung optimiert und rollenbasierten Zugriff, zentrale Dashboards, Warnmeldungen, Druckeranbindung, Sicherheitskamera-Erfassung, Datensicherung sowie Echtzeitüberwachung der Materialbestände bietet."
-}
+    {
+      "id": 5,
+      "name": "WON Bridge",
+      "url": "https://res.cloudinary.com/dr9thittl/image/upload/v1770107319/6501ff8fead7aab2fdf2328dc9464bbacbc11023_tmcdkk.jpg",
+      "description": "WON Bridge ist eine Bergbau-Managementplattform, die Wiegevorgänge und Materialverfolgung optimiert und rollenbasierten Zugriff, zentrale Dashboards, Warnmeldungen, Druckeranbindung, Sicherheitskamera-Erfassung, Datensicherung sowie Echtzeitüberwachung der Materialbestände bietet."
+    }
   ],
-
   "products.viewProduct": "Produkt Ansehen",
   "Industry.title": "Lösungen für",
   "Industry.span": "Jede Branche",
@@ -176,7 +175,6 @@
   "testimonials.title.suffix": "Durch Ergebnisse",
   "testimonials.span": "Vertrauen",
   "testimonials.description": "Echtes Feedback von Kunden.",
-  
   "testimonialsList": [
     {
       "name": "Amina Hassan",
@@ -195,7 +193,7 @@
     },
     {
       "name": "Kendschi Sato",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1773047675/ChatGPT_Image_Mar_9_2026_02_39_23_PM_cmpvqi.png",
       "text": "WON Pulse bot ein effizientes und zuverlässiges Automatisierungsframework für unsere Gesundheitsabläufe. Die Plattform verbesserte die Prozesstransparenz und die Servicekoordination. Wir schätzen die Präzision und Professionalität von Nowitservices."
     },
     {
@@ -223,8 +221,7 @@
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180447/Screenshot_2026-02-27_134451_yauuj4.png",
       "text": "Nowitservices lieferte eine strukturierte Strategie zur digitalen Transformation, unterstützt durch das WON-Ökosystem. Die zentrale Automatisierungsplattform steigerte die Effizienz in verschiedenen Abteilungen. Ein äußerst professionelles und ergebnisorientiertes Team."
     }
-  ]
-,
+  ],
   "faq.span": "FAQ",
   "faq.title": "Häufig Gestellte Fragen",
   "faq.subquestion": "Noch Fragen?",

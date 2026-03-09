@@ -116,7 +116,7 @@
     {
       "id": 5,
       "title": "WON Bridge",
-      "description": "WON Bridge conecta sistemas empresariales de forma fluida. Permite un intercambio de datos eficiente. Diseñada para integración empresarial.",
+      "description": "WON Bridge es una plataforma de gestión minera que simplifica las operaciones de pesaje y el seguimiento de materiales con acceso basado en roles, paneles centralizados, alertas y monitoreo de inventario en tiempo real.",
       "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1770227758/6501ff8fead7aab2fdf2328dc9464bbacbc11023_1_p177jx.jpg"
     }
   ],
@@ -144,7 +144,7 @@
     },
     {
       "name": "Kenyi Sato",
-      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+      "image": "https://res.cloudinary.com/dr9thittl/image/upload/v1773047675/ChatGPT_Image_Mar_9_2026_02_39_23_PM_cmpvqi.png",
       "text": "WON Pulse proporcionó un marco de automatización eficiente y confiable para nuestras operaciones de salud. La plataforma mejoró la transparencia de los procesos y la coordinación del servicio. Valoramos la precisión y profesionalismo de Nowitservices."
     },
     {
@@ -178,80 +178,7 @@
   "becomepartner.title.suffix": "A través de la Asociación",
   "becomepartner.description": "Asóciese con NowIT Services para colaborar, innovar y ofrecer soluciones personalizadas.",
   "becomepartner.becomepartner": "Convertirse en Socio",
-  "headerOptions": [
-    {
-      "name": "home",
-      "label": "Inicio",
-      "link": "/",
-      "options": []
-    },
-    {
-      "name": "about us",
-      "label": "Sobre Nosotros",
-      "link": "/aboutus",
-      "options": []
-    },
-    {
-      "name": "services",
-      "label": "Servicios",
-      "link": "/",
-      "options": [
-        {
-          "name": "smart marketing",
-          "label": "Marketing Inteligente",
-          "link": "/"
-        },
-        {
-          "name": "business launch",
-          "label": "Lanzamiento de Negocios",
-          "link": "/"
-        },
-        {
-          "name": "professional services",
-          "label": "Servicios Profesionales",
-          "link": "/"
-        },
-        {
-          "name": "migration",
-          "label": "Migración",
-          "link": "/"
-        },
-        {
-          "name": "training services",
-          "label": "Servicios de Capacitación",
-          "link": "/"
-        },
-        {
-          "name": "messaging services",
-          "label": "Servicios de Mensajería",
-          "link": "/"
-        },
-        {
-          "name": "ip filing services",
-          "label": "Servicios de Registro de PI",
-          "link": "/"
-        }
-      ]
-    },
-    {
-      "name": "products",
-      "label": "Productos",
-      "link": "/products",
-      "options": []
-    },
-    {
-      "name": "blog",
-      "label": "Blog",
-      "link": "/blog",
-      "options": []
-    },
-    {
-      "name": "careers",
-      "label": "Carreras",
-      "link": "/careers",
-      "options": []
-    }
-  ],
+ 
   "Aboutus.text": "Poseemos patentes sobre una plataforma de calzado inteligente de próxima generación que transforma el movimiento cotidiano en información de salud significativa. Al combinar tecnología avanzada de sensores con análisis de datos inteligentes, el sistema permite monitoreo en tiempo real y retroalimentación de bienestar personalizada. Esta innovación eficiente en energía se encuentra en la intersección de la salud, la movilidad y la tecnología wearable, dando forma al futuro de la atención preventiva basada en datos.",
   "clients": "Clientes",
   "services": "Servicios",

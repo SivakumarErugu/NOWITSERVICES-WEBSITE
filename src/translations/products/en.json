@@ -119,7 +119,7 @@
         },
         "won_hubs": {
             "name": "WON Hubs",
-            "description": "WON Hubs is the core infrastructure platform powering the entire WON ecosystem."
+            "description": "WON Hubs is an Autonomous Cloud-Based Centralized Workflow Automation Platform that seamlessly connects omnichannel and enterprise systems, enabling organizations to design, automate, and orchestrate operational workflows from a single unified hub."
         }
     },
     "products.viewProduct": "View Product",

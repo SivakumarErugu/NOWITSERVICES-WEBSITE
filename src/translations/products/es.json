@@ -119,7 +119,7 @@
     },
     "won_hubs": {
       "name": "WON Hubs",
-      "description": "WON Hubs es la plataforma de infraestructura central que impulsa todo el ecosistema WON."
+      "description": "WON Hubs es una plataforma autónoma de automatización de flujos de trabajo centralizada basada en la nube que conecta de forma fluida sistemas omnicanal y empresariales, permitiendo a las organizaciones diseñar, automatizar y orquestar flujos operativos desde un único centro unificado."
     }
   },
   "products.viewProduct": "Ver Producto",

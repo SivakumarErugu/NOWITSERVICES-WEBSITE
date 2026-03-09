@@ -48,7 +48,7 @@ const testimonialsList = [
     {
         key: 4,
         name: "Kenji Sato",
-        image: "https://res.cloudinary.com/dr9thittl/image/upload/v1772180428/Screenshot_2026-02-27_134316_sthloq.png",
+        image: "https://res.cloudinary.com/dr9thittl/image/upload/v1773047675/ChatGPT_Image_Mar_9_2026_02_39_23_PM_cmpvqi.png",
         text: "WON Pulse provided an efficient and reliable automation framework for our healthcare operations. The platform improved process transparency and service coordination. We value the precision and professionalism of NOWIT Services."
     },
     {
@@ -97,7 +97,7 @@ const ClientCardComponent = () => {
 
 
         if (Array.isArray(translatedList) && translatedList.length > 0) {
-            console.log("Triggering in side ")
+            // console.log("Triggering in side ")
             // console.log("Translated List:", translatedList); // Debugging log
             setTestimonials(translatedList)
         } else {
