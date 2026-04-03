@@ -76,7 +76,7 @@ export default function LanguageSwitcher({isMobile=false,onSelect}) {
 
                 components={{
                     Control: CustomControl,
-                    DropdownIndicator: () => null, // ❌ remove arrow
+                    DropdownIndicator: () => null,
                     IndicatorSeparator: () => null,
                     SingleValue: CustomSingleValue
                 }}

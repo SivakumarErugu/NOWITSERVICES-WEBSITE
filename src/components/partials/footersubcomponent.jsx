@@ -151,7 +151,7 @@ const FooterSubComponent = () => {
 
   if (!commonReady) return <Loading />;
 
-  const footer = tc("footer"); // ✅ READ ONCE
+  const footer = tc("footer");
 
   if (!footer) return null;
 
