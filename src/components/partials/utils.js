@@ -33,6 +33,8 @@ export const headerOptions = [
     { name: 'careers', label: 'Careers', link: '/careers', icon: '', options: [] },
 ]
 
+
+
 export const socialMedia = [
     { name: 'facebook', icon: <BiLogoFacebook size={22} />, label: 'Facebook', link: 'https://www.facebook.com/p/NOWIT-Services-61559601166623/' },
     { name: 'linkedin', icon: <FaLinkedin size={16} />, label: 'LinkedIn', link: 'https://www.linkedin.com/company/nowitservices/' },
