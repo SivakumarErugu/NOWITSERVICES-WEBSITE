@@ -1,10 +1,15 @@
-import OpenAI from "openai";
+import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { systemPrompt } from "../../../../constant/prompt";
 
 export const runtime = "edge";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+const model = new ChatGoogleGenerativeAI({
+  apiKey: process.env.GEMINI_API_KEY,
+  model: "gemini-2.5-flash-lite",
+  temperature: 0.7,
+  streaming: true,
+  verbose: false,
+  onFailedAttempt: (err) => console.log(err),
 });
 
 export async function POST(req) {
@@ -23,29 +28,22 @@ export async function POST(req) {
     const stream = new ReadableStream({
       async start(controller) {
         try {
-          const responseStream = await openai.chat.completions.create({
-            model: "gpt-4o-mini", // or "gpt-4o" for more capable model
-            messages: [
-              {
-                role: "system",
-                content: systemPrompt,
-              },
-              ...messages,
-            ],
-            temperature: 0.7,
-            stream: true,
-          });
+          const responseStream = await model.stream([
+            {
+              role: "system",
+              content: systemPrompt,
+            },
+            ...messages,
+          ]);
 
           for await (const chunk of responseStream) {
-            const text = chunk.choices[0]?.delta?.content || "";
-            
-            if (text) {
-              controller.enqueue(
-                encoder.encode(
-                  `data: ${JSON.stringify({ content: text })}\n\n`
-                )
-              );
-            }
+            const text = chunk.content || "";
+
+            controller.enqueue(
+              encoder.encode(
+                `data: ${JSON.stringify({ content: text })}\n\n`
+              )
+            );
           }
 
           controller.enqueue(encoder.encode(`data: [DONE]\n\n`));
